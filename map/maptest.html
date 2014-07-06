@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AWMC test</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+   <script type="text/javascript" charset="utf-8">
+      $(function() {
+       var imperiumLayer = L.tileLayer('http://pelagios.dme.ait.ac.at/tilesets/imperium/{z}/{x}/{y}.png');
+      var baseLayer = L.tileLayer('http://a.tiles.mapbox.com/v3/isawnyu.map-knmctlkh/{z}/{x}/{y}.png', {
+        attribution: 'Tiles &copy; <a href="http://mapbox.com/" target="_blank">MapBox</a> | ' +
+                     'Tiles and Data &copy; 2013 <a href="http://www.awmc.unc.edu" target="_blank">AWMC</a> ' +
+                     '<a href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank">CC-BY-NC 3.0</a>'
+        });
+        
+        // Default style for markers
+        var bcstyle = { color: 'black', fillColor: '#1bcc3f', radius: 4, opacity: 1, fillOpacity: 1 };
+        var adstyle = { color: 'black', fillColor: 'red', radius: 4, opacity: 1, fillOpacity: 1 };
+        
+        // Marker overlays
+        var objectLayer = L.layerGroup();
+
+        $.get("http://tei.it.ox.ac.uk/Hackathon/map/objects.json", function(data) {
+        $.each(data.objects, function(idx, object) {
+          if (object.start > 0) {  style = adstyle       }
+          else {  style=bcstyle  }
+          var marker = L.circleMarker([object.lat, object.long], style);
+          marker.on('click', function(e) {
+            marker.bindPopup('<strong>' + object.title + '</strong>' + '<img style="width:100%" src="' + object.image + '">').openPopup();
+          });
+            objectLayer.addLayer(marker);
+            });
+        });
+ 
+        // Create map
+        var map = new L.Map('map', {
+          center: new L.LatLng(41.893588, 12.488022),
+          zoom: 5,
+          layers: [imperiumLayer, objectLayer],
+          minZoom: 3,
+          maxZoom: 11
+        });
+        
+        var overlayMaps = {
+          "Objects": objectLayer
+        };
+        
+        var baseMaps = {
+          "AWMC": baseLayer,
+          "Imperium" : imperiumLayer,
+        };
+        L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="map" style="height:800px"></div>
+  </body>
+</html>
