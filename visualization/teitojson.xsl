@@ -21,10 +21,10 @@
   <xsl:for-each-group select="$names/*" group-by=".">
     <xsl:sort select="current-grouping-key()"/>
     <xsl:text>{ </xsl:text>
-    <xsl:sequence select="tei:json('name',current-grouping-key(), true())"/>
-    <xsl:sequence select="tei:json('count',count(current-group()), false())"/>
+    <xsl:sequence select="tei:json('name',current-grouping-key(), false())"/>
+    <xsl:sequence select="tei:jsonnumber('count',count(current-group()), true())"/>
     <xsl:text> }</xsl:text>
-    <xsl:if test="following::n">,</xsl:if>
+    <xsl:if test="position() != last()">,</xsl:if>
     <xsl:text>&#10;</xsl:text>
   </xsl:for-each-group>
 <xsl:text>
@@ -36,6 +36,23 @@
 <xsl:template match="text()">
   <xsl:value-of select="replace(replace(normalize-space(.),'\\','\\\\'),$inq,$outq)"/>
 </xsl:template>
+
+<xsl:function name="tei:jsonnumber" as="xs:string">
+  <xsl:param name="label"/>
+  <xsl:param name="content"/>
+  <xsl:param name="last"/>
+  <xsl:variable name="result">
+    <xsl:text>"</xsl:text>
+    <xsl:value-of select="$label"/>
+    <xsl:text>":</xsl:text>
+    <xsl:value-of select="$content"/>
+      <xsl:text></xsl:text>
+    <xsl:if test="not($last)">
+      <xsl:text>,</xsl:text>
+    </xsl:if>
+  </xsl:variable>
+  <xsl:value-of select="$result"/>
+</xsl:function>
 
 <xsl:function name="tei:json" as="xs:string">
   <xsl:param name="label"/>
