@@ -13,7 +13,7 @@
 <xsl:variable name="outq">\\"</xsl:variable>
 <xsl:template match="/">
   <xsl:variable name="names">
-    <xsl:for-each select="//name">
+    <xsl:for-each select="//placeName">
       <n><xsl:apply-templates select="."/></n>
     </xsl:for-each>
   </xsl:variable>
