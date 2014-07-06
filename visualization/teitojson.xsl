@@ -1,6 +1,7 @@
 <xsl:stylesheet
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"                
     exclude-result-prefixes="tei xs"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -11,15 +12,21 @@
 <xsl:variable name="inq">"</xsl:variable>
 <xsl:variable name="outq">\\"</xsl:variable>
 <xsl:template match="/">
-<xsl:text>{"TEI": [</xsl:text>
-  <xsl:for-each select="//persName">
+  <xsl:variable name="names">
+    <xsl:for-each select="//name">
+      <n><xsl:apply-templates select="."/></n>
+    </xsl:for-each>
+  </xsl:variable>
+  <xsl:text>{"TEI": [</xsl:text>
+  <xsl:for-each-group select="$names/*" group-by=".">
+    <xsl:sort select="current-grouping-key()"/>
     <xsl:text>{ </xsl:text>
-    <xsl:sequence select="tei:json('context',ancestor-or-self::*[@xml:id][1]/@xml:id, false())"/>
-    <xsl:sequence select="tei:jsonbycontext('name',., true())"/>
+    <xsl:sequence select="tei:json('name',current-grouping-key(), true())"/>
+    <xsl:sequence select="tei:json('count',count(current-group()), false())"/>
     <xsl:text> }</xsl:text>
-    <xsl:if test="following::persName">,</xsl:if>
+    <xsl:if test="following::n">,</xsl:if>
     <xsl:text>&#10;</xsl:text>
-  </xsl:for-each>
+  </xsl:for-each-group>
 <xsl:text>
 ] }
 </xsl:text>
