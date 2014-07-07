@@ -12,6 +12,7 @@
   
 <xsl:variable name="inq">"</xsl:variable>
 <xsl:variable name="outq">\\"</xsl:variable>
+  
 <xsl:template match="/">
   <xsl:call-template name="main"/>
 </xsl:template>
@@ -53,8 +54,7 @@
        <xsl:for-each select="$docs/*">	 
 	 <xsl:call-template name="extract"/>
        </xsl:for-each>
-       <xsl:text>
-] }
+<xsl:text>] }
 </xsl:text>
 
 </xsl:template>
@@ -81,14 +81,12 @@
             <xsl:text>"}</xsl:text>
             <xsl:if test="position()!=last()">
               <xsl:text>,</xsl:text>
-            </xsl:if>
-            
+            </xsl:if>            
           </xsl:for-each>
           <xsl:text> ]</xsl:text>
-          <xsl:if test="not($last)">
-            <xsl:text>,</xsl:text>
-          </xsl:if>
-         
+      <xsl:if test="not($last)">
+        <xsl:text>,</xsl:text>
+      </xsl:if>
     </xsl:variable>
     <xsl:value-of select="$result"/>
   </xsl:function>

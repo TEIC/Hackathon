@@ -47,13 +47,16 @@
 	    <attRef class="att.global" name="rend"/>
 	  </attList>
         </elementSpec>
+        
+        
+        
         <classSpec ident="att.global" module="tei" mode="change" type="atts">
           <attList>
             <attDef ident="rend" mode="change">
               <valList type="closed" mode="add">
                 <valItem ident="bold">
-		 <desc>JC: It is bold</desc>
-		</valItem>
+              		 <desc>JC: It is bold</desc>
+		            </valItem>
                 <valItem ident="boxed"/>
                 <valItem ident="center"/>
                 <valItem ident="italic"/>
@@ -66,6 +69,7 @@
 
 
 	<elementSpec ident="title" module="core" mode="change">
+	  <desc></desc>
 	  <attList>
 	    <attDef ident="type" mode="change">
 	      <datatype minOccurs="1" maxOccurs="unbounded">
