@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tests from James</title>
+        <author>James Cummings</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>TEI Test ODD: 
+        
+        div1-7 deleted;
+        adding a closed value list to @rend in att.global
+        Title gets a new desc, datatype of @type which gets semi valList
+        div: closed valList on div/@type; exemplum added
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born Digital</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec prefix="tei_" ident="testbasic" xml:lang="en" start="TEI div">
+        <!-- Just include modules -->
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="header"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="analysis"/>
+        <moduleRef key="dictionaries"/>
+        <moduleRef key="transcr"/>
+        <moduleRef key="figures"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="textstructure"/>
+        <!-- Delete some elemenets -->
+        
+        <elementSpec ident="div1" module="textstructure" mode="delete"/>
+        <elementSpec ident="div2" module="textstructure" mode="delete"/>
+        <elementSpec ident="div3" module="textstructure" mode="delete"/>
+        <elementSpec ident="div4" module="textstructure" mode="delete"/>
+        <elementSpec ident="div5" module="textstructure" mode="delete"/>
+        <elementSpec ident="div6" module="textstructure" mode="delete"/>
+        <elementSpec ident="div7" module="textstructure" mode="delete"/>
+        
+        
+        <!-- Add new element in different namespace -->
+        <elementSpec ident="Menu" mode="add" ns="http://james.blushingbunny.net/ns.html">
+          <classes>
+            <memberOf key="model.pPart.data"/>
+          </classes>
+          <content>
+            <rng:text/>
+          </content>
+	  <attList>
+	    <attRef class="att.global" name="xml:id"/>
+	    <attRef class="att.global" name="rend"/>
+	  </attList>
+        </elementSpec>
+        
+        <!-- Change classes  adding a closed value list to @rend in att.global -->
+        <classSpec ident="att.global" module="tei" mode="change" type="atts">
+          <attList>
+            <attDef ident="rend" mode="change">
+              <valList type="closed" mode="add">
+                <valItem ident="bold">
+              		 <desc>James thinks this is bold</desc>
+		            </valItem>
+                <valItem ident="boxed"/>
+                <valItem ident="center"/>
+                <valItem ident="italic"/>
+                <valItem ident="underline"/>
+              </valList>
+            </attDef>
+          </attList>
+        </classSpec>
+
+
+
+<!-- New desc on title, datatype of @type which gets semi valList -->
+	<elementSpec ident="title" module="core" mode="change">
+	  <desc>James thinks this is a title</desc>
+	  <attList>
+	    <attDef ident="type" mode="change">
+	      <datatype minOccurs="1" maxOccurs="unbounded">
+		<rng:text xmlns:rng="http://relaxng.org/ns/structure/1.0"/>
+	      </datatype>
+	      <valList mode="replace" type="semi">
+		<valItem ident="biography"/>
+		<valItem ident="chronology"/>
+		<valItem ident="introduction"/>
+		<valItem ident="project"/>
+	      </valList>
+	    </attDef>
+	    <attDef ident="level" mode="change">
+	    <valList mode="replace" type="closed">
+	      <valItem ident="low">
+	        <desc>James thinks the level of this is low</desc>
+	      </valItem>
+	      <valItem ident="medium">
+	        <desc>James thinks the level of this is medium</desc>
+	      </valItem>
+	      <valItem ident="high">
+	        <desc>James thinks the level of this is high</desc>
+	      </valItem>
+	    </valList>
+	    </attDef>
+	  </attList>
+	</elementSpec>
+
+<!-- closed valList on div/@type -->
+        <elementSpec ident="div" module="textstructure" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="add">
+                <valItem ident="Act"/>
+                <valItem ident="Scene"/>
+                <valItem ident="play"/>
+                <valItem ident="letter"/>
+              </valList>
+            </attDef>
+          </attList>
+          
+          <exemplum>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <div type="Act">
+                <head>Act 2</head>
+                <p>Act two goes here</p>
+              </div>
+            </egXML>
+          </exemplum>
+          
+	</elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
