@@ -12,7 +12,7 @@
 <xsl:variable name="inq">"</xsl:variable>
 <xsl:variable name="outq">\\"</xsl:variable>
 <xsl:template match="/">
-  <xsl:call-template name="main"/>
+  <xsl:call-template name="extract"/>
 </xsl:template>
 
 
