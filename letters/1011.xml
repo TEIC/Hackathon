@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+
+<front>
+
+<div type="address">
+<p>
+ <pb id="19507_000_AAWO_ABD67f222v.jpg" n="AAWO, AB, D. 67, f. 222v"/> 
+</p>
+<p>
+Reverendissimo in Christo patri et domino, domino <name type="person" key="1">Ioanni Dantisco</name> Dei gratia episcopo Culmensi, domino ac patrono gratioso
+</p>
+</div>
+
+</front>
+<body>
+
+<div type="salutation">
+<p>
+ <pb id="19507_000_AAWO_ABD67f221r.jpg" n="AAWO, AB, D. 67, f. 221r"/> 
+</p>
+<p>
+Reverendissime domine, domine et benefactor gratiose. Praemissa perpetuorum servitiorum meorum commendatione.
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+Nuntius Dominationis Vestrae Reverendissimae litteras hic aliquas, dominus Nibschicz</div>, nonnullas mihi distribuendas dedit, quas ego sine mora, prout inscriptae erant, <add place="on the margin">reddidi</add>, in primis maiestati reginali, quae respondet praesentibus alligatis. Dominus Volski magister curiae super 50 florenos in negotio domini Andreae Tenczinski libenter respondisset, sed cum dominus Nibschicz dixit se oportere prius colloqui, qui scit, cui sint dati, an domino Borek aut Georgio Hegel, verum sors non tulit, ut convenire potuissent hoc turbido et pluvioso tempore, quo fit, ut hic nuntius ab eo responsum non fert, sed curabo brevi mittere.
+</p>
+<p>
+Cum super hoc negotio in hospitio meo inter pocula cum domino marschalco curiae mentionem faceremus, rogavit me, ut litteras Dominationis Vestrae Reverendissimae ad dominum magistrum curiae illi afferrem legenda<subst><del>m</del><add place="overwritten">s</add></subst>, quod facile effeci. Quibus lectis proprio motu se obtulit effecturum apud fratrem suum, quo Dominationem Vestram contenta<del>ss</del>ret, modo ad hoc faciendum ansam habere possit, ne repulsam apud fratrem pati cogatur, in eum modum hic se rebus immiscet, quae minime urgent, multa curat, cum tamen nihil in commissis habeat. Quare - inquit - scribe tu litteras ad me super hoc negotio nomine domini episcopi Culmensis, ut eas illi meis inclusas mittam, <unclear>aut</unclear> effice, ut maiestas reginalis mihi iniungat, quo hoc <unclear>negotium</unclear> apud eum sollicitem, ne deinceps querendi locus sit et mihi tutius videtur, quod habito opportuno tempore conf<unclear><gap reason="paper damaged"/></unclear>.
+
+ <pb id="19507_000_AAWO_ABD67f221v.jpg" n="AAWO, AB, D. 67, f. 221v"/>
+
+De 800 ducatis certo 6 Iunii in Bario solutis nuper Dominationi Vestrae Reverendissimae scripsi, prout accepi ex domino Ioan Iacomo de Affotatis, qui hic litteras a filio inde habuit super eo. In negotio salis nil effectum est ob eam causam, quam prius hinc descripsi dominae Ursulae. Inquit enim dominus Premisliensis maiestatem regiam eiusmodi privilegium non daturam, ni sciatur similia prius et aliis concessa et hoc propter sequelam. Quare indigemus testimonio legitimo hac <supplied reason="leaf deeply bound">in re</supplied>. Nec sufficit planis verbis scripsisse ita esse, quod maiestas regia et antea aliis similem gratiam fecerit, satis - inquit dominus Premisliensis - erit, si saltem copiam litterarum maiestatis regiae super simili alicui donatione huc mitt<supplied reason="leaf deeply bound">ant</supplied> aut testimonium a consulatu etc. In negotio domus nepotum Dominationis Vestrae Reverendissimae respondit dominus Premisliensis litteras dari, eo tenore, ut petitur, non licere, videlicet, ut causa in integrum et ad punctum iuris restituatur, quae antea iudicata est, sed obtulit se daturum litteras ad consulatum Gdanensem, mandantes, ut iustitia ministretur, et si legitime de iure causa in integrum restitui possit, ut restituatur. Huiusmodi litteras prae occupationibus adeo accelerante nuntio habere <del>prae occupationibus</del> non potui, sed curabo, ut cum primis domino doctori eas mittam.
+</p>
+<p>
+In negotio de parocho Marienburgensi dixit dominus Premisliensis se abunde Dominationi Vestrae Reverendissimae respondisse et litteras quoque regias dedisse. Appellationem praesentibus annexam remitto.
+</p>
+<p>
+<pb id="19507_000_AAWO_ABD67f222r.jpg" n="AAWO, AB, D. 67, f. 222r"/>
+</p>
+<p>
+Negotium Szayączkowski, cum videatur esse criminale, <add place="on the margin">dominus Premisliensis</add> noluit obire, meminique, cum denuo nunc refricarem, hoc responsum mihi datum, quod exciderat. Quare ego solus, clericatum non habens, litteras in ea re scripsi et sigillavi, quas etiam praesentibus annexas mitto.
+</p>
+<p>
+Nova, quae hic habentur, certius et verius scit dominus Premisliensis, qui sine dubio omnia Dominationi Vestrae Reverendissimae perscripsit. Ego, qui inter vulgus versor, toties falsis rumoribus delusus, incredulus fio, nisi ter aut quater vera esse confirmentur. Commendo me gratiae et benevolentiae Dominationis Vestrae Reverendissimae, quae <supplied reason="paper damaged">feli</supplied>cissime diu valeat.
+</p>
+</div>
+
+<div type="datum">
+<p>
+Ex <name type="place" key="8">Vilna</name>, prima Octobris 1533.
+</p>
+</div>
+
+<div type="signature">
+<p>
+Eiusdem Dominationis Vestrae Reverendissimae obsequentissimus servus <name type="person" key="42">Fabianus Dameraw</name>
+</p>
+</div>
+
+</body>
+
+</text></TEI>

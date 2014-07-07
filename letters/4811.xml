@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+
+<front>
+
+<div type="address">
+<p>
+ <pb id="13877_000_GStAPK_HBA_C1aK497p2unnumbered.jpg" n="GStA PK, HBA, C 1a, K. 497, p. 2unnumbered"/> 
+</p>
+<p>
+<rs type="person" key="985">Venerabilibus Dominis Praelatis Canonicis et Capitulo ecclesiae nostrae Varmiensis</rs>, fratribus sincere nobis dilectis
+</p>
+</div>
+
+</front>
+<body>
+
+<div type="signature">
+<p>
+ <pb id="13877_000_GStAPK_HBA_C1aK497p1unnumbered.jpg" n="GStA PK, HBA, C 1a, K. 497, p. 1unnumbered"/> 
+</p>
+<p>
+<rs type="person" key="1">Ioannes Dei gratia episcopus Varmiensis</rs>
+</p>
+</div>
+
+<div type="salutation">
+<p>
+Venerabiles Domini, fratres sincere dilecti. 
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+Subditi nostri de Behemshouen iterum nobis humiliter supplicarunt</div>,
+ ut ratione bonorum illis ablatorum, quo in ea restitui possent, commendaticias nostras ad Fraternitates Vestras daremus, quod facimus non gravate, praesertim cum et in rem Fraternitatum Vestrarum esse agnoscamus. Proinde eas paterne adhortamur, ut sic hoc negotium cum illis componant, ne quid gravius, si infectum manserit, hinc suboriatur. Facturae ea in re et sibi et nobis rem non inutilem - nobis, ut deinceps eiusmodi querimoniae molestia careamus, vobis porro, ut melius audire et tranquillius agere possitis. Fraternitates Vestras feliciter valere optamus.
+</p>
+</div>
+
+<div type="datum">
+<p>
+Ex arce nostra <name type="place" key="1">Heilsberg</name>, VII Iulii M D XXXX.
+</p>
+</div>
+
+</body>
+
+</text></TEI>

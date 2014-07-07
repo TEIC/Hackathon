@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+
+<body>
+
+<div type="header">
+<p> <pb id="11657_000_7IDL3311AAWO_ABD70f367rtp.jpg" n="AAWO, AB, D. 70, f. 367r (t.p.)"/> </p>
+<p>
+<foreign xml:lang="la"><name type="person" key="301">Friderico Gutteter</name></foreign>
+</p>
+</div>
+
+<div type="salutation">
+<p>
+Unnsernn etc.
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+Das euch die thonne litauschen mets <del>wol</del> unvorruckt ist <expan>zukom<ex>m</ex>en</expan> und angenem gewesenn,</div> haben wir gerne aus ewrem <ref type="letter" target="3240">schreibenn</ref> vorstandenn, / und ist unnotig der vielfeltigenn dancksagung davor, / den wo wir sunst wusten und vormochtenn / euch, / ewer lieben <rs type="person" key="2496">hausfrawen</rs> / und dersulbenn <rs type="person" key="1094">mutter</rs>, / von denen allenn uns viel freuntlickeit, / der wir nummer vorgessen werden, / ist erzeigt wordenn, / herwidder viel guts und angene<subst><del>nem</del><add place="overwritten">men</add></subst> gefallen zuzufugenn, / seindt wir darzu willig und erputtig. / Ist uns auch fast lieb, / das <del>ew</del> euch <subst><del>der methe</del><add place="superinscribed"> das getrencke</add></subst> volbokomen, / und ewre gesuntheit dadurch gestercket, / czu welcher erhaltung, wo wir vorthin werden kunnen zuschub thun, / soll nichts an unserm gutten willen abghenn. Wir haben auch sunst neben ewren schreibenn vier tuchelein, / <del>die uns</del> ewer <expan>liebe<ex>n</ex></expan> <rs type="person" key="2496">hausfrauenn</rs> selbst arbeit, / die sie uns <choice><corr type="lemma">vorleiet</corr><sic>vorheiet</sic></choice>, / erhaltenn. / Und wievol ihr das ein kleins geschencklein nennent, / so <del>kunnen</del> ists doch <del>das</del> nicht <add place="superinscribed">andres</add>, den vor ein grosses <del>angenomen</del> geschencke <add place="superinscribed">von uns</add> angenomen, / dieweil die arbeit so daran gewandt treflich, / und <del>so</del> also uns gefallen hat, das wir die <add place="superinscribed">nicht</add> genugsam lobenn kunnen, / und ob der behendickeit vorwunderen, / derwegen wir den <del>do</del> gedochtes tuchlein zum altar <add place="on the margin">und Gots ehre</add> gebrauchenn wollenn, / und ewer hausfrawenn <add place="on the margin">dabei nicht vorgessen</add>, / der <del>k</del> wir freuntliche dancksagung davor <del>von unsernt wegen</del> zuthun / <del>dabei bittenn, / b</del> <del>dabei nicht vergessenn /</del> und <add place="superinscribed">die</add> herwidder neben ihrer lieben fraw <rs type="person" key="1094">mutter</rs> von unsernt wegen freuntlich zu grussen, / und viel guts zuwunschen, / von euch bitte<supplied reason="stain">n</supplied>. Wollen auch stets ewres und der ewren bestes zu wissenn, / und wo wir diesulben werden furderen kunnen, nichts nachlassenn. Hiemit euch dem lieben Got mit langweriger gesuntheit und wol<subst><del>fart</del><add place="superinscribed"> sein</add></subst> bovelende.
+</p>
+</div>
+
+<div type="datum">
+<p>
+<expan>Dat<ex>um</ex></expan> <expan>a<ex>us</ex></expan> <expan>u<ex>nserm</ex></expan> schloss <name type="place" key="1">Heilsberg</name>, den andernn <foreign xml:lang="la">Ianuarii</foreign> M D XLVIII.
+</p>
+</div>
+
+</body>	
+</text></TEI>

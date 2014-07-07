@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+
+<body>
+
+<div type="salutation">
+<p>
+ <pb id="22776_000_6IDL3111AAWO_ABD70f294r.jpg" n="AAWO, AB, D. 70, f. 294r"/> 
+</p>
+<p>
+Reverendissime et Illustrissime Princeps et Domine, domine frater carissimae et maior plurimum observande. Salutem et fraternorum officiorum commendationem.
+</p>
+</div> 
+
+<div type="main_content">
+<p>
+<div type="incipit">
+<subst><del>Petit</del><add place="superinscribed">Postulat</add></subst> a nobis Reverendissima et Illustrissima Dominatio Vestra, ut illi decreta concilii Tridentini</div> transmitt<subst><del><unclear>a</unclear></del><add place="overwritten">ere</add></subst>mus,
+
+ quae etiam <del>Reverendissimae et Illustrissimae Dominationi Vestrae</del> <rs type="person" key="1114">reverendissimus in Christo pater et dominus archiepiscopus Upsalensis</rs> <del>communicare per nos</del>, ut ex inserta scheda sub manu eius scripta, intelliget <del>voluit</del> per nos Reverendissimae et Illustrissimae Dominationi Vestrae communicari voluit. <rs type="person" key="1114">Cui</rs> dudum in ea gratificati fuissemus, si id opportun<subst><del>e</del><add place="overwritten">i</add></subst><add place="superinscribed">tate</add> <del>et commode per</del> et commoditate <rs type="person" key="943">certi nuntii</rs> fieri potuisset, <add place="on the margin">quem cum habere hactenus non potui<supplied reason="leaf deeply bound">sse</supplied>mus <subst><del>et</del><add place="superinscribed">nec</add></subst> ea <del>non</del> cuilibet committenda esse duuximus, hucusque impediti sumus</add>. Mittimus tamen ea per <rs type="person" key="943">praesentem Reverendissimae et Illustrissimae Dominationis Vestrae nuntium</rs> <subst><del>et ea quae</del><add place="superinscribed">et rogamus</add></subst>, ut nobis <del>remittat</del> apud nepotem nostrum <add place="superinscribed">ingenuum</add>, <name type="person" key="862">Valentinum Hannovium</name>, qui <del>nu</del> cum <ref type="letter" target="6397">nostris litteris</ref> ad Reverendissimam et Illustrissimam Dominationem Vestram nudiustertius hinc profectus est, quibus Reverendissimae et Illustrissimae Dominationi Vestrae de felici adventu in has partes gratulati sumus, et ea <del>ad eandem</del> scripsimus, quae significanda <del>esse</del> illi esse duximus, remittantur. Quod vero cupit Reverendissima <add place="superinscribed">et Illustrissima</add> Dominatio Vestra per nos certior fieri <del>qui</del> de statu et rebus concilii, et <del>quosque</del> quousque in eo prog<add place="adscribed">r</add>essum sit, nihil certius hoc tempore habemus, nisi quod <ref type="letter" target="6398">decima sexta Martii per eundem <rs type="person" key="1114"><add place="superinscribed">reverendissimum</add> dominum Upsalensem</rs> ad nos descriptum est</ref>. Synodum ob infectum ex <del>loco</del> peste aerem et praelatos ibidem constitutos, locum mutasse, et omnes se <name type="place" key="71">Bononiam</name> contulisse, ubi eousque sunt perseveraturi, donec <del>aeer</del> aer de pestilentia purgatus <del>fuerit</del> et salubrior <add place="superinscribed">factus</add> fuerit, tum denuo se <name type="place" key="264">Tridentum</name> conferent et synodum usque ad integram decisionem causarum, de quibus in religione controvertitur, coniunctim sunt celebraturi.
+</p> 
+<p>
+Quod reliquum est Reverendissimae <add place="on the margin">et Illustrissimae</add> Dominationi Vestrae nos de meliore nota commendamus <del>et eidem non tantum officia nostra sed nosmet ipsum deferimus</del> <subst><del>Cui</del><add place="superinscribed"> et eidem</add></subst> a Domino Deo felicem in omnibus <add place="superinscribed">rebus</add> successum et incolumitatem vitae longissime duraturam <del>et p</del> cum integra ecclesiae et subditorum suorum <subst><del>gubernatione</del><add place="superinscribed">administratione</add></subst>, ex animo precamur.
+</p>
+</div>
+
+<div type="datum">
+<p>
+<app>
+<lem><expan>Dat<ex>ae</ex></expan></lem>
+<rdg><expan>Dat<ex>um</ex></expan></rdg>
+</app>
+ <name type="place" key="1">Heilsberg</name> etc., 8 Iunii M D XLVII.
+</p>
+</div>
+
+</body>
+  
+</text></TEI>

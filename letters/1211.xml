@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+
+<body>
+
+<div type="salutation">
+<p> <pb id="19945_000_5IDL1211AAWO_ABD67f286r.jpg" n="AAWO, AB, D. 67, f. 286r"/> </p>
+<p>
+<expan>Unsern<ex>n</ex></expan> fruntlichn grus mit alles <expan>guttn<ex>n</ex></expan> erbittung <expan>zuvoran<ex>n</ex></expan>. Edler, echrnfester <expan>h<ex>er</ex></expan>, gunstiger freundt. /
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<expan>E<ex>wer</ex></expan> <expan>H<ex>errlichkei</ex>t</expan> <ref type="letter" target="6309"><expan>schreibn<ex>n</ex></expan></ref>, <expan>dat<ex>um</ex></expan> <name type="place" key="24">Danczk</name>, V dis monts, / darin der handel zu <name type="place" key="134">Graudencz</name> <add place="on the margin">negst</add> gehalten vorczeichent, / hab wir den <expan>VIIIte<ex>n</ex></expan> darnoch <del>erha</del> <expan>entfangen<ex>n</ex></expan> / und ist uns leidt, das disse sache <subst><del><gap reason="illegible"/></del><add place="superinscribed"> von</add></subst> widerwertigheit der <rs type="person" key="1094"><expan>frawen<ex>n</ex></expan></rs>, / die mit keinem grunde und billigheit vorfurt, / zum ende nicht ist <expan>komen<ex>n</ex></expan>. So nun das recht weiter daruberghen sol, / losse wir uns beduncken, / wirt ir frechmuttigheit <expan>entgelden<ex>n</ex></expan>. An uns sol nichts <expan>abghen<ex>n</ex></expan>, das der gerechtigheit gemess und uns wol geburen wil etc.
+</p>
+
+<p>
+Was das pferd und den <expan>h<ex>e</ex>rn</expan> <rs type="person" key="16">danczker castellan</rs> betrifft, / hab wir euch <expan>gern<ex>n</ex></expan> gefolgt / und im das selbtige / bey <expan>seinen<ex>n</ex></expan> schreiber <name type="person" key="2404"><expan>Hieroni<ex>m</ex>o</expan></name>, / der disse zceit bey uns gewest, / geschickt / etc. So wir <subst><del>i</del><add place="overwritten">h</add></subst>irinne euch nicht <expan>haben<ex>n</ex></expan> mocht unser danckparheit, / vor vil woltath uns bewisen, / etlicher moss entdecken, / so sey wir noch willig disser unser danckparheit, / wer wir die vormugen, / nochzufolgen etc. Das sichs so nicht hot wolt <expan>zutragen<ex>n</ex></expan>, das wir diss mol euch hetten mugen sehen, / muss uff ein ander zceit <expan>vorbleiben<ex>n</ex></expan>. / Dem <expan>h<ex>e</ex>rn</expan> <rs type="person" key="16">danczker castellan</rs> hab ich durch sein <rs type="person" key="2404">schreiber</rs> muntlich etwas darvon entworffen, / <expan>worum<ex>m</ex>b</expan> das wir gern mit euch und im weren zusamne <expan>gekomen<ex>n</ex></expan> / etc.
+</p>
+
+<p>
+Vor die newe zceitunge dancke wir euch. / Wir <expan>habn<ex>n</ex></expan> nichts anders, dan das <rs type="person" key="24"><expan>ko<ex>nigliche</ex></expan> <expan>m<ex>ajeste</ex>t</expan></rs> gesundt von <name type="place" key="1035">Rudniki</name> zu der <name type="place" key="8">Wilden</name> den XVIII <foreign xml:lang="la">Iulii</foreign> ist <expan>eingeritten<ex>n</ex></expan>, / und das nicht ider mit etc. <expan>zufrid<ex>en</ex></expan> ist etc.
+</p>
+
+<p>
+Unsers ohms <name type="person" key="425">Simons</name> sachen mit seim <rs type="person" key="1094">stifvater</rs> halt wir ouch die gestalt, hab mit der wilkore, wie <expan>ew<ex>e</ex>r</expan> eingelegter zcedel gelaut. / <expan>Woltenn<ex>n</ex></expan> ouch gern ir entschafft hetth etc. Hiemit gebe euch Got der almechtig in langweriger gesuntheit und <expan>glukseligen<ex>n</ex></expan> zu <expan>nemen<ex>n</ex></expan> sein gnad.
+</p>
+</div>
+
+<div type="datum">
+<p>
+<expan>Dat<ex>um</ex></expan> aus unserm slosse <name type="place" key="15">Lobau</name>, den X <foreign xml:lang="la">Augusti</foreign> 1534.
+</p>
+</div>
+
+</body>
+</text></TEI>

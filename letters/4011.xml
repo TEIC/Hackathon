@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+
+<body>
+
+<div type="salutation">
+<p> <pb id="12643_000_3IDL4011AAWO_ABD7f38vbp.jpg" n="AAWO, AB, D. 7, f. 38v (b.p.)"/> </p>
+<p>
+<expan>Unsern<ex>n</ex></expan> <expan>fruntlichn<ex>n</ex></expan> grues mit allerselighet wunsch<gap reason="leaf deeply bound"/> <expan>zuvoran<ex>n</ex></expan>. <expan>Grosmechtig<ex>e</ex>r</expan> <expan>h<ex>e</ex>r</expan>, <expan>gunstig<ex>e</ex>r</expan>. 
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+Wir <expan>habn<ex>n</ex></expan> neg<supplied reason="leaf deeply bound">st</supplied> von <expan>E<ex>wer</ex></expan> <expan>H<ex>erlichkei</ex>t</expan> II brive <expan>entfang<ex>en</ex></expan></div>, / mit dem <expan>leczst<ex>en</ex></expan> die co<gap reason="leaf deeply bound"/>, daran wir ein sundren <expan>wolgefalln<ex>n</ex></expan> gehabt / und <expan>E<ex>wer</ex></expan> <expan>H<ex>erlichkei</ex>t</expan> <del>fast</del> freuntlich <expan>dancken<ex>n</ex></expan>. / Uns ist ouch fast lie<supplied reason="leaf deeply bound">b</supplied> gewest, das <expan>E<ex>wer</ex></expan> <expan>H<ex>erlichkei</ex>t</expan> in gutter gesuntheit, / die wir D<gap reason="leaf deeply bound"/> selbtigen zu langen <expan>zceitn<ex>n</ex></expan> <expan>gonnen<ex>n</ex></expan>, / <expan>widerum<ex>m</ex>b</expan> h<gap reason="leaf deeply bound"/> zu den iren ist <expan>komen<ex>n</ex></expan> <del><gap reason="illegible"/></del>. / Was <expan>den<ex>n</ex></expan><rs type="person" key="1094"> zc<supplied reason="leaf deeply bound">im</supplied>merman</rs> belangt, das in <expan>E<ex>wer</ex></expan> <expan>H<ex>erlichkei</ex>t</expan> aus der burgschaff<supplied reason="leaf deeply bound">t</supplied> frey <expan>gelossen<ex>n</ex></expan> / und mit uns zu gelegner zceit der <expan>wegen<ex>n</ex></expan> <expan>reden<ex>n</ex></expan> wil, / losse wir <expan>gern<ex>n</ex></expan> so <expan>bleibn<ex>n</ex></expan>. /  <gap reason="leaf deeply bound"/> thun <expan>E<ex>wer</ex></expan> <expan>H<ex>erlichkei</ex>t</expan> mit den iren in die gnad Gots befhel<supplied reason="leaf deeply bound">en</supplied> bittend, die frau <rs type="person" key="2144">woywodin</rs> fruntlich in unserm nam<supplied reason="leaf deeply bound">en</supplied> zu <expan>grussen<ex>n</ex></expan>. / 
+</p>
+</div>
+
+<div type="datum">
+<p>
+<expan>Dat<ex>um</ex></expan> aus <expan>unserm<ex>m</ex></expan> slosse <name type="place" key="15">Lobau</name>, den X<supplied reason="leaf deeply bound">VI</supplied> Martii MD XXXVII.
+</p>
+</div>
+
+</body>
+
+</text></TEI>

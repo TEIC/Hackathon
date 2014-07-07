@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">	
+
+<front>
+
+<div type="address">
+<p>
+ <pb id="19000_000_AWO_ABD3f79av.jpg" n="AAWO, AB, D. 3, f. 79av"/> 
+</p>
+<p>
+Magnifico viro domino <name type="person" key="1">Ioanni Dantisco</name> serenissimi <rs type="person" key="24">Poloniae regis</rs> apud <rs type="person" key="30">maiestatem caesaream</rs>, <supplied reason="paper damaged">reverendissi</supplied>mo domino et benefactori meo
+</p>
+</div>
+
+</front>
+<body>
+
+<div type="salutation">
+<p>
+ <pb id="19000_000_AWO_ABD3f79r.jpg" n="AAWO, AB, D. 3, f. 79r"/> 
+</p>
+<p>
+Reverendissime in Christo Pater et Domine, domine mi et benefactor colendissime. Humili commendatione praemissa.
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+Summa Dominationis Vestrae Reverendissimae auctoritas et erga omnes ampla illa humanitas</div> meumque perpetuum de sua singulari virtute et integritate iudicium fecit, ut magni mea interesse putarem res eas, quas gessissem, eidem Dominationi Vestrae Reverendissimae notas esse, cum omnem spem meam in te uno fixi. Peiore in loco vel statu res esse non potest, cum indies prae verecundia ac iniuria, mihi indebite (ut Deum testor) adscripta poena gravi et dolore multifariam <del>r</del> et praesertim morbo itropico, quem existendo in carceribus <name type="place" key="153">Plasentiae</name> adeptus sum, a quo tamen, spero, Deo favente, medio et industria cuiusdam excellentissimi <subst><del><gap reason="illegible"/></del><add place="overwritten">do</add></subst>ctoris cito liberari. 
+<cit><quote>O me perditum et afflictum!</quote>
+<bibl corresp="1820"><title>14.4</title></bibl>
+</cit>
+ O infelix et impune exilium! 
+<cit><quote>Quid nunc ab eadem Dominatione Vestra Reverendissima rogem</quote>
+<bibl corresp="1820"><title>14.4</title><quote>Quid enim? Rogem te, ut venias? </quote></bibl>
+</cit>
+ <cit><quote>pectora nunc foedans pugnis, nunc unguibus ora</quote>
+<bibl corresp="1807"><title>11.86</title></bibl>
+</cit>.
+ Certe, domine mi observandissime, minus est erratum a nobis, 
+<cit><quote>per caput hoc iuro</quote>
+<bibl corresp="1807"><title>9.300</title><quote>per caput hoc iuro, per quod pater ante solebat</quote></bibl>
+</cit>, sed, ut credo, mandet fortuna mihi. Quaeso ergo, domine et benefactor mi colendissime, depelle crimen atque solabere sortem miseram huius tui insani servuli, qui nocte dieque pro Illa se affert Deum orare, prout orat, ut Illam, prout meretur, extollat, si qua illi adhuc est memoria nostri. 
+<cit><quote>Nam hoc me per numina iuro. Non meruisse nefas; patior sine crimine poenam. Viximus innocuae; si mentior, arida perdam</quote>
+<bibl corresp="1794"><title>9.371-373</title><quote>siqua fides miseris, hoc me per numina iuro / non meruisse nefas. Patior sine crimine poenam. / Viximus innocuae. Si mentior, arida perdam / quas habeo frondes, et caesa securibus urar</quote></bibl>
+</cit>. Quare, quantum potes, praesul dignissime, supplex oro atque devote rogo, succurre creaturae tuae – ubi his e calamitatibus tandem medio Dominationis Vestrae Reverendissimae enatare valeam, et ad antidora <choice><corr type="lemma">non</corr><sic/></choice> deficiam tanti praesulis laudem ubique, prout hactenus feci, praedicare.
+<cit><quote>Heu nunc, misero mihi demum!</quote>
+<bibl corresp="1807"><title>10.849-850</title><quote>heu, nunc misero mihi demum exitium infelix, nunc alte vulnus adactum!</quote></bibl>
+</cit> Quae etiam et quanta <add place="superinscribed">eadem</add> Dominatio Vestra Reverendissima potest cum <expan>excell<ex>entissimo</ex></expan> <expan>doct<ex>issimo</ex></expan> domino <name type="person" key="719">Cornelio Sceppero Duplicio</name>, domino etiam et benefactore meo, mihi notum est. Peto igitur a Dominatione Vestra Reverendissima maiorem in modum, ut me, suum absentem servum atque mancipium, tamquam praesentem, prout etiam pro illa sua humanitate perfecta prius semper consuevit, diligat et, ubi et quando poterit, causam meam iustam atque piam defendat. Et mediante vel insimul cum dicto domino <name type="person" key="719">Cornelio</name>, quaeso, per opportunitatem videre dignetur vel dignentur, si qua spes sit nostri reditus, quod dii faxint. Quia et si cum egregio viro et <expan>excell<ex>entissimo</ex></expan>, <expan>doct<ex>issimo</ex></expan> sum, cum tamen absens sum a Dominatione Vestra Reverendissima, quod mihi molestissimum est, 
+<cit><quote>omnia mihi tempora sunt misera</quote>
+<bibl corresp="1820"><title>10, 4</title></bibl></cit>, cum omnis spes mei reditus et recuperandae salutis et honoris in eadem Dominatione Vestra Reverendissima fixa manet, adesto, 
+
+ <pb id="19000_000_AWO_ABD3f79v.jpg" n="AAWO, AB, D. 3, f. 79v"/> 
+
+quaeso, iam cum tot me pericula et dolores circumstant, quod non solum amicoru<supplied reason="leaf deeply bound">m</supplied>, si qui adhuc sunt, et non hi, quos exspectaram, annuo, quasi mei immem<supplied reason="leaf deeply bound">or</supplied> sum, attento, quod spes mihi salutis et recuperandae honoris pertenuis <gap reason="leaf deeply bound"/> adhuc ostenditur. Quamvis nescio, quid magni promittunt sidera exhorta<supplied reason="leaf deeply bound">
+<app>
+<lem><expan>ndo</expan></lem>
+<rdg><expan>ntia</expan></rdg>
+</app>
+</supplied> me, ut animi sim magni et spem firmam habeam recuperandae salutis et honoris. Quod utinam sit eiu modi, ut recto sperare possim et 
+<cit><quote>forsan <supplied reason="leaf deeply bound">et</supplied> haec olim meminisse iuvabit</quote>
+<bibl corresp="1807"><title>1, 203</title></bibl>
+</cit>. 
+<cit><quote>Non enim cuivis homini contingit adire Co<supplied reason="leaf deeply bound">rin</supplied>thum</quote>
+<bibl corresp="1784"><title>1, 17, 36</title></bibl>
+</cit>. <del><unclear>E</unclear></del> Ergo, pro, quantae tibi curae meus honos semper  fuerit, domine mi observandissime, qui te unice diligit, rauc<unclear>a</unclear> iam voce precatur: Depello crimen inf<supplied reason="leaf deeply bound">elix</supplied> et impium exilium petoque maiorem in modum a Dominatione Vestra Reverendissima amore sum<supplied reason="leaf deeply bound">mo</supplied> potentis Dei et Domini Nostri Ihesu Christi, ut visis praesentibus dignetur, intuit<supplied reason="leaf deeply bound">u</supplied> meo et patriae, rescribere servulo suo, prout eidem Dominationi Vestrae Reverendissimae magis exp<supplied reason="leaf deeply bound">edire</supplied> videbitur, et litteras destinandas, si sibi visum fuerit servulo suo respond<supplied reason="leaf deeply bound">ere</supplied>, dare praesentium latori, videlicet oratori Veneto ibidem praesenti, et illas taxare et ea<choice><corr type="lemma">s</corr><sic>n</sic></choice>dem istis tertiis meis litteris <choice><corr type="lemma">adiungere</corr><sic/></choice>. Quaeso supplexque oro et quantum in m<supplied reason="leaf deeply bound">e</supplied> est, deprecor, respondere iubeat Dominatio Vestra Reverendissima. Praecelsusque Prometheus plas<supplied reason="leaf deeply bound">mator</supplied> praeassertum praesulem perpetuo prosperum perfaustissimumque praeservet. Cu<supplied reason="leaf deeply bound">i</supplied> suus infimus servus et creatura pro iustitia et pietate se iterum atque iterum commendat et offert.
+</p>
+</div>
+
+<div type="datum">
+<p>
+<app>
+<lem><expan>Dat<ex>ae</ex></expan></lem>
+<rdg><expan>Dat<ex>um</ex></expan></rdg>
+</app>
+ ex urbe condita in Adriacis <unclear>r</unclear><gap reason="leaf deeply bound"/>, die prima Augusti 1532.
+</p>
+</div>
+
+<div type="signature">
+<p>
+Eiusdem Dominationis Vestrae Reverendissimae humilissimus servu<supplied reason="leaf deeply bound">s et</supplied> mancipium <name type="person" key="178">Guido Petri <expan>Anderlechten<ex>sis</ex></expan></name> 
+</p>
+</div>
+
+</body>
+
+</text></TEI>
