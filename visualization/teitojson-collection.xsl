@@ -13,64 +13,47 @@
 <xsl:variable name="inq">"</xsl:variable>
 <xsl:variable name="outq">\\"</xsl:variable>
 <xsl:template match="/">
-  <xsl:call-template name="extract"/>
+  <xsl:call-template name="main"/>
 </xsl:template>
 
 
 <xsl:template name="extract">
-  <xsl:for-each select="//TEI/teiHeader/fileDesc/sourceDesc/msDesc/history/origin/date">
-    <xsl:variable name="docId" select="ancestor-or-self::TEI/teiHeader//idno[1]"/>
-    <xsl:variable name="symbols" select="//TEI[.//idno=$docId]//decoNote"/>
-    
-    <n id="{ancestor-or-self::TEI/teiHeader//idno[1]}">
-    
-      <xsl:for-each select="@*">
-        <xsl:copy-of select="."/>
-      </xsl:for-each>
-  
-     <object>
-       <xsl:copy-of select="$symbols"/>
-     </object>
-      <!--
-      <xsl:attribute name="xpath">
-	<xsl:for-each select="ancestor::*">
-	  <xsl:value-of select="name()"/>
-	  <xsl:text>[</xsl:text>
-	  <xsl:value-of select="position()"/>
-	  <xsl:text>]</xsl:text>
-	  <xsl:text>/</xsl:text>
-	</xsl:for-each>
+  <xsl:for-each select="ancestor-or-self::TEI/teiHeader/fileDesc/sourceDesc/msDesc/history/origin/date">
+    <xsl:variable name="docid" select="ancestor-or-self::TEI/teiHeader//idno[1]"/>
+    <xsl:variable name="symbols" select="ancestor-or-self::TEI//teiHeader//decoNote"/>
+    <xsl:variable name="xpath">
+      <xsl:for-each select="ancestor::*">
 	<xsl:value-of select="name()"/>
-	  <xsl:text>[</xsl:text>
-	  <xsl:value-of select="position()"/>
-	  <xsl:text>]</xsl:text>
-      </xsl:attribute>
-      -->
-      
-    </n>
+	<xsl:text>[</xsl:text>
+	<xsl:value-of select="position()"/>
+	<xsl:text>]</xsl:text>
+	<xsl:text>/</xsl:text>
+      </xsl:for-each>
+      <xsl:value-of select="name()"/>
+      <xsl:text>[</xsl:text>
+      <xsl:value-of select="position()"/>
+      <xsl:text>]</xsl:text>
+    </xsl:variable>
+    
+    <xsl:text>{ </xsl:text>
+    <xsl:sequence select="tei:json('xpath',$xpath, false())"/>
+    <xsl:sequence select="tei:json('id',$docid, false())"/>
+    <xsl:sequence select="tei:dateJson('date',.,false())"/>
+    <xsl:sequence select="tei:objectJson('object',$symbols,true())"/>
+    <xsl:text> },</xsl:text>
+    <xsl:text>&#10;</xsl:text>
   </xsl:for-each>
+
 </xsl:template>
 
 <xsl:template name="main">
-  <xsl:variable name="docs" select="collection('../texts?select=e03-*.xml;recurse=yes;on-error=warning')"/> 
-  <xsl:variable name="objects">
+  <xsl:message>Start with collection</xsl:message>
+  <xsl:variable name="docs" select="collection('../texts?select=*.xml;recurse=yes;on-error=warning')"/> 
+  <xsl:text>{"TEI": [</xsl:text>
        <xsl:for-each select="$docs/*">	 
 	 <xsl:call-template name="extract"/>
        </xsl:for-each>
-  </xsl:variable>
-  <xsl:text>{"TEI": [</xsl:text>
-  <xsl:for-each select="$objects/*" >
-    <xsl:text>{ </xsl:text>
-    <xsl:sequence select="tei:json('xpath',@xpath, false())"/>
-    <xsl:sequence select="tei:json('id',@id, false())"/>
-    <xsl:sequence select="tei:json('value',.,false())"/>
-    <xsl:sequence select="tei:dateJson('date',.,false())"/>
-    <xsl:sequence select="tei:objectJson('object',.,false())"/>
-    <xsl:text> }</xsl:text>
-    <xsl:if test="position() != last()">,</xsl:if>
-    <xsl:text>&#10;</xsl:text>
-  </xsl:for-each>
-<xsl:text>
+       <xsl:text>
 ] }
 </xsl:text>
 
@@ -82,14 +65,12 @@
     <xsl:param name="content"/>
     <xsl:param name="last"/>
     <xsl:variable name="result">
-      <xsl:choose>
-        <xsl:when test="count($content/object/*)>0">
           <xsl:text>"</xsl:text>
           <xsl:value-of select="$label"/>
           <xsl:text>"</xsl:text>
-          <xsl:text>: { </xsl:text>
-          <xsl:for-each select="$content/object/*">
-            <xsl:text>"description":"description of the decoration",</xsl:text>
+          <xsl:text>: [</xsl:text>
+          <xsl:for-each select="$content">
+            <xsl:text>{"description":"description of the decoration",</xsl:text>
             <xsl:text>"type":"symbol",</xsl:text>
             <xsl:text>"</xsl:text>
             <xsl:text>value</xsl:text>
@@ -97,20 +78,17 @@
             <xsl:text>:</xsl:text>
             <xsl:text>"</xsl:text>
             <xsl:value-of select="."/>
-            <xsl:text>"</xsl:text>
+            <xsl:text>"}</xsl:text>
             <xsl:if test="position()!=last()">
               <xsl:text>,</xsl:text>
             </xsl:if>
             
           </xsl:for-each>
-          <xsl:text> }</xsl:text>
+          <xsl:text> ]</xsl:text>
           <xsl:if test="not($last)">
             <xsl:text>,</xsl:text>
           </xsl:if>
-          
-          
-        </xsl:when>
-      </xsl:choose>
+         
     </xsl:variable>
     <xsl:value-of select="$result"/>
   </xsl:function>
@@ -125,6 +103,10 @@
       <xsl:value-of select="$label"/>
       <xsl:text>"</xsl:text>
       <xsl:text>: { </xsl:text>
+      <xsl:text>"value":</xsl:text>
+      <xsl:text>"</xsl:text>
+      <xsl:value-of select="$content"/>
+      <xsl:text>",</xsl:text>
       <xsl:for-each select="$content/@*">
         <xsl:text>"</xsl:text>
         <xsl:value-of select="local-name()"/>
