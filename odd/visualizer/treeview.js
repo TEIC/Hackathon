@@ -5,6 +5,11 @@ $(function() {
 	};
 
 	_.extend(ODDVisualizer.TreeView.prototype, {
+		
+		icons: {
+			attributes: "\u0040",
+			desc: "\u2026"		
+		},
 
 		initialize: function() {
 
@@ -13,8 +18,6 @@ $(function() {
 
 			this.x = d3.scale.linear().range([0, w]);
 			this.y = d3.scale.linear().range([0, h]);
-
-			this.color = d3.scale.category20c();
 
 			this.treemap = d3.layout.treemap().round(false).size([w, h]).sticky(true).value(function(d) {
 				return d.size;
@@ -32,10 +35,10 @@ $(function() {
 		parseData: function(data) {
 
 			var treeData = {};
-			treeData.children = _.map(data.modules, function(module) {
-				var child = { name: module.name };
-				child.children = _.map( module.elements, function( element ) {
-					return { name: element.name, size: element.score };			
+			treeData.children = _.map(data.modules, function(module, key) {
+				var child = { name: key };
+				child.children = _.map( module.elements, function( element, key ) {
+					return { name: key, size: element.score, attributes: element.changes.attributes, desc: element.changes.desc };			
 				});
 				return child;
 			});
@@ -57,18 +60,13 @@ $(function() {
 				return d.dx - 1;
 			}).attr("height", function(d) {
 				return d.dy - 1;
-			}).style("fill", _.bind(function(d) {
-				return this.color(d.parent.name);
-			}, this));
+			}).style("fill", _.bind(this.selectColor, this));
 
 			cell.append("svg:text").attr("x", function(d) {
 				return d.dx / 2;
 			}).attr("y", function(d) {
 				return d.dy / 2;
-			}).attr("dy", ".35em").attr("text-anchor", "middle").text(function(d) {
-				var horse = "\u265E";
-				return horse+ " "+d.name;
-			}).style("opacity", function(d) {
+			}).attr("dy", ".35em").attr("text-anchor", "middle").text( _.bind( this.selectIcon, this)).style("opacity", function(d) {
 				d.w = this.getComputedTextLength();
 				return d.dx > d.w ? 1 : 0;
 			});
@@ -82,6 +80,22 @@ $(function() {
 				this.treemap.value(this.value == "size" ? this.size : this.count).nodes(root);
 				this.zoom(node);
 			}, this));
+			},
+			
+			selectColor: function(d) {
+				// TODO
+				return "gray";
+			},
+			
+			selectIcon: function(d) {	
+				var displayString = d.name;
+				if( d.attributes ) {
+					displayString = this.icons.attributes + " " + displayString;
+				}
+				if( d.desc ) {
+					displayString = this.icons.desc + " " + displayString;
+				}
+				return displayString;				
 			},
 
 			size: function(d) {
