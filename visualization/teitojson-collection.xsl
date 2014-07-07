@@ -15,22 +15,27 @@
   <xsl:call-template name="main"/>
 </xsl:template>
 
+
+<xsl:template name="extract">
+  <xsl:for-each select="//date">
+    <n id="{ancestor-or-self::TEI/teiHeader//idno[1]}">
+      <xsl:choose>
+	<xsl:when test="@when">
+	  <xsl:value-of select="@when"/>
+	</xsl:when>
+	<xsl:otherwise>
+	       <xsl:apply-templates select="."/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </n>
+  </xsl:for-each>
+</xsl:template>
+
 <xsl:template name="main">
   <xsl:variable name="docs" select="collection('../texts?select=*.xml;recurse=yes;on-error=warning')"/> 
   <xsl:variable name="objects">
        <xsl:for-each select="$docs/*">	 
-	 <xsl:for-each select="//date">
-	   <n id="{ancestor-or-self::TEI/teiHeader//idno[1]}">
-	   <xsl:choose>
-	     <xsl:when test="@when">
-	       <xsl:value-of select="@when"/>
-	     </xsl:when>
-	     <xsl:otherwise>
-	       <xsl:apply-templates select="."/>
-	     </xsl:otherwise>
-	   </xsl:choose>
-	   </n>
-	 </xsl:for-each>
+	 <xsl:call-template name="extract"/>
        </xsl:for-each>
   </xsl:variable>
   <xsl:text>{"TEI": [</xsl:text>
