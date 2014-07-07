@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+
+<front>
+
+<div type="address">
+<p>
+ <pb id="20941_000_UUB_H154f154v.jpg" n="UUB, H. 154, f. 154v"/> 
+</p>
+<p>
+Reverendissimo in Christo Patri et Domino, domino <rs type="person" key="1">Ioanni Dei gratia episcopo Culmensi et coadiutori Varmiensi</rs>, domino gratioso
+</p>
+</div>
+
+</front>
+<body>
+
+<div type="salutation">
+<p>
+ <pb id="20941_000_UUB_H154f153r.jpg" n="UUB, H. 154, f. 153r"/> 
+</p>
+<p>
+Reverendissime in Christo Pater et Domine, domine mihi gratiose. Servitiorum meorum commendatione praemissa.
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+24 praeteriti mensis huc perveni per multa certe pericula, ut facile quisque considerando haec tempora intelligere potest</div>. 
+
+Ex <name type="place" key="58">Genua</name> 28 Iulii Dominationi Vestrae Reverendissime scripsi ea, quae tunc se obtulerant, hinc autem haec scitu digna addam. <rs type="person" key="30">Maiestas caesarea</rs> hic cortis intendit, sed isti boni domini se opponunt quodammodo volentes prius quaedam aggravia exonerari, hinc omnes putant redeundum fore in <name type="place" key="40">Valledolit</name> ad parturientem imperatricem. Miror videns hanc aulam tam dissimilem illi priori, mirabiliter enim attrita est durissimo bello in <name type="place" key="564">Affrica</name> et <name type="place" key="569">Francia</name> gesto. Dominus <name type="person" key="719">Cornelius Scepperus</name> his diebus huc in equis dispositis per <rs type="place" key="657">Granciam</rs> habens salvum conductum advolavit tractans inter <rs type="person" key="30">caesarem</rs> et <rs type="person" key="1048">regem Galliae</rs>, nescio quae, fuit cum rege veniendo aliquot diebus et revertitur ad eum. Suspicamur negotium esse pacis inter fessos et forsan aere exhaustos, sed de his non omittet dominus <rs type="person" key="719">Cornelius</rs> clarius scribere, si licebit. De induciis pro aliquot mensibus inter <name type="person" key="1096">Gallos</name> et <name type="person" key="1266">Belgas</name> factis nil dubito iam pridem scire Vestram Reverendissimam Dominatio, de quibus <rs type="person" key="30">caesar</rs> non satis contentus videtur esse, cum in illis partibus felicius quam alias usque bellatum sit pro eius maiestate. Sunt qui opinantur omnino pacem brevi nos visuros, cum maximam illam pecuniam nostram et amicorum nostrorum, forsan omnium, hactenus ad fundum evertimus.
+</p>
+<p>
+ <pb id="20941_000_UUB_H154f153v.jpg" n="UUB, H. 154, f. 153v"/> 
+</p>
+<p>
+<name type="place" key="565">Indiae</name> ille novae non sine admiratione aliquamdiu nihil dederunt, causa nescitur publice. <name type="person" key="1177">Fucchari</name> cum <name type="person" key="239">Welseris</name> non nisi centenis millibus sua debita computando habent in his terris <foreign xml:lang="es">magistrasgos</foreign> et multos alios redditus, nec tamen de omnibus debitis contentati. <rs type="person" key="1094">Grimaldus</rs> cum aliquot aliis <name type="person" key="1632">Genuensibus</name> expectant partum istarum <foreign xml:lang="es"><name type="person" key="1545">corcium</name></foreign>, cum et ipsi non parum olei iniecerint huic igni, quod sine fructu hactenus in fumum abiisse videtur, tantae molis erat hactenus nutrire <name type="person" key="1612">Martem</name>. <rs type="person" key="208">Comitem palatinum Fredericum</rs> certo dicunt superiore anno dedisse <rs type="person" key="30">caesari</rs> proficiscenti in <name type="place" key="569">Gallias</name> omnes suos milites cum sacculo, qui ad expugnandam <name type="place" key="574">Daniam</name> sepositus erat. Quae res nostro domino duci non potest esse ingrata, similiter et negociatoribus nostratibus. Ex <name type="place" key="590">Italia</name> aliquamdiu nulla posta venit, hinc fit ut nesciatur, quid <name type="person" key="1343">Turcae</name> faciant, melius apud vos ex Venetiis sciuntur haec. Dominus <name type="person" key="968">Ulricus Ehinger</name> extremum diem vitae suae clausit mense praeterito in <name type="place" key="40">Valledolit</name> relicta <rs type="person" key="1094">coniuge</rs> in horas partum exspectante.
+</p>
+<p>
+<rs type="person" key="331">Ioanna</rs> filia dominae <name type="person" key="196">Isabellae Delgadae</name> desponsata est domino <rs type="person" key="5">Graciano</rs> in <name type="place" key="40">Valledolit</name> non sine caeremoniis et singulari pompa, quam ille <add place="on the margin">suo sumptu</add> elegantissime vestitam a matre eius ad <rs type="person" key="442">suam</rs> transtulit in <name type="place" key="89">Medina</name> educandam, cum adhuc sit tenella, sed bellisima. Dicunt eum diligentissime inquisivisse elapsis diebus, num quis esset in aula reverendissimo domino <rs type="person" key="1">oratori</rs> familiaris, qui litteras dirigat. Laudant omnes factum <rs type="person" key="442">matris</rs> <rs type="person" key="5">illius</rs> non adeo, dicunt enim eum bene habere esseque in domo domini <rs type="person" key="965">Covos</rs> bene commendatum, cum eius opera quandoque utantur in vertendis epistolis, praeter haec stipendium habet a <rs type="person" key="30">caesare</rs>, <name type="place" key="569">Galliae</name> quoque dicitur egregie obnoxius esse, non solum in noviluniis, verum omni tempore. Haec a domino <name type="person" key="1861">Obernburger</name>, nostro sene <rs type="person" key="233">Petro</rs> et aliis notis intellexi, ubi autem in <name type="place" key="40">Valledolit</name> erimus, videbo hominem, qui forsan volet super ea re conferre mecum. Ego agam, ut me decebit, nullum penitus habens mandatum. <rs type="person" key="196">Matrem</rs> quoque dicunt velle, ut aliquid ei mittatur, sed consultum puto, ut pro honore vel non pauca vel nihil mittatur etc.
+</p>
+<p>
+Super matrimonio <rs type="person" key="1888">principis Portugaliae</rs> cum <rs type="person" key="1889">filia <rs type="person" key="1047">regis Angliae</rs></rs>, quem nunc ditissimum vocant, dicunt tractari, sed forsan tepidius. Similiter dicunt <rs type="person" key="1607">principem Oraniae</rs> aliquamdiu spe nutritum matrimonii cum <rs type="person" key="1094">filia <rs type="person" key="1094">ducis Lotringiae</rs></rs>, sed repulsam supervenisse, opinantur aliqui propter haec bella, cum forsan <name type="place" key="892">principatus Oraniae</name> in medio <name type="place" key="569">Franciae</name> existens, per regem inimico, ut antea, ademtus sit. Sed de his rebus certi nil scio hactenus, obiter enim haec hic audivi nec audeo curiosius inquirere, causa patet. Iterum me humiliter commendo Vestrae Reverendissimae Dominationi, quae felicissime valeat. 
+</p>
+</div>
+
+<div type="datum">
+<p>
+<app>
+<lem><expan>Dat<ex>ae</ex></expan></lem>
+<rdg><expan>Dat<ex>um</ex></expan></rdg>
+</app>
+ in <name type="place" key="197">Monsson</name>, 11 Septembris 1537.
+</p>
+</div>
+
+<div type="signature">
+<p>
+<expan>E<ex>iusdem</ex></expan> Dominationis Vestrae Reverendissimae totus servus <name type="person" key="42">Fabianus Dameraw</name>
+</p>
+</div>
+
+<div type="postscript">
+<p>
+De morte <rs type="person" key="57">Ioannis <expan>Hagen<ex>sis</ex></expan></rs> puto Dominationem Vestram Reverendissimam scire. Dominus <rs type="person" key="719">Cornelius</rs> his diebus hic manens descripsit vitam et mortem doctoris Brunelli versu heroico, quos sine risu nemo legit, sed nondum absoluit.
+</p>
+</div>
+
+</body>
+
+</text></TEI>

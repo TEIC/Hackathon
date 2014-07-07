@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">	
+
+<front>
+
+<div type="address">
+<p>
+ <pb id="19266_000_AWO_ABD67f178v.jpg" n="AAWO, AB, D. 67, f. 178v"/> 
+</p>
+<p>
+Reverendissimo domino, domino Ioanni Dei gratia episcopo Culmensi, domino et amico carissimo et observandissimo
+</p>
+</div>
+
+</front>
+<body>
+
+<div type="salutation">
+<p>
+ <pb id="19266_000_AWO_ABD67f178r.jpg" n="AAWO, AB, D. 67, f. 178r"/> 
+</p>
+<p>
+Reverendissime domine, domine observandissime. Post solitam commendationem.
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+Gratulor Vestrae Reverendissimae Dominationi, quod iam hac Quadragesima iugum</div> Domini suscipere et pro se ac populo Christiano dona et sacrificia offerre Deo constituit, qua re obturabit ora latrantium, quibus licet liberum non sit, quod volunt, statuere de Vestra Reverendissima Dominatione, libera tamen lingua plerumque innocentibus nocet. Dominus Cornelius scribit ad me, rogans, ut significarem illi, vivatne Vestra Dominatio Reverendissima, cui litteras ipsius mitto et illi iam respondi ac indicavi Vestra Dominatio Reverendissima sacris initiari iam debet. Novarum rerum hic nihil habemus. Reverendissimus dominus episcopus Cracoviensis fuit hic praesens, ex cuius litteris responsum, ut puto, optatum accipiet Vestra Reverendissima Dominatio, cui precor felicitatem cum dono Spiritus Sancti.
+</p>
+</div>
+
+<div type="datum">
+<p>
+<app>
+<lem><expan>Dat<ex>ae</ex></expan></lem>
+<rdg><expan>Dat<ex>um</ex></expan></rdg>
+</app>
+ Cracoviae, XIII Martii MDXXXIII.
+</p>
+</div>
+
+<div type="signature">
+<p>
+Vestrae Reverendissimae Dominationis obsequens Premisliensis subscripsit
+</p>
+</div>
+
+</body>
+
+</text></TEI>

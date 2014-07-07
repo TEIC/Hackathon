@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">	
+
+<front>
+
+<div type="address">
+<p>
+ <pb id="18734_000_AWO_ABD67f1unnafter152.jpg" n="AAWO, AB, D. 6, f. 1 unnumbered after f. 152"/> 
+</p>
+<p>
+Reverendissimo in Christo patri domino <name type="person" key="1">Ioanni Dantisco</name> episcopo Culmensi serenissimarum <rs type="person" key="24 7">maiestatum Poloniae</rs> <supplied reason="paper damaged">secreta</supplied>rio et oratori etc., domino plurimum ho<supplied reason="paper damaged">norando</supplied>
+</p>
+<p>
+Apud <rs type="person" key="30">caesaream catholicamque miestatem</rs>
+</p>
+</div>
+
+</front>
+<body>
+
+<div type="salutation">
+<p>
+ <pb id="18734_000_AWO_ABD67f152r.jpg" n="AAWO, AB, D. 6,  f. 152r"/>  
+</p>
+<p>
+Reverendissime Domine.
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+Plures, quas ad Vestram Reverendissimam Dominationem mensibus decursis dedi</div> litteras Vestrae Dominationis benignissimum et peroptatum desiderant responsum, verum, quia vereor, ne infidi eas interceperint vel neglexerint tabellarii, rescribere decrevi non nimis veritus Vestrae Dominationis benignissimas aures tot litteris offendere, posthac tuae Dominationi summ<add place="in next line">a</add> benignitas et proprii honoris sollicitudo et tot diuturnae ac humanissimae expromissiones in me omnem spem de tua virtute concitaverunt. Verum quia de mense Septembris sequentis anni proximi futuri in provincia <name type="place" key="1007">Calabriae</name> vacat administratio unius ex auditoribus dictae provinciae, quae solent alias decerni per biennium et alias per triennium, propterea Vestram Reverendissimam Dominationem <choice><reg type="lemma">habeo</reg><orig>abeo</orig></choice> exoratam, ut dictae provinciae Calabriae proximam vacaturam audientiae administrationem per triennium a <rs type="person" key="30">caesare</rs> pro me impetrare <choice><corr type="lemma">dignetur</corr><sic>dige...</sic></choice>, et quidquid erogare necesse erit, per litteras cambii per bancos <name type="person" key="1176">Belzerorum</name> remittere, quod in <rs type="place" key="48">hac civitate</rs> <choice><reg type="lemma">habent</reg><orig>abent</orig></choice> negotiatores et respondentes, vel <name type="place" key="14">Neapoli<choice><corr type="lemma"/><sic>s</sic></choice></name>, et statim remittentur, et perquam gratissime, et si <expan>remittere<ex>n</ex>t<choice><corr type="lemma">ur</corr><sic/></choice></expan>, dictam administrationem decernere per triennium Vestram Dominationem exoro, ut instet pro obtinenda triennali administratione, quia solet alias concedi et magno mihi erit commodo et honori. Vale, Reverendissime Domine, et me totum honorem quam meum Vestrae Reverendissimae Dominationi 
+
+<pb id="18734_000_AWO_ABD67f152v.jpg" n="AAWO, AB, D. 6,  f. 152v"/> 
+
+tutissime et benignissime protectioni committo et m<supplied reason="leaf deeply bound">ando</supplied>.
+</p>
+</div>
+
+<div type="datum">
+<p>
+Ex <name type="place" key="48">Bari civitate</name>, XII Novembris 1531.
+</p>
+</div>
+
+<div type="signature">
+<p>
+Vestrae Reverendissimae Dominationis humilis servus <name type="person" key="125">Sigismundus de R<supplied reason="leaf deeply bound">ussis</supplied></name> Barens<supplied reason="leaf deeply bound">is</supplied> <gap reason="leaf deeply bound"/>
+</p>
+</div>
+
+</body>
+
+</text></TEI>

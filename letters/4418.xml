@@ -1,0 +1,75 @@
+<TEI>
+    <teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>
+                <!-- title of the resource -->
+                Ioannes Dantiscus to the burgmeister of Gdansk
+            </title>
+        </titleStmt>
+        <publicationStmt>
+            <p>Test file</p>
+        </publicationStmt>
+        <sourceDesc>
+            <p>From the correspondence of Ioannes Dantiscus</p>
+            
+                <listPerson>
+                    <person xml:id="Pe991"/>
+                    <person xml:id="Pe1"/>
+                    <person xml:id="Pe24"/>
+                    <person xml:id="Pe185"/>
+                    <person xml:id="Pe1094"/>
+                </listPerson>
+            <listPlace>
+                <place xml:id="Pl1"/>
+                <place xml:id="Pl577"/>
+            </listPlace>
+            
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>
+<text>
+
+<front>
+
+<div type="address">
+<p> <pb n="APG 300, 53, 268, p. 162" xml:id="/0/0/13200_000_APG_300_53_268p162.jpg"/> </p>
+<p>
+Denn ersamenn unnd namhafftigenn herrn <rs type="person" key="991">burgermeister unnd rathmann <supplied reason="illegible">der</supplied> koniglichenn stadt Danntzig</rs>, / unsernn besonndern, gutten <expan>frund<ex>en</ex></expan>.
+</p>
+</div>
+
+</front>
+
+<body>
+
+<div type="salutation">
+<p> <pb n="APG 300, 53, 268, p. 159" xml:id="/0/0/13200_000_APG_300_53_268p159.jpg"/> </p>
+<p>
+Unnsernn freuntlichenn grues unnd alles guts zuvoran. Ersame, namhaftige herrn, besonndere, gutte freunde. /
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+Der herrnn rethe brief, unnderschriebenn unnd besiegelt,</div> / wiewol inn dem der ordenntliche gbrauch nicht gehaldenn, / auch die thag zeitt / und stelle, do er gegebenn, / nach ist bliebenn, / hab wir dennoch uf <expan>E<ex>wer</ex></expan> <expan>E<ex>rbarkei</ex>t</expan> bitt, / damit auch in dem unnsere wilferigheit erkennt werde, / mit unnserm hantzeichenn bestetiget / unnd hiebey <expan>E<ex>wer</ex></expan> <expan>E<ex>rbarkei</ex>t</expan> widder lassen zukomenn. / Dieweil aber unnser sonnderlich schreiben / ann <rs type="person" key="24"><expan>ko<ex>niglich</ex>e</expan> <expan>m<ex>aieste</ex>t</expan></rs> inn dem falh unnötig, / nemlich, so der <expan>h<ex>er</ex></expan> <rs type="person" key="185">schatzmeister uf Mariennburg</rs> / sich kurtzlich, / wie wir bericht, / an <expan>ko<ex>nigliche</ex>r</expan> <expan>m<ex>aieste</ex>t</expan> hoff nicht wirt begebenn, / wollet unns solchenn unnsernn brief / mit dem antwurt / uf unnsere gewerbe, / ann <expan>E<ex>wer</ex></expan> <expan>E<ex>rbarkei</ex>t</expan> negst getragenn, / widerumb zustellenn, / unns auch davor haldenn. / So wir wustenn, (: das Gott vorbitt :) solche <rs type="person" key="1094">drey personen</rs>, / wie vonn unns gehoret, solde seinn / inn <expan>E<ex>wer</ex></expan> <expan>E<ex>rbarkei</ex>t</expan> mittel sigenn, / woltenn wir dis, / sich vor sie zuhuttenn / unnd do es sonnst unnser pflicht unnd die noch wurd furdernn, / nicht hie vor unnsern unnderthanenn, / wie unns mit ungrund wirt zugelegt, / mit den wir nicht uber geboteliche weise / gemeinschaft habenn, ane alle schew / bey kenntlichenn nhamen ei<gap reason="stain"/> nicht unanngezeigt lassenn, / dann dieselbtigenn <expan>E<ex>wer</ex></expan> <expan>E<ex>rbarkei</ex>t</expan> vor schadenn zw warnenn, / auch ihn ehre unnd guts, / sovil ummer muglich, / zu zufuegenn, / seinn wir willig unnd begirig. / Gottlichenn gnadenn befolhenn.
+</p>
+</div>
+
+<div type="datum">
+<p>
+<expan>Dat<ex>um</ex></expan> aus unnserm schlos <name type="place" key="1">Heilsberg</name>, denn X <foreign xml:lang="la">Septembris</foreign> M D XLIII.
+</p>
+</div>
+
+<div type="signature">
+<p>
+<name type="person" key="1">Joannes</name>, vonn Gotts gnadenn bischoff zcw <name type="place" key="577">Ermelanndt</name>
+</p>
+</div>
+
+</body>
+
+</text>				
+</TEI>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">	
+
+<front>
+
+<div type="address">
+<p>
+ <pb id="11487_000_BCz_1599p998.jpg" n="BCz, 1599,  p. 998"/> 
+</p>
+<p>
+Reverendissimo in Christo patri domino, domino <name type="person" key="1">Ioanni</name> Dei gratia episcopo Warmiensi, domino et patri gratiosissimo
+</p>
+<p>
+Warmiae
+</p>
+</div>
+
+</front>
+<body>
+
+<div type="salutation">
+<p>
+ <pb id="11487_000_BCz_1599p995.jpg" n="BCz, 1599,  p. 995"/> 
+</p>
+<p>
+Reverendissime in Christo pater et domine, domine gratiosissime et perpetuo observende. 
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+Maiestas sua regia per complures menses ab artetico</div> dolore non molestabatur. Verum ante paucos dies chiragra eum perturbare iterum ag<choice><corr type="lemma">g</corr><sic>r</sic></choice>ressa est. Dolorque quodammodo pacatus. Detumuit manus. Iterum digitus pedis dolere incipit. Iam profecto sua maiestas indies debiliore virtute, ut ex pulsu dinoscere licet esse, conspicitur. E Cracovia scribitur per Valerianum reipublicae Cracoviensis notarium polintores in scriptis dedisse numerum transactae septimanae Cracoviae mortuorum <expan>q<ex>ui</ex></expan> <expan>s<ex>unt</ex></expan> 110 excepta tamen Casimiria et Stradomia, quibus in locis nunc demum virus illud pestiferum sese incredibili saevitia diffundere coepit. Et quantum coniectura assequi licet ex rerum indiciis, non cito <subst><del>illa</del><add place="superinscribed"> ea</add></subst> lues finem sumptura videtur. Certe omnium nostrum merito, praesertim sacerdotum, qui Dei omnipotentis iram sceleribus nostris abominandis concitavimus. Eamque rursus precibus, ieiuniis et morum vitaeque melioris emendatione satagere non admodum adnitimur. Christus salvator noster nos sanos velit servare et animarum, quae in communem omnibus locum abierunt, misereri. Res est sane luctuosa atque atrox quando filius patrem, parentes etiam natos suos amantissimos, in hoc malo derelinquere coguntur. Valeat faustissime et suae sanitatis habeat rationem quam faveo. Reverendissimae Paternitati Vestrae perinde atque mihi et amplius quando sanitas Reverendissimae Paternitatis Vestrae et suae ecclesiae et servitoribus Dei utilis futura sit.
+</p>
+</div>
+
+<div type="datum">
+<p>
+<app>
+<lem><expan>Dat<ex>ae</ex></expan></lem>
+<rdg><expan>Dat<ex>um</ex></expan></rdg>
+</app>
+ <name type="place" key="6">Peterkoviae</name>, in crastino Nativitatis Mariae matris Dei, cuius intercessione mala aura amoveri speratur, anno 1547.
+</p>
+</div>
+ 
+<div type="signature">
+<p>
+Eiusdem Reverendissimae Paternitatis Vestrae <name type="person" key="83">Ioannes Benedictus</name> capellanus scripsit
+</p>
+</div>
+
+</body>
+
+</text></TEI>

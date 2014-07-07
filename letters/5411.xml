@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+
+<front>
+
+<div type="address">
+<p> <pb id="15182_000_GStAPK_HBA_C2No81_1v.jpg" n="GStA, PK, HBA, C 2, No 81, f. 1v"/> </p>
+<p>
+Dem durch<add place="superinscribed">lauch</add>ten, hochgebornen fursten und hern, hern <name type="person" key="18"><expan>Albrecht<ex>en</ex></expan></name>, <supplied reason="paper damaged">marggra</supplied>ffen<anchor id="1"/> zw <name type="place" key="1032">Branden<supplied reason="paper damaged">burg</supplied></name> <supplied reason="paper damaged">u</supplied>nd<anchor id="1"/> <expan>herczog<ex>en</ex></expan> zw <name type="place" key="563">Prewssen</name>, / unserm grosgunstigen, lieben hern und freunde
+</p>
+</div>
+
+</front>
+
+<body>
+
+<div type="salutation">
+<p> <pb id="15182_000_GStAPK_HBA_C2No81_1r.jpg" n="GStA, PK, HBA, C 2, No 81, f. 1r"/> </p>
+<p>
+Durchlauchter, hochgeborner furst, / <expan>grosgunstiger<ex>r</ex></expan>, lieber <expan>her<ex>r</ex></expan> und freundt. / Mein freuntliche und willige dienst / mit wunschung der gnad und frieds des <expan>almechtigen<ex>n</ex></expan> zuvoran. /
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+So dis mol der achtbar</div>, hochgelert <expan>h<ex>e</ex>r</expan> <expan>doctor<ex>r</ex></expan> <name type="person" key="197"><expan>Jo<ex>annes</ex></expan> Reinek</name>, meiner <rs type="person" key="584">svester</rs> <expan>man<ex>n</ex></expan>, / sich tuth zu <expan>Ew<ex>e</ex>r</expan> <expan>durch<ex>lauch</ex>t</expan> / <expan>begeben<ex>n</ex></expan>, / hab ich in nicht ane dis <expan>mein<ex>n</ex></expan> <expan>schreiben<ex>n</ex></expan> an <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan> mocht <expan>von<ex>n</ex></expan> mir <expan>lossen<ex>n</ex></expan>, / der so lange hie neben mir, <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan> <expan>schreib<ex>e</ex>n</expan> wartende, / <expan>vorczogen<ex>n</ex></expan>. / Und ist mir uff etlich brive, / ouch im, / wie es <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan> mit im <expan>vorlossen<ex>n</ex></expan>, / kein antwurt oder bescheidt zu <expan>komen<ex>n</ex></expan>. / Bitt <expan>derhalbenn<ex>n</ex></expan>, wold sein <expan>ausbleiben<ex>n</ex></expan> nicht in <expan>ungenaden<ex>n</ex></expan> <expan>uffnemen<ex>n</ex></expan>, / dan wir haben samptlich bisher uff <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan> <expan>schreib<ex>e</ex>n</expan> gewartet. / Ich nemlich, / das ich heth mocht <expan>wissen<ex>n</ex></expan> <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan> entlich gemuet <expan>dem<ex>m</ex></expan> <expan>h<ex>e</ex>rn</expan> <rs type="person" key="69">bischoff zu Krako</rs> von wegen der greniczen mit <name type="place" key="633"><expan>Litten<ex>n</ex></expan></name> / zu <expan>schreibenn<ex>n</ex></expan>, / und bin noch des erbuttig, / so <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan> uff den <expan>negst<ex>e</ex>n</expan> <foreign xml:lang="la">sanct Andrae</foreign> tag<anchor id="2"/> gen <name type="place" key="6">Peterkau</name> was <expan>schreib<ex>e</ex>n</expan> / oder durch mein <expan>schreiben<ex>n</ex></expan> <expan>entpitten<ex>n</ex></expan> wil, / das ich solchs mit <expan>eigenem<ex>m</ex></expan> boten disse tage wil <expan>fertigen<ex>n</ex></expan> etc. / Ouch hab ich dem <expan>h<ex>e</ex>rn</expan> <rs type="person" key="197">doctor</rs> ein beth zu thun an <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan>, was <name type="person" key="3004">Hansen Sergith</name> belangt, / <expan>befholen<ex>n</ex></expan>. / Bit, <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan> wold in gnediglich <expan>horen<ex>n</ex></expan> / und unser bitt gunstige stadt <expan>geben<ex>n</ex></expan>. / Beschulde ich fruntlich und dinstlich alzeit <expan>gern<ex>n</ex></expan>. / Newe zceitunge, die disse tage an mich gelanget, / wirt der <expan>h<ex>e</ex>r</expan> <rs type="person" key="197">doctor</rs>, / den ich in <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan> gnad und mich in der <expan>selb<ex>e</ex>n</expan> gunst befhele, / <expan>anzcogenn<ex>n</ex></expan> / und, so <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan> in gutter gesuntheit, / mit der sachen etc. ausrichtung noch <expan>willen<ex>n</ex></expan> / wider ist <expan>kom<ex>m</ex>en</expan>, sol mir ein herczliche freudt sein. / Got der almechtige gebe <expan>E<ex>wer</ex></expan> <expan>D<ex>urchlauch</ex>t</expan> seel <expan>un<ex>n</ex>d</expan> leibs heil <expan>un<ex>n</ex>d</expan> langwerige wolfart. /
+</p>
+</div>
+
+<div type="datum">
+<p>
+<expan>Dat<ex>um</ex></expan> <name type="place" key="15">Lobau</name>, den XIII <foreign xml:lang="la"><expan>Nouembr<ex>is</ex></expan> anno <expan>d<ex>omi</ex>ni</expan></foreign> M D XXXIIII.
+</p>
+</div>
+
+<div type="signature">
+<p>
+<name type="person" key="1"><expan>Jo<ex>annes</ex></expan></name>, colmescher bischoff etc. mit eigener hant
+</p>
+</div>
+
+</body>
+
+<back>
+
+<div type="notes">
+
+<note place="app" n="1" target="a1">text written on piece of paper, wich is now lost</note>
+
+<note place="app" n="2" target="a2">November 30</note>
+
+</div>
+
+</back>
+
+</text></TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">	
+
+<front>
+
+<div type="address">
+<p>
+ <pb id="18200_000_Cz_1601p.242.jpg" n="BCK, 1601, p. 242"/> 
+</p>
+<p>
+Reverendo domino <name type="person" key="1">Ioanni Dantisco</name>, electo episcopo Culmensi et apud sacram et catholicam caesaream maiestatem oratori nostro, sincere nobis dilecto
+</p>
+</div>
+
+</front>
+<body>
+
+<div type="signature">
+<p>
+ <pb id="18200_000_Cz_1601p.241.jpg" n="BCK, 1601, p. 241"/> 
+</p>
+<p>
+<name type="person" key="24">Sigismundus Dei gratia rex Poloniae</name>, magnus dux Littuaniae, Russiae totiusque Prussiae ac Masoviae etc. dominus et heres
+</p>
+</div>
+
+<div type="salutation">
+<p>
+Reverende domine, sincere nobis dilecte.
+</p>
+</div>
+
+<div type="main_content">
+<p>
+<div type="incipit">
+Erant apud nos oratores regni Transsilvaniae proficiscunturque</div> ad sacram et catholicam caesaream maiestatem et ad serenissimum dominum Ferdinandum, Hungariae et Boemiae etc. regem, consanguineos fratres nostros carissimos. Ea vero, quae apud nos egerunt et apud illas maiestates acturi sunt, ipsimet coram praesentesque <app>
+<lem><expan>S<ex>trenuitati</ex></expan></lem>
+<rdg><expan>S<ex>inceritati</ex></expan></rdg>
+</app>
+ Tuae declarabunt. Et quia rem iustissimam et piam ac universae rei publicae Christianae perutilem sunt petituri apud caesaream et regiam celsitudinem, committimus <app>
+<lem><expan>S<ex>trenuitati</ex></expan></lem>
+<rdg><expan>S<ex>inceritati</ex></expan></rdg>
+</app> Tuae, ut eos exaudiat, et quicquid pro dexteritate et prudentia sua coram caesarea et regia celsitudine illis opis praestare poterit, nostro nomine praestet. Amamus enim eorum fidem et sinceritatem erga serenissimum dominum regem Ferdinandum, cuius maiestati quaeque felicissima expetimus. Bene valeat <app>
+<lem><expan>S<ex>trenuitas</ex></expan></lem>
+<rdg><expan>S<ex>inceritas</ex></expan></rdg>
+</app> Tua et hos bonos viros omni favore et adiutorio prosequatur, rem officio suo dignam et nobis pergratam factura.
+</p>
+</div>
+
+<div type="datum">
+<p>
+Ex <name type="place" key="2">arce nostra regia Cracoviensi</name>, septima Iulii anno Domini millesimo quingentesimo tricesimo, regni vero nostri vigesimo quarto.
+</p>
+</div>
+
+<div type="signature">
+<p>
+<name type="person" key="24">Sigismundus rex</name> subscripsit.
+</p>
+</div>
+
+</body>
+
+</text></TEI>
