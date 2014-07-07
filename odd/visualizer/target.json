@@ -1,0 +1,26 @@
+{ 
+	"modules": { 
+		"coffee": {
+			"name": "module name",
+			"included": true,
+			"elements": { 
+				"cats":	{ 
+				  "mode": "changed",
+				  "score": 1000,
+				  "changes": {
+					"attributes": false,
+					"desc": true
+				  }
+				},
+				"dogs":	{ 
+				  "mode": "changed",
+				  "score": 1000,
+				  "changes": {
+					"attributes": true,
+					"desc": true
+				  }
+				}
+			}			
+		}
+	}
+}
