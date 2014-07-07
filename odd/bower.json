@@ -1,0 +1,16 @@
+{
+  "name": "ODDTreeMap",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "d3": "~3.4.9",
+    "jquery": "~2.1.1"
+  }
+}
