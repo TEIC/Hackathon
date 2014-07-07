@@ -1,0 +1,30 @@
+{ 
+	"modules": [
+		{
+			"name": "module name",
+			"included": true,
+			"elements": [	    
+				{ "name": "cats",
+				  "mode": "changed",
+				  "score": 1000,
+				  "changes": {
+					"attributes": true,
+					"exemplum": true,
+					"desc": true,
+					"constraint": true
+				  }
+				},
+				{ "name": "dogs",
+				  "mode": "changed",
+				  "score": 1000,
+				  "changes": {
+					"attributes": true,
+					"exemplum": false,
+					"desc": true,
+					"constraint": true
+				  }
+				}
+			]			
+		}
+	]
+}
