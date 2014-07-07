@@ -13,7 +13,7 @@
 <xsl:variable name="inq">"</xsl:variable>
 <xsl:variable name="outq">\\"</xsl:variable>
 <xsl:template match="/">
-  <xsl:call-template name="main"/>
+  <xsl:call-template name="extract"/>
 </xsl:template>
 
 
@@ -23,7 +23,7 @@
     <xsl:variable name="symbols" select="//TEI[.//idno=$docId]//decoNote"/>
     
     <n id="{ancestor-or-self::TEI/teiHeader//idno[1]}">
-      
+    
       <xsl:for-each select="@*">
         <xsl:copy-of select="."/>
       </xsl:for-each>
@@ -32,15 +32,21 @@
        <xsl:copy-of select="$symbols"/>
      </object>
       <!--
-      <xsl:choose>
-	<xsl:when test="@when">
-	  <xsl:value-of select="@when"/>
-	</xsl:when>
-        <xsl:otherwise>
-	       <xsl:apply-templates select="."/>
-	</xsl:otherwise>
-      </xsl:choose>
+      <xsl:attribute name="xpath">
+	<xsl:for-each select="ancestor::*">
+	  <xsl:value-of select="name()"/>
+	  <xsl:text>[</xsl:text>
+	  <xsl:value-of select="position()"/>
+	  <xsl:text>]</xsl:text>
+	  <xsl:text>/</xsl:text>
+	</xsl:for-each>
+	<xsl:value-of select="name()"/>
+	  <xsl:text>[</xsl:text>
+	  <xsl:value-of select="position()"/>
+	  <xsl:text>]</xsl:text>
+      </xsl:attribute>
       -->
+      
     </n>
   </xsl:for-each>
 </xsl:template>
@@ -55,6 +61,7 @@
   <xsl:text>{"TEI": [</xsl:text>
   <xsl:for-each select="$objects/*" >
     <xsl:text>{ </xsl:text>
+    <xsl:sequence select="tei:json('xpath',@xpath, false())"/>
     <xsl:sequence select="tei:json('id',@id, false())"/>
     <xsl:sequence select="tei:json('value',.,false())"/>
     <xsl:sequence select="tei:dateJson('date',.,false())"/>

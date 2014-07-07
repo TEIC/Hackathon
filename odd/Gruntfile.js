@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         src: ['bower_components/jquery/dist/jquery.min.js', 
               'bower_components/underscore/underscore.js', 
               'bower_components/d3/d3.min.js'],
-        dest: 'src/main.js'
+        dest: 'visualizer/lib/main.js'
       }
     },
       
