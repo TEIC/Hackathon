@@ -51,7 +51,9 @@
           <attList>
             <attDef ident="rend" mode="change">
               <valList type="closed" mode="add">
-                <valItem ident="bold"/>
+                <valItem ident="bold">
+		 <desc>JC: It is bold</desc>
+		</valItem>
                 <valItem ident="boxed"/>
                 <valItem ident="center"/>
                 <valItem ident="italic"/>
@@ -60,6 +62,8 @@
             </attDef>
           </attList>
         </classSpec>
+
+
 
 	<elementSpec ident="title" module="core" mode="change">
 	  <attList>

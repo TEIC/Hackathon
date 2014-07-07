@@ -1,0 +1,2265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en"
+    xmlns:rng="http://relaxng.org/ns/structure/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TEI P5 Customization For The LEAP Project </title>
+                <editor xml:id="JC">James Cummings</editor>
+                <principal xml:id="AW">Adrian S. Wisnicki</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>2014-04-29 -- Version: 1.0.7 </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Adrian S. Wisnicki</authority>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+                        Attribution 3.0 Unported</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2014-05-21" who="#AW">Additional corrections and expansion</change>
+            <change when="2014-04-29" who="#JC">Additional corrections and regeneration of schemas</change>
+            <change when="2014-04-10" who="#AW">Corrections and expansion</change>
+            <change when="2014-04-09" who="#JC">Updating header section and making
+                corrections</change>
+            <change when="2014-03-22" who="#JC">Adding documentation</change>
+            <change when="2014-02-12" who="#JC">Initial creation</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <divGen type="toc" xml:id="toc"/>
+            <div xml:id="about">
+                <head>About This LEAP TEI P5 Customization</head>
+
+                <p> This TEI P5 ODD Customization was created by James Cummings with assistance from
+                    Adrian S. Wisnicki, with the initial prose based on the <hi rend="italic"
+                        >Livingstone Online</hi>'s TEI P5 Tagging Guidelines written by Adrian S.
+                    Wisnicki and Heather F. Ball. The TEI P5 ODD is released under a <ref target="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 Unported license</ref>. </p>
+            </div>
+
+
+            <div xml:id="overview">
+                <head>Overview</head>
+                <p/>
+
+                <div xml:id="documentation-markup">
+                    <head>Documentation Markup</head>
+                    <p>In the prose of this documentation XML Elements, Attributes and Values appear
+                        as follows:</p>
+                    <list>
+                        <item><label>Elements appear marked as:</label>
+                            <gi>persName</gi> (which is a link to its reference information) or
+                                <tag>/tagName</tag> (a tag fragment which is not a link to its
+                            reference information)</item>
+                        <item><label>Attributes appear marked as:</label>
+                            <att>attributeName</att></item>
+                        <item><label>Attribute values appear marked as:</label>
+                            <val>attributeValue</val></item>
+                        <item><label>Blocks of original text appear as:</label>
+                            <eg>the man turned out to be Livingstone</eg>
+                        </item>
+                        <item><label>Blocks of marked up text appear as:</label>
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples"> the man turned out to be <persName>Livingstone</persName>
+                            </egXML>
+                        </item>
+                    </list>
+                    <p>(<hi rend="bold">Note: </hi> the colors/formats are provided only to assist
+                        you in distinguishing between tags, attributes, and values. You do not need
+                        to change font colors in your transcriptions as you are transcribing. In
+                        general these colours mimic those found in the oxygen XML editor.)</p>
+                </div>
+
+
+
+                <div xml:id="basic-rules">
+                    <head>Marking Up Text -- Basic Rules</head>
+
+                    <list type="ordered">
+                        <item>
+                            <p>When text is marked up, a tag is placed at the beginning of the text
+                                as well as at the end, per the following format: <label
+                                    rend="italics">Original text:</label>
+                                <eg>the man turned out to be Livingstone</eg>
+                                <label rend="italics">Marked up:</label>
+                                <egXML xmlns="http://www.tei-c.org/ns/Examples">the man turned out to be <persName>Livingstone</persName>
+                                </egXML>
+                            </p>
+                            <p><hi rend="bold">Note:</hi> that the first tag denotes the beginning
+                                of the marked up text, while the second tag begins with "/" and
+                                denotes the end of the marked up text. </p>
+                        </item>
+                        <item><p>If the opening tag includes an attribute, the attribute is NOT
+                                repeated in the closing tag: <label rend="italics">Original
+                                    text:</label>
+                                <eg>we were greeted by the Nyamwezi</eg>
+                                <label rend="italics">Marked up:</label>
+                                <egXML xmlns="http://www.tei-c.org/ns/Examples">we were greeted by the <term type="tribe">Nyamwezi</term>
+                                </egXML>
+                            </p>
+                        </item>
+                        <item><p>If there are two or more tags nested over one bit of text, the
+                                closing tags are placed in reverse order:</p>
+                            <label rend="italics">Original text:</label>
+                            <eg>we saw the Lualaba</eg>
+                            <label rend="italics">Marked up:</label>
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">we saw the <placeName><geogName>Lualaba</geogName></placeName></egXML>
+                        </item>
+
+                        <item><p>An attribute is always accompanied by a value, for instance:
+                                <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                    <term type="tribe">Nyamwezi</term>
+                                </egXML></p>
+                        </item>
+                        <item><p>If an opening tag ends with a "/", then it is an "empty element"
+                                combining the opening and closing tag and need not be used again at
+                                the end of whatever is being marked up. <label>Original
+                                    text:</label>
+                                <eg>we saw the Lualaba</eg>
+                                <label rend="italics">Marked up:</label>
+                                <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                    <lb/>we saw the Lualaba </egXML></p>
+                        </item>
+                        <item><p> Any problems related to the transcription should be addressed
+                                directly in the transcription at the points where they occur using
+                                the "comment out" feature. <label>Original text:</label>
+                                <eg>He called me over.</eg>
+                                <label rend="italics">Marked up:</label>
+                                <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">He called me over.<!-- The text is very illegible here and I've done the best I could. 
+However, this might also be transcribed as "He willed in on me." 
+What should I do? DH --></egXML>
+                                In other words the commented out bit begins with <code
+                                    rend="comment">&lt;--</code> followed by a space and ends with
+                                    <code rend="comment">--&gt;</code>. Always add your initials inside but at the end of the comment.
+                               </p>
+                        </item>
+                    </list>
+                </div>
+
+                <div xml:id="file-naming">
+                    <head>File Naming</head>
+                    <p> When transcribing, please use the LEAP designated file name for the given
+                        item. This can be found on <hi rend="italic">Livingstone Online</hi> along
+                        with the rest of the bibliographical data for the given item. So, for
+                        instance, Livingstone's letter to Rev. D.G. Watt (18 August 1850) would be:
+                            <eg>liv_000699.xml</eg>
+                    </p>
+                    <p> If you are transcribing the given item with other individuals in sequence
+                        (and so the transcription is not yet final) please add your initials
+                        directly after the LEAP designated name: <eg>liv_000699_aw_hb_ks_hb.xml</eg>
+                    </p>
+                    <p> In the above example, the four sets of intials indicate that the
+                        transcription has been worked on in four stages. The first three stages were
+                        done by three different individuals (aw, hb, ks) and the last stage was done
+                        by the second individual (hb). </p>
+                    <p>The <att>xml:id</att> value on the <gi>TEI</gi> element of any LEAP file
+                        should be the initial parts of the LEAP designated file name without the
+                        '.xml' suffix.
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">&lt;?xml-model href="leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+&lt;?xml-model href="leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="liv_000699">
+ <!-- Change the xml:id above to be the LEAP file name without suffix --> 
+</TEI>
+                </egXML>
+                    </p>
+                    <p><hi rend="bold">Please Note: </hi> All TEI P5 XML files are in the TEI
+                        Namespace which means their root element has a psuedo-attribute
+                            <att>xmlns</att> with a value of
+                        "<val>http://www.tei-c.org/ns/1.0</val>". This is the TEI Namespace and is
+                        inherited by any elements underneath keeps TEI elements safe from confusion
+                        with similarly-named elements from other schemes.</p>
+                    <p><specList>
+                            <specDesc key="TEI" atts="xml:id"/>
+                        </specList>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div xml:id="header">
+                <head>The TEI Header</head>
+
+                <p>Each TEI file has a <gi>teiHeader</gi> element at the start which stores all the
+                    metadata for the electronic text. A sample full <gi>teiHeader</gi> element looks
+                    like:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">
+<teiHeader>
+<fileDesc>
+    <!-- Change title below-->
+    <titleStmt>
+        <title>Letter to Rev. D.G. Watt, 18 August 1850</title>
+        <author>David Livingstone</author>
+        <principal>Adrian S. Wisnicki</principal>
+        <principal>Christopher Lawrence</principal>
+        <!-- One respStmt below per person who works on the file -->
+        <respStmt xml:id="AW">
+            <name>Adrian S. Wisnicki</name>
+            <!-- One resp below per type of responsiblity-->
+            <resp>Transcription</resp>
+            <resp>Encoding</resp>
+            <resp>Editorial Decisions</resp>
+        </respStmt>
+        <respStmt xml:id="KS">
+            <name>Kate Simpson</name>
+            <resp>Transcription</resp>
+            <resp>Encoding</resp>
+        </respStmt>
+        <respStmt xml:id="CL">
+            <name>Christopher Lawrence</name>
+            <resp>Proofreading</resp>
+        </respStmt>
+    </titleStmt>
+    <publicationStmt>
+        <authority>Livingstone Online</authority>
+        <publisher>UCLA Digital Library</publisher>
+        <pubPlace>Los Angeles, CA, USA</pubPlace>
+        <!-- Possible year update below -->
+        <date>2014</date>
+        <!-- Possible license update below -->
+        <availability>
+            <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+                All materials are licensed for use under the 
+                <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                    Creative Commons Attribution-Noncommercial 3.0 Unported License
+                </ref>. 
+                (c) Dr. Neil Imray Livingstone Wilson, 2011
+            </licence>
+        </availability>                                
+    </publicationStmt>
+    <sourceDesc>
+        <!-- Change msIdentifier information below as relevant -->
+        <!-- Information can usually be found on Livingstone Online or be provided by the project team -->
+        <msDesc>
+            <msIdentifier>
+                <country>United Kingdom</country>
+                <settlement>Blantyre</settlement>
+                <repository>David Livingstone Centre</repository>
+                <idno type="shelfmark">Cat 778</idno>
+                <!-- Add the C and C number below -->
+                <!-- The C and C number can usually be found on Livingstone Online or be provided by the project team -->
+                <altIdentifier>
+                    <idno type="ccnumber">0229</idno>
+                </altIdentifier>
+            </msIdentifier>
+            <!-- more manuscript description could be provided here by project if available -->
+            <!-- for example: handDesc -->
+            <physDesc>
+                <handDesc>
+                    <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                        but thought not David Livingstone's.</handNote>
+                </handDesc>
+            </physDesc>
+        </msDesc>
+        <bibl type="sourceMetadata">
+            <!-- change bibl information below as relevant; 
+title is usually same as the titleStmt above; 
+mark any information not known as "unknown" -->
+            <title>Letter to Rev. D.G. Watt, 18 August 1850</title>
+            <author xml:id="DL">David Livingstone</author>
+            <date type="composition" when="1850-08-18">18 August
+                1850</date>
+            <placeName type="compositionPlace">Kolobeng</placeName>
+            <persName type="addressee">Rev. D.F. Watt</persName>
+        </bibl>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<revisionDesc>
+    <!-- Most recent changes should be at the top; one per major stage of development -->
+    <change when="2013-04-03" who="#AW">Additional encoding</change>
+    <change when="2013-01-06" who="#CL">Proofreading</change>
+    <change when="2012-12-04" who="#KS">Initial transcription and XML
+        encoding</change>
+</revisionDesc>
+</teiHeader>
+                    </egXML>
+                </p>
+                <p>That might look overwhelming, so let's break that down. Notice that there are
+                    really only a few elements directly inside <gi>teiHeader</gi>:
+                    <gi>fileDesc</gi>, <gi>profileDesc</gi>, and <gi>revisionDesc</gi>. Take a look
+                    at the header text above. You'll need to change some parts of this text
+                    (indicated in the comments) each time you start a new file in XML. Please copy
+                    the data exactly as found on <hi rend="italic">Livingstone Online</hi>. </p>
+
+                <!-- note: nested div below -->
+
+                <div xml:id="header-titleStmt">
+                    <head>The TEI Header: Adding Title and Responsibilities</head>
+                    <p>Once you have found the corresponding entry for the item you're transcribing
+                        on <hi rend="italic">Livingstone Online</hi>, you will need to modify the
+                        template to match this information.</p>
+                    <p>The item <gi>title</gi> should match the title found on <hi rend="italic"
+                            >Livingstone Online</hi>.</p>
+                    <p> For each new person who works on the file, they should add a
+                            <gi>respStmt</gi> with an <att>xml:id</att> with their initials as the
+                        value. If a person has more than one responsibility the <gi>respStmt</gi>
+                        should have more than one <gi>resp</gi> element.
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">    <!-- Change title below -->
+<titleStmt>
+    <title>Letter to Rev. D.G. Watt, 18 August 1850</title>
+    <author>David Livingstone</author>
+    <principal>Adrian S. Wisnicki</principal>
+    <!-- One respStmt below per person who works on the file -->
+    <respStmt xml:id="AW">
+        <name>Adrian S. Wisnicki</name>
+        <!-- One resp below per type of responsiblity-->
+        <resp>Transcription</resp>
+        <resp>Encoding</resp>
+        <resp>Editorial Decisions</resp>
+    </respStmt>
+    <respStmt xml:id="KS">
+        <name>Kate Simpson</name>
+        <resp>Transcription</resp>
+        <resp>Encoding</resp>
+    </respStmt>
+    <respStmt xml:id="CL">
+        <name>Christopher Lawrence</name>
+        <resp>Proofreading</resp>
+    </respStmt>
+</titleStmt>
+</egXML>
+                    </p>
+
+                    <p>Definitions of the elements used above are: <specList>
+                            <specDesc key="titleStmt"/>
+                            <specDesc key="title"/>
+                            <specDesc key="author"/>
+                            <specDesc key="principal"/>
+                            <specDesc key="respStmt"/>
+                            <specDesc key="name"/>
+                            <specDesc key="resp"/>
+                        </specList>
+                    </p>
+                </div>
+
+                <div xml:id="header-publicationStmt">
+                    <head>The TEI Header: Publication Statement</head>
+                    <p>You shouldn't normally have to change the <gi>fileDesc</gi>'s publication
+                        statement (other than the date and license), stored in a <gi>publicationStmt</gi>
+                        element:
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><!-- Publication Statement -->
+<publicationStmt>
+    <authority>Livingstone Online</authority>
+    <publisher>UCLA Digital Library</publisher>
+    <pubPlace>Los Angeles, CA, USA</pubPlace>
+    <!-- Possible year update below -->
+    <date>2014</date>
+    <!-- Possible license update below -->
+    <availability>
+        <licence target="https://creativecommons.org/licenses/by-nc/3.0/">
+            All materials are licensed for use under the 
+            <ref target="https://creativecommons.org/licenses/by-nc/3.0/">
+                Creative Commons Attribution-Noncommercial 3.0 Unported License
+            </ref>. 
+            (c) Dr. Neil Imray Livingstone Wilson, 2011
+        </licence>
+    </availability>                                
+</publicationStmt>
+</egXML></p>
+
+                    <p>Definitions of the elements used above are: <specList>
+                            <specDesc key="publicationStmt"/>
+                            <specDesc key="authority"/>
+                            <specDesc key="publisher"/>
+                            <specDesc key="pubPlace"/>
+                            <specDesc key="date"/>
+                            <specDesc key="availability"/>
+                            <specDesc key="licence"/>
+                            <specDesc key="ref"/>
+                        </specList>
+                    </p>
+                </div>
+
+                <div xml:id="header-msDesc">
+                    <head>The TEI Header: The Source Description</head>
+                    <p>The <gi>msDesc</gi> element must contain an <gi>msIdentifier</gi> where
+                        elements are given in a specific order from most general to most specific.
+                        First location elements like <gi>country</gi> and <gi>settlement</gi>,
+                        followed by institutional data like <gi>institution</gi> and/or
+                            <gi>repository</gi>, followed by an <gi>idno</gi> and any alternative
+                        identifiers <gi>altIdentifier</gi>.
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><!-- Change msIdentifier information below as relevant -->
+<!-- Information can usually be found on Livingstone Online or be provided by the project team -->
+<msDesc>
+    <msIdentifier>
+        <country>United Kingdom</country>
+        <settlement>Blantyre</settlement>
+        <repository>David Livingstone Centre</repository>
+        <idno type="shelfmark">Cat 778</idno>
+        <!-- Add the C and C number below -->
+        <!-- The C and C number can usually be found on Livingstone Online or be provided by the project team -->
+        <altIdentifier>
+            <idno type="ccnumber">0229</idno>
+        </altIdentifier>
+    </msIdentifier>
+    <physDesc>
+        <handDesc>
+            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                but thought not David Livingstone's.</handNote>
+        </handDesc>
+    </physDesc>
+</msDesc>
+                    </egXML>
+                    In this case a note of the hands in the manuscript is given in a <gi>handNote</gi> with an <att>xml:id</att> attribute 
+                        that can be pointed to from additions or deletions in the text. See <ptr target="#add-del"/>. More than one <gi>handNote</gi> can be recorded in 
+                        the <gi>handDesc</gi> inside the <gi>physDesc</gi> element.  The default assumption is that all writing is by 
+                        David Livingstone so his hand need not be recorded.
+                    </p>
+                    <p>After the closing <tag>/msDesc</tag> there is a <gi>bibl</gi> element
+                        containing a variety of source metadata. You must update the: <list
+                            type="ordered">
+                            <item>title (usually the same as in <gi>titleStmt</gi>) </item>
+                            <item>date of composition (both the human readable content and the
+                                    <att>when</att> attribute)</item>
+                            <item>place of composition (if known, otherwise 'Unknown')</item>
+                            <item>name of the addressee (if known, otherwise 'Unknown')</item>
+                        </list>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><!-- change bibl information below as relevant; 
+title is usually same titleStmt above; 
+mark any information not known as "Unknown" -->
+<bibl type="sourceMetadata">
+    <title>Letter to Rev. D.G. Watt, 18 August 1850</title>
+    <author xml:id="DL">David Livingstone</author>
+    <date type="composition" when="1850-08-18">18 August 1850</date>
+    <placeName type="compositionPlace">Kolobeng</placeName>
+    <persName type="addressee">Rev. D.F. Watt</persName>
+</bibl>  
+</egXML>
+                    </p>
+
+
+                    <p>Definitions of the elements used above are: <specList>
+                            <specDesc key="msDesc"/>
+                            <specDesc key="msIdentifier"/>
+                            <specDesc key="country"/>
+                            <specDesc key="settlement"/>
+                            <specDesc key="institution"/>
+                            <specDesc key="repository"/>
+                            <specDesc key="idno"/>
+                            <specDesc key="altIdentifier"/>
+                            <specDesc key="bibl"/>
+                            <specDesc key="title"/>
+                            <specDesc key="author"/>
+                            <specDesc key="date"/>
+                            <specDesc key="placeName"/>
+                            <specDesc key="persName"/>
+                        </specList>
+                    </p>
+                </div>
+
+                <div xml:id="header-profileDesc">
+                    <head>The TEI Header: The Profile Description</head>
+                    <p>The profile description contains additional metadata about the file. In the
+                        case of LEAP files this is used to store the language(s) in the document.
+                        Usually this will just be English and so should not be changed.
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><!-- Profile Description  -->
+<profileDesc>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+                        </egXML>
+                        However, multiple <gi>language</gi> elements can be provided if necessary
+                        and should have the proper ISO 639 language code for the language. See <ptr
+                            target="#foreign-words"/>. </p>
+
+
+
+                    <p>Definitions of the elements used above are: <specList>
+                            <specDesc key="profileDesc"/>
+                            <specDesc key="langUsage"/>
+                            <specDesc key="language" atts="ident"/>
+                        </specList>
+                    </p>
+                </div>
+
+                <div xml:id="header-revisionDesc">
+                    <head>The TEI Header: The Revision Description</head>
+                    <p>A later part of the header, the <gi>revisionDesc</gi>, contains entries that
+                        record the major milestones of work completed on, or updates to, the file:
+<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><!-- Revision Description -->
+<revisionDesc>
+    <!-- Most recent changes should be at the top; one per major stage of changes -->
+    <change when="2013-04-03" who="#AW">Additional encoding</change>
+    <change when="2013-01-06" who="#CL">Proofreading</change>
+    <change when="2012-12-04" who="#KS">Initial transcription and XML
+        encoding</change>
+</revisionDesc>
+                        </egXML> 
+                        When working from the encoding template, either change the information in this
+                        entry as relevant (if you are the first one working on the given item) or
+                        add a new iteration of this element above the previous one to record a new
+                        stage of devleopment. For each iteration, you need to change the the
+                            <att>when</att> attribute to the correct YYYY-MM-DD format. You need to
+                        change <att>who</att> attribute to have a value of your initials prefixed
+                        with a '#': <val>#AW</val> to match your initials. This URI fragment points
+                        to the <gi>respStmt</gi> you added above and records your responsibility in
+                        making this change. Finally, you need to provide the appropriate description
+                        of your work. A <gi>change</gi> element should only be provided at each
+                        major stage of file development.</p>
+                    <p>Definitions of the elements used above are: <specList>
+                            <specDesc key="revisionDesc"/>
+                            <specDesc key="change" atts="when who"/>
+                        </specList>
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div xml:id="divisions">
+                <head>Divisions of the Text</head>
+                
+                <p>We use the <gi>div</gi> to contain the main body of text of any given Livingstone object, 
+                    so in most cases a transcription will only have 
+                    one <gi>div</gi> elment that opens and closes the text. 
+                    However, there are some cases where a second <gi>div</gi> element should be used. 
+                    See <ptr target="#front-back"/> and <ptr target="#text-direction"/>.</p>
+                <p>
+                    <specList>
+                        <specDesc key="div"/>
+                    </specList>
+                </p>
+                
+            </div>
+            
+            <div xml:id="front-back">
+                <head>Front and Back Matter</head>
+                
+                <p>Use <gi>div</gi> plus the <gi>front</gi> and <gi>back</gi> elements (siblings of the <gi>body</gi> element) to contain to any material that, respectively, precedes (e.g., a table of contents) 
+                    or succeeds (e.g. an appendix) the main text being encoded.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><front><div><!-- Table of contents goes here --></div></front></egXML>
+                </p>
+                <p>
+                    <specList>
+                        <specDesc key="front"/>
+                        <specDesc key="back"/>
+                    </specList>
+                </p>
+                
+            </div>
+
+            <div xml:id="pagebreak">
+                <head>The Beginning of a New Page</head>
+                <p>After the initial <gi>text</gi><gi>body</gi><gi>div</gi> tags (already in the
+                    diary template document), make sure there is a <gi>pb</gi> element at the
+                    beginning of each new page/image that you transcribe. Note that the manner in
+                    which this is based on the LEAP designated file name
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <pb facs="liv_000699_0001.jpg" n="0001"/>
+                        <!-- a page worth of text -->
+                        <pb facs="liv_000699_0002.jpg" n="0002"/>
+                    </egXML>
+                </p>
+                <p><hi rend="bold">Note</hi> that this combined or empty element ends with a "/" and
+                    has no separate closing tag. The <att>facs</att> attribute points to the image
+                    facsimile for this page, the <att>n</att> attribute records the project page
+                    number separately.</p>
+
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="pb" atts="facs n"/>
+                    </specList>
+                </p>
+            </div>
+            <div xml:id="linebreak">
+                <head>The Beginning of a Manuscript Line</head>
+                <p>Whenever you come to the beginning of a manuscript line, use
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><lb/></egXML> 
+                    No corresponding tag is needed at the end of the line. <label rend="italic"
+                        >Original text:</label>
+                    <eg> As we traveled <lb/>I came <lb/>across two men.</eg>
+                    <label rend="italic">Marked up:</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <lb/>As we traveled 
+                        <lb/>I came 
+                        <lb/>across two men.
+                    </egXML>
+                </p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="lb"/>
+                    </specList>
+                </p>
+
+
+            </div>
+            <div xml:id="paragraph">
+                <head>The Beginning of a New Paragraph</head>
+                <p>When you start a new paragraph, use the following tag: <gi>p</gi></p>
+                <p>The <att>rend</att> attribute is used to indicate information about the rendering
+                    of the paragraph as a whole in the original source. For
+                    example, if the paragraph as a whole was centered on the page, you might give it
+                    a value of "<val>center</val>" or if aligned right a value of
+                    "<val>right</val>". The use of <att>rend</att> to say whether something is
+                    centered or right (left is considered the default so there is no need to record
+                    that) is a bit of a judgment call regarding the placement of the paragraph on
+                    the page.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <p rend="right">This paragraph is aligned to the right on the page.</p>
+                    </egXML></p>
+                <p>For more information about the <att>rend</att> attribute see <ptr
+                        target="#formatting"/>. </p>
+                <p>The default assumption is that a paragraph is indented, so there is no need
+                    to mark that. For marking the exceptionally indented first lines of paragraphs
+                    see <ptr target="#extra-space"/>.</p> 
+				<p>However, if a paragraph is not indented,
+                    please mark it as follows:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><p rend="no-indent">This paragraph is not indented</p></egXML></p>
+				<p><hi rend="bold">Note:</hi> It is especially important to use <tag>p rend="no-indent"</tag> when marking new, dated diary entries that Livingstone begins on a new line but does not indent.</p>
+                <p>Also, remember at the end of the paragraph to use the closing paragraph tag
+                        <tag>/p</tag>.</p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="p"/>
+                    </specList>
+                </p>
+
+            </div>
+            
+            <div xml:id="dates">
+                <head>Dates</head>
+                <p>For marking up dates use the <gi>date</gi> element with the <att>when</att>
+                    attribute:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <date when="1871-02-05">5th February 1871</date>
+                    </egXML>
+                    The value of the attribute should always be given in this YYYY-MM-DD format:
+                    namely four-digit year, two-digit month, two-digit day. This is an important
+                    international standard for representing dates and stops people and computers
+                    getting confused as to whether '05/02/71' means the second of May or the fifth
+                    of February.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">We visited on <date when="1871-02-05">5 February 1871</date></egXML>
+                    Or if the day isn't given:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">We visited in <date when="1871-02">February 1871</date></egXML>
+                    However, if the day (and month) are given, but not the year, yet you know the
+                    year provide it. For instance, if Livingstone begins a diary entry with "5th"
+                    but you know from previous entries that this actually means 5th February 1871,
+                    then code it as follows:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">We visited last year on <date when="1871-02-05">February 5th</date></egXML>
+                    There are also ways to indicate that you don't know what the year is:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">We visited on <date when="--02-05">5th February</date></egXML>
+                    but in these cases you should bring it to the project's attention. </p>
+                <p>There are also other dating attributes <att>from</att> and <att>to</att> to
+                    provide a start and end date of a range. As well as <att>notBefore</att> and
+                        <att>notAfter</att> to giving the earliest and latest possibilities for an
+                    uncertain date. These should only be used with project consultation.</p>
+                <p>For coding dates that Livingstone adds to the margin of the <hi rend="italic">Unyanyembe Journal</hi>, see <ptr target="#notes"/>.</p>
+
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="date" atts="when from to notBefore notAfter"/>
+                    </specList>
+                </p>
+
+            </div>
+            
+            
+            <div xml:id="letters">
+                <head>Letters</head>
+            <div xml:id="openers-closers">
+                <head>The Opening and Closing of Letters</head>
+                <p>Note that the text that opening and closing of letters often have things which
+                    aren't strictly paragraphs. The TEI has special elements just for these. At the
+                    start of a division there are elements for datelines (<gi>dateline</gi>) and
+                    salutations (<gi>salute</gi>) and place names (<gi>placeName</gi>). There is
+                    also <gi>opener</gi> to group together elements such as this. If all of the
+                    elements of a dateline are provided in a single block then placing them inside
+                        <gi>dateline</gi> is preferred.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <opener>
+                            <dateline rend="right">
+                                <placeName>Hadley Green</placeName>
+                                <date when="1857-08-22">22 August<lb/> 1857</date>
+                            </dateline>
+                            <salute>My Dear Sir,</salute>
+                        </opener>
+                    </egXML>
+                </p>
+                <p>Likewise the end of a letter may have a closing elements (<gi>closer</gi>)
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <closer>
+                            <salute>Sincerely,</salute>
+                            <signed><persName>David Livingstone</persName></signed>
+                        </closer>
+                    </egXML>
+                </p>
+                <p>For both the <gi>opener</gi> and <gi>closer</gi>, line breaks should be marked in
+                    the fashion described above (see <ptr target="#linebreak"
+                    />).<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">
+<lb/><opener><dateline rend="right"><placeName>Hadley Green</placeName>
+<lb/><date when="1857-08-22">22 August<lb/> 1857</date></dateline>
+<lb/>
+<lb/><salute>My Dear Sir,</salute></opener>
+                    </egXML></p>
+
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="opener"/>
+                        <specDesc key="dateline"/>
+                        <specDesc key="placeName"/>
+                        <specDesc key="date" atts="when"/>
+                        <specDesc key="salute"/>
+                        <specDesc key="closer"/>
+                        <specDesc key="signed"/>
+                        <specDesc key="persName"/>
+                    </specList> The <gi>date</gi> and <gi>persName</gi> elements are discussed in
+                    more detail below. </p>
+            </div>
+
+
+                <div xml:id="postal-addresses">
+                    <head>Postal Address of Letter Recipient</head>
+                    
+                    <p>The portion of each letter that contains that postal address of the letter recipient should be enclosed in an <gi>address</gi> element. Each line should be marked with <gi>addrLine</gi>.
+                        
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">
+<address>
+<addressLine/><persName>Bevan Braithwaite</persName>
+<addressLine/><placeName>3 New Court</placeName>
+<addressLine/><placeName>Lincoln's Inn</placeName>
+</address></egXML>
+                    </p>
+                    <p>
+                        <specList>
+                            <specDesc key="addrLine"/>
+                            <specDesc key="address"/>
+                        </specList>
+                    </p>
+                    
+                </div>
+                
+                
+                
+                <div xml:id="postscripts">
+                    <head>Postscripts</head>
+                    <p>Use the <gi>postscript</gi> element to contain 
+                        the entirety of any postscript added to a letter. Each separate postscript should be contained by its own element. 
+                        The <att>n</att> may be used to number successive postscripts.
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">
+<lb/><postscript n="1"><label>P.S.</label> Give my regards 
+<lb/>to your children.</postscript>
+<lb/><postscript n="2"><label>P.P.S.</label> And greet your parents</postscript></egXML>
+                    </p>
+                    <p>
+                        <specList>
+                            <specDesc key="postscript"/>
+                        </specList>
+                    </p>
+                    
+                </div>
+                
+            </div>
+
+            <div xml:id="composition">
+                <head>Marking Authorial Composition Practices</head>
+                <p/>
+
+            <div xml:id="headings">
+                <head>Any Type of Heading</head>
+                
+                <p>Use the <gi>head</gi> element for any type of heading, such as the title of a chapter or section or the heading of a list
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><head>Chapter I</head></egXML>
+                </p>
+                <p>
+                    <specList>
+                        <specDesc key="head"/>
+                    </specList>
+                </p>
+                
+            </div>
+            
+            <div xml:id="running-header">
+                <head>Running Header (including Authorial Page Numbers)</head>
+                
+                <p>Use the <gi>fw</gi> element to contain any type of running head (usually, but not always, found in the header or footnote of a given page) that appears on a page or series of pages. The <att>rend</att> may be used as needed to mark the location of this element.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><fw rend="center">1</fw></egXML>
+                </p>
+				<p>For any page numbers instituted by Livingstone himself, use the <gi>fw</gi> element plus <att>n</att> in the following manner:</p>									<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><fw n="heading_XIV">XIV</fw></egXML>
+				<p>In other words, whenever <gi>fw</gi> is used to encode one of Livingstone's page numbers, <att>n</att> value should begin with "heading_" followed by the number Livingstone uses, in the form that he uses it (i.e., Roman or Arabic numeral).</p>
+                <p>
+                    <specList>
+                        <specDesc key="fw"/>
+                    </specList>
+                </p>
+                
+            </div>
+
+            <div xml:id="formatting">
+                <head>Textual Formatting</head>
+                <p>If the original text is formatted in some manner such as underlining,
+                    superscript, etc., use the <gi>hi</gi> element with the <att>rend</att>
+                    attribute. </p>
+
+                <p>
+                    <label rend="italic">Original text:</label>
+                    <eg>I saw <hi rend="underline">the man</hi></eg>
+                    <label rend="italic">Marked up:</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> I saw <hi rend="underline">the man</hi>
+                    </egXML>
+                </p>
+
+                <p>If there is more than one type of formatting, for instance both underline and
+                    superscript, use the <att>rend</att> attribute only once but provide two values
+                    separated by a space. <!-- note *NOT* a semicolon. -->
+                </p>
+                <p>
+                    <label rend="italic">Original text:</label>
+                    <eg>He was the N<hi rend="sup"><hi rend="underline">umber</hi></hi> 1 man</eg>
+                    <label rend="italic">Marked up:</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">He was the N<hi rend="sup underline">umber</hi> 1 man</egXML>
+                </p>
+                <p><hi rend="bold">Please Note: </hi> The <att>rend</att> attribute is part of the
+                    att.global class and so can be used on other elements if they are present. For
+                    example instead of marking up:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><hi rend="underline"><placeName><geogName type="river">Lualaba</geogName></placeName></hi>
+                    </egXML>
+                    one can do:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><placeName rend="underline"><geogName type="river">Lualaba</geogName></placeName>
+                    </egXML>
+                    but if unsure then the former is acceptable. </p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="hi" atts="rend"/>
+                    </specList>
+                </p>
+            </div>
+
+            <div xml:id="word-division">
+                <head>A Word Broken Up Over Two Lines</head>
+                <p>Use the <gi>w</gi> element to mark words that Livingstone breaks up over two
+                    lines. You also add the <att>break</att> attribute with the value of
+                        "<val>no</val>" to the <tag>lb/</tag> that falls between the two halves of
+                    the word. For LEAP materials the assumed value for the <att>break</att>
+                    attribute is <val>yes</val>, so you do not need to provide this unless it is an
+                    exceptional circumstance. Use <val>maybe</val> only in those cases when you are
+                    not sure whether a single word apparently broken up over two lines may indeed be
+                    two words.</p>
+                <p>Livingstone's use of hyphens is erratic. Sometimes he hyphenates a word at the
+                    end of the first line, sometimes at the beginning of the second, sometimes in
+                    both places, sometimes in neither. </p>
+                <p>We code each of these instances in the same way, but we also always supply a
+                    hyphen at the end of the line if Livingstone himself has failed to provide it. </p>
+                <p><label>Example #1 (no hyphen at all)</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <lb/>I look on the drove they brought <w>un<supplied>-</supplied>
+                            <lb break="no"/>chained</w> with a sort of pleasure after </egXML>
+                </p>
+                <p><label>Example #2 (hyphen only in first line)</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <lb/>by one of <persName>Dugumbe</persName>'s people after <w>finish-
+                                <lb break="no"/>ing</w> a piece of work = said he was tired
+                    </egXML>
+                </p>
+                <p><label>Example #3 (hyphen only in second line)</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <lb/>sorely needed to be employed <w>him<supplied>-</supplied>
+                            <lb break="no"/>-self</w> in something else than penny </egXML>
+                </p>
+                <p><label>Example #4 (hyphen in both lines)</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <lb/>by which the irresponsible <w>con- 
+                            <lb break="no"/>-clave</w> brought the Indian command </egXML>
+                </p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="w"/>
+                        <specDesc key="lb" atts="break"/>
+                    </specList>
+                </p>
+            </div>
+
+            <div xml:id="extra-space">
+                <head>More Than One Space between Words</head>
+                <p>If you are encoding text where the author has placed more than one space between
+                    words, do not insert additional space in your transcription. Rather insert only
+                    one space plus the following markup:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <space extent="4" unit="chars"/>
+                    </egXML>
+                </p>
+                <p>The value for the <att>extent</att> attribute will of course be a bit of a
+                    judgment call. The value "<val>chars</val>" stands for "characters"; you can
+                    also use "<val>words</val>". There is a <att>dim</att> attribute on
+                        <gi>space</gi> with allowed values of <val>horiztonal</val> or
+                        <val>vertical</val>. The default assumption in LEAP is that extra space is
+                    horizontal so this does not need to be marked.</p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="space" atts="extent unit"/>
+                    </specList>
+                </p>
+            </div>
+
+            <div xml:id="dividing-lines">
+                <head>Dividing Lines Across the Page</head>
+			<p>Livingstone often uses lines that he draws across the page to separate sections of the text. Sometimes he uses a single line that runs across the entire page from left to right; sometimes a double-line; sometimes a single line that only runs across half or a quarter of the page. For all such lines, use the <tag>milestone/</tag> element in the following manner:</p>
+				<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><lb/><milestone unit="section" rend="line"/></egXML>
+			<p>As in the example, <tag>milestone/</tag> should always inlcude a <att>unit</att> attribute with the value of "<val>section</val>" and a <att>rend</att> attribute. Possible values for the rend attribute include: "<val>line</val>", "<val>double-line</val>", "<val>triple-line</val>", "<val>half-line</val>", and "<val>quarter-line</val>".</p>
+			<p>
+				<specList>
+                        <specDesc key="milestone"/>
+                </specList>
+			</p>
+            
+			</div>
+
+            <div xml:id="text-direction">
+                <head>Textual Directions</head>
+                <p>There are three possible situations we've encountered, so here's how to handle
+                    them: <list type="ordered">
+                        <item> The page text is horizontal, then it clearly <emph>continues</emph>
+                            to vertical text in the margin. Use <gi>cb</gi> in either one of the two
+                            following ways (line numbering continues in the normal way): <list
+                                type="ordered" rend="alphabetical">
+                                <item>If the vertical text in the margin is really a new paragraph
+                                    then mark it as such by ending the current paragraph with
+                                        <tag>/p</tag> at the end of the horizontal text, then start
+                                    the vertical text with <tag>cb/</tag><gi>p</gi> and when you
+                                    finish the vertical text close it with <tag>/p</tag> as
+                                    normal.</item>
+                                <item> If the vertical text in the margin continues the horizontal
+                                    text without a paragraph break, do not end the paragraph but
+                                    indicate the place where the text changes to vertical with a
+                                        <tag>cb/</tag> element. When the paragraph ends mark it with
+                                    a closing <tag>/p</tag>.</item>
+                            </list></item>
+                        <item> The page text is horizontal, but ends at the bottom of the page. You
+                            believe that the vertical text continues from the horizontal text, but
+                            it seems to be a new "section" (how you define section is a bit
+                            subjective). Then close the horizontal text as normal with
+                                <tag>/p</tag><tag>/div</tag>. Begin the vertical text as a new
+                            division with <gi>div</gi><gi>p</gi> then when it is finished close the
+                            vertical text with <tag>/p</tag><tag>/div</tag> and begin the next section with a new <gi>div</gi>. In other words, you're
+                            breaking this up into two sections (with one or more paragraphs inside)
+                            that you believe are continuous. Line numbering is continuous. </item>
+                        <item> The page text is horizontal and may or may not end at the bottom of
+                            the page. The vertical text has no clear relationship to the horizontal
+                            text. End the page text with <tag>/p</tag> (whether or not it continues
+                            to the next page), then begin the vertical text with
+                                <gi>cb</gi><gi>ab</gi> and close the vertical text with
+                                <tag>/ab</tag>. Then on the next page, whether or not it's a new
+                            paragraph, begin with <gi>p</gi>, etc. Restart the line numbering in
+                            this new <gi>ab</gi>section. </item>
+                    </list>
+                </p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="cb"/>
+                        <specDesc key="ab"/>
+                    </specList>
+                </p>
+
+            </div>
+
+            <div xml:id="anonymous-blocks">
+                <head>Text with No Clear Relationship to the Surrounding Text</head>
+			<p>Occasionally Livingstone includes blocks of text on a given manuscript page that have no clear relationship to the main text on that page. Such blocks should be encoded with the <gi>ab</gi> element.</p>
+<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">
+<lb/><p><!-- First line of main text -->
+<lb/><!-- Second line of main text -->
+<lb/><!-- Last line of main text, etc. --></p>
+
+<lb/><ab><!-- First line of text with no clear relation to main text -->
+<lb/><!-- Second line of text with no clear relation to main text, etc. --></ab>
+</egXML>
+			<p>Note that, as in the example above, you can use <gi>p</gi> or <gi>ab</gi> to enclose sections of text, but not both.</p>
+            </div>
+
+            <div xml:id="add-del">
+                <head>Addition to or Deletions from the Original Manuscript</head>
+                <p>If a portion of the text has been added by the author or someone else other than
+                    you (see above), use <gi>add</gi> to mark up that text. The <att>place</att>
+                    attribute has values of: "<val>inline</val>", "<val>above</val>",
+                        "<val>below</val>", "<val>marginleft</val>", "<val>marginright</val>",
+                        "<val>margintop</val>", "<val>marginbottom</val>". <label rend="italic"
+                        >Original text:</label>
+                    <eg>he saw us [in this case it's clear in the ms. that "saw" was added
+                        later]</eg>
+                    <label rend="italic">Marked up:</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> he <add place="inline">saw</add> us </egXML>
+                </p>
+                <p>If a portion of the text has been deleted by the author or someone else, use
+                        <gi>del</gi> to mark up that text. Use the <att>type</att> attribute to
+                    indicate the type of deletion with values like: "<val>strikethrough</val>"
+                    (deleted with a single line) or "<val>cancelled</val>" (deleted with multiple
+                    lines). <label rend="italic">Original text:</label>
+                    <eg><hi rend="strikethrough">he saw us</hi></eg>
+                    <label rend="italic">Marked up:</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <del type="strikethrough">he saw us</del>
+                    </egXML>
+                </p>
+                <p>Note: For coding additions and deletions that span more than a few lines of text, please consult the project team.</p>
+				<p>When Livingstone uses a caret (^) to indicate the place of an addition, use a separate <gi>add</gi> tag for the caret and place a space between the tagged caret and the additional text that Livingstone has added:
+				<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><add place="below">^</add> <add place="above">a word</add></egXML>
+				</p>
+                <p>In both the cases of added or deleted text, if you believe that the work has been
+                    done by someone other than Livingstone but cannot identify who that person is,
+                    use the <att>hand</att> attribute with a value of "<val>#U</val>".
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">he <add place="inline" hand="#U">saw</add> us </egXML>
+                    The <val>#U</val> is a pointer to a <gi>handNote</gi> element (in a <gi>handDesc</gi> in a <gi>physDesc</gi> in the <gi>msDesc</gi> in <gi>sourceDesc</gi> in the header). 
+                
+                <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">
+<!-- in the <sourceDesc> in the header -->
+<physDesc>
+    <handDesc>
+        <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+            but thought not David Livingstone's.</handNote>
+    </handDesc>
+</physDesc>
+<!-- later in the text -->
+<lb/>he <add place="inline" hand="#U">saw</add> us
+</egXML></p>
+                    <p>If you can identify individual hands, but not to whom they belong, these values
+                    could be <val>#hand01</val> or <val>#hand02</val> or similar.
+                </p>
+                
+                
+                <p>If it isn't a standalone addition or deletion but you believe a combined deletion
+                    and addition has been done (usually by the author) as a single intervention,
+                    then you may nest the <gi>del</gi> and <gi>add</gi> elements in a <gi>subst</gi>
+                    (substitution) element.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">Then we went <subst><del>towards</del><add>away</add> from the river</subst></egXML>
+                </p>
+                <p> To denote any kind of arrow or other mark that Livingstone uses to indicate
+                    where a bit of add or deleted text should go, use an empty <gi>metamark</gi>
+                    element.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">Then we went towards <metamark/><add place="inline">home</add>.<!-- Livingstone writes "home" in the margin, then uses a long arrow to indicate it should be placed here. AW --></egXML>
+                </p>
+
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="add" atts="place"/>
+                        <specDesc key="del" atts="type"/>
+                        <specDesc key="subst"/>
+                    </specList>
+                </p>
+
+            </div>
+
+            <div xml:id="notes">
+                <head>Authorial Notes within the Text</head>
+                
+                <p>Use the <gi>note</gi> element anytime Livingstone himself inserts a note, gloss, or footnote outside the body of the main text that explains an item within the main text.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">the whole tribe x <add place="marginleft"><note>if it were necessary for me to seek a <q>character</q> I 
+would confidently refer to the <term type="tribe">Bakwains</term> for it</note></add></egXML>
+                </p>
+                <p>The <gi>note</gi> element combined with the <gi>add</gi> element should also be used to mark the dates that Livingstone periodically adds to the left margin of the <hi rend="italic">Unyanyembe Journal</hi>. These should be marked as they occur, even if that happens in the middle of a sentence:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">
+                    <lb />I was content
+                    <lb /><note place="marginleft"><date when="1871-05-08">8th</date></note> to take the canoe on any terms -</egXML>
+                </p>
+                <p>
+                    <specList>
+                        <specDesc key="note"/>
+                    </specList>
+                </p>
+                
+            </div>
+	</div>
+
+            <div xml:id="editorial">
+                <head>Recording Editorial Interventions</head>
+                <p/>
+
+            <div xml:id="punctuation">
+                <head>Authorial Punctuation and Capitalization</head>
+				<p>Livingstone limits his punctuation primarily to n-dashes (-), which often shade into m-dashes or even longer dashes, and equal signs (=). He distinctly prefers n-dashes, but he uses these interchangeably with equal signs in places of such punctuation as commas, colons, semicolons, and periods as well as to mark simple pauses in the text. When transcribing an n-dash or equal sign, please adhere to the following guidelines.</p>
+				<p>When Livingstone uses an n-dash for any reason other than hyphenation of a word, place a space before and after the n-dash when trascribing it, even if it looks like Livingstone himself hasn't:</p>
+				<eg>a very old town - country</eg>
+				<p>Likewise, when transcribing an equal sign that Livingstone has used as punctuation, place a space before and after, even if it looks like Livingstone himself hasn't:</p>
+				<eg>tea = coffee</eg>
+				<p>When Livingstone uses an n-dash to introduce or follow a quotation, he places the n-dash directly below the opening or closing quotation marks rather than next to them. However, when transcribing this, you should nonetheless put a space between the dash and the quotation mark:</p>
+				<eg>He said - "I will" - in answer to me.</eg>
+				<p>If Livingstone's n-dash looks like an m-dask or even longer, use two or more n-dashes without any space between them:</p>
+				<eg>poor -- mostly</eg>
+				<p>Livingstone also has a tendency to run the first person pronoun ("I") onto the following word, as in the following: "Iwent". All instances of this should be silently separated when transcribed:</p>
+				<eg>I went</eg>
+				<p>Livingstone is by no means consistent in his use of capitalization and, moreover, it is often even not clear whether a word is capitalized or not. When transcribing, use the following rules of thumb. When a word is capitalized (or not) and the context suggests this is correct, transcribe as is. When a word is capitalized (or not) and the context suggests this is incorrect, transcribe as is but if (in your opinion) it is very important that the capitalization be corrected, use <gi>choice</gi> plus <gi>sic</gi> and <gi>corr</gi> to provide a corrected verison of the word:</p>
+				<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">The man spoke to me - <choice><sic>then</sic><corr>Then</corr></choice> he left.</egXML>
+				<p>For use of the <gi>choice</gi>, <gi>sic</gi>, and <gi>corr</gi> elements, see <ptr target="#sic-corr"/>.</p>
+				<p>Finally, if it is not clear whether a word is capitalized and it would therefore be OK to transcribe it either way, allow context to guide your decision as to whether to capialize it or not.</p>
+            </div>
+
+            <div xml:id="sic-corr">
+                <head>Authorial Grammatical, Typographical, and Other Mistakes</head>
+                <p>When you encounter some sort of textual mistake made by the author, mark it with
+                    a combination of the <gi>choice</gi> element and <hi rend="bold">both</hi> the
+                        <gi>sic</gi> (apparent error) and <gi>corr</gi> (correction) elements.
+                        <label rend="italic">Original text:</label>
+                    <eg>I recieved your letter</eg>
+                    <label rend="italic">Marked up:</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">I <choice><sic>recieved</sic><corr>received</corr></choice> your letter</egXML>
+                </p>
+                <p>If there is an uncertainty as to the correction that you provide use the
+                        <att>cert</att> attribute with values of "<val>low</val>",
+                        "<val>medium</val>", "<val>high</val>" to denote the degree of confidence in
+                    the addition you have made:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><choice><sic>recieved</sic><corr cert="high">received</corr></choice></egXML>
+                </p>
+                <p><hi rend="bold">Please note: </hi> Livingstone tends to leave off his apostrophes
+                    when it comes to his contractions. The proper way to code this is:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><choice><sic>dont</sic><corr>don't</corr></choice></egXML>
+                </p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="choice"/>
+                        <specDesc key="sic"/>
+                        <specDesc key="corr" atts="cert"/>
+                    </specList>
+                </p>
+
+            </div>
+
+            <div xml:id="unclear-text">
+                <head>Text that is Not Clear</head>
+                <p>Use <gi>unclear</gi> to mark up any text that is not clear; furthermore, use the
+                        <att>cert</att> attribute with values of "<val>low</val>",
+                        "<val>medium</val>", or "<val>high</val>" to denote the degree of confidence
+                    in the transcription you have made:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> he said he would <unclear cert="low">say</unclear> me tomorrow </egXML>
+                </p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="unclear" atts="cert"/>
+                    </specList>
+                </p>
+            </div>
+
+            <div xml:id="variant-readings">
+                <head>Variant Readings</head>
+                <p>Use the <gi>app</gi> element plus at least two or more instances of the <gi>rdg</gi> element to mark valid alternate readings of a single word or textual passage. If needed, <att>cert</att> may be used with values of "<val>low</val>", "<val>medium</val>", "<val>high</val>" to denote the degree of confidence in a given reading.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><app><rdg cert="high">will</rdg><rdg>well</rdg></app></egXML>
+                </p>
+                <p>
+                    <specList>
+                        <specDesc key="app"/>
+                        <specDesc key="rdg" atts="cert"/>
+                    </specList>
+                </p>
+            </div>
+
+            <div xml:id="gaps-and-other-things">
+                <head>Missing Portions of the Manuscript Page or Text that is Illegible</head>
+                <p>We use <gi>gap</gi> to tag text that is wholly illegible due to deletion or some
+                    other factor, or missing all together from the manuscript page due to physical
+                    damage. The <gi>gap</gi> element never contains text:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><lb/><gap extent="6" unit="chars" agent="blot"/> sugar -- candles</egXML>
+                </p>
+                <p>In the <gi>gap</gi> element, the values we use for the <att>agent</att> attribute
+                    include: "<val>blot</val>", "<val>fading</val>", "<val>hole</val>", "<val>illegible</val>",
+                        "<val>overwriting</val>", and "<val>stain</val>". </p>
+                <p>The value of the <att>extent</att> attribute is always an approximation.</p>
+                <p>Note: For coding manuscript damage that spans more than a few lines of text, please consult the project team.</p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="gap" atts="agent extent unit"/>
+                    </specList>
+                </p>
+            </div>
+
+            <div xml:id="supplied-text">
+                <head>Portion of the Text that You Have Supplied</head>
+                <p>If a portion of the original text is missing for whatever reason and you supply
+                    it, use <gi>supplied</gi> to mark up this addition; furthermore, use the
+                        <att>cert</att> with values of "<val>low</val>", "<val>medium</val>",
+                        "<val>high</val>" to denote the degree of confidence in the addition you
+                    have made:</p>
+                <p>
+                    <label rend="italic">Original text:</label>
+                    <eg>He saw man</eg>
+                    <label rend="italic">Marked up:</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">he saw <supplied cert="high">the</supplied> man</egXML></p>
+
+                <p>Note: The <gi>supplied</gi> tag is never nested in the <gi>gap</gi> tag.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">he saw <gap reason="damage" extent="3" unit="letters"/><supplied cert="high">the</supplied> man</egXML>
+                </p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="supplied" atts="cert"/>
+                    </specList>
+                </p>
+            </div>
+
+            <div xml:id="normalized-text">
+                <head>Normalized Text</head>
+                
+                <p>Use the <gi>choice</gi> element plus <gi>orig</gi> and <gi>reg</gi> to mark any instances where Livingstone's text, although not incorrect necessarily, is nonetheless normalized or otherwise corrected by you.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><choice><orig>shew</orig><reg>show</reg></choice></egXML>
+                </p>
+                <p>
+                    <specList>
+                        <specDesc key="choice"/>
+                        <specDesc key="orig"/>
+                        <specDesc key="reg"/>
+                    </specList>
+                </p>
+            </div>               
+	</div>
+
+            <div xml:id="project-formatting">
+                <head>Project-Specific Formatting Practices</head>
+                <p/>
+
+            <div xml:id="special-characters">
+                <head>The Ampersand and Other Special Characters</head>
+
+                <p>When you transcribe an ampersand, use <code>&amp;amp;</code> instead of an actual
+                    ampersand: <label rend="italic">Original text:</label>
+                    <eg>I saw John &amp; Jim</eg>
+                    <label rend="italic">Marked up:</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">I saw John <?entity amp?> Jim</egXML>
+                </p>
+
+                <p>If you come across any other unusual characters that are not found within the
+                    "Edit—Insert from Character Map" option from the editing toolbar in oXygen, add
+                    a comment to draw the attention of the project to this location.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><!-- Adrian, there is a weird character you need to insert here. DH -->
+                    </egXML>
+                </p>
+            </div>
+
+            <div xml:id="quotations">
+                <head>Quotation from Another Source</head>
+                
+                <p>When dealing with a quotation from another source, use the <gi>quote</gi> element.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">As it is stated in the Bible, <quote><q>Neither do men light a candle, and put it under a bushel...</q></quote>.</egXML>
+                </p>
+                <p>
+                    <specList>
+                        <specDesc key="quote"/>
+                    </specList>
+                </p>
+                
+            </div>
+
+            <div xml:id="abbreviations">
+                <head>Abbreviations</head>
+                <p>When you encounter an abbreviation made by the author, mark it with the
+                        <gi>choice</gi> element and <hi rend="bold">both</hi> the <gi>abbr</gi>
+                    (abbreviation) and <gi>expan</gi> (expansion) elements. <label rend="italic"
+                        >Original text:</label>
+                    <eg>my no. 1 friend</eg>
+                    <label rend="italic">Marked up:</label>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">my <choice><abbr>no.</abbr><expan>number</expan></choice> 1 friend</egXML>
+                </p>
+                <p>If there is an uncertainty as to the expansion that you provide, use the
+                        <att>cert</att> attribute with values of "<val>low</val>",
+                        "<val>medium</val>", "<val>high</val>" to denote the degree of confidence in
+                    the expansion you have provided.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">my <choice><abbr>no.</abbr><expan cert="high">number</expan></choice></egXML>
+                </p>
+                <p><hi rend="bold">Please note: </hi> any prefix pertaining to a personal name, i.e.
+                    Dr, Mr, Miss, Rev, <hi rend="underline">need not be expanded</hi>.</p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="choice"/>
+                        <specDesc key="abbr"/>
+                        <specDesc key="expan" atts="cert"/>
+                    </specList>
+                </p>
+            </div>
+
+            <div xml:id="fractions">
+                <head>Fractions</head>
+                <p>We use <gi>choice</gi> and the <gi>orig</gi> and <gi>reg</gi> elements to encode
+                    fractions:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><choice><orig>½</orig><reg>1/2</reg></choice></egXML>
+                </p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="choice"/>
+                        <specDesc key="orig"/>
+                        <specDesc key="reg"/>
+                    </specList>
+                </p>
+            </div>
+	</div>                        
+
+            <div xml:id="personal-names">
+                <head>Names of People</head>
+                <p> When marking up a person's name, use the <gi>persName</gi> element.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">I saw <persName>David Livingstone</persName></egXML>
+                </p>
+                <p>However, note the following example:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">I saw <persName>Dr David Livingstone</persName>'s tent</egXML>
+                </p>
+                <p><hi rend="bold">Please note: </hi> any prefix pertaining to a personal name, i.e.
+                    Dr, Mr, Miss, Rev, <hi rend="underline">should be included within the
+                            <gi>persName</gi> element but and does <hi rend="bold">not</hi> need to
+                        be expanded.</hi> Likewise any possesive marker ('s) can be outside the
+                        <gi>persName</gi>.</p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="persName"/>
+                    </specList>
+                </p>
+            </div>
+
+
+            <div xml:id="place-names">
+                <head>Place Names and Geographical Elements</head>
+
+                <p>When you mark up a geographical element, use the <gi>placeName</gi> element <hi
+                        rend="bold">and</hi> one of the following: <gi>bloc</gi> (for multi-national
+                    entities like 'Africa'), <gi>country</gi> (for countries), <gi>region</gi> (for
+                    large administrative units), or <gi>settlement</gi> (for cities, towns,
+                    villages). On <gi>settlement</gi> use the <att>type</att> attribute to record
+                    values such as "<val>city</val>", "<val>town</val>", or "<val>village</val>".
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><placeName><settlement type="village">Nyangwe</settlement></placeName></egXML>
+                </p>
+                <p>Use <gi>geogName</gi> to denote a specific named geographical entity not covered
+                    by the above, using the <att>type</att> attribute with values such as
+                        "<val>lake</val>", "<val>river</val>", etc.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><placeName><geogName type="river">Nile</geogName></placeName></egXML>
+                </p>
+				<p>You should also use <gi>geogName</gi> when encoding the full reference to a geographical entity that includes any kind of formal name (which itself would also be separately encoded:</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><placeName><geogName type="source">sources of the <placeName><geogName type="river">Nile</geogName></placeName></geogName></placeName></egXML>
+				<p>However, if the text refers to a significant or unique geographical entity, but without using a formal name, then you should use <gi>geogFeat</gi> to encode it:</p>
+				<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><geogFeat type="fountain">Four fountains</geogFeat> rising so near to each other</egXML>
+				<p><gi>geogFeat</gi> should also be uses in those cases where Livingstone refers to a specific, named geographical entity but opts not to provide the name itself, as in the following example which alludes to Lake Tanganyika:</p>
+				<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">I looked at the <geogFeat type="lake">Lake</geogFeat></egXML>
+                <p><hi rend="bold">Note: </hi> "Zanzibar", "Cape", and "Interior" should all
+                    be encoded with the <gi>region</gi> element (even though technically
+                    incorrect).</p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="placeName"/>
+                        <specDesc key="bloc"/>
+                        <specDesc key="region"/>
+                        <specDesc key="country"/>
+                        <specDesc key="settlement" atts="type"/>
+                        <specDesc key="geogName"/>
+                        <specDesc key="geogFeat"/>						
+                    </specList>
+                </p>
+
+            <div xml:id="measurements">
+                <head>Geographical Measurements</head>
+                
+                <p>Use the <gi>measure</gi> element to mark any geographical quantities (including geographical coordinates) that Livingstone cites in the text. If Livingstone provides an obvious group of geographical quantities, the <gi>measureGrp</gi> element can be used.</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">The river was <measureGrp><measure>30 feet deep</measure> and <measure>1000 yards across</measure></measureGrp></egXML>
+				<p>Note, however, that if Livingstone introduces a larger set of geographical coordinates these should normally not be transcribed, but only be recorded as being present in the text with an empty <tag>measure/</tag> tag. An editorial comment may be added to provide a description of these coordinates.</p>
+				<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><measure/><!-- Livingstone here gives a list of villages in Manyema and provides the geographical coordinates for each of them. AW --></egXML>
+                <p>
+                    <specList>
+                        <specDesc key="measureGrp"/>
+                        <specDesc key="measure"/>
+                    </specList>
+                </p>
+                
+            </div>                
+                
+            </div>
+
+            <div xml:id="weather">
+                <head>Refereces to Weather</head>
+				<p>Use <tag>seg type="weather"</tag> to mark passages in the text where Livingstone refers to the weather.</p>
+				<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">We have <seg type="weather">rain in large quantity almost every night</seg></egXML>
+				<p>Such weather references may be loosely made, and it may be difficult to determine where exactly they begin and end. In all cases use the <gi>seg</gi> elment and best judgment to mark such references. Opt for one use of <gi>seg</gi> to mark a longer passage with a series of specific descriptions rather than multiple uses of the <gi>seg</gi> element.</p>
+			    <p>
+                    <specList>
+                        <specDesc key="seg"/>
+                    </specList>
+			    </p>
+			</div>
+
+
+<div xml:id="terms">
+    <head>Terms to Mark</head>
+
+
+            <div xml:id="animals">
+                <head>Animals (Including Fish), Insects, Plants</head>
+                
+                <p>When dealing with animals, including fish, use the <gi>term</gi> element with the
+                    <att>type</att> attribute with a value of "<val>animal</val>". The value of "animal" in the singular should be used in all cases, even when the text refers to multiple animals of one kind.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><term type="animal">elephants</term></egXML>
+                </p>
+                <p>When dealing with insects, use the <gi>term</gi> element with the
+                    <att>type</att> attribute with a value of "<val>insect</val>". The value of "insect" in the singular should be used in all cases, even when the text refers to multiple insects of one kind.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><term type="insect">tetse</term></egXML>
+                </p>
+                <p>When dealing with specifically named plants, use the <gi>term</gi> element with the
+                    <att>type</att> attribute with a value of "<val>plant</val>". The value of "plant" in the singular should be used in all cases, even when the text refers to multiple plants of one kind.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><term type="plant">Euphorbias</term></egXML>
+                </p>
+                <p>
+                    <specList>
+                        <specDesc key="term" atts="type"/>
+                    </specList>
+                </p>
+                
+            </div>
+            
+
+
+            <div xml:id="nationalities">
+                <head>Nationalities</head>
+
+                <p>When dealing with nationalities, use the <gi>term</gi> element with the
+                        <att>type</att> attribute with a value of "<val>nationality</val>".
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">the <term type="nationality">English</term> settlements</egXML>
+                </p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="term" atts="type"/>
+                    </specList>
+                </p>
+            </div>
+    
+                
+                <div xml:id="people">
+                    <head>People of a Given Nationality</head>
+                    
+                    <p>When dealing with people of a given nationality (e.g., Englishmen, Americans), use the <gi>term</gi> element with the
+                        <att>type</att> attribute with a value of "<val>people</val>".
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><term type="people">Englishmen</term></egXML>
+                    </p>
+                    <p>If the reference is to just one person of a nationality (e.g., a Englishman, American), use the <gi>term</gi> element with the
+                        <att>type</att> attribute with a value of "<val>person</val>".
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><term type="person">Englishman</term></egXML>
+                    </p>
+                    <p>
+                        <specList>
+                            <specDesc key="term" atts="type"/>
+                        </specList>
+                    </p>
+                    
+                </div>
+
+            <div xml:id="tribes">
+                <head>African Tribes</head>
+                <p>When marking up an African tribal name, use the <gi>term</gi> element with the
+                        <att>type</att> attribute with a value of "<val>tribe</val>".
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">I saw the <term type="tribe">Nyamwezi</term></egXML>
+                </p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="term" atts="type"/>
+                    </specList>
+                </p>
+            </div>
+                
+                
+                <div xml:id="faiths">
+                    <head>Religious Faith</head>
+                    
+                    <p>Use the <gi>term</gi> element with a <att>type</att>  attribute with a value of "<val>faith</val>" to mark instances in the text 
+                        where religious faith or an organized religion is cited.
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><term type="faith">Christianity</term> and <term type="faith">Islam</term></egXML>
+						<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><term type="faith">Christian</term> values</egXML>
+                    </p>
+					<p>However, for practitioners of particular faiths, see <ptr target="#organizations"/>.</p>
+                    <p>
+                        <specList>
+                            <specDesc key="term"/>
+                        </specList>
+                    </p>
+                    
+                </div>
+                <div xml:id="occupations">
+                    <head>Occupation</head>
+                    
+                    <p>Use the <gi>term</gi> element with a <att>type</att> attribute with a value of "<val>occupation</val>" 
+                        anytime an occupation of any sort is mentioned in the text.
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">Livingstone was a <term type="occupation">missionary</term>, 
+<term type="occupation">geographer</term>, and <term type="occupation">abolitionist</term> </egXML>
+                    </p>
+                    <p>
+                        <specList>
+                            <specDesc key="term"/>
+                        </specList>
+                    </p>
+                    
+                </div>
+    
+    
+    <div xml:id="medical">
+        <head>Medical Terms</head>
+        <p>When marking up a medical reference or term, use <gi>term</gi> plus the
+            <att>type</att> attribute and appropriate value, such as
+            "<val>ailment</val>" or <val>medicament</val>".
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">I had <term type="ailment">malaria</term> for a month.</egXML>
+        </p>
+        <p>Definitions of the elements used above are: <specList>
+            <specDesc key="term" atts="type"/>
+        </specList>
+        </p>
+        
+    </div>
+	
+		</div>
+    
+            <div xml:id="organizations">
+                <head>Organizations and Other Groups</head>
+                
+                <p>Use the <gi>orgName</gi> element to mark instances in the text where there is mention of an organization or other type of group (or any reference to an individual as being part of a group) that is not covered by <ptr target="#nationalities"/>, <ptr target="#people"/>, or <ptr target="#tribes"/>. Note that all the following entities should be marked with the <gi>orgName</gi> element: African, Africans, Arab, Arabs, Boer, Boers, Christian (an individual; for use of "Christian" as an adjective, see <ptr target="#faiths"/>), Christians, Moslem (an individual; for use of "Moselm" as an adjective, see <ptr target="#faiths"/>), and Moslems. For references to organized religions (e.g., Christianity, Islam), see <ptr target="#faiths"/>. 
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">the <orgName>the London Missionary Society</orgName></egXML>
+					<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><orgName>African</orgName> villages</egXML>
+					<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve">I spoke with the <orgName>Arab</orgName></egXML>
+                </p>
+                <p>
+                    <specList>
+                        <specDesc key="orgName"/>
+                    </specList>
+                </p>                
+    
+    
+            </div>
+
+            <div xml:id="bibliographical">
+                <head>Bibliographical Elements</head>
+			<p>Use <gi>bibl</gi> to encode any elements of a book, including the title, that Livingstone references:</p>
+			<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><bibl>Genesis</bibl></egXML>
+                <p>
+                    <specList>
+                        <specDesc key="bibl"/>
+                    </specList>
+                </p>                
+
+            </div>
+
+            <div xml:id="foreign-words">
+                <head>Words in a Foreign Language</head>
+                <p>When dealing with foreign words, there are three steps to complete: <list
+                        type="ordered">
+                        <item>Find the abbreviation for the foreign language at the following
+                            webpage: <ref type="newWindow" 
+                                target="https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+                                >https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry</ref>
+                        </item>
+                        <item>In the header, add in a <gi>langUsage</gi> for the foreign language
+                            under the one for English as follows:
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                <langUsage>
+                                    <language ident="en">English</language>
+                                    <language ident="la">Latin</language>
+                                </langUsage>
+                            </egXML>
+                        </item>
+                        <item>Within the text, when the language comes up, you code the word/phrase
+                            as follows:
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                <foreign xml:lang="la">et id genus omne</foreign>
+                            </egXML>
+                        </item>
+                    </list>
+                </p>
+                <p><hi rend="bold">Please note: </hi> If you are unsure of the language/dialect, but
+                    know that it is not English, <hi rend="underline">simply mark it as undetermined
+                        using the code "<val>und</val>".</hi></p>
+                <p>Definitions of the elements used above are: <specList>
+                        <specDesc key="langUsage"/>
+                        <specDesc key="language" atts="ident"/>
+                        <specDesc key="foreign" atts="xml:lang"/>
+                    </specList>
+                </p>
+            </div>
+
+            
+            <div xml:id="lists">
+                <head>Lists within the Text</head>
+                
+                <p>Use the <gi>list</gi> element to contain any lists that appear in the text. 
+                    The title of any such list should be marked with the <gi>head</gi> element, while <gi>item</gi> should be used for each item within the list. 
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:space="preserve"><list><head>Villages:</head> <item n="1">Bambarre</item>, <item n="2">Nyangwe</item>, and <item n="3">Ujiji</item></list></egXML>
+                </p>
+<p>If the list has a label or heading before each item then it is a <val>gloss</val> list. Use the <att>type</att> attribute to provide this as a value.
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <list type="gloss">
+            <label>A word</label>
+            <item>Its definition</item>
+            <label>Another word</label>
+            <item>Its definition</item>
+        </list>
+        </egXML>
+    
+</p>
+
+                <p>In addition, if the list is formatted as a table, it can be contained by the <gi>table</gi> element and the <gi>row</gi> and <gi>cell</gi> elements can be introduced as appropriate. 
+                    
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <table>
+                            <row><cell>Things I like</cell> <cell>Things I don't like</cell></row>
+                            <row><cell>Ice Cream</cell><cell>Cream Cheese</cell></row>
+                            <row><cell>Tea</cell><cell>Coffee</cell></row>
+                        </table>
+                    </egXML>
+                    </p><p>
+                    Elements such as <gi>item</gi>, <gi>row</gi>, and <gi>cell</gi> can be numbered with <att>n</att>.</p>
+                <p>
+                    <specList>
+                        <specDesc key="list"/>
+                        <specDesc key="label"/>
+                        <specDesc key="item"/>
+                        <specDesc key="table"/>
+                        <specDesc key="row"/>
+                        <specDesc key="cell"/>
+                    </specList>
+                </p>
+                
+            </div>
+            
+
+            <div xml:id="figures">
+                <head>Figures, Drawings, and Calculations</head>
+                <p>If you come across any figures, drawings, or calculations, please mark them with
+                    an empty <tag>figure/</tag> element. However, you can also describe them using
+                    the <gi>figDesc</gi> element, which must then be contained by the
+                        <gi>figure</gi> element. <egXML xmlns="http://www.tei-c.org/ns/Examples">The <term type="animal">lion</term> looked like this: <figure/></egXML>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">The <term type="animal">lion</term> looked like this: <figure><figDesc>Drawing of a lion with it's mouth open towards the viewer</figDesc></figure></egXML>
+                </p>
+				<p>If you cite any text that accompanies the figure and that text can be tagged, you can tag it with the <gi>figDesc</gi>:
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">The <term type="animal">lion</term> looked like this: <figure><figDesc>Drawing of a lion that Livingstone has labeled "<term type="animal">lion</term>" with it's mouth open towards the viewer</figDesc></figure></egXML>
+				</p>
+            </div>
+
+
+            <div xml:id="oddities">
+                <head>Anything Unusual in the Text</head>
+                <p>If you come across anything unusal in the text that cannot be otherwise encoded,
+                    please do not mark it other than leaving a comment to alert the project team.
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><!-- Adrian: There's a drawing or something strange here. DH --></egXML>
+                </p>
+            </div>
+
+        </body>
+        <back>
+            <div xml:id="element-summary">
+                <head>Summary of Elements in LEAP Schema</head>
+                <p>
+                    <label>Analysis Module</label>
+                    <specList>
+                        <specDesc key="w"/>
+                    </specList>
+                </p>
+                <p>
+                    <label>Core Module</label>
+                    <specList>
+                        <specDesc key="abbr"/>
+                        <specDesc key="add"/>
+                        <specDesc key="addrLine"/>
+                        <specDesc key="address"/>
+                        <specDesc key="author"/>
+                        <specDesc key="bibl"/>
+                        <specDesc key="biblScope"/>
+                        <specDesc key="biblStruct"/>
+                        <specDesc key="cb"/>
+                        <specDesc key="choice"/>
+                        <specDesc key="corr"/>
+                        <specDesc key="date"/>
+                        <specDesc key="del"/>
+                        <specDesc key="desc"/>
+                        <specDesc key="editor"/>
+                        <specDesc key="expan"/>
+                        <specDesc key="foreign"/>
+                        <specDesc key="gap"/>
+                        <specDesc key="gb"/>
+                        <specDesc key="gloss"/>
+                        <specDesc key="graphic"/>
+                        <specDesc key="head"/>
+                        <specDesc key="hi"/>
+                        <specDesc key="imprint"/>
+                        <specDesc key="item"/>
+                        <specDesc key="label"/>
+                        <specDesc key="lb"/>
+                        <specDesc key="list"/>
+                        <specDesc key="measure"/>
+                        <specDesc key="measureGrp"/>
+                        <specDesc key="milestone"/>
+                        <specDesc key="monogr"/>
+                        <specDesc key="name"/>
+                        <specDesc key="note"/>
+                        <specDesc key="orig"/>
+                        <specDesc key="p"/>
+                        <specDesc key="pb"/>
+                        <specDesc key="pubPlace"/>
+                        <specDesc key="publisher"/>
+                        <specDesc key="q"/>
+                        <specDesc key="quote"/>
+                        <specDesc key="ref"/>
+                        <specDesc key="reg"/>
+                        <specDesc key="resp"/>
+                        <specDesc key="respStmt"/>
+                        <specDesc key="sic"/>
+                        <specDesc key="term"/>
+                        <specDesc key="title"/>
+                        <specDesc key="unclear"/>
+                    </specList>
+                </p>
+                <p>
+                    <label>Figures Module</label>
+                    <specList>
+                        <specDesc key="figure"/>
+                        <specDesc key="figDesc"/>
+                        <specDesc key="table"/>
+                        <specDesc key="row"/>
+                        <specDesc key="cell"/>
+                    </specList>
+                </p>
+                <p>
+                    <label>Header Module</label>
+                    <specList>
+                        <specDesc key="authority"/>
+                        <specDesc key="availability"/>
+                        <specDesc key="category"/>
+                        <specDesc key="catDesc"/>
+                        <specDesc key="change"/>
+                        <specDesc key="classDecl"/>
+                        <specDesc key="edition"/>
+                        <specDesc key="editionStmt"/>
+                        <specDesc key="encodingDesc"/>
+                        <specDesc key="fileDesc"/>
+                        <specDesc key="funder"/>
+                        <specDesc key="handNote"/>
+                        <specDesc key="idno"/>
+                        <specDesc key="keywords"/>
+                        <specDesc key="langUsage"/>
+                        <specDesc key="language"/>
+                        <specDesc key="licence"/>
+                        <specDesc key="listChange"/>
+                        <specDesc key="listPrefixDef"/>
+                        <specDesc key="notesStmt"/>
+                        <specDesc key="prefixDef"/>
+                        <specDesc key="principal"/>
+                        <specDesc key="profileDesc"/>
+                        <specDesc key="projectDesc"/>
+                        <specDesc key="publicationStmt"/>
+                        <specDesc key="rendition"/>
+                        <specDesc key="revisionDesc"/>
+                        <specDesc key="sourceDesc"/>
+                        <specDesc key="styleDefDecl"/>
+                        <specDesc key="tagsDecl"/>
+                        <specDesc key="taxonomy"/>
+                        <specDesc key="textClass"/>
+                        <specDesc key="teiHeader"/>
+                        <specDesc key="titleStmt"/>
+                    </specList>
+                </p>
+                <p>
+                    <label>Linking Module</label>
+                    <specList>
+                        <specDesc key="ab"/>
+                        <specDesc key="anchor"/>
+                        <specDesc key="link"/>
+                        <specDesc key="linkGrp"/>
+                        <specDesc key="seg"/>
+                    </specList>
+                </p>
+
+                <p>
+                    <label>Manuscript Description Module</label>
+                    <specList>
+                        <specDesc key="accMat"/>
+                        <specDesc key="acquisition"/>
+                        <specDesc key="additional"/>
+                        <specDesc key="adminInfo"/>
+                        <specDesc key="altIdentifier"/>
+                        <specDesc key="collection"/>
+                        <specDesc key="condition"/>
+                        <specDesc key="custEvent"/>
+                        <specDesc key="custodialHist"/>
+                        <specDesc key="decoDesc"/>
+                        <specDesc key="decoNote"/>
+                        <specDesc key="depth"/>
+                        <specDesc key="dim"/>
+                        <specDesc key="dimensions"/>
+                        <specDesc key="foliation"/>
+                        <specDesc key="handDesc"/>
+                        <specDesc key="height"/>
+                        <specDesc key="history"/>
+                        <specDesc key="institution"/>
+                        <specDesc key="layout"/>
+                        <specDesc key="layoutDesc"/>
+                        <specDesc key="locus"/>
+                        <specDesc key="locusGrp"/>
+                        <specDesc key="material"/>
+                        <specDesc key="msContents"/>
+                        <specDesc key="msDesc"/>
+                        <specDesc key="msIdentifier"/>
+                        <specDesc key="msItem"/>
+                        <specDesc key="msName"/>
+                        <specDesc key="objectDesc"/>
+                        <specDesc key="objectType"/>
+                        <specDesc key="origDate"/>
+                        <specDesc key="origPlace"/>
+                        <specDesc key="origin"/>
+                        <specDesc key="physDesc"/>
+                        <specDesc key="provenance"/>
+                        <specDesc key="recordHist"/>
+                        <specDesc key="repository"/>
+                        <specDesc key="scriptDesc"/>
+                        <specDesc key="seal"/>
+                        <specDesc key="sealDesc"/>
+                        <specDesc key="signatures"/>
+                        <specDesc key="stamp"/>
+                        <specDesc key="summary"/>
+                        <specDesc key="support"/>
+                        <specDesc key="supportDesc"/>
+                        <specDesc key="surrogates"/>
+                        <specDesc key="width"/>
+
+                    </specList>
+                </p>
+
+                <p>
+                    <label>Names and Dates Module</label>
+                    <specList>
+                        <specDesc key="addName"/>
+                        <specDesc key="affiliation"/>
+                        <specDesc key="age"/>
+                        <specDesc key="birth"/>
+                        <specDesc key="bloc"/>
+                        <specDesc key="country"/>
+                        <specDesc key="death"/>
+                        <specDesc key="education"/>
+                        <specDesc key="event"/>
+                        <specDesc key="faith"/>
+                        <specDesc key="forename"/>
+                        <specDesc key="geo"/>
+                        <specDesc key="geogFeat"/>
+                        <specDesc key="geogName"/>
+                        <specDesc key="listEvent"/>
+                        <specDesc key="listOrg"/>
+                        <specDesc key="listPerson"/>
+                        <specDesc key="listPlace"/>
+                        <specDesc key="location"/>
+                        <specDesc key="nationality"/>
+                        <specDesc key="occupation"/>
+                        <specDesc key="offset"/>
+                        <specDesc key="org"/>
+                        <specDesc key="orgName"/>
+                        <specDesc key="persName"/>
+                        <specDesc key="person"/>
+                        <specDesc key="place"/>
+                        <specDesc key="placeName"/>
+                        <specDesc key="region"/>
+                        <specDesc key="roleName"/>
+                        <specDesc key="settlement"/>
+                        <specDesc key="state"/>
+                        <specDesc key="surname"/>
+                        <specDesc key="trait"/>
+                    </specList>
+                </p>
+                <p>
+                    <label>Text Critical Apparatus Module</label>
+                    <specList>
+                        <specDesc key="app"/>
+                        <specDesc key="rdg"/>
+                    </specList>
+                </p>
+                <p>
+                    <label>Text Structure Module</label>
+                    <specList>
+                        <specDesc key="TEI"/>
+                        <specDesc key="back"/>
+                        <specDesc key="body"/>
+                        <specDesc key="closer"/>
+                        <specDesc key="dateline"/>
+                        <specDesc key="div"/>
+                        <specDesc key="front"/>
+                        <specDesc key="opener"/>
+                        <specDesc key="postscript"/>
+                        <specDesc key="salute"/>
+                        <specDesc key="signed"/>
+                        <specDesc key="text"/>
+                        <specDesc key="trailer"/>
+                    </specList>
+                </p>
+                <p>
+                    <label>Transcription Module</label>
+                    <specList>
+                        <specDesc key="addSpan"/>
+                        <specDesc key="damage"/>
+                        <specDesc key="damageSpan"/>
+                        <specDesc key="delSpan"/>
+                        <specDesc key="facsimile"/>
+                        <specDesc key="fw"/>
+                        <specDesc key="handNotes"/>
+                        <specDesc key="handShift"/>
+                        <specDesc key="listTranspose"/>
+                        <specDesc key="metamark"/>
+                        <specDesc key="mod"/>
+                        <specDesc key="redo"/>
+                        <specDesc key="restore"/>
+                        <specDesc key="retrace"/>
+                        <specDesc key="space"/>
+                        <specDesc key="subst"/>
+                        <specDesc key="supplied"/>
+                        <specDesc key="surface"/>
+                        <specDesc key="surfaceGrp"/>
+                        <specDesc key="surplus"/>
+                        <specDesc key="transpose"/>
+                        <specDesc key="undo"/>
+                        <specDesc key="zone"/>
+                    </specList>
+                </p>
+            </div>
+
+
+
+            <div xml:id="schema-specification">
+                <head>Formal declaration and Reference Pages</head>
+
+                <!-- If you add or delete elements, modify the specList above and the documentation -->
+                <schemaSpec ident="leap" xml:lang="en" start="TEI">
+                    <moduleRef key="analysis" include="w"/>
+                    <moduleRef key="core"
+                        include="abbr add addrLine address author bibl biblScope
+                        biblStruct cb choice corr date del desc editor expan foreign gap gb gloss
+                        graphic head hi imprint item label lb list measure measureGrp milestone
+                        monogr name note orig p pb pubPlace publisher q quote ref reg resp respStmt
+                        sic term title unclear"/>
+                    <moduleRef key="figures" include="figure figDesc table row cell"/>
+
+                    <moduleRef key="header"
+                        include="authority availability category catDesc change
+                        classDecl edition editionStmt encodingDesc fileDesc funder handNote idno
+                        keywords langUsage language licence listChange listPrefixDef notesStmt
+                        prefixDef principal profileDesc projectDesc publicationStmt rendition
+                        revisionDesc sourceDesc styleDefDecl tagsDecl taxonomy textClass teiHeader
+                        titleStmt"/>
+
+                    <moduleRef key="linking" include="ab anchor link linkGrp seg"/>
+
+                    <moduleRef key="msdescription"
+                        include="accMat acquisition additional
+                        adminInfo altIdentifier collection condition   custEvent custodialHist
+                        decoDesc decoNote depth dim dimensions foliation   handDesc height history
+                        institution layout layoutDesc locus locusGrp   material msContents msDesc
+                        msIdentifier msItem msName objectDesc   objectType origDate origPlace origin
+                        physDesc provenance recordHist   repository scriptDesc seal sealDesc
+                        signatures stamp summary support   supportDesc surrogates width      "/>
+                    <moduleRef key="namesdates"
+                        include="addName affiliation age birth bloc country
+                        death education event faith forename geo geogFeat geogName listEvent listOrg
+                        listPerson listPlace location nationality occupation offset org orgName
+                        persName person place placeName region roleName settlement state surname
+                        trait"/>
+                    <moduleRef key="tei"/>
+                    <moduleRef key="textcrit" include="app rdg"/>
+                    <moduleRef key="textstructure"
+                        include="TEI back body closer dateline div front
+                        opener postscript salute signed text trailer"/>
+                    <moduleRef key="transcr"
+                        include="addSpan damage damageSpan delSpan
+                        facsimile fw handNotes   handShift listTranspose metamark mod redo restore
+                        retrace space subst supplied surface surfaceGrp surplus transpose undo zone"/>
+
+
+                    <!-- gap change @reason and @agent -->
+                    <elementSpec ident="gap" module="core" mode="change">
+                        <attList>
+                            <attDef ident="agent" mode="change">
+                                <valList mode="replace" type="semi" xml:id="gap-agent">
+                                    <valItem ident="blot">
+                                        <desc>There is a blotting</desc>
+                                    </valItem>
+                                    <valItem ident="fading">
+                                        <desc>There is fading</desc>
+                                    </valItem>
+                                    <valItem ident="hole">
+                                        <desc>There is a hole</desc>
+                                    </valItem>
+                                    <valItem ident="illegible">
+                                        <desc>There is illegible text</desc>
+                                    </valItem>
+                                    <valItem ident="overwriting">
+                                        <desc>There is overwriting</desc>
+                                    </valItem>
+                                    <valItem ident="stain">
+                                        <desc>There is a stain</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+
+                           <!-- <attDef ident="reason" mode="change">
+                                <valList mode="replace" type="semi" xml:id="gap-reason">
+                                    <valItem ident="damage">
+                                        <desc>There is a hole</desc>
+                                    </valItem>
+                                    <valItem ident="deletion">
+                                        <desc>There is a blotting</desc>
+                                    </valItem>
+                                    <valItem ident="illegible">
+                                        <desc>There is fading</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef> -->
+                        </attList>
+
+                    </elementSpec>
+
+
+                    <!-- delete those global attributes we don't need, rename others -->
+                    <classSpec ident="att.global" type="atts" mode="change" module="tei">
+                        <attList>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="xml:base" mode="delete"/>
+                            <attDef ident="xml:space" mode="delete"/>
+                            <attDef ident="rend" mode="change">
+                                <!-- Provide a closed value list for @rend -->
+                                <valList mode="replace" type="closed" xml:id="rend-valList">
+                                    <valItem ident="above">
+                                        <desc>rendered above the line</desc>
+                                    </valItem>
+                                    <valItem ident="below">
+                                        <desc>rendered below the line</desc>
+                                    </valItem>
+                                    <valItem ident="caps">
+                                        <desc>rendered as capitals</desc>
+                                    </valItem>
+                                    <valItem ident="center">
+                                        <desc>aligned in the center</desc>
+                                    </valItem>
+                                    <!--<valItem ident="dropcap">
+                                        <desc>rendered as drop-cap or illuminated initial</desc>
+                                    </valItem>
+                                    -->
+                                    <valItem ident="double-line">
+                                        <desc>rendering is of a double line</desc>
+                                    </valItem>
+                                  <valItem ident="double-underline">
+                                        <desc>double-underlined</desc>
+                                    </valItem>
+                                    <valItem ident="half-line">
+                                        <desc>rendering is of a half line</desc>
+                                    </valItem>
+                                    <valItem ident="indent">
+                                        <desc>rendered as indented (e.g. first line in a
+                                            paragraph)</desc>
+                                    </valItem>
+                                    <!--<valItem ident="inline">
+                                        <desc>rendered inline</desc>
+                                    </valItem>
+                                    -->
+                                    <valItem ident="italic">
+                                        <desc>rendered italic</desc>
+                                    </valItem>
+                                    
+                                    <valItem ident="large">
+                                        <desc>rendering is of large size</desc>
+                                    </valItem>
+                                    <valItem ident="left">
+                                        <desc>aligned to the left (default)</desc>
+                                    </valItem>
+                                    
+                                    <valItem ident="line">
+                                        <desc>rendering is of a line</desc>
+                                    </valItem>
+                                    <valItem ident="no-indent">
+                                        <desc>rendered as not indented</desc>
+                                    </valItem>
+                                    <!--<valItem ident="normal">
+                                        <desc>rendering returns to 'normal'</desc>
+                                    </valItem>
+                                    -->
+                                    <valItem ident="other">
+                                        <desc>other rendering</desc>
+                                    </valItem>
+                                    <valItem ident="quarter-line">
+                                        <desc>rendering is of a quarter line</desc>
+                                    </valItem>
+                                    <valItem ident="right">
+                                        <desc>aligned to the right</desc>
+                                    </valItem>
+                                    <valItem ident="sub">
+                                        <desc>rendered in subscript</desc>
+                                    </valItem>
+                                    <valItem ident="sup">
+                                        <desc>rendered in superscript</desc>
+                                    </valItem>
+                                    <valItem ident="small">
+                                        <desc>rendered as smaller</desc>
+                                    </valItem>
+                                    <valItem ident="smallcaps">
+                                        <desc>rendered as smallcaps</desc>
+                                    </valItem>
+                                    <valItem ident="triple-line">
+                                        <desc>rendering is of a triple line</desc>
+                                    </valItem>
+                                    <valItem ident="underline">
+                                        <desc>rendered in underline</desc>
+                                    </valItem>
+                                    <valItem ident="upside-down">
+                                        <desc>rendered upside-down</desc>
+                                    </valItem>
+                                    <valItem ident="vertical">
+                                        <desc>rendered vertically</desc>
+                                    </valItem>
+
+                                    <valItem ident="black">
+                                        <desc>rendered in black</desc>
+                                    </valItem>
+
+                                    <valItem ident="blue">
+                                        <desc>rendered in blue</desc>
+                                    </valItem>
+
+                                    <valItem ident="brown">
+                                        <desc>rendered in brown</desc>
+                                    </valItem>
+
+                                    <valItem ident="gray">
+                                        <desc>rendered in gray</desc>
+                                    </valItem>
+
+                                    <valItem ident="green">
+                                        <desc>rendered in green</desc>
+                                    </valItem>
+
+                                    <valItem ident="red">
+                                        <desc>rendered in red</desc>
+                                    </valItem>
+
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </classSpec>
+
+                    <!-- Closed value list for @unit -->
+                    <classSpec ident="att.dimensions" type="atts" mode="change" module="tei">
+                        <attList>
+                            <attDef ident="unit" mode="change">
+                                <!-- Provide a closed value list for @unit-->
+                                <valList mode="replace" type="closed" xml:id="unit-valList">
+                                    <valItem ident="mm">
+                                        <desc>Millimetres</desc>
+                                    </valItem>
+                                    <valItem ident="chars">
+                                        <desc>Characters in the text</desc>
+                                    </valItem>
+                                    <valItem ident="words">
+                                        <desc>Words in the text</desc>
+                                    </valItem>
+                                    <valItem ident="lines">
+                                        <desc>Lines in the text</desc>
+                                    </valItem>
+                                    <valItem ident="pages">
+                                        <desc>Pages in the text</desc>
+                                    </valItem>
+                                    <valItem ident="section">
+                                        <desc>Section in the text</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </classSpec>
+
+
+                    <!-- closed value list for place -->
+
+                    <classSpec ident="att.placement" type="atts" mode="change" module="tei">
+                        <attList>
+                            <attDef ident="place" mode="change">
+                                <valList mode="replace" type="closed" xml:id="place-valList">
+                                    <valItem ident="above">
+                                        <desc>above the line</desc>
+                                    </valItem>
+
+                                    <valItem ident="below">
+                                        <desc>below the line</desc>
+                                    </valItem>
+                                    <valItem ident="bottom">
+                                        <desc>at the foot of the page</desc>
+                                    </valItem>
+                                    <valItem ident="end">
+                                        <desc>at the end of e.g. chapter or volume.</desc>
+                                    </valItem>
+                                    <valItem ident="inline">
+                                        <desc>within the body of the text.</desc>
+                                    </valItem>
+                                    <valItem ident="inspace">
+                                        <desc>in a predefined space, for example left by an earlier
+                                            scribe.</desc>
+                                    </valItem>
+                                    <valItem ident="marginleft">
+                                        <desc>in the left margin</desc>
+                                    </valItem>
+                                    <valItem ident="marginright">
+                                        <desc>in right margin</desc>
+                                    </valItem>
+                                    <valItem ident="margintop">
+                                        <desc>in the top margin</desc>
+                                    </valItem>
+                                    <valItem ident="marginbottom">
+                                        <desc>in the bottom margin</desc>
+                                    </valItem>
+                                    <valItem ident="top">
+                                        <desc>at the top of the page</desc>
+                                    </valItem>
+                                </valList>
+
+                            </attDef>
+                        </attList>
+
+                    </classSpec>
+
+                    <!-- Delete @evaluate, rename @target -->
+                    <classSpec ident="att.pointing" type="atts" mode="change" module="tei">
+                        <attList>
+                            <attDef ident="evaluate" mode="delete"/>
+                            <attDef ident="targetLang" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    <classSpec ident="att.typed" mode="change" module="tei" type="atts">
+                        <attList>
+                            <attDef ident="subtype" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    <classSpec ident="att.personal" mode="change" module="tei" type="atts">
+                        <attList>
+                            <attDef ident="sort" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+
+                    <classSpec ident="att.datable.iso" mode="delete" module="tei" type="atts"/>
+                    <classSpec ident="att.declaring" mode="delete" module="tei" type="atts"/>
+                    <classSpec ident="att.duration" mode="delete" module="tei" type="atts"/>
+                    <classSpec ident="att.internetMedia" mode="delete" module="tei" type="atts"/>
+                    <!-- 
+                       <classSpec ident="att.spanning" mode="delete" module="tei" type="atts"/>
+                   -->
+                    <classSpec ident="att.divLike" mode="delete" module="tei" type="atts"/>
+                    <classSpec ident="att.segLike" mode="delete" module="tei" type="atts"/>
+                    <classSpec ident="att.fragmentable" mode="delete" module="tei" type="atts"/>
+                    <classSpec ident="att.datable.custom" mode="delete" module="tei" type="atts"/>
+                    <classSpec ident="att.translatable" mode="delete" module="tei" type="atts"/>
+                    <classSpec ident="att.cReferencing" mode="delete" module="tei" type="atts"/>
+                    <classSpec ident="att.edition" mode="delete" module="tei" type="atts"/>
+                    <classSpec ident="att.pointing.group" mode="delete" module="tei" type="atts"/>
+
+
+                    <!-- delete @key, leaving @ref -->
+                    <classSpec ident="att.canonical" mode="change" module="tei" type="atts">
+                        <attList>
+                            <attDef ident="key" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+                    <classSpec ident="att.global.linking" mode="change" module="tei" type="atts">
+                        <attList>
+                            <attDef ident="synch" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    <classSpec ident="att.naming" mode="change" module="tei" type="atts">
+                        <attList>
+                            <attDef ident="nymRef" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+                    <classSpec ident="att.editLike" mode="change" module="tei" type="atts">
+                        <attList>
+                            <attDef ident="evidence" mode="delete"/>
+                            <attDef ident="instant" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+                </schemaSpec>
+
+
+
+            </div>
+        </back>
+    </text>
+</TEI>
