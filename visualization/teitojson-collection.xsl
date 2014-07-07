@@ -73,7 +73,7 @@
     <xsl:sequence select="tei:json('id',@id, false())"/>
     <xsl:sequence select="tei:json('value',.,false())"/>
     <xsl:sequence select="tei:dateJson('date',.,false())"/>
-    <xsl:sequence select="tei:objectJson('object',.,false())"/>
+    <xsl:sequence select="tei:objectJson('object',.,true())"/>
     <xsl:text> }</xsl:text>
     <xsl:if test="position() != last()">,</xsl:if>
     <xsl:text>&#10;</xsl:text>
