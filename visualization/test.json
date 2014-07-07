@@ -1,7 +1,1 @@
-{"TEI": [{ "name":"Albert Dock Hospital", "count":1 },
-{ "name":"London", "count":7 },
-{ "name":"Manchester", "count":1 },
-{ "name":"New York", "count":1 },
-{ "name":"Spain", "count":1 }
-
-] }
+{"TEI":[{"name":"Albert Dock Hospital","count":1},{"name":"London","count":7},{"name":"Manchester","count":1},{"name":"New York","count":1},{"name":"Spain","count":1}]}
