@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Elieser ben Arie (Lazarus Willner), gest. 1903-08-21, Jüdischer Friedhof Dormagen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e03-27</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-27</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-27</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <objectType>Stele</objectType>
+          Stele mit eingezogenem Rundbogenabschluss mit vorkragendem Rand und vertieftem Schriftfeld, auf Fundament und Sockel aus Scheinmauerwerk.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1985</date>
+           die hebräische Inschrift auf dem Grabmal und die deutsche Inschrift auf dem Fundament sind kaum noch zu erkennen. 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral: gekreuzte Palmwedel im Giebel.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1903-08-21'>1903-08-21</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038848'>
+        Dormagen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.100669 6.834092</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e03-27-1" sex='1'>
+      <persName>Elieser ben Arie (Lazarus Willner)</persName>
+       <event when='1903-08-21' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='69'>Hebrew</language>
+    <language ident='de' usage='30'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0027_E03_070719EPS4105hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0027dE03_070719EPS4107hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0027dE03_070719EPS4108hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0027dE03_070719EPS4109qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e03.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2014-03-19T21:35:21'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש צדיק ישר ותמים‏‎
+‏‎     <lb n='3'/>
+     ‎‏אשר הלך [...]‏‎
+‏‎     <lb n='4'/>
+     ‎‏[...]‏‎
+     <lb n='5'/>
+     ‎‏אליעזר בר ארי׳ [...]‏‎
+‏‎     <lb n='6'/>
+     ‎‏נפטר בשם טוב ביום‏‎
+‏‎     <lb n='7'/>
+     ‎‏עש״ק כ״ח חודש אב‏‎
+‏‎     <lb n='8'/>
+     ‎‏שנת תרס״ג לפ״ק‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='10'/>
+     Hier ruht
+     <lb n='11'/>
+     Lazarus Willner
+     <lb n='12'/>
+     geb. [... 1826]
+     <lb n='13'/>
+     gest. [... 1903]
+     <lb n='14'/>
+     R.I.F.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     ein ›gerechter und aufrechter‹ und lauterer Mann,
+     <lb n='3'/>
+     welcher wandelte ...
+     <lb n='4'/>
+     ...
+     <lb n='5'/>
+     Elieser, Sohn des Arie ...,
+     <lb n='6'/>
+     verschieden ›mit gutem Namen‹ am
+     <lb n='7'/>
+     Rüsttag des heiligen Schabbat, 28. (im) Monat Aw
+     <lb n='8'/>
+     des Jahres 663 nach kleiner Zählung.
+     <lb n='9'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Dtn 34,4</p>
+    <p>Zl 6: bBer 17a</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 12-13: Die Jahre wurden entsprechend der Angabe von Schulte ergänzt.</p>
+   </div>
+   <div type="commentary" subtype="Abkürzung">
+    <p>Zl 14: Die Abkürzung "R.I.F." steht für "Ruhe in Frieden".</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Lazarus Willner ist in einer Aufstellung der Wählerliste zur Neusser Synagogengemeinde aus dem Jahr 1863 als Metzger aufgeführt, 1866 und 1869 als Handelsmann, 1872 wieder als Metzger. 1871 werden in seinem Haushalt sechs Personen gezählt. Verheiratet war er mit der neben ihm ruhenden Julchen, geb. Vasen. Seine 1872 in Dormagen geborene Tochter Friederica heiratete Moritz Heumann und zog mit ihm nach Brühl. Sie wurde von Köln nach Theresienstadt deportiert und ermordet.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

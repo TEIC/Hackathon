@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Simcha ben Issachar, gest. 1656-06-23, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-8491</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-8491</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-8491</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,540 x 0,820 x 0,180 m</dim>
+          </dimensions>
+          Die Krone in Schrift und Bild ist reliefiert.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer liegend Beschädigung schwer
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben, vertieft (VS)</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Krone</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1656-06-23'>1656-06-23</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FP</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1101</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-8491-1" sex='1'>
+      <persName>Simcha ben Issachar</persName>
+       <event when='1656-06-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2491_FP_0204240122.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-24'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000537.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000101.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2462_FO_0206020113.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-06-02'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2506_GP_0205260233.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏כתר תורה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נוח שא[(נ)]ן וסתר יתלונן‏‎
+‏‎     <lb n='3'/>
+     ‎‏צורבא [מרבנן] אוריין ובר‏‎
+‏‎     <lb n='4'/>
+     ‎‏אוריין הוא ה[(דיי)]ן המצויין‏‎
+‏‎     <lb n='5'/>
+     ‎‏כמוהר״ר שמחה ב׳ כמוהר״ר‏‎
+‏‎     <lb n='6'/>
+     ‎‏יששכר מק״ק ווילנא יעמד‏‎
+‏‎     <lb n='7'/>
+     ‎‏לקץ הימין נפטר יום ו״ד (!) א׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏לחדש תמוז שנת תיו לח[(יי)]ם‏‎
+‏‎     <lb n='9'/>
+     ‎‏לפ״ק‏‎
+‏‎     <lb n='10'/>
+     ‎‏מנוחה ושמ[חה] לאיש מת והוא‏‎
+‏‎     <lb n='11'/>
+     ‎‏חי והן עוד בח[יים] מנתו וחבלו‏‎
+‏‎     <lb n='12'/>
+     ‎‏ואם מת לדורו [לקץ] יעמד חי‏‎
+‏‎     <lb n='13'/>
+     ‎‏וישמח כשכיר יקוה פעלו‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Krone der Tora‹
+     <lb n='2'/>
+     ›Unbekümmert ruht er‹, ›und geschützt verweilt er‹,
+     <lb n='3'/>
+     ›der von der Flamme der Toragelehrten Erfaßte‹, ›ein Toragelehrter, Sohn
+     <lb n='4'/>
+     eines Toragelehrten‹, es ist der ausgezeichnete Rabbinatsassessor,
+     <lb n='5'/>
+     unser geehrter Lehrer und Meister, Herr Simcha, Sohn unseres geehrten Lehrers und Meisters, Herrn
+     <lb n='6'/>
+     Issachar aus der heiligen Gemeinde Wilna, ›auferstehen 
+     <lb n='7'/>
+     möge er am Ende der Tage‹, verschieden Tag sechs, 1. (Tag)
+     <lb n='8'/>
+     des Monats Tammus des Jahres "Möge Jerusalem erbaut und errichtet werden zum Leben" (416)
+     <lb n='9'/>
+     der kleinen Zählung,
+     <lb n='10'/>
+     Ruhe(statt) und Freude dem Manne, der gestorben ist und doch
+     <lb n='11'/>
+     lebt und schon zu Lebzeiten seinen Anteil und sein Los (erhielt),
+     <lb n='12'/>
+     auch wenn er für sein Zeitalter tot ist, ›so möge er am Ende lebend auferstehen‹
+     <lb n='13'/>
+     und sich erfreuen, ›so wie der Tagelöhner auf seinen Werklohn hofft‹
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Av 4,13</p>
+    <p>Zl 2: Nach Jes 33,20 | Zl 2: Nach Ps 91,1</p>
+    <p>Zl 3: bMeg 28b</p>
+    <p>Zl 3f: Nach bMen 53a</p>
+    <p>Zl 6f: Nach Daniel 12,13</p>
+    <p>Zl 12: Nach Dan 12,13</p>
+    <p>Zl 13: Ijob 7,2</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -an in Zln 2-4 und -lo in Zln 11,13.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      in Zl 8: Die Addition der markierten Buchstaben des Wortes ‎‏תיו‏‎ ergibt das Todesjahr 416.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2a: Anklingend an Jes 33,20 "in sichere Aue", durch den Austausch eines Buchstabens jedoch verändert.</p>
+    <p>Zl 7b: ‎‏ו״ד‏‎ müßte ‎‏ו״ו‏‎ bzw. ‎‏וי״ו‏‎ geschrieben sein.</p>
+    <p>Zl 8: Die ungewöhnliche Schreibung der Jahreszahl 416 als ‎‏תי״ו‏‎ (statt ‎‏תט״ז‏‎ unter Vermeidung der Buchstaben des Gottesnamens) ermöglicht ihre Lesung als Abkürzung für die Benediktion "möge Jerusalem erbaut und errichtet werden" und steht im Zusammenhang der messianischen Anspielungen der Inschrift.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Unter den mit Gemeindeämtern versehenen Talmudgelehrten nahmen die Oberrabbiner den höchsten Rang ein (siehe unten im Kapitel "Leuchte Israels"), gefolgt von ihren Beisitzern am Altonaer Gerichtshof, den Rabbinatsassessoren oder "Dajanim". Der Stein von 1656 für Simcha Lotzker, einen Dajan aus Polen, ist Hamburgs ältester erhaltener Rabbinergrabstein. Auf die beiden Namen des Verstorbenen spielen die in Zl. 10 und 13 ausgedrückten Gedanken über die "Freude" (simcha) des "Tagelöhners" (sachir) an. Rabbi Simcha Lotzker, der in Z. 2 als Schutzsuchender ausgewiesen wird, flüchtete offenbar während der Jahre 1648/49, zur Zeit der Massaker an den polnischen Juden, aus der bedeutenden Gemeinde von Wilna nach Altona. Diese Verfolgungen könnten die messianischen Erwartungen genährt haben, denen die Grabschrift durch ihre zweimalige Bezugnahme (Zeile 7 und 14) auf das bevorstehende "Ende der Zeiten" besonderen Nachdruck verleiht. Sie lässt das religiöse Klima erkennen, in dem sich ein Jahrzehnt später die messianische Bewegung um Schabbatai Zwi entfalten konnte.</p>
+    <p>Die histor. Aufnahme zeigt das Grabmal in situ und unbeschädigt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

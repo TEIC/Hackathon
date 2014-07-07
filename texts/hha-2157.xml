@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schmuel ben Josef Jaakow Renner, gest. 1772-12-26, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2157</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2157</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2157</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit eingezogenem Bogen und Eckakroterien. Schmale, scharrierte Rahmenleiste zum vertieften Inschriftenfeld hin einfach gestuft. Im Bogenfeld rechts und links die Buchstaben ‎‏פ‏‎ und ‎‏נ‏‎. Darunter, dem Bogenverlauf folgend die oberste Textzeile. In deren Bogenfeld die Worte ‎‏שחר העיר‏‎. Lettern erhaben.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1772-12-26'>1772-12-26</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FK</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 1866</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2157-1" sex='1'>
+      <persName>Schmuel ben Josef Jaakow Renner</persName>
+       <event when='1772-12-26' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2157_FK_0205120104.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-12'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/05/00000166.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש זקן נבון לחש וחכם חרשים‏‎
+‏‎     <lb n='3'/>
+     ‎‏שחר העיר‏‎
+‏‎     <lb n='4'/>
+     ‎‏להודות לה׳ כארי בגבורה‏‎
+‏‎     <lb n='5'/>
+     ‎‏מקדמי ומחשכי לב״כ ותפילתו‏‎
+‏‎     <lb n='6'/>
+     ‎‏בפיו שגורה ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏ומתפלל בימי נוראים במלאכות‏‎
+‏‎     <lb n='8'/>
+     ‎‏סגל חבורה ׃‏‎
+‏‎     <lb n='9'/>
+     ‎‏את מצות ה׳ שמר קלה כחמורה ׃‏‎
+‏‎     <lb n='10'/>
+     ‎‏לאמונה גבר וצדקה כאיזור‏‎
+‏‎     <lb n='11'/>
+     ‎‏במתנים חגורה ׃ כ״ה שמואל‏‎
+‏‎     <lb n='12'/>
+     ‎‏בכ״ה יוסף יעקב רעניר הלך‏‎
+‏‎     <lb n='13'/>
+     ‎‏למנוחה במוצאי יו׳ מנוחה ונקבר‏‎
+‏‎     <lb n='14'/>
+     ‎‏למחרתו ביו׳ א׳ ב׳ דר״ח טבת תקל״ג לפ״ק‏‎
+‏‎     <lb n='15'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     ein betagter Mann, in Künsten verständig und in Beschwörungen kundig,
+     <lb n='3'/>
+     die Morgenröte weckte er,
+     <lb n='4'/>
+     um dem Ewigen zu danken wie ein Löwe in seiner Stärke,
+     <lb n='5'/>
+     früh morgens und spät abends war er in der Synagoge und sein Gebet
+     <lb n='6'/>
+     war überfließend in seinem Munde,
+     <lb n='7'/>
+     und er betet(e) an den furchtbaren Tagen im Auftrag
+     <lb n='8'/>
+     einer erlesenen Gesellschaft,
+     <lb n='9'/>
+     das Gebot des Ewigen bewahrte er, das leichte, wie auch das schwere,
+     <lb n='10'/>
+     nach Treue waltete er und Gerechtigkeit war wie ein Gürtel
+     <lb n='11'/>
+     um seine Hüften gegürtet, der geehrte Herr Schmuel,
+     <lb n='12'/>
+     Sohn des geehrten Herrn Josef Jaakow Renner, ging
+     <lb n='13'/>
+     in seine Ruhe (ein) am Ausgang des Tags der Ruhe und ward begraben
+     <lb n='14'/>
+     am folgenden, am Tag 1, 2. des Neumonds Tewet 533 der kleinen Zählung.
+     <lb n='15'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -urah in Zln 4,6,8,9.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3, 5, 7, 9-10: ‎‏שמואל‏‎ Schmuel
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Die ganze Zeile bildet eine Verschachtelung mehrerer Zitate: Gen 41,33: ‎‏ירא פרוע איש נבון וחכם‏‎; Jes 3,3: ‎‏וחכם חרשים ונבון לחש‏‎; zu ‎‏איש זקן‏‎ vgl. 1Sam 28,14.</p>
+    <p>Zl 3: Vgl. Ps 108,3.</p>
+    <p>Zl 4a: Vgl. Ps 92,2; 1Chr 16,7;</p>
+    <p>Zl 5a: Ein vielleicht aus bBer 8a geschöpftes und zu neuer Bedeutung abgewandeltes Zitat. "Herz" ist ebenfalls auf "war überfließend in seinem Munde" bezogen. Möglich wäre auch die Übersetzung: "früh morgens und spät abends nahm er eng teil (am Gebet)".</p>
+    <p>Zl 5b/6: Vgl. mBer V, 5: ‎‏אם שגורה תפילתי בפי‏‎</p>
+    <p>Zl 9: Vgl. bSan 71b.</p>
+    <p>Zl 10a: Vgl. die in der Bibel vorkommende negative Aussage in Jer 9,2: ‎‏לא לאמונה גברו בארץ‏‎.</p>
+    <p>Zl 10b/11a: Vgl. Jes 11,5</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Aus den Zitaten der reich und originell ausgestalteten Eulogie geht hervor, daß der Verstorbene der geistigen und glaubensfrommen Elite der Gemeinde angehörte. An den "furchtbaren Tagen", den hohen Feiertagen von Rosch Haschana und Jom Kippur, war er von der Gemeinde als Vorbeter ausersehen. Emuna, Glaubenstreue und Wahrhaftigkeit in seinem Verhalten, und Zedaqa, Pflichtmilde bzw. Wohltätigkeit, waren hervorstechende Merkmale seiner Persönlichkeit. Zwischen der "vollkommenen Ruhe", in die der Verstorbene eingegangen ist und dem Todestag, einem Schabbat, ist ein korrespondierender Bezug dadurch hergestellt, daß für "Schabbat" die Metonymie "Tag der Ruhe" gewählt wurde.</p>
+    <p>Optische Gliederung mit dem Schema: lange Zeile, kurze Zeile, zwei lange Zeilen, kurze Zeile, eine lange Zeile, kurze Zeile, zwei lange Zeilen, wobei die erste kurze Zeile im Bogenfeld untergebracht ist.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

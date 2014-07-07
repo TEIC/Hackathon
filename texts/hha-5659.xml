@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Natan ben Schmuel ben Jaakow (Nathan Samuel Jacob), gest. 1843-10-12, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-5659</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5659</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5659</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben (VS); vertieft (RS: Deutsch)</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1843-10-12'>1843-10-12</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>OG</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>W 5436</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-5659-1" sex='1'>
+      <persName>Natan ben Schmuel ben Jaakow (Nathan Samuel Jacob)</persName>
+       <event when='1843-10-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='86'>Hebrew</language>
+    <language ident='de' usage='13'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5659_OG_0406090206.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-06-09'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5659_OG_0406090207.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-06-09'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/09/00000057.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/09/00000058.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏נסמנו כל שמחה, כי סגרו עיניך,‏‎
+‏‎      <lb n='3'/>
+      ‎‏תאבל מאד אשת נעורים [...] יפקד מושבך,‏‎
+‏‎      <lb n='4'/>
+      ‎‏נבוכו הילדים, בכו, כי בקשוך, ואינך בחדרך‏‎
+‏‎      <lb n='5'/>
+      ‎‏בשפתיך אמרי נעם, בעבותו[ת אה]בה משכתנו‏‎
+‏‎      <lb n='6'/>
+      ‎‏רעיך, קרביך, וכל [...] עיך [ית]אבלו אתנו ־‏‎
+‏‎      <lb n='7'/>
+      ‎‏שועת עניים ת[...] שמעת, הטי[ת] אזניך; ‏‎
+‏‎      <lb n='8'/>
+      ‎‏מלין כ[...] מו, [...]ל כפיך ׃‏‎
+‏‎      <lb n='9'/>
+      ‎‏ויושר בכל [...]מה, תמכו אשרי מעגלותיך‏‎
+‏‎      <lb n='10'/>
+      ‎‏א[...] השבת אר[...]ך [...] בצהרים,‏‎
+‏‎      <lb n='11'/>
+      ‎‏לעפר גופך [שב] נשמתך [...] שמים‏‎
+‏‎      <lb n='12'/>
+      ‎‏כ׳ [נת]ן ב״ר שמואל בר יעקב‏‎
+‏‎      <lb n='13'/>
+      ‎‏נולד [...]‏‎
+‏‎      <lb n='14'/>
+      ‎‏[...] ‎‏בש״ט [יו]ם [...]‏‎
+‏‎      <lb n='15'/>
+      ‎‏ונקבר ביום א׳ הושענא רבא‏‎
+‏‎      <lb n='16'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='17'/>
+      Nathan Samuel
+      <lb n='18'/>
+      Jacob
+      <lb n='19'/>
+      geb. d. 2 Marche[schw]an 5548,
+      <lb n='20'/>
+      gest. d. 1[9?]. Ti[schri ...].
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben -
+      <lb n='2'/>
+      Gewichen ist von uns jede Freude, weil deine Augen sich schlossen,
+      <lb n='3'/>
+      es trauert sehr die Gattin der Jugend, weil dein Sitz verlassen ist,
+      <lb n='4'/>
+      verzweifelt sind die Kinder, sie weinen, denn sie suchen dich, doch du bis nicht in deiner Stube,
+      <lb n='5'/>
+      auf deinen Lippen wohlgefällige Reden, mit den Seilen der Liebe zogest du uns,
+      <lb n='6'/>
+      deine Freunde, deine Verwandten, und alle, die dich ... werden mit uns trauern,
+      <lb n='7'/>
+      den Schrei der Armen ... hast du erhört, dein Ohr hast du geneigt,
+      <lb n='8'/>
+      Reden ... deine Hände,
+      <lb n='9'/>
+      und Aufrichtigkeit in all ... heil deinen Geleisen?
+      <lb n='10'/>
+      ... verdunkelte sich dein Licht? ... am Mittag,
+      <lb n='11'/>
+      zum Staub [kehrt zurück] dein Leib, deine Seele [steigt auf zum] Himmel,
+      <lb n='12'/>
+      der geehrte Natan, Sohn des Herrn Schmuel, Sohn des Jaakow
+      <lb n='13'/>
+      geboren ...
+      <lb n='14'/>
+      ... mit gutem Namen Tag ...,
+      <lb n='15'/>
+      und wurde begraben am Tag 1, Hoschana Rabba.
+      <lb n='16'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf - echa in Zln 2-4 und 7-9, auf -tanu in Zln 5-6, auf -im in Zln 10-11 (aaabbaaacc).
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-11: ‎‏נתן בר שמואל‏‎ Natan Sohn des Schmuel
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3b: Jes 54,6.</p>
+    <p>Zl 5a: Spr 15,26; 16,24.</p>
+    <p>Zl 5b: Vgl. Hosea 11,4.</p>
+    <p>Zl 7b: Vgl. Ps 116,2.</p>
+    <p>Zl 14: bBer 17a.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

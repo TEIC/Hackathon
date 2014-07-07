@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Zippor bat Mosche ∞ Salman F(rank)f(urter) ben I. L(eudes)d(orf), gest. 1796-06-18, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-163</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-163</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-163</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung mittel
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Namenssymbol: Vogel</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1796-06-18'>1796-06-18</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>AH</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 2794</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-163-1" sex='2'>
+      <persName>Zippor bat Mosche ∞ Salman F(rank)f(urter) ben I. L(eudes)d(orf)</persName>
+       <event when='1796-06-18' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0163_AH_0105240136.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-05-24'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/06/00000096.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏ויצב]‏‎
+‏‎     <lb n='2'/>
+     ‎‏שלמה מצבה אשתו הרחפה מגוזלה‏‎
+‏‎     <lb n='3'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='4'/>
+     ‎‏קינה ויליל על האי שופרא דבלא‏‎
+‏‎     <lb n='5'/>
+     ‎‏בארעי׳ ועוד׳ באב׳ נקטפ׳‏‎
+‏‎     <lb n='6'/>
+     ‎‏צפור‏‎
+‏‎     <lb n='7'/>
+     ‎‏נודדות מקינה היא האשה‏‎
+‏‎     <lb n='8'/>
+     ‎‏היולדות המושכלת אל דל‏‎
+‏‎     <lb n='9'/>
+     ‎‏ומחכמ׳ נשי׳ בנתה ביתה הצנוע׳‏‎
+‏‎     <lb n='10'/>
+     ‎‏במעש׳ הא״ח מ׳ ציפור אשת‏‎
+‏‎     <lb n='11'/>
+     ‎‏זלמן פ״פ בת כ״ה משה בר ר״י‏‎
+‏‎     <lb n='12'/>
+     ‎‏ל״ד ז״ל נפטר׳ בש״ט מש״ק י״ב‏‎
+‏‎     <lb n='13'/>
+     ‎‏סיון ונקברת למחרתו יו׳‏‎
+‏‎     <lb n='14'/>
+     ‎‏א׳ י״ג תקנ״ו לפ״ק‏‎
+‏‎     <lb n='15'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Und errichtet
+     <lb n='2'/>
+     hat Schlomo ein Grabmal für seine Gattin, die ihren Küken entschwebte.
+     <lb n='3'/>
+     Hier ist geborgen
+     <lb n='4'/>
+     Klagelied und Jammer ›über diese Schönheit, die vergangen ist
+     <lb n='5'/>
+     im Staube‹ und ›noch in ihrer Blüte abgepflückt‹.
+     <lb n='6'/>
+     ›Ein Vogel
+     <lb n='7'/>
+     zieht weg aus seinem Nest‹, es ist die Frau,
+     <lb n='8'/>
+     die Wöchnerin, ›die sich den Darbenden annahm‹,
+     <lb n='9'/>
+     und ›mit Frauenweisheit ihr Haus erbaute‹, die züchtige
+     <lb n='10'/>
+     in ihren Taten, die ›tüchtige Gattin‹, Frau Zippor, Gattin
+     <lb n='11'/>
+     des Salman F(rank)f(urter), Tochter des geehrten Herrn Mosche, Sohn des I.
+     <lb n='12'/>
+     L(eudes)d(orf), sein Andenken zum Segen, verschieden ›mit gutem Namen‹ am Ausgang des heiligen Schabbat, 12.
+     <lb n='13'/>
+     Sivan und begraben am Tag darauf, Tag
+     <lb n='14'/>
+     1, 13., 556 der kleinen Zählung.
+     <lb n='15'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4f: bBer 5b | Zl 5: Ijob 8,12</p>
+    <p>Zl 6f: Spr 27,8</p>
+    <p>Zl 8: nach Ps 41,2</p>
+    <p>Zl 9: Spr 9,1</p>
+    <p>Zl 10: Spr 31,10</p>
+    <p>Zl 12: bBer 17a</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Die heute fehlende Zeile wurde teilweise nach dem historischen Foto (wenn auch unsicher) ergänzt.</p>
+    <p>Zl 11: nach Grabbuch und Grunwald ist ‎‏פ״פ‏‎ mit Frankfurter aufzulösen, der Stammname des Gatten, dessen Familienname Warburg war. Der abgekürzte Name des Großvaters konnte wegen der vielen mit ‎‏י‏‎ beginnenden Vornamen nicht aufgelöst werden, zumal der shha-Eintrag fehlt.</p>
+    <p>Zl 12: nach Grabbuch und Grunwald ist ‎‏ל״ד‏‎ mit Leudesdorf aufzulösen</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>identisch mit Nr. 0167</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

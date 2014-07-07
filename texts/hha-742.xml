@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Tamar Scheindel bat Jaakow Wimpfen SeGaL ∞ Natan Heilbut, gest. 1760-01-14, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-742</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-742</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-742</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1760-01-14'>1760-01-14</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>DK</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 1878</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-742-1" sex='2'>
+      <persName>Tamar Scheindel bat Jaakow Wimpfen SeGaL ∞ Natan Heilbut</persName>
+       <event when='1760-01-14' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0742_DK_0110040118.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-04'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/05/00000155.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏תמרורים ואנחה תמר שינדל בכ״ה לירח‏‎
+‏‎     <lb n='2'/>
+     ‎‏טבת עלתה למנוחה‏‎
+‏‎     <lb n='3'/>
+     ‎‏בה נהפך השמחה לפ״ק‏‎
+‏‎     <lb n='4'/>
+     ‎‏תולדת ובת ר׳ יאקב ווימפ׳ סג״ל מאו׳ נעלה‏‎
+‏‎     <lb n='5'/>
+     ‎‏מחברת הישיש כ״ה נתן היילבוט איש סגולה‏‎
+‏‎     <lb n='6'/>
+     ‎‏רבות עשתה חיל ואין בה שכולה?‏‎
+‏‎     <lb n='7'/>
+     ‎‏שבחה מי יספר דגמיל תהלה‏‎
+‏‎     <lb n='8'/>
+     ‎‏ילדיה החזיקה למ״ט ותורה חמדה כלולה‏‎
+‏‎     <lb n='9'/>
+     ‎‏נעמו מעשה ורב כשרון פעלה‏‎
+‏‎     <lb n='10'/>
+     ‎‏דלים החזיקו ופזר לנפש אומללה‏‎
+‏‎     <lb n='11'/>
+     ‎‏למקום נורא וצרור חיי׳ תעלה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Bitternis und Seufzen, Tamar Scheindel ist am 25. des Monats
+     <lb n='2'/>
+     Tewet hinauf gestiegen zur Ruhe,
+     <lb n='3'/>
+     Da Verkehrte Sich Die Freude,
+     <lb n='4'/>
+     Tochter und Nachkomme des Herrn Jaakow Wimpfen SeGaL, sehr Erhaben,
+     <lb n='5'/>
+     verbunden mit dem Hochbetagten, dem geehrten Herrn Natan Heilbut, dem ausgezeichneten Manne,
+     <lb n='6'/>
+     in vielem als tüchtig erwiesen und ... ist kein ...,
+     <lb n='7'/>
+     ihr Lob, wer zählte es, ... Ruhm,
+     <lb n='8'/>
+     ihre Kinder leitete sie zu guten Taten und Tora, der vollendete Schatz,
+     <lb n='9'/>
+     wohlgetan sind ihre Werke, und mit viel Tüchtigkeit sind ihre Taten,
+     <lb n='10'/>
+     Darbenden unterstützend, und freigebig der unglücklichen Seele,
+     <lb n='11'/>
+     zum ehrfurchtgebietendem Orte und zum Bündel der Lebenden steige sie hinauf 
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -lah in Zln 4-11.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      in Zl 3; die Addition der Zahlenwerte der markierten Buchstaben ergibt das Todesjahr 520.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 4-11: ‎‏תמר שינדל‏‎ Tamar Schejndel
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>
+     Das Wort 
+     <hebr>tmruri^m</hebr>
+      kommt unter anderem mehrfach in Jer (6,26.31,14.31,20) vor. Es soll auf den Namen der Verstorbenen hinweisen.
+    </p>
+    <p>
+     Zl 3:
+     <hebr>bh nhp^k hwmxh</hebr>
+      ist inhaltlich am ehesten mit Amos 8,10 zu vergleichen
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schlomo Salman ben Jechiel Halevi, gest. 1688-06-17, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3233</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3233</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3233</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Levitenkanne</decoNote>
+       <decoNote type='ornament'>floral: Palmetten</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1688-06-17'>1688-06-17</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 966</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3233-1" sex='1'>
+      <persName>Schlomo Salman ben Jechiel Halevi</persName>
+       <event when='1688-06-17' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3233_GN_0205260119.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000413.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000080.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה נטמן‏‎
+‏‎     <lb n='2'/>
+     ‎‏צנצנת של מן איש מהימן בכל‏‎
+‏‎     <lb n='3'/>
+     ‎‏עידן וזמן במצות ה׳ הי׳ מיומן ׃ לחיי‏‎
+‏‎     <lb n='4'/>
+     ‎‏עולם הבא הי׳ מזומן אשר כל‏‎
+‏‎     <lb n='5'/>
+     ‎‏ימיו נשא ונתן באמונה בצדקה‏‎
+‏‎     <lb n='6'/>
+     ‎‏וגמילות חסדים עסק בכל עת‏‎
+‏‎     <lb n='7'/>
+     ‎‏ובכל עונה מנהג וגובה הקהילה‏‎
+‏‎     <lb n='8'/>
+     ‎‏איש ישר וכשר מאוד נעלה ה״ה‏‎
+‏‎     <lb n='9'/>
+     ‎‏כמ״ר שלמה זלמן בר יחיאל‏‎
+‏‎     <lb n='10'/>
+     ‎‏הלוי ז״ל הלך רך בשנים לעולמו‏‎
+‏‎     <lb n='11'/>
+     ‎‏ונפטר בשם טוב ביום שנאמר‏‎
+‏‎     <lb n='12'/>
+     ‎‏בו כי טוב שני פעמים טו״ב סיון‏‎
+‏‎     <lb n='13'/>
+     ‎‏ושבק חיים לכל חי ונקבר פה‏‎
+‏‎     <lb n='14'/>
+     ‎‏אלטונה ביום ד׳ ח״י סיון שנת‏‎
+‏‎     <lb n='15'/>
+     ‎‏תמ״ח לפ״ק תנצב״ה עם נשמת‏‎
+‏‎     <lb n='16'/>
+     ‎‏אי״ו אמן‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     ›das Glas Manna‹, ein vertrauenswürdiger Mann ›, zu jeder 
+     <lb n='3'/>
+     Stunde und jeder Zeit‹ ›war er in den Geboten des Ewigen der vorzüglichste‹, ›zum Leben
+     <lb n='4'/>
+     in der künftigen Welt wurde er gebeten‹, der, welcher all
+     <lb n='5'/>
+     seine Tage ›in Treue handelte und wandelte‹, ›mit Wohltätigkeit 
+     <lb n='6'/>
+     und Liebeswerken beschäftigt‹ war zu jeder Zeit
+     <lb n='7'/>
+     und Jahreszeit, Leiter und Kassenverwalter der Gemeinde,
+     <lb n='8'/>
+     ein aufrechter und tugendhafter Mann, ›und sehr erhaben‹, es ist
+     <lb n='9'/>
+     der geehrte Herr Schlomo Salman, Sohn des Jechiel
+     <lb n='10'/>
+     Halevi, sein Andenken zum Segen, ›zart an Jahren‹ ›ging er hin in seine Welt‹
+     <lb n='11'/>
+     und verschied ›mit gutem Namen‹ an dem Tag, an dem zweimal
+     <lb n='12'/>
+     gesagt wurde, daß es gut war, 17. Sivan,
+     <lb n='13'/>
+     ›und er ließ das Leben wie alles Lebende‹, und wurde begraben hier,
+     <lb n='14'/>
+     Altona, am Tag 4, 18. Sivan des Jahres
+     <lb n='15'/>
+     448 der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens mit den Seelen 
+     <lb n='16'/>
+     von Awraham, Jizchak und Jaakow, Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: bJom 52b</p>
+    <p>Zl 2f: Dan 7,12 | Zl 3: bJom 10a</p>
+    <p>Zl 3f: bAZ 17a</p>
+    <p>Zl 5: bSchab 31a</p>
+    <p>Zl 5f: Av 1,2</p>
+    <p>Zl 8: Ps 47,10</p>
+    <p>Zl 10: BerR 90,3 | Zl 10: Koh 12,5</p>
+    <p>Zl 11: bBer 17a</p>
+    <p>Zl 13: nach bBer 61b</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -man in Zln 1-4, auf -nah in Zln 5,7 und auf -lah in Zln 7,8.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2a: Das Gefäß oder Glas mit Manna gefüllt aus der Zeit des Auszugs aus Ägypten war der Tradition nach eines der wichtigten Gegenständte die im Tempel waren und später mit der Bundeslade, die Flasche Salböl und den Stab Aharons versteckt wurden.</p>
+    <p>Zln 11b/12a: Am dritten Tag der Schöpfung sagte Gott zweimal "es war gut".</p>
+    <p>Zl 12: Die Buchstaben die den Monatstag ergeben sind so gewählt, dass sie das Wort gut bilden.</p>
+    <p>Zl 14: Die Buchstaben des Monatstages sind umgestellt um das Wort ‎‏חי‏‎ lebend, lebendig zu bilden.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal vollständig und in situ.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Josef Jehuda ben Natan, gest. 1670-01-06, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3332</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3332</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3332</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,880 x 0,920 x 0,240 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1670-01-06'>1670-01-06</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GO</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 868</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3332-1" sex='1'>
+      <persName>Josef Jehuda ben Natan</persName>
+       <event when='1670-01-06' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3332_GO_0205260207.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/517--31a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000282.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000130.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3300xGO_0205270105.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-27'/>
+    Fragment schriftlos
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏פה]‏‎
+‏‎     <lb n='2'/>
+     ‎‏נטמן איש ישר‏‎
+‏‎     <lb n='3'/>
+     ‎‏ונאמן לדבר מצוה‏‎
+‏‎     <lb n='4'/>
+     ‎‏היה תמיד מוכן ומזומן‏‎
+‏‎     <lb n='5'/>
+     ‎‏הניח תוך ביתו ברכה כי‏‎
+‏‎     <lb n='6'/>
+     ‎‏היתה פתיחה לרוחה רוב‏‎
+‏‎     <lb n='7'/>
+     ‎‏ימיו דרכו ומנהגו ככה‏‎
+‏‎     <lb n='8'/>
+     ‎‏הוא המאושר בכל מדור‏‎
+‏‎     <lb n='9'/>
+     ‎‏היושר הקצין [כ{פ}]רנס‏‎
+‏‎     <lb n='10'/>
+     ‎‏ומנהיג כמר יוסף יהודא‏‎
+‏‎     <lb n='11'/>
+     ‎‏בר נתן ז״ל ילך לפניו צדקתו‏‎
+‏‎     <lb n='12'/>
+     ‎‏ושלו׳ ינוח על משכבתו‏‎
+‏‎     <lb n='13'/>
+     ‎‏ומנוחתו נפטר בש״ט [ביום]‏‎
+‏‎     <lb n='14'/>
+     ‎‏ו׳ עש״ק כ״ד לחדש ט[בת]‏‎
+‏‎     <lb n='15'/>
+     ‎‏שנת ת״ל ל׳ תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     ist geborgen ein aufrechter und getreuer
+     <lb n='3'/>
+     Mann, zum Gebotstun
+     <lb n='4'/>
+     war er stets willig und bereit,
+     <lb n='5'/>
+     Segen hinterließ er ›in seinem Hause, denn
+     <lb n='6'/>
+     es war weit geöffnet‹ die Mehrzahl
+     <lb n='7'/>
+     seiner Tage, so war sein Lebens- und Leitweg,
+     <lb n='8'/>
+     er, der beglückt ist mit allen aufrechten
+     <lb n='9'/>
+     Eigenschaften, der Einflußreiche, Vorsteher
+     <lb n='10'/>
+     und Leiter, der geehrte Herr Josef Jehuda,
+     <lb n='11'/>
+     Sohn des Natan, sein Andenken zum Segen, ›sein Wohltun schreitet vor ihm einher‹
+     <lb n='12'/>
+     ›und in Frieden möge er ruhen auf seinem Lager
+     <lb n='13'/>
+     und Ruhestätte‹; er verschied ›mit gutem Namen‹ am Tag
+     <lb n='14'/>
+     6, Rüsttag des heiligen Schabbat, 24. des Monats Tewet
+     <lb n='15'/>
+     des Jahres 430 der Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 5f: Av 1,5</p>
+    <p>Zl 11: Ps 85,14</p>
+    <p>Zl 12f: Jes 57,2 | Zl 13: bBer 17a</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>
+     Zln 8b/9: Bedeutung nicht ganz klar. In der histor. Aufnahme ist eindeutig ‎‏מדות‏‎ zu sehen, (das ‎‏ר‏‎ wurde zum ‎‏ת‏‎ ergänzt). Danach und nach der Bedeutung von ‎‏מאושר‏‎ nach Spr 3,18 richtet sich die Übersetzung. Allerdings enthält das Grabmal Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hha-3331-t">hha-3331</ref>
+     , das wieder daneben steht und zwei Jahre jünger ist, eine nahezu identische Eulogie, in der ebenfalls und eindeutig ‎‏מדור‏‎ zu lesen ist. In der Inschrift hier, die sicher als Vorlage für daneben stehende diente, sind mehrere Buchstaben unvollständig ausgeführt, was auch auf das betreffende Wort hier zutreffen könnte. Dennoch ist nicht auszuschließen, daß der Satz eine andere Bedeutung hat. ‎‏מדור‏‎ bedeutet "Wohnung", "Abteilung", und könnte an bShab 152a anknüpfen: "jeder Gerechte erhält (in der künftigen Welt) eine Wohnung, die seiner Ehre entspricht", oder an Yalk zu Psalm, Nr. 656, wonach jede der sieben Gruppen im Garten Eden ihre Wohnung hat, wobei die vorzüglichste unter ihnen, die die Allgegenwart Gottes begrüßen darf, die Gruppe der Aufrechten ist.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

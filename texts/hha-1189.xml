@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Awraham Binjamin Wolf ben Josef Jehuda, gest. 1721-02-24, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1189</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1189</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1189</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung leicht
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral; gestalterisch: aufgespannter Mantel</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1721-02-24'>1721-02-24</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EK</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>CII 388</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1189-1" sex='1'>
+      <persName>Awraham Binjamin Wolf ben Josef Jehuda</persName>
+       <event when='1721-02-24' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1189_EK_0110070117.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-07'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000443.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש ישר ונאמן‏‎
+‏‎     <lb n='3'/>
+     ‎‏בנימן זאב יטרף ׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏ויחטוף במצו׳ ׃ ואלוף‏‎
+‏‎     <lb n='5'/>
+     ‎‏בתור׳ ׃ אל דלתות בית‏‎
+‏‎     <lb n='6'/>
+     ‎‏המדרש שקד תדיר׳ ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏פיזר נתן לאביונים נהג‏‎
+‏‎     <lb n='8'/>
+     ‎‏כשור׳ ה״ה הזקן הנכב׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏האלוף כ׳ ה״ה אברהם‏‎
+‏‎     <lb n='10'/>
+     ‎‏בנימן וואלף בן כ׳ יוסף‏‎
+‏‎     <lb n='11'/>
+     ‎‏יהודא זצ״ל נפטר‏‎
+‏‎     <lb n='12'/>
+     ‎‏ונקב׳ יו׳ ב׳ ך״ז שבט‏‎
+‏‎     <lb n='13'/>
+     ‎‏תפ״א ל׳ תנצב״ה ע״נ‏‎
+‏‎     <lb n='14'/>
+     ‎‏א״י ויע׳ בג״ע אמן‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein Mann, aufrecht und getreu,
+     <lb n='3'/>
+     ›Binjamin Seew, ein Wolf der reißt‹,
+     <lb n='4'/>
+     und hält fest an den Geboten, ein Fürst
+     <lb n='5'/>
+     der Tora, ›die Pforten des Lehr-
+     <lb n='6'/>
+     hauses suchte er stets auf‹,
+     <lb n='7'/>
+     großzügig gab er den Bedürftigen, ›er verhielt sich,
+     <lb n='8'/>
+     wie es sich gebührt‹, es ist der Betagte, der Ehrenwerte,
+     <lb n='9'/>
+     der Vornehme, der geehrte Herr Awraham
+     <lb n='10'/>
+     Binjamin Wolf, Sohn des geehrten Josef
+     <lb n='11'/>
+     Jehuda, das Andenken des Gerechten zum Segen, verschieden
+     <lb n='12'/>
+     und begraben Tag 2, 27. Schwat
+     <lb n='13'/>
+     481 der Zählung. Seine Seele sei eingebunden in das Bündel des Lebens mit den Seelen
+     <lb n='14'/>
+     von Awraham, Jizchak und Jaakow im Garten Eden, Amen 
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Gen 49,27</p>
+    <p>Zl 5f: Vgl. Spr 8,34</p>
+    <p>Zl 7f: Vgl. bBB 133b u. ö.</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rah in Zln 5,6,8.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      BiNJaMiN SeE W WOLF in Zln 3,4,5,7.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3: Jakobs Segen für Benjamin, eine Anspielung auf den Namen.</p>
+    <p>Zln 5b/6: In Spr 8,34 wörtlich: "an den Toren wachen".</p>
+    <p>Zln 7b/8a: Wendung aus bBB 133b u.ö. ist meist negativ formuliert, "er/sie verhielt sich nicht, wie es gebührt".</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Awraham Binjamin Wolf, Sohn des Josef Jehuda, wie ihn die Inschrift nennt, auch Wolf Stade, wie im shha eingetragen, war ein Bruder der Glückel von Hameln. Die Inschrift lobt insbesondere sein beständiges Lernen der Tora sowie seine Wohltaten.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

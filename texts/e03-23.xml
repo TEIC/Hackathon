@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Josef ben Schlomo (Joseph Wallach), gest. 1869-11-02, Jüdischer Friedhof Dormagen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e03-23</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-23</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-23</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <objectType>Kissenstein</objectType>
+          Kissenstein mit eingesetzter Schrifttafel (Vgl. auch nebenliegendes Grabmal, Nr. 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=e03-0022-t">e03-0022</ref>
+          ).
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1985</date>
+           die sechszeilige hebräische und sechszeilige deutsche Inschrift sind kaum noch zu erkennen. 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1869-11-02'>1869-11-02</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038848'>
+        Dormagen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.100669 6.834092</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e03-23-1" sex='1'>
+      <persName>Josef ben Schlomo (Joseph Wallach)</persName>
+       <event when='1869-11-02' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='51'>Hebrew</language>
+    <language ident='de' usage='48'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0023_E03_070719EPS4097hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e03.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2014-03-19T21:35:21'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש תם וישר‏‎
+‏‎     <lb n='3'/>
+     ‎‏זקן ושבע ימים‏‎
+‏‎     <lb n='4'/>
+     ‎‏[...] ‎‏יוסף בר שלמה‏‎
+‏‎     <lb n='5'/>
+     ‎‏נפטר כ״ח חשון תר״ל לפ״ק‏‎
+‏‎     <lb n='6'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='7'/>
+     Hier ruhen die Gebeine
+     <lb n='8'/>
+     unseres lieben Vaters
+     <lb n='9'/>
+     Joseph Wallach
+     <lb n='10'/>
+     geb. [...]
+     <lb n='11'/>
+     gest. [...]
+     <lb n='12'/>
+     Friede seiner Asche
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ›ein lauterer und aufrechter Mann‹ ,
+     <lb n='3'/>
+     ›betagt und satt an Tagen‹ 
+     <lb n='4'/>
+     ... Josef, Sohn des Schlomo,
+     <lb n='5'/>
+     verschieden 28. Cheschvan 630 nach kleiner Zählung.
+     <lb n='6'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Ijob 1,8</p>
+    <p>Zl 3: Gen 35,29</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 5: Die Lesung des Datums ist nicht gesichert.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

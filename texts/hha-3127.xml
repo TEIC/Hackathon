@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jokew ben Ber Kleve, gest. 1759-04-05, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3127</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3127</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3127</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,940 x 0,740 x 0,120 m</dim>
+          </dimensions>
+          Hochrechteckige Stele mit geschweifter oberer Randleiste in Voluten mit aufliegendem Gebinde aus diversen Blütenköpfen. Unter dem ersten Wort die zweite Zeile gebogt im Lünettenfeld, umrahmt von Blüten- und Blattdekor im Hochrelief, zum vertieften, von einer erhaben gearbeiteten Randleiste umgebenen, Inschriftenfeld hin durch ein in mehreren Schlingen quer über den Stein verlaufendes gerafftes Band abgegrenzt. Rahmen in Form von reliefierten zurückgesetzten Pilastern mit Kompositkapitellen und weiteren mehrfach gestuften Kapitellen.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1759-04-05'>1759-04-05</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GM</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 1736</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3127-1" sex='1'>
+      <persName>Jokew ben Ber Kleve</persName>
+       <event when='1759-04-05' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3127_GM_0205150132.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-15'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/05/00000299.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000160.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000161.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏לפרט‏‎
+‏‎     <lb n='2'/>
+     ‎‏יעקב הלך לדרכו הטוב‏‎
+‏‎     <lb n='3'/>
+     ‎‏יללה עוררה קול ברמה בבכי‏‎
+‏‎     <lb n='4'/>
+     ‎‏על האי שופרא דבלע בעפרא‏‎
+‏‎     <lb n='5'/>
+     ‎‏קרא ושנה וחיבר ספרי׳ שמן קיק‏‎
+‏‎     <lb n='6'/>
+     ‎‏במת יחיד בחריפו׳ ושכלות הלב‏‎
+‏‎     <lb n='7'/>
+     ‎‏ה״ה האלוף הראש והקצין גובה‏‎
+‏‎     <lb n='8'/>
+     ‎‏הקהילה התורני כמהור׳ יאקב‏‎
+‏‎     <lb n='9'/>
+     ‎‏בן האלוף הקצין פו׳ כהר״ר בער‏‎
+‏‎     <lb n='10'/>
+     ‎‏קליף נפטר ונקבר יום ה׳‏‎
+‏‎     <lb n='11'/>
+     ‎‏ביום השמיני לחודש ניסן‏‎
+‏‎     <lb n='12'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='13'/>
+     ‎‏עם שצו״ח עולם‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     der Zählung
+     <lb n='2'/>
+     ›Jaakow zog seines guten Weges‹,
+     <lb n='3'/>
+     ›Klagegeheul erweckte eine Stimme in Rama mit Weinen‹,
+     <lb n='4'/>
+     ›über diese Schönheit, die verschlungen ist im Staub‹,
+     <lb n='5'/>
+     ›er las Tora und lernte Mischna‹ und verfaßte die Werke: "Öl des Rhizinus",
+     <lb n='6'/>
+     "Die Höhe des Einzigen", mit Scharfsinn und Verstand des Herzens
+     <lb n='7'/>
+     Der geehrte Herr, der Vornehme, das Haupt, der Einflußreiche, der Kassenverwalter
+     <lb n='8'/>
+     der Gemeinde, der Toragelehrte, unser geehrter Lehrer und Meister, Herr Jokew,
+     <lb n='9'/>
+     Sohn des Vornehmen, des Einflußreichen, des Vorstehers und Leiters, des geehrten Herrn Ber
+     <lb n='10'/>
+     Kleve, verschieden und begraben Tag 5,
+     <lb n='11'/>
+     am achten Tag des Monats Nissan.
+     <lb n='12'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+     <lb n='13'/>
+     zusammen mit den übrigen Frommen und Gerechten der Welt
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Nach Gen 32,2</p>
+    <p>Zl 3: Nach Jer 31,14</p>
+    <p>Zl 4: Zusammengesetzt aus bBer 5a und Jes 25,8</p>
+    <p>Zl 5: Vgl. bBer 47b u. ö.</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Chronogramm</label>
+      in Zl 2 mit dem Zahlenwert 519.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      JaAKoW in Zl 3 und in Zln 3-6 und JOKeW am Zeilenende.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: (Bogeninschrift) Die Jahresangabe ergibt sich aus den mit Punkten markierten Lettern des leicht abgeänderten Zitats aus Gen 32,2, welches auf den Vornamen des hier Begrabenen anspielt.</p>
+    <p>Zln 5/6: ‎‏שמן קיק‏‎,"Öl des Rhizinus", (Oleum ricini), 54 Bl., Novellae, und ‎‏במת יחיד‏‎, "Die Höhe des Einzigen" (Excelsum singuli), 19 Bl., ein Bibelkommentar sind posthum erschienene Werke von Jokew Kleve. Beide wurden ‎‏תקכ״ב‏‎ (1761/62) in Altona von Aharon ben Elijahu Kaz gedruckt.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der Vorname des Verstorbenen wird bereits im als Chronogramm fungierenden Zitat aus Gen 32,2 genannt. In einer Komposition sorgsam gewählter Talmudzitate bzw. Formulierungen erscheint er sogar mehrfach noch als Namensakrostichon.</p>
+    <p>Epitaphgestaltung und Inschrift zeugen für den hohen gesellschaftlichen Status des Verstorbenen, der in der Eulogie als schriftstellerisch tätiger Talmud-Toragelehrter von hoher Intelligenz, von großer Sensibilität und Geistesschönheit ausgewiesen und wie schon sein Vater, mit dem Titel "der Vornehme" ausgezeichnet wird.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

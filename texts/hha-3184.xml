@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Vögelche bat Zwi Hirsch ∞ Juspa ben Levi, gest. 1699-01-30, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3184</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3184</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3184</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit geschweiftem Bogenabschluß und gefaster, scharrierter Rahmenleiste. Buchstaben eingemeißelt. Im Bogenfeld das Wort ‎‏אבן‏‎.
+‏‎         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           Der Epitaph besteht aus vier Bruchstücken. Bruchverläufe in Höhe der Zeilen 4, 10, 11. Ein Stück der Zeile 10 fehlt. Satztrenner: Rauten und Doppelrauten. Abkürzungszeichen: Krönchen und Rauten
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1699-01-30'>1699-01-30</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GM HM</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 888</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3184-1" sex='2'>
+      <persName>Vögelche bat Zwi Hirsch ∞ Juspa ben Levi</persName>
+       <event when='1699-01-30' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3184_GM_0205130216.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-13'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3184_HM_0204230223.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000331.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏אבן‏‎
+‏‎     <lb n='2'/>
+     ‎‏פנה ׃ הוצג והוכנה ׃ סימנה ׃‏‎
+‏‎     <lb n='3'/>
+     ‎‏על הגונה ׃ לאמר זה זכרכי ׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏גלתה מקינה ׃ אין לה ממנה ׃‏‎
+‏‎     <lb n='5'/>
+     ‎‏לא נין ונינה ׃ גמל עליכי ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏כה ינחמנה ׃ בעלה ואחרנה ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏יהא עקר תלדנה ׃ מעש ידכי ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏היא הצנועה מרת פעגלכי ׃‏‎
+‏‎     <lb n='9'/>
+     ‎‏בת כ׳ צבי הירש ז״ל מהילסום אשת‏‎
+‏‎     <lb n='10'/>
+     ‎‏היקר כ׳ [יוזפא ב״כ לוי] יצ״ו ׃ נפטרה‏‎
+‏‎     <lb n='11'/>
+     ‎‏ונקברה יום ו׳ ר״ח אדר ראשון‏‎
+‏‎     <lb n='12'/>
+     ‎‏תנ״ט לפ״ק‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Ein
+     <lb n='2'/>
+     Eckstein, aufgestellt und erichtet als Zeichen
+     <lb n='3'/>
+     für eine Würdige: Dies dein Gedenken!
+     <lb n='4'/>
+     ›verlassen hat sie ihr Nest‹, da hatte sie
+     <lb n='5'/>
+     nicht Enkel noch Enkelin. ›"Er vergelte dir!"‹ ,
+     <lb n='6'/>
+     wird er sie trösten, ihr Gatte und Hinterbliebener:
+     <lb n='7'/>
+     ›"Die Unfruchtbare gebähre,‹ Werk deiner Hand!"
+     <lb n='8'/>
+     es ist die Züchtige, Frau Vögelche:
+     <lb n='9'/>
+     Tochter des geehrten Zwi Hirsch, sein Andenken zum Segen, aus Hildesheim, Gattin
+     <lb n='10'/>
+     des Teuren, des geehrten Juspa, Sohn des geehrten Levi, sein Fels und Erlöser behüte ihn, verschied
+     <lb n='11'/>
+     und ward begraben Tag 6, Neumond, erster [A]dar
+     <lb n='12'/>
+     459 der kleinen Zählung.
+     <lb n='13'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Nach Spr 27,8</p>
+    <p>Zl 5: Ps 116,7</p>
+    <p>Zl 7: Nach 1 Sam 2,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Alternierender Endreim von -nah und -eichi; Reimschema: abababb. Die durch Satztrenner angezeigten Halbverse weisen Binnenreim auf -nah auf.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-7: ‎‏פעגלכי‏‎ Fegelche
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 4a: In Spr 27,8: ‎‏נודדת‏‎, gewandert, hier, des Akrostichon willens, ‎‏גלתה‏‎, verlassen, vertrieben.</p>
+    <p>Zl 7a: Veränderte grammatikalische Formen bedingt durch das vorgegebene Schema für die Inschrift.</p>
+    <p>Zl 7b: ‎‏ידכי‏‎ ist zwar wahrscheinlich auf den Ewigen bezogen, aber durch Angleichung an den Reim auf -eichi ist die fem. Form des Suffixes entstanden.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

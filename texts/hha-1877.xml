@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jizchak ben Jaakow Naftali, gest. 1738-09-30, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1877</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1877</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1877</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Blumen</decoNote>
+       <decoNote type='ornament'>floral; gestalterisch: aufgespannter Mantel</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1738-09-30'>1738-09-30</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FF</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3059</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1877-1" sex='1'>
+      <persName>Jizchak ben Jaakow Naftali</persName>
+       <event when='1738-09-30' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1877_FF_0110170125.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-17'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000442.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏ויצא יצחק לשוח בשדה [.ו?]ב‏‎
+‏‎     <lb n='2'/>
+     ‎‏יציאת צדיק עושה [רו]שם‏‎
+‏‎     <lb n='3'/>
+     ‎‏וניכר רשומו׃ צדיק יסו[ד]‏‎
+‏‎     <lb n='4'/>
+     ‎‏עולם הלך לבית עולמ[ו]‏‎
+‏‎     <lb n='5'/>
+     ‎‏חזק ישרי׳ ומושל בחכמ[ת]‏‎
+‏‎     <lb n='6'/>
+     ‎‏חלד׃ קרוב הי׳ לנשברי לב‏‎
+‏‎     <lb n='7'/>
+     ‎‏משב ועד ילד ׃ ה״ה פו״מ‏‎
+‏‎     <lb n='8'/>
+     ‎‏כהר״ר יצחק בן הר״ר יעקב‏‎
+‏‎     <lb n='9'/>
+     ‎‏נפתלי זצ״ל מרינטל‏‎
+‏‎     <lb n='10'/>
+     ‎‏נפטר ונקבר יום ג׳ ב׳‏‎
+‏‎     <lb n='11'/>
+     ‎‏דסוכת תצ״ט לפ״ק‏‎
+‏‎     <lb n='12'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Und Jizchak ging aus, um zu sinnen auf dem Felde [...]‹, 
+     <lb n='2'/>
+     (der) Weggang eines Gerechten hinterlässt Eindruck, 
+     <lb n='3'/>
+     und kenntlich ist seine Spur, ›der Gerechte - das Fundament
+     <lb n='4'/>
+     der Welt‹, ›er ging hin zu seinem ewigen Hause‹,
+     <lb n='5'/>
+     er stärkte die Aufrechten und beherrschte die Weisheit
+     <lb n='6'/>
+     der Welt, ›nahe war er (denen), (die) gebrochenen Herzens (sind)‹,
+     <lb n='7'/>
+     vom Greis bis zum Kinde, es ist der Vorsteher und Leiter,
+     <lb n='8'/>
+     der geehrte Meister, Herr Jizchak, Sohn des Meisters, Herrn Jaakow
+     <lb n='9'/>
+     Naftali, das Andenken des Gerechten zum Segen, aus Rintel(n),
+     <lb n='10'/>
+     verschieden und begraben Tag 3, 2. (Tag)
+     <lb n='11'/>
+     des Laubhüttenfestes 499 der kleinen Zählung.
+     <lb n='12'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 24,63</p>
+    <p>Zl 3f: Spr 10,63 | Zl 4: Koh 12,5</p>
+    <p>Zl 6: Nach Ps 34,19</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf auf -mo in Zln 3,4; auf -läd in Zln 6,7; Wortspiele und Paronomasie.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-3, 5-6: ‎‏יצחק‏‎ Jizchak
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Vorwegnahme des Namens Jizchak; Wortspiel und Paronomasie von ‎‏ויצא יצחק‏‎ und ‎‏יציאת צדיק‏‎.</p>
+    <p>Zl 2: Rabbi Jehuda Löb ben Bezalel im Sefer Gur Arje zu Gen 28,10; vgl. Raschi zu Gen 28,10; "Auszug" im Sinne "einen Ort verlassen" und übertragen auch "sterben"; "Eindruck" ist hier im wörtlichen Sinne zu verstehen; der Gerechte hinterlässt eine "Kerbe", die als Spur sichtbar bleibt.</p>
+    <p>Zl 3a: Zu ‎‏ניכר רשומו‏‎ Alfasi zu bSchab 34a; Wortspiel von ‎‏רשומו‏‎ und ‎‏רושם‏‎ (Zl 2).</p>
+    <p>Zl 3b/4a: Das Zitat aus Spr 10,25 wurde häufig zur Ehrung von Rabbinern und grossen Gelehrten benutzt; Wiederaufnahme von ‎‏צדיק‏‎ aus Zl 2 und Parallelisierung mit ‎‏יצחק‏‎ in Zl 1.</p>
+    <p>Zl 4b: Wortspiel von ‎‏יסוד עולם‏‎ und ‎‏הלך לבית עולמו‏‎.</p>
+    <p>Zl 6: In Ps 34,19 ist das Subjekt der Ewige.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Aharon ben Simle Wiener, gest. 1778-05-11, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2629</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2629</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2629</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1778-05-11'>1778-05-11</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GD</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3524</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2629-1" sex='1'>
+      <persName>Aharon ben Simle Wiener</persName>
+       <event when='1778-05-11' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2629_GD_0205100236.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-10'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏[‎‏אי]ש זקן אשר הלך‏‎
+‏‎     <lb n='3'/>
+     ‎‏[‎‏ב]תמים מעשיו היו‏‎
+‏‎     <lb n='4'/>
+     ‎‏באמונה שלימה‏‎
+‏‎     <lb n='5'/>
+     ‎‏עוסק בגמילו׳ חסדי׳‏‎
+‏‎     <lb n='6'/>
+     ‎‏ועמד בצדקתו עד‏‎
+‏‎     <lb n='7'/>
+     ‎‏אסופו משכים ומערי׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏[‎‏לבית רנה ותפלה ׃]‏‎
+‏‎     <lb n='9'/>
+     ‎‏[‎‏ה״ה כ׳ אהרן ב׳ כ׳ זימל׳]‏‎
+‏‎     <lb n='10'/>
+     ‎‏[‎‏ווינר נפטר ונקבר]‏‎
+‏‎     <lb n='11'/>
+     ‎‏[‎‏ביו׳ ב׳ י״ד אייר תקל״ח]‏‎
+‏‎     <lb n='12'/>
+     ‎‏[‎‏תנצב״ה]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein betagter Mann, ›der in Lauterkeit
+     <lb n='3'/>
+     ging‹, seine Taten waren
+     <lb n='4'/>
+     in vollkommener Verläßlichkeit,
+     <lb n='5'/>
+     ›mit Liebeswerken beschäftigt‹,
+     <lb n='6'/>
+     beständig in seiner Gerechtigkeit bis 
+     <lb n='7'/>
+     an sein Ende, ›frühmorgens und abends begab er sich‹
+     <lb n='8'/>
+     in Haus ›des Gesangs und des Gebets‹,
+     <lb n='9'/>
+     es ist der geehrte Aharon, Sohn des geehrten Simle
+     <lb n='10'/>
+     Wiener, verschieden und begraben
+     <lb n='11'/>
+     am Tag 2, 14. Ijar 538.
+     <lb n='12'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2f: Vgl. Ps 26,1; 84,12</p>
+    <p>Zl 5: Av 1,2</p>
+    <p>Zl 7: 1Sam 17,17 u. bSot 42b</p>
+    <p>Zl 8: 1Kön 8,28</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 2/3: Vgl. Ps 84,12.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal noch in situ und unbeschädigt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

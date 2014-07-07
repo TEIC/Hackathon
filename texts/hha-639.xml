@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Keile Chava bat Anschel Hausen ∞ Jokew Ree, gest. 1808-04-11, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-639</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-639</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-639</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung leicht
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1808-04-11'>1808-04-11</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>CN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 2098</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-639-1" sex='2'>
+      <persName>Keile Chava bat Anschel Hausen ∞ Jokew Ree</persName>
+       <event when='1808-04-11' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0639_CN_0104300123.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-04-30'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000603.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏קמה אלומתה וגם נצבה‏‎
+‏‎     <lb n='3'/>
+     ‎‏יקרה חסידה וחשובה‏‎
+‏‎     <lb n='4'/>
+     ‎‏לבית אביה שבה‏‎
+‏‎     <lb n='5'/>
+     ‎‏הלכה ונסעה הנגבה‏‎
+‏‎     <lb n='6'/>
+     ‎‏היא האשה זקנה מ׳ קילה חוה‏‎
+‏‎     <lb n='7'/>
+     ‎‏בת כ״ה אנשיל הויזן מפ״פ דמיין‏‎
+‏‎     <lb n='8'/>
+     ‎‏אלמנת כ״ה יאקב ריא יום הפרדה‏‎
+‏‎     <lb n='9'/>
+     ‎‏ביום הולדתה אור ליום ד״י ניסן‏‎
+‏‎     <lb n='10'/>
+     ‎‏לאחר מלאה ימיה שמנים‏‎
+‏‎     <lb n='11'/>
+     ‎‏וששה ונקברת ביום ד״י ניסן‏‎
+‏‎     <lb n='12'/>
+     ‎‏תקס״ח עד צאת נפשה צדקתה‏‎
+‏‎     <lb n='13'/>
+     ‎‏לא עזבה‏‎
+‏‎     <lb n='14'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     Es erhob sich ihr Garbenbund und blieb auch stehen,
+     <lb n='3'/>
+     eine Teure, Fromme und Angesehene,
+     <lb n='4'/>
+     in das Haus ihres Vaters kehrte sie zurück,
+     <lb n='5'/>
+     ... und fuhr gen Süden,
+     <lb n='6'/>
+     sie, die betagte Frau, Frau Keile Chava,
+     <lb n='7'/>
+     Tochter des geehrten Herrn Anschel Hausen aus Frankfurt am Main,
+     <lb n='8'/>
+     Witwe des geehrten Herrn Jokew Ree, ihr Abschiedstag
+     <lb n='9'/>
+     war an ihrem Geburtstag, zu Beginn des 14. Tages des Nissan,
+     <lb n='10'/>
+     nachdem sie sechsundachzig Jahre
+     <lb n='11'/>
+     vollendete, und begraben wurde sie am 14. Tag des Nissan
+     <lb n='12'/>
+     568, bis ihre Seele sie verließ, verließ sie nicht
+     <lb n='13'/>
+     ihre Gerechtigkeit.
+     <lb n='14'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -aw(b)ah in Zln 2-6, den zweiten Namen einschließend, auch wenn er anders geschrieben wird.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-5: ‎‏קילה‏‎ Kele
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Nach Gen 37,7, dort Josefs Traum.</p>
+    <p>Zl 4: Lev 22,13.</p>
+    <p>Zln 2-5: Der letzte Buchstabe jeweils langgezogen um die Zeile zu füllen.</p>
+    <p>Zl 9: Statt ‎‏י״ד‏‎ metathetisch ‎‏ד״י‏‎ ("genug")</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Selten, dass der Geburtstag erwähnt wird, hier, war er auch "leicht zu merken" weil er auf den Tag des Sederabends fiel.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jizchak Reuwen ben Jaakow Schmuel Warburg, gest. 1729-06-27, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2129</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2129</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2129</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit eingezogenem Bogen und Eckakroterien. Zweifach gestufter, scharrierter Rahmen.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1729-06-27'>1729-06-27</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FI</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>CII 525</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2129-1" sex='1'>
+      <persName>Jizchak Reuwen ben Jaakow Schmuel Warburg</persName>
+       <event when='1729-06-27' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2129_FI_0204220120.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-22'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/546--26a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000576.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט וקבור‏‎
+‏‎     <lb n='2'/>
+     ‎‏וישב ראובן אל הבור‏‎
+‏‎     <lb n='3'/>
+     ‎‏קנה לעצמו רב וחבר‏‎
+‏‎     <lb n='4'/>
+     ‎‏עסק במצות יום ולילה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ועת חום וקור‏‎
+‏‎     <lb n='6'/>
+     ‎‏מנהיג ומנהל ודבר לדור‏‎
+‏‎     <lb n='7'/>
+     ‎‏כ׳ יצחק ראובן ב״ה יעקב‏‎
+‏‎     <lb n='8'/>
+     ‎‏שמואל וורבורג נפט׳ ונקב׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏יו׳ ב׳ (א׳) ר״ח תמוז תפ״ט ל״ק‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen und begraben
+     <lb n='2'/>
+     ›Und Reuwen kehrte zurück zur Grube‹,
+     <lb n='3'/>
+     ›er schaffte sich einen Lehrer und einen Freund‹,
+     <lb n='4'/>
+     ›war beschäftigt mit den Geboten‹ Tag und Nacht,
+     <lb n='5'/>
+     bei Hitze und Kälte,
+     <lb n='6'/>
+     Leiter, Führer und Sprecher der Generation
+     <lb n='7'/>
+     der geehrte Jizchak Reuwen, Sohn des geehrten Jaakow
+     <lb n='8'/>
+     Schmuel Warburg, verschieden und begraben
+     <lb n='9'/>
+     Tag 2, 1. Tag des Neumonds Tammus 489 der kleinen Zählung.
+     <lb n='10'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Gen 37,29</p>
+    <p>Zl 3: Av 1,6</p>
+    <p>Zl 4: Vgl. u. a. Sanh 8,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -or in Zln 1-3, 5-6
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Der Bibelvers spielt auf den Namen an, wenn auch in einem anderem Zusammenhang; hier ist es eine Umschreibung für den Tod, in Genesis ist es der (vergebliche) Versuch Leben (das des Josef) zu retten.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Eulogie hebt durch diverse zusammengesetzte Zitate und Wendungen die unermüdliche Beschäftigung des hochgelehrten Halachisten mit der Tora und den Geboten hervor. Die Titulaturen lassen den hohen gesellschaftlichen Status des Herrn Warburg erkennen.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

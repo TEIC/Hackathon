@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Chaile Sara bat Gumpel ben Löb, gest. 1788-06-23, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-731</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-731</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-731</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1788-06-23'>1788-06-23</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>DK</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 1501</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-731-1" sex='2'>
+      <persName>Chaile Sara bat Gumpel ben Löb</persName>
+       <event when='1788-06-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0731_DK_0110040132.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-04'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/06/00000048.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏כאשר קראת אבי‏‎
+‏‎     <lb n='2'/>
+     ‎‏בתי יפה וברה‏‎
+‏‎     <lb n='3'/>
+     ‎‏היית שמחת לבי‏‎
+‏‎     <lb n='4'/>
+     ‎‏ועתה אנכי בצרה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ב׳ תמוז כאשר נולדת‏‎
+‏‎     <lb n='6'/>
+     ‎‏חיה רוחי בקרבי‏‎
+‏‎     <lb n='7'/>
+     ‎‏ח״י סיון כאשר קוברת‏‎
+‏‎     <lb n='8'/>
+     ‎‏נשבר לבי בקרבי‏‎
+‏‎     <lb n='9'/>
+     ‎‏כי לקח אותך אלהים‏‎
+‏‎     <lb n='10'/>
+     ‎‏ואין לי מנחם‏‎
+‏‎     <lb n='11'/>
+     ‎‏עד יחיה המתים‏‎
+‏‎     <lb n='12'/>
+     ‎‏ואז בך אנחם‏‎
+‏‎     <lb n='13'/>
+     ‎‏אילת אהבים ויעלת חן‏‎
+‏‎     <lb n='14'/>
+     ‎‏חיילה שרה נ״ע בת‏‎
+‏‎     <lb n='15'/>
+     ‎‏הרופא הר״ר גומפל בן‏‎
+‏‎     <lb n='16'/>
+     ‎‏מה״ו ליב זצ״ל נכד הדיין‏‎
+‏‎     <lb n='17'/>
+     ‎‏ומ״ץ החסיד המקובל מה״ו‏‎
+‏‎     <lb n='18'/>
+     ‎‏גומפל שנאבר סג״ל זצ״ל‏‎
+‏‎     <lb n='19'/>
+     ‎‏ונכד אשתו החסידה מרת‏‎
+‏‎     <lb n='20'/>
+     ‎‏חיילה נ״ע נפטר׳ ונקברת‏‎
+‏‎     <lb n='21'/>
+     ‎‏יום ב׳ ח״י סיון תקמ״ח [לפ״ק]‏‎
+‏‎     <lb n='22'/>
+     ‎‏תנצב״ה ב״ה עכמ[עי״א]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Als du mich "mein Vater" riefest,
+     <lb n='2'/>
+     meine schöne, reine Tochter,
+     <lb n='3'/>
+     da warst du die Wonne meines Herzens,
+     <lb n='4'/>
+     doch nun bin ich in Not;
+     <lb n='5'/>
+     am 2. Tammus, als du geboren,
+     <lb n='6'/>
+     ›lebte mein Geist‹ auf in mir,
+     <lb n='7'/>
+     am 18. Sivan, als du begraben,
+     <lb n='8'/>
+     ›da brach mir das Herz‹,
+     <lb n='9'/>
+     ›denn Gott nahm dich hinweg‹,
+     <lb n='10'/>
+     ›ich aber habe keinen Tröster‹,
+     <lb n='11'/>
+     bis ER die Toten auferweckt,
+     <lb n='12'/>
+     dann (erst) finde ich Trost durch dich,
+     <lb n='13'/>
+     ›Hindin der Liebe, Gazelle der Anmut‹,
+     <lb n='14'/>
+     Chaile Sara, ihre Ruhe sei Eden, Tochter
+     <lb n='15'/>
+     des Arztes, des Meisters, Herrn Gumpel, Sohn
+     <lb n='16'/>
+     unseres Lehrers, des Meisters, Herrn Löb, das Andenken des Gerechten zum Segen, Enkelin des Rabbinatsassessors
+     <lb n='17'/>
+     und Lehrers der Gerechtigkeit, des frommen Kabbalisten, unseres Lehrers, des Meisters, Herrn
+     <lb n='18'/>
+     Gumpel Schnaber SeGaL, das Andenken des Gerechten zum Segen,
+     <lb n='19'/>
+     und Enkelin von dessen Gattin, der Frommen, Frau
+     <lb n='20'/>
+     Chaile, ihre Ruhe sei Eden, verschieden und begraben
+     <lb n='21'/>
+     Tag 2, 18. Sivan 548 der kleinen Zählung.
+     <lb n='22'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens mit allen Toten des Volkes Israels, Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 6: nach Gen 45,37</p>
+    <p>Zl 8: Jer 23,9</p>
+    <p>Zl 9: Gen 5,24 (Henoch)</p>
+    <p>Zl 10: Klgl 1,21</p>
+    <p>Zl 13: Spr 5,19</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -awi in Zln 1,3,6,8, -ra in Zln 2,4, -t in Zln 5,7, -im in Zln 9,11 und -chem in Zln 10,12.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

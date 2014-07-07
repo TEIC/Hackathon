@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sara bat Herz, gest. 1675-08-10, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3327</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3327</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3327</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer non in situ, liegend Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1675-08-10'>1675-08-10</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GO</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 862</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3327-1" sex='2'>
+      <persName>Sara bat Herz</persName>
+       <event when='1675-08-10' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3327_GO_0204230511.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3327_GO_0205260135.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000304.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נטמנה אשת חיל‏‎
+‏‎     <lb n='3'/>
+     ‎‏הגבירה הרבנות ׃ מהני‏‎
+‏‎     <lb n='4'/>
+     ‎‏נשים צדקניות נשי׳ שאננות ׃‏‎
+‏‎     <lb n='5'/>
+     ‎‏חבצלת השרון שושנות ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏מרת שרה בת האלוף‏‎
+‏‎     <lb n='7'/>
+     ‎‏המנהיג כהר״ר הערץ‏‎
+‏‎     <lb n='8'/>
+     ‎‏מק״ק ווילנא היתה רבנות‏‎
+‏‎     <lb n='9'/>
+     ‎‏בק״ק אלטונא והמבורג‏‎
+‏‎     <lb n='10'/>
+     ‎‏ומצות ה׳ תמיד היתה‏‎
+‏‎     <lb n='11'/>
+     ‎‏מיומנות ׃ ולחי[י] ע״ה היא‏‎
+‏‎     <lb n='12'/>
+     ‎‏מזומנת ׃ נפטרה ביום ש״ק‏‎
+‏‎     <lb n='13'/>
+     ‎‏ונקברת למחר׳ יום א׳ י״ט‏‎
+‏‎     <lb n='14'/>
+     ‎‏מנחם תל״ה לפ״ק תנצב״ה עם‏‎
+‏‎     <lb n='15'/>
+     ‎‏שאר צדיקים וצדקיות‏‎
+‏‎     <lb n='16'/>
+     ‎‏שבג״ע ׃ אמן ׃‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier 
+     <lb n='2'/>
+     ist geborgen eine ›tüchtige Gattin‹,
+     <lb n='3'/>
+     die Stattliche, die Rabbinersgattin, von jenen
+     <lb n='4'/>
+     ›frommen Frauen‹, ›gottvertrauenden Frauen‹,
+     <lb n='5'/>
+     ›die Lilie Scharons (von den) Rosen‹,
+     <lb n='6'/>
+     Frau Sara, Tochter des Vornehmen,
+     <lb n='7'/>
+     des Leiters, des geehrten Meisters, Herrn Herz
+     <lb n='8'/>
+     aus der heiligen Gemeinde Wilna. Sie war Rabbinersgattin
+     <lb n='9'/>
+     in der heiligen Gemeinde Altona und Hamburg,
+     <lb n='10'/>
+     und (in) den Geboten des Ewigen war sie
+     <lb n='11'/>
+     geübt, und zum Leben in der künftigen Welt ist sie
+     <lb n='12'/>
+     geladen, verschieden am Tag des heiligen Schabbat
+     <lb n='13'/>
+     und begraben am folgenden Tag, Tag 1, 19.
+     <lb n='14'/>
+     Menachem 435 der kleinen Zählung. Ihre Seele sei eingebunden in das Bündel des Lebens mit
+     <lb n='15'/>
+     den übrigen gerechten Männern und Frauen,
+     <lb n='16'/>
+     welche im Garten Eden sind, Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 31,10</p>
+    <p>Zl 4: ExR 1 | Zl 4: Jes 32,9 u. bBer 17a; u. Friedhofgebete, Gebet am Grab der Mutter</p>
+    <p>Zl 5: Hld 2,1</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -not in Zln 2-5, 10-12.
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Wie häufig auf Frauengrabsteinen des 17. Jahrhunderts nennt die Inschrift für Sara bat Herz zwar den Namen des Vaters, nicht aber den des Ehemanns, von dem nur gesagt wird, dass er Rabbiner war. Es handelt sich ohne Zweifel um den zwischen 1671 und 1680 in Altona amtierenden Oberrabbiner Hillel ben Naftali-Zwi-Herz, der aus Zolkiew in Galizien gebürtig war, als junger Talmudstudent nach Brest-Litowsk, dann nach Vilnius kam und sich dort derart auszeichnete, dass er als Beisitzer ins Rabbinatskollegium berufen wurde und die Vorsteherstochter Sara heiratete. Durch seine Rechtsentscheide berühmt geworden, besetzte er verschiedene litauische Rabbinate und wurde sodann, im Alter von etwa 55 Jahren, nach Altona berufen. Hillel machte seinen Amtssitz zum gemeinsamen Oberrabbinat der drei Elbgemeinden, doch folgte er 1680, nach Saras Tod, einem Ruf auf das Rabbinat seiner Vaterstadt, wo er 1690 starb. Sein Hauptwerk Bet Hillel (Hillels Schule) ist ein Kommentar zum rabbinischen Rechtskodex Schulchan Aruch, von dem sein Sohn 1691 den ersten Teil, die rituellen Reinheitsgesetze betreffend, postum herausgab.</p>
+    <p>Die histor. Aufnahme zeigt das Grabmal vollständig und in situ.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

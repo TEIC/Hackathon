@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schimon Wolf ben Mosche Wallach, gest. 1744-12-29, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1731</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1731</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1731</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer non in situ liegend, unvollständig Beschädigung schwer in mehrere Teile zerbrochen, 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral: Girlande; gestalterisch: Muschel</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1744-12-29'>1744-12-29</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FE</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1731-1" sex='1'>
+      <persName>Schimon Wolf ben Mosche Wallach</persName>
+       <event when='1744-12-29' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1731_FE_0110140236.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-14'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000437.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1716_FE_0110190127.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-19'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נחלת שמעון‏‎
+‏‎     <lb n='3'/>
+     ‎‏זה דרכו עד עלה למרומו‏‎
+‏‎     <lb n='4'/>
+     ‎‏אמת ואמונה עשה בימיו‏‎
+‏‎     <lb n='5'/>
+     ‎‏בר לבב כי הלך בתומיו‏‎
+‏‎     <lb n='6'/>
+     ‎‏צדקה וחסד וחיים רדף‏‎
+‏‎     <lb n='7'/>
+     ‎‏לעני ולאביון נתן טרף‏‎
+‏‎     <lb n='8'/>
+     ‎‏ה״ה האיש‏‎
+‏‎     <lb n='9'/>
+     ‎‏הנכבד כ׳ שמעון וואלף‏‎
+‏‎     <lb n='10'/>
+     ‎‏ב״ר משה וואלך נפטר‏‎
+‏‎     <lb n='11'/>
+     ‎‏ונקבר יום ג׳ ך״ד טבת‏‎
+‏‎     <lb n='12'/>
+     ‎‏תק״ה לפ״ק‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנצב״ה ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     ist der Anteil Schimons,
+     <lb n='3'/>
+     dies war sein Weg, ›bis er zu seiner Höhe emporstieg‹,
+     <lb n='4'/>
+     Wahrheit und Treue sein Tun zu Lebtagen,
+     <lb n='5'/>
+     ›reinen Herzens‹, denn ›er wandelte in seiner Lauterkeit‹,
+     <lb n='6'/>
+     ›nach Wohltat, Liebeswerk und Leben strebte er‹,
+     <lb n='7'/>
+     ›dem Armen und dem Bedürftigen gab er Nahrung‹,
+     <lb n='8'/>
+     es ist der Mann,
+     <lb n='9'/>
+     der Verehrte, der geehrte Schimon Wolf,
+     <lb n='10'/>
+     Sohn des Herrn Mosche Wallach, verschieden
+     <lb n='11'/>
+     und begraben Tag 3, 24. Tewet
+     <lb n='12'/>
+     505 der kleinen Zählung.
+     <lb n='13'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Vgl. Ps 68,19</p>
+    <p>Zl 5: Ps 24,4 | Zl 5: Vgl. Ps 26,1; 84,12 u. a.</p>
+    <p>Zl 6: Nach Spr 21,21</p>
+    <p>Zl 7: Vgl. Ps 111,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -mav in Zln 3-5 und auf -af/o(l)f in Zln 6,7,9 (den Namen einschließend).
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3-5: ‎‏זאב‏‎ Seew
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal noch in situ und unbeschädigt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

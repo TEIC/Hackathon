@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Zippor bat Meir Kohen (Sophie [Cohen]), gest. 1857-10-14, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-46</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-46</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-46</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer die gesamte rechte obere Ecke des Steines fehlt, die Stele ist in zwei Teile gebrochen, die Bruchstelle zieht sich von Drittelhöhe links zu Viertelhöhe rechts 
+          <damage agent='Verwitterung'>Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft (VS; RS: Deutsch)</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1857-10-14'>1857-10-14</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>AF BF</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 2349</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-46-1" sex='2'>
+      <persName>Zippor bat Meir Kohen (Sophie [Cohen])</persName>
+       <event when='1857-10-14' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='71'>Hebrew</language>
+    <language ident='de' usage='28'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0046_AF_0205240109.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-24'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0046_BF_0105140215.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-05-14'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000424.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000425.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״ט‏‎
+‏‎      <lb n='2'/>
+      ‎‏הבתולה הטובה וישרה‏‎
+‏‎      <lb n='3'/>
+      ‎‏ציפור בת פו״מ מהור״ר‏‎
+‏‎      <lb n='4'/>
+      ‎‏מאיר כהן זצ״ל‏‎
+‏‎      <lb n='5'/>
+      ‎‏נולדה כ׳ מנחם‏‎
+‏‎      <lb n='6'/>
+      ‎‏תקנ״ו לפ״ק‏‎
+‏‎      <lb n='7'/>
+      ‎‏נפטרה בליל׳ ד׳ כ״ז‏‎
+‏‎      <lb n='8'/>
+      ‎‏תשרי ונקבר׳ עש״ק ך״ח בו‏‎
+‏‎      <lb n='9'/>
+      ‎‏תרי״ח לפ״ק‏‎
+‏‎      <lb n='10'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='11'/>
+      Hier ruhet
+      <lb n='12'/>
+      Sophie 
+      <supplied reason='subaudible'>Cohen</supplied>
+      <lb n='13'/>
+      Tochter des seligen
+      <lb n='14'/>
+      Meyer Benjamin
+      <lb n='15'/>
+      Cohen
+      <lb n='16'/>
+      ...
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist geborgen
+      <lb n='2'/>
+      die gute und aufrechte Jungfer
+      <lb n='3'/>
+      Zippor, Tochter des Vorstehers und Leiters, unseres Lehrers und Meisters, Herrn
+      <lb n='4'/>
+      Meir Kohen, das Andenken des Gerechten zum Segen,
+      <lb n='5'/>
+      geboren 20. Menachem
+      <lb n='6'/>
+      556 der kleinen Zählung,
+      <lb n='7'/>
+      verschieden in der Nacht 4, 27.
+      <lb n='8'/>
+      Tischri, und begraben Rüsttag des heiligen Schabbat, 28. desselben
+      <lb n='9'/>
+      (des Jahres) 618 der kleinen Zählung.
+      <lb n='10'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

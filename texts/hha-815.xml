@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schmuel, gest. 1777-04-23, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-815</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-815</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-815</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,100 x 0,700 x 0,100 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer (Fragment, liegend)
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>gebrochener Baum</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1777-04-23'>1777-04-23</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>ED</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3141</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-815-1" sex='1'>
+      <persName>Schmuel</persName>
+       <event when='1777-04-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0815_ED_0109250116.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-09-25'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000501.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏ויקח שמואל אבן אחת וישם מצבה מראשותיו ושמואל שוכב‏‎
+‏‎     <lb n='3'/>
+     ‎‏במקום ההוא לפ״ק ׃ ושמואל אזיל לחצר מות‏‎
+‏‎     <lb n='4'/>
+     ‎‏ואדברי? משה עמו הלא זה הגבר‏‎
+‏‎     <lb n='5'/>
+     ‎‏המנוח פה בקבר הוכפל‏‎
+‏‎     <lb n='6'/>
+     ‎‏במעלות זהו כפל‏‎
+‏‎     <lb n='7'/>
+     ‎‏נשמות‏‎
+‏‎     <lb n='8'/>
+     ‎‏שמואל בקראי שמו יהי ה׳ עזר לו שמואל‏‎
+‏‎     <lb n='9'/>
+     ‎‏הרואה בתורה אלהים יר?עה לו ׃ שם משמואל‏‎
+‏‎     <lb n='10'/>
+     ‎‏הלך וגדלו עד כי חדלו ׃ משה כתב ספרו‏‎
+‏‎     <lb n='11'/>
+     ‎‏וזאת התורה אשר שם משה באצבעו וגודלו‏‎
+‏‎     <lb n='12'/>
+     ‎‏משה ישמח במתנת חלקו משה ידבר והאלהים‏‎
+‏‎     <lb n='13'/>
+     ‎‏יעננו בקולו משה עלה אל האלהי׳ ביו׳ הקרבת‏‎
+‏‎     <lb n='14'/>
+     ‎‏עומר אנא ה׳ תגין עליו מגזירת קל וחומר‏‎
+‏‎     <lb n='15'/>
+     ‎‏בייא בייא על האי שבר וי לשופרא ׃ בלע‏‎
+‏‎     <lb n='16'/>
+     ‎‏בעפר נדיב לב והקים דל מעפר פה הלמד‏‎
+‏‎     <lb n='17'/>
+     ‎‏סו.ר? ליל צפר טוב עין זה משה אשר‏‎
+‏‎     <lb n='18'/>
+     ‎‏[...]‏‎
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     Und Schmuel nahm einen Stein und setzte ihn als Stele zu seinen Häupten, und Schmuel liegt
+     <lb n='3'/>
+     am demselben Ort der kleinen Zählung. Und Schmuel ging zum Friedhof,
+     <lb n='4'/>
+     und Moses sprach? zu ihm ... dies der Mann,
+     <lb n='5'/>
+     der Selige? hier im Grab ....
+     <lb n='6'/>
+     an Eigenschaften, dies ist Verdopplung?
+     <lb n='7'/>
+     von Seelen?
+     <lb n='8'/>
+     Schmuel war unter den Rufern Seines Namens, möge der Ewige sein Beistand sein, Schmuel
+     <lb n='9'/>
+     der Seher in Tora, Gott ... ihn, ... ... Schmuel
+     <lb n='10'/>
+     ..... Mosche schrieb sein Buch,
+     <lb n='11'/>
+     ›und dies ist die Tora die Mosche vorlegte‹ mit seinem Finger und ...
+     <lb n='12'/>
+     ›es freue sich Mosche mit dem ihm zu teil gewordenem Geschenk‹, Mosche redete und Gott
+     <lb n='13'/>
+     antwortet ihm mit einer Stimme, Mosche stieg hinauf zu Gott am Tage der Opferung
+     <lb n='14'/>
+     des Omer, ... Ewiger schutze ihn vor dem Verhängnis? von ... und ...
+     <lb n='15'/>
+     wehe, wehe ob dem Unheil, wehe der Schönheit die vergangen
+     <lb n='16'/>
+     im Staube, Großerzig und ... den Darbenden vom Staube hier ...
+     <lb n='17'/>
+     .... Nacht und Tag .... welcher Mosche
+     <lb n='18'/>
+     [...]
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 11: Dtn 4,44</p>
+    <p>Zl 12: Amida im Morgengebet am Schabbat</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2a: 1Sam 7,12, vom Propheten Samuel gesagt; siehe auch Gen 28,17, dort ist es der Erzvater Jakob.</p>
+    <p>Zl 2b: Siehe Gen 28,18; vom Erzvater Jakob gesagt.</p>
+    <p>Zl 2c/3a: 1Sam 3,3; von Samuel gesagt; und Gen 28,11; von Jakob gesagt.</p>
+    <p>Zl 3b: bBer 18b; dort auch von Schmuel gesagt; Aramäisch, Friedhof wörtlich Hof des Todes.</p>
+    <p>Zl 8a: Ps 99,6.</p>
+    <p>Zln 12b/13a: Ex 19,19.</p>
+    <p>Zl 13b: Ex 19,3.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Nicht im Grabbuch und deshalb auch nicht bei Grunwald. Leider ist die Inschrift bereits in der histor. Aufnahme in diesem Zustand zu sehen, der Grabstein lag vermutlich noch vor oder hinter der ursprünglichen Stelle.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

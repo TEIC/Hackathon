@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Selle bat Elijahu aus Schwerin ∞ Reuwen ben Mosche Renner, gest. 1810-10-17, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-755</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-755</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-755</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer sowohl Grabstein als auch Inschrifttafel sind in mehrere Teile zerbrochen 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1810-10-17'>1810-10-17</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EM</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1437</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-755-1" sex='2'>
+      <persName>Selle bat Elijahu aus Schwerin ∞ Reuwen ben Mosche Renner</persName>
+       <event when='1810-10-17' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0755xEM_0309150137.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-09-15'/>
+    schriftlos
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0755xEM_0309150205.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-09-15'/>
+    schriftlos
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000266.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0757_DM_0309150204.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-09-15'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0756xDM_0309150203.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-09-15'/>
+    Fragment schriftlos
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1324_EM_0110070108.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-07'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏פ״ט]‏‎
+‏‎     <lb n='2'/>
+     ‎‏[‎‏תפארת בעלה אלוף נעוריה]‏‎
+‏‎     <lb n='3'/>
+     ‎‏[‎‏משכלת ? .ל יראת ה׳ אוצריה]‏‎
+‏‎     <lb n='4'/>
+     ‎‏[.. ‎‏וכבוד הוצק בשפתותיה]‏‎
+‏‎     <lb n='5'/>
+     ‎‏[‎‏אם כל חי אשר סביבותיה]‏‎
+‏‎     <lb n='6'/>
+     ‎‏[‎‏היא אש. שר ? .לך עליה]‏‎
+‏‎     <lb n='7'/>
+     ‎‏[‎‏אשת חיל מי ימצאיה]‏‎
+‏‎     <lb n='8'/>
+     ‎‏[‎‏נקטף הפרח בימי בכוריה]‏‎
+‏‎     <lb n='9'/>
+     ‎‏[‎‏נשמתה הלכה לגן עדניה]‏‎
+‏‎     <lb n='10'/>
+     ‎‏[‎‏שם תתענג על גאותיה]‏‎
+‏‎     <lb n='11'/>
+     ‎‏[.‎‏ם נצח יהללו .שרים מעשיה]‏‎
+‏‎     <lb n='12'/>
+     ‎‏[‎‏ה״ה האשה החשובה הצנועה וה...]‏‎
+‏‎     <lb n='13'/>
+     ‎‏מרת זעללע בת [אלי׳ משווערין]‏‎
+‏‎     <lb n='14'/>
+     ‎‏אשת המנהיג כ״ה [ראובן ב״ר משה]‏‎
+‏‎     <lb n='15'/>
+     ‎‏רענר ז״ל נפטר[ת ביום ש״ק ך׳]‏‎
+‏‎     <lb n='16'/>
+     ‎‏[‎‏מרחשון ונקברת ביום א׳ ך״א מרחשון]‏‎
+‏‎     <lb n='17'/>
+     ‎‏[‎‏תקע״א ל׳]‏‎
+‏‎     <lb n='18'/>
+     ‎‏[‎‏תנצב״ה]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier it geborgen
+     <lb n='2'/>
+     ›Zierde ihres Gatten, der Vertraute ihrer Jugend‹,
+     <lb n='3'/>
+     ... ›die Ehrfurcht des Ewigen ist ihr Schatz‹,
+     <lb n='4'/>
+     ›... und Ehre ist ausgegossen über ihre Lippen‹
+     <lb n='5'/>
+     ›die Mutter aller Lebenden‹ die um ihr waren,
+     <lb n='6'/>
+     ...
+     <lb n='7'/>
+     eine tüchtige Gattin, wer findet ihres gleichen
+     <lb n='8'/>
+     geplückt war die Blume in den Tagen ihrer ...
+     <lb n='9'/>
+     ihre Seele wandelte in den Garten Eden,
+     <lb n='10'/>
+     ...
+     <lb n='11'/>
+     ... ewig werden rühmen ihre ... Werke.
+     <lb n='12'/>
+     Es ist die angesehene, züchtige und ... Frau,
+     <lb n='13'/>
+     Frau Selle, Tochter des Elijahu aus Schwerin,
+     <lb n='14'/>
+     Gattin des Vorstehers, des geehrten Herrn Reuwen, Sohn von Mosche
+     <lb n='15'/>
+     Renner, sein Andenken zum Segen, verschieden am Tage des heiligen Schabbat, 20.
+     <lb n='16'/>
+     Marcheschvan, und begraben am Tag 1, 21. Marcheschvan
+     <lb n='17'/>
+     571 der Zählung.
+     <lb n='18'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: nach Spr 2,17 und Gen 44,22</p>
+    <p>Zl 3: Jes 33,6</p>
+    <p>Zl 4: Nach Ps 45,3</p>
+    <p>Zl 5: Gen 3,20</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

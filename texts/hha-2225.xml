@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Elijahu ben Hirz Kleve, gest. 1761-09-15, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2225</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2225</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2225</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          oben im Rundbogen florales Ornament (wie zwei Blüten), unten auf dem Stein ebenfalls florales Ornament (wie zwei Zweige und ein Element, das an eine Muschel erinnert)
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral; gestalterisch: Muschel</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1761-09-15'>1761-09-15</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FL</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 1577</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2225-1" sex='1'>
+      <persName>Elijahu ben Hirz Kleve</persName>
+       <event when='1761-09-15' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2225_FL_0205260111.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏אלי׳ סלקא לגבוה‏‎
+‏‎     <lb n='2'/>
+     ‎‏אלי׳ קינה ויללה בבית ובחדרה ׃‏‎
+‏‎     <lb n='3'/>
+     ‎‏לגברא שהי׳ מוכתר בכל מעלה ׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏ישר ותמים וקבע עתים לתורה ׃‏‎
+‏‎     <lb n='5'/>
+     ‎‏ה״ה הקצין כ״ה אלי׳ בן הרבני‏‎
+‏‎     <lb n='6'/>
+     ‎‏והקצין מה״ו הירץ קליף זצ״ל‏‎
+‏‎     <lb n='7'/>
+     ‎‏מפירדא נפטר ונקבר יום‏‎
+‏‎     <lb n='8'/>
+     ‎‏ג׳ ט״ז אלול תקך״א‏‎
+‏‎     <lb n='9'/>
+     ‎‏לפ״ק‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Elijahu stieg auf zur Höhe‹.
+     <lb n='2'/>
+     über ihn Totenklage und Wehgeschrei im Haus und in der Stube,
+     <lb n='3'/>
+     für den Mann, der gekrönt war mit jedem Vorzug,
+     <lb n='4'/>
+     ›aufrecht und lauter‹, ›und er setzte Zeiten für die Tora‹,
+     <lb n='5'/>
+     das ist der Einflußreiche, der geehrte Herr Elijahu, Sohn des gelehrten
+     <lb n='6'/>
+     und einflußreichen, unseres Lehrers, des Meister, Herrn Hirz Kleve, das Andenken seiner Gerechtigkeit zum Segen,
+     <lb n='7'/>
+     aus Fürth, verschieden und begraben Tag
+     <lb n='8'/>
+     3, 16. Elul 521
+     <lb n='9'/>
+     der kleinen Zählung.
+     <lb n='10'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: bPes 3b; 84b</p>
+    <p>Zl 4: Ijob 1,8.2.3 u. ö. | Zl 4: bShab 31a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Zl 1-4: Reim auf -ah/-ar/-a'; Zl 4: Reim auf -im.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-6: ‎‏אליהו‏‎ Elijahu
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: die Zeile steht rundlich gebogen über dem übrigen Text. - ‎‏אלי׳ סלקא לגבוה‏‎ (‎‏אליה‏‎ ‎‏לגבוה‏‎ ‎‏סלקא‏‎); vgl. inhaltlich auch 1Kön 18,42: Dort von Elija gesagt, daher Bezug zum Namen.</p>
+    <p>Zl 2: ‎‏אלי׳‏‎ lies: ‎‏אליו‏‎ /über ihn; zugleich Anspielung auf den Namen des Verstorbenen, denn die Abkürzung ist die gleiche, wie in Zl 1 für "Elijahu". ‎‏קינה ויללה‏‎: vgl. Jer. 9, 19b-20a, Zeph. 1,10.</p>
+    <p>Zl 3: ‎‏מוכתר‏‎: vgl. RaMBa"N, Einl. z. Tora, ‎‏בשם האל‏‎ (‎‏מוכתר בנימוסי במקרא במשנה ובגמרא‏‎); bMeg 12b (‎‏מוכתר בנימוסו היה‏‎).</p>
+    <p>Zl 4: Vgl. auch NumR 10,8; Sohar, Midr. ha-Ne'elam Teil 1, Ber. P. ‎‏חיי זרה‏‎, S. 127b und Sohar Chadash, Tiqqunim Teil 2, S. 78b.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

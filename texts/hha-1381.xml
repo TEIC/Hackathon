@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Freudschen bat Israel Fürst ∞ Jokew Schiff KaZ, gest. 1705-12-15, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1381</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1381</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1381</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral: Trauben; gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1705-12-15'>1705-12-15</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1276</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1381-1" sex='2'>
+      <persName>Freudschen bat Israel Fürst ∞ Jokew Schiff KaZ</persName>
+       <event when='1705-12-15' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1381_EN_0110160104.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000139.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏לזאת‏‎
+‏‎     <lb n='2'/>
+     ‎‏האשה הוצ[ג]‏‎
+‏‎     <lb n='3'/>
+     ‎‏אבן‏‎
+‏‎     <lb n='4'/>
+     ‎‏פנה ומטה מצע כבודה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ראויה לכהנה ועבדה‏‎
+‏‎     <lb n='6'/>
+     ‎‏יקר מענה לעלם הוכן ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏יפה והגונה וחסודה‏‎
+‏‎     <lb n='8'/>
+     ‎‏דנה דינה אמת הגידה‏‎
+‏‎     <lb n='9'/>
+     ‎‏כצל לנה? מ׳ פריידכן ׃‏‎
+‏‎     <lb n='10'/>
+     ‎‏נין ובת האלוף פ״ו כ׳‏‎
+‏‎     <lb n='11'/>
+     ‎‏ישראל פערשט אשת‏‎
+‏‎     <lb n='12'/>
+     ‎‏ה׳ כ׳ יאקב שיף כ״ץ י״צ‏‎
+‏‎     <lb n='13'/>
+     ‎‏נפטרה ונקברה יו׳ ג׳‏‎
+‏‎     <lb n='14'/>
+     ‎‏ך״ח כסליו תס״ו ל״ק‏‎
+‏‎     <lb n='15'/>
+     ‎‏תנצב״ה ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Dieser
+     <lb n='2'/>
+     Frau ist vorgestellt
+     <lb n='3'/>
+     ein Stein,
+     <lb n='4'/>
+     ein Eckstein ein und ein Bett, ihr ehrenvoller Lager,
+     <lb n='5'/>
+     ihr gebührt Priestertum und Dienst,
+     <lb n='6'/>
+     teuer ... bereitet
+     <lb n='7'/>
+     schön und würdig wie auch anmutsvoll,
+     <lb n='8'/>
+     ..., Wahrheit sprach sie
+     <lb n='9'/>
+     .. Frau Freudschen,
+     <lb n='10'/>
+     .. und Tochter des Vornehmen, des Vorstehers und Leiters, des geehrten
+     <lb n='11'/>
+     Israel Fürst, Gattin
+     <lb n='12'/>
+     des geehrten Herrn Jokew Schiff KaZ, sein Fels behüte ihn,
+     <lb n='13'/>
+     verschieden und begraben Tag 3,
+     <lb n='14'/>
+     28. Kislev 466 der kleinen Zählung.
+     <lb n='15'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -dah in Zln 4,5,7,8 und auf -cha(e)n (den Namen einschließend) in Zln 6,9. Reimform aabaab.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 4-10: ‎‏פריידכן‏‎ priidk^n
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

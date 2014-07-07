@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mordechai Mosche ben Izek Rheinbach, gest. 1761-05-10, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-736</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-736</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-736</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung leicht in zwei Teile zerbrochen
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1761-05-10'>1761-05-10</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>DK</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 2049</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-736-1" sex='1'>
+      <persName>Mordechai Mosche ben Izek Rheinbach</persName>
+       <event when='1761-05-10' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0736_DK_0110070308.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-07'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/540--20a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/540--21a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/05/00000014.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏ביו׳ א׳ ו׳ בחודש זיו הוא חודש השני‏‎
+‏‎     <lb n='2'/>
+     ‎‏נגדע הוד אבי וקרני‏‎
+‏‎     <lb n='3'/>
+     ‎‏לפ״ק‏‎
+‏‎     <lb n='4'/>
+     ‎‏מרדכי יצא בלבוש הוד והדר‏‎
+‏‎     <lb n='5'/>
+     ‎‏הדר במעשיו זך ומלובן‏‎
+‏‎     <lb n='6'/>
+     ‎‏רצוי לרוב אחיו דורש טוב ומהדר‏‎
+‏‎     <lb n='7'/>
+     ‎‏לעשות צדק ולהמליץ‏‎
+‏‎     <lb n='8'/>
+     ‎‏דרך במעגלי צדק וגודר גדר‏‎
+‏‎     <lb n='9'/>
+     ‎‏פועל צדק לבלי חק‏‎
+‏‎     <lb n='10'/>
+     ‎‏כשרון מפעליו עתי׳ לתור׳ לסדר‏‎
+‏‎     <lb n='11'/>
+     ‎‏כגבר ירא ה׳ ובר אוריין‏‎
+‏‎     <lb n='12'/>
+     ‎‏יום בא שמשו בצהרים ונעדר‏‎
+‏‎     <lb n='13'/>
+     ‎‏ניניו? נאחז בסבך‏‎
+‏‎     <lb n='14'/>
+     ‎‏ה״ה הישר כ״ה מרדכי משה בן‏‎
+‏‎     <lb n='15'/>
+     ‎‏המנהיג כ״ה איצק ריינבך‏‎
+‏‎     <lb n='16'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Am Tag 1, 6. des Monats Siv, dem zweiten Monat‹,
+     <lb n='2'/>
+     ward abgeschlagen der Glanz meines Vaters, einen Verlust habe ich erlitten (521)
+     <lb n='3'/>
+     der kleinen Zählung.
+     <lb n='4'/>
+     ›Und Mordechai ging hinaus in einem Gewand‹ von Glanz und Pracht,
+     <lb n='5'/>
+     prachtvoll in seinen Taten, rein und
+     <lb n='6'/>
+     ›willkommen bei der Mehrzahl seiner Brüder, bedacht auf das Beste‹ und pflichtbeflissen
+     <lb n='7'/>
+     Gerechtigkeit zu üben und fürzusprechen,
+     <lb n='8'/>
+     ›sein Weg führte auf rechte Geleise‹, ›und er errichtete einen Zaun‹ (um die Tora),
+     <lb n='9'/>
+     ›wirkte Gerechtes‹ ›ohne Maß‹,
+     <lb n='10'/>
+     mit Tüchtigkeit seine Werke, dem Torastudium richtete er feste Zeiten ein,
+     <lb n='11'/>
+     wie ein Mann, der den Ewigen ehrfürchtet, ein Mann der Tora,
+     <lb n='12'/>
+     der Tag kam, da ging seine Sonne mittags unter und er entschwand,
+     <lb n='13'/>
+     .. ›verwickelt im Dickicht‹,
+     <lb n='14'/>
+     es ist der Aufrechte, der geehrte Herr Mordechai Mosche, Sohn
+     <lb n='15'/>
+     des Leiters, des geehrten Herrn Izek Rheinbach.
+     <lb n='16'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: 1Kön 6,1</p>
+    <p>Zl 4: Est 8,15</p>
+    <p>Zl 6: Est 10,3</p>
+    <p>Zl 8: Spr 4,11 | Zl 8: Ez 22,30</p>
+    <p>Zl 9: Ps 15,2 | Zl 9: Jes 5,14</p>
+    <p>Zl 13: Gen 22,13</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -der/dar in Zln 4,6,8,10,12.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      in Zl 2: Die Addition der Zahlenwerte der Buchstaben ergibt das Todesjahr 521.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      ‎‏מרדכי בן יצחק ריינבך‏‎, Zln 4,6,8,10,12 (MoRDCHaI) und 5,7,9,11,13 (Zeilenende, BeN JiZCHaK REINBaCH)
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Mit Siv, dem zweiten Monat, ist Ijar gemeint.</p>
+    <p>Zl 2: Wörtlich: abgeschlagen wurde mein Horn, nach Jer 48,25.</p>
+    <p>Zl 4: Dort ist es der biblische Mordechai, der erhobenen Hauptes den Königspalast verließ, nachdem sich das Schicksal des Volkes zum Guten gewendet hatte; hier ist wohl das Verlassen dieser Welt gemeint. Anspielung auf den Namen.</p>
+    <p>Zl 6a: Von Mordechai gesagt, Anspielung auf den Namen</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

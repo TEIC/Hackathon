@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Halchen bat Uri Feiwesch, gest. 1700-11-20, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1474</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1474</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1474</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ, liegend Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>geknickte Blume</decoNote>
+       <decoNote type='ornament'>floral: Palmetten</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1700-11-20'>1700-11-20</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1224</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1474-1" sex='2'>
+      <persName>Halchen bat Uri Feiwesch</persName>
+       <event when='1700-11-20' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1474_EN_0110160108.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000053.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1457_EN_0110100226.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-10'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏האלכי זו נתעלמה ועלה‏‎
+‏‎     <lb n='3'/>
+     ‎‏משאול ברמה ׃ אל מקום‏‎
+‏‎     <lb n='4'/>
+     ‎‏אשר היה אהלה שמה ׃‏‎
+‏‎     <lb n='5'/>
+     ‎‏לארץ נפלה שושנה‏‎
+‏‎     <lb n='6'/>
+     ‎‏בהדרה ׃ כל הכבוד ניטל‏‎
+‏‎     <lb n='7'/>
+     ‎‏ונשת[י.. מ] רה׃ יצאה‏‎
+‏‎     <lb n='8'/>
+     ‎‏מהדר [גאו]ונה ומחדרה‏‎
+‏‎     <lb n='9'/>
+     ‎‏[‎‏נעלמה] מעין כל חי‏‎
+‏‎     <lb n='10'/>
+     ‎‏ונסתרה ׃ האשה הצנו׳‏‎
+‏‎     <lb n='11'/>
+     ‎‏מ׳ האלכין בת ר׳ אורי‏‎
+‏‎     <lb n='12'/>
+     ‎‏פייבש נפטרת ביום‏‎
+‏‎     <lb n='13'/>
+     ‎‏ד׳ ך׳ כסלו ת[ס״א לפ״ק]‏‎
+‏‎     <lb n='14'/>
+     ‎‏תנצב״ה א׳ [ס׳]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier -
+     <lb n='2'/>
+     ›diese Halche, sie ging und entschwand‹ und stieg auf
+     <lb n='3'/>
+     aus der Hölle zur Höhe, zu dem Ort,
+     <lb n='4'/>
+     ›wo sich ihr Zelt befand,‹
+     <lb n='5'/>
+     zu Boden fiel die Rose
+     <lb n='6'/>
+     in ihrer Pracht, alle Herrlichkeit wurde genommen
+     <lb n='7'/>
+     ... Bitternis, sie verließ
+     <lb n='8'/>
+     ›den Glanz ihrer Hoheit‹ und ihre Stube
+     <lb n='9'/>
+     › und entschwand den Augen aller Lebenden
+     <lb n='10'/>
+     und verbarg sich,‹ die züchtige Frau,
+     <lb n='11'/>
+     Frau Halchen, Tochter des Herrn Uri
+     <lb n='12'/>
+     Feiwesch, verschieden am Tag
+     <lb n='13'/>
+     5, 20. Kislev 461 der kleinen Zählung.
+     <lb n='14'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens, Amen, Sela
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Vgl. bPes 66a</p>
+    <p>Zl 4: Gen 13,3</p>
+    <p>Zl 8: Jes 2,10.19.21</p>
+    <p>Zl 9f: Vgl. Ijob 28,21</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -a in Zln 2-10 (auf - ma in Zln 2-4, auf - ra in Zln 5-10).
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      HALChE in Zl 2 und in Zln 2,3,5,6,7; Siehe Kommentar zu Zeile 2.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: (dort: ‎‏הלכה זו נתעלמה‏‎), hier ist daher nicht nur der Name Halche, sondern auch das fast gleich klingende ‎‏הלכה‏‎ / sie ging zu lesen, was die Übersetzung zu berücksichtigen sucht.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>in Verbindung mit der Inschrift kann es sich auch um ein Namenssymbol für eventuell den zweiten Namen der Verstorbenen (Schoschana) handeln</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

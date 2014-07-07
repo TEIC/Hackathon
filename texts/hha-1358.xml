@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Elijahu ben Model SeGaL, gest. 1713-06-21, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1358</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1358</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1358</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung mittel 
+          <damage agent='Verwitterung'>Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Levitenkanne</decoNote>
+       <decoNote type='symbol'>Hand aus Wolke</decoNote>
+       <decoNote type='ornament'>gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1713-06-21'>1713-06-21</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EM</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1377</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1358-1" sex='1'>
+      <persName>Elijahu ben Model SeGaL</persName>
+       <event when='1713-06-21' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1358_EM_0110160111.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/520--23.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000249.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000081.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏ויעל אליהו בסערה השמי׳‏‎
+‏‎     <lb n='2'/>
+     ‎‏אי חסיד וענו שר התורה‏‎
+‏‎     <lb n='3'/>
+     ‎‏למרו׳ עלה אליה׳ בטהרה‏‎
+‏‎     <lb n='4'/>
+     ‎‏יד׳ בכל דמגלי׳ לי׳ רז׳ טמירה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ה[רי׳ ע]קר [וטח׳ זו בז׳] בסב[ר]׳‏‎
+‏‎     <lb n='6'/>
+     ‎‏לא פס[ק] פומ[י] מגירסא‏‎
+‏‎     <lb n='7'/>
+     ‎‏ולא הניח כל[ומ מתורת]‏‎
+‏‎     <lb n='8'/>
+     ‎‏משה לשמרה‏‎
+‏‎     <lb n='9'/>
+     ‎‏ישב בין נגידי עם ה״ה‏‎
+‏‎     <lb n='10'/>
+     ‎‏הראש וקצי׳ ומנהיג‏‎
+‏‎     <lb n='11'/>
+     ‎‏מהו״ר׳ אליה׳ ב׳ הרב‏‎
+‏‎     <lb n='12'/>
+     ‎‏מהו״ר׳ מאדל סג״ל ז׳‏‎
+‏‎     <lb n='13'/>
+     ‎‏דיין מווי׳ הלך לעולמ׳‏‎
+‏‎     <lb n='14'/>
+     ‎‏ביו׳ ד׳ ך״ז סיון ונקב׳‏‎
+‏‎     <lb n='15'/>
+     ‎‏יו׳ ה׳ ך״ח בו תע״ג לפ״ק‏‎
+‏‎     <lb n='16'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Und Elijahu stieg im Sturm gen Himmel empor‹,
+     <lb n='2'/>
+     ›wo ist der Fromme und Demütige‹, Fürst der Tora,
+     <lb n='3'/>
+     nach Oben stieg Elijahu in Reinheit,
+     <lb n='4'/>
+     er hatte an allem Anteil, das verborgene Geheimnisse offenbart,
+     <lb n='5'/>
+     ›Berge entwurzelte er und zermalmte sie aneinander‹ mit Scharfsinn,
+     <lb n='6'/>
+     ›es hörte nicht auf sein Mund vom Lernen‹,
+     <lb n='7'/>
+     und ließ nicht ab ...
+     <lb n='8'/>
+     ... sie bewahren
+     <lb n='9'/>
+     es saß inmitten der Fürsten des Landes, es ist
+     <lb n='10'/>
+     das Haupt, der Einflußreiche und der Leiter,
+     <lb n='11'/>
+     unser Lehrer, der Meister, Herr Elijahu, Sohn des Rabbiners,
+     <lb n='12'/>
+     unseres Lehrers, des Meisters, Herrn Model SeGaL, sein Andenken zum Segen,
+     <lb n='13'/>
+     Rabbinatsassessor aus Wien, ›er ging hin in seine Welt‹
+     <lb n='14'/>
+     am Tag 4, 27. Sivan und wurde begraben
+     <lb n='15'/>
+     (am) Tag 5, 28. desselben 473 der kleinen Zählung.
+     <lb n='16'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: 2Kön 2,11</p>
+    <p>Zl 2: bBer 6b</p>
+    <p>Zl 5: bSan 24a</p>
+    <p>Zl 6: bChag 3a</p>
+    <p>Zl 13: Koh 12,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rah in Zln 2-5,7.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-7, 9: ‎‏אליה לוי‏‎ Elijahu Levi
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Anspielung auf den Namen.</p>
+    <p>Zl 3: Anklingend an den Vers in Zl 1, hier ersetzt ‎‏טהרה‏‎, Reinheit ‎‏סערה‏‎, Sturm,</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Alle Ergänzungen nach Wittkower</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

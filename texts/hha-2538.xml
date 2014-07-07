@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Veile bat Natan Frankfurt, gest. 1669-10-03, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2538</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2538</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2538</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,115 x 0,570 x 0,100 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer non in situ, liegend Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben, vertieft (VS)</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral: Kranz; gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1669-10-03'>1669-10-03</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FR</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1088</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2538-1" sex='2'>
+      <persName>Veile bat Natan Frankfurt</persName>
+       <event when='1669-10-03' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2538_FR_0408230125.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2538_FR_0408230127.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000523.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פיילה‏‎
+‏‎     <lb n='2'/>
+     ‎‏הדודאים נתנו ריח‏‎
+‏‎     <lb n='3'/>
+     ‎‏היא הקטנה עלתה‏‎
+‏‎     <lb n='4'/>
+     ‎‏על כלנה בחכמה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ותבונה כשמש וירח‏‎
+‏‎     <lb n='6'/>
+     ‎‏פיילה בת הפרנס‏‎
+‏‎     <lb n='7'/>
+     ‎‏ומהיג(!) ר׳ נתן פרנקוורט‏‎
+‏‎     <lb n='8'/>
+     ‎‏ותשו׳ הרוח למעלה‏‎
+‏‎     <lb n='9'/>
+     ‎‏יום ה׳ ח׳ לתשרי ת״ל‏‎
+‏‎     <lb n='10'/>
+     ‎‏ליצירה תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Veile
+     <lb n='2'/>
+     ›Die Alraunen spendeten Duft‹,
+     <lb n='3'/>
+     doch diese kleine ›übertraf
+     <lb n='4'/>
+     sie alle‹ ›an Weisheit
+     <lb n='5'/>
+     und Einsicht‹, Sonne und Mond gleich,
+     <lb n='6'/>
+     Veile, Tochter des Vorstehers
+     <lb n='7'/>
+     und Leiters, Herrn Natan Frankfurt,
+     <lb n='8'/>
+     ›und der Geist kehrte nach Oben zurück‹
+     <lb n='9'/>
+     (am) Tag 5, 8. des Tischri 430
+     <lb n='10'/>
+     nach der Schöpfung. Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Hld 7,14</p>
+    <p>Zl 3f: Nach Spr 31,29</p>
+    <p>Zl 4f: Ex 36,1</p>
+    <p>Zl 8: Nach Koh 12,7</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -reach in Zln 2 und 5, auf -nah in Zln 3-5 (Reimschema abbba).
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Hld 7,14; indirekte Anspielung auf den Namen, Veile, von Veilchen, das auch ein duftendes Gewächs ist.</p>
+    <p>Zl 3/4a: Spr 31,29; die Mutter des Lemuel darüber, wie eine gute Ehegattin beschaffen sein sollte; siehe auch das Schabbatlied 'Eschet Chajil'.</p>
+    <p>Zl 5b: Aus ‎‏נשמת כל חי‏‎, "Die Seele alles Lebenden", im Morgengebet am Schabbat; dort heißt es: "und unsere Augen leuchtend wie Sonne und Mond".</p>
+    <p>Zl 7: Im ersten Wort fehlt ein Buchstabe; Frankfurt ist in einer "Mischform" der älteren (‎‏ורנקוורט‏‎) und jüngeren (‎‏פרנקפורט‏‎) Schreibweise geschrieben.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal in situ und unbeschädigt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

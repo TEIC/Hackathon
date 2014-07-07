@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Fradche bat Meir Emden ∞ Wolf Popert, gest. 1758-10-31, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3132</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3132</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3132</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit zweifach gestufter, oberer Profilleiste in Form eines aus nach innen gekehrten Voluten hervorgehenden, hochgeschweiften und kurzeingezogenen Bogens, der in den Zwickeln mit reliefierten, gewinkelten Profilleistenvoluten mit darauf angebrachten Palmetten bekrönt ist. Im Giebelfeld große Muschel, durch deren unteres Ende ein bogenförmiges Feston mit aufgesetzten Rosenblüten läuft. Das Schriftfeld von einer Profilleiste mit bogigem oberen Abschluß parallel zum äußeren Bogen umgeben. In dessen Giebelfeld die vergrößerten Buchstaben ‎‏פט‏‎. Seitenränder reliefierte, mit Kapitellen versehene Pilaster, verziert mit in Zapfen endenden Blattgirlanden.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+         <p>
+          <date>2006</date>
+           
+          <damage agent='Verwitterung'>Verwitterungen im unteren und mittleren Bereich des Inschriftenfeldes</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral; gestalterisch: Muschel</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1758-10-31'>1758-10-31</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GM</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 1587</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3132-1" sex='2'>
+      <persName>Fradche bat Meir Emden ∞ Wolf Popert</persName>
+       <event when='1758-10-31' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3132_GM_0205150131.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-15'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000157.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשה הגונה‏‎
+‏‎     <lb n='3'/>
+     ‎‏ענוגה ורכה המהוללה‏‎
+‏‎     <lb n='4'/>
+     ‎‏ביראת ה׳ יקרה וישרה‏‎
+‏‎     <lb n='5'/>
+     ‎‏מ׳ פראדכ[ה] בת כהר״ר‏‎
+‏‎     <lb n='6'/>
+     ‎‏מאיר עמדן מקופינהג׳‏‎
+‏‎     <lb n='7'/>
+     ‎‏אשת ה״ה מהר״ר וואלף‏‎
+‏‎     <lb n='8'/>
+     ‎‏פופרט נפ[ט]רה יו׳ ג׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏ער״ח חשו[ן ונ]קבר׳ א׳‏‎
+‏‎     <lb n='10'/>
+     ‎‏דר״ח תקי״ט לפ״ק‏‎
+‏‎     <lb n='11'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     eine Frau, würdig,
+     <lb n='3'/>
+     ›fein und zart‹, ›gepriesen
+     <lb n='4'/>
+     ob der Ehrfurcht des Ewigen‹, teuer und aufrichtig,
+     <lb n='5'/>
+     Frau Fradche, Tochter des geehrten Meisters, Herrn
+     <lb n='6'/>
+     Meir Emden aus Kopenhagen,
+     <lb n='7'/>
+     Gattin des geehrten Herrn, unseres Lehrers, des Meisters, Herrn Wolf
+     <lb n='8'/>
+     Popert, ver[sch]ieden Tag 3
+     <lb n='9'/>
+     Vorabend des Neumonds Cheschva[n] und begraben am 1.
+     <lb n='10'/>
+     des Neumonds 519 der kleinen Zählung.
+     <lb n='11'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: nach Jes 47,1</p>
+    <p>Zl 3f: Spr 31,30</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Endreim und Binnenreim auf -ah in Zln 2-4.
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die kurze, nur über drei Zeilen reichende Eulogie entwirft zwar keine detaillierte Charakterzeichnung von Fradche Popert, entwirft aber ein Ideal nicht ohne eigenständig formulierte Feinheit.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

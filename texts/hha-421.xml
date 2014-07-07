@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Peier bat Zadok Wittmund ∞ Löb Pfersee, gest. 1778-03-04, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-421</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-421</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-421</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           Beschädigung schwer (Fragment, liegend)
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1778-03-04'>1778-03-04</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>CL</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 1908</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-421-1" sex='2'>
+      <persName>Peier bat Zadok Wittmund ∞ Löb Pfersee</persName>
+       <event when='1778-03-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0421_CL_0105010307.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-05-01'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/05/00000129.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[...]‏‎
+     <lb n='2'/>
+     ‎‏חשובה וספונה ביראת‏‎
+‏‎     <lb n='3'/>
+     ‎‏ה׳ תמימה כל כבודה בת‏‎
+‏‎     <lb n='4'/>
+     ‎‏מלך פנימה היקרה‏‎
+‏‎     <lb n='5'/>
+     ‎‏והמהוללה א״ח עטרת‏‎
+‏‎     <lb n='6'/>
+     ‎‏בעלה מ׳ פייאר בת היקר‏‎
+‏‎     <lb n='7'/>
+     ‎‏כ׳ צדוק וויטמונט ז״ל‏‎
+‏‎     <lb n='8'/>
+     ‎‏אשת הדיין מה״ו ליב‏‎
+‏‎     <lb n='9'/>
+     ‎‏פפערשא נפטרה אור‏‎
+‏‎     <lb n='10'/>
+     ‎‏ליו׳ ד׳ ה׳ אדר ונקברה‏‎
+‏‎     <lb n='11'/>
+     ‎‏למחרתו תקל״ח לפ״ק‏‎
+‏‎     <lb n='12'/>
+     ‎‏תנצב״ה ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     [...]
+     <lb n='2'/>
+     angesehene und ›geachtete‹, in der Ehrfurcht
+     <lb n='3'/>
+     des Ewigen lauter, alle Herrlichkeit der Königs-
+     <lb n='4'/>
+     tochter innerlich, die Teure
+     <lb n='5'/>
+     und die Gepriesene, ›die tüchtige Gattin, Krone
+     <lb n='6'/>
+     ihres Gatten‹, Frau Peier, Tochter des teuren,
+     <lb n='7'/>
+     des geehrten Zadok Wittmund, sein Andenken zum Segen,
+     <lb n='8'/>
+     Gattin des Rabbinatsassessors, unseres Lehrers, des Meisters, Herrn Löb
+     <lb n='9'/>
+     Pfersee, verschieden zu Beginn
+     <lb n='10'/>
+     des Tages 4, 5. Adar und begraben
+     <lb n='11'/>
+     am Tag darauf, 538 der kleinen Zählung.
+     <lb n='12'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Nach ExR 20</p>
+    <p>Zl 5f: Spr 12,4</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -nah in Zln 1,2?, auf -mah in Zln 3,4 und auf -lah in Zln 5,6.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 2b/3a: Vgl. Ps 19,8; dort von der Lehre gesagt.</p>
+    <p>Zln 3b/4a: Ps 45,14.</p>
+    <p>Zln 5b/6a: Spr 12,4.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der Anfang der Inschrift, vermutlich eine, höchstens zwei Zeilen, fehlt bereits der histor. Aufnahme, das Grabmal aber noch in situ.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

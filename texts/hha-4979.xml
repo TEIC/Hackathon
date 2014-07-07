@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schalom ben Awraham Rofe (S. A. (Meyer)), gest. 1835-08-30, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-4979</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-4979</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-4979</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung mittel
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben (VS; RS: Deutsch)</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1835-08-30'>1835-08-30</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>MG</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>W 4792</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-4979-1" sex='1'>
+      <persName>Schalom ben Awraham Rofe (S. A. (Meyer))</persName>
+       <event when='1835-08-30' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='95'>Hebrew</language>
+    <language ident='de' usage='4'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4979_MG_0307240131.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-07-24'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4979_MG_0408020117.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-02'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/07/00000672.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/9328_NG_0408230405.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-23'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/9328_NG_0408230406.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-23'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏גנוז פה למנוחה‏‎
+‏‎      <lb n='2'/>
+      ‎‏ושלום‏‎
+‏‎      <lb n='3'/>
+      ‎‏איש מגזע ישרים‏‎
+‏‎      <lb n='4'/>
+      ‎‏עוסק במשא ומתן במשרים‏‎
+‏‎      <lb n='5'/>
+      ‎‏פזר נתן לאביונים‏‎
+‏‎      <lb n='6'/>
+      ‎‏המנהיג הר״ר שלום ב׳ הר״ר אברהם‏‎
+‏‎      <lb n='7'/>
+      ‎‏הרופא ז״ל, נפטר מש״ק אור ליום א׳‏‎
+‏‎      <lb n='8'/>
+      ‎‏ה׳ אלול, ונקב׳ יו׳ ב׳ ו׳ בו תקצ״ה לפ״ק‏‎
+‏‎      <lb n='9'/>
+      ‎‏שב עפרך לאדמתו כשהי |צּה‏‎
+‏‎      <lb n='10'/>
+      ‎‏למעלה נשמתך עלתה ברום עלי|ה‏‎
+‏‎      <lb n='11'/>
+      ‎‏ולא תפחד לבטח תשכב עד עמדך לתחי|ה‏‎
+‏‎      <lb n='12'/>
+      ‎‏מהר יבוא קץ הימין ואז תבוא לישוע|●ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='13'/>
+      S. A. (Meyer)
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Verwahrt ist hier zur Ruhe
+      <lb n='2'/>
+      und zum Frieden,
+      <lb n='3'/>
+      ein Mann vom Stamme der Aufrechten,
+      <lb n='4'/>
+      ›beschäftigt im Handel und Wandel in Aufrichtigkeit‹,
+      <lb n='5'/>
+      ›freigebig gab er den Bedürftigen‹,
+      <lb n='6'/>
+      der Leiter, der Meister, Herr Schalom, Sohn des Meisters, Herrn Awraham
+      <lb n='7'/>
+      Rofe, sein Andenken zum Segen, verschieden am Ausgang des heiligen Schabbat, zu Beginn des Tages 1,
+      <lb n='8'/>
+      5. Elul, und begraben Tag 2, 6. desselben, 595 der kleinen Zählung,
+      <lb n='9'/>
+      dein Staub kehrte zurück zur Erde, die er gewesen,
+      <lb n='10'/>
+      nach Oben stieg deine Seele, zu den Himmelshöhen,
+      <lb n='11'/>
+      und wirst dich nicht fürchten, sicher liegen, bis zur Auferstehung,
+      <lb n='12'/>
+      in Bälde möge das Ende der Tage kommen, dann kommt es zur Erlösung
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: bSchab 31a</p>
+    <p>Zl 5: Ps 112,9</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rim in Zln 3,4 und auf -jah in Zln 9-12.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      SchaLOM in Zln 9-12.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Wortspiel mit dem Namen, denn Schalom bedeutet Frieden.</p>
+    <p>Zl 9: Die Eulogie greift das Genesis-Motiv auf, wonach der Mensch, Adam, aus Erde, adama, erschaffen wurde, zu der er (sein Körper) nun im Tode zurückkehrt.</p>
+    <p>Zl 10: Vgl. Ps 7,8, Ps 68,129 und Spr 25,3.</p>
+    <p>Zl 11: Vgl. Spr 3,24 und Ijob 11,18.</p>
+    <p>Zl 12: Vgl. Dan 12,13.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal vollständig und vermutlich in situ, wenn auch bereits aus den beiden heutigen Fragmenten bestehend. Die Inschrift ist inhaltlich und mittels eines Trennungsstriches auch optisch zweigeteilt. Die ersten Zeilen loben den weltlichen Umgang: den ehrlichen Handel und die Freigebigkeit den Armen gegenüber, gefolgt von Namen (in größeren Lettern) und Daten. Der zweite Teil der Eulogie, umrahmt von einem vorangestellten Namensakrostichon und der abschließenden konkreten Poesie, schildert den nunmehr gegebenen Zustand, der Trennung von Körper und Seele, der Rückkehr zur "Ausgangsmaterie" bzw. Hinaufsteigens gen Himmel, wobei der Trost, die Sicherheit überzeugend ausgedrückt wird, dass dieser Zustand nur ein vorübergehender sei und möglicherweise in Bälde mit eintretender Erlösung aufgehoben sein wird.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

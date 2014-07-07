@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jehuda Löb ben Naftali, gest. 1704-11-05, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1297</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1297</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1297</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1704-11-05'>1704-11-05</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EL</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1294</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1297-1" sex='1'>
+      <persName>Jehuda Löb ben Naftali</persName>
+       <event when='1704-11-05' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1297_EL_0110160221.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000121.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ הארי‏‎
+‏‎     <lb n='2'/>
+     ‎‏יעשה שואל כענין הלכה ׃‏‎
+‏‎     <lb n='3'/>
+     ‎‏הלך דרך ישר רוח נמוכה ׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏ובעל תורה תנוק מלמדה ׃‏‎
+‏‎     <lb n='5'/>
+     ‎‏דין הוא רמזן עליה ככה ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏הוא אשר צוה אתנו ברכה ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏ובזוהר רקיע הר״ר יהודה ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏ליב בר נפתלי ז״ל מווינא‏‎
+‏‎     <lb n='9'/>
+     ‎‏נפטר ונקבר יו׳ ג׳ ח׳ מרחשון‏‎
+‏‎     <lb n='10'/>
+     ‎‏תס״ח לפ״ק‏‎
+‏‎     <lb n='11'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben der Leu,
+     <lb n='2'/>
+     der nach dem Gesetz fragt, dass er danach handle,
+     <lb n='3'/>
+     er ging auf geradem Weg, ›mit bescheidenem Sinn‹,
+     <lb n='4'/>
+     torakundig, die Kleinkinder unterrichtend.
+     <lb n='5'/>
+     Auf das Rechtgemäße wies er hin, "so ist's!",
+     <lb n='6'/>
+     er, der hinterließ uns den Segen,
+     <lb n='7'/>
+     und ›(leuchtet) wie Glanz des Firmaments‹, der Meister, Herr Jehuda
+     <lb n='8'/>
+     Löb, Sohn des Naftali, sein Andenken zum Segen, aus Wien,
+     <lb n='9'/>
+     verschieden und begraben Tag 3, 8. Marcheschvan
+     <lb n='10'/>
+     468 der kleinen Zählung.
+     <lb n='11'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Av 5,19</p>
+    <p>Zl 7: Dan 12,3</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>Verseulogie: sechszeiliges Namensgedicht mit Reim aabaab und Akrostichon; vierhebige Verse</p>
+    <p>
+     <label>Reim</label>
+      auf -cha und -dah in Zln 2-7 (den Namen einschließend).
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-6: ‎‏יהודה‏‎ Jehuda
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der Kinderlehrer: Wiederum liefert der Dichter mit geringen Mitteln ein lebendiges Porträt des gewissenhaften Jehuda, der nach seiner Vertreibung aus Wien seine Gelehrsamkeit dem Schulunterricht dienlich machte und von der Gemeinde als in seiner subalternen Position gewissenhafter, etwas pedantischer Wächter über das ritualgesetzliche Rechttun geschätzt war.</p>
+    <p>Zum Datum: Es ist nicht eindeutig zu entscheiden, ob die Buchstaben des Monatstages und Todesjahres ‎‏ה‏‎ oder ‎‏ח‏‎ sind. An keinem der möglichen Daten stimmen Wochen- und Monatstag überein: 5. Cheschvan 465 (Mittwoch, 2.11.1704), 8. Cheschvan 465 (Mittwoch, 5.11.1704), 5. Cheschvan 468 (Montag, 31.10.1707) und 8. Cheschvan 468 (Donnerstag, 3.11.1707). Wir entscheiden uns aufgrund der Gestaltung der Buchstaben für den 8. Cheschvan 465.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

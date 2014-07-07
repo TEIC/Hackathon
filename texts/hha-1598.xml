@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Naftali, gest. 1770-10-09, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1598</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1598</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1598</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,430 x 0,600 x 0,150 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Namenssymbol: Herz</decoNote>
+       <decoNote type='ornament'>floral: Palmetten; gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1770-10-09'>1770-10-09</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FD</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3135</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1598-1" sex='1'>
+      <persName>Naftali</persName>
+       <event when='1770-10-09' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1598_FD_0110160203.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1598_FD_0409030427.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-09-03'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000507.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000068.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏לפרט על‏‎
+‏‎     <lb n='2'/>
+     ‎‏נפתלי הנצרור בצרור החיים‏‎
+‏‎     <lb n='3'/>
+     ‎‏לבבנו‏‎
+‏‎     <lb n='4'/>
+     ‎‏נשפוך כמים‏‎
+‏‎     <lb n='5'/>
+     ‎‏האספו‏‎
+‏‎     <lb n='6'/>
+     ‎‏להרבות בכי על‏‎
+‏‎     <lb n='7'/>
+     ‎‏אבידת הצדיק |צּנפתלי‏‎
+‏‎     <lb n='8'/>
+     ‎‏יללה וקול נהי נרים על‏‎
+‏‎     <lb n='9'/>
+     ‎‏העדר מדות טוב[ו]ת של |נפתלי‏‎
+‏‎     <lb n='10'/>
+     ‎‏ראש לבעלי תפילות הי׳‏‎
+‏‎     <lb n='11'/>
+     ‎‏להעלות אל הר מרום |נפתלי‏‎
+‏‎     <lb n='12'/>
+     ‎‏צדקות עשה ובקביעת עתים‏‎
+‏‎     <lb n='13'/>
+     ‎‏לתורה מלא שבע רצון |●נפתלי‏‎
+‏‎     <lb n='14'/>
+     ‎‏בנפש שלימה התאמץ את‏‎
+‏‎     <lb n='15'/>
+     ‎‏עצמו לג״ח ולקבורת מתים ׃‏‎
+‏‎     <lb n='16'/>
+     ‎‏הקדים רב רחמיו לשמח‏‎
+‏‎     <lb n='17'/>
+     ‎‏נפשות האביונים ׃‏‎
+‏‎     <lb n='18'/>
+     ‎‏אור ישרים החזיק בנעוריו‏‎
+‏‎     <lb n='19'/>
+     ‎‏מצות ואתם כתבו לקיימים‏‎
+‏‎     <lb n='20'/>
+     ‎‏פשט יד ימינו בערלי לב‏‎
+‏‎     <lb n='21'/>
+     ‎‏מילת נערים להמולים ׃‏‎
+‏‎     <lb n='22'/>
+     ‎‏עזב לנו בליל שמחות מועדים‏‎
+‏‎     <lb n='23'/>
+     ‎‏ונקבר בכי טוב ך׳ תשרי תקל״א לפ״ק‏‎
+‏‎     <lb n='24'/>
+     ‎‏תנצב״ה עש״צ וח׳‏‎
+‏‎     <lb n='25'/>
+     ‎‏[‎‏עולם]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Über
+     <lb n='2'/>
+     Naftali, der eingebunden ist "in das Bündel des Lebens", der Zählung (531)
+     <lb n='3'/>
+     (ist) unser Herz
+     <lb n='4'/>
+     ›vergossen wie Wasser‹.
+     <lb n='5'/>
+     Versammelt euch,
+     <lb n='6'/>
+     um ausgiebig zu weinen über
+     <lb n='7'/>
+     den Verlust des Gerechten Naftali,
+     <lb n='8'/>
+     Jammer und ›Klagestimme‹ lasst uns erheben über
+     <lb n='9'/>
+     den Abgang der guten Eigenschaften von Naftali,
+     <lb n='10'/>
+     Erster unter den Betenden war Naftali,
+     <lb n='11'/>
+     zu erheben zum Berg der Höhe Naftali,
+     <lb n='12'/>
+     ›Wohltaten erwies er und in dem er feste Zeiten setzte
+     <lb n='13'/>
+     für die Tora‹ ›war voll und gesättigt der Gnade Naftali‹,
+     <lb n='14'/>
+     mit ganzem Gemüt ›mühte er
+     <lb n='15'/>
+     sich ab, Liebeswerke zu erweisen‹ und Tote zu beerdigen,
+     <lb n='16'/>
+     er beeilte sich in seinem großen Erbarmen, um zu erfreuen
+     <lb n='17'/>
+     die Seelen der Bedürftigen,
+     <lb n='18'/>
+     ›die Leuchte der Aufrechten‹ hielt er fest in seiner Jugendzeit,
+     <lb n='19'/>
+     Gebote ... ... zu erfüllen
+     <lb n='20'/>
+     streckte seine Rechte den Unbeschnittenen des Herzens aus,
+     <lb n='21'/>
+     (zur) Beschneidung der Knaben der Beschnittenen,
+     <lb n='22'/>
+     er verließ uns in der Nacht der Freuden der Feste,
+     <lb n='23'/>
+     und begraben am "daß es gut war", 20. Tischri 531 der kleinen Zählung.
+     <lb n='24'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens mit den übrigen Gerechten und Frommen
+     <lb n='25'/>
+     der Welt
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Vgl. bPes 16a u. ö.</p>
+    <p>Zl 8: Vgl. Jer 9,18</p>
+    <p>Zl 12f: bShab 31a | Zl 13: Nach Dtn 33,23</p>
+    <p>Zl 14f: Nach Spr 21,21</p>
+    <p>Zl 18: Ps 112,4</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Konkrete Poesie.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      Hirz Sohn des Meisters Herrn Uri Feiwelman Elb in Zln 5,8,10,12,14,16,18,20,21,22
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Chronogramm das die Jahreszahl 531 ergibt.</p>
+    <p>Zl 23: Laut Grunwald war der Todestag der 20. Tischri, es ist der 4. Tag der Zwischenfeiertage von Sukkot, der auf Dienstag fiel</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>In der Inschrift wird auf das Symbol verwiesen; Ehemann von Tamar Hanna bat Mosche Jaakow Minden (1597)</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Josef Gottschalk, gest. 1926-02-10, Rosa Gottschalk geb. Franken, gest. 1928-11-28, Gustav [Gottschalk], gest. 1915-07-01, Max Gottschalk, gest. 1932-11-14, Jüdischer Friedhof Dormagen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e03-29</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-29</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-29</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <objectType>Stehender Grabstein</objectType>
+          Breites Grabmal mit hervorkragendem Dreiecksgiebel auf breitem Postament.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1985</date>
+           Beschädigung leicht. 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Davidstern</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1915-07-01'>1915-07-01</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038848'>
+        Dormagen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.100669 6.834092</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e03-29-1" sex='1'>
+      <persName>Josef Gottschalk</persName>
+       <event when='1926-02-10' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="e03-29-2" sex='2'>
+      <persName>Rosa Gottschalk geb. Franken</persName>
+       <event when='1928-11-28' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="e03-29-3" sex='1'>
+      <persName>Gustav [Gottschalk]</persName>
+       <event when='1915-07-01' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="e03-29-4" sex='1'>
+      <persName>Max Gottschalk</persName>
+       <event when='1932-11-14' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='3'>Hebrew</language>
+    <language ident='de' usage='96'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0029_E03_070719EPS4119qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0029dE03_070719EPS4121qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e03.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2014-03-19T21:35:21'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      Josef Gottschalk // Rosa Gottschalk
+      <lb n='3'/>
+      geb. 13. Juli 1850 // geb. Franken
+      <lb n='4'/>
+      gest. 10. Februar 1926 // geb. 21. November 1855
+      <lb n='5'/>
+       // gest. 28. November 1928
+      <lb n='6'/>
+      Zum Andenken an unseren im Weltkrieg
+      <lb n='7'/>
+      gefallenen Sohn und Bruder Gustav 
+      <supplied reason='subaudible'>Gottschalk</supplied>
+      <lb n='8'/>
+      geb. 1. Juni 1885 gefallen 1. Juli 1915
+      <lb n='9'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Postament'>
+      <ab>
+      <lb n='10'/>
+      Max Gottschalk
+      <lb n='11'/>
+      geb. 14. Juli 1878
+      <lb n='12'/>
+      gest. 14. November 1932
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier sind begraben
+      <lb n='9'/>
+      Ihre Seelen seien eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+    <div type='textpart' subtype='Postament'>
+     <ab></ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Die Familie Gottschalk betrieb eine Großviehhandlung in Dormagen.</p>
+    <p>Gustav Gottschalk ist als einer von zwei jüdischen Gefallenen aus Dormagen im Gedenkbuch für die jüdischen Gefallenen des Ersten Weltkrieges aufgeführt, als Brigadier im 80. Ersatz-Bataillon, mit der Verlustmeldung Nr. 278. Er ruht auf der Kriegsgräberstätte im französischen Thiaucourt-Regnieville (Block 8, Grab 151).</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

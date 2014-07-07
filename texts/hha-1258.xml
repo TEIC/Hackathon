@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Dina Sara bat Meir Stern ∞ Mosche Leudesdorf, gest. 1808-10-26, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1258</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1258</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1258</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung mittel 
+          <damage agent='Verwitterung'>Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1808-10-26'>1808-10-26</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EL</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1403</geo>
+          <geo decls='Feld Grabnummer'> n 569</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1258-1" sex='2'>
+      <persName>Dina Sara bat Meir Stern ∞ Mosche Leudesdorf</persName>
+       <event when='1808-10-26' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1258_EL_0110120111.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-12'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000225.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏אשה יראת ה׳ היא תתהלל‏‎
+‏‎     <lb n='2'/>
+     ‎‏פה טמונה בת חיל בנשים הישרה‏‎
+‏‎     <lb n='3'/>
+     ‎‏בתבונתה כשרון מעש׳ רק עשתה‏‎
+‏‎     <lb n='4'/>
+     ‎‏את שם האדם בפועל כפה האמירה‏‎
+‏‎     <lb n='5'/>
+     ‎‏אף על לוח לבו נדיבתה חרתה‏‎
+‏‎     <lb n='6'/>
+     ‎‏היא היקרה מ׳ דינה שרה בת כ״ה‏‎
+‏‎     <lb n='7'/>
+     ‎‏מאיר שטערין אשת הגובה כ״ה‏‎
+‏‎     <lb n='8'/>
+     ‎‏משה ל״[ד ז]״ל מת[ה] ב[י]ו׳ [ד׳ ה׳] חשון ונקב׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏למחר[תו ...] מרחשון‏‎
+‏‎     <lb n='10'/>
+     ‎‏מפרי [...]‏‎
+‏‎     <lb n='11'/>
+     ‎‏לפ״ק תנצ[ב]״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Eine Frau die den Ewigen ehrfürchtet, sie sei gepriesen
+     <lb n='2'/>
+     Hier ist geborgen die Tatkräftige unter den Frauen, die Aufrechte,
+     <lb n='3'/>
+     in ihrer Einsicht und der Tüchtigkeit ihre Werke, allein ...
+     <lb n='4'/>
+     ... mit ihrer Hände Arbeit annerkannt,
+     <lb n='5'/>
+     auch auf sein Herzen
+     <lb n='6'/>
+     es ist die Teure, Frau Dina Sara, Tochter des geehrten Herrn
+     <lb n='7'/>
+     Meir Stern, Gattin des Kassenverwalters, des geehrten Herrn
+     <lb n='8'/>
+     Mosche Leudesdorf, sein Andenken zum Segen, gestorben am Tag 4, 5. Cheschvan und begraben
+     <lb n='9'/>
+     am Tag darauf ... Marcheschvan
+     <lb n='10'/>
+     von der Frucht ...
+     <lb n='11'/>
+     der kleinen Zählung. Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rah in Zln 2,4 und auf -tah in Zln 3,5.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      in Zl 10, die Addition der Zahlenwerte der größer gehaltenen Buchstaben ergibt das Todesjahr 569.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 4b: ‎‏האמירה‏‎ nur in Dtn 26,17.18 in der Bedeutung: zugesagt, anerkannt, angelobt (nach Torczyner).</p>
+    <p>Zl 8: ‎‏ל״ד‏‎ mit Leudesdorf nach GB und Grunwald ergänzt und aufgelöst, im shha ist der Name ebenfalls nur als Abkürzung geschrieben.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

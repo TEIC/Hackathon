@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jaakow Josef ben Naftali Hirz Popert, gest. 1772-06-02, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1154</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1154</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1154</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung leicht
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1772-06-02'>1772-06-02</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>DI</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 1596</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1154-1" sex='1'>
+      <persName>Jaakow Josef ben Naftali Hirz Popert</persName>
+       <event when='1772-06-02' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1154_DI_0110040234.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-04'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש ישר וכשר‏‎
+‏‎     <lb n='3'/>
+     ‎‏עדות בהיוסף שמו ׃ המפורסם‏‎
+‏‎     <lb n='4'/>
+     ‎‏ועושה טוב גמילות חסד׳ לכל‏‎
+‏‎     <lb n='5'/>
+     ‎‏עמו ׃ כל ימי׳ קבע עיתים לתורה‏‎
+‏‎     <lb n='6'/>
+     ‎‏הוא פו״מ האלוף הישיש כהר״ר‏‎
+‏‎     <lb n='7'/>
+     ‎‏יעקב יוסף בן פו״מ כהר״ר נפתלי‏‎
+‏‎     <lb n='8'/>
+     ‎‏הירץ פופרט נפטר בש״ט יום‏‎
+‏‎     <lb n='9'/>
+     ‎‏שנאמר ב׳ פעמים כי טוב ר״ח‏‎
+‏‎     <lb n='10'/>
+     ‎‏סיון ונקב׳ ביו׳ שקבעו המאורת‏‎
+‏‎     <lb n='11'/>
+     ‎‏תקל״ב לפ״ק‏‎
+‏‎     <lb n='12'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein Mann, aufrecht und tugendhaft,
+     <lb n='3'/>
+     als Zeugnis hat er's in Jehosef erstellt, der Weitbekannte,
+     <lb n='4'/>
+     der Gutes wirkt, ›Liebeswerke erweist‹ seinem ganzen
+     <lb n='5'/>
+     Volke, all seine Tage ›feste Zeiten für die Tora setzte‹,
+     <lb n='6'/>
+     es ist der Vorsteher und Leiter, der Vornehme, der Hochbetagte, der geehrte Meister, Herr
+     <lb n='7'/>
+     Jaakow Josef, Sohn des Vorstehers und Leiters, des geehrten Meisters, Herrn Naftali
+     <lb n='8'/>
+     Hirz Popert, verschieden ›mit gutem Namen‹ (am) Tag
+     <lb n='9'/>
+     an dem zweimal gesagt wurde: "es sei gut", Neumondstag
+     <lb n='10'/>
+     Sivan und begraben an dem Tag, an dem die Leuchten erschaffen wurden, 
+     <lb n='11'/>
+     532 der kleinen Zählung.
+     <lb n='12'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens 
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Av 1,2</p>
+    <p>Zl 5: bShab 31a</p>
+    <p>Zl 8: bBer 17a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -mo in Zln 3,5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3a: Ps 81,6; Jehosef ist der biblische Josef, womit auf den zweiten Namen angespielt wird; Verschreiber</p>
+    <p>Zl 5b: bSchab 31a.</p>
+    <p>Zl 9: Bezugnehmend auf die Schöpfungsgeschichte, wurde anstelle der expliziten Angabe des Wochentages, besondere am dritten Tag geschildert, nämlich, dass Gott zweimal "und es ward also gut" sagte.</p>
+    <p>Zl 10: Anstelle der geläufigen Angabe des Wochentages folgt die Umschreibung dessen, was am vierten Tag der Erschaffung der Welt geschah.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Bella bat Mosche Kleve ∞ Schimon ben Natan Lübeck, gest. 1719-07-13, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2113</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2113</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2113</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung mittel unterhalb der Schriftfläche gebrochen und liegend 
+          <damage agent='Verwitterung'>Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral; gestalterisch: aufgespannter Mantel</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1719-07-13'>1719-07-13</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FI</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>CII 474</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2113-1" sex='2'>
+      <persName>Bella bat Mosche Kleve ∞ Schimon ben Natan Lübeck</persName>
+       <event when='1719-07-13' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2113_FI_0407300114.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-07-30'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000522.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000021.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה טמונה הנעימה ׃ אשה צנועה ותמימה ׃‏‎
+‏‎     <lb n='2'/>
+     ‎‏בעלת שכל וישרה ׃‏‎
+‏‎     <lb n='3'/>
+     ‎‏יום ב׳ ח׳ מנחם תע״ט לפ׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏נפטרה ונקברה ׃ לבעלה‏‎
+‏‎     <lb n='5'/>
+     ‎‏היתה חביבה בכה וצעק‏‎
+‏‎     <lb n='6'/>
+     ‎‏בקול מרה ׃ איך כבה‏‎
+‏‎     <lb n='7'/>
+     ‎‏פתאום א[ורה] ויצא‏‎
+‏‎     <lb n='8'/>
+     ‎‏ממנו [הדרה] ׃ היא‏‎
+‏‎     <lb n='9'/>
+     ‎‏האשה מ׳ בילא בת ה״ה‏‎
+‏‎     <lb n='10'/>
+     ‎‏כהר״ר משה קליווא ז״ל ‏‎
+‏‎     <lb n='11'/>
+     ‎‏מאמשטרדם אשת כ׳‏‎
+‏‎     <lb n='12'/>
+     ‎‏שמעון בן נתן ליבוק ז״ל‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen die Liebenswürdige, die züchtige und lautere Frau,
+     <lb n='2'/>
+     voller Einsicht und aufrecht,
+     <lb n='3'/>
+     Tag 2, 8. Menachem 479 der Zählung
+     <lb n='4'/>
+     verschied sie und wurde begraben, ›ihrem Gatten
+     <lb n='5'/>
+     war sie lieb‹, er weinte und schrie
+     <lb n='6'/>
+     mit bitterer Stimme, wie ist erloschen
+     <lb n='7'/>
+     so plötzlich ihr Licht und von ihm
+     <lb n='8'/>
+     ›die Pracht weggangen‹, es ist
+     <lb n='9'/>
+     die Frau Bella, Tochter des Teuren und Erhabenen,
+     <lb n='10'/>
+     des geehrten Meisters, Herrn Mosche Kleve, sein Andenken zum Segen,
+     <lb n='11'/>
+     aus Amsterdam, Gattin des geehrten
+     <lb n='12'/>
+     Schimon, Sohn des Natan Lübeck, sein Andenken zum Segen.
+     <lb n='13'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4f: Vgl. bJom 29a</p>
+    <p>Zl 8: Vgl. BerR 68,6</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ima in Zl 1, auf -ra in Zln 2-6.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-4, 6: ‎‏בילא‏‎ Bella
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Die erste Zeile ist bogenförmig.</p>
+    <p>Zl 3: Menachem, "Tröster", ist ein euphemistischer Name für den Trauermonat Aw.</p>
+    <p>Zl 5a: In bJom 29a ist es Achaschwerosch, der persische König, der Ester liebt.</p>
+    <p>Zln 5b/6a: Vgl. Jalkut Schimoni, Abschnitt "Und er ging", Nr. 940; dort schreit und weint Josua um Mose und betrauert ihn viele Tage.</p>
+    <p>Zl 9: ‎‏ה״ה‏‎ mit "der Teure und Erhabene" aufgelöst, die häufigste Wiedergabe des nahezu beliebig aufzulösenden Kürzels.</p>
+    <p>Zl 12: ‎‏ז״ל‏‎, sein Andenken zum Segen, in kleineren Lettern.</p>
+    <p>Zl 13: In größeren Lettern.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal in situ und unbeschädigt.</p>
+    <p>Ein Datum ist hier nur selten am Anfang der Inschrift angegeben, was auf anderweitigen (Amsterdamer?) Einfluß zurückgehen mag.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

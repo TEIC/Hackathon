@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Bendit Halevi ben Jehuda, gest. 1721-01-04, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2155</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2155</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2155</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>2,300 x 0,570 x 0,190 m</dim>
+          </dimensions>
+          Hochrechteckige Stele mit eingezogenem, geschweiftem, gestuft-vorkragendem Bogen und Eckakroterien. Reliefiert zwischen stilisierten Pilastern mit Kompositkapitellen und Kämpferaufsätzen, ausgespannt ein an den Seiten mehrfach geraffter und oben zu einem Baldachin gebündelter Vorhang als Inschriftenfeld. Rahmen scharriert. Im Bogenfeld als Relief eine von einer Hand, die aus Wolken hervorbricht, in Gießposition gehaltene Levitenkanne über einer Schale. In der Kehlung des Bogens auf einem stilisierten Wimpel die oben angegebene erste Textzeile. Unter dem Baldachin, diesem parallel, symmetrisch die Worte: ‎‏ציון הלז מגדול עוז‏‎.
+‏‎         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Levitenkanne</decoNote>
+       <decoNote type='symbol'>Hand aus Wolke</decoNote>
+       <decoNote type='ornament'>floral; gestalterisch: aufgespannter Mantel</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1721-01-04'>1721-01-04</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FK</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>CII 433</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2155-1" sex='1'>
+      <persName>Bendit Halevi ben Jehuda</persName>
+       <event when='1721-01-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2155_FK_0204220228.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-22'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000484.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000057.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏סובב הרוח והולך איש מבית לוי וילך‏‎
+‏‎     <lb n='2'/>
+     ‎‏ציון הלז מגדול (!) עוז‏‎
+‏‎     <lb n='3'/>
+     ‎‏בו ירוץ צדיק ונשגב ׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏עמל וגמל ח[סד ...] ע? י?שב‏‎
+‏‎     <lb n='5'/>
+     ‎‏נוחו עדן ע[...] שב‏‎
+‏‎     <lb n='6'/>
+     ‎‏דרך הישרה [..] שב‏‎
+‏‎     <lb n='7'/>
+     ‎‏טוב ונאה חכ[...]ץ? שב‏‎
+‏‎     <lb n='8'/>
+     ‎‏ה[...] ב? יא‏‎
+‏‎     <lb n='9'/>
+     ‎‏לפני ש[...] לביא‏‎
+‏‎     <lb n='10'/>
+     ‎‏וח[...] ב? יא‏‎
+‏‎     <lb n='11'/>
+     ‎‏יזכה לחיי עולם הבא‏‎
+‏‎     <lb n='12'/>
+     ‎‏האלוף והנגיד פו׳ כהר״ר‏‎
+‏‎     <lb n='13'/>
+     ‎‏בענדיט הלוי בן כהר״ר‏‎
+‏‎     <lb n='14'/>
+     ‎‏יהודא ז״ל נפטר ליל‏‎
+‏‎     <lb n='15'/>
+     ‎‏ש״ק ונקבר ביום א׳‏‎
+‏‎     <lb n='16'/>
+     ‎‏ויו טבת תפ״א לפ״ק‏‎
+‏‎     <lb n='17'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Zu seinen Kreisen kehrt der Lebensgeist zurück‹, ›ein Mann aus dem Stamm Levi, der da (weg)ging‹
+     <lb n='2'/>
+     ›dieses Denkmal‹ ist ›ein starker Turm,
+     <lb n='3'/>
+     dahin läuft der Gerechte‹ und ist geschützt,
+     <lb n='4'/>
+     er mühte sich ab und übte Güte ... ließ sich nieder?
+     <lb n='5'/>
+     Seine Ruhe in Eden ...
+     <lb n='6'/>
+     ›den geraden Weg‹ ...
+     <lb n='7'/>
+     Gut und? lieblich? ein [Weiser?] [---]
+     <lb n='8'/>
+     [...]
+     <lb n='9'/>
+     Vor [...]
+     <lb n='10'/>
+     [...]
+     <lb n='11'/>
+     Er ist würdig ›für das Leben der kommenden Welt?‹,
+     <lb n='12'/>
+     der Vornehme und Fürst, Vorsteher und Leiter, der geehrte Meister, Herr
+     <lb n='13'/>
+     Bendit Halevi, Sohn des geehrten Meisters, Herrn
+     <lb n='14'/>
+     Jehuda, sein Andenken zum Segen, verschied (in der) Nacht
+     <lb n='15'/>
+     des heiligen Schabbat, und ward begraben am Tag 1,
+     <lb n='16'/>
+     sechster Tewet 481 der kleinen Zählung.
+     <lb n='17'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Nach Koh 1,6 | Zl 1: Ex 2,1</p>
+    <p>Zl 2: 2 Kön 23,17</p>
+    <p>Zl 2f: Spr 18,10</p>
+    <p>Zl 6: Vgl. Ps 107,7 u. Esra 8,21</p>
+    <p>Zl 11: Vgl. Dan 12,2</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Endreim auf -schaw oder -schew in Zln 4-7; Endreim auf -ie in Zln 8-10, an die die Zeilenendung 11 mit einem sog. "Augenreim" angepaßt ist. Die Abkürzungen khr"r stehen epiphorisch in den Zeilen 12 und 13.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3-11: ‎‏בענדט הלוי‏‎ Bendit Halevi
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1a: In Koh 1,6 meint ‎‏רוח‏‎ Wind, hier allerdings ist der Lebensgeist gemeint.</p>
+    <p>Zln 2b/3: Zu Spr 18,10: ‎‏מגדל‏‎ ist hier irrtümlich ‎‏מגדול‏‎ geschrieben.</p>
+    <p>Lang ausgezogenes ‎‏ב‏‎ in ‎‏ונשגב‏‎ zur Zeilenfüllung.</p>
+    <p>Zl 4a: Zur geprägten Wendung ‎‏גמל חסד‏‎ vgl. bBer 60b; bShab 104a.</p>
+    <p>Zl 7a: ‎‏טוב חכם‏‎ kommt komparativisch in Koh 4,13; 7,5 vor.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Eulogie setzt ein mit einer Metapher, die die Vergänglichkeit des irdischen Lebens und insbesondere der Menschen zum Ausdruck bringt. Indem das Denkmal als starker Turm dargestellt wird, erweist es sich für den Verstorbenen, der ein rechtschaffenes Leben führte, als Ort der Zuflucht.</p>
+    <p>Mittels metaphorischer Sprache ist Herr Bendit als Zadik, d.h. Gerechter, der nach bJoma 38b eine Grundfeste der Welt ist, und als Weiser hervorgehoben. Sowohl seine Verdienste im Rahmen seiner verantwortungsvollen, leitenden Ämter in der Gemeinde als auch seine persönliche Wohltätigkeit (Gemilut Chassadim), die untrennbar mit der Persönlichkeit eines Zadik verbunden ist, werden gewürdigt. Gemilut Chassadim wird in Mischna Pea I,1 unter denjenigen Dingen genannt, die ohne Maß sind, und so hoch geschätzt, daß dem sie Ausübenden die kommende Welt verheißen ist. Mit dieser tröstlichen Überzeugung in bezug auf den verstorbenen Leviten schließt die Eulogie.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jehuda David ben Mosche, gest. 1675-04-01, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2318</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2318</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2318</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1675-04-01'>1675-04-01</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1170</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2318-1" sex='1'>
+      <persName>Jehuda David ben Mosche</persName>
+       <event when='1675-04-01' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2318_FN_0309140123.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-09-14'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000035.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏מגדל דוד‏‎
+‏‎     <lb n='2'/>
+     ‎‏אבן זוחלת · הוקם על‏‎
+‏‎     <lb n='3'/>
+     ‎‏חכם קהלת · פרי קודש‏‎
+‏‎     <lb n='4'/>
+     ‎‏עלהו לתועלת · מעשיו‏‎
+‏‎     <lb n='5'/>
+     ‎‏אמונה נקי׳ כסלת · ה״ה‏‎
+‏‎     <lb n='6'/>
+     ‎‏החבר יהודא דוד בר‏‎
+‏‎     <lb n='7'/>
+     ‎‏משה ז״ל נפטר ונקבר‏‎
+‏‎     <lb n='8'/>
+     ‎‏יום ב׳ ה׳ ניסן שנת‏‎
+‏‎     <lb n='9'/>
+     ‎‏תל״ה לפ״ק‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Davids Turm‹,
+     <lb n='2'/>
+     ›der Stein Sochelet, "Schlangenstein"‹, errichtet auf
+     <lb n='3'/>
+     dem Weisen Kohelet, ›heilige Frucht‹,
+     <lb n='4'/>
+     ›sein Laub zum Nutzen‹, seine Werke
+     <lb n='5'/>
+     Treue, ›rein wie feinstes Mehl‹: Es ist
+     <lb n='6'/>
+     der Toragelehrte Jehuda David, Sohn des
+     <lb n='7'/>
+     Mosche, sein Andenken zum Segen, verschieden und begraben
+     <lb n='8'/>
+     Tag 2, 5. Nissan des Jahres
+     <lb n='9'/>
+     435 der kleinen Zählung.
+     <lb n='10'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: 2Sam 22,51; Hld 4,4; liturg.: Tischgebet</p>
+    <p>Zl 2: bSan 110a (zu 1Kön 1,9)</p>
+    <p>Zl 3: nach Lev 19,24</p>
+    <p>Zl 4: nach Ez 47,12</p>
+    <p>Zl 5: nach bKid 69b</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -let in Zln. 2-5 (Zln. 2-4 auf -elet).
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Der Bezug des Steines "Sochelet" zu König David (und damit dem Verstorbenen) ergibt sich aus einer Diskussion im Talmud (bSan 110a). In dieser Argumentation wird der Name des Steins (nach 1Kön 1,9) mit dem lautlich verwandten Wort für "schleichen, kriechen", hebräisch "sachal" (‎‏זחל‏‎), assoziiert und aus diesem Grund mit einer weiteren Bibelstelle (Dtn 32,24) in Verbindung gebracht. Es heißt dort: "Wer gegen das Königtum des Davidischen Hauses Streit führt, verdient, daß eine Schlange ihn beiße, denn [bei diesem] heißt es: und Adonija schlachtete Schafe, Rinder und Mastkälber beim Schlangenstein [1Kön 1,9], und dort heißt es: samt dem Gifte der im Staube schleichenden [Schlangen] [Dtn 32,24]." (nach Goldschmidt)</p>
+    <p>Zl 5: ‎‏סלת‏‎, fein gemahlenes Mehl, war Bestandteil der täglich im Tempel dargebrachten Opfer (vgl. Lev 2,4, Num 6,15 und bKid 69b).</p>
+    <p>Zln 3/4: Das Bild der "heiligen Frucht" (Zl 3), bezogen auf den in Tora und Halacha bewanderten Verstorbenen, beinhaltet zweierlei: Zunächst bezeichnet "heilige Frucht" eigentlich die als Dankesgabe dem Tempel geweihten Früchte (vgl. Lev 19,24). Der Verstorbene erscheint vor diesem Hintergrund selbst als eine "heilige Frucht", d.h. eine Person, die aufgrund ihrer Gelehrtheit eine besondere Weihe oder Heiligkeit erlangt hat, die ihn würdig macht, im Tempel zu erscheinen. Darüber hinaus trägt umgekehrt auch sein Wirken oder Lehren Frucht, was sich deutlich beschrieben in Zl 4 findet, wo es heißt, daß "sein Laub zum Nutzen" ist. Die Inschrift ist hier vermutlich inspiriert von dem in Ez 47,12 beschriebenen Baum, der, gespeist von den Wassern des Tempels, durch seine Frucht und sein Laub Segen spendet: "denn sein Wasser strömt aus dem Heiligtum, und seine Frucht wird Nahrung sein und sein Laub Heilung."</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

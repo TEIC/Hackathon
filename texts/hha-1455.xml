@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Röschen bat Kalman Rothschild ∞ Mosche Fürst, gest. 1710-10-11, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1455</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1455</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1455</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1710-10-11'>1710-10-11</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EO</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1317</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1455-1" sex='2'>
+      <persName>Röschen bat Kalman Rothschild ∞ Mosche Fürst</persName>
+       <event when='1710-10-11' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1455_EO_0110120227.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-12'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000162.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשה אשר‏‎
+‏‎     <lb n='3'/>
+     ‎‏ראוי לספר בשבחה ׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏ישבה ביתה בטוחה ׃‏‎
+‏‎     <lb n='5'/>
+     ‎‏זהרה לב בעלה נכן׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏כי בה מצא מנוחה‏‎
+‏‎     <lb n='7'/>
+     ‎‏נח נפשה עלה רוחה ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏ה׳ הצנועה מ׳ ריזכן ׃‏‎
+‏‎     <lb n='9'/>
+     ‎‏בת קלמן רוטשילד אשת‏‎
+‏‎     <lb n='10'/>
+     ‎‏כ׳ משה פערשט ש׳ נפטרה‏‎
+‏‎     <lb n='11'/>
+     ‎‏יו׳ ש״ק י״ז תשרי ונקברה יו׳‏‎
+‏‎     <lb n='12'/>
+     ‎‏א׳ ח״י בו תע״א לפ״ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     eine Frau,
+     <lb n='3'/>
+     der es gebührt, dass ihr Lob man erzähle,
+     <lb n='4'/>
+     sie saß zu Hause in Sicherheit,
+     <lb n='5'/>
+     ihrem Glanz war des Gatten Herz zugeneigt,
+     <lb n='6'/>
+     denn bei ihr kam er zur Ruhe.
+     <lb n='7'/>
+     Nun ruht ihre Seele, ihr Geist steigt hinan,
+     <lb n='8'/>
+     die züchtige Frau Röschen,
+     <lb n='9'/>
+     Tochter des Kalman Rothschild, Gattin
+     <lb n='10'/>
+     des geehrten Mosche Fürst, er möge leben, verschieden
+     <lb n='11'/>
+     am Tage des heiligen Schabbat, 17. Tischri und begraben Tag
+     <lb n='12'/>
+     1, 18. desselben, 471 der kleinen Zählung. Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>Verseulogie: sechszeiliges Namensgedicht mit Reim aabaab und Akrostichon; dreihebige Verse</p>
+    <p>
+     <label>Reim</label>
+      auf -cha und -che(a)n in Zln 3-8 (den Namen einschließend).
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3-7: ‎‏ריזכן‏‎ Röschen
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Hausfrau: Ganz anders als seine zahlreichen Porträts energischer Geschäftsfrauen stattet der Dichter die Persönlichkeit von Röschen Fürst, einer geborenen Rothschild, mit frühbürgerlichen Zügen aus, indem er sie als müßigen, ruhenden und liebenden Gegenpol ihrem außer Haus tätigen Gatten an die Seite stellt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

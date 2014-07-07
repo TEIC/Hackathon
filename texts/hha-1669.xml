@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jechiel ben Salman Wallich, gest. 1789-04-10, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1669</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1669</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1669</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,600 x 0,950 x 0,140 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht (obere rechte Ecke fehlt)
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1789-04-10'>1789-04-10</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FE</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3036</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1669-1" sex='1'>
+      <persName>Jechiel ben Salman Wallich</persName>
+       <event when='1789-04-10' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1669_FE_0110160219.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/546--33a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000413.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏מצבת אב]ן מעשה הבונים בית‏‎
+‏‎     <lb n='2'/>
+     ‎‏המדרש‏‎
+‏‎     <lb n='3'/>
+     ‎‏לפ״ק‏‎
+‏‎     <lb n='4'/>
+     ‎‏ידיד ה׳ בעיני אלקים ואדם יקר‏‎
+‏‎     <lb n='5'/>
+     ‎‏חיאל בנה בית האל לדרש הוא עיקר‏‎
+‏‎     <lb n='6'/>
+     ‎‏יום יום לשקוד על דלתותיו ותלמודו בידו‏‎
+‏‎     <lb n='7'/>
+     ‎‏אלוף בינה לעתים מוקיר רבנן בכל מאודו‏‎
+‏‎     <lb n='8'/>
+     ‎‏יפה נוף בצילו צל חכמה צל הכסף‏‎
+‏‎     <lb n='9'/>
+     ‎‏חובשי בית המדרש להספיקם לא יסף‏‎
+‏‎     <lb n='10'/>
+     ‎‏יעץ נדיבות והוא על נדיבות מפזר ונוסף‏‎
+‏‎     <lb n='11'/>
+     ‎‏אביר הגביר הי׳ לאחיו נשיא לכל ראש‏‎
+‏‎     <lb n='12'/>
+     ‎‏למד צדק צדק רדף משכיל אל דל ורש‏‎
+‏‎     <lb n='13'/>
+     ‎‏בר אוריין לפלפל בחכמה כצורבא מרבנן‏‎
+‏‎     <lb n='14'/>
+     ‎‏שלמה משנתו לחדש דבר ביומ׳ טבא לרבנן‏‎
+‏‎     <lb n='15'/>
+     ‎‏ה״ה הנגיד והטפסור פו״מ התורני והרבני מהו״ר׳‏‎
+‏‎     <lb n='16'/>
+     ‎‏יחיאל בן המנהיג כ״ה זלמן וואלך ז״ל אשר נפשו‏‎
+‏‎     <lb n='17'/>
+     ‎‏יצאה במקרה טהור ע״פ סמוך למנחה הלך‏‎
+‏‎     <lb n='18'/>
+     ‎‏למנוחה בבואו מבית הטבילה אל ה׳ אלקי׳ עלה‏‎
+‏‎     <lb n='19'/>
+     ‎‏ושב לעפרו בי״ט שני של פסח שנת‏‎
+‏‎     <lb n='20'/>
+     ‎‏הבא אל מנוחתו לפ״ק‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Ein Grabstein - Tat der Bauleute des
+     <lb n='2'/>
+     Lehrhauses‹
+     <lb n='3'/>
+     der kleinen Zählung.
+     <lb n='4'/>
+     ›Geliebter des Ewigen‹, ›in den Augen Gottes und der Menschen‹ teuer,
+     <lb n='5'/>
+     Chiel baute das Haus Gottes zum Forschen, welches die Hauptsache ist,
+     <lb n='6'/>
+     Tag für Tag zu wachen an seinen Toren, sein Gelerntes in seiner Hand.
+     <lb n='7'/>
+     ›Ein Meister, der die Kunde der Zeiten (wußte)‹, der unsere Gelehrten ehrte mit all seiner Kraft,
+     <lb n='8'/>
+     ›Wohlgestalt‹, überschattend mit Weisheit, Abglanz von Silber,
+     <lb n='9'/>
+     ›die, die mit dem Lehrhaus verbunden sind‹ zu fördern ward er nie müde.
+     <lb n='10'/>
+     ›Als Ratgeber großzügig, und großzügig Gaben‹ streuend und mehrend,
+     <lb n='11'/>
+     ein Held, ein Vornehmer war er seinen Brüdern, Fürst jeden Hauptes,
+     <lb n='12'/>
+     Gerechtigkeit lehrend, nach Gerechtigkeit jagte er, ›zugetan dem Darbenden‹, dem Elenden,
+     <lb n='13'/>
+     Kenner der Schriften, in Weisheit argumentierend wie ›einer, erfaßt von den Flammen der Gelehrten‹.
+     <lb n='14'/>
+     Vollkommen (Schlomo) seine Lehre, Neues vortragend am Festtag den Gelehrten
+     <lb n='15'/>
+     Es ist der Fürst und Edle, Vorsteher und Leiter, Toragelehrte und rabbinisch Gebildete, unser Lehrer, der Meister, Herr
+     <lb n='16'/>
+     Jechiel, Sohn des Leiters, des geehrten Herrn Salman Wallich, sein Andenken zum Segen. Seine Seele
+     <lb n='17'/>
+     ging hinaus in Reinheit am Rüsttag von Pessach kurz vor dem Abendgebet; er ging hin
+     <lb n='18'/>
+     zur Ruhe als er vom Tauchbad zurückkam. Zum Ewigen (unser) Gott gestiegen
+     <lb n='19'/>
+     und kehrte zu seinem Staube zurück am zweiten Feiertag von Pessach des Jahres
+     <lb n='20'/>
+     'der zu seiner Ruhe gelangt' nach kleiner Zählung
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1f: nach Ps 118,22</p>
+    <p>Zl 4: ARN 43 | Zl 4: Spr 3,4</p>
+    <p>Zl 7: nach 1Chr 12,33</p>
+    <p>Zl 8: Ps 48,3</p>
+    <p>Zl 9: bChag 14a</p>
+    <p>Zl 10: Jes 32,8</p>
+    <p>Zl 12: Ps 41,2</p>
+    <p>Zl 13: bMeg 28b</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -akar in Zln 4,5, -ado in Zln 6,7, -ssef in Zln 8-10, -ra(o)sch in Zln 11,12 und -rabanan in Zln 13,14.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      in Zeile 2 ‎‏המדרש‏‎ und Zeile 20 ‎‏הבא אל מנוחתו‏‎, die jeweils in der Addition aller Buchstaben das Todesjahr 549 ergeben.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 4-14: ‎‏יחיאל יחיאל בר שלמה‏‎ Jechiel Jechiel Sohn des Schlomo
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Das vielköpfige rabbinische Gelehrtenmilieu der Dreigemeinde verdankte seine Entstehung vor allem der finanziellen Förderung durch großzügige Geschäftsleute, die dadurch mittelbar das jüdisch-religiöse Studiengebot zu erfüllen hofften. Jechiel Salman Wallich, der Namhafteste dieser Mäzene, stammte aus einer der Gründerfamilien der Gemeinde, war ein Schüler der Talmudakademie des umkämpften Oberrabbiners Jonathan Eibeschütz und zählte mitsamt seiner einflussreichen Familie zu dessen treuesten Verteidigern. Als mecklenburgischer Hofjuwelier gelangte er zu Vermögen, war über lange Jahre Gemeindevorsteher und wurde von König Christian VII. in Audienz empfangen. Er förderte die Talmudstudierenden und gründete schließlich eine eigene "Klaus" (Lehrhausstiftung), welche die Grabinschrift mit dem Tempelbau Salomos vergleicht. Da er selbst rabbinisch gebildet war und zeitlebens dem Studium oblag, vermochte er "gleich einem Rabbinerschüler" in talmudischen Fragen mitzudisputieren. Er fand seine Ruhestätte zu Füßen seines Meisters.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

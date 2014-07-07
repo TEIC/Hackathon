@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Ester bat Löb Spanier ∞ Issachar KaZ, gest. 1755-04-04, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2134</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2134</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2134</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer in zwei Teile zerbrochen 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Hand aus Wolke</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1755-04-04'>1755-04-04</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FK</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>CII 420</geo>
+          <geo decls='Feld Grabnummer'> n 5516</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2134-1" sex='2'>
+      <persName>Ester bat Löb Spanier ∞ Issachar KaZ</persName>
+       <event when='1755-04-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2134_FK_0408050121.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-05'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000471.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏אצבע‏‎
+‏‎     <lb n='2'/>
+     ‎‏מורה לכהן‏‎
+‏‎     <lb n='3'/>
+     ‎‏הקבור סמוך פה‏‎
+‏‎     <lb n='4'/>
+     ‎‏אסתיר אשתו זקנה ושבע ימי׳‏‎
+‏‎     <lb n='5'/>
+     ‎‏היתה יושבת באלמנות משמר׳‏‎
+‏‎     <lb n='6'/>
+     ‎‏למשמרת כ[הונת בעלה] להתחב׳‏‎
+‏‎     <lb n='7'/>
+     ‎‏עמו במצ[...בגן] עליון אשרי‏‎
+‏‎     <lb n='8'/>
+     ‎‏זקנותה ש[לא בייש׳ ילדותה] עובד׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏ה׳ בטהרה [(...זו תפ)]לה‏‎
+‏‎     <lb n='10'/>
+     ‎‏מקדמי ומ[ח(שכ)י ול...]שה ידה‏‎
+‏‎     <lb n='11'/>
+     ‎‏ליתן צדקה [...]ה מר׳‏‎
+‏‎     <lb n='12'/>
+     ‎‏אסתר [בת כ׳ ליב שפניר] אשת‏‎
+‏‎     <lb n='13'/>
+     ‎‏המ[... יששכר כ״ץ נפט׳] ונקב׳‏‎
+‏‎     <lb n='14'/>
+     ‎‏[‎‏יו׳ ו׳] אס׳ חג של פסח תקט״ו לפ״ק‏‎
+‏‎     <lb n='15'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Ein Finger
+     <lb n='2'/>
+     zeigt auf den Priester,
+     <lb n='3'/>
+     der hier nahebei begraben liegt,
+     <lb n='4'/>
+     verberge ich seine Gattin Ester, ›betagt und satt an Tagen‹,
+     <lb n='5'/>
+     in ihrer Witwenschaft saß sie auf der Wacht
+     <lb n='6'/>
+     der Wacht der Priesterschaft ihres Gatten, um sich ihm
+     <lb n='7'/>
+     anzuschließen im .. ›im obersten Garten, wohl
+     <lb n='8'/>
+     ihrem Alter , das ihre Jugend nicht beschämte, sie diente
+     <lb n='9'/>
+     dem Ewigen in Reinheit und .. das ist das Gebet,
+     <lb n='10'/>
+     frühmorgens und abends und ... ihre Hand,
+     <lb n='11'/>
+     um Almosen zu geben ..., Frau
+     <lb n='12'/>
+     Ester, Tochter des Löb Spanier, Gattin des
+     <lb n='13'/>
+     ... Issachar KaZ, verschieden und begraben
+     <lb n='14'/>
+     Tag 6, dem Nachfeiertag von Pessach 515 der kleinen Zählung.
+     <lb n='15'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Gen 35,29</p>
+    <p>Zl 7f: Vgl. bSuk 53a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Akrostichon</label>
+      in Zeile 4: ‎‏אסתר‏‎ Ester
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 4a: Wortspiel mit dem Namen Ester, hier durch doppelte Übersetzung ausgedrückt.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Inschrift und Symbol auf einander abgestimmt</p>
+    <p>Die histor. Aufnahme zeigt das Grabmal in situ jedoch bereits verwittert.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Bella bat Awraham Halle ∞ Mosche Oppenheim, gest. 1779-08-21, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-683</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-683</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-683</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1779-08-21'>1779-08-21</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>DE</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 2209</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-683-1" sex='2'>
+      <persName>Bella bat Awraham Halle ∞ Mosche Oppenheim</persName>
+       <event when='1779-08-21' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0683_DE_0109250107.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-09-25'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000556.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשה זקנה גבירתנית הצילה‏‎
+‏‎     <lb n='3'/>
+     ‎‏נפשה מיד שאול בתפל׳ ובכוונ׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏מה׳ שאל תבורך הי׳ מנשי׳ באוהל‏‎
+‏‎     <lb n='5'/>
+     ‎‏ה״ה הצנוע׳ מ׳ בילה בת פו״מ כ״ה‏‎
+‏‎     <lb n='6'/>
+     ‎‏אברהם האלי אשת הגובה כ״ה‏‎
+‏‎     <lb n='7'/>
+     ‎‏משה אופנהיים נפטר׳ בש״ק ט׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏אלול ונקבר׳ יום א׳ תקל״ט לפ״ק‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     eine betagte Frau, stattlich, ›sie errettete
+     <lb n='3'/>
+     ihre Seele aus der Macht der Unterwelt‹ mit Gebet und Andacht,
+     <lb n='4'/>
+     vom Ewigen erbeten, gesegnet sei sie unter den Frauen im Zelte,
+     <lb n='5'/>
+     es ist die Züchtige, Frau Bella, Tochter des Vorstehers und Leiters, des geehrten Herrn
+     <lb n='6'/>
+     Awraham Halle, Gattin des Kassenverwalters, des geehrten Herrn
+     <lb n='7'/>
+     Mosche Oppenheim, verschieden am heiligen Schabbat, 9.
+     <lb n='8'/>
+     Elul, und begraben (am) Tag 1, 539 der kleinen Zählung.
+     <lb n='9'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2f: vgl. Ps 89,49 u. 49,16</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -o(e)l in Zln 3,4.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2a: ‎‏גבירתנית‏‎ erheblich seltener als ‎‏גבירה‏‎, hier mit "Stattliche" wiedergegeben, möglich ist auch: die Herrin, die Mächtige.</p>
+    <p>Zl 2b/3a: Zu Ps 49,16 und 89,49: Dort ‎‏פדה‏‎, löst bzw. ‎‏מלט‏‎, entkommen läßt; hier ‎‏הצילה‏‎, retten, erretten, gebraucht; s. auch Nr. 1800 von 1792.</p>
+    <p>Zl 4b: Ri 5,24.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>
+     identische Eulogie bei Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hha-1712-t">hha-1712</ref>
+      von 1755.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

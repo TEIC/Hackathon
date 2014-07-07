@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für ... bat M... ∞ ... Celle, gest. 1849-03-10, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-4566</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-4566</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-4566</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben (VS); vertieft (RS: Deutsch)</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>gebrochener Baum</decoNote>
+       <decoNote type='ornament'>gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1849-03-10'>1849-03-10</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>LF</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 2476</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-4566-1" sex='2'>
+      <persName>... bat M... ∞ ... Celle</persName>
+       <event when='1849-03-10' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='93'>Hebrew</language>
+    <language ident='de' usage='6'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4566_LF_0307240318.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-07-24'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4566_LF_0408010129.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-01'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏[...]‎‏רך את מצבת‏‎
+‏‎      <lb n='2'/>
+      ‎‏[...]‎‏אשר פה טמונה‏‎
+‏‎      <lb n='3'/>
+      ‎‏יום חשך ואפילה יום צרה ומהומה ׃‏‎
+‏‎      <lb n='4'/>
+      ‎‏[...]‎‏ם זרחה שמשה בחצי ימיה ׃‏‎
+‏‎      <lb n='5'/>
+      ‎‏הוי ואבוי קראו אחרי׳ מלא קרוביה ׃‏‎
+‏‎      <lb n='6'/>
+      ‎‏ונהפך מחר [.]ל ש[...]ה לאבל ובכיה׃‏‎
+‏‎      <lb n='7'/>
+      ‎‏כי בא המות בחרי אף ונרה נכבה ׃‏‎
+‏‎      <lb n='8'/>
+      ‎‏הטובה [.]ש[...] הנאה במעשיה ׃‏‎
+‏‎      <lb n='9'/>
+      ‎‏נשמתה הט[...]אה והלכה לעולמה ׃‏‎
+‏‎      <lb n='10'/>
+      ‎‏להמליץ [...]רה לפני בעלה ושני בניה׃‏‎
+‏‎      <lb n='11'/>
+      ‎‏המת... על פריד...‏‎
+‏‎      <lb n='12'/>
+      ‎‏מנוחתה [...] על משכב[...]‏‎
+‏‎      <lb n='13'/>
+      ‎‏[...] ‎‏שוכני עפר‏‎
+‏‎      <lb n='14'/>
+      ‎‏חד[...]ת כ׳ מ[...]״ל‏‎
+‏‎      <lb n='15'/>
+      ‎‏אש[ת ...] צעל יצ״ו‏‎
+‏‎      <lb n='16'/>
+      ‎‏נפט׳ [...] תק[...]‏‎
+‏‎      <lb n='17'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='18'/>
+      [...] te Heymann
+      <lb n='19'/>
+      geb. Magnus.
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ... ›das Steinmal‹,
+      <lb n='2'/>
+      ... welche hier geborgen ist,
+      <lb n='3'/>
+      ›ein Tag der Finstrnis und der Dunkelheit‹, ein Tag der Not und der Verwirrung, 
+      <lb n='4'/>
+      ... schien die Sonne ›zur Hälfte ihrer Tage‹,
+      <lb n='5'/>
+      ach und weh riefen ihr nach die Menge ihrer Bekannten,
+      <lb n='6'/>
+      und es verkehrte sich ... zur Trauer und zum weinen,
+      <lb n='7'/>
+      denn mit Zornglut kam der Tod und ihr Licht erlosch,
+      <lb n='8'/>
+      die Gute ... die liebliche in ihren Taten,
+      <lb n='9'/>
+      ihre ... Seele ›und sie ging hin in ihre Welt‹ 
+      <lb n='10'/>
+      um fürzusprechen [...]rh für ihren Gatten und ihre beiden Kinder,
+      <lb n='11'/>
+      die trauern (?) um ihren Weggang (?),
+      <lb n='12'/>
+      ihre Ruhestätte ... auf ihren Lager ...
+      <lb n='13'/>
+      ... ›Bewohner des Staubes‹
+      <lb n='14'/>
+      ... Tochter des geehrten M..., sein Andenken zum Segen,
+      <lb n='15'/>
+      Gattin des ... Celle, sein ›Fels und Erlöser‹ behüte ihn,
+      <lb n='16'/>
+      verschieden ... 5...
+      <lb n='17'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 35,14</p>
+    <p>Zl 3: Joel 2,2</p>
+    <p>Zl 4: Jer 17,11</p>
+    <p>Zl 9: Koh 12,5</p>
+    <p>Zl 13: Jes 26,19</p>
+    <p>Zl 15: Ps 19,15</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

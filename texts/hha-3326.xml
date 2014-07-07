@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schönchen bat Elijahu Kohen ∞ Pinchas Seligman Norden, gest. 1676-09-21, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3326</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3326</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3326</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer liegend Beschädigung mittel
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1676-09-21'>1676-09-21</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GO</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 863</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3326-1" sex='2'>
+      <persName>Schönchen bat Elijahu Kohen ∞ Pinchas Seligman Norden</persName>
+       <event when='1676-09-21' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3326_GO_0204230510.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3326_GO_0408050106.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-05'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000305.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000125.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה טמונה אשה‏‎
+‏‎     <lb n='2'/>
+     ‎‏הגונה ׃ שמה יפה ׃ נאה‏‎
+‏‎     <lb n='3'/>
+     ‎‏כבודה ׃ יפה נאה ׃ יפה‏‎
+‏‎     <lb n='4'/>
+     ‎‏במעשיה ׃ מר׳ שינכין‏‎
+‏‎     <lb n='5'/>
+     ‎‏בת פ״ו כמ׳ אלי׳ כהן‏‎
+‏‎     <lb n='6'/>
+     ‎‏ז״ל אשת המנהיג כה״ר‏‎
+‏‎     <lb n='7'/>
+     ‎‏פנחס זעליקמן נאר‏‎
+‏‎     <lb n='8'/>
+     ‎‏דן נפטרת לעולמה‏‎
+‏‎     <lb n='9'/>
+     ‎‏בשם טוב ליל ב׳ חג‏‎
+‏‎     <lb n='10'/>
+     ‎‏הסוכות ונקברת ביום‏‎
+‏‎     <lb n='11'/>
+     ‎‏ג׳ יו׳ א׳ דחג הסוכו׳ שנ׳‏‎
+‏‎     <lb n='12'/>
+     ‎‏תזל עיני מים לפ״ק‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנצב״ה עשצ״ו שבג״ע א׳‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen eine würdige
+     <lb n='2'/>
+     Frau, schön ist ihr Name, stattlich
+     <lb n='3'/>
+     ihre Würde, eine Schöne, eine Stattliche, schön
+     <lb n='4'/>
+     sind ihre Taten, Frau Schönchen,
+     <lb n='5'/>
+     Tochter des Vorstehers und Leiters, des geehrten Herrn Elijahu Kohen,
+     <lb n='6'/>
+     sein Andenken zum Segen, Gattin des Leiters, des geehrten Herrn
+     <lb n='7'/>
+     Pinchas Seligman Nor-
+     <lb n='8'/>
+     den, verschieden in ihre Welt
+     <lb n='9'/>
+     ›mit gutem Namen‹ in der Nacht 2, (am) Laub-
+     <lb n='10'/>
+     hüttenfest und begraben am Tag
+     <lb n='11'/>
+     3, 1. Tag des Laubhüttenfestes des Jahres
+     <lb n='12'/>
+     "Aus Meinem Auge Strömet Wasser" (437) der kleinen Zählung.
+     <lb n='13'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens mit den übrigen gerechten Männern und Frauen, die im Garten Eden, Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 9: bBer 17a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -nah in Zln. 1,2.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      mit der Jahreszahl 437 in Zl 12.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-3: ‎‏שינכיני‏‎ Schöncheni
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 2/3: ‎‏יפה‏‎, hebräisch: schön, die Schöne weist mehrfach auf den Namen und liefert gleichzeitig die für das Akrostichon benötigten Buchstaben.</p>
+    <p>Zl 7: ‎‏זעליקמן‏‎, etwa selikmam, ist eine ältere Schreibweise von Seligman.</p>
+    <p>Zln 7/8: Der Zuname ist zeilenübergreifend geschrieben.</p>
+    <p>Zl 12: Kein wörtliches Zitat, vgl. Jer 9,17 dem das Chronogramm nahe kommt; oder nach Klg 1,16; 3,48.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal vollständig.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

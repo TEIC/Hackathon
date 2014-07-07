@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Eljakum ben Josef (Jakob Dahl), gest. 1888-08-19, Jüdischer Friedhof Dormagen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e03-19</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-19</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-19</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <objectType>Stele</objectType>
+          Kleines, sich nach oben verjüngendes Grabmal aus Scheinmauerwerk mit Flachbogenabschluss und eingesetzter Schrifttafel (Vgl. auch das Grabmal der Gattin).
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1985</date>
+           
+          <damage agent='Verwitterung'>Verwitterung leicht.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1888-08-19'>1888-08-19</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038848'>
+        Dormagen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.100669 6.834092</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e03-19-1" sex='1'>
+      <persName>Eljakum ben Josef (Jakob Dahl)</persName>
+       <event when='1888-08-19' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='57'>Hebrew</language>
+    <language ident='de' usage='42'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0019_E03_070719EPS4046hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e03.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2014-03-19T21:35:21'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש עניו בכל עניניו‏‎
+‏‎     <lb n='3'/>
+     ‎‏צדיק דול? בכל דרכיו‏‎
+‏‎     <lb n='4'/>
+     ‎‏וחסיד בכל מעשיו‏‎
+‏‎     <lb n='5'/>
+     ‎‏אליקום בר יוסף‏‎
+‏‎     <lb n='6'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='7'/>
+     Hier ruhet
+     <lb n='8'/>
+     Jakob Dahl
+     <lb n='9'/>
+     geb. 10. Sept. 1845
+     <lb n='10'/>
+     gest. 19. August 1888.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein Mann, demutsvoll in all seinen Belangen,
+     <lb n='3'/>
+     ›gerecht ... in all seinen Wegen‹ 
+     <lb n='4'/>
+     ›und fromm in all seinen Taten‹ ,
+     <lb n='5'/>
+     Eljakum, Sohn des Josef.
+     <lb n='6'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Ps 145,17</p>
+    <p>Zl 4: Ps 145,17</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -av in Zln 2-4.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3: Das dritte Wort der Zeile ist unklar (und überflüssig), vermutlich handelt es sich um einen Fehler des Steinmetzen.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Jacob Dahl ist in einer Aufstellung der Wählerliste zur Neusser Synagogengemeinde aus dem Jahr 1872 als Metzger aufgeführt. 1871 werden in seinem Haushalt drei Personen gezählt. Verheiratet war Jacob Dahl mit der neben ihm ruhenden Emma (Esther) Meyer. Das Paar hatte acht Kinder:</p>
+    <p>Ein Sohn war der 1873 in Dormagen geborene Max Dahl, welcher 1941 gemeinsam mit seiner 1886 in Hackenbroich geborenen Gattin Sophie geb. Hertz (auch "geb. Meyer") und seinem 1916 geborenen Sohn Jacob von Düsseldorf nach Minsk verschleppt und ermordet wurde. Seine Tochter Selmy war rechtzeitig in die USA emigriert.</p>
+    <p>1878 wurde Jacobs Tochter Friederike geboren, sie wurde deportiert und starb 1942 im Ghetto Lodz.</p>
+    <p>
+     Der 1879 in Dormagen geborene Louis Dahl wurde 1941 nach Riga deportiert und dort 1944 erschossen, seine ebenfalls 1886 in Dormagen geborene Frau, Sophie geb. Katz, wurde gemeinsam mit ihm deportiert und starb im Lager Kaiserwald. Louis' und Sophies mit ihnen deportierte Tochter Emmi wurde 1944 von Riga ins KZ Stutthoff gebracht und Anfang 1945 bei der Auflösung des KZ von SS-Truppen bis nach Westpreußen verschleppt, wo sie schließlich im März 1945 von sowjetischen Soldaten befreit wurde. Emmis Schwestern Jenny und Hanni konnten rechtzeitig nach England bzw. über Belgien nach Chile emigrieren, ihr Bruder Jakob und seine aus Wickrath stammende Frau Irene geb. Harf wurden deportiert, konnten aber überleben und wurden auf diesem Friedhof bestattet (Grabstein Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=e03-0016-t">e03-0016</ref>
+     ).
+    </p>
+    <p>1885 wurde Jacobs Sohn David geboren, welcher den Beruf seines Vaters übernahm. Er war während des Krieges nach Köln gezogen und wurde von dort gemeinsam mit seiner 1886 in Neuss geborenen Frau Johanna, geb. Meyer, Tochter von Markus Meyer und Rosa Strauss, 1941 nach Litzmannstadt deportiert und schließlich in Auschwitz ermordet. David und Johanna Dahls 1912 in Dormagen geborener Sohn Kurt und dessen Gattin, die aus Nürnberg stammende Krankenschwester Liselotte Blank, wurde gemeinsam mit seinen Eltern 1941 nach Litzmanstadt deportiert und 1942 ermordet. David und Johannas Tochter Martha konnte nach England und später in die USA emigrieren.</p>
+    <p>Jakob und Esthers 1887 geborene Tochter Fanny war mit dem 1883 im niederländischen Wisch geborenen Milchkontrolleur Jacob Bamberg, Sohn von Ascher Bamberg und Antje geb. Pop, verheiratet, mit dem sie den 1913 in Kleve geborenen Sohn Jacob und eine Tochter hatte. Sie lebten zunächst in Kleve, hatten dann offensichtlich versucht, sich zu den Verwandten in die Niederlande zu retten, wurden aber 1942 von Westerbork mit ihrem Sohn Jacob nach Auschwitz deportiert und ermordet, ebenso wie Jakob Bambergs ledige, 1887 in Wisch geborene Schwester Caroline Bamberg, Jakob Bambergs 1885 in Wisch geborener Bruder Hermann starb in Sobibor.</p>
+    <p>Fannys 1883 geborene Schwester Johanna, eine verheiratete Katz, wurde 1942 nach Riga deportiert und ermordet.</p>
+    <p>Ihre Schwester Selma war bereits vor 1920 in die USA ausgewandert.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

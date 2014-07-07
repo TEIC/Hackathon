@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Binjamin Wolf ben Schlomo, gest. 1811-11-23, Pessel bat Hirsch Lellewer ∞ Binjamin Wolf, gest. 1812-04-05, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1319</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1319</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1319</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1811-11-23'>1811-11-23</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EM</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1429</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1319-1" sex='1'>
+      <persName>Binjamin Wolf ben Schlomo</persName>
+       <event when='1811-11-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="hha-1319-2" sex='2'>
+      <persName>Pessel bat Hirsch Lellewer ∞ Binjamin Wolf</persName>
+       <event when='1812-04-05' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1319_EM_0110120204.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-12'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000274.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏אור זרוע לצדיק // ולישרי לב שמחה‏‎
+‏‎     <lb n='2'/>
+     ‎‏שמחו צדיקים בה׳ // והודו לזכר קדשו‏‎
+‏‎     <lb n='3'/>
+     ‎‏פ״נ // פ״ט‏‎
+‏‎     <lb n='4'/>
+     ‎‏האי סבא קדישא // האשה החשובה‏‎
+‏‎     <lb n='5'/>
+     ‎‏חד מן יושבי בית // והצנועה מ׳ פעסיל‏‎
+‏‎     <lb n='6'/>
+     ‎‏המדרש גבא׳ דח״ק קברני׳ // בת כ״ה הירש לעלוויר‏‎
+‏‎     <lb n='7'/>
+     ‎‏מה״ו בנימין וואלף בן כ״ה // אשת המנוח מהור״[ר]‏‎
+‏‎     <lb n='8'/>
+     ‎‏שלמה זצ״ל נפטר ליל // בנימין וואלף זצ״ל‏‎
+‏‎     <lb n='9'/>
+     ‎‏מש״ק ונקבר למחרתו // נפטרת ונקברת ביו׳ א׳‏‎
+‏‎     <lb n='10'/>
+     ‎‏ביו׳ א׳ ח׳ כסליו // א״ח של פסח‏‎
+‏‎     <lb n='11'/>
+     ‎‏בשנת‏‎
+‏‎     <lb n='12'/>
+     ‎‏בנימין זאב יטרף בבקר יאכל עד לפ״ק‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Licht ist ausgesät dem Gerechten, // und denen, die redlichen Herzens Freude sind,
+     <lb n='2'/>
+     freut euch, ihr Gerechten in dem Ewigen, // und danket seinem heiligen Andenken
+     <lb n='3'/>
+     Hier ist begraben // Hier ist geborgen
+     <lb n='4'/>
+     dieser ... Betagter, // die Frau, die angesehene
+     <lb n='5'/>
+     einer derer, die im Lehrhaus // und Züchtige, Frau Pessel,
+     <lb n='6'/>
+     saßen, Vorsteher der chewra kaddischa der Totengräber, // Tochter des geehrten Herrn Hirsch Lellewer,
+     <lb n='7'/>
+     unser Lehrer, der Meister, Herr Binjamin Wolf, Sohn des geehrten Herrn // Gattin des Seligen, unseres Lehrers, des Meisters, Herrn
+     <lb n='8'/>
+     Schlomo, das Andenken des Gerechten zum Segen, verschieden in der Nacht // Binjamin Wolf, das Andenken des Gerechten zum Segen,
+     <lb n='9'/>
+     des Ausgangs des heiligen Schabbat und begraben am Tag darauf, // verschieden und begraben am Tag 1,
+     <lb n='10'/>
+     am Tag 1, 8. Kislev // Nachfeiertag von Pessach
+     <lb n='11'/>
+     des Jahres
+     <lb n='12'/>
+     Benjamin Ist Ein Wolf, Der Zerreißet, Am Morgen Ißt Er Bis der kleinen Zählung.
+     <lb n='13'/>
+     Ihre Seelen seien eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Chronogramm</label>
+      in Zln 12 mit dem Zahlenwert des gmeinsamen Todesjahr 572.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1/2: Ps 97,11/12.</p>
+    <p>Zl 12: Gen 49,27.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Zwija Rachel bat Efraim ∞ Jaabez, gest. 1803-12-04, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1587</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1587</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1587</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,040 x 0,420 x 0,140 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1803-12-04'>1803-12-04</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FD</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3083</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1587-1" sex='2'>
+      <persName>Zwija Rachel bat Efraim ∞ Jaabez</persName>
+       <event when='1803-12-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1587_FD_0110160126.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000461.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏מצבת קבורת רחל‏‎
+‏‎     <lb n='2'/>
+     ‎‏פה שוכנת‏‎
+‏‎     <lb n='3'/>
+     ‎‏צפירת תפארת חמדה‏‎
+‏‎     <lb n='4'/>
+     ‎‏לשאר משפחתה היתה‏‎
+‏‎     <lb n='5'/>
+     ‎‏בהיותה עזובה וגלמודה‏‎
+‏‎     <lb n='6'/>
+     ‎‏לא הסירה ממנה תמתה‏‎
+‏‎     <lb n='7'/>
+     ‎‏ידה לעני תשלחנה‏‎
+‏‎     <lb n='8'/>
+     ‎‏וימינה לתמך אביונים‏‎
+‏‎     <lb n='9'/>
+     ‎‏היתה כחבצלת גנה‏‎
+‏‎     <lb n='10'/>
+     ‎‏סוגה בשושנים‏‎
+‏‎     <lb n='11'/>
+     ‎‏היא הרבנית הצנועה‏‎
+‏‎     <lb n='12'/>
+     ‎‏המפורסמת צבי׳ רחל‏‎
+‏‎     <lb n='13'/>
+     ‎‏בת הגאון מו״ה אפרים זצ״ל‏‎
+‏‎     <lb n='14'/>
+     ‎‏ואשת הגאון מו״ה יעב״ץ‏‎
+‏‎     <lb n='15'/>
+     ‎‏זצ״ל נעדרת ליל ב׳ ונקברת‏‎
+‏‎     <lb n='16'/>
+     ‎‏יום ב׳ ך׳ כסליו תקס״ד לפ״ק‏‎
+‏‎     <lb n='17'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Das Grabmal der Rachel,
+     <lb n='2'/>
+     Hier ruht sie,
+     <lb n='3'/>
+     anmutiger, zierender Kranz
+     <lb n='4'/>
+     war sie ihrer nächsten Familie,
+     <lb n='5'/>
+     (auch) als sie verlassen und einsam war,
+     <lb n='6'/>
+     streifte sie ihre Lauterkeit nicht von ihr,
+     <lb n='7'/>
+     ihre Hand dem Armen ausgestreckt,
+     <lb n='8'/>
+     und ihre Rechte Bedürftige zu stützen,
+     <lb n='9'/>
+     der Garten Lilie gleicht sie,
+     <lb n='10'/>
+     mit Rosen umflort,
+     <lb n='11'/>
+     es ist die Rabbinersgattin, die Züchtige,
+     <lb n='12'/>
+     die Weitbekannte, Zwija Rachel,
+     <lb n='13'/>
+     Tochter des überragenden Gelehrten, unseres Lehrers und Meisters, Herrn Efraim, das Andenken des Gerechten zum Segen,
+     <lb n='14'/>
+     und Gattin des überragenden Gelehrten, unseres Lehrers und Meisters, Herrn Jaabez,
+     <lb n='15'/>
+     das Andenken des Gerechten zum Segen, entschwunden in der Nacht des 2. und begraben
+     <lb n='16'/>
+     Tag 2, 20. Kislev 564 der kleinen Zählung.
+     <lb n='17'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -dah in Zln 3,5; auf -tah in Zln 4,6; auf -nah in Zln 7,9; auf -nim in Zln 8,10.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3, 5, 7, 9: ‎‏צביה‏‎ Zwih
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Gen 35,20; Anspielung auf den zweiten Vornamen.</p>
+    <p>Zl 3a: Jes 28,5; in der Bedeutung von Kranz, Krone nur hier.</p>
+    <p>Zl 5: ‎‏גלמודה‏‎, einsam, Jes 49,21.</p>
+    <p>Zln 7/8: Vgl. Spr 31,20, zu Zl 8 vgl. auch Ps 63,9.</p>
+    <p>Zl 9: Vgl. Jes 35,1 und Hld 2,1; ‎‏גנה‏‎ des Reimes willens und nicht ‎‏גפה‏‎ wie bei Duckesz.</p>
+    <p>Zl 10: Hld 7,3.</p>
+    <p>Zl 14: ‎‏יעב״ץ‏‎, Jaabe"z, Jaakow, Sohn von Zwi ist ein Teil seines Namens, es wurde in religiösen Kreisen zum geläufigen Namen vom Rabbiner Jaakow Emden.</p>
+    <p>Zl 15: ‎‏נעדרת‏‎, vermißt, im übertragenem Sinn aus der ursprünglichen Bedeutung, die "fehlen", "ausbleiben" meint, z.B. 1Sam 30,19 oder Jes 40,26.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

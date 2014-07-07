@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Hendel bat Jaakow Altona ∞ Mosche Kohen, gest. 1678-03-02, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2327</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2327</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2327</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung mittel 
+          <damage agent='Verwitterung'>Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1678-03-02'>1678-03-02</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1152</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2327-1" sex='2'>
+      <persName>Hendel bat Jaakow Altona ∞ Mosche Kohen</persName>
+       <event when='1678-03-02' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2327_FN_0408030216.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-03'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000598.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏שאננות‏‎
+‏‎     <lb n='2'/>
+     ‎‏מקוננות כבנות‏‎
+‏‎     <lb n='3'/>
+     ‎‏יענה צאנה‏‎
+‏‎     <lb n='4'/>
+     ‎‏וראנה מצבת הציונה‏‎
+‏‎     <lb n='5'/>
+     ‎‏אבן יקרת והאבן‏‎
+‏‎     <lb n='6'/>
+     ‎‏פינה מי.ס[...]א׳‏‎
+‏‎     <lb n='7'/>
+     ‎‏לקברת אשה [(הגו)]נה׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏אשת הא׳ פ״ו כהר״ר‏‎
+‏‎     <lb n='9'/>
+     ‎‏משה כהן העדינה‏‎
+‏‎     <lb n='10'/>
+     ‎‏מרת הענדל בת פ״ו‏‎
+‏‎     <lb n='11'/>
+     ‎‏הר״ר יעקב אלטונה‏‎
+‏‎     <lb n='12'/>
+     ‎‏הלכה לעולמה נכח‏‎
+‏‎     <lb n='13'/>
+     ‎‏ה׳ דרכה ומלונה ׃‏‎
+‏‎     <lb n='14'/>
+     ‎‏במעלה העליונה‏‎
+‏‎     <lb n='15'/>
+     ‎‏במנוחה נכונה ׃ יום‏‎
+‏‎     <lb n='16'/>
+     ‎‏ד׳ ח׳ אדר הדרה וזיווה‏‎
+‏‎     <lb n='17'/>
+     ‎‏פנה ׃ בשנת תל״ח‏‎
+‏‎     <lb n='18'/>
+     ‎‏תנצב״ה ענאי״ו‏‎
+‏‎     <lb n='19'/>
+     ‎‏שרר״ו א״ס‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Gottvertrauende‹,
+     <lb n='2'/>
+     sie wehklagen ›wie die
+     <lb n='3'/>
+     Strauße‹, ›geht hinaus
+     <lb n='4'/>
+     und schaut‹ herzu das Grabzeichen,
+     <lb n='5'/>
+     ›ein edler Stein, ein Eck-
+     <lb n='6'/>
+     stein‹ ...
+     <lb n='7'/>
+     zu Grabe eine würdige Frau,
+     <lb n='8'/>
+     Gattin des Vornehmen, des Vorstehers und Leiters, des geehrten Meisters, Herrn
+     <lb n='9'/>
+     Mosche Kohen, die Zarte,
+     <lb n='10'/>
+     Frau Hendel, Tochter des Vorstehers und Leiters,
+     <lb n='11'/>
+     des Meisters, Herrn Jaakow Altona,
+     <lb n='12'/>
+     ›sie ging hin in ihre Welt‹, ›vor dem Angesichte
+     <lb n='13'/>
+     des Ewigen war ihr Weg‹ und ihre Wohnstatt,
+     <lb n='14'/>
+     in der höchsten der Höhen,
+     <lb n='15'/>
+     in rechter Ruhe, Tag
+     <lb n='16'/>
+     4, 8. Adar ›schwand ihre Pracht und
+     <lb n='17'/>
+     ihr Glanz‹ im Jahre 438.
+     <lb n='18'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens mit den Seelen von Awraham, Jizchak und Jaakow,
+     <lb n='19'/>
+     von Sara, Riwka, Rachel und Lea, Amen, Sela
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Jes 32,9 u. bBer 17a; Friedhofgebete, Gebet am Grab der Mutter</p>
+    <p>Zl 2f: Micha 1,8</p>
+    <p>Zl 3f: Hld 3,11</p>
+    <p>Zl 5f: nach Jes 28,16</p>
+    <p>Zl 12: Koh 12,5</p>
+    <p>Zl 12f: Ri 18,6</p>
+    <p>Zl 16f: BerR 68</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -not in Zln 1,2 und -na in Zln 3, 4, 6, 7, 9, 11, 13-17.
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal bereits in heutigem Zustand.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

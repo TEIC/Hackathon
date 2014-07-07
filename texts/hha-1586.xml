@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jaakow [Emden] Israel (genannt Jaabez) ben Zwi, gest. 1776-04-19, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1586</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1586</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1586</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,800 x 0,850 x 0,200 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1776-04-19'>1776-04-19</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FD</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3084</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1586-1" sex='1'>
+      <persName>Jaakow [Emden] Israel (genannt Jaabez) ben Zwi</persName>
+       <event when='1776-04-19' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1586_FD_0110160124.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000462.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏מצבת קבורת‏‎
+‏‎     <lb n='2'/>
+     ‎‏רבהון דיהודאי טוביינא דחכימאי‏‎
+‏‎     <lb n='3'/>
+     ‎‏ילל וקינה הלא נשמע במחנה העברים כי בערה‏‎
+‏‎     <lb n='4'/>
+     ‎‏בה אש תבערה‏‎
+‏‎     <lb n='5'/>
+     ‎‏עדי ותפארת מראשותה השלכו במות גבר חכם‏‎
+‏‎     <lb n='6'/>
+     ‎‏בעוז משיב מלחמה שערה‏‎
+‏‎     <lb n='7'/>
+     ‎‏קדוש וטהור מרחם משחר שם לילות כימים‏‎
+‏‎     <lb n='8'/>
+     ‎‏בתורת ה׳ ערוכה ושמורה‏‎
+‏‎     <lb n='9'/>
+     ‎‏בחבוריו הקדושים ספיר גזרתם הפיץ כנפות אורו‏‎
+‏‎     <lb n='10'/>
+     ‎‏בנסתר ובנגלה הלכה ברורה‏‎
+‏‎     <lb n='11'/>
+     ‎‏יראת ה׳ ותוכחת מוסר וכל תעלומות חכמה‏‎
+‏‎     <lb n='12'/>
+     ‎‏בהם הוציא לאורה‏‎
+‏‎     <lb n='13'/>
+     ‎‏שר גדול נפל בישראל הלא תדעו כי לקח ארון‏‎
+‏‎     <lb n='14'/>
+     ‎‏מעל ראשנו והוסר מסכת אבן יקרה‏‎
+‏‎     <lb n='15'/>
+     ‎‏רובי תורתו וחכמתו כתובים וגנוזים עדיין בבית‏‎
+‏‎     <lb n='16'/>
+     ‎‏מדרשו תופע עליו נהרה‏‎
+‏‎     <lb n='17'/>
+     ‎‏אביר הרועים ומופלא שבסנהדרין יום הלקחו‏‎
+‏‎     <lb n='18'/>
+     ‎‏בא השמש וכבתה מנורה הטהורה‏‎
+‏‎     <lb n='19'/>
+     ‎‏לו יאות למבכי ולמעבד הספדא על כי הומה‏‎
+‏‎     <lb n='20'/>
+     ‎‏היה לבו ביום זעם ועברה צרה כמבכירה‏‎
+‏‎     <lb n='21'/>
+     ‎‏ה״ה הגאון הגדול המפורסם בקי בכל חדרי תורה‏‎
+‏‎     <lb n='22'/>
+     ‎‏בנגלה ובנסתר ובכל החכמות כל רז לא אנס לי׳ כבוד‏‎
+‏‎     <lb n='23'/>
+     ‎‏מורנו הרב מוהר״ר יעקב ישראל נקרא יעב״ץ זצלה״ה‏‎
+‏‎     <lb n='24'/>
+     ‎‏אב״ד דק״ק עמדין יע״א בן לאותו צדיק הגאון‏‎
+‏‎     <lb n='25'/>
+     ‎‏הגדול החסיד המפורסם חכם הכולל אדמ״ו הרב‏‎
+‏‎     <lb n='26'/>
+     ‎‏מוהר״ר צבי נקרא חכם צבי זצ״ל לה״ה אב״ד דג״ק‏‎
+‏‎     <lb n='27'/>
+     ‎‏אה״ו יע״א נשמתו יצאה בקדושה ביום ו׳ עש״ק‏‎
+‏‎     <lb n='28'/>
+     ‎‏א׳ דר״ח אייר תקל״ו לפ״ק וגופו נקבר בו ביום סמוך‏‎
+‏‎     <lb n='29'/>
+     ‎‏לכניסת ש״ק נצב״ה תחת כנפי השכינה כזהר‏‎
+‏‎     <lb n='30'/>
+     ‎‏הרקיע מזהירה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Grabmal‹ 
+     <lb n='2'/>
+     ›des Meisters der Juden‹, des besten unter den Weisen.
+     <lb n='3'/>
+     Jammer und Wehklage ward gehört im Lager der Hebräer, denn (es) brannte
+     <lb n='4'/>
+     dort eine Feuerbrunst,
+     <lb n='5'/>
+     Schmuck und Pracht wurden vom Haupte geworfen beim Tode des weisen Mannes.
+     <lb n='6'/>
+     ›Mit Kraft führte er den Krieg zurück bis zum Tore‹ .
+     <lb n='7'/>
+     ›Heilig und rein vom Mutterleibe, von der Morgenröte an‹ machte er Nächte zu Tagen
+     <lb n='8'/>
+     in der Tora des Ewigen, geordnet und bewahrt,
+     <lb n='9'/>
+     in seinen heiligen Werken, ›ein Saphir an Gestalt‹ verbreitete er sein Licht in die Weltgegenden,
+     <lb n='10'/>
+     im geheimen, wie im offenbaren (Lehrstoff), ›klare Regel‹,
+     <lb n='11'/>
+     die Ehrfurcht des Ewigen und ›moralische Rüge‹ und alle ›Geheimnisse der Weisheit‹,
+     <lb n='12'/>
+     die brachte er ans Licht.
+     <lb n='13'/>
+     ›Ein großer Fürst in Israel ist gefallen‹, wisst ihr nicht, daß ›die Lade weggenommen worden ist‹
+     <lb n='14'/>
+     von unserem Kopfe und ein teures (Edel-)Steingewebe (uns) entrissen?
+     <lb n='15'/>
+     Der Großteil seiner Lehre und seiner Weisheit ist geschrieben und noch verwahrt in seinem
+     <lb n='16'/>
+     Lehrhaus, ›möge das Frühlicht es bescheinen‹ .
+     <lb n='17'/>
+     ›Der Edle unter den Hirten‹ und Wundervolle im Gerichtskollegium, am Tage, da er weggenommen wurde,
+     <lb n='18'/>
+     ›ging die Sonne unter‹ und ›die reine Leuchte‹ erlosch.
+     <lb n='19'/>
+     Würdig ist er, daß man ihn beweint, ihm Totenklage darbringt, denn wallend
+     <lb n='20'/>
+     war sein Herz ›am Tag des Zorns, und es verging das Angstgeschrei wie von einer Erstgebärenden‹ . 
+     <lb n='21'/>
+     Es ist der große, überragende Gelehrte, kundig in allen Kammern der Tora,
+     <lb n='22'/>
+     im offenbaren wie im geheimen (Lehrstoff) und in allen Wissenschaften, ›dem kein Geheimnis verhüllt (war)‹ , unser geehrter
+     <lb n='23'/>
+     Lehrer und Meister, Herr Jaakow 
+     <supplied reason='subaudible'>Emden</supplied>
+      Israel, genannt Jaabez, das Andenken des Gerechten zum Segen für das Leben in der künftigen Welt,
+     <lb n='24'/>
+     Vorsitzender der Gerichtsbarkeit der heiligen Gemeinde Emden, der Ewige befestige sie, Amen, Sohn jenes Gerechten, des überragend großen Gelehrten,
+     <lb n='25'/>
+     des weitbekannten Frommen, des umfassend Weisen, unseres Herrn, unseres Lehrers und Meisters, des Rabbiners,
+     <lb n='26'/>
+     unseres Lehrers und Meisters, Herrn Zwi, genannt Chacham Zwi, das Andenken des Gerechten zum Segen, für das Leben in der künftigen Welt, Vorsitzender der Gerichtsbarkeit der 3 Gemeinden,
+     <lb n='27'/>
+     Altona, Hamburg, Wandsbek, der Ewige befestige sie, Amen. Seine Seele ging aus in Heiligkeit am Tag 6, Rüsttag des heiligen Schabbat,
+     <lb n='28'/>
+     1. Neumondstag Ijar 536 der kleinen Zählung, und sein Leib ward begraben am selben Tag kurz vor
+     <lb n='29'/>
+     Schabbateintritt. Seine Seele sei eingebunden in das Bündel des Lebens ›unter den Fittichen der Einwohnung‹ , ›wie der Glanz
+     <lb n='30'/>
+     des Firmaments glänzend‹ 
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 38,20</p>
+    <p>Zl 2: jSan II 20d</p>
+    <p>Zl 6: Jes 28,6</p>
+    <p>Zl 7: nach Ps 110,3</p>
+    <p>Zl 9: Klgl 4,7</p>
+    <p>Zl 10: bSan 139a</p>
+    <p>Zl 11: Spr 6,23 | Zl 11: Ijob 11,6</p>
+    <p>Zl 13: nach 2Sam 3,38 | Zl 13: nach 1Sam 4,11</p>
+    <p>Zl 16: Ijob 3,4</p>
+    <p>Zl 17: 1Sam 21,8</p>
+    <p>Zl 18: nach Ex 17,12 | Zl 18: Lev 24,4</p>
+    <p>Zl 20: Ez 22,24, Jer 4,31 und Ps 78,49</p>
+    <p>Zl 22: nach Dan 4,6</p>
+    <p>Zl 29: liturg.: Totengebet</p>
+    <p>Zl 29f: nach Dan 12,3</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rah in Zln 4,6,8,10,12,14,16,18,20,21,30.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3, 5, 7, 9, 11, 13, 15, 17, 19: ‎‏יעקב ישראל‏‎ Jaakow Israel
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der berühmteste Privatgelehrte in der jüdischen Geschichte der Elbstädte war der Kaufmann und Buchdrucker Jakob Emden, genannt "Jaabetz", der mit seinem Ansehen, Ehrgeiz und aufbrausenden Temperament 1751 den "Amulettenstreit" mit dem Oberrabbiner Jonathan Eibeschütz entfesselte. 1696 in Altona geboren, hatte er zwei Oberrabbiner der Dreigemeinde zu seinen Vorfahren: Sein Vater war Zwi Aschkenasi, genannt "Chacham Zwi" und sein Großvater mütterlicherseits Salman Neumark-Mirels. Nach seinem Studium in Mähren und einer kurzen Tätigkeit als Rabbiner in Emden, die ihm den Zunamen gab, kehrte er 1733 nach Altona zurück. Als Autor von Kommentaren und Rechtsentscheiden hoch angesehen, stand Emden gleichwohl außerhalb der offiziellen rabbinischen Führung der Dreigemeinde: Die Inschrift sucht den Widerspruch zwischen Rang und Amt aufzulösen, indem sie Emden die erfundenen Titel "Rabbiner aller Juden" und "Bester der Gelehrten" zulegt und ihn der Reihe nach als Polemiker, Buchautor, Rechtsgutachter, Kabbalisten, Moralisten und Kenner der Wissenschaften präsentiert.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

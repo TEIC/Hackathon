@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Awraham Izek ben Seligman Kohen, gest. 1791-02-13, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1676</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1676</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1676</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1791-02-13'>1791-02-13</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FE</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 2994</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1676-1" sex='1'>
+      <persName>Awraham Izek ben Seligman Kohen</persName>
+       <event when='1791-02-13' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1676_FE_0110140124.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-14'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000367.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏והוא כהן לא״ע‏‎
+‏‎     <lb n='2'/>
+     ‎‏ויצא יצחק לשוח‏‎
+‏‎     <lb n='3'/>
+     ‎‏בשדה‏‎
+‏‎     <lb n='4'/>
+     ‎‏אנשי השכבים? וגם העב|צּרים‏‎
+‏‎     <lb n='5'/>
+     ‎‏ישאו קינה על נפש יק|רים‏‎
+‏‎     <lb n='6'/>
+     ‎‏צדיק וחסיד מעשיו יש|רים‏‎
+‏‎     <lb n='7'/>
+     ‎‏קים מצות קלים כחמו|●רים‏‎
+‏‎     <lb n='8'/>
+     ‎‏ה״ה כ״ה אברהם איצק ב׳ פו״מ‏‎
+‏‎     <lb n='9'/>
+     ‎‏כ״ה זעליגמן כהן נפטר‏‎
+‏‎     <lb n='10'/>
+     ‎‏בש״ט ביו׳ א׳ ט׳ אדר ראשון‏‎
+‏‎     <lb n='11'/>
+     ‎‏ונקבר ביום ב׳ שנת‏‎
+‏‎     <lb n='12'/>
+     ‎‏לשמוע אנקת אסיר‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Und er ist Priester dem Höchsten Gott, 
+     <lb n='2'/>
+     und Jizchak ging aus um zu sinnen
+     <lb n='3'/>
+     im Felde,
+     <lb n='4'/>
+     die Menschen der ... wie auch die Hebräer,
+     <lb n='5'/>
+     erheben Wehklage über die Seele, die teure,
+     <lb n='6'/>
+     ein Gerechter und ein Frommer, seine Taten aufrecht,
+     <lb n='7'/>
+     erfüllte die Gebote, die leichte wie die schweren,
+     <lb n='8'/>
+     es ist der geehrte Herr Awraham Izek, Sohn des Vorstehers und Leiters
+     <lb n='9'/>
+     des geehrten Herrn Seligman Kohen, verschieden
+     <lb n='10'/>
+     mit gutem Namen am Tag 1, 9. des ersten Adar
+     <lb n='11'/>
+     und begraben am Tag 2, des Jahres
+     <lb n='12'/>
+     Das Stöhnen des Gefangenen hören.
+     <lb n='13'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rim in Zln 4-7; "konkrete Poesie" in Zln 4-7.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      in Zl 12: ‎‏לשמוע אנק״ת אסיר‏‎ die Addition der Zahlenwerte der markierten Buchstaben ergibt das Todesjahr 551.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 4-7: ‎‏איצק‏‎ Izek
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Gen 14,18.</p>
+    <p>Zl 2: Gen 24,63 und die Auslegung dazu bBer 26b, wonach Jizchak das Minchagebet einführte.</p>
+    <p>Zl 7: Av 2,1.</p>
+    <p>Zl 12: Ps 102,21, zum Chronogramm s.u.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

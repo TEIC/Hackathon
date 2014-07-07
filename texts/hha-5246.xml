@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Zwi Hirsch ben Gerschon, gest. 1801-11-28, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-5246</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5246</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5246</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1801-11-28'>1801-11-28</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>NE</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>W 5082</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-5246-1" sex='1'>
+      <persName>Zwi Hirsch ben Gerschon</persName>
+       <event when='1801-11-28' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5246_NE_0406090226.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-06-09'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/08/00000238.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000184.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏צדיק באמונתו יחי ־ אהה! ־ צבי ברופא ינוח‏‎
+‏‎     <lb n='2'/>
+     ‎‏חי נצחי ־ צרי בגלעד יבש ־ על משכבו‏‎
+‏‎     <lb n='3'/>
+     ‎‏הצבי על במותיך עלית מעמק [(הרו)]פאים‏‎
+‏‎     <lb n='4'/>
+     ‎‏ירית קו על כל נגעי ב״א להשריש הבאים‏‎
+‏‎     <lb n='5'/>
+     ‎‏רק בך צלחה ארוכה וצרי לכל תחלואים‏‎
+‏‎     <lb n='6'/>
+     ‎‏שמחת נפש נכאב ועלית בראשי הקרואים‏‎
+‏‎     <lb n='7'/>
+     ‎‏ראו עוברים! גוית מי שוכן פה בקבר‏‎
+‏‎     <lb n='8'/>
+     ‎‏והטיפו דמע כי גדול השוד והשבר‏‎
+‏‎     <lb n='9'/>
+     ‎‏פה נפל טמון שר וגדול הוא הגבר‏‎
+‏‎     <lb n='10'/>
+     ‎‏אשר צדקות עשה בכל פנה ועבר‏‎
+‏‎     <lb n='11'/>
+     ‎‏ה״ה הרופא אומן כ״ה צבי הירש ב׳ הרופא‏‎
+‏‎     <lb n='12'/>
+     ‎‏כ״ה גרשון ז״ל נפטר בשם טוב מש״ק ונקב׳‏‎
+‏‎     <lb n='13'/>
+     ‎‏ביום ב׳ ך״ה כסליו תקס״ב לפ״ק‏‎
+‏‎     <lb n='14'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Zwi, ›ein Gerechter in seinem Glauben‹, - Wehe! - Zwi, Sohn des Arztes - er ruhe
+     <lb n='2'/>
+     er lebe ewiges Leben - Zwi, ›der Balsam Gilads‹ ist vertrocknet - auf seinem Lager
+     <lb n='3'/>
+     ›Die Herrlichkeit (ist) auf deinen Höhen‹, du stiegst auf ›aus dem Tal der Ärzte‹,
+     <lb n='4'/>
+     zogst eine Grenzlinie um alle Plagen der Menschheit, um einzupflanzen die kommenden Generationen,
+     <lb n='5'/>
+     nur dir glückte Genesung und (du hattest) Balsam für jede Krankheit,
+     <lb n='6'/>
+     du erfreutest eine wunde Seele und stiegst auf ›an die Spitze der Geladenen‹.
+     <lb n='7'/>
+     Seht, die ihr vorübergeht, wessen Körper hier im Grab verweilt!
+     <lb n='8'/>
+     Vergießt Tränen, denn ›groß ist die Zerstörung und das Verderben‹,
+     <lb n='9'/>
+     hier ist ›gefallen‹ (und) geborgen ›ein Fürst und ein Großer‹, er ist der Mann,
+     <lb n='10'/>
+     welcher Wohltaten wirkte an allen Ecken und Enden.
+     <lb n='11'/>
+     Es ist der kundige Arzt, der geehrte Herr Zwi Hirsch, Sohn des Arztes, 
+     <lb n='12'/>
+     des geehrten Herrn Gerschon, sein Andenken zum Segen, verschieden ›mit gutem Namen‹ am Ausgang des heiligen Schabbat, und begraben
+     <lb n='13'/>
+     am Tag 2, 25. Kislev 562 der kleinen Zählung.
+     <lb n='14'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Hab 2,4</p>
+    <p>Zl 2: Jer 8,22</p>
+    <p>Zl 3: nach 2Sam 1,19 | Zl 3: nach 2 Sam 5,22</p>
+    <p>Zl 6: nach 1Sam 9,22</p>
+    <p>Zl 8: nach Jer 48,3</p>
+    <p>Zl 9: 2Sam 3,38</p>
+    <p>Zl 12: bBer 17a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -im in Zln. 3-6 und auf -ever in Zln. 7-10.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3-10 Zwi Hirsch Rofe.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1a und 2a: Die Verse bilden dreimal das Akrostichon ‎‏צבי‏‎ / ZWI, was in der Übersetzung durch doppelte Wiedergabe angedeutet wurde.</p>
+    <p>Zl 3a: ‎‏הצבי‏‎: Wortspiel mit den zwei Bedeutungen von ‎‏צבי‏‎, zum einen "Herrlichkeit, Pracht" (so verwendet in der zitierten Stelle 2Sam 1,19), zum anderen "Hirsch", dem Namen des Verstorbenen.</p>
+    <p>Zl 3b: ‎‏עלית מעמק [(הרו)]פאים‏‎ (von den Buchstaben ‎‏הרו‏‎ ist nur noch die untere Hälfte zu erkennen): Wortspiel mit ‎‏רופאים‏‎ ("Ärzte") und dem Tal Refaim, vgl. 2Sam 5,22: ‎‏לעלות ... בעמק רפאים‏‎.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

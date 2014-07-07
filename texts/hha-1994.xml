@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mate bat Josef Stadthagen ∞ Aberle R(ot)sch(ild), gest. 1744-12-13, Aberle ben Jeckel Rotschild Bacharach, gest. 1744-07-23, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1994</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1994</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1994</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1744-07-23'>1744-07-23</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FH</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>CII 456</geo>
+          <geo decls='Feld Grabnummer'> CII 457</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1994-1" sex='2'>
+      <persName>Mate bat Josef Stadthagen ∞ Aberle R(ot)sch(ild)</persName>
+       <event when='1744-12-13' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="hha-1994-2" sex='1'>
+      <persName>Aberle ben Jeckel Rotschild Bacharach</persName>
+       <event when='1744-07-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1994_FH_0204210230.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-21'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000498.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000499.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏מטבע של // אברהם אבינו‏‎
+‏‎     <lb n='2'/>
+     ‎‏מצד זה זקנה // ומצד זה זקן‏‎
+‏‎     <lb n='3'/>
+     ‎‏מה טוב מאוד שבתיהם // אברהם זה קנה חכמה‏‎
+‏‎     <lb n='4'/>
+     ‎‏יחד זה המות ה״ה אשת // בקי וחריף בתורה תמימה‏‎
+‏‎     <lb n='5'/>
+     ‎‏חיל עטרת בעלה היקרה // ראש המדברי׳ מימי׳ ימימה‏‎
+‏‎     <lb n='6'/>
+     ‎‏מרת מאטי בת כר״ר יוסף // הדריך העם באמונ׳ שלימ׳‏‎
+‏‎     <lb n='7'/>
+     ‎‏שטטהגן אשת פ״ו התורני // מי יוכל תואריו לספר ולסיימ׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏מהור״ר אברלי ר״ש נפטר׳ // ה״ה התורני הרבני פ״ו מהור״ר‏‎
+‏‎     <lb n='9'/>
+     ‎‏ונקברה יו׳ א׳ ח׳ טבת תק״ה // אברלי בן מהור״ר יעקיל‏‎
+‏‎     <lb n='10'/>
+     ‎‏לפ״ק תנצב״ה // רוטשילד בכרך זצ״ל נפטר‏‎
+‏‎     <lb n='11'/>
+     ‎‏ // ‎‏ונקבר יו׳ ה׳ י״ד מנחם תק״ד לפ״ק‏‎
+‏‎     <lb n='12'/>
+     ‎‏ // ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Eine Münze unseres Vaters Awraham‹ -
+     <lb n='2'/>
+     auf dieser Seite eine betagte Frau // und auf dieser Seite ein betagter Mann,
+     <lb n='3'/>
+     ›wie gut ist doch ihr Beisammensein‹, // Awraham, ›dieser erwarb Weisheit‹,
+     <lb n='4'/>
+     im Tode, es ist ›die tüchtige // kundig und scharfsinnig in ›der lauteren Tora‹,
+     <lb n='5'/>
+     Gattin, Krone ihres Gatten‹, die Teure, // ›Erster der Redner‹ seit jeher,
+     <lb n='6'/>
+     Frau Mate, Tochter des geehrten Meisters, Herrn Josef // er führte das Volk ›in vollkommener Treue‹,
+     <lb n='7'/>
+     Stadthagen, Gattin des Vorstehers und Leiters, des Toragelehrten, // wer vermag seine Vorzüge gänzlich zu zählen,
+     <lb n='8'/>
+     unseres Lehrers, des Meisters, Herrn Aberle R(ot)sch(ild), verschieden // es ist der Toragelehrte, der Rabbinische, der Vorsteher und Leiter, unser Lehrer, der Meister, Herr
+     <lb n='9'/>
+     und begraben Tag 1, 8. Tewet 505 // Aberle, Sohn unseres Lehrers, des Meisters, Herrn Jeckel 
+     <lb n='10'/>
+     der kleinen Zählung. Ihre Seele sei eingebunden in das Bündel des Lebens // Rotschild Bacharach, das Andenken des Gerechten zum Segen, verschieden
+     <lb n='11'/>
+      // und begraben Tag 5, 14. Menachem 504 der kleinen Zählung.
+     <lb n='12'/>
+      // Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: bBQ 97b</p>
+    <p>Zl 3: Ps 133,1 | Zl 3: bQid 32b</p>
+    <p>Zl 4: Ps 19,8</p>
+    <p>Zl 4f: Spr 12,4 | Zl 5: bBer 63b u.a.</p>
+    <p>Zl 6: Vgl. 13 Grundlehren des RaMbaM</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -(i)ma in Zln 3-7 (links).
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3-4 (rechts) ‎‏מטי‏‎ Mate und Zeilen 3-7 (links) ‎‏אברהם‏‎ Awraham.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1-2: Zu bBQ 97b: Bei der Betrachtung verschiedener damaliger Münzen, ihrem Aussehen und ihrem Wert. Eine "Abraham-Münze" zeigte "einen Greis und eine Greisin auf der einen Seite, einen Jüngling und eine Jungfrau auf der anderen Seite", die der Überlieferung nach Abraham und Sara bzw. Jizchak und Riwka darstellten.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Anstelle eines Doppelsteins wurden für dieses Ehepaar zwei eigenständige Grabsteine (Nr. 1994 für Mate, Nr. 1995 für Abraham) errichtet, die jedoch nicht nur direkt nebeneinander stehen, sondern in ihrer Form jeweils einen halben Doppelstein darstellen. Auch die leicht dem Bogenverlauf angepasste Kopfzeile setzt sich von dem einen auf den anderen Grabstein fort, während die zweiten Zeilen in Anlehnung und Fortführung des vorangegangenen Talmudzitats jeweils als Einleitung der jeweiligen eigenständigen Inschriften zu sehen sind. Entsprechend wurde auch kein Wert auf gleiche Zeilenanzahl oder eine inhaltliche Entsprechung der Inschriften gelegt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

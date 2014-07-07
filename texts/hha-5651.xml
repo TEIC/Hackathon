@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Perez Warburg ben Salman Warburg, gest. 1844-05-31, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-5651</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5651</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5651</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1844-05-31'>1844-05-31</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>OG</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>W 5432</geo>
+          <geo decls='Feld Grabnummer'> n 5604</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-5651-1" sex='1'>
+      <persName>Perez Warburg ben Salman Warburg</persName>
+       <event when='1844-05-31' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5651_OG_0406090208.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-06-09'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/09/00000049.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏מצבת‏‎
+‏‎     <lb n='2'/>
+     ‎‏קבורת איש יקר ותמים, הלך נכוחות וירא אלהים באמת, דרכיו דרכי נעם‏‎
+‏‎     <lb n='3'/>
+     ‎‏ה״ה הבחור חוטר מגזע ישרים, כש״ת פרץ ווארבורג נ״ע‏‎
+‏‎     <lb n='4'/>
+     ‎‏בן הגביר הנכבד המנוח כ״ה זלמן ווארבורג נ״ע‏‎
+‏‎     <lb n='5'/>
+     ‎‏מת מ״ט שנים אחרי מות אמו היקרה‏‎
+‏‎     <lb n='6'/>
+     ‎‏ומהוללה מ׳ ציפורה נ״ע‏‎
+‏‎     <lb n='7'/>
+     ‎‏בעת לדתה אותו‏‎
+‏‎     <lb n='8'/>
+     ‎‏בו ביום ו׳ עש״ק י״ג [סי]ון תר״ד לפ״ק [ונ]קבר בשם טוב‏‎
+‏‎     <lb n='9'/>
+     ‎‏ב[יו]ם א׳ [...]‏‎
+‏‎     <lb n='10'/>
+     ‎‏[...]‏‎
+     <lb n='11'/>
+     ‎‏פר[.] ה[...]‏‎
+‏‎     <lb n='12'/>
+     ‎‏רגע[...]‏‎
+‏‎     <lb n='13'/>
+     ‎‏צדיק [...]‏‎
+‏‎     <lb n='14'/>
+     ‎‏בנש[...]‏‎
+‏‎     <lb n='15'/>
+     ‎‏זכומ[...]‏‎
+‏‎     <lb n='16'/>
+     ‎‏לא[...]‏‎
+‏‎     <lb n='17'/>
+     ‎‏מט[...]‏‎
+‏‎     <lb n='18'/>
+     ‎‏נמ[...]יו‏‎
+‏‎     <lb n='19'/>
+     ‎‏ו[...]ים‏‎
+‏‎     <lb n='20'/>
+     ‎‏ו[...]ים‏‎
+‏‎     <lb n='21'/>
+     ‎‏א[...]‏‎
+‏‎     <lb n='22'/>
+     ‎‏רע[...]‏‎
+‏‎     <lb n='23'/>
+     ‎‏ב[...]‏‎
+‏‎     <lb n='24'/>
+     ‎‏וע[...]‏‎
+‏‎     <lb n='25'/>
+     ‎‏רק בחצי ימיו לקחהו המות ושב לאדמתו‏‎
+‏‎     <lb n='26'/>
+     ‎‏גן עדן פתוח לפניו, ושם יש שָכָר לפעולתו‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Grabmal
+     <lb n='2'/>
+     eines teuren und laueren Mannes, er wandelte redlich und fürchtete Gott in Treue, seine Wege waren angenehme Wege,
+     <lb n='3'/>
+     es ist der Junggeselle, ein Keim vom Stamme Aurfrechter, sein ehrenvoller, prachtvoller Name (lautet) Perez Warburg, seine Seele sei in Eden,
+     <lb n='4'/>
+     Sohn des verehrten Herren, des Seligen, des geehrten Herrn Salman Warburg, seine Seele sei in Eden,
+     <lb n='5'/>
+     gestorben 49 Jahre nach dem Tod seiner teuren
+     <lb n='6'/>
+     und gepriesenen Mutter, Frau Zipora, ihre Seele sei in Eden,
+     <lb n='7'/>
+     bei seiner Geburt,
+     <lb n='8'/>
+     an eben jenem Tag 6, Rüsttag des heiligen Schabbat, 13. Sivan? 504? der kleinen Zählung, und er wurde begraben mit gutem Namen
+     <lb n='9'/>
+     am Tag ...
+     <lb n='10'/>
+     ...
+     <lb n='11'/>
+     ...
+     <lb n='12'/>
+     ...
+     <lb n='13'/>
+     gerecht ...
+     <lb n='14'/>
+     gedenket ...
+     <lb n='15'/>
+     nicht ...
+     <lb n='16'/>
+     ...
+     <lb n='17'/>
+     ...
+     <lb n='18'/>
+     ...
+     <lb n='19'/>
+     ...
+     <lb n='20'/>
+     ...
+     <lb n='21'/>
+     ...
+     <lb n='22'/>
+     ...
+     <lb n='23'/>
+     ...
+     <lb n='24'/>
+     ...
+     <lb n='25'/>
+     nach nur der Hälfte seiner Tage nahm ihn der Tod, und er kehrte zurück zu seiner Erde,
+     <lb n='26'/>
+     der Garten Eden steht ihm offen, und dort gibt es Lohn für sein Wirken.
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      In der langen Eulogie (Zln 11-26) waren vermutlich jeweils zwei aufeinander folgende Zeilen gereimt, die Inschrift ist jedoch so stark verwittert, daß nur noch Reste erhalten sind: Reim auf -im in Zl(n) 19-20, auf -ato in Zl(n) 25-26.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      ‎‏פרץ ב׳ זלמן ווארבורג‏‎ / PeReZ S. SaLMaN WARBURG in Zln 11-26.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2c: Spr 3,17; ein bei Frauen häufig, bei Männern selten zu findendes Zitat.</p>
+    <p>Zl 3a: Angelehnt an Jes 11,1.</p>
+    <p>Zl 25c: Ps 146,4.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Selten ist die Nennung der Mutter.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

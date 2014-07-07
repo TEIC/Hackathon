@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Fradel bat Salman ben Mosche Warburg ∞ Jonatan Wetzlar, gest. 1849-03-28, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1422</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1422</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1422</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben (VS; RS)</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1849-03-28'>1849-03-28</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1417</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1422-1" sex='2'>
+      <persName>Fradel bat Salman ben Mosche Warburg ∞ Jonatan Wetzlar</persName>
+       <event when='1849-03-28' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1422xEN_0110160122.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    schriftlos
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000286.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000287.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1425_EM_0206140129.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-06-14'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1425_EN_0110050105.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-05'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״ט‏‎
+‏‎      <lb n='2'/>
+      ‎‏האשה היקרה פראדל אשת היקר‏‎
+‏‎      <lb n='3'/>
+      ‎‏פו״מ כ״ה יונתן וועטצלאר ז״ל‏‎
+‏‎      <lb n='4'/>
+      ‎‏בעמדען בת כ״ה זלמן ב״ר משה ווארבורג ז״ל‏‎
+‏‎      <lb n='5'/>
+      ‎‏נפטרה בשם טוב בת ע״ג שנים ליל ה׳ ו׳ ניסן‏‎
+‏‎      <lb n='6'/>
+      ‎‏ונקברה יום ו׳ ז׳ ניסן, שנת תר״ט לפ״ק‏‎
+‏‎      <lb n='7'/>
+      ‎‏פאר משפחתה אשה יקרת רוח‏‎
+‏‎      <lb n='8'/>
+      ‎‏רבו צדקותיה כקטרה העלה ריח‏‎
+‏‎      <lb n='9'/>
+      ‎‏אם יתומים ואלמנות כל הולכי שחוח‏‎
+‏‎      <lb n='10'/>
+      ‎‏דל ואביון עליה נשען בחברה הזה בוטח‏‎
+‏‎      <lb n='11'/>
+      ‎‏לכל עושי טוב נפשה חיברה וספוח‏‎
+‏‎      <lb n='12'/>
+      ‎‏וגם הקימה חברה ל[ס]עד יולדות עניות‏‎
+‏‎      <lb n='13'/>
+      ‎‏עיניה על כל מחסורן נפשותן להחיות‏‎
+‏‎      <lb n='14'/>
+      ‎‏צהל אור פניה הוביש דמעות מעל לחיות‏‎
+‏‎      <lb n='15'/>
+      ‎‏לומדי תורה [ה]וקי[רה] כחמד[ת] שכ[יו]ת‏‎
+‏‎      <lb n='16'/>
+      ‎‏[‎‏רמו מעשיה יומם ולילה היטיבה זכיות]‏‎
+‏‎      <lb n='17'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='18'/>
+      ‎‏פראדל אשת פו״מ כּהר״ר יונתן‏‎
+‏‎      <lb n='19'/>
+      ‎‏וועטצלאר ז״ל‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist geborgen
+      <lb n='2'/>
+      die teure Frau Fradel, Gattin des teuren
+      <lb n='3'/>
+      Vorstehers und Leiters, des geehrten Herrn Jonatan Wetzlar, sein Andenken zum Segen,
+      <lb n='4'/>
+      in Emden, Tochter des geehrten Herrn Salman, Sohn des Herrn Mosche Warburg, sein Andenken zum Segen,
+      <lb n='5'/>
+      verschieden mit gutem Namen, 73 Jahre alt, in der Nacht 5, 6. Nissan,
+      <lb n='6'/>
+      und begraben am Tag 6, 7. Nissan des Jahres 609 der kleinen Zählung.
+      <lb n='7'/>
+      Zierde ihrer Familie, eine Frau von teurem Geiste,
+      <lb n='8'/>
+      viel waren ihre Wohltätigkeiten .. 
+      <lb n='9'/>
+      Mutter den Waisen und Witwen, aller Niedergebeugten,
+      <lb n='10'/>
+      der Geringe und der Bedürftige auf sie stützte er sich, .. 
+      <lb n='11'/>
+      allen die Gutes tun gesellte und verband sich ihre Seele,
+      <lb n='12'/>
+      und auch eine Chewra (Stiftung?) errichtete sie zur Unterstütung arme Wöchnerinnen,
+      <lb n='13'/>
+      ihr Augenmerk galt allem was ihnen fehlte, ihre Seelen zu erquicken,
+      <lb n='14'/>
+      ihre Angesicht strahlte, getrocknet waren die Tränen auf den wangen,
+      <lb n='15'/>
+      Toralernende .. 
+      <lb n='16'/>
+      .. ihre Taten, des Tags und der Nacht .. 
+      <lb n='17'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='18'/>
+      Fradel, Gattin des Vorstehers und Leiters, des geehrten Meisters, Herrn Jonatan
+      <lb n='19'/>
+      Wetzlar, sein Andenken zum Segen
+     </ab>
+    </div>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ch in Zln 7-11 und auf -iut in Zln 11-16.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      FRADeL WETZLaR in Zln 7-16
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal in situ und unbeschädigt. Ergänzungen nach histor. Fotos und Grunwald.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

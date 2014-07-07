@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Kalonymos ben Binjamin (Karl Franken), gest. 1900-08-02, Jüdischer Friedhof Dormagen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e03-28</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-28</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-28</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <objectType>Stele</objectType>
+          Stele mit eingezogenem Rundbogenabschluss mit hervorkragendem Rand und vertieftem Schriftfeld, auf Fundament und Sockel aus Scheinmauerwerk.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1985</date>
+           die hebräische Inschrift auf dem Grabmal und die deutsche Inschrift auf dem Postament sind kaum noch zu erkennen. Beschädigung schwer 
+          <damage agent='Verwitterung'>das Grabmal liegt und ist teilweise zerbrochen. Verwitterung stark</damage>
+         </p>
+         <p>
+          <date>2007</date>
+           Das Grabmal wurde wieder aufgestellt und restauriert.
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1900-08-02'>1900-08-02</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038848'>
+        Dormagen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.100669 6.834092</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e03-28-1" sex='1'>
+      <persName>Kalonymos ben Binjamin (Karl Franken)</persName>
+       <event when='1900-08-02' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='69'>Hebrew</language>
+    <language ident='de' usage='30'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0028_E03_070719EPS4110hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0028dE03_070719EPS4113qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0028dE03_070719EPS4115hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0028dE03_070719EPS4116qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e03.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2014-03-19T21:35:21'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש תם‏‎
+‏‎     <lb n='3'/>
+     ‎‏אהוב לכל מכיריו‏‎
+‏‎     <lb n='4'/>
+     ‎‏[...]‏‎
+     <lb n='5'/>
+     ‎‏[...]‏‎
+     <lb n='6'/>
+     ‎‏קלונימוס בר בנימין‏‎
+‏‎     <lb n='7'/>
+     ‎‏נפטר ביום ה׳ ז׳ אב‏‎
+‏‎     <lb n='8'/>
+     ‎‏ונקבר בכבוד גדול ביום‏‎
+‏‎     <lb n='9'/>
+     ‎‏ח׳ באב תר״ס לפ״ק‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנצבה‏‎
+‏‎     <lb n='11'/>
+     Hier ruht
+     <lb n='12'/>
+     Karl Franken
+     <lb n='13'/>
+     geb. [...]
+     <lb n='14'/>
+     gest. [...]
+     <lb n='15'/>
+     Ruhe in Frieden
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     ein lauterer Mann,
+     <lb n='3'/>
+     geliebt von allen, die ihn kannten,
+     <lb n='4'/>
+     [...]
+     <lb n='5'/>
+     [...]
+     <lb n='6'/>
+     Kalonymos, Sohn des Binjamin,
+     <lb n='7'/>
+     verschieden am Tag 5, 7. Aw,
+     <lb n='8'/>
+     und begraben mit großer Ehre am
+     <lb n='9'/>
+     8. Tag im Aw 660 nach kleiner Zählung.
+     <lb n='10'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

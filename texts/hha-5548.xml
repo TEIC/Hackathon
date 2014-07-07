@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Bräunchen bat Izek Heilbutt ∞ Mosche Heilbut (Bernardine Heilbutt geb. Heilbutt), gest. 1844-12-08, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-5548</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5548</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5548</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung mittel 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft (VS; RS: Deutsch)</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1844-12-08'>1844-12-08</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>OF</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>W 5444</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-5548-1" sex='2'>
+      <persName>Bräunchen bat Izek Heilbutt ∞ Mosche Heilbut (Bernardine Heilbutt geb. Heilbutt)</persName>
+       <event when='1844-12-08' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='75'>Hebrew</language>
+    <language ident='de' usage='25'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5548_OF_0406090212.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-06-09'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5548_OF_0406090213.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-06-09'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/09/00000068.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/09/00000069.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏וישב העפר על הארץ כשהיה, והרוח תשוב אל האלהים אשר נתנה‏‎
+‏‎      <lb n='2'/>
+      ‎‏מצבת קבורת‏‎
+‏‎      <lb n='3'/>
+      ‎‏האשה מרת בריינכא בת‏‎
+‏‎      <lb n='4'/>
+      ‎‏הג״צ כ״ה איצק היילבוט אשת‏‎
+‏‎      <lb n='5'/>
+      ‎‏כ״ה משה היילבוט יצ״ו‏‎
+‏‎      <lb n='6'/>
+      ‎‏נולדה ביום ב׳ ח״י [אדר] תקמ״ט‏‎
+‏‎      <lb n='7'/>
+      ‎‏נפטרת לילב׳ ך״ח[...]‏‎
+‏‎      <lb n='8'/>
+      ‎‏ונקברת בשם טוב [...] לפ״ק‏‎
+‏‎      <lb n='9'/>
+      ‎‏[...]‏‎
+      <lb n='10'/>
+      ‎‏[...]‏‎
+      <lb n='11'/>
+      ‎‏[...]‏‎
+      <lb n='12'/>
+      ‎‏[...]‏‎
+      <lb n='13'/>
+      ‎‏וגם בביקור חולים‏‎
+‏‎      <lb n='14'/>
+      ‎‏עסקה כל ימי חייה ׃‏‎
+‏‎      <lb n='15'/>
+      ‎‏לכן תהא משכרתה שלימה‏‎
+‏‎      <lb n='16'/>
+      ‎‏מאת ה׳ שוכן [...]ימה ׃‏‎
+‏‎      <lb n='17'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='18'/>
+      Hier ruhet die irdische Hülle
+      <lb n='19'/>
+      von
+      <lb n='20'/>
+      Bernardine Heilbutt geb. Heilbutt
+      <lb n='21'/>
+      geb. d. 18. Adar 5549
+      <lb n='22'/>
+      gest. d. .. Kislev 5605
+      <lb n='23'/>
+      [---]
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Und der Staub kehrt zurück zur Erde, so wie er gewesen, und der Geist kehrt zurück zu Gott, der ihn gegeben
+      <lb n='2'/>
+      Grabmal
+      <lb n='3'/>
+      der Frau Bräunchen, Tochter des
+      <lb n='4'/>
+      Wohlfahrtsverwalters, des geehrten Herrn Izek Heilbutt, Gattin des
+      <lb n='5'/>
+      geehrten Herrn Mosche Heilbut, sein Fels und Erlöser behüte ihn,
+      <lb n='6'/>
+      geboren am Tag 2, 18. Adar 5549,
+      <lb n='7'/>
+      verschieden in der Nacht 4, 28. ...
+      <lb n='8'/>
+      und begraben mit gutem Namen ... der kleinen Zählung.
+      <lb n='9'/>
+      ...
+      <lb n='10'/>
+      ...
+      <lb n='11'/>
+      ...
+      <lb n='12'/>
+      ...
+      <lb n='13'/>
+      und auch mit dem Besuch von Kranken
+      <lb n='14'/>
+      beschäftigt alle Tage ihres Lebens,
+      <lb n='15'/>
+      daher sei ihr Lohn vollkommen 
+      <lb n='16'/>
+      vom Ewigen, der weilt ...
+      <lb n='17'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ima in Zln 15,16.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Koh 12,7. Die Zeile ist bogenförmig angebracht.</p>
+    <p>Zl 2: Gen 35,20.</p>
+    <p>Zl 8a: bBer 17a.</p>
+    <p>Zl 15: Vgl. Rut 2,12.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal bereits in dem heutigem Zustand. Die mehrzeilige hebräische und das über zwanzig Zeilen lange Gedicht auf der Rückseite sind zum größten Teil zerstört.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

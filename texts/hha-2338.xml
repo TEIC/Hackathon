@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für David (genannt Hammerschlag) ben Natan, gest. 1686-10-26, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2338</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2338</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2338</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung mittel
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Namenssymbol: Davidstern</decoNote>
+       <decoNote type='symbol'>Hammer</decoNote>
+       <decoNote type='ornament'>floral: Palmetten</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1686-10-26'>1686-10-26</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1075</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2338-1" sex='1'>
+      <persName>David (genannt Hammerschlag) ben Natan</persName>
+       <event when='1686-10-26' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2338_FN_0206040127.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-06-04'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000488.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏פ]ה‏‎
+‏‎     <lb n='2'/>
+     ‎‏הוקם ונטמן ׃ איש נאמן‏‎
+‏‎     <lb n='3'/>
+     ‎‏׃ ודוד עלה במעלה רום‏‎
+‏‎     <lb n='4'/>
+     ‎‏חביון ׃ וחפץ בחיים לישב‏‎
+‏‎     <lb n='5'/>
+     ‎‏בסתר עליון ׃ ה״ה האלוף‏‎
+‏‎     <lb n='6'/>
+     ‎‏המרומם כהר״ר דוד בן ה׳‏‎
+‏‎     <lb n='7'/>
+     ‎‏והקצין פ״ו כהר״ר נתן ז״ל‏‎
+‏‎     <lb n='8'/>
+     ‎‏מהילדסום מ׳ המרשלאק‏‎
+‏‎     <lb n='9'/>
+     ‎‏ויקרבו ימי דוד למות והלך‏‎
+‏‎     <lb n='10'/>
+     ‎‏לעולמו יום ג׳ ח״י חשון ש׳‏‎
+‏‎     <lb n='11'/>
+     ‎‏תמ״ז לפ״ק ושבק חיים לכל‏‎
+‏‎     <lb n='12'/>
+     ‎‏חי תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     errichtet (ein Mal) und ward geborgen ein getreuer Mann,
+     <lb n='3'/>
+     ›und David stieg hinauf‹ hoch
+     <lb n='4'/>
+     ins Versteck, ›der, der Leben begehrt‹, ›wird sitzen 
+     <lb n='5'/>
+     im Schutze des Höchsten‹, es ist der Vornehme,
+     <lb n='6'/>
+     der Erhabene, der geehrte Meister, Herr David, Sohn des Vornehmen
+     <lb n='7'/>
+     und Einflußreichen, Vorstehers und Leiters, des geehrten Meisters, Herrn Natan, sein Andenken zum Segen,
+     <lb n='8'/>
+     aus Hildesheim, genannt Hammerschlag.
+     <lb n='9'/>
+     ›Und es nahten Davids Tage dem Tod‹ und ›er ging hin
+     <lb n='10'/>
+     in seine Welt‹ (am) Tag 3, 18. Cheschvan des Jahres
+     <lb n='11'/>
+     447 der kleinen Zählung, ›und er ließ das Leben wie alles 
+     <lb n='12'/>
+     Lebende‹. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: 2Sam 15,30</p>
+    <p>Zl 4: Ps 34,13</p>
+    <p>Zl 4f: Ps 91,1</p>
+    <p>Zl 9: 1Kön 2,1</p>
+    <p>Zl 9f: Koh 12,5</p>
+    <p>Zl 11f: nach bBer 61b</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -man in Zl 2 und auf -jon in Zln 4,5.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeile 3: ‎‏דוד‏‎ David
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3: Dort steigt König David eine Anhöhe hinauf, auf der Flucht vor seinem Sohn Absalom.</p>
+    <p>Zl 4: Psalm 34 ist einer der Psalmen, die den Namen Davids im Titel tragen; "Wer Leben begehrt" ist ein Synonym für den Gerechten.</p>
+    <p>Zl 6: ‎‏ה‏‎ mit ‎‏האלוף‏‎, der Vornehme, aufgelöst, da dieser Ehrentitel häufig mit dem darauffolgenden "Einflußreichen" vorkommt.</p>
+    <p>Zl 8: ‎‏מ‏‎ mit ‎‏המכונה‏‎ genannt aufgelöst.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Inschrift enthält einige Schriftverse, die sich auf König David beziehen, womit mehrfach auf den Namen angespielt wird. Den besonderen Bezug zum Namen stellt aber der Davidstern, der im 17. Jahrhundert auf Grabmalen noch äußerst selten zu finden ist. Ebenso selten ist in Hamburg die plastische Darstellung eines Zunamens, hier: Hammerschlag, mit Hilfe von zwei Hämmern im Innenbereich des Davidsterns dargestellt. Auf eine gewisse Zurückhaltung in der Darstellung beider Symbole mag deren Anbringung im unteren Bereich des Grabmals hindeuten.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

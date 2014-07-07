@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Kilche bat Mosche (Caronli[...]), gest. 1835-11-15, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-5377</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5377</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5377</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben (VS); vertieft (RS: Deutsch)</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1835-11-15'>1835-11-15</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>NG</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>W 5156</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-5377-1" sex='2'>
+      <persName>Kilche bat Mosche (Caronli[...])</persName>
+       <event when='1835-11-15' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='56'>Hebrew</language>
+    <language ident='de' usage='43'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5377_NG_0406100115.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-06-10'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5377xNG_0406100113.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-06-10'/>
+    schriftlos
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/08/00000281.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/08/00000282.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/08/00000283.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/08/00000284.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5372_NG_0406100130.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-06-10'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5372_NG_0408180135.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-18'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏הנאהבות והנעימות בחייהן ובמותן לא נפרדו ׃‏‎
+‏‎      <lb n='2'/>
+      ‎‏אליך נשאתי את עיני ׃ היושבי בשמים ׃ אשר בידך נפש כל חי ׃ ורוח כל בשר איש‏‎
+‏‎      <lb n='3'/>
+      ‎‏מצבת קבורת‏‎
+‏‎      <lb n='4'/>
+      ‎‏הבתול[ה] ק[ילכא בת ר׳ משה]‏‎
+‏‎      <lb n='5'/>
+      ‎‏[...]‏‎
+      <lb n='6'/>
+      ‎‏[...]‏‎
+      <lb n='7'/>
+      ‎‏[...]‏‎
+      <lb n='8'/>
+      ‎‏[...]‏‎
+      <lb n='9'/>
+      ‎‏[...]‏‎
+      <lb n='10'/>
+      ‎‏[‎‏־־־]‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='11'/>
+      Ein Schwesterpaar, vereint im Tode, wie im Leb[en]
+      <lb n='12'/>
+      Hier ruhet
+      <lb n='13'/>
+      die in di[...]lle
+      <lb n='14'/>
+      des früh[...] Jungfrau
+      <lb n='15'/>
+      Caronli[...]
+      <lb n='16'/>
+      [---]
+      <lb n='17'/>
+      [...] an Gott [...]ftet
+      <lb n='18'/>
+      [...]delt auf des [...]ein
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ›Die geliebten und holden, im Leben und im Tode nicht getrennt‹,
+      <lb n='2'/>
+      ›zu dir erheb' ich mein Auge,‹, ›der du im Himmel thronst‹, ›in deiner Hand die Seele alles Lebenden ist‹, ›der Geist alles Fleisches der Menschen‹.
+      <lb n='3'/>
+      ›Das Grabmal‹
+      <lb n='4'/>
+      der Jungfrau Kilche, Tochter des Herrn Mosche,
+      <lb n='5'/>
+      ...
+      <lb n='6'/>
+      ...
+      <lb n='7'/>
+      ...
+      <lb n='8'/>
+      ...
+      <lb n='9'/>
+      ...
+      <lb n='10'/>
+      [---]
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: 2Sam1,23</p>
+    <p>Zl 2: Ps 123,1 | Zl 2: Ps 123,1 | Zl 2: Ijob 12,10 | Zl 2: Ijob 12,10</p>
+    <p>Zl 3: Gen 35,20</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Beide Inschriften, die hebräische und die deutsche sind nahezu vollständig verwittert. Aus der ersten Zeile beide Texte mag man schließen, daß die deutsche Inschrift eine freie Wiedergabe der hebräischen war.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

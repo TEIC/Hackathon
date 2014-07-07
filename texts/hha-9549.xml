@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Netanel ben Chajim Fürst, gest. 1681-12-03, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-9549</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-9549</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-9549</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1681-12-03'>1681-12-03</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GO</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 868</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-9549-1" sex='1'>
+      <persName>Netanel ben Chajim Fürst</persName>
+       <event when='1681-12-03' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000310.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/9549_GN.png'>
+    <desc>
+    <ref target='#foto5'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3302_GO_0205220103.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-22'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3209_GN_0206020231.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-06-02'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏ציון‏‎
+‏‎     <lb n='2'/>
+     ‎‏הלז אבן הראשה היתה‏‎
+‏‎     <lb n='3'/>
+     ‎‏למישר ׃ הוקם לראש גביר‏‎
+‏‎     <lb n='4'/>
+     ‎‏חכם יודע פשר ׃ נתן אל‏‎
+‏‎     <lb n='5'/>
+     ‎‏לו לשון למודים אמרי יושר‏‎
+‏‎     <lb n='6'/>
+     ‎‏ה״ה האלוף הראש התורני‏‎
+‏‎     <lb n='7'/>
+     ‎‏נגיד ושר ׃ פ״ו מוהר״ר נתנאל‏‎
+‏‎     <lb n='8'/>
+     ‎‏בן פ״ו כמר חיים פוירשט‏‎
+‏‎     <lb n='9'/>
+     ‎‏זלה״ה ׃ הלך לעולמו יום‏‎
+‏‎     <lb n='10'/>
+     ‎‏ב״ך כסלו בתם וישר‏‎
+‏‎     <lb n='11'/>
+     ‎‏׃ תהא נשמתו בצרור‏‎
+‏‎     <lb n='12'/>
+     ‎‏החיים צרורה ונקשר ׃‏‎
+‏‎     <lb n='13'/>
+     ‎‏ע״נ אי״ו‏‎
+‏‎     <lb n='14'/>
+     ‎‏א״ס‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Dieses
+     <lb n='2'/>
+     Zeichen, ein Hauptstein war
+     <lb n='3'/>
+     zum ..., errichtet zu Häupten eines Vornehmen,
+     <lb n='4'/>
+     ›ein Weiser, der die Deutung kannte‹, ›Gott gab ihm, Netanel,
+     <lb n='5'/>
+     eine Redegewandte Zunge‹, ›aufrichtiges Reden‹,
+     <lb n='6'/>
+     es ist der Vornehme, das Haupt, der Toragelehrte,
+     <lb n='7'/>
+     ›Fürst und Oberster‹, Vorsteher und Leiter, unser Lehrer und Meister, Herr Netanel,
+     <lb n='8'/>
+     Sohn des Vorstehers und Leiters, des geehrten Herrn Chajim Fürst,
+     <lb n='9'/>
+     sein Andenken zum Leben in der künftigen Welt, ›er ging hin in seine Welt‹ am
+     <lb n='10'/>
+     22. Tag des Kislev In Lauterkeit und Aufrichtigkeit (482).
+     <lb n='11'/>
+     Es sei seine Seele im Bündel
+     <lb n='12'/>
+     des Lebens eingebunden und gebündelt
+     <lb n='13'/>
+     mit den Seelen von Awraham, Jizchak und Jaakow,
+     <lb n='14'/>
+     Amen Sela.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Koh 8,1</p>
+    <p>Zl 4f: Jes 50,4 | Zl 5: Ijob 6,25</p>
+    <p>Zl 7: nach 2Chr 32,21</p>
+    <p>Zl 9: Koh 12,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Akrostichon</label>
+      in Zeile 4: ‎‏נתןאל‏‎ Natanal
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 4: Anspielung auf dem Namen Netanel, Hebräisch: Gott hat gegeben. Die Übersetzung sucht diese Anspielung zu berücksichtigen.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

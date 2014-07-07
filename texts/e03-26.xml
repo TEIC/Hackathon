@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Goldche bat Uri ∞ Elieser Willner (Julchen Willner), gest. 1918-06-16, Jüdischer Friedhof Dormagen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e03-26</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-26</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-26</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <objectType>Stele</objectType>
+          Stele mit eingezogenem Rundbogenabschluss mit vorkragendem Rand und vertieftem Schriftfeld, auf Postament und Sockel aus Scheinmauerwerk. Die Schriftfelder sind von breiten scharrierten Rahmen umgeben.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1985</date>
+           
+          <damage agent='Verwitterung'>Verwitterung leicht. Die Buchstaben wurden - teilweise fehlerhaft - mit weißer Farbe nachgezogen.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral: gekreuzte Palmwedel.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1918-06-16'>1918-06-16</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038848'>
+        Dormagen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.100669 6.834092</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e03-26-1" sex='2'>
+      <persName>Goldche bat Uri ∞ Elieser Willner (Julchen Willner)</persName>
+       <event when='1918-06-16' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='68'>Hebrew</language>
+    <language ident='de' usage='31'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0026_E03_070719EPS4103hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e03.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2014-03-19T21:35:21'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏גאלדכא בת אורי‏‎
+‏‎     <lb n='3'/>
+     ‎‏אשת ר׳ אליעזר ווילנער‏‎
+‏‎     <lb n='4'/>
+     ‎‏נפטרה ו׳ תמוז תרע״ח‏‎
+‏‎     <lb n='5'/>
+     ‎‏גמל׳ חסד אוהבת‏‎
+‏‎     <lb n='6'/>
+     ‎‏אשה צנועה וצדקת‏‎
+‏‎     <lb n='7'/>
+     ‎‏לבעלה עטרת‏‎
+‏‎     <lb n='8'/>
+     ‎‏דרך בניה מאשרת‏‎
+‏‎     <lb n='9'/>
+     ‎‏כבודה בת מלך נוהגת‏‎
+‏‎     <lb n='10'/>
+     ‎‏אמת ושלם רדפת‏‎
+‏‎     <lb n='11'/>
+     Julchen Willner
+     <lb n='12'/>
+     geb. 28. Sept. 1835
+     <lb n='13'/>
+     in Meiderich
+     <lb n='14'/>
+     gest. 16. Juni 1918
+     <lb n='15'/>
+     in Dormagen
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     Goldche, Tochter des Uri,
+     <lb n='3'/>
+     Gattin des Herrn Elieser Willner,
+     <lb n='4'/>
+     verschieden 6. Tammus 678,
+     <lb n='5'/>
+     den Erweis von Liebeswerk liebend,
+     <lb n='6'/>
+     eine züchtige und wohltätige Frau,
+     <lb n='7'/>
+     ›ihrem Gatten eine Krone‹ ,
+     <lb n='8'/>
+     ›von ihren Kindern gepriesen‹ ,
+     <lb n='9'/>
+     ›ihre Herrlichkeit, einer Königstochter (gleich)‹ verhält sie sich,
+     <lb n='10'/>
+     nach Wahrheit und Frieden strebend.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 7: Spr 12,4</p>
+    <p>Zl 8: Vgl. Spr 31,28</p>
+    <p>Zl 9: Ps 45,14</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -o(x)e(x)et in Zln 5-10.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 5-10: ‎‏גאלדכא‏‎ Goldche
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 13: Meiderich ist heute ein Stadtteil von Duisburg.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Julchen, eine geborene Vasen, war mit dem Metzger Lazarus Willner verheiratet. Ihre 1872 in Dormagen geborene Tochter Friederica heiratete Moritz Heumann und zog mit ihm nach Brühl. Sie wurde von Köln nach Theresienstadt deportiert und ermordet.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

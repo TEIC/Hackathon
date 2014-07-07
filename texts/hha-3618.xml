@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Bella bat Natan Leudesdorf ∞ Josele Essen, gest. 1721-04-09, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3618</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3618</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3618</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer liegend Beschädigung mittel 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1721-04-09'>1721-04-09</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>HI</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>CII 811</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3618-1" sex='2'>
+      <persName>Bella bat Natan Leudesdorf ∞ Josele Essen</persName>
+       <event when='1721-04-09' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3618_HI_0205100312.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-10'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3618_HI_0408240106.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-24'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000285.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏שוכנה וטמונה באמת ואמונה‏‎
+‏‎     <lb n='3'/>
+     ‎‏היפה בנשים במדות הגונה ׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏כלולת יופי בצורה ׃ הושמה למפלה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ושמה נודע בקריה ׃ מרת בילה ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏על זאת הוא נאנח הר״ר יוזלה‏‎
+‏‎     <lb n='7'/>
+     ‎‏עסן ׃ עם עולל ויונק בעלה ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏בלעה המות כדוב וזאב טורף‏‎
+‏‎     <lb n='9'/>
+     ‎‏בת החבר ר׳ נתן ליידשדורף ׃‏‎
+‏‎     <lb n='10'/>
+     ‎‏את אלהים הלכה דבקה בקונה‏‎
+‏‎     <lb n='11'/>
+     ‎‏ולקחה ..תה אלהים ואיננה ׃‏‎
+‏‎     <lb n='12'/>
+     ‎‏בליל ד׳ י״ב לניסן נפטרת‏‎
+‏‎     <lb n='13'/>
+     ‎‏וביום ה׳ באבל גדול נקברת ׃‏‎
+‏‎     <lb n='14'/>
+     ‎‏ה׳ נתן חיים הבטן פריה‏‎
+‏‎     <lb n='15'/>
+     ‎‏והיא שבקה חיים לכל בריה‏‎
+‏‎     <lb n='16'/>
+     ‎‏אל תמים פעלו לפ״ק‏‎
+‏‎     <lb n='17'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     weilt und ist geborgen, ›in Treu und Glauben‹,
+     <lb n='3'/>
+     ›die schönste unter den Frauen‹, in ihren Eigenschaften ehrwürdig,
+     <lb n='4'/>
+     ›der Schönheit Vollendung‹ in Gestalt, ›die sichere Festung ist verfallen‹,
+     <lb n='5'/>
+     ›und ihr Name war bekannt in der Stadt‹, Frau Bella,
+     <lb n='6'/>
+     darüber seufzt er, der Meister, Herr Josele
+     <lb n='7'/>
+     Essen, ›samt Kleinkind und Säugling‹, er, ihr Gatte,
+     <lb n='8'/>
+     ›es verschlang sie der Tod‹, einem Bären gleich, einem Wolf, der zerreißet,
+     <lb n='9'/>
+     die Tochter des toragelehrten Herrn Natan Leudesdorf,
+     <lb n='10'/>
+     ›mit Gott wandelte sie‹, haftete an ihrem Schöpfer,
+     <lb n='11'/>
+     ›und Gott hatte sie genommen und sie war nicht mehr‹
+     <lb n='12'/>
+     in der Nacht 4, 12. des Nissan verschied sie,
+     <lb n='13'/>
+     und am Tag 5, wurde sie unter großer Trauer begraben,
+     <lb n='14'/>
+     der Ewige gab Leben Chajim Natan, ihrer Leibesfrucht,
+     <lb n='15'/>
+     ›und sie ließ das Leben wie alles Geschöpf‹,
+     <lb n='16'/>
+     ›Gott, lauter ist sein Werk‹ (481) der kleinen Zählung.
+     <lb n='17'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: liturg.: Segen nach dem abendlichen Schma Gebet</p>
+    <p>Zl 3: Hld 5,9 u. 6,1</p>
+    <p>Zl 4: Klgl 2,15 | Zl 4: nach Jes 25,2</p>
+    <p>Zl 5: Vgl. Spr 31,23 u. Jes 25,2</p>
+    <p>Zl 7: Jer 44,7</p>
+    <p>Zl 8: Jes 25,8</p>
+    <p>Zl 10: Gen 5,24</p>
+    <p>Zl 11: Gen 5,24</p>
+    <p>Zl 15: nach bBer 61b</p>
+    <p>Zl 16: nach Dtn 32,4 und 2Sam 22,31</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -unah in Zln 2,3 -lah in Zln 4,5,6,7, auf -orf in Zln 8,9, auf -nah in Zln 10,11, auf -eret in Zln 12,13 und auf -irjah in Zln 14,15.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      mit dem Zahlenwert 481 in Zl 16, die betreffenden Buchstaben sind größer geschrieben.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 4a: Die leicht abweichende Schreibweise ‎‏כלולת‏‎ statt ‎‏כלילת‏‎ mag darauf hindeuten, dass sie ihr erstes Kind gebar, denn ‎‏כלולות‏‎ meint die Eheschließung, die "Brautschaft".</p>
+    <p>Zl 4b: ‎‏בצורה‏‎ in ihre Gestalt, läßt sich auch mit dem nachfolgenden, Jes 25,2 angelehnten Worten, verbinden. ‎‏בצורה‏‎ wäre dann mit sichere Festung, feste (Stadt) zu übersetzen und den Gegensatz vom neuen und einstigen Zustand noch vertärken. Die Wiedergabe sucht beides gerecht zu werden.</p>
+    <p>Zl 11: In Gen 5,24 von Enoch gesagt; in Inschriften meist bei Männern vorkommend.</p>
+    <p>Zl 14: ‎‏נתן חיים‏‎, Natan Chajim, beide Namen haben eine weitere Bedeutung, Natan - gab, gegeben, Chajim - Leben, worauf die Inschrift ganz bewußt anspielt und die Übersetzung wiederzugeben sucht. Der Sohn, der die Geburt, anders als seine Mutter, überlebte, ist der 1795 verstorbene Natan, Sohn von Juspa Essen (Nr. 0268).</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Namen sind in der Eulogie eingebettet, und sind nicht wie meist von ihr getrennt aufgeführt. Die histor. Aufnahme zeigt das Grabmal bereits an derselben Stelle gebrochen wie heute.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

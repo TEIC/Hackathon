@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jonatan Mosche ben Meir SeGaL [(Jonathan Meyer Oldenburg)], gest. 1778-02-04, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1637</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1637</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1637</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer
+         </p>
+         <p>
+          <date>2012</date>
+           Das Unterteil wurde während der Restauration 2012 gefunden und hochgezogen
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Levitenkanne</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1778-02-04'>1778-02-04</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FD</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3278</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1637-1" sex='1'>
+      <persName>Jonatan Mosche ben Meir SeGaL [(Jonathan Meyer Oldenburg)]</persName>
+       <event when='1778-02-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1637_FD_0408230111.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/540--00a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000022.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000073.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1637_FG.png'>
+    <desc>
+    <ref target='#foto5'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏יקוננו הישראלים ויבכו נתן ידו הפתוחה‏‎
+‏‎     <lb n='2'/>
+     ‎‏ונדבתו ברומם מנהגתו אור יאיר ראשיתו‏‎
+‏‎     <lb n='3'/>
+     ‎‏כאחריתו נאמנתו‏‎
+‏‎     <lb n='4'/>
+     ‎‏יום הלילה ויתר נתן תורה‏‎
+‏‎     <lb n='5'/>
+     ‎‏נאזרים במחיצתו‏‎
+‏‎     <lb n='6'/>
+     ‎‏הרי הקרובים ורחוקים נתן יבכו‏‎
+‏‎     <lb n='7'/>
+     ‎‏עני׳ שהי׳ מצפי׳ לתשועתו‏‎
+‏‎     <lb n='8'/>
+     ‎‏ויטיילין הלוחמי׳ ובענפו הי׳ נתן‏‎
+‏‎     <lb n='9'/>
+     ‎‏יפרנסם וישבעו משולחנתו‏‎
+‏‎     <lb n='10'/>
+     ‎‏נבוכים יתנו העדו׳ ויצדקו נתן‏‎
+‏‎     <lb n='11'/>
+     ‎‏יציאותיהם השכיל והתחכמותו‏‎
+‏‎     <lb n='12'/>
+     ‎‏תמתו יגיל היולדים ויחיו נתן‏‎
+‏‎     <lb n='13'/>
+     ‎‏יולדתו הצאצאים וזכרנותו‏‎
+‏‎     <lb n='14'/>
+     ‎‏נצח ישרש הצדיק ויעשה נתן‏‎
+‏‎     <lb n='15'/>
+     ‎‏יולדתו האילן וכמותו מעריך‏‎
+‏‎     <lb n='16'/>
+     ‎‏שולחן העורך לדכפין ייתי ויכול‏‎
+‏‎     <lb n='17'/>
+     ‎‏לתמתו ה״ה פ״ו הישיש והנכבד ר׳‏‎
+‏‎     <lb n='18'/>
+     ‎‏יונתן משה ב׳ כ״ה מאיר סג״ל מאול=‏‎
+‏‎     <lb n='19'/>
+     ‎‏לינבורג נפטר ונקבר בש״ט יו׳ ד׳ ז׳‏‎
+‏‎     <lb n='20'/>
+     ‎‏שב תמך קנה לב חכם לפ״ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     es wehklagen sie Israeliten und beweinten Natan, seine Hand, die geöffnet war
+     <lb n='2'/>
+     und seine Freigebigkeit ... seinen Anfang
+     <lb n='3'/>
+     wie sein Ende ...
+     <lb n='4'/>
+     Tag (und) Nacht ... gab Natan der Tora,
+     <lb n='5'/>
+     ...
+     <lb n='6'/>
+     ... Nahe wie Fremde beweinen Natan,
+     <lb n='7'/>
+     Arme, die auf sein ... hofften,
+     <lb n='8'/>
+     ... war Natan,
+     <lb n='9'/>
+     ernährte und sättigte sie an seinem Tische,
+     <lb n='10'/>
+     Verirrten legen Zeugnis ab und ... Natan
+     <lb n='11'/>
+     ...
+     <lb n='12'/>
+     .... Natan
+     <lb n='13'/>
+     die ihm die Nachkommen gebar ...
+     <lb n='14'/>
+     auf ewig ... der Gerechte ... Natan
+     <lb n='15'/>
+     ... der Baum ...
+     <lb n='16'/>
+     sein Tisch bereit ›jedem Hungrigem, daß er komme und esse‹,
+     <lb n='17'/>
+     ... es ist Vorsteher und Leiter, der Hochbetagte und der Ehrwürdige, Herr
+     <lb n='18'/>
+     Jonatan Mosche, Sohn des geehrten Herrn Meir SeGaL 
+     <supplied reason='subaudible'>(Jonathan Meyer Oldenburg)</supplied>
+      aus
+     <lb n='19'/>
+     Oldenburg, verschieden und begraben ›mit gutem Namen‹ Tag 4, 7.
+     <lb n='20'/>
+     Schwat ... erwarb einen weisen Herzen der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 16: Aus der Pessach Hagada</p>
+    <p>Zl 19: bBer 17a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 1-2, 4, 6, 8, 10, 12, 14: ‎‏יהונתןימאיריהונתןהיונתןויהונתןניהונתןתיהונתןניהונתן‏‎ JehonataniMeirJehonatanhJonatanuJehonatannJehonatantJehonatannJehonatan
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

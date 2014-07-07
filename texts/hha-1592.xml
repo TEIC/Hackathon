@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für David ben Löb [Berlin], gest. 1771-03-04, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1592</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1592</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1592</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,550 x 0,870 x 0,150 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, ein Giebelstück non in situ, liegend, der Rest fehlt Beschädigung schwer
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Krone</decoNote>
+       <decoNote type='ornament'>floral; gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1771-03-04'>1771-03-04</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FD</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3079</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1592-1" sex='1'>
+      <persName>David ben Löb [Berlin]</persName>
+       <event when='1771-03-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1592_FD_0110160130.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000457.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1589_FD_0309190211.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-09-19'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏כתר תורה כתר חכמה‏‎
+‏‎     <lb n='2'/>
+     ‎‏פה‏‎
+‏‎     <lb n='3'/>
+     ‎‏[‎‏מגדול דוד ת]ל תלפיות זיווה והדרה‏‎
+‏‎     <lb n='4'/>
+     ‎‏[‎‏דוד עלה במעלות] קדושים שרי התורה ׃‏‎
+‏‎     <lb n='5'/>
+     ‎‏[‎‏ודוד עשה משפט ו]צדקה בשפה ברורה ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏[‎‏דוד דגלי מסכ]ת׳ קולע אל השערה ׃ ‏‎
+‏‎     <lb n='7'/>
+     ‎‏[‎‏בר אבהן בנן] קדושים ארי שבחבורה ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏[‎‏נשקעה השמ]ש שלא בעונת׳ באספקלרי׳ המאיר׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏[‎‏מתנהג בח]סידות וטבילות בכל מיני טהרה ׃‏‎
+‏‎     <lb n='10'/>
+     ‎‏[‎‏ויי על] האי שופרא דבלע בעפר׳‏‎
+‏‎     <lb n='11'/>
+     ‎‏[‎‏החוד]ש שמרבין בו שמחה נהפך למארה ׃‏‎
+‏‎     <lb n='12'/>
+     ‎‏[‎‏ר]כב ישראל ופרשיו במקרא ובמשנה ובגמר׳‏‎
+‏‎     <lb n='13'/>
+     ‎‏רוח דעת ויראה מצות ה׳ ברה ׃‏‎
+‏‎     <lb n='14'/>
+     ‎‏לדוד משכיל שיר ידידות אין לספרה ׃‏‎
+‏‎     <lb n='15'/>
+     ‎‏ישב בתענית חסיד ועניו ורב ספר׳ ׃‏‎
+‏‎     <lb n='16'/>
+     ‎‏בקי וחריף עוקר הרים וטוחנן בסברה ׃‏‎
+‏‎     <lb n='17'/>
+     ‎‏הגאון הגדול מוהר״ר דוד בן הגאון מוהר״ר ליב‏‎
+‏‎     <lb n='18'/>
+     ‎‏אב״ד ור״מ דשלש קהלות יעקב המפוארה ׃‏‎
+‏‎     <lb n='19'/>
+     ‎‏נפטר ונקבר ביו׳ ב׳ ח״י אדר תקל״א ליצירה ׃‏‎
+‏‎     <lb n='20'/>
+     ‎‏נשמתו בעדן ובצרור החיים תהי׳ צרורה ׃‏‎
+‏‎     <lb n='21'/>
+     ‎‏ואת צמח דוד עבדך תצמיח במהרה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Krone der Tora‹, Krone der Weisheit
+     <lb n='2'/>
+     Hier (ruht) -
+     <lb n='3'/>
+     ›der Turm Davids, hochgebaute Burg‹, ›Glanz und Herrlichkeit‹,
+     <lb n='4'/>
+     David stieg hinauf die Stufen der Heiligen, Fürsten der Tora,
+     <lb n='5'/>
+     ›und David sprach Recht und Gerechtigkeit‹ mit ›klarer Sprache‹,
+     <lb n='6'/>
+     ›David legte die Lehre‹ ›haargenau zutreffend‹ offen,
+     <lb n='7'/>
+     ›ein Sohn bedeutender Vorfahren‹, ›Sohn von Heiligen‹, ›ein Leu in der Gemeinschaft‹,
+     <lb n='8'/>
+     ›die Sonne sank vor ihrer Zeit‹ ›in leuchtendem Glanz‹,
+     <lb n='9'/>
+     seine (Lebens)führung in Frömmigkeit, mit Tauchbädern gemäß jeglicher Art Reinheitsvorschriften,
+     <lb n='10'/>
+     ›wehe über diese Schönheit, die verschlungen ist vom Staube‹,
+     <lb n='11'/>
+     der Monat, in dem sich die Freude vermehrte, wandelte sich zum Fluch,
+     <lb n='12'/>
+     ›der Wagen Israels und seine Reiter‹, so war er in Bibel, Mischna und Gemara,
+     <lb n='13'/>
+     ›Geist der Erkenntnis und (Gottes)furcht‹, ›das lautere Gebot des Ewigen‹ (in ihm),
+     <lb n='14'/>
+     ›dem David ein Gedicht‹, ein Lied der Freundschaft - es ist nicht zu erzählen,
+     <lb n='15'/>
+     er pflegte zu fasten, fromm und demütig, sehr belesen,
+     <lb n='16'/>
+     kundig und scharfsinnig, ›er versetzte Berge und zermalmte sie mit seiner Ansicht‹,
+     <lb n='17'/>
+     der große, überragende Gelehrte, unser Lehrer, der Meister, Herr David, Sohn des überragenden Gelehrten, unseres Lehrers, des Meisters, Herrn Löb 
+     <supplied reason='subaudible'>Berlin</supplied>
+     ,
+     <lb n='18'/>
+     Vorsitzender der Gerichtsbarkeit und Leiter des Lehrhauses der drei prachtvollen Gemeinden Jakobs,
+     <lb n='19'/>
+     verschieden und begraben am Tag 2, 18. Adar 531 nach der Schöpfung,
+     <lb n='20'/>
+     seine Seele sei in Eden und eingebunden ins Bündel des Lebens,
+     <lb n='21'/>
+     und den Sprößling deines Knechtes Davids laß schnell emporsprießen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Av 4,13</p>
+    <p>Zl 3: nach Hld 4,4 | Zl 3: Nach BerR 68,6</p>
+    <p>Zl 5: 2Sam 8,15 | Zl 5: Zef 3,9</p>
+    <p>Zl 6: bEr 53a | Zl 6: Ri 20,16</p>
+    <p>Zl 7: bMen 53a | Zl 7: bPes 104a und bAZ 50a | Zl 7: bSchab 11b u.a.</p>
+    <p>Zl 8: nach BerR 68,10 | Zl 8: bSuk 45b</p>
+    <p>Zl 10: Zusammengesetzt aus bBer 5a und Jes 25,8</p>
+    <p>Zl 12: 2Kön 2,12</p>
+    <p>Zl 13: Jes 11,2 | Zl 13: Ps 19,9</p>
+    <p>Zl 14: Ps 32,1</p>
+    <p>Zl 16: bSan 24a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ra in Zln 3-16.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 4-16 ‎‏דוד בן מוהר״ר ליב‏‎ David, Sohn unseres Lehrers, des Meisters, Herrn Löb.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3: Zu ‎‏תל תלפיות‏‎ siehe ‎‏סדר הושענות לסכות ולהושענה רבה‏‎.</p>
+    <p>Zl 4b: ‎‏מעלות קדושים‏‎ aus ‎‏אל מלא רחמים‏‎ ‏‎.</p>
+    <p>Zl 6b: Wörtlich "schleuderte (einen Stein) auf das Haar und fehlte nicht".</p>
+    <p>Zl 11: Gemeint ist der Sterbemonat Adar, in dem das Purimfest gefeiert wird.</p>
+    <p>Zl 14a: Das Wort ‎‏משכיל‏‎ hat auch die Bedeutung "gelehrt" bzw. "aufgeklärt".</p>
+    <p>Zl 16b: "Bergeversetzer" ist eine Bezeichnung für einen besonders gelehrten Mann.</p>
+    <p>Zl 19: Die Buchstaben der Angabe "18" wurden vertauscht, um das Wort "Leben"/"lebendig" zu bilden. Entgegen der Aussage in der Inschrift wurde das Datum nicht "nach der Schöpfung", sondern unter Weglassung des Tausenders "der kleinen Zählung" angegeben.</p>
+    <p>Zl 21: Aus dem Achtzehngebet für Wochentage.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal unbeschädigt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

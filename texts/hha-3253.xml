@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Rechle bat Mosche Israel Josef ∞ Efraim, gest. 1686-08-15, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3253</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3253</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3253</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,820 x 0,590 x 0,115 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer liegend Beschädigung schwer
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral: Palmetten</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1686-08-15'>1686-08-15</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GO</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 930</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3253-1" sex='2'>
+      <persName>Rechle bat Mosche Israel Josef ∞ Efraim</persName>
+       <event when='1686-08-15' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3253_GO_0204230527.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3253_GO_0205260131.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000351.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3301_GO_0205260132.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3303_GO_0205220104.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-22'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נחצב קבר קבורת‏‎
+‏‎     <lb n='3'/>
+     ‎‏אשה יקרה ׃ צפירת‏‎
+‏‎     <lb n='4'/>
+     ‎‏תפארה ׃ נעימים מעשיה‏‎
+‏‎     <lb n='5'/>
+     ‎‏בכשר שלחה ידיה ׃ רכה‏‎
+‏‎     <lb n='6'/>
+     ‎‏וענוגה ׃ פתאם יד ה׳ בה‏‎
+‏‎     <lb n='7'/>
+     ‎‏נגעה ׃ בעת חנינותה ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏מכאובה רבתה ׃ בא שמש‏‎
+‏‎     <lb n='9'/>
+     ‎‏בצהרים ׃ ועלתה לשמים‏‎
+‏‎     <lb n='10'/>
+     ‎‏יום ה׳ ך״ה מנחם תמ״ו לפ״ק‏‎
+‏‎     <lb n='11'/>
+     ‎‏ונקברה בו ביום היא מצבת‏‎
+‏‎     <lb n='12'/>
+     ‎‏קבורת רעכלה בת הר״ר‏‎
+‏‎     <lb n='13'/>
+     ‎‏משה ישראל יוסף ז״ל אשת‏‎
+‏‎     <lb n='14'/>
+     ‎‏כמר פייבש בן הר״ר אפרים‏‎
+‏‎     <lb n='15'/>
+     ‎‏ש״נ‏‎
+‏‎     <lb n='16'/>
+     ‎‏[‎‏תנ]צב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Hier
+     <lb n='2'/>
+     ward ein Grab ausgehauen,‹ das Begräbnis
+     <lb n='3'/>
+     einer teuren Frau, ›der Kronen
+     <lb n='4'/>
+     Pracht,‹ ›wohlgetan ihre Taten,‹
+     <lb n='5'/>
+     ›mit Tucht ihre Hand gestreckt‹ nach dem Rocken, ›die Zarte
+     <lb n='6'/>
+     und Feine,‹ plötzlich ›von der Hand des Ewigen
+     <lb n='7'/>
+     berührt,‹ ›just als sie Gnade schenkte,‹
+     <lb n='8'/>
+     mehrte sich ihr Schmerz, ›die Sonne ging unter des
+     <lb n='9'/>
+     Mittags,‹ und sie stieg gen Himmel hinauf,
+     <lb n='10'/>
+     Tag 5, 25. Menachem 446 der kleinen Zählung,
+     <lb n='11'/>
+     und ward begraben an eben jenem Tag, ›dies ist das Grab-
+     <lb n='12'/>
+     mal der Rechle,‹ Tochter des Meisters, Herrn
+     <lb n='13'/>
+     Mosche Israel Josef, sein Andenken zum Segen, Gattin
+     <lb n='14'/>
+     des geehrten Herrn Feiwesch, Sohn des Meisters, Herrn Efraim,
+     <lb n='15'/>
+     er möge ewig leben.
+     <lb n='16'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1f: Nach Jes 22,16</p>
+    <p>Zl 3f: Nach Jes 28,5 | Zl 4: RutR zu Rut 2,5</p>
+    <p>Zl 5: Nach Spr 31,19</p>
+    <p>Zl 5f: Jes 47,1</p>
+    <p>Zl 6f: Nach Ijob 19,21 | Zl 7: Nach bMK 25b</p>
+    <p>Zl 8f: Nach Amos 8,9</p>
+    <p>Zl 11f: Vgl. Gen 35,20</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rah in Zln 3,4, auf -eha in Zln 4,5, auf -g(e)ah in Zln 6,7, auf -tah in Zln 7,8 und auf -aim in Zl 9 (aabbccddee).
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>
+     Zl 5a: Wobei hier auch ‎‏כושר‏‎, Tugendhaft, "Tucht" gemeint sein dürfte, was die Wiedergabe zu berücksichtigen sucht, s. auch Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hha-3236-t">hha-3236</ref>
+      von 1696.
+    </p>
+    <p>Zl 7b: Der Zusammenhang in bMK 25b, dass R. Chanin an eben dem Tag starb, an dem der langersehnte Sohn geboren wurde, deutet darauf hin, dass Rechle während oder kurz nach der Geburt eines Sohnes starb. Dort ein Wortspiel mit dem Namen des Protagonisten Chanin oder Chanan, d.h. "der Begnadete". Deshalb die Wiedergabe "Gnade schenkte" anstelle von "gebar".</p>
+    <p>Zln 8b/9a: Das Zitat aus Amos 8,9 ist wiederholt und bezugnehmend im obigen bMK 25b.</p>
+    <p>Zln 11b/12a: Der Vergleich mit der Erzmutter, die während der Geburt starb, ist ein weiterer Hinweis darauf, dass auch Rechle während der Geburt starb.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Elegant komponierte Eulogie, die zunächst die guten Eigenschaften hervorhebt, ehe sie mit "die Zarte und Feine", die Mitteilung über das junge Alter der Verstorbenen, zu der (angedeuteten) Umschreibung der Todesumstände übergeht, um sie mittels des Vergleichs mit der Erzmutter und Namensgeberin Rachel zu bekräftigen.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

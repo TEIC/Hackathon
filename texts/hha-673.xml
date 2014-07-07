@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Hendel Lea bat Meir Kohen ∞ Mordechai Beit, gest. 1785-12-14, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-673</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-673</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-673</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1785-12-14'>1785-12-14</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>DE</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 1932</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-673-1" sex='2'>
+      <persName>Hendel Lea bat Meir Kohen ∞ Mordechai Beit</persName>
+       <event when='1785-12-14' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0673_DE_0109250119.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-09-25'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/05/00000106.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏זאת המצבה לאשה חשובה‏‎
+‏‎     <lb n='2'/>
+     ‎‏הצנועה היקרה לפ״ק‏‎
+‏‎     <lb n='3'/>
+     ‎‏הרבתה עוז נועם דרכיה ליראה‏‎
+‏‎     <lb n='4'/>
+     ‎‏לימודה אם הבנים סמכ״ה ביראה‏‎
+‏‎     <lb n='5'/>
+     ‎‏צדקתה עומדת לעד לה לתפארה‏‎
+‏‎     <lb n='6'/>
+     ‎‏בת כהן היתה לאיש זר ועטרה‏‎
+‏‎     <lb n='7'/>
+     ‎‏ה״ה מ׳ הענדל לאה בת כ׳ מה״ו מאיר‏‎
+‏‎     <lb n='8'/>
+     ‎‏כהן ז״ל אשת כ׳ מרדכי בייט נפטרה‏‎
+‏‎     <lb n='9'/>
+     ‎‏י״ג טבת ונקברה למחרתו י״ד טבת‏‎
+‏‎     <lb n='10'/>
+     ‎‏שנת תקו״ם לתחיה ׃ תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Dies ist die Stele einer angesehenen Frau,
+     <lb n='2'/>
+     Die Züchtige Und Teure der kleinen Zählung.
+     <lb n='3'/>
+     sie mehrte Kraft, die Lieblichkeit ihrer Wege (führen) zur Ehrfurcht,
+     <lb n='4'/>
+     ihr lehren, das Mutter den Kindern, stützte sie auf Ehrfurcht,
+     <lb n='5'/>
+     ihre Gerechtigkeit besteht auf ewig, ihr zur Zierde,
+     <lb n='6'/>
+     Tochter eines Priesters, war sie (ihrem) Manne Kranz und Krone,
+     <lb n='7'/>
+     es ist Frau Hendel Lea, Tochter des geehrten, unseres Lehrers, des Meisters, Herrn Meir
+     <lb n='8'/>
+     Kohen, sein Andenken zum Segen, Gattin des geehrten Mordechai Beit, verschieden
+     <lb n='9'/>
+     13. und begraben am Tag darauf, 14. Tewet
+     <lb n='10'/>
+     des Jahres Auferstehen möge sie zum Leben. Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -wah in Zl 1, auf -rah in Zln 2, (3/4 -irah), 5/6.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      mit dem Todesjahr in Zl 2 und10.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3-4: ‎‏הענדל לאה‏‎ Hendel Lea
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3: Nach Spr 3,17.</p>
+    <p>Zl 4: Nach Ps 113,9; Der Austausch von ‎‏ס‏‎ durch ‎‏ש‏‎ verändert die Aussprache nicht, jedoch die Bedeutung: ‎‏סמכה‏‎, stützte statt ‎‏שמכה‏‎, freute sich. Die Anspielung den den Psalmenzitat und diese leichte Veränderung deutet die Markierung über dem ‎‏מ‏‎ an.</p>
+    <p>Zl 5: Ps 111,3.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

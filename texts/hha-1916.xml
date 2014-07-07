@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Binjamin Wolf ben Jaakow Koppel, gest. 1758-06-21, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1916</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1916</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1916</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1758-06-21'>1758-06-21</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FG</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 2930</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1916-1" sex='1'>
+      <persName>Binjamin Wolf ben Jaakow Koppel</persName>
+       <event when='1758-06-21' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1916_FG_0204210105.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-21'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000296.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏ט״ו לירח התורה . גדע בעברה אבד ראשי‏‎
+‏‎     <lb n='2'/>
+     ‎‏ליצירה‏‎
+‏‎     <lb n='3'/>
+     ‎‏בנימין וואלף הרב מופלג בתור׳ בחסידו׳ ועניו‏‎
+‏‎     <lb n='4'/>
+     ‎‏נין להקצין השתדלין החסיד מהור״ר‏‎
+‏‎     <lb n='5'/>
+     ‎‏יעקב קאפיל שלם בענינו‏‎
+‏‎     <lb n='6'/>
+     ‎‏יגע בתורה השקה מי חיים לרבים‏‎
+‏‎     <lb n='7'/>
+     ‎‏ושתה לקבל אלפא‏‎
+‏‎     <lb n='8'/>
+     ‎‏מי יספר עוצם תורתו ומעשיו‏‎
+‏‎     <lb n='9'/>
+     ‎‏ופעולתו אשר פעל‏‎
+‏‎     <lb n='10'/>
+     ‎‏נפלה עטרת חכמי׳ והורם מצנפ׳ פאר אש׳ צנף‏‎
+‏‎     <lb n='11'/>
+     ‎‏בן אוני ותרב תאניה ואני׳ בבית יעקב‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     15. des Monats der Tora. Abgeschlagen im Zorn, es ging verloren mein Haupt, (518)
+     <lb n='2'/>
+     nach der Schöpfung:
+     <lb n='3'/>
+     Binjamin Wolf, der Meister, ausgezeichnet in Tora, in Frömmigkeit und demütig,
+     <lb n='4'/>
+     Nachkomme des Einflußreichen, des Fürsprechers, des Frommen, unseres Lehrers und Meisters, Herrn
+     <lb n='5'/>
+     Jaakow Koppel, makellos in seinen Angelegenheiten,
+     <lb n='6'/>
+     er befasste sich mit Tora, spendete Wasser des Lebens für viele
+     <lb n='7'/>
+     und trank, um tausendfach zu erhalten.
+     <lb n='8'/>
+     Wer wird erzählen von der Macht seiner Lehre und seiner Werke
+     <lb n='9'/>
+     und Taten, die er wirkte?
+     <lb n='10'/>
+     ›Es fiel die Krone der Weisen‹ und es wurde herabgehoben der prächtige Kopfbund, den er umband.
+     <lb n='11'/>
+     (Er ist) ein ›Sohn des Schmerzes‹, und groß wird sein der bittere Schmerz im Hause Jaakow.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 10: Zusammeng. a. Klgl 5,16 u. 14,24</p>
+    <p>Zl 11: Gen 35,18</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Chronogramm</label>
+      in Zl 1 mit dem Zahlenwert 518 gibt das Sterbejahr an.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      "Binjamin Wolf" (Zln. 3-10), "Sohn des Jaakow" (Zl 11): Lediglich die erste und die letzte Zeile des Abschnitts Zln. 3-10 reichen über die gesamte Breite und stellen dadurch sowohl einen Buchstaben des Namens Binjamin (rechter Rand) als auch des zweiten Namens Wolf (linker Rand). Die Zwischenzeilen (Zln 4-9) zählen hingegen jeweils nur entweder zum linken oder zum rechten Akrostichon und sind entsprechend linksbündig oder rechtsbündig geschrieben, um dies auf dem Stein sichtbar zu machen.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1a: Mit der ungewöhnlichen Bezeichnung ‎‏ירח התורה‏‎ ist hier offensichtlich der Monat Sivan gemeint, in dem das Wochenfest als ‎‏חג מתן תורה‏‎, als Fest der Gabe der Tora, begangen wird.</p>
+    <p>Zl 1b: Der genaue Sinn der Stelle ist unklar; vermutlich ist sie zu verstehen als Aussage aus Sicht der Gemeinde, die den Verlust einer bedeutenden Führungspersönlichkeit (eines "Hauptes") beklagt.</p>
+    <p>Zl 4: Das erste Wort der Zeile, ‎‏נין‏‎, bedeutet primär "Urenkel", desweiteren biblisch auch einfach "Nachkomme". Zu erwarten wäre an dieser Stelle der Inschrift eigentlich der Name des Vaters, der auch im Akrostichon als Jaakow genannt wird. Demnach würde der Ausdruck hier im letzteren Sinn verwendet, und zwar wegen des für das Akrostichon benötigten Anfangsbuchstabens. Andererseits wäre es auch möglich, daß mit Jaakow Koppel tatsächlich der Urgroßvater gemeint ist.</p>
+    <p>Zl 10: vgl. Ez 21,31: ‎‏הסיר המצנפת והרים העטרה‏‎ ("Abgerissen den Kopfbund, herabgehoben die Krone." [Zunz]).</p>
+    <p>Zl 11: Anspielung auf die Herleitung des Namens Benjamin ("Sohn meiner Rechten"), der urspünglich Ben-Oni ("Sohn meines Schmerzes") heißen sollte (vgl. Gen 35,18). Auch biblisch war Benjamin der Sohn des Jaakow.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

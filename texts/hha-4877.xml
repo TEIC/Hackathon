@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Hindel bat Meir Rendsburg SeGaL ∞ Mordechai Warburg (H. Warburg geb. Levy), gest. 1818-02-08, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-4877</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-4877</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-4877</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung mittel 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben (VS); vertieft (RS: Deutsch)</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1818-02-08'>1818-02-08</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>ME</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>W 4841</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-4877-1" sex='2'>
+      <persName>Hindel bat Meir Rendsburg SeGaL ∞ Mordechai Warburg (H. Warburg geb. Levy)</persName>
+       <event when='1818-02-08' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='84'>Hebrew</language>
+    <language ident='de' usage='15'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4877_ME_0307220231.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-07-22'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4877_ME_0307220232.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-07-22'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4877_ME_0307220233.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-07-22'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/544--15a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000185.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״ט‏‎
+‏‎      <lb n='2'/>
+      ‎‏אשה היולדת רכה בשנים‏‎
+‏‎      <lb n='3'/>
+      ‎‏עזבה תשעה בנים ׃ היתה [מט]יבה‏‎
+‏‎      <lb n='4'/>
+      ‎‏לאביונים ׃ א״ח מרת הינדל בת כ״ה‏‎
+‏‎      <lb n='5'/>
+      ‎‏מאיר רענדסבורג סג״ל אשת כ׳‏‎
+‏‎      <lb n='6'/>
+      ‎‏מרדכי ווארבורג ׃ נפטרת אור ליום‏‎
+‏‎      <lb n='7'/>
+      ‎‏א׳ ב׳ אדר ראשון ונקברת יום ב׳ ג׳ בו‏‎
+‏‎      <lb n='8'/>
+      ‎‏תקע״ח‏‎
+‏‎      <lb n='9'/>
+      ‎‏תנצב״ה‏‎
+‏‎      <lb n='10'/>
+      ‎‏הוי הוי עטרת ראשי ׃ אש[ר] עת[ה] מאתי חפשי‏‎
+‏‎      <lb n='11'/>
+      ‎‏היית תמיד עקרת ביתי ונצמ[דת] ב[קר]ב לבי אהובתי‏‎
+‏‎      <lb n='12'/>
+      ‎‏גדלת בני בדרך טובים ועתה [המה] ממך [עזו]בים אוי‏‎
+‏‎      <lb n='13'/>
+      ‎‏כי גדול שברי וא[נה] א[עזוב את צערי] ואיך אנחם ?‏‎
+‏‎      <lb n='14'/>
+      ‎‏בי[ו]ם [ההו]א כ[י תקראי אי]שי!‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='15'/>
+      H. Warburg
+      <lb n='16'/>
+      geb. Levy
+      <lb n='17'/>
+      gest. d. 2. A[da]r 5578
+      <lb n='18'/>
+      im (!) Al[tona] [..52.?]
+      <lb n='19'/>
+      [P?..]
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist geborgen
+      <lb n='2'/>
+      eine Frau, die Wöchnerin, zart an Jahren,
+      <lb n='3'/>
+      sie verließ neun Söhne, sie pflegte wohlzutun
+      <lb n='4'/>
+      den Armen, eine tüchtige Gattin, Frau Hindel, Tochter des geehren Herrn
+      <lb n='5'/>
+      Meir Rendsburg SeGaL, Gattin des geehrten
+      <lb n='6'/>
+      Mordechai Warburg, verschieden am Anfang des Tages
+      <lb n='7'/>
+      1, 2. erster Adar, und begraben Tag 2, 3. desselben (Monats)
+      <lb n='8'/>
+      578.
+      <lb n='9'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+      <lb n='10'/>
+      Ach, wehe, Krone meines Hauptes, nunmehr bist du von mir frei,
+      <lb n='11'/>
+      stets warst du die Walterin meines Hauses, und mit meinem Herzen tief verbunden, meine Geliebte,
+      <lb n='12'/>
+      erzogen hast du meine Kinder auf dem Weg der Guten, und nun sind sie von dir verlassen, wehe,
+      <lb n='13'/>
+      denn groß ist meine Bestürzung, wo kann ich lassen meinen Schmerz, wie getröstet werden?
+      <lb n='14'/>
+      bis zu jenem Tag, da du mich rufen wirst: mein Gatte!
+     </ab>
+    </div>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -nim in Zln 2-4.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Vgl. BerR 90,3; dort von Josef gesagt.</p>
+    <p>Zl 4: Spr 31,10.</p>
+    <p>Zl 6: ‎‏אור ליום‏‎ Beginn des neuen Tages ist nach jüdischem Kalender immer der Abend.</p>
+    <p>Zl 10: Ijob 19,9.</p>
+    <p>Zl 11: Vgl. Ps 113,9.</p>
+    <p>Zl 12: Spr 2,20.</p>
+    <p>Zl 13: Vgl. Jer 14,17.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>zu shha: Lipman, Sohn des Schimschon Hildesheim shha (JG 73), S. 5, Nr. 6; seine Gattin: Grunwald, S. 264 Nr. 2025;</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

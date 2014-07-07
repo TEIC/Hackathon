@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Hizle bat Meir Heilbut ∞ Mosche ben Jaakow Schmuel Warburg, gest. 1693-01-24, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3161</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3161</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3161</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit geschweiftem Bogen und vorkragender, gefaster und scharrierter Rahmenleiste. In den Zwickeln Tetraederblöcke. Angedeuteter Kämpferaufsatz. Im Bogenfeld die Abkürzung ‎‏פ״נ‏‎ im oberen Winkel zweier gekreuzter Palmblätter.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1693-01-24'>1693-01-24</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GM GN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 979</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3161-1" sex='2'>
+      <persName>Hizle bat Meir Heilbut ∞ Mosche ben Jaakow Schmuel Warburg</persName>
+       <event when='1693-01-24' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3161_GM_0204230237.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3161_GN_0205260210.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000437.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏האשה היקרה והמעולה ׃‏‎
+‏‎     <lb n='3'/>
+     ‎‏יומם ולילה הדר פעלה ׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏צלחה להמחיה וכלכלה ׃‏‎
+‏‎     <lb n='5'/>
+     ‎‏לחכמה אחתה והיא צלה ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏היתה כאנית סחר בעלה ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏מחבלי ילדה רוחה עלה ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏ה״ה הצנועה מרת היצלה ׃‏‎
+‏‎     <lb n='9'/>
+     ‎‏בת האלוף כ׳ מאיר היילבוט יצ״ו‏‎
+‏‎     <lb n='10'/>
+     ‎‏אשת האלוף כ׳ משה ב׳ הכר׳ יעקב‏‎
+‏‎     <lb n='11'/>
+     ‎‏שמואל ז״ל וורברג נפטרה יו׳ ש״ק‏‎
+‏‎     <lb n='12'/>
+     ‎‏י״ז שבט ונקברה יום א׳ ח״י בו ש׳‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנ״ג לפ״ק‏‎
+‏‎     <lb n='14'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     die teure und hervorragende Frau,
+     <lb n='3'/>
+     Tag und Nacht ›(tat sie) prachtvolle Arbeit‹,
+     <lb n='4'/>
+     erfolgreich bei Lebensunterhalt und Versorgung.
+     <lb n='5'/>
+     Die ›Weisheit (nannte sie) ihre Schwester‹, und sie war ihr Schatten;
+     <lb n='6'/>
+     ›sie war wie ein Kauffahrtsschiff‹ ihres Gatten.
+     <lb n='7'/>
+     ›Von den Geburtswehen‹ stieg ihr Geist auf:
+     <lb n='8'/>
+     es ist die Züchtige, Frau Hizle,
+     <lb n='9'/>
+     Tochter des Vornehmen, des geehrten Meir Heilbut, sein Fels und Erlöser behüte ihn,
+     <lb n='10'/>
+     Gattin des Vornehmen, des geehrten Mosche, Sohn des geehrten Herrn Jaakow
+     <lb n='11'/>
+     Schmuel Warburg, sein Andenken zum Segen, verschieden (am) Tage des heiligen Schabbat,
+     <lb n='12'/>
+     17. Schwat, und begraben Tag 1, 18. desselben, im Jahre
+     <lb n='13'/>
+     453 der kleinen Zählung.
+     <lb n='14'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Ps 111,3</p>
+    <p>Zl 5: nach Spr 7,4</p>
+    <p>Zl 6: Spr 31,14</p>
+    <p>Zl 7: Hos 13,13</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>Verseulogie: siebenzeiliges Namensgedicht mit durchlaufendem Reim und Akrostichon; vierhebige Verse</p>
+    <p>
+     <label>Reim</label>
+      auf -lah in Zln 2-8 (den Namen einschließend).
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      Akrosticha in Zeilen 2-6 ‎‏היצלה‏‎ Hizle
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Eulogie bringt durch teils zitierende, teils assoziierende Formulierungen das Lob der tüchtigen Gattin zum Ausdruck, der bei oder infolge der Geburt verstorbenen Frau Hizle. Ihr hoher gesellschaftlicher Status zeigt der Titel "Aluf", der Vornehme, der sowohl ihren Vater als auch ihren Ehemann vorangestellt sind. Der Vorname der Verstorbenen ist zweimal im Grabgedicht aufgegriffen und grafisch hervorgehoben: einmal im Akrostichon der Zeilen 2 bis 6, ein zweites Mal in der hebräischen Wendung ‎‏היא צלה‏‎, "Sie ist ihr (der Weisheit) Schatten". Das Schluss-he ist nicht markiert: Entweder ist die Markierung abgefallen oder es soll eine Anspielung auf die Kurz- und Koseform "Hitzel" sein.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>
+     Hizla bat Meir Heilbut, die erste Frau von Moses Warburg, starb während oder nach der Geburt ihres Kindes. Die Grabinschrift betont ihren gesellschaftlichen Status und hebt die Verdienste ihres Mannes und ihres Vaters hervor. Das Ehepaar hinterließ zwei Kinder, die Tochter Reize (Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hha-1515-t">hha-1515</ref>
+     ) und den Sohn Schmuel (Samuel) (Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hha-0619-t">hha-0619</ref>
+     ), der die Tradition der Familie fortführt. Ihre Mutterrolle wird allein aufgrund ihrer Todesumstände erwähnt, da das Lobgedicht sich auf ihre Handelstätigkeit, Weltgewandtheit und Geschäftsklugheit konzentriert.
+    </p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

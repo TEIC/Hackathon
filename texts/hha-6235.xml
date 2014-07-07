@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Awraham ben Schimschon Simle Metz, gest. 1683-10-14, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-6235</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-6235</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-6235</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1683-10-14'>1683-10-14</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Feld Grabnummer'>S 899</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-6235-1" sex='1'>
+      <persName>Awraham ben Schimschon Simle Metz</persName>
+       <event when='1683-10-14' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/547--01.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000343.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש קדוש במצות ה׳ שמח ׃‏‎
+‏‎     <lb n='3'/>
+     ‎‏בתומו הלך לבית מרזח ׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏רשע קם והכהו נפש רצח ׃‏‎
+‏‎     <lb n='5'/>
+     ‎‏היה נעלם ד׳ שנים כירח ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏מלך שקברי מתים פותח ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏גלה זה כי הוסיף מטבח ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏והרג גם יהודי מר צרח ׃‏‎
+‏‎     <lb n='9'/>
+     ‎‏ונתפס ואמרו עלה קרח ׃‏‎
+‏‎     <lb n='10'/>
+     ‎‏נהפך הגלגל עליו שטח ׃‏‎
+‏‎     <lb n='11'/>
+     ‎‏ודנוהו ובראשו מקדח ׃‏‎
+‏‎     <lb n='12'/>
+     ‎‏ה״ה הקדוש הר״ר אברהם בן‏‎
+‏‎     <lb n='13'/>
+     ‎‏הר״ר שמשון זימלא מבונא‏‎
+‏‎     <lb n='14'/>
+     ‎‏מיץ ז״ל נהרג ך״ד תשרי תמ״ד‏‎
+‏‎     <lb n='15'/>
+     ‎‏ונקבר ך״ב מנחם תמ״ח לפ״ק‏‎
+‏‎     <lb n='16'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein Märtyrer, an den Geboten des Ewigen erfreute er sich,
+     <lb n='3'/>
+     nichts ahnend ging er ›ins Wirtshaus‹,
+     <lb n='4'/>
+     ›da erhob sich ein Bösewicht und erschlug ihn‹, mordete ihn,
+     <lb n='5'/>
+     vier Jahre lang war er verschwunden wie der Mond?,
+     <lb n='6'/>
+     der König, der die Gräber der Toten öffnet (=Gott),
+     <lb n='7'/>
+     offenbarte dies, denn (der Mörder) fuhr fort zu morden
+     <lb n='8'/>
+     und tötete noch einen Juden, ›der bitterlich schrie‹,
+     <lb n='9'/>
+     und da wurde er gefaßt, und man sagte: ›"Komm herauf, Kahlkopf"‹,
+     <lb n='10'/>
+     da drehte sich das Rad des Schicksals, und er wurde gerädert (und) gestreckt,
+     <lb n='11'/>
+     und man verurteilte ihn und durchbohrte seinen Kopf.
+     <lb n='12'/>
+     Es ist der Märtyrer, der Meister, Herr Awraham, Sohn des
+     <lb n='13'/>
+     Meisters, Herrn Schimschon Simle Metz aus Bonn,
+     <lb n='14'/>
+     sein Andenken zum Segen, ermordet (am) 24. Tischri 444
+     <lb n='15'/>
+     und begraben am 22. Menachem 448 nach kleiner Zählung.
+     <lb n='16'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Jer 16,5</p>
+    <p>Zl 4: Dtn 19,11</p>
+    <p>Zl 8: Zef 1,14</p>
+    <p>Zl 9: 2Kön 2,23</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -each in Zln 2-10.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-6: ‎‏אברהם‏‎ Awraham
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 10: mSan 7,1: Die vier (gerichtlichen) Todesarten: Steinigung, Verbrennung, Enthauptung und Erdrosselung (siehe auch bSan 106b).</p>
+    <p>Zl 10a: Der Ausdruck ‎‏ונהפך עליו הגלגל‏‎ ist hier im doppelten Wortsinn zu verstehen: einmal im Sinne des sich drehenden Schicksalsrades und einmal konkret im Sinne von „rädern“; entsprechend wurde hier doppelt übersetzt.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der Orientalist und Theologe Johann Jakob Schudt, welcher damals selbst in Altona weilte, berichtet, der Mörder sei "lebendig von oben herab geradbrechet und sein Leib auffs Rad geflochten, auch auf der Juden Anhalten und Kosten, daß er von dannen nicht heimlich weggethan würde, mit starcken eisernen Ketten fest gemacht worden".</p>
+    <p>Das Grabmal ist nicht erhalten. Wiedergabe der Inschrift nach historischem Foto.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

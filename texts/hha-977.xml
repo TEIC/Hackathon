@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mosche ben Mendel Warburg (Charles Warburg), gest. 1858-03-26, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-977</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-977</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-977</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft (VS; RS: Deutsch)</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1858-03-26'>1858-03-26</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EG</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-977-1" sex='1'>
+      <persName>Mosche ben Mendel Warburg (Charles Warburg)</persName>
+       <event when='1858-03-26' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='60'>Hebrew</language>
+    <language ident='de' usage='39'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0977_EG_0109250132.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-09-25'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0977_EG_0206030221.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-06-03'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000021.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000265.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0918_EF_0109140208.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-09-14'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0918_EF_0409030408.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-09-03'/>
+    Fragment verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏[‎‏פ]״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏[‎‏הבחור מש]ה בן פו״מ‏‎
+‏‎      <lb n='3'/>
+      ‎‏[‎‏דק״ק] המ[בור]ג בעיר לאנדאן‏‎
+‏‎      <lb n='4'/>
+      ‎‏כ״ה מענד[ל ו]וארבורג‏‎
+‏‎      <lb n='5'/>
+      ‎‏נולד יו״ד אייר תקע״ז‏‎
+‏‎      <lb n='6'/>
+      ‎‏נפטר י״א ניסן תר[י״ח]‏‎
+‏‎      <lb n='7'/>
+      ‎‏מרגוע לנפש תמצא ב[גן שלומך]‏‎
+‏‎      <lb n='8'/>
+      ‎‏[‎‏שנות חייך נקצרו בדוי משכבך]‏‎
+‏‎      <lb n='9'/>
+      ‎‏[‎‏הוריך וריעך לעד יזכירו הדרת שמך]‏‎
+‏‎      <lb n='10'/>
+      ‎‏[‎‏תנצב״ה]‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='11'/>
+      [Charles] Warburg
+      <lb n='12'/>
+      [geb. d. 10.] Iyar 5577,
+      <lb n='13'/>
+      gest. d. [11.] Nissan 5618.
+      <lb n='14'/>
+      Dein fromme... u.h... [e nicht]
+      <lb n='15'/>
+      Im übervollen ... [den]
+      <lb n='16'/>
+      Und ... .[icht]
+      <lb n='17'/>
+      ---
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      der Junggeselle Mosche, Sohn des Vorstehers und Leiters
+      <lb n='3'/>
+      der heiligen Gemeinde Hamburg in der Stadt London,
+      <lb n='4'/>
+      der geehrte Herr Mendel Warburg,
+      <lb n='5'/>
+      geboren zehnter Ijar 577,
+      <lb n='6'/>
+      verschieden 11. Nissan 618,
+      <lb n='7'/>
+      ›Ruhe wird deine Seele finden‹ im Garten des Friedens,
+      <lb n='8'/>
+      deine Lebensjahre verkürzten sich auf deinen Schmerzenslager,
+      <lb n='9'/>
+      deine Eltern und deine Freunde, auf ewig gedenken sie dein ehrenvollen Namen.
+      <lb n='10'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 7: Jer 6,16</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -cha in Zln 7-9.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 7-9: ‎‏משה‏‎ Mosche
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal in situ und unbeschädigt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

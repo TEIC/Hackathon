@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Simcha bat [...] Delbanco ∞ Josef, gest. 1799-12-24, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-5184</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5184</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-5184</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1799-12-24'>1799-12-24</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>ND</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>W 4953</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-5184-1" sex='2'>
+      <persName>Simcha bat [...] Delbanco ∞ Josef</persName>
+       <event when='1799-12-24' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/5184_ND_0408040220.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-04'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/08/00000104.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏מצבת אבן מקיר תזעק‏‎
+‏‎     <lb n='2'/>
+     ‎‏אוי לי על שברי שבר יוסף‏‎
+‏‎     <lb n='3'/>
+     ‎‏לזאת יקרא אשה כי מאי׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏לוקחה ׃ אין אשה מתה‏‎
+‏‎     <lb n='5'/>
+     ‎‏אלא לבעלה השרוי בלא‏‎
+‏‎     <lb n='6'/>
+     ‎‏אשה שרוי בלא שמחה‏‎
+‏‎     <lb n='7'/>
+     ‎‏[...] ‎‏אם הבנים מאשתי‏‎
+‏‎     <lb n='8'/>
+     ‎‏[...] ‎‏שונה שמחה המהולל‏‎
+‏‎     <lb n='9'/>
+     ‎‏[...] ‎‏אה אשה יראת ה׳ הי׳‏‎
+‏‎     <lb n='10'/>
+     ‎‏[...‎‏ל] שמה נאה לה כי‏‎
+‏‎     <lb n='11'/>
+     ‎‏[...] ‎‏משמחת לעני׳ ואביונים‏‎
+‏‎     <lb n='12'/>
+     ‎‏[...] ‎‏פרשה לעני וידה‏‎
+‏‎     <lb n='13'/>
+     ‎‏[...] ‎‏לאביון מנשים‏‎
+‏‎     <lb n='14'/>
+     ‎‏[...] ‎‏תבורך האשה‏‎
+‏‎     <lb n='15'/>
+     ‎‏[...] ‎‏שמחה בת‏‎
+‏‎     <lb n='16'/>
+     ‎‏[...] ‎‏הקהלה ה״ה כ״ה‏‎
+‏‎     <lb n='17'/>
+     ‎‏[...] ‎‏דעלבאנקי ז״ל‏‎
+‏‎     <lb n='18'/>
+     ‎‏[...] ‎‏הג״ץ כ״ה יוסף‏‎
+‏‎     <lb n='19'/>
+     ‎‏[...] ‎‏שנפט׳ ונקב׳ ביו׳ ג׳‏‎
+‏‎     <lb n='20'/>
+     ‎‏[...] ‎‏חנוכה תק״ס לפ״ק‏‎
+‏‎     <lb n='21'/>
+     ‎‏תנצב״ה ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Das Steinmal schreit aus der Mauer‹,
+     <lb n='2'/>
+     ›wehe mir, ob meinem Bruche‹, ›dem Bruch des Josef‹,
+     <lb n='3'/>
+     ›diese werde Frau genannt, denn von (ihrem) Manne
+     <lb n='4'/>
+     ist diese genommen‹, ›eine Frau stirbt keinem, 
+     <lb n='5'/>
+     als allein ihrem Gatten‹, ›wer ohne
+     <lb n='6'/>
+     Gattin lebt, lebt ohne Freude‹,
+     <lb n='7'/>
+     [...] ›Mutter ihrer Kinder‹, von meiner Gattin
+     <lb n='8'/>
+     [...] Simcha, der Gepriesenen,
+     <lb n='9'/>
+     [...] eine Frau, die den Ewigen ehrfürchtet, war
+     <lb n='10'/>
+     [...] ihr Name ziemt sich ihrer, denn
+     <lb n='11'/>
+     [...] sie erfreut die Armen und Bedürftigen,
+     <lb n='12'/>
+     [...] ›reicht sie dem Armen, und ihre Hand
+     <lb n='13'/>
+     [...] dem Bedürftigen‹, ›unter den Frauen
+     <lb n='14'/>
+     [...] gesegnet‹, die Frau
+     <lb n='15'/>
+     [...] Simcha, Tochter
+     <lb n='16'/>
+     [...] der Gemeinde, der geehrte Herr
+     <lb n='17'/>
+     [...] Delbanco, sein Andenken zum Segen,
+     <lb n='18'/>
+     [...] des Almosenverwalters, des geehrten Herrn Josef
+     <lb n='19'/>
+     [...] die verschied und begraben ward am Tag 3,
+     <lb n='20'/>
+     [...] Channuka 560 der kleinen Zählung.
+     <lb n='21'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens 
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 35,14 und Hab 2,11</p>
+    <p>Zl 2: Jer 10,19 | Zl 2: Am 6,6</p>
+    <p>Zl 3f: Gen 2,23</p>
+    <p>Zl 4f: bSan 22b</p>
+    <p>Zl 5f: bJev 62b</p>
+    <p>Zl 7: Ps 113,9</p>
+    <p>Zl 12f: Spr 31,20</p>
+    <p>Zl 13f: Ri 5,24</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Ein zusammengesetztes Zitat, das eine mittelalterliche Einleitungsformel wieder aufnimmt und mit einem Habakuk-Vers verbindet, das eine starke, persönliche Trauer ausdrückt. In dieser Kombination sehr selten.</p>
+    <p>Zl 2: Der zweite Teil der Zeile beginnt mit ‎‏שבר‏‎, mit dem auch der erste Teil endet. Das Wort ist doppeldeutig und meint sowohl "Bruch" als auch "Nahrung". In letzterer Bedeutung kommt es in Genesis in Verbindung mit Josef, "dem Versorger", "dem Ernährer" Ägyptens und seiner Familie vor. Hier jedoch in der ersten Bedeutung, wobei auf den Namen des Ehegatten angespielt wird.</p>
+    <p>Zln 5/6: Das Talmud-Zitat spielt auf den Namen an, denn Simcha ist Hebräisch: Freude.</p>
+    <p>Zln 10/11: Wiederum eine Anspielung auf den Namen.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal in einem deutlich besseren Zustand, aber leider nicht vollständig, so das Wiedergabe und Übersetzung lückenhaft bleiben müssen. Dennoch ist die gelungene Komposition sichtbar, die teils selten verwendete Zitate der Traditionsliteratur aufnimmt bzw. eine seltene Zusammensetzung dieser konstruiert. Sie nimmt Bezug sowohl auf den Namen der Verstorbenen als auch auf den ihres Gatten.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

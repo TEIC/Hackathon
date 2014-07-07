@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Josef ben Awieser (Joseph Willner), gest. 1878-11-12, Jüdischer Friedhof Dormagen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e03-21</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-21</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e03-21</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <objectType>Stele</objectType>
+          Gesockelte Stele mit eingezogenem Rundbogenabschluss mit vorkragendem Rand. Das Schriftfeld ist von einer Linie umgeben (Vgl. auch nebenstehendes Grabmal, Nr. 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=e03-0020-t">e03-0020</ref>
+          ).
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1985</date>
+           
+          <damage agent='Verwitterung'>Verwitterung stark.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1878-11-12'>1878-11-12</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038848'>
+        Dormagen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.100669 6.834092</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e03-21-1" sex='1'>
+      <persName>Josef ben Awieser (Joseph Willner)</persName>
+       <event when='1878-11-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='70'>Hebrew</language>
+    <language ident='de' usage='29'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0021_E03_070719EPS4052hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0021dE03_070719EPS4054qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0021dE03_070719EPS4059qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse03/xl/0021dE03_070719EPS4060qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007-07-19'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e03.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2014-03-19T21:35:21'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש אמונים הלך תמים כל‏‎
+‏‎     <lb n='3'/>
+     ‎‏מעשיו היו טובים ושלמים‏‎
+‏‎     <lb n='4'/>
+     ‎‏ה״ה יוסף בר אביעזר‏‎
+‏‎     <lb n='5'/>
+     ‎‏נולד י״ז סיון תקע״ו‏‎
+‏‎     <lb n='6'/>
+     ‎‏נפטר ביום ג׳ י״ו חשון תרל״ט לפ״ק‏‎
+‏‎     <lb n='7'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='8'/>
+     Joseph Willner
+     <lb n='9'/>
+     geb. 12. Juni 1816
+     <lb n='10'/>
+     gest. 12. Nov. 1878
+     <lb n='11'/>
+     R.I.F.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ›ein Mann von Treuen‹, er wandelte lauter, all
+     <lb n='3'/>
+     seine Taten waren gut und vollkommen,
+     <lb n='4'/>
+     es ist Josef, Sohn des Awieser,
+     <lb n='5'/>
+     geboren 17. Sivan 576,
+     <lb n='6'/>
+     verschieden am Tag 3, 16. Cheschvan 639 der kleinen Zählung.
+     <lb n='7'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 20,6</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -im in Zln 2-3.
+    </p>
+   </div>
+   <div type="commentary" subtype="Abkürzung">
+    <p>Zl 11: Die Abkürzung "R.I.F." steht für "Ruhe in Frieden".</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Joseph Willner ist in einer Aufstellung der Wählerliste zur Neusser Synagogengemeinde aus dem Jahr 1863 als Metzger aufgeführt, 1866 und 1869 als Handelsmann, 1872 wieder als Metzger. 1871 werden in seinem Haushalt sechs Personen gezählt.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

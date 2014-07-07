@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mate bat Chanoch Model Halle ∞ Jeschajahu Levi, gest. 1797-09-21, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-4382</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-4382</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-4382</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1797-09-21'>1797-09-21</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>LC</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>W 4979</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-4382-1" sex='2'>
+      <persName>Mate bat Chanoch Model Halle ∞ Jeschajahu Levi</persName>
+       <event when='1797-09-21' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4382_LC_0306300124.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-06-30'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/08/00000131.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏מהלכת בדרך ישרה‏‎
+‏‎     <lb n='3'/>
+     ‎‏אל עניים בעיניה שורה‏‎
+‏‎     <lb n='4'/>
+     ‎‏טובה וחסדה לשמרה‏‎
+‏‎     <lb n='5'/>
+     ‎‏הירבה בתפי[לו]ת בהסתרה‏‎
+‏‎     <lb n='6'/>
+     ‎‏היא האשה אשר הוכיחוה מנשים‏‎
+‏‎     <lb n='7'/>
+     ‎‏צדקניות המושכלת א״ח מ׳ מאטה‏‎
+‏‎     <lb n='8'/>
+     ‎‏בת כ׳ חנוך מאדל האלי אשת כ׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏ישעי׳ לוי שבה לעולמה נפטרה‏‎
+‏‎     <lb n='10'/>
+     ‎‏ונקברה ביו׳ ה׳ א׳ דר״ה תקנ״ח לפ״ק‏‎
+‏‎     <lb n='11'/>
+     ‎‏תנצב״הותזכה‏‎
+‏‎     <lb n='12'/>
+     ‎‏לעבת״ה עכמע״י אמן‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen 
+     <lb n='2'/>
+     eine (Frau), die auf geradem Wege wandelt,
+     <lb n='3'/>
+     auf die Armen schauten ihre Augen, (richtete sich ihr Blick)
+     <lb n='4'/>
+     um Gutes und ihre Güte zu bewahren,
+     <lb n='5'/>
+     sie betete vermehrt im Verborgenem,
+     <lb n='6'/>
+     es ist die Frau, welche Recht schaffte von den frommen
+     <lb n='7'/>
+     Frauen, die Verständige, (die) tüchtige Gattin, Frau Mate,
+     <lb n='8'/>
+     Tochter des geehrten Chanoch Model Halle, Gattin des geehrten
+     <lb n='9'/>
+     Jeschajahu Levi, sie kehrte zurück in ihre Welt, verschied
+     <lb n='10'/>
+     und begraben am Tag 5, 1. Neujahrstag, 558 der kleinen Zählung,
+     <lb n='11'/>
+     ihre Seele sei eingebunden in das Bündel des Lebens, und ihr möge vergönnt sein
+     <lb n='12'/>
+     bei der Erweckung der Toten auferstehen mit allen Toten des Volkes Israel, Amen
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rah in Zln 2-6.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-5: ‎‏מאטה‏‎ Mate
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Vgl. Esra 2,7; 1Sam 12,23; lang ausgezogenes ‎‏ה‏‎ am Zeilenende.</p>
+    <p>Zl 3: Lang ausgezogenes ‎‏ה‏‎ am Zeilenende.</p>
+    <p>Zl 4: "bewahren" im Sinne von "ausüben" in Hinsicht auf die Bedürftigen; ‎‏לשמרה‏‎ mit fem. Suffix wohl aus Reimgründen; lang ausgezogenes ‎‏ה‏‎ am Zeilenende.</p>
+    <p>Zl 5: Anstelle von ‎‏הירבה‏‎ (mask.) wäre zu erwarten ‎‏הירבתה‏‎ (fem.).</p>
+    <p>Zl 6b/7a: Aufgrund der unterschiedlichen Syntax im Deutschen und Hebräischen stehen in der Übersetzung Attribut und Nomen umgekehrt.</p>
+    <p>Zl 7a: ‎‏המושכלת‏‎ Verschreiber für ‎‏המשוכלת‏‎ oder ‎‏המשכלת‏‎ (die Verständige); vgl. Spr 19,4.</p>
+    <p>Zl 7b: Spr 12,4; 31,10.</p>
+    <p>Zl 11: Lang ausgezogenes ‎‏ה‏‎ am Zeilenende.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

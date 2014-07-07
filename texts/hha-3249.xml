@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Chajim Feiwelman ben Schlomo Butnim, gest. 1689-09-03, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3249</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3249</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3249</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer liegend Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1689-09-03'>1689-09-03</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 933</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3249-1" sex='1'>
+      <persName>Chajim Feiwelman ben Schlomo Butnim</persName>
+       <event when='1689-09-03' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3249_GN_0204230331.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3249_GN_0205260124.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000377.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏אבן‏‎
+‏‎     <lb n='2'/>
+     ‎‏אל גביש על גבי איש חיי״ם ׃‏‎
+‏‎     <lb n='3'/>
+     ‎‏אהוב למטה ונחמד לשמים ׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏במצות בוראו טרח [ח]יים ׃ ‏‎
+‏‎     <lb n='5'/>
+     ‎‏מיחד קונו בכל יום פעמים ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏מילי דאבות בנפשו קיים ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏עד זקנה ושיבה ואחריים ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏ה״ה הזקן וישיש האלוף כמר‏‎
+‏‎     <lb n='9'/>
+     ‎‏חיים פייבלמן בהר״ר שלמה‏‎
+‏‎     <lb n='10'/>
+     ‎‏בוטנים ז״ל נפטר יום ש״ק‏‎
+‏‎     <lb n='11'/>
+     ‎‏ח״י אלול ונקבר יום א׳ י״ט‏‎
+‏‎     <lb n='12'/>
+     ‎‏בו ש[נת] תמ״ט ל״ק תנצב״ה ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Ein Stein
+     <lb n='2'/>
+     des Ewigen (aus) Kristall auf einem Mann des Lebens
+     <lb n='3'/>
+     geliebt (hier) unten und liebenswert dem Himmel,
+     <lb n='4'/>
+     mit den Geboten seines Schöpfers mühte (sich) Chajim,
+     <lb n='5'/>
+     eilte (zu seinem) Erschaffer an jedem Tag zweimal,
+     <lb n='6'/>
+     Worten der Väter erfüllte er aus seiner Seele
+     <lb n='7'/>
+     ›bis ins Alter und Greisenalter ‹ und danach,
+     <lb n='8'/>
+     es ist der Betagte und Greis, der Vornehme, der geehrte Herr
+     <lb n='9'/>
+     Chajim Feiwelman, Sohn des Meisters, Herrn Schlomo
+     <lb n='10'/>
+     Butnim, sein Andenken zum Segen, verschied (am) Tag des heiligen Schabbat,
+     <lb n='11'/>
+     18. Elul und ward begraben Tag 1, 19.
+     <lb n='12'/>
+     desselben (Monats), des Jahres 449 der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 7: Ps 71,18</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ajim in Zln 2,4,7; auf -majim in Zln 3,5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Vgl. Raschi zu Ez 13,11 und 38,22. Die siebte Plage über Ägypten, Hagel, wird mit der Gestalt großer Berg- oder Eiskristalle erläutert. Mosche wurde von ihnen nicht getroffen, da sie über ihm (‎‏על גב‏‎) in der Luft stehenblieben. In Ph I,21 ist das Wort ‎‏אל‏‎ als ein Name des Ewigen aufgefaßt.</p>
+    <p>Zl 3: Vgl. Sefer Orchot Zadiqim, Kap. ‎‏לשון הרע‏‎.</p>
+    <p>Zl 6: Vgl. ‎‏שמונה פרקים לרמב״ם ד״ה וכבר אמרו עליהם השלום‏‎.</p>
+    <p>Zl 11: Das Datum des Todestages ist in umgekehrter Buchstabenfolge geschrieben und ergibt so das Wort ‎‏חי‏‎ (Leben).</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der in Zl 2 vorweggenommene Name Chajim in der Kombination mit aiw kennzeichnet den Verstorbenen zugleich als Mann des Lebens. In Zl 4 wird die Assoziation geweckt, daß sich Herr Chajim sein Leben lang um die Beobachtung der Gebote bemühte. Die Frömmigkeit des Verstorbenen fand u.a. seinen Ausdruck darin, daß er zweimal täglich zum Gebet in die Synagoge ging.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

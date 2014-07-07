@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sarle bat Aharon Hecht ∞ Hirsch ben Joel, gest. 1718-05-07, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1219</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1219</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1219</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,220 x 0,540 x 0,130 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1718-05-07'>1718-05-07</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EK</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>CII 374</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1219-1" sex='2'>
+      <persName>Sarle bat Aharon Hecht ∞ Hirsch ben Joel</persName>
+       <event when='1718-05-07' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1219_EK_0110150123.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-15'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000429.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשה‏‎
+‏‎     <lb n='3'/>
+     ‎‏שהלכה בדרכי ישרה‏‎
+‏‎     <lb n='4'/>
+     ‎‏רב צדקתא לא‏‎
+‏‎     <lb n='5'/>
+     ‎‏נעדרה ׃ הלכה‏‎
+‏‎     <lb n='6'/>
+     ‎‏לעלמא לבי קברה ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏ה״ה מרת שרלה בת‏‎
+‏‎     <lb n='8'/>
+     ‎‏כמ׳ אהרן העכט‏‎
+‏‎     <lb n='9'/>
+     ‎‏אשת המנהיג כמר‏‎
+‏‎     <lb n='10'/>
+     ‎‏הירש ב״י ז״ל ׃ נפטרה‏‎
+‏‎     <lb n='11'/>
+     ‎‏בש״ק ו׳ אייר ונקברה‏‎
+‏‎     <lb n='12'/>
+     ‎‏ביו׳ א׳ ז׳ בו תע״ח לפ״ק‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     eine Frau,
+     <lb n='3'/>
+     welche die geraden Wege ging,
+     <lb n='4'/>
+     groß ihre Wohltat, die nicht
+     <lb n='5'/>
+     ausgeblieben ist, sie ging hin
+     <lb n='6'/>
+     in ihre Welt, in ihr Haus, in ihr Grab,
+     <lb n='7'/>
+     es ist Frau Sarle, Tochter
+     <lb n='8'/>
+     des geehrten Herrn Aharon Hecht,
+     <lb n='9'/>
+     Gattin des Leiters, des geehrten Herrn
+     <lb n='10'/>
+     Hirsch, Sohn des Joel, sein Andenken zum Segen, verschieden
+     <lb n='11'/>
+     am heiligen Schabbat, 6. Ijar und begraben
+     <lb n='12'/>
+     am Tag 1, 7. desselben 478 der kleinen Zählung.
+     <lb n='13'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rah in Zln 3,5,6 (auf den Namen Sara).
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3-5: ‎‏שרה‏‎ Sara
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 4: ‎‏צדקתא‏‎, Aramäisch: Wohltat.</p>
+    <p>
+     Zl 10: ‎‏ב״י‏‎ mit Sohn des Joel aufgelöst nach den shha-Einträgen der Kinder Uri Feiwesch (Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hha-2018-t">hha-2018</ref>
+     , gest. 1731) und Jaakow (Nr. 1948, gest. 1751), in denen der Name Joel ausgeschrieben wurde. GB und Grunwald verwandeln die Abkürzung in den Namen By.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Zwi Hirsch ben Mosche Joel, gest. 1718-07-02, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3213</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3213</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3213</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit geschweiftem Bogenabschluß und gefastem, scharriertem Rahmen. Im Bogenfeld ‎‏פ״נ איש‏‎. Im mittleren Bereich des vertieften Inschriftenfeldes Verwitterungen. Abkürzungszeichen: Häkchen.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           
+          <damage agent='Verwitterung'>Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1718-07-02'>1718-07-02</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1008</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3213-1" sex='1'>
+      <persName>Zwi Hirsch ben Mosche Joel</persName>
+       <event when='1718-07-02' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3213_GN_0204230437.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000457.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ איש‏‎
+‏‎     <lb n='2'/>
+     ‎‏הלך בדרך יושר‏‎
+‏‎     <lb n='3'/>
+     ‎‏ירא אלהים במישור‏‎
+‏‎     <lb n='4'/>
+     ‎‏רץ כצבי למצותו‏‎
+‏‎     <lb n='5'/>
+     ‎‏שמו [נו]דע מ[קד]מותו‏‎
+‏‎     <lb n='6'/>
+     ‎‏ה״ה המ[נהי]ג כ׳ צבי‏‎
+‏‎     <lb n='7'/>
+     ‎‏הירש בן כ׳ משה‏‎
+‏‎     <lb n='8'/>
+     ‎‏יואל נפטר ביום‏‎
+‏‎     <lb n='9'/>
+     ‎‏ש״ק ג׳ תמוז ונקבר‏‎
+‏‎     <lb n='10'/>
+     ‎‏בי׳ רא׳ ד׳ בו תע״ח‏‎
+‏‎     <lb n='11'/>
+     ‎‏לפ״ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen ein Mann,
+     <lb n='2'/>
+     er wandelte auf rechtem Wege,
+     <lb n='3'/>
+     er fürchtete den Ewigen in Geradheit,
+     <lb n='4'/>
+     ›er lief wie ein Hirsch‹ zu seinem Gebot,
+     <lb n='5'/>
+     sein Name war bekannt von seinem Anfang her,
+     <lb n='6'/>
+     es ist der Mann, der Leiter, der geehrte Zwi
+     <lb n='7'/>
+     Hirsch, Sohn des geehrten Mosche
+     <lb n='8'/>
+     Joel, verschied am Tag
+     <lb n='9'/>
+     des heiligen Schabbat, 3.Tammus und ward begraben
+     <lb n='10'/>
+     am er(sten) Tag, 4. desselben, 478
+     <lb n='11'/>
+     der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Av 5,20 u. bPes 112a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Endreim auf -to in Zln 4 und 5. Gleiche Endbuchstaben und Paronomasie im jeweils letzten Wort in Zln 2 und 3.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-5: ‎‏הירש‏‎ Hirsch
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die breviloquente, aus dreigliedrigen Sätzen bestehende Eulogie charakterisiert den Verstorbenen, der das würdevolle Amt des Gemeindeleiters ausübte, als integer und fromm. Sein Vorname Zwi ist durch ein seine Gebotsobservanz alludierendes Zitat vorweggenommen und wird in Form seiner deutschen Entsprechung Hirsch sowohl als Akrostichon durch die Anfangsbuchstaben der Zeilen 2 bis 4, als auch als sein zweiter Vorname in Zeile 7 genannt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

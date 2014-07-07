@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Josef Joswel Mosche ben Gumpe Friedburg, gest. 1753-05-23, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2637</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2637</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2637</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Levitenkanne</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1753-05-23'>1753-05-23</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GD</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3526</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2637-1" sex='1'>
+      <persName>Josef Joswel Mosche ben Gumpe Friedburg</persName>
+       <event when='1753-05-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2637_GD_0204250717.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-25'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000276.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏וללוי אמר]‏‎
+‏‎     <lb n='2'/>
+     ‎‏[‎‏תמיך ואוריך לאיש]‏‎
+‏‎     <lb n='3'/>
+     ‎‏[‎‏חסיד ועניו טהור גברא]‏‎
+‏‎     <lb n='4'/>
+     ‎‏[‎‏רבא ויקרא שמו נודע]‏‎
+‏‎     <lb n='5'/>
+     ‎‏[‎‏בשערים בשער בת רבי׳]‏‎
+‏‎     <lb n='6'/>
+     ‎‏[‎‏ה״ה התורני כ״ה יוסף]‏‎
+‏‎     <lb n='7'/>
+     ‎‏[‎‏יוזבל משה בן הרופה (!)]‏‎
+‏‎     <lb n='8'/>
+     ‎‏[‎‏כ״ה גומפא פרידבורג]‏‎
+‏‎     <lb n='9'/>
+     ‎‏נפטר ונקבר יום [ד׳ י״ט]‏‎
+‏‎     <lb n='10'/>
+     ‎‏אייר תקי״ג לפ״ק‏‎
+‏‎     <lb n='11'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Und von Levi sprach er,
+     <lb n='2'/>
+     dein Recht und dein Licht dem Manne‹,
+     <lb n='3'/>
+     ›dem frommen und demütigen‹, auch reinen›, dem großen
+     <lb n='4'/>
+     und teuren Manne‹, der genannt wurde, ›der, dessen Namen bekannt
+     <lb n='5'/>
+     am Tore‹, ›am Tore von Bat Rabbim‹,
+     <lb n='6'/>
+     es ist der Toragelehrte, der geehrte Herr Josef
+     <lb n='7'/>
+     Joswel Mosche, Sohn des Arztes,
+     <lb n='8'/>
+     des geehrten Herrn Gumpe Friedburg,
+     <lb n='9'/>
+     verschieden und begraben Tag 4, 19.
+     <lb n='10'/>
+     Ijar 513 der kleinen Zählung.
+     <lb n='11'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1f: Dtn 33,8</p>
+    <p>Zl 3: bBer 6b</p>
+    <p>Zl 3f: bPes 113a</p>
+    <p>Zl 4f: Spr 31,23 | Zl 5: Hld 7,5</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1/2: Die Worte an Levi aus dem Moses-Segen heben die levitische Abstammung hervor und spielen auf die bedingungslose Treue dieses Stammes zu Gott an.</p>
+    <p>Zl 2: ‎‏תמים ואורים‏‎, urim ve tumim, waren heiliges Gerät mit zwölf Edelsteinen, die der Hohepriester trug, mit deren Hilfe er die Antworten Gottes übermittelte. Übertragen eine absolut maßgebende Instanz. Die Wiedergabe sucht Wörtliches mit Sinngemäßem zu verbinden.</p>
+    <p>Zln 2/3: Das Zitat aus Deuteronomium geht in ein Talmudzitat über, das auf den alten großen Gelehrten Hillel gemünzt wurde, als er starb, ein Sinnbild an Weisheit und Güte.</p>
+    <p>Zl 5: Bat Rabbim, wörtlich "Tochter von Vielen", war ein wichtiges Tor in Jerusalem, über dessen genaue Bedeutung es unterschiedliche Auslegungen gibt.</p>
+    <p>Zl 7: Das letzte Wort ist verschrieben.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal unbeschädigt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

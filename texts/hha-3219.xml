@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schmuel ben Chajim Seligmann, gest. 1686-04-21, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3219</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3219</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3219</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit geschweiftem Bogenabschluß und gestufter, scharrierter Rahmenleiste. Im Bogenfeld das Wort ‎‏פה‏‎. Satztrenner: spiegelverkehrte §-Zeichen. Abkürzungszeichen: Krönchen.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1686-04-21'>1686-04-21</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1003</geo>
+          <geo decls='Feld Grabnummer'> n 446</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3219-1" sex='1'>
+      <persName>Schmuel ben Chajim Seligmann</persName>
+       <event when='1686-04-21' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3219_GN_0205260118.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000452.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נטמן. צנצנת המן.‏‎
+‏‎     <lb n='3'/>
+     ‎‏צנא מלא דדובשה.‏‎
+‏‎     <lb n='4'/>
+     ‎‏בקי בתלמוד רבינא ורב‏‎
+‏‎     <lb n='5'/>
+     ‎‏אשי. מקבצאל ורב פעלים‏‎
+‏‎     <lb n='6'/>
+     ‎‏תמיד יושב אהלים. ונר‏‎
+‏‎     <lb n='7'/>
+     ‎‏אלקים כבה. בעשרי׳ ושבעה‏‎
+‏‎     <lb n='8'/>
+     ‎‏לחדש הראשון בראשון‏‎
+‏‎     <lb n='9'/>
+     ‎‏ושמואל שכב עם אבותיו‏‎
+‏‎     <lb n='10'/>
+     ‎‏ה״ה מוהר״ר שמואל בן מו‏‎
+‏‎     <lb n='11'/>
+     ‎‏הר״ר חיים זעליקמן ז״ל אב״ד‏‎
+‏‎     <lb n='12'/>
+     ‎‏דק״ק גאשלר שנת תמ״ו‏‎
+‏‎     <lb n='13'/>
+     ‎‏לפ״ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     ist geborgen ein ›Manna-Gefäß‹,
+     <lb n='3'/>
+     Ein Gefäß voll (Dattel-)Honig.
+     <lb n='4'/>
+     Bewandert in der Lehre Rabinas und Rav
+     <lb n='5'/>
+     Aschis. ›Aus Kabzeel und reich an Taten.‹
+     <lb n='6'/>
+     ›Beständig in den Zelten sitzend.‹ ›Und das Licht
+     <lb n='7'/>
+     des Ewigen erlosch.‹ Am siebenundzwanzigsten
+     <lb n='8'/>
+     des ersten Monats, am ersten (Tag)
+     <lb n='9'/>
+     und Schmuel legte sich zu seinen Vätern.
+     <lb n='10'/>
+     Das ist der Mann, unser Lehrer und Meister, Herr Schmuel, Sohn unseres Lehrers
+     <lb n='11'/>
+     und Meisters, Herrn Chajim Seligmann, sein Andenken zum Segen, Vorsitzender der Gerichtsbarkeit
+     <lb n='12'/>
+     der heiligen Gemeinde Goslar, Jahr 446
+     <lb n='13'/>
+     der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: bJom 52b und vgl. Ex 16,33.</p>
+    <p>Zl 5: Nach 2 Sam 23,20</p>
+    <p>Zl 6: Vgl. bMen 99b u. Ex 33,11</p>
+    <p>Zl 6f: Nach 1 Sam 3,3</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      In Zeile 2 Homoioteleuton des ersten und letzten Wortes. Alle Satzglieder von Zeile 3 haben gleichen Auslaut. Homoioteleuton auf -lim in Zeile 5 und 6, das mit dem auf -im in Zeile 7 harmoniert. In Zeile 8 Epanalepse auf -rischon.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 4/5a: Der Talmud nennt die beiden Amoraim Rabina und Rav Aschi häufig.</p>
+    <p>Zl 5b: Vgl. bBer 18a, wo das Heldentum Benajas aus Kabzeel als Werk für die Mehrung der Weisung interpretiert wird.</p>
+    <p>Zl 6a: Josua bin Nun gilt nach bMen 99b als besonders eifrig im Studium der Tora, da er nach Ex 33,11 nicht aus dem Zelt (der Zusammenkunft mit der Schechina) wich.</p>
+    <p>Zl 7b: Die Datumsangabe ist in Worten ausgeschrieben</p>
+    <p>Zl 9a: Mit dem Zitat aus 1Sam 3,3 ‎‏ושמואל שכב‏‎ erfolgt eine Vorwegnahme des Namens "Schmuel". Das Prädikat erfährt jedoch hier zusätzlich eine metaphorische Aufladung. Die geprägte biblische Wendung ‎‏שכב עם אבותיו‏‎ wurde hier mit dem oben genannten Zitat verschmolzen.</p>
+    <p>Zl 10b/11a: Die Abkürzung ‎‏מוהר״ר‏‎ ist zeilenübergreifend geschrieben.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>In der Eulogie wird primär die Gelehrtheit des Verstorbenen in Talmud und Tora v.a. mittels Metaphern thematisiert. So wird er mit dem zur Zeit der Wüstenwanderung im Heiligtum zum generationsüberdauernden Gedächtnis aufbewahrten Manna-Krug identifiziert. Besonders gute Kenntnisse besaß er im Gebiet des Talmuds, als dessen hervorragende Endredaktoren nach mittelalterlicher Tradition Rabina und Rav Aschi gelten. Ein Vergleich mit Josua bin Nun, der besonders dem Studium der Tora anhing klingt an. Auch wird Herr Schmuel "Licht des Ewigen" genannt, in Analogie zu "Ner Jisrael", einer Bezeichnung für König David, die in der Folgezeit auf große Gelehrte wie Jochanan ben Sakkai (bBer 28b) angewandt wurde. Herr Schmuel setzte damit die von seinem Vater, einem Rabbinatsassessor, überkommene Gelehrtheit in Talmud, Tora und Halacha fort.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

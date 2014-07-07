@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Zippora bat Elija ∞ Meir Goslar, gest. 1722-02-28, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2951</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2951</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2951</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral: Kranz, Palmetten; gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1722-02-28'>1722-02-28</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GI</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>CII 733</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2951-1" sex='2'>
+      <persName>Zippora bat Elija ∞ Meir Goslar</persName>
+       <event when='1722-02-28' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2951_GI_0204250233.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-25'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000188.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000048.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏צדקת ה׳ עשתה בעמיד׳‏‎
+‏‎     <lb n='3'/>
+     ‎‏והליכה׃‏‎
+‏‎     <lb n='4'/>
+     ‎‏פתה נתנה לעניים ול‏‎
+‏‎     <lb n='5'/>
+     ‎‏אביוני׳ נמוכה׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏ויושבת בתענית בה״כ‏‎
+‏‎     <lb n='7'/>
+     ‎‏אשרי שלו ככה׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏רדפת צדקה וחסד ומלא׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏ברכה׃‏‎
+‏‎     <lb n='10'/>
+     ‎‏הלכה ראשון לבה״כ ויצא׳‏‎
+‏‎     <lb n='11'/>
+     ‎‏אחרונה כהלכה׃‏‎
+‏‎     <lb n='12'/>
+     ‎‏ה׳ הצנוע׳ והחסו׳ מ׳ צפור׳‏‎
+‏‎     <lb n='13'/>
+     ‎‏בת האלוף פ״ו כ״ה אלי׳ ז״ל אש׳‏‎
+‏‎     <lb n='14'/>
+     ‎‏כ׳ מאיר גשליר ונפטר׳ ונקב׳‏‎
+‏‎     <lb n='15'/>
+     ‎‏יו׳ ו׳ עש״ק ך״ב אדר תפ״ב לפ״ק‏‎
+‏‎     <lb n='16'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen,
+     <lb n='2'/>
+     Des Ewigen Gerechtigkeit erwirkte sie, wo sie steht
+     <lb n='3'/>
+     und geht,
+     <lb n='4'/>
+     ›ihren Laib gab sie den Armen und den
+     <lb n='5'/>
+     Bedürftigen ihr Geringstes‹,
+     <lb n='6'/>
+     sie (selbst) aber sitzt fastend im Versammlungshaus
+     <lb n='7'/>
+     ›- glücklich, wem es (mit seiner Gattin) so ergeht!‹,
+     <lb n='8'/>
+     ›sie strebt nach Gerechtigkeit und Güte und ist voller
+     <lb n='9'/>
+     Segnungen‹,
+     <lb n='10'/>
+     ging als erste ins Versammlungshaus und kam heraus
+     <lb n='11'/>
+     als letzte wie es sich gehört,
+     <lb n='12'/>
+     es ist die Züchtige und die Anmutsvolle, Frau Zippora,
+     <lb n='13'/>
+     Tochter des Vornehmen, des Vorstehers und Leiters, des geehrten Herrn Elija, sein Andenken zum Segen, Gattin des
+     <lb n='14'/>
+     geehrten Meir Goslar, verschieden und begraben
+     <lb n='15'/>
+     Tag 6, Rüsttag des heiligen Schabbat, 22. Adar 482 der kleinen Zählung.
+     <lb n='16'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4f: Vgl. Spr 31,20</p>
+    <p>Zl 7: Vgl. Ps 144,15</p>
+    <p>Zl 8f: Nach Spr 21,21</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -chah in Zln 3, 5, 7 9, 11.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2, 4, 6, 8, 10: ‎‏צפורה‏‎ Zippora
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 6/7: Die beiden Zeilen spielen an auf "Aschre", das sich zusammensetzt aus Verse der Psalmen 84 und 144 (vgl. dazu Ismar Elbogen, "Der jüdische Gottesdienst in seiner geschichtlichen Entwicklung", 3. Auflage, Frankfurt a. Main 1931.). Dort heißt es: "Glücklich, die sitzen in Deinem Hause" bzw. dann: "Glücklich das Volk, dem es so ergeht, glücklich das Volk, dessen Gott der Ewige ist."</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

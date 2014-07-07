@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Noach Chajim Zwi ben Awraham Meir Berlin, gest. 1802-03-07, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1252</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1252</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1252</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,520 x 0,850 x 0,190 m</dim>
+          </dimensions>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1802-03-07'>1802-03-07</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EL</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1406</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1252-1" sex='1'>
+      <persName>Noach Chajim Zwi ben Awraham Meir Berlin</persName>
+       <event when='1802-03-07' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1252_EL_0110150218.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-15'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000222.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏זאת המצבה לכל יקר ראתה עינו אזן וחקר בתוקפו וחסנו‏‎
+‏‎     <lb n='2'/>
+     ‎‏(‎‏היא למעצבה) (אשר מלך עלינו) (דברי חפץ דשנו)‏‎
+‏‎     <lb n='3'/>
+     ‎‏ותירושו משמח אלהים ואנשים (ויף בגדלו) ויוכל לו לנוע על עצים גבוהים‏‎
+‏‎     <lb n='4'/>
+     ‎‏ובצורים נשמים אלמוגים מסעד לבתי ה׳ ושוקדיהם‏‎
+‏‎     <lb n='5'/>
+     ‎‏ארזים יופי ענף יטיפו בשמים בתורתו התמימה‏‎
+‏‎     <lb n='6'/>
+     ‎‏יראום האדם וחי בהם‏‎
+‏‎     <lb n='7'/>
+     ‎‏ובמעין החכמה‏‎
+‏‎     <lb n='8'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='9'/>
+     ‎‏איש המופתי על הכרתיועל הפלתי גאון אמתי‏‎
+‏‎     <lb n='10'/>
+     ‎‏כבוד הרב מה״ו נח חיים צבי שהי׳ אב״ד בשלש ק״ק‏‎
+‏‎     <lb n='11'/>
+     ‎‏אה״ו בן הנציבי ג״ה מה״ו אברהם מאיר ברלין זצ״ל יצאה‏‎
+‏‎     <lb n='12'/>
+     ‎‏נשמתו ביום א׳ ונקבר למחרתו ביום ב׳ ד׳ אדר שני תקס״ב לפ״ק‏‎
+‏‎     <lb n='13'/>
+     ‎‏נהי וקינים בת עמי הרימי קולך כש|צּפר‏‎
+‏‎     <lb n='14'/>
+     ‎‏חזק מאוד תריעי ותעערי לאשא הו|פר‏‎
+‏‎     <lb n='15'/>
+     ‎‏חליתך ועדיך הורד תחת פאר א|פר‏‎
+‏‎     <lb n='16'/>
+     ‎‏יוצע לרבים וכן שלמים לאשכל הכ|פר‏‎
+‏‎     <lb n='17'/>
+     ‎‏ידיו רב לו להגות ולהורות באמרי ש|פר‏‎
+‏‎     <lb n='18'/>
+     ‎‏מור ואהלות שפתותיו שושנים לאין מס|פר‏‎
+‏‎     <lb n='19'/>
+     ‎‏צבי צדיק רזי לו לא אנס בספור וס|פר‏‎
+‏‎     <lb n='20'/>
+     ‎‏גאון פליטת בית יהודה ושוקל וסו|פר‏‎
+‏‎     <lb n='21'/>
+     ‎‏תפארת עוזמו יחד נחת על ע|פר‏‎
+‏‎     <lb n='22'/>
+     ‎‏אבל יחיד בדורו יעשו לך והתפלש בא|פר‏‎
+‏‎     <lb n='23'/>
+     ‎‏הישרי׳ בלבותם והמטי׳ עקלקלותם ולארץ יכ|פר‏‎
+‏‎     <lb n='24'/>
+     ‎‏ואתה תנוח בשלום עד ככתוב בס|פר‏‎
+‏‎     <lb n='25'/>
+     ‎‏יצו ה׳ להקיץ ולרנן שוכני ע|●פר‏‎
+‏‎     <lb n='26'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Dies ist die Stele für alles Kostbare, was sein Auge gesehen, er wog ab und durchforschte mit seiner Tucht und seiner Kraft,
+     <lb n='2'/>
+     (- zum Bekümmernis ist sie -) (- des, der über uns herrschte -) (- Worte von Wert sein Fett -)
+     <lb n='3'/>
+     sein Most erfreut Gott und Menschen, und er vermochte (- schön ward er in seiner Grösse -) sich zu wiegen über hohen und starken
+     <lb n='4'/>
+     Bäumen der Himmel, (von) "Sandelholz", Stütze für Häuser des Ewigen und jene, die sie beständig aufsuchen,
+     <lb n='5'/>
+     (von) "Zedern", schön bezweigt, träufeln in "Wohlgerüchen", in seiner lauteren Weisung,
+     <lb n='6'/>
+     es sehe sie der Mensch und ›lebe in ihnen‹
+     <lb n='7'/>
+     und in der "Quelle der Weisheit".
+     <lb n='8'/>
+     Hier ist begraben
+     <lb n='9'/>
+     ein Mann, der weit übertraf Krethi und Plethi, ein wahrhaft herausragender Gelehrter,
+     <lb n='10'/>
+     der geehrte Rabbiner, unser Lehrer und Meister, Noach Chajim Zwi, Vorsitzender der Gerichtsbarkeit war er in den drei heiligen Gemeinden
+     <lb n='11'/>
+     Altona, Hamburg, Wandsbek, Sohn des Aufgestellten, des Kastenmeisters, unseres Lehrers und Meisters, Awraham Meir Berlin, das Andenken des Gerechten sei zum Segen. Es ging aus
+     <lb n='12'/>
+     seine Seele am Tage 1, und er wurde begraben am darauffolgenden (Tag), am Tag 2, dem 4. des Zweiten Adar 562 der kleinen Zählung.
+     <lb n='13'/>
+     Klage und Trauerklang erhebe, Tochter meines Volkes, wie ein Schofar deine Stimme,
+     <lb n='14'/>
+     mächtig stoße ins Horn und laß es erschallen für den, der gebrochen ward,
+     <lb n='15'/>
+     dein Schmuck und dein Geschmeide, heruntergerissen sie, Asche statt Schmuck,
+     <lb n='16'/>
+     angelegt von vielen und auch Unversehrten ob der Zyperntraube.
+     <lb n='17'/>
+     Seine Hände waren stark zu denken und zu lehren mit schönen Worten,
+     <lb n='18'/>
+     Myrrhe und Aloe seine Lippen, Lilien ohne Zahl,
+     <lb n='19'/>
+     Hirsch, der Gerechte, kein Geheimnis, das ihm unvertraut (wäre) in Zahl und Buch,
+     <lb n='20'/>
+     ein Überragender (Gelehrter), dem Rest des Hauses Juda, wägend und zählend,
+     <lb n='21'/>
+     der Glanz all seiner Kraft ruhend auf dem Staube,
+     <lb n='22'/>
+     eine Trauer, die einzigartig ist in der Generation, bekundet man dir, niedergestreckt in der Asche,
+     <lb n='23'/>
+     die Aufrechten in ihrem Herzen und die sich abwenden von ihren gewundenen Pfaden, und dem Land werde Versöhnung.
+     <lb n='24'/>
+     Du ruhst im Frieden bis alsdann, wie im Buch es geschrieben,
+     <lb n='25'/>
+     der Ewige gebietet zu erwachen und zu jubeln denen, die im Staube weilen.
+     <lb n='26'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 6: Lev 18,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Binnenreim auf -i (für Zwi) in Zln 7/8 und Reim (auch visuell) auf -f℗er/-far in Zln 12-24.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 12-24 Noach Chajjim Zwi, der überragende Gelehrte, Zierde von Altona, Hamburg und Wandsbek, ihr Fels und Erlöser möge sie schützen.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Den roten Zitat-Faden für die ersten beiden Zeilen findet man in der berühmten Jotam-Fabel in Richter 9. ‎‏מלך עלינו‏‎ "Malakh alenu" (herrschte über uns), sozusagen als Überschrift, in Ri 9 mit negativer Konnotation, hier hingegen lobend. Ferner das Attribut des Ölbaums, der nicht herrschen möchte: deschen (Fett). Seine Frucht, sein Fett, mit dem man Gott und Menschen ehrt, ist wertvoller als die Herrschaft - die er ablehnt (Ri 9, 9). Diwre chefez (Worte von Wert) bedeutet nach Raschi: Halacha dem Mosche vom Sinai. Wortspiel ‎‏*‏‎ Stele und ‎‏*‏‎, Betrübnis.</p>
+    <p>Zl 2: Vgl. Ri 9,13. Tirosch, der Most vom Weinstock. Auch hier steht der Besungene nicht zurück, ist fruchtbar wie der Weinstock. Und trotzdem kann er außerdem das, was all die fruchtbaren, wertvollen Bäume ablehnen - sich zu wiegen über den Bäumen, über den anderen, sprich zu herrschen? Eher Anspielung auf seine Werke, die "Bäume" im Titel tragen. So ist auch das Zitat in der Klammer aus Ez 31,7 zu verstehen.</p>
+    <p>Zl 3: bazur/bezurim (stark), als Attribut zu ezim. "Sandelholz", Aze almugim, so der Titel eines der drei von R. Noach Zwi Berlin verfaßten und auch veröffentlichten Bücher. Vgl. 1 Kön 10,11f.</p>
+    <p>Zl 4: "Zedern", Aze arasim, ein weiterer Buchtitel des Verstorbenen. "Schön bezweigt", vgl. Ez 31,3. "Wohlgerüche", Aze besamim, "Duftbäume", ein unveröffentlichtes Werk.</p>
+    <p>Zl 6: "Quelle der Weisheit", Ma'ajan ha-chokhma, das dritte veröffentlichte Buch.</p>
+    <p>Zln 3-6: Die Buchtitel in größeren Buchstaben. Der inhaltliche rote Faden dieser ersten sechs Zeilen wird von den vier Büchern des Verstorbenen gebildet (zu denen Duckesz bemerkte, dass R. Noach Zwi Berlin keine Kinder hatte, doch pflanzte er starke "Bäume"), die hier geschickt miteinander in einen eulogisierenden Zusammenhang gebracht werden. Das akrostichische Klagelied kann sich dann ganz der Trauer widmen und wenig nur über die Persönlichkeit selbst sagen, mit seinem visuellen Reim allerdings einen großen optischen Eindruck erzielen.</p>
+    <p>Zl 12: Harimi qolekh, erhebe deine Stimme, Jes 40,9.</p>
+    <p>Zl 14: Vgl. Jes 61,3, dort aber pe'er tachat efer, Schmuck statt Asche, hier also dem Kontext entsprechend umgekehrt.</p>
+    <p>Zln 14/15: Zeilenübergreifendes Zitat aus Ester 4,3: efer juzza la-rabim, Asche, angelegt von vielen (in Ester heißt es: ... saq va-efer juzza la-rabim, in Sack und Asche legten sich viele).</p>
+    <p>Zl 15: Eschkol ha-kofer, Zyperntraube, Hld 1,14.</p>
+    <p>Zl 16: Imre schefer, schöne Worte, Gen 49,21.</p>
+    <p>Zl 17: "Myrrhe und Aloe", Hld 4,14.</p>
+    <p>Zl 18: Leicht verändertes aramäisches Zitat aus Dan 4,6 ("jemand, der alles weiß").</p>
+    <p>Zl 19: "Überrest des Hauses Jehuda", 2 Kön 19,30 und Jes 37,31.</p>
+    <p>Zl 21: Vgl. Jer 6,26, dort wird die "Tochter meines Volkes" angesprochen, die hier schon in Zl 12 als Trägerin der Klage benannt wird.</p>
+    <p>Zl 22: Vgl. Ps 125,4.5.</p>
+    <p>Zl 23: Anspielung auf Dan 12,13 durch das tanuach - "du ruhst ... bis alsdann, wie im Buch es geschrieben", nämlich im Buch Daniel: ve-tanuach ve-ta'amod le-goralkha le-qez ha-jamin (und du wirst aufstehen zu deinem Los am Ende der Tage).</p>
+    <p>Zl 24: Vgl. Jes 26,19 (dort: "erwachet und jubelt, die ihr weilt im Staube").</p>
+    <p>Zln 12-25: Nach der kunstvollen, "mehrschichtigen" Einführung in das Werk des Verstorbenen in Zln 1-6 und dem eher sachlichen Datenteil in Zln 7-11 - wenngleich ebenfalls des Lobes voll, folgt nun ein hochkomplexes Klagelied. Es bringt ein volles Namensakrostichon einschließlich der Nennung der Dreiergemeinde, an der Noach Chajjim Zwi Berlin allerdings nur wenige Jahre noch tätig war. Sein Inhalt kann den Zwängen des Akrostichons und des Endreimes wegen nicht strikt biographisch oder chronologisch aufgebaut sein, will es auch nicht, sondern strebt einen hohen Ton an, der der Würde und Bedeutung des Gelehrten Ausdruck verleiht: ein ganz "Großer in Israel" ist dahingegangen. Schmuck, Glanz, Wissen und Weisheit, Abwägendes, rationales Gottes- und Weltwissen in der Halacha und auch in der Mystik (Zl 18) sind mit ihm dahingegangen, darum eine einzigartige Trauer, einzig in dieser Generation. Er bzw. sein Tod wird versöhnen das Land, die Aufrechten und die sich von ihren gewundenen Pfaden abwenden - und das Lied schließt mit dem Ausdruck der Auferweckungshoffnung.</p>
+    <p>Mehrfach Wortspiele auf sefer, sofer, mispar, und natürlich der visuelle Reim, doppelt hervorgehoben in Form "konkreter Poesie".</p>
+    <p>Diese überaus anspruchsvolle Inschrift könnte von seinem Kollegen und Freund, dem bekannten R. Raphael Kohen, stammen.</p>
+    <p>Die veröffentlichten Werke:</p>
+    <p>‎‏עצי אלמוגים‏‎, Aze almugim, Sulzbach 539 (= 1778/79) (Halacha)</p>
+    <p>‎‏עצי ארזים‏‎, Aze arasim, Fürth 550 (= 1789/90) (Chidduschim, novellae zum Talmud)</p>
+    <p>‎‏מעין החכמה‏‎, Ma'ajan ha-chokhma, Rödelheim 564 (=1803/04) und erneut Lemberg 1860 (die 613 positiven und negativen Mizwot).</p>
+    <p>Unveröffentlicht:</p>
+    <p>‎‏עצי בשמים‏‎, Aze besamim.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

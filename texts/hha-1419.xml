@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Meir Zadok ben Binjamin Kohen, gest. 1840-03-20, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1419</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1419</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1419</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Segnende Hände</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1840-03-20'>1840-03-20</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1419</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1419-1" sex='1'>
+      <persName>Meir Zadok ben Binjamin Kohen</persName>
+       <event when='1840-03-20' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1419_EN_0110160121.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000285.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1423_EN_0110050103.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-05'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏רב טוב פעל עשה בעצם ישרתו‏‎
+‏‎     <lb n='3'/>
+     ‎‏מאיר [עי(ני חכ)]מ[(י)]ם באור חכמתו‏‎
+‏‎     <lb n='4'/>
+     ‎‏הכהן [רק] בטהר[(ה)] עבד עבודתו‏‎
+‏‎     <lb n='5'/>
+     ‎‏ר[(אש)] המדברי[(ם ת)]וך ק[ה]ל עדתו‏‎
+‏‎     <lb n='6'/>
+     ‎‏בי[ת] נדיב וישר נקר[א בי]תו‏‎
+‏‎     <lb n='7'/>
+     ‎‏דין ומישרים שפט ב[יושר צדק]תו‏‎
+‏‎     <lb n='8'/>
+     ‎‏[‎‏פר]נ[(ס)] ומנהל במטה עוז תורתו‏‎
+‏‎     <lb n='9'/>
+     ‎‏ומנהיג נאמן הי׳ כחמשים שנה לקהלתו‏‎
+‏‎     <lb n='10'/>
+     ‎‏פה עד שובו כבן ע״ה שנ[ה ל]אדמתו‏‎
+‏‎     <lb n='11'/>
+     ‎‏קהלתנו תברך זכרו ושלום מנוחתו‏‎
+‏‎     <lb n='12'/>
+     ‎‏[‎‏ה״ה רב״ד ופו]״מ מהור״ר מאיר צדוק ב׳ פו״מ‏‎
+‏‎     <lb n='13'/>
+     ‎‏כ״ה בנימין כהן נפטר בש״ט ליל [ו׳שושן]‏‎
+‏‎     <lb n='14'/>
+     ‎‏פורים ונקבר יום א׳ [תו״ב א״שּ ת״ר לפ״ק]‏‎
+‏‎     <lb n='15'/>
+     ‎‏תנצ[(ב״ה)]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     Viel Gutes tat er mittels seines aufrechten Daseins,
+     <lb n='3'/>
+     er erleuchtet die Augen der Weisen mit dem Lichte seiner Weisheit,
+     <lb n='4'/>
+     der Prieseter, nur in Reinheit sein Dienst verrichtet,
+     <lb n='5'/>
+     Erster der Redner ... seiner Gemeinde,
+     <lb n='6'/>
+     ein wohltätiges und aufrechtes Haus wurde sein Haus genannt,
+     <lb n='7'/>
+     Recht und ... urteilte er mit Aufrichtigkeit und Gerechtigkeit,
+     <lb n='8'/>
+     Vorsteher und ... seiner Tora,
+     <lb n='9'/>
+     ein getreuer Leiter war er seiner Gemeinde fünfzig Jahre lang
+     <lb n='10'/>
+     hier, bis zur seiner Rückkehr zur Erde, an die 75 Jahre alt,
+     <lb n='11'/>
+     unsere Gemeinde ... sein Andenken, und seine Ruhestätte sei Friede,
+     <lb n='12'/>
+     ... Vorsteher und Leiter, unser Lehrer, der Meister, Herr Meir Zadok, Sohn des Vorstehers und Leiters,
+     <lb n='13'/>
+     des geehrten Herrn Binjamin Kohen, verschieden ›mit gutem Namen‹ in der Nacht (zum Tag) 6, Schuschan
+     <lb n='14'/>
+     Purim und begraben Tag 1, 17. des zweiten Adar 600 der kleinen Zählung.
+     <lb n='15'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 13: bBer 17a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-11: ‎‏רב מאיר הכהן ראש בית דין פרנס ומנהיג פה קהלתנו‏‎ ‏‎ Herr Meir Hakohen Haupt der Gerichtsbarkeit Vorsteher und Leiter  hier (in) unserer Gemeinde 
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Inschrift wurde von Rabbiner Jaakow Ettlinger verfaßt. Ergänzungen nach Duckesz.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

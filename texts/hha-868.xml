@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Salman ben Mosche Warburg, gest. 1824-04-02, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-868</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-868</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-868</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben (VS); vertieft (RS)</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Krone</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1824-04-02'>1824-04-02</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EE</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 2795</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-868-1" sex='1'>
+      <persName>Salman ben Mosche Warburg</persName>
+       <event when='1824-04-02' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0868_EE_0309160221.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-09-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0868_EE_0309160222.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-09-16'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0868_EE_0409030413.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-09-03'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/544--07a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/06/00000095.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏כתר שם [ט]וב‏‎
+‏‎      <lb n='2'/>
+      ‎‏מצבת [ק]בורת‏‎
+‏‎      <lb n='3'/>
+      ‎‏איש צדיק תמים ה״ה [הי]ק[ר] הנכבד ורצוי [לר]וב‏‎
+‏‎      <lb n='4'/>
+      ‎‏אחיו [הנ]גיד [כ״ה שלמה יוסף] הנקרא ב[פי כ]ל‏‎
+‏‎      <lb n='5'/>
+      ‎‏ר׳ זלמן ב׳ מ[שה ווארבורג זצ״ל]‏‎
+‏‎      <lb n='6'/>
+      ‎‏גבאי דח״ק דק[ברנים פה אלטונא יע״א]‏‎
+‏‎      <lb n='7'/>
+      ‎‏נולד ב[י״א] אלול [תקזי״ן לפ״ק]‏‎
+‏‎      <lb n='8'/>
+      ‎‏נפ[טר ביו׳ ו׳] עש״ק [ד׳ ניסן תקפ״ד עם] עלות‏‎
+‏‎      <lb n='9'/>
+      ‎‏השחר ונקבר בו ביו[ם סמוך לשבת]‏‎
+‏‎      <lb n='10'/>
+      ‎‏זכה [נשמת]ו, קודש [הליכתו, ...עמ...]מונים‏‎
+‏‎      <lb n='11'/>
+      ‎‏ללומדי תורה הרבה תשו[רה, ... לא]ביונים‏‎
+‏‎      <lb n='12'/>
+      ‎‏מישרים [אהב, מדי זהב, ... לו]נים‏‎
+‏‎      <lb n='13'/>
+      ‎‏נאמן ר[..., ...ה ישות, ב..נ]ים‏‎
+‏‎      <lb n='14'/>
+      ‎‏ואר[חותיו תמימים, כל הימים, ...נ]ים‏‎
+‏‎      <lb n='15'/>
+      ‎‏בעבור [צדקתו, בני עדתו, ... נאמ]נים‏‎
+‏‎      <lb n='16'/>
+      ‎‏גמולו [ב..., ..., שמי עליונ]ים‏‎
+‏‎      <lb n='17'/>
+      ‎‏[‎‏תנצב״ה]‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='18'/>
+      ‎‏הגבאי דח״ק דקברנים‏‎
+‏‎      <lb n='19'/>
+      ‎‏ר׳ זלמן ב״ר משה‏‎
+‏‎      <lb n='20'/>
+      ‎‏ווארבורג זצ״ל‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ›Krone des guten Namens‹,
+      <lb n='2'/>
+      ›Grabmal‹
+      <lb n='3'/>
+      ›eines Mannes, gerecht und lauter‹, es ist der Teure, der Geehrte und ›wohlgefällig der Menge
+      <lb n='4'/>
+      seiner Brüder‹, der Fürst, der geehrte Herr Schlomo Josef, genannt in aller Munde
+      <lb n='5'/>
+      Herr Salman, Sohn des geehrten Mosche Warburg, das Andenken des Gerechten zum Segen,
+      <lb n='6'/>
+      Vorsteher der Chewra Kaddischa der Totengräber hier in Altona, der Höchste befestige sie, Amen, 
+      <lb n='7'/>
+      geboren am 11. Elul 507 nach kleiner Zählung,
+      <lb n='8'/>
+      verschieden am Tag 6, Rüsttag des heiligen Schabbat, 4. Nissan 584 mit Aufgang
+      <lb n='9'/>
+      der Morgenröte, und begraben an demselben Tag kurz vor Schabbateintritt,
+      <lb n='10'/>
+      rein seine Seele, in Heiligkeit sein Wandel, ...,
+      <lb n='11'/>
+      die Torastudenten, reichlich beschenkt, ... den Bedürftigen,
+      <lb n='12'/>
+      Geradheit liebte er, Gewänder aus Gold, ...,
+      <lb n='13'/>
+      getreu ...,
+      <lb n='14'/>
+      und seine Wege lauter alle Tage ...,
+      <lb n='15'/>
+      ob seiner Gerechtigkeit, die Menschen seiner Gemeinde, ..., getreu,
+      <lb n='16'/>
+      sein Verdienst im ... in den höchsten Himmeln.
+      <lb n='17'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='18'/>
+      Der Vorsteher der Chewra Kaddischa der Totengräber,
+      <lb n='19'/>
+      Herr Salman, Sohn des Herrn Mosche
+      <lb n='20'/>
+      Warburg, das Andenken des Gerechten zum Segen
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Av 4,13</p>
+    <p>Zl 2: Gen 35,20</p>
+    <p>Zl 3: Gen 6,9</p>
+    <p>Zl 3f: Est 10,3</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -nim in Zln 10-16.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 10-16: ‎‏זלמן וארבורג‏‎ Salman Warburg
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

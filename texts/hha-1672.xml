@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Rachel Bella bat Schimon Falk ∞ Mordechai Hekscher, gest. 1780-01-13, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1672</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1672</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1672</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,390 x 0,570 x 0,14 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1780-01-13'>1780-01-13</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FE</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3033</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1672-1" sex='2'>
+      <persName>Rachel Bella bat Schimon Falk ∞ Mordechai Hekscher</persName>
+       <event when='1780-01-13' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1672_FE_0110140333.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-14'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000416.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏היא מצבת קבורת רחל‏‎
+‏‎     <lb n='2'/>
+     ‎‏ברבים יבכו יצעק גרונם‏‎
+‏‎     <lb n='3'/>
+     ‎‏בקול יללה‏‎
+‏‎     <lb n='4'/>
+     ‎‏יעצבו על פרידת נשמת‏‎
+‏‎     <lb n='5'/>
+     ‎‏היתה גדולה‏‎
+‏‎     <lb n='6'/>
+     ‎‏לקוחה היא ואיננה והלכה‏‎
+‏‎     <lb n='7'/>
+     ‎‏בשם תהלה‏‎
+‏‎     <lb n='8'/>
+     ‎‏הלא קינה תעוררו לבושי‏‎
+‏‎     <lb n='9'/>
+     ‎‏ספוד באבלה‏‎
+‏‎     <lb n='10'/>
+     ‎‏על האשה הכשרה והמהוללה‏‎
+‏‎     <lb n='11'/>
+     ‎‏נודע בשערי׳ פעלה עוסק׳ במצות‏‎
+‏‎     <lb n='12'/>
+     ‎‏יומ׳ ולילה הישרה והצנועה וחסיד׳‏‎
+‏‎     <lb n='13'/>
+     ‎‏בגמילות חסדים תמכה ידה אך‏‎
+‏‎     <lb n='14'/>
+     ‎‏נאה היו שנות הגבירה טוב‏‎
+‏‎     <lb n='15'/>
+     ‎‏בכלח באה בשלום בקברה מ׳‏‎
+‏‎     <lb n='16'/>
+     ‎‏רחל בילה בת פו״מ המנוח המפור׳‏‎
+‏‎     <lb n='17'/>
+     ‎‏כ״ה שמעון פאלק זצ״ל אלמנת פו״מ‏‎
+‏‎     <lb n='18'/>
+     ‎‏המנוח המפורס׳ כ״ה מרדכי העקש׳‏‎
+‏‎     <lb n='19'/>
+     ‎‏זצ״ל ונפטר׳ ונקבר׳ בש״ט ביו׳ ה׳ ו׳ שבט‏‎
+‏‎     <lb n='20'/>
+     ‎‏תהי קימתה מהירה‏‎
+‏‎     <lb n='21'/>
+     ‎‏תנצב״ה ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Dies ist das Grabmal der Rachel
+     <lb n='2'/>
+     Öffentlich werden viele weinen, ihre Kehle wird schreien
+     <lb n='3'/>
+     mit lautem Geheul,
+     <lb n='4'/>
+     sie werden trauern über den Abschied der Seele,
+     <lb n='5'/>
+     sie war groß,
+     <lb n='6'/>
+     Fortenommen ist sie, sie ist nicht mehr, ist gegangen
+     <lb n='7'/>
+     mit gepriesenem Namen,
+     <lb n='8'/>
+     werdet ihr nicht Wehklage erheben, ihr in Trauer
+     <lb n='9'/>
+     Gekleideten, in der Trauer
+     <lb n='10'/>
+     über die Frau, die tugendhafte und die gepriesene,
+     <lb n='11'/>
+     in den Toren ihr Wirken bekannt, mit Gebot(serfüllung) beschäftigt
+     <lb n='12'/>
+     Tag und Nacht, die Aufrechte, die Züchtige und Fromme,
+     <lb n='13'/>
+     den Erweis von Liebeswerken unterstützte sie, nur
+     <lb n='14'/>
+     angenehm waren die (77) Jahre der Stattlichen, in gutem
+     <lb n='15'/>
+     Alter (77) kam sie in Frieden in ihr Grab, Frau
+     <lb n='16'/>
+     Rachel Bella, Tochter des Vorstehers und Leiters, des Seligen, des Weitbekannten,
+     <lb n='17'/>
+     des geehrten Herrn Schimon Falk, das Andenken des Gerechten zum Segen, Witwe des Vorstehers und Leiters
+     <lb n='18'/>
+     des Seligen, des Weitbekannten, des geehrten Herrn Mordechai Hekscher,
+     <lb n='19'/>
+     das Andenken des Gerechten zum Segen, verschieden und begraben mit gutem Namen am Tag 5, 6. Schwat
+     <lb n='20'/>
+     möge ihr Auferstehen schnell sein.
+     <lb n='21'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -lah in Zln 3,5,7,9,10,11,12 (Endsilbe des zweiten Vornamens), auf -dah in Zln 12,13 und auf -rah in Zln 14,15,20.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      Zln 13/14 und 14/15 zweimal das Alter (77), in Zl 20 das Todesjahr 540.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2, 4, 6, 8: ‎‏בילה‏‎ Bella
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Gen 35,20; Anspielung auf den ersten Vornamen, vielleicht vom Grabmal daneben (Nr. 1671, auch Rachel) hier inspiriert.</p>
+    <p>Zl 2: Die Übersetzung sucht beide Bedeutungen von ‎‏ברבים‏‎ gerecht zu werden, wie das Wort in Jes 53,12 und Ps 55,19 meist verstanden wird (Menge, Viele) aber auch in Av 3,11 (15) nämlich öffentlich.</p>
+    <p>Zl 3: Sach 11,3;</p>
+    <p>Zln 14/15: Vgl. Ijob 5,26 und bMQ 28a; das Ijob Zitat mit ‎‏בכלח‏‎ (Zahlenwert 60) wird gelegentlich für die Angabe der Lebensjahre verwendet, in die auch die talmudische Interpretation dieser Bibelstelle hineinfließt, die darunter einen unnatürlichen Tod annimmt. Hier, jedoch, gibt das Chronogramm aus ‎‏טוב בכלח‏‎, (Zahlenwert 77) ein deutlich höheres Alter an, und durch das positive Attribut auch eine andere "Bewertung", die noch verstärkt wird mit der Hinzufügung von "in Frieden".</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

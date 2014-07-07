@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Efraim ben Schmuel Sanwel Hekscher, gest. 1759-04-23, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1674</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1674</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1674</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>0,970 x 0,570 x 0,140 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung mittel (Der obere Teil des Grabmals u.a. mit vier Zeilen fehlt, drei davon in aufgeschlagenen Büchern geschrieben) 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Amtssymbol: Buch</decoNote>
+       <decoNote type='ornament'>floral; gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1759-04-23'>1759-04-23</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FE</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3031</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1674-1" sex='1'>
+      <persName>Efraim ben Schmuel Sanwel Hekscher</persName>
+       <event when='1759-04-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1674_FE_0110140335.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-14'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/519--12a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000418.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏פ״נ בעל המחבר ספר]‏‎
+‏‎     <lb n='2'/>
+     ‎‏[‎‏לוית חן]‏‎
+‏‎     <lb n='3'/>
+     ‎‏[‎‏ענקים לגרגרת]‏‎
+‏‎     <lb n='4'/>
+     ‎‏[‎‏אדני פז]‏‎
+‏‎     <lb n='5'/>
+     ‎‏עוללו[ת אפ]רים‏‎
+‏‎     <lb n='6'/>
+     ‎‏דיין מורה זקן ונשוא‏‎
+‏‎     <lb n='7'/>
+     ‎‏פנים בעמו ׃ קיים זאת‏‎
+‏‎     <lb n='8'/>
+     ‎‏התורה אדם כי ימות‏‎
+‏‎     <lb n='9'/>
+     ‎‏באהל ׃ ה״ה המפורסם‏‎
+‏‎     <lb n='10'/>
+     ‎‏מוהר״ר אפרים בן החכם‏‎
+‏‎     <lb n='11'/>
+     ‎‏הכולל מוהר״ר שמואל‏‎
+‏‎     <lb n='12'/>
+     ‎‏זנוויל העקשר זצ״ל‏‎
+‏‎     <lb n='13'/>
+     ‎‏לה״ה ׃ נפטר ונקבר ‏‎
+‏‎     <lb n='14'/>
+     ‎‏ביום ב׳ ך״ו ניסן תקי״ט לפ״ק‏‎
+‏‎     <lb n='15'/>
+     ‎‏תנצב״ה ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben der Verfasser der Werke
+     <lb n='2'/>
+     ›Kranz der Gunst‹,
+     <lb n='3'/>
+     ›Geschmeide um den Hals‹,
+     <lb n='4'/>
+     ›Goldner Sockelgrund‹,
+     <lb n='5'/>
+     ›Nachlese Efraims‹,
+     <lb n='6'/>
+     ein Rabbinatsassessor, ein Lehrer, ›ein Betagter und Hoch-
+     <lb n='7'/>
+     angesehener in seinem Volke‹, ›er erfüllte diese 
+     <lb n='8'/>
+     Tora: ein Mann, der da stirbt
+     <lb n='9'/>
+     im Zelte‹. Es ist der Weitbekannte,
+     <lb n='10'/>
+     unser Lehrer und Meister, Herr Efraim, Sohn des umfassend
+     <lb n='11'/>
+     Weisen, unseres Lehrers und Meisters, Herrn Schmuel
+     <lb n='12'/>
+     Sanwel Hekscher, das Andenken des Gerechten zum Segen,
+     <lb n='13'/>
+     zum Leben in der künftigen Welt, verschieden und begraben
+     <lb n='14'/>
+     am Tag 2, 26. Nissan 519 der kleinen Zählung.
+     <lb n='15'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 1,9</p>
+    <p>Zl 3: Spr 1,9</p>
+    <p>Zl 4: Hld 5,16</p>
+    <p>Zl 5: Ri 8,2</p>
+    <p>Zl 6f: Jes 9,14</p>
+    <p>Zln 7-9: bBer 63b zu Lev 7,37</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 7b-9a: gemeint ist ein lebenslanges Studium.</p>
+    <p>Zu den Büchern: ‎‏לוית חן‏‎ - Teil I: Novellae über Talmud Traktate, Altona 1732/33, Teil II: 1743 (Friedberg, S. 500, ‎‏ל‏‎ 275; Steinschneider, S. 903; Vinograd, S. 24 [Altona 18], Fürst I,376).</p>
+    <p>‎‏ענקים לגרגרת‏‎ Predigten nach Wochenabschnitten, nur bei Benjacob, S. 445, Nr. 484; bei Duckesz erwähnt (aus der Inschrift).</p>
+    <p>‎‏אדני פז‏‎ Gutachten Sammlung zu ‎‏או״ח‏‎, Altona 1743, gedruckt bei Awraham Halle. Benjacob S. 16, Nr. 321, Steinschneider, S. 903, Fürst, I,376, Friedberg S. 27, ‎‏א‏‎ 641, Vinograd, S. 24 [Altona 39]</p>
+    <p>‎‏עוללות אפרים‏‎, nirgends erwähnt, außer bei Duckesz (aus der Inschrift), keine weitere Einzelheiten.</p>
+    <p>in der Inschrift nicht erwähnt:</p>
+    <p>‎‏דברי חכמים וחידותם‏‎, Altona 1743 bei Awraham Halle, Benjacob, S. 104, Nr. 71, Fürst I,376, Vinograd, S. 24 [Altona 40], Friedberg, S. 215 ‎‏ד‏‎ 285 (mindestens sechs weitere Auflagen, 2. Warschau 1839/40, 3. ebd. 1859/60.)</p>
+    <p>Ergänzungen nach histor. Foto mit Hilfe von Duckesz und Wittkower.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

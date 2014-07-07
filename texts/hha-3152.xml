@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jaakow (Koppel Joel Goldschmidt), gest. 1868-01-18, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3152</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3152</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3152</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit Bogenabschluß auf quaderförmigem Sockel. Vertieftes Inschriftenfeld von gestufter Rahmenleiste umgeben. Buchstaben eingemeißelt. Schriftfeld beinahe völlig verwittert. Einzelne Lettern erkennbar.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1868-01-18'>1868-01-18</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GM</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1124</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3152-1" sex='1'>
+      <persName>Jaakow (Koppel Joel Goldschmidt)</persName>
+       <event when='1868-01-18' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='69'>Hebrew</language>
+    <language ident='de' usage='30'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3152_GM_0205150115.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-15'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3152_GM_0205150116.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-15'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3152_GM_0408240224.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-24'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000568.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000570.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏מצבת‏‎
+‏‎     <lb n='2'/>
+     ‎‏קב[ורת] יעקב‏‎
+‏‎     <lb n='3'/>
+     ‎‏[...] ‎‏אסון‏‎
+‏‎     <lb n='4'/>
+     ‎‏ארב[ים ואחת] שנה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ב[רוך ...]ל‏‎
+‏‎     <lb n='6'/>
+     ‎‏בע[דתנו התפ]לל‏‎
+‏‎     <lb n='7'/>
+     ‎‏[...]‏‎
+     <lb n='8'/>
+     ‎‏[...]‏‎
+     <lb n='9'/>
+     ‎‏[...]‏‎
+     <lb n='10'/>
+     ‎‏[...]‏‎
+     <lb n='11'/>
+     ‎‏[...]‏‎
+     <lb n='12'/>
+     ‎‏[‎‏נפטר בש״ט בש״ק כ״ג טבת]‏‎
+‏‎     <lb n='13'/>
+     ‎‏[‎‏ונקבר ביום ג׳ כ״ו בו]‏‎
+‏‎     <lb n='14'/>
+     ‎‏[‎‏תרכ״ח לפ״ק]‏‎
+‏‎     <lb n='15'/>
+     ‎‏[‎‏תנצ]בה‏‎
+‏‎     <lb n='16'/>
+     Hier ruhet
+     <lb n='17'/>
+     uns unvergeßlich
+     <lb n='18'/>
+     unser Vater
+     <lb n='19'/>
+     Koppel Joel
+     <lb n='20'/>
+     Goldschmidt,
+     <lb n='21'/>
+     gest. 16. Januar
+     <lb n='22'/>
+     1868
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Grab-
+     <lb n='2'/>
+     Mal des Jaakow
+     <lb n='3'/>
+     .... Unglück
+     <lb n='4'/>
+     einundvierzig Jahren
+     <lb n='5'/>
+     betete er in unserer Gemeinde
+     <lb n='6'/>
+     in den Geboten ...
+     <lb n='7'/>
+     ...
+     <lb n='8'/>
+     ...
+     <lb n='9'/>
+     ...
+     <lb n='10'/>
+     ...
+     <lb n='11'/>
+     ...
+     <lb n='12'/>
+     verschieden mit gutem Namen am heilgen Schabbat, 23. Tewet
+     <lb n='13'/>
+     und begraben am Tag 3, 26. desselben
+     <lb n='14'/>
+     628 der kleinen Zählung
+     <lb n='15'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1 / 2: Der Ausdruck ‎‏מצבת קבורת‏‎ aus Gen 35,20, wo Jacob ein Denkmal über dem Grab Rahels errichtet, ist hier analog auf den Verstorbenen, dessen Vorname Jaakow war, gebraucht.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

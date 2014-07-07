@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Meir ben Jona Hekscher, gest. 1698-05-13, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3147</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3147</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3147</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,250 x 0,470 x 0,110 m</dim>
+          </dimensions>
+          Hochrechteckige, schmucklose Stele mit bogigem Abschluß. Im Bogenfeld zentriert unter dem Wort ‎‏על‏‎ die Wendung ‎‏אבן פנה‏‎. Die Inschrift besteht aus großen, eingemeißelten Lettern, so daß die gesamte vordere Fläche des Steins ausgefüllt ist. Am Bogen abgeschlagene Ränder.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           Beschädigung leicht
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1698-05-13'>1698-05-13</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GM</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 952</geo>
+          <geo decls='Feld Grabnummer'> n 498</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3147-1" sex='1'>
+      <persName>Meir ben Jona Hekscher</persName>
+       <event when='1698-05-13' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3147_GM_0204230215.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000398.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏על‏‎
+‏‎     <lb n='2'/>
+     ‎‏אבן פנה‏‎
+‏‎     <lb n='3'/>
+     ‎‏מספד מר וגדל קינה ·‏‎
+‏‎     <lb n='4'/>
+     ‎‏אשר עלה והלך מל[נ]ה ·‏‎
+‏‎     <lb n='5'/>
+     ‎‏ילד שעשועים הפנה ·‏‎
+‏‎     <lb n='6'/>
+     ‎‏רך טוב שדים נכונה ·‏‎
+‏‎     <lb n='7'/>
+     ‎‏הילד מאיר בר יונה ·‏‎
+‏‎     <lb n='8'/>
+     ‎‏הקשר ש״נ נפטר ליל ג׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏ונקבר יום ג׳ ר״ח סיון ש׳‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנ״ח לכ℗״ק‏‎
+‏‎     <lb n='11'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Auf
+     <lb n='2'/>
+     ›dem Eckstein‹
+     <lb n='3'/>
+     ›bittere Wehklage‹ und groß ward Klagegesang
+     <lb n='4'/>
+     welcher aufstieg und ging (zur) Herberge,
+     <lb n='5'/>
+     ›das Kind der Liebkosungen‹ ist entflohen,
+     <lb n='6'/>
+     zart und gut, Brüste wurden fest,
+     <lb n='7'/>
+     der Knabe Meir, Sohn des Jona,
+     <lb n='8'/>
+     Hekscher, er möge ewig leben, der verschied Nacht 3
+     <lb n='9'/>
+     und ward begraben Tag 3, Neumond Sivan, Jahr
+     <lb n='10'/>
+     458 der kleinen Zählung.
+     <lb n='11'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Nach Jer 51,26</p>
+    <p>Zl 3: Nach Ez 27,31</p>
+    <p>Zl 5: Jer 47,1</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Endreim auf -nah in Zln 2-5, auf -unah in Zln 6 / 7.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3-6: ‎‏מאיר‏‎ Meir
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: vgl. auch Ijob 38,6 ‎‏אבן פנתה‏‎; Ps 118,23 ‎‏אבן מאסו...לראש פנה‏‎.</p>
+    <p>Zl 5: Zu ‎‏הפנה‏‎ in der Bedeutung fliehen: siehe Jer 46,21 und 49,24. Defektivschreibung ‎‏מלנה‏‎ für ‎‏מלונה‏‎; vgl. Midr Spr IX: eine schöne Herberge ist dir angeboten in der Stunde deines Todes.</p>
+    <p>Zl 6: ‎‏שדים נכונה‏‎ ist wahrscheinlich Ez 16,7 entlehnt, wobei das Prädikat wahrscheinlich um des Reimes willen eine Feminin-singular-Form erhalten hat. In Ez 16 trägt der Prophet eine Gottesrede gegen das untreue Jerusalem, das u.a. als heranwachsende junge Frau personifiziert ist, vor. Diese Stelle ist hier wohl jedoch zur Betonung des jungen Alters des Verstorbenen gewählt.</p>
+    <p>Zl 8: Doppelschreibung des Buchstabens ‎‏נ‏‎ im Wort ‎‏שננפטר‏‎.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Mit verschiedenen, zu einer Eulogie zusammengefügten, zum Teil abgeänderten Zitaten bzw. Zitatfragmenten, wird v.a. der Trauer über den geliebten Jungen Ausdruck verliehen, als auch versucht, ein Hauptmerkmal des sich noch in der Entwicklung befindenden Meir, nämlich seine Zartheit, mit Worten zu dokumentieren, die sonst nur auf Mädchen anwendbar sind. In der Prädikation ‎‏טוב‏‎ schwingt neben seiner ethischen Grundbedeutung sicherlich auch die charakterliche Lieblichkeit und Frömmigkeit des Knaben mit.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

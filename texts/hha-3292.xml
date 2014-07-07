@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Natan ben Israel Josef Halevi, gest. 1677-02-26, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3292</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3292</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3292</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1677-02-26'>1677-02-26</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GO</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 960</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3292-1" sex='1'>
+      <persName>Natan ben Israel Josef Halevi</persName>
+       <event when='1677-02-26' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3292xGO_0204240222.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-24'/>
+    schriftlos
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000390.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2504_GP_0205260231.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3283_GO_0205220113.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-22'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏נתן‏‎
+‏‎     <lb n='2'/>
+     ‎‏י״י לקח ואיננו‏‎
+‏‎     <lb n='3'/>
+     ‎‏כי עלה אל אלהים הלא‏‎
+‏‎     <lb n='4'/>
+     ‎‏הוא איש ישר ונאמן ירא‏‎
+‏‎     <lb n='5'/>
+     ‎‏אלהים וסור מרע‏‎
+‏‎     <lb n='6'/>
+     ‎‏בהעלותו במעלות‏‎
+‏‎     <lb n='7'/>
+     ‎‏גבוהים מנוחתו כבוד‏‎
+‏‎     <lb n='8'/>
+     ‎‏כמר נתן בר ישראל יוסף‏‎
+‏‎     <lb n='9'/>
+     ‎‏הלוי הלך לאור עולמו‏‎
+‏‎     <lb n='10'/>
+     ‎‏בערב שבת קודש ונקבר‏‎
+‏‎     <lb n='11'/>
+     ‎‏בו ביום ך״ד לחודש הוא‏‎
+‏‎     <lb n='12'/>
+     ‎‏חודש אדר ראשון תל״ז‏‎
+‏‎     <lb n='13'/>
+     ‎‏לפ״ק תנצב״ה א״ס‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Natan,
+     <lb n='2'/>
+     gegeben vom Ewigen (und) genommen‹,›und er war nicht mehr,
+     <lb n='3'/>
+     denn er stieg hinauf zu Gott‹, es
+     <lb n='4'/>
+     ist ein aufrechter und getreuer Mann,
+     <lb n='5'/>
+     gottesfürchtig ›und Böses meidend‹,
+     <lb n='6'/>
+     als er hinaufstieg die Stufen nach Oben, im Sitz
+     <lb n='7'/>
+     der Hochangesehenen sei ›seine Ruhestätte Herrlichkeit‹,
+     <lb n='8'/>
+     der geehrte Herr Natan, Sohn des Israel Josef
+     <lb n='9'/>
+     Halevi, ›er ging hin zu seinem ewigen Licht‹
+     <lb n='10'/>
+     am Rüsttag des heiligen Schabbat und wurde begraben
+     <lb n='11'/>
+     an eben jenem Tag, 24. des Monats, das ist
+     <lb n='12'/>
+     der Monat erster Adar 437
+     <lb n='13'/>
+     der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens Amen Sela.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1f: Nach Ijob 1,21</p>
+    <p>Zl 2f: Nach Gen 5,24 u. Ex 19,3</p>
+    <p>Zl 5: Ps 34,15</p>
+    <p>Zl 7: Jes 11,10</p>
+    <p>Zl 9: Nach Jes 60,19 u. Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1/2a: Ijob 1,21; gekürzt wiedergegeben, um mit ‎‏נתן‏‎, gab, zu beginnen, weil dies gleichzeitig der Name des Verstorbenen ist. Die Übersetzung sucht der Doppelbedeutung von ‎‏נתן‏‎ gerecht zu werden. Der Verfasser der Inschrift setzt beim Leser sicherlich die Kenntnis des gesamten Verses voraus, d.h. die Annahme des Schicksals, wie es vom Ewigen verhängt wurde, weil es vom Ewigen verhängt wurde. Die Gottesbezeichnung ‎‏י״י‏‎ kommt selten in Inschriften vor.</p>
+    <p>Zln 2b/3a: Zusammengesetzt aus Gen 5,24 (von Enoch gesagt) und Ex 19,3 (von Mose gesagt).</p>
+    <p>Zl 9: Zusammengesetztes Zitat aus Koh 12,5 und Jes 60,19.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal vollständig und in situ.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

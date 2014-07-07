@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Simcha ∞ Mordechai, gest. 1628-10-31, Mordechai ben Elieser, gest. 1628-11-03, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2518</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2518</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2518</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,155 x 1,010 x 0,080 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer liegend Beschädigung mittel 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1628-10-31'>1628-10-31</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FQ</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1023</geo>
+          <geo decls='Feld Grabnummer'>S 1022</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2518-1" sex='2'>
+      <persName>Simcha ∞ Mordechai</persName>
+       <event when='1628-10-31' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="hha-2518-2" sex='1'>
+      <persName>Mordechai ben Elieser</persName>
+       <event when='1628-11-03' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2518_FQ_0407300128.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-07-30'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2518_FQ_0407300129.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-07-30'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000376.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000474.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000475.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000077.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏מצבת // מצבת‏‎
+‏‎     <lb n='2'/>
+     ‎‏קבורת האשה // אבן מקום קבורת‏‎
+‏‎     <lb n='3'/>
+     ‎‏כשרה במעשיה // איש ירא אלקים‏‎
+‏‎     <lb n='4'/>
+     ‎‏הצנועה ונכבדת // וסר מרע היקר‏‎
+‏‎     <lb n='5'/>
+     ‎‏מרת שמחה אשת // והנעלה נעים‏‎
+‏‎     <lb n='6'/>
+     ‎‏ר׳ מרדכי זצ״ל אל // זמירות ישראל‏‎
+‏‎     <lb n='7'/>
+     ‎‏אלה דבקה יום ו׳ // כהר״ר מרדכי‏‎
+‏‎     <lb n='8'/>
+     ‎‏ז׳ ימים לחד׳ חשון // בר חבר ר׳ אליעזר‏‎
+‏‎     <lb n='9'/>
+     ‎‏שנת שפ״ט תנצב״ה // זצ״ל עלה אל האלהים‏‎
+‏‎     <lb n='10'/>
+     ‎‏ויאמר דוד אל גד צר // יום ג׳ ד׳ ימים לחדש‏‎
+‏‎     <lb n='11'/>
+     ‎‏לי מאד נפלה נא ביד ה׳ // חשון שנת שפ״ט‏‎
+‏‎     <lb n='12'/>
+     ‎‏כי רבים רחמיו וביד אד׳ // תנצב״ה‏‎
+‏‎     <lb n='13'/>
+     ‎‏אל אפלה // ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Das Grab- // Steinmal
+     <lb n='2'/>
+     mal‹ der Frau, // der Grabstelle
+     <lb n='3'/>
+     die untadelige in ihren Taten, // ›eines Mannes, der den Ewigen ehrfürchtet
+     <lb n='4'/>
+     die Züchtige und Geehrte, // und das Böse meidet‹, der Teure,
+     <lb n='5'/>
+     Frau Simcha, Gattin des // und der Erhabene, ›lieblicher
+     <lb n='6'/>
+     Herrn Mordechai, das Andenken des Gerechten zum Segen, an // Sänger Israels‹,
+     <lb n='7'/>
+     Gott(?) haftete sie (am) Tag 6, // der geehrte Meister, Herr Mordechai,
+     <lb n='8'/>
+     (dem) 7. Tag im Monat Cheschvan // Sohn des toragelehrten Herrn Elieser,
+     <lb n='9'/>
+     des Jahres 389. Ihre Seele sei eingebunden in das Bündel des Lebens. // das Andenken des Gerechten zum Segen, ›er stieg hinauf zu Gott‹
+     <lb n='10'/>
+     ›Da sprach David zu Gad: mir ist // Tag 3, dem 4. Tage des Monats
+     <lb n='11'/>
+     sehr weh, lass mich fallen in des Ewigen Hand, // Cheschvan des Jahres 389.
+     <lb n='12'/>
+     denn groß ist sein Erbarmen, doch in der Menschen Hand // Seine Seele sei eingebunden in das Bündel des Lebens
+     <lb n='13'/>
+     will ich nicht fallen‹ // 
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1f: Gen 35,14</p>
+    <p>Zl 3f: Ijob 1,1</p>
+    <p>Zl 5f: 2Sam 23,1</p>
+    <p>Zl 9: Ex 19,3</p>
+    <p>Zln 10-13: 2Sam 24,14 u. 1Chr 21,13</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 5b/6a: Von König David gesagt, eine geläufige Umschreibung eines guten Vorsängers. Duckesz, der die Inschrift teilweise übersetzt, attestiert ihm gar: "idealer jüdischer Vorsänger und Dichter" zu sein.</p>
+    <p>Zln 6b/7a: Die Lesung und die Bedeutung sind nicht ganz sicher, mit ‎‏אלה‏‎ könnte auch "diese" gemeint sein.</p>
+    <p>Zln 10-13: Leicht verändert auch in 1Chr 21,13 sowie im ‎‏תחנון‏‎, im "Bittgebet", während des Morgen- und Abendgebets wochentags. Dieser Vers ist ein Hinweis darauf, dass die Eheleute an der Pest starben. Es sind die Worte König Davids, als er von Gott bestraft werden sollte und ihm die Wahl zwischen Schwert und Pest gelassen wurde, zwischen Strafe von Menschenhand und Strafe von Gott.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>
+     Laut Duckesz starben die Eheleute kurz nacheinander an der im August 1628 in Altona wütenden Pest. Ihre Grabmale wurden (wie auch Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hha-2540-t">hha-2540</ref>
+      und Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hha-2542-t">hha-2542</ref>
+     ) in umgekehrter Richtung aufgestellt. Die histor. Aufnahme zeigt das Grabmal in situ und unbeschädigt.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

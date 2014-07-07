@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Elkana ben Pessach, gest. 1712-10-18, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1493</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1493</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1493</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung leicht 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Amtssymbol: Feder und Buch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1712-10-18'>1712-10-18</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EO</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1361</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1493-1" sex='1'>
+      <persName>Elkana ben Pessach</persName>
+       <event when='1712-10-18' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1493_EO_0110120232.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-12'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/545--33.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000190.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000096.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏ברא‏‎
+‏‎     <lb n='2'/>
+     ‎‏שית‏‎
+‏‎     <lb n='3'/>
+     ‎‏ברא‏‎
+‏‎     <lb n='4'/>
+     ‎‏אבל אעורר ׃ בבכי אמרר ׃ על מות ציר‏‎
+‏‎     <lb n='5'/>
+     ‎‏נאמן ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏בקול עבה כתרועת שופר ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏כי בא השמש שוקל וסופר ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏חכם ידע מתלון כבר קפר ׃‏‎
+‏‎     <lb n='9'/>
+     ‎‏איש שהכל בו אשכל הכפ׳‏‎
+‏‎     <lb n='10'/>
+     ‎‏אל קנה שמו סת״ם סופר‏‎
+‏‎     <lb n='11'/>
+     ‎‏שמש ונאמן דק״ק אלטנא‏‎
+‏‎     <lb n='12'/>
+     ‎‏ה״ה הר״ר אלקנה ב״ה פסח זצ״ל‏‎
+‏‎     <lb n='13'/>
+     ‎‏נפט׳ ונקב׳ יו׳ ג׳ ב׳ ח״ה סוכת‏‎
+‏‎     <lb n='14'/>
+     ‎‏תע״ג לפ״ק‏‎
+‏‎     <lb n='15'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Im
+     <lb n='2'/>
+     Anfang
+     <lb n='3'/>
+     schuf‹.
+     <lb n='4'/>
+     Trauer will ich erheben, ›in bittres Weinen verfallen‹ über den Tod des ›treuen
+     <lb n='5'/>
+     Boten‹,
+     <lb n='6'/>
+     mit tiefer Stimme wie Dröhnen des Widderhorns,
+     <lb n='7'/>
+     ›denn die Sonne ging unter‹, ›gewogen und gezählt‹.
+     <lb n='8'/>
+     (Er war) ein Weiser, ein Kenner von Parabeln wie Bar Kappar(a),
+     <lb n='9'/>
+     ein Mann, der alles enthielt, ›eine Zyprustraube‹,
+     <lb n='10'/>
+     Elkana, "Gott erwarb", sein Name, ein geübter Schreiber,
+     <lb n='11'/>
+     Diener und Beglaubter der heiligen Gemeinde Altona.
+     <lb n='12'/>
+     Es ist der Meister, Herr Elkana, Sohn des Herrn Pessach, das Andenken des Gerechten zum Segen,
+     <lb n='13'/>
+     verschieden und begraben Tag 3, 2. der Zwischenfeiertage des Laubhüttenfestes
+     <lb n='14'/>
+     473 der kleinen Zählung.
+     <lb n='15'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zln 1-3: Gen 1,1</p>
+    <p>Zl 4: nach Jes 22,4</p>
+    <p>Zl 4f: Spr 25,13</p>
+    <p>Zl 7: Gen 28,11 | Zl 7: nach Jes 33,18</p>
+    <p>Zl 9: Hld 1,14</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Binnenreim auf -rer in Zl 4 und Reim auf -ofer in Zln 6-10.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1-3: Der Anfang der heiligen Schrift, von einer Hand mit Griffel auf eine Tafel geschrieben, als Verdeutlichung der Funktion des Verstorbenen als Toraschreiber, ohne direkte Anbindung an den folgenden Text.</p>
+    <p>Zl 6b: Widderhorn, Schofar, das an Neujahr und am Versöhnungstag in der Synagoge geblasen wird.</p>
+    <p>Zl 7a: Durch Anführungszeichen gekennzeichnetes Wortspiel auf "Schemmesch" / Sonne und "Schammasch" / Synagogendiener; hier durch doppelte Übersetzung deutlich gemacht.</p>
+    <p>Zl 8: Bar Kappar(a), ein bedeutender Gelehrter Anfang des 3. Jahrhunderts, der schwierige Passagen der Mischna erläutern konnte und als Autor von Fabeln bekannt war.</p>
+    <p>Zl 9: "Zyperntraube" - Sinnbild eines "erfüllten", umfaßenden Wissens.</p>
+    <p>Zl 10: ‎‏סופר סת״ם‏‎ ist ein (geübter) Schreiber von Schriften für den religiösen Gebrauch, insbesondere Torarollen und die Texte für die Gebetskapseln und der Kapsel für den Türpfosten.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Dass ein "Beglaubigter" (Sekretär, Schriftführer) der Gemeinde sich zugleich als "Schammasch" (Synagogendiener) und "Sofer" (Toraschreiber) betätigte, war in der Frühen Neuzeit nicht ungewöhnlich. Die Vielseitigkeit des Elkana ben Pessach wird in der Inschrift gerühmt, weil er seinen vielfältigen Funktionen auch die des hebräischen Dichters hinzufügte. Wahrscheinlich ist Elkana der Autor der zahlreichen Grabgedichte, die in den Jahren zwischen 1690 und 1712 die Stelen des aschkenasischen Teils zieren, viele der Verstorbenen in ihren persönlichen Charakterzügen skizzieren und ein versifiziertes Gemeindeporträt jener Jahre überliefern (siehe oben im Kapitel "Aus der Blütezeit der hebräischen Epitaphendichtung").</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

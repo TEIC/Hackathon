@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jaakow ben Reuwen Ree, gest. 1672-02-12, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3331</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3331</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3331</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,590 x 1,020 x 0,160 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer liegend Beschädigung schwer
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1672-02-12'>1672-02-12</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GO</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 859</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3331-1" sex='1'>
+      <persName>Jaakow ben Reuwen Ree</persName>
+       <event when='1672-02-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3331_GO_0204230514.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/519--31a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000281.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/15/00000114.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/9191_GO_0408030127.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-08-03'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3318_GO_0205260133.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3330_GO_0205260206.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3295_GO_0205260224.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3288_GO_0205270107.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-27'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3293xGO_0205220117.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-22'/>
+    Fragment schriftlos
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נטמן איש ישר‏‎
+‏‎     <lb n='3'/>
+     ‎‏ונאמן לדבר מצוה‏‎
+‏‎     <lb n='4'/>
+     ‎‏היה תמיד מוכן ומזומ׳‏‎
+‏‎     <lb n='5'/>
+     ‎‏הניח תוך ביתו ברכה‏‎
+‏‎     <lb n='6'/>
+     ‎‏כי היתה פתוחה לרוחה‏‎
+‏‎     <lb n='7'/>
+     ‎‏רוב ימיו דרכו ומנהגו‏‎
+‏‎     <lb n='8'/>
+     ‎‏ככה הוא המאושר‏‎
+‏‎     <lb n='9'/>
+     ‎‏בכל מדור היושר‏‎
+‏‎     <lb n='10'/>
+     ‎‏הקצין פרנס ומנהיג‏‎
+‏‎     <lb n='11'/>
+     ‎‏[‎‏כמר י]עקב ב[ר]‏‎
+‏‎     <lb n='12'/>
+     ‎‏[‎‏ראובן] ריא זצ״ל‏‎
+‏‎     <lb n='13'/>
+     ‎‏[‎‏לעבודת ה׳] היתה‏‎
+‏‎     <lb n='14'/>
+     ‎‏[‎‏תמיד רצונו וחשקו]‏‎
+‏‎     <lb n='15'/>
+     ‎‏[‎‏הלך לעולמו ליל שבת]‏‎
+‏‎     <lb n='16'/>
+     ‎‏[‎‏ט״ז] אדר ראשון תל״ב‏‎
+‏‎     <lb n='17'/>
+     ‎‏לפ״ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     ist geborgen, ein Mann, aufrecht
+     <lb n='3'/>
+     und getreu, zum Gebotstun
+     <lb n='4'/>
+     war er stets willens und bereit,
+     <lb n='5'/>
+     Segen hinterließ er in seinem Hause,
+     <lb n='6'/>
+     ›denn es war weit geöffnet‹,
+     <lb n='7'/>
+     die Mehrzahl seiner Tage war dies sein Lebens-
+     <lb n='8'/>
+     und Leitweg, er, der beglückt ist
+     <lb n='9'/>
+     mit allen aufrechten Eigenschaften,
+     <lb n='10'/>
+     der Einflußreiche, der Vorsteher und Leiter,
+     <lb n='11'/>
+     der geehrte Herr Jaakow, Sohn des
+     <lb n='12'/>
+     Reuwen Ree, das Andenken des Gerechten zum Segen,
+     <lb n='13'/>
+     dem Dienste des Ewigen galt
+     <lb n='14'/>
+     stets sein Wille und Begehr,
+     <lb n='15'/>
+     ›er ging hin in seine Welt‹ in der Nacht des Schabbat,
+     <lb n='16'/>
+     16. des ersten Adar 432
+     <lb n='17'/>
+     der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 6: Nach Av 1,5</p>
+    <p>Zl 15: Koh 12,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -man in Zln 2-4, auf -chah in Zln 5,6,8 und auf scha(e)r in Zln 8,9.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>
+     Zln 8b/9: Bedeutung nicht ganz klar. In der histor. Aufnahme ist eindeutig ‎‏מדות‏‎ zu sehen, (das ‎‏ר‏‎ wurde zum ‎‏ת‏‎ ergänzt). Daran richtet sich die Übersetzung und an die Bedeutung von ‎‏מאושר‏‎ nach Spr 3,18. Allerdings enthält das Grabmal Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hha-3332-t">hha-3332</ref>
+     , das einst daneben stand und zwei Jahre älter ist, eine nahezu identische Eulogie, in der ebenfalls und eindeutig ‎‏מדור‏‎ zu lesen ist. In dieser Inschrift, die eindeutig als Vorlage für die hiesige diente, sind mehrere Buchstaben unvollständig ausgeführt, was auch auf das betreffende Wort hier zutreffen könnte. Dennoch ist nicht auszuschließen, dass der Satz eine andere Bedeutung hat. ‎‏מדור‏‎ ist Wohnung, Abteilung, und könnte an bShab 152a anknüpfen: "jeder Gerechte erhält (in der künftigen Welt) eine Wohnung die seiner Ehre entspricht", oder an Yalk zu Psalm, Nr. 656, wonach jede sieben Gruppen im Garten Eden ihre Wohnung hat, wobei die vorzüglichste unter ihnen, die die Allgegenwart Gottes begrüßen darf, die Gruppe der Aufrechten ist.
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Jaakow Ree ist Stammvater dieser in Hamburg, Altona und Kopenhagen einst weitverzweigten Familie. Sie zählt zu den ältesten in Hamburg. Der Name Jakob, Sohn von Ruben erscheint in der Schleswiger Akte, zudem sind seine Unterschriften er als Vorstandsmitglied in den Gemeinde Protokollen bis 1671 erhalten. Glückel weiß von ihm zu berichten, dass "er nicht sehr reich, aber ein ehrlicher Mann" war, der seine für seine Kinder "gute Heiratspartien" gemacht hat.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

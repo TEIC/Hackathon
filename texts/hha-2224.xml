@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sara Bilha bat Chajim Zell, gest. 1759-08-12, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2224</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2224</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2224</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1759-08-12'>1759-08-12</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FL</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>O 1733</geo>
+          <geo decls='Feld Grabnummer'> w 519</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2224-1" sex='2'>
+      <persName>Sara Bilha bat Chajim Zell</persName>
+       <event when='1759-08-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2224_FL_0205240107.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-24'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/05/00000301.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏באפו בת ציון יעיב ׃ באוי לירח אב‏‎
+‏‎     <lb n='2'/>
+     ‎‏במותה גדול כאב לפ״ק‏‎
+‏‎     <lb n='3'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='4'/>
+     ‎‏שרה בלהה בלהות ויגון אמצא‏‎
+‏‎     <lb n='5'/>
+     ‎‏רב כשרון פעלה נודע לכל איש‏‎
+‏‎     <lb n='6'/>
+     ‎‏החזיקה ידי כושלי׳ וגמלה רב טובת‏‎
+‏‎     <lb n='7'/>
+     ‎‏בת ה״ה כהר״ר חיים צעל יקר מפז‏‎
+‏‎     <lb n='8'/>
+     ‎‏לקוח׳ לאשה ל״כ זעליג נבון במדע‏‎
+‏‎     <lb n='9'/>
+     ‎‏היא צדקית במעשה מבלי מעל‏‎
+‏‎     <lb n='10'/>
+     ‎‏הרכה בשני׳ הלכה בלי זרע ועדירי‏‎
+‏‎     <lb n='11'/>
+     ‎‏בצרור החיים מקום עדן המון חוגג‏‎
+‏‎     <lb n='12'/>
+     ‎‏תהי צרור׳ ותנצל מחרן ומני דין‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›In seinem Zorn umwölkt er die Tochter Zion‹, am Wehe des Monats Aw
+     <lb n='2'/>
+     ist über ihren Tod der Schmerz groß, der kleinen Zählung.
+     <lb n='3'/>
+     Hier ist geborgen
+     <lb n='4'/>
+     Sara Bilha, in Schrecken und Kummer geriet ich,
+     <lb n='5'/>
+     voller Tugend wirkte sie, jederman bekannt,
+     <lb n='6'/>
+     sie stärkte die Hände der Schwachen und erwies viel Gutes,
+     <lb n='7'/>
+     die Tochter des geehrten Meisters Chajim Zell, teurer als Gold,
+     <lb n='8'/>
+     zur Frau genommen von Selig, verständig in der Wissenschaft,
+     <lb n='9'/>
+     sie, eine unübertroffen Wohl wirkend Tätige,
+     <lb n='10'/>
+     die Zarte an Jahren, sie ging ohne Samen und Herde,
+     <lb n='11'/>
+     in das Bündel des Lebens, Ort Eden, ›festliche Schar‹,
+     <lb n='12'/>
+     sei sie eingebunden, und sie werde errettet vor dem Zorn und den Arten des Gerichts.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Nach Klgl 2,1</p>
+    <p>Zl 11: Ps 42,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Zln 4-6: Reim auf -ah/-a.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      Chronogramme in den Zln 1-2: Die Zahlenwerte 19 und 519, geben das Sterbedatum, Tag und Jahr, an.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      Zln 4-12: ‎‏שרה בלהה בת אשת זעליג מנידינ‏‎, "SaRaH BiLHaH, Tochter des (!), Frau des Selig Minden"
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1-2: Die Zeilen stehen im Rundbogen über der weiteren Inschrift und enthalten verschlüsselt das Sterbedatum; sie starb am 19. Aw 519.</p>
+    <p>Zl 11 (a): Vgl. Eisenstein, Otzar Midraschim, S. 84 (‎‏נטע ה׳ אלקים מקום עדן העליון‏‎)</p>
+    <p>Zl 12: ‎‏מני דין‏‎/"m'ne din" (Arten des Gerichts) beinhaltet eine Anspielung auf den Namen Minden (s. shha: Gattin des Selig Minden)</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

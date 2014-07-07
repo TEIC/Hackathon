@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jizchak Izek Halevi Horowitz ben Jokkel, gest. 1767-05-04, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1826</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1826</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1826</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Levitenkanne</decoNote>
+       <decoNote type='symbol'>Hand aus Wolke</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1767-05-04'>1767-05-04</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FF</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 2982</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1826-1" sex='1'>
+      <persName>Jizchak Izek Halevi Horowitz ben Jokkel</persName>
+       <event when='1767-05-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1826_FF_0110170214.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-17'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/541--04.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000354.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000355.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏ויגוע יצחק ויאסף אל עמיו בשיבה טובה‏‎
+‏‎     <lb n='2'/>
+     ‎‏ויצא יצחק לשוח ׃ ולפני ה׳‏‎
+‏‎     <lb n='3'/>
+     ‎‏ישפוך שיחו‏‎
+‏‎     <lb n='4'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='5'/>
+     ‎‏ארז הלבנון אדיר התורה‏‎
+‏‎     <lb n='6'/>
+     ‎‏יצתה נשמתו בקדושה ובטהר׳‏‎
+‏‎     <lb n='7'/>
+     ‎‏קולו ברמה נשמע בו ביו׳ שהספיד׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏ג׳ רבנים בבכי גדול ובנפש מרה‏‎
+‏‎     <lb n='9'/>
+     ‎‏הרב הגדול נ״י שכבה‏‎
+‏‎     <lb n='10'/>
+     ‎‏לו יד ושם בהרבות ישיבה‏‎
+‏‎     <lb n='11'/>
+     ‎‏ה״ה רבינו הגדול המפורסם מופת‏‎
+‏‎     <lb n='12'/>
+     ‎‏הדור אב״ד ור״מ דג׳ ק״ק אה״ו נ״י‏‎
+‏‎     <lb n='13'/>
+     ‎‏ע״ה פה״י מהר״ר יצחק איצק הלוי‏‎
+‏‎     <lb n='14'/>
+     ‎‏הורוויץ זצ״ל בן הגאון המפורסם‏‎
+‏‎     <lb n='15'/>
+     ‎‏מהר״ר יוקל זלה״ה אב״ד דק״ק גלוגא‏‎
+‏‎     <lb n='16'/>
+     ‎‏נפטר אור ליו׳ ג׳ ונקבר יו׳ ג׳ ו׳ אייר‏‎
+‏‎     <lb n='17'/>
+     ‎‏תקך״ז לפ״ק‏‎
+‏‎     <lb n='18'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Und Jizchak schied hin und ward versammelt zu seinem Volke‹›im guten Greisenalter‹,
+     <lb n='2'/>
+     ›und Jizchak ging hinaus um zu sinnen‹, und ›vor dem Ewigen
+     <lb n='3'/>
+     schüttet er sein Gebet aus‹.
+     <lb n='4'/>
+     Hier ist begraben
+     <lb n='5'/>
+     die Zeder des Libanon, der Gewaltige der Tora,
+     <lb n='6'/>
+     hinaus ging seine Seele in Heiligkeit und Reinheit,
+     <lb n='7'/>
+     ›seine Stimme erklang auf der Höhe‹ an jenem Tag, als er betrauerte
+     <lb n='8'/>
+     drei Rabbiner unter großem Weinen und mit bitterer Seele,
+     <lb n='9'/>
+     der große Rabbiner, Leuchte Israels, die erlosch,
+     <lb n='10'/>
+     ›ihm sei Denkmal und Name‹ in der Mehrung der Jeschiwa,
+     <lb n='11'/>
+     es ist unser weitbekannter, großer Rabbiner, Vorbild
+     <lb n='12'/>
+     des Zeitalters, Vorsitzender der Gerichtsbarkeit und Lehrhausleiter der drei heiligen Gemeinden, A(ltona), H(amburg), W(andsbek), ›Leuchte Israels,
+     <lb n='13'/>
+     Rechte Säule, starker? Hammer?‹, unser Lehrer, der Meister, Herr Jizchak Izek Halevi
+     <lb n='14'/>
+     Horowitz, das Andenken des Gerechten zum Segen, Sohn des weitbekannten, des überragenden Gelehrten,
+     <lb n='15'/>
+     unseres Lehrers, des Meisters, Herrn Jokkel sein Andenken zum Segen für das Leben in der künftigen Welt, Vorsitzender der Gerichtsbarkeit der heiligen Gemeinde Glogau
+     <lb n='16'/>
+     verschieden mit Beginn des Tages 3, und begraben Tag 3, 6. Ijar
+     <lb n='17'/>
+     527 der kleinen Zählung
+     <lb n='18'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 35,29 | Zl 1: Gen 25,8</p>
+    <p>Zl 2: Gen 24,63</p>
+    <p>Zl 2f: Ps 102,1</p>
+    <p>Zl 7: Jer 31,14</p>
+    <p>Zl 10: nach Jes 56,5</p>
+    <p>Zl 12f: bBer 28b</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rah in Zln 5,6,8 und auf -wah in Zln 9,10.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 5-7, 9-10: ‎‏איצק הלוי‏‎ Izek Halevi
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Von Isaak gesagt, der "alt und satt an Tagen" starb. Der hier verwendete Ausdruck "im guten Greisenalter" wurde seinem Vater Abraham nachgerufen.</p>
+    <p>Zl 2a: Ebenfalls von Isaak gesagt.</p>
+    <p>Zl 5: Die Libanonzeder war stets ein Symbol von Stärke und Größe, "wächst der Gerechte wie die Zeder auf dem Libanon" vgl. Ps 92,13. Der Ausdruck in Verbindung mit "Stammhalter und Schildträger des Gesetzes" entstammt den ‎‏קינות לתשעה באב‏‎, den Klageliedern für den Neunten Aw (z.B. ‎‏אלון בכות‏‎, Wien 1862, S. 43).</p>
+    <p>Zl 7/8: Einen Tag vor seinem Tode, am Montag, dem 5. Ijar hatte er noch eine Trauerrede für drei bedeutend Persönlichkeiten gehalten, worauf sich diese Zeilen beziehen.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

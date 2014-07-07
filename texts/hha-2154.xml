@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jaakow ben Aharon Fürst, gest. 1725-06-23, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2154</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2154</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2154</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,770 x 0,610 x 0,150 m</dim>
+          </dimensions>
+          Hochrechteckige Stele mit eingezogen-geschweiftem, gestuft-vorkragendem Bogen und Eckakroterien. Reliefiert zwischen angedeuteten Pilastern ausgespannt ein an den Seiten mehrfach geraffter und oben zu einem Baldachin gebündelter Vorhang als Inschriftenfeld. Im Giebelfeld dem Bogenverlauf folgend einer Muschelform entwachsend eine Blattgirlande. Im Inschriftenfeld unter dem Baldachin die erste Zeile als Halbrund die Abkürzung ‎‏פ״נ‏‎ überwölbend. Die Zeilen 5 und 7 mit Rücksicht auf das Namensakrostichon zentriert stehend; ebenso die Abkürzung ‎‏תנצב״ה‏‎ halbzeilig nach unten versetzt zwischen die in ‎‏לפ‏‎ und ‎‏ק‏‎ zweigeteilte Abkürzung. Trennzeichen: Rauten und Doppelrauten; Abkürzungszeichen: Haken und Rauten. Verwitterungen im mittleren und oberen Teil des Inschriftenfeldes.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           
+          <damage agent='Verwitterung'>Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral: Palmetten; gestalterisch: aufgespannter Mantel</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1725-06-23'>1725-06-23</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FK</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>CII 435</geo>
+          <geo decls='Feld Grabnummer'> s 485</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2154-1" sex='1'>
+      <persName>Jaakow ben Aharon Fürst</persName>
+       <event when='1725-06-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2154_FK_0204220227.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-22'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/01/00000485.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏אין זה כ׳א ב[ית] אל[קים] וזה שע׳ השמ׳‏‎
+‏‎     <lb n='2'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='3'/>
+     ‎‏יעקב הלך לדרכו דרך כל האר׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏ע[סק] מו״מ באמונה עם כל‏‎
+‏‎     <lb n='5'/>
+     ‎‏באי [ה]ארץ ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏קדם וחשיך לבי כנשת[א]‏‎
+‏‎     <lb n='7'/>
+     ‎‏במרץ ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏בחצי ימיו ובשם טוב עזב‏‎
+‏‎     <lb n='9'/>
+     ‎‏את הארץ׃ ה״ה כהר״ר‏‎
+‏‎     <lb n='10'/>
+     ‎‏יעקב בן האלוף כ׳ אהרון‏‎
+‏‎     <lb n='11'/>
+     ‎‏פערשט נפטר יום ש״ק‏‎
+‏‎     <lb n='12'/>
+     ‎‏ונקבר יו׳ א׳ י״ג תמוז תפ״[ה]‏‎
+‏‎     <lb n='13'/>
+     ‎‏לפ״ק‏‎
+‏‎     <lb n='14'/>
+     ‎‏תנצב״ה ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Dies ist nichts als das Haus des Ewigen und dies ist die Pforte des Himmels‹,
+     <lb n='2'/>
+     hier ist geborgen
+     <lb n='3'/>
+     ›Jaakow ging seines Weges‹, ›den Weg alles Irdischen‹,
+     <lb n='4'/>
+     er war beschäftigt mit Handel und Wandel in Treue mit allen
+     <lb n='5'/>
+     ins Land Kommenden,
+     <lb n='6'/>
+     früh und spät ging er zur Synagoge
+     <lb n='7'/>
+     mit Eifer,
+     <lb n='8'/>
+     ›in der Hälfte seiner Tage‹ und ›mit gutem Namen verließ er
+     <lb n='9'/>
+     die Erde‹, es ist der geehrte Meister, Herr
+     <lb n='10'/>
+     Jaakow, Sohn des Vornehmen, des geehrten Aharon
+     <lb n='11'/>
+     Fürst, verschied (am) Tag des heiligen Schabbat
+     <lb n='12'/>
+     und ward begraben Tag 1, 13. Tammus 485
+     <lb n='13'/>
+     der kleinen Zählung.
+     <lb n='14'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 28,17</p>
+    <p>Zl 3: Gen 32,2 | Zl 3: Jos 23,14</p>
+    <p>Zl 8: Jer 17,11</p>
+    <p>Zl 8f: Nach bBer 17a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 3-4, 6, 8: ‎‏יעקב‏‎ Jaakow
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Eulogie öffnet mit einem Zitat aus dem Traumgesicht Jaakows in Bet-El, das zusammen mit dem folgenden Zitat, in dem der Name des Verstorbenen vorweggenommen ist, metaphorisch auf die Transzendenz des Übergangs der hiesigen Welt in die jenseitige aufmerksam macht und die Vergänglichkeit konstatiert.</p>
+    <p>Der Tatsache, daß Herr Jaakow auf der Berechnungsgrundlage von Ps 90 wohl kaum älter als 35 Jahre wurde, ein Alter, in dem nach biblischem Standpunkt ausschließlich Frevler aus der Welt genommen werden (Ps 55,24; 102,25), ist die tröstliche Formel "in gutem Namen" zur Seite gestellt. In der Skizzierung seines Lebenswandels ist betont, daß er auch in der profanen Sphäre des Berufslebens "in Treue" handelte, ein Ausdruck, der biblisch v.a. auf die Werke des Ewigen und Tätigkeiten von Personen, die auf das Heiligtum ausgerichtet sind, angewandt ist. Auch ist die Frömmigkeit des Verstorbenen eigens hervorgehoben.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

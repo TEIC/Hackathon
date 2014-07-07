@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mosche Reuwen ben Schlomo Awraham Fränkel, gest. 1834-10-15, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-4594</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-4594</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-4594</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben (VS); vertieft (RS)</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>gebrochener Baum</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1834-10-15'>1834-10-15</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>LG</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>W 4332</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-4594-1" sex='1'>
+      <persName>Mosche Reuwen ben Schlomo Awraham Fränkel</persName>
+       <event when='1834-10-15' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4594_LG_0307220437.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-07-22'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4594_LG_0307220503.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-07-22'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4594_LG_0307220505.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-07-22'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/4594_LG_0307220506.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2003-07-22'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/07/00000299.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏ומשה עלה אל [האלהים]‏‎
+‏‎      <lb n='2'/>
+      ‎‏קבורת הנגיד המפורס׳ פו״מ כהר״ר משה ראובן‏‎
+‏‎      <lb n='3'/>
+      ‎‏ב׳ מהור״ר שלמה אברהם פרענקעל זצ״ל‏‎
+‏‎      <lb n='4'/>
+      ‎‏נולד א׳ דחנוכה תקכ״ו, וימת [י״(ב)] תשרי תקצ״ה לפ״ק ׃‏‎
+‏‎      <lb n='5'/>
+      ‎‏קרית המבורג! איך נדמית‏‎
+‏‎      <lb n='6'/>
+      ‎‏נפלה נפלה עטרת קציניך‏‎
+‏‎      <lb n='7'/>
+      ‎‏רבים בנים טפחת ורבית‏‎
+‏‎      <lb n='8'/>
+      ‎‏א[ך] זה האיש מש[ה] תפארת בניך ׃‏‎
+‏‎      <lb n='9'/>
+      ‎‏אב לד[לי]ם אח נאמ[ן] לצרה‏‎
+‏‎      <lb n='10'/>
+      ‎‏משיב נפש טר[ם יחלה פניו]‏‎
+‏‎      <lb n='11'/>
+      ‎‏יכל[י?ו?]ל [דבריו במשפט] כמש[ורר]‏‎
+‏‎      <lb n='12'/>
+      ‎‏[‎‏ו]האיש משה מ[אוד עניו]‏‎
+‏‎      <lb n='13'/>
+      ‎‏[‎‏בן יקיר] ונאמן רוח‏‎
+‏‎      <lb n='14'/>
+      ‎‏כל דרכ[יו בהשכל]ל ודעת‏‎
+‏‎      <lb n='15'/>
+      ‎‏[‎‏ביתו ולבבו וידו לכל] פתוח‏‎
+‏‎      <lb n='16'/>
+      ‎‏[‎‏ויו?]שר ו[ענוה משפתיו נ]ובעת ׃‏‎
+‏‎      <lb n='17'/>
+      ‎‏[‎‏בנקי כפים ובר לבב י]סד ביתו‏‎
+‏‎      <lb n='18'/>
+      ‎‏א[ין] עול בע[שרו ורב חילו]‏‎
+‏‎      <lb n='19'/>
+      ‎‏[‎‏הולך ב]ישרו ויחי באמונתו‏‎
+‏‎      <lb n='20'/>
+      ‎‏ויראת ה׳ הלא חלק [עמלו]‏‎
+‏‎      <lb n='21'/>
+      ‎‏[... ‎‏ועבודה ורה חסד]‏‎
+‏‎      <lb n='22'/>
+      ‎‏[... ‎‏שני חייו ...]‏‎
+‏‎      <lb n='23'/>
+      ‎‏[... ‎‏טועים ... כי...]‏‎
+‏‎      <lb n='24'/>
+      ‎‏[...‎‏ילדותו וזקנתו]‏‎
+‏‎      <lb n='25'/>
+      ‎‏[...] ‎‏יברך עדתו‏‎
+‏‎      <lb n='26'/>
+      ‎‏זכרונ[ו] ל[ברכ]ה לדור דורים‏‎
+‏‎      <lb n='27'/>
+      ‎‏אב [ל]בן [י] ספ[רו]ן תהלתו‏‎
+‏‎      <lb n='28'/>
+      ‎‏ויהללו מעשיו בשערים‏‎
+‏‎      <lb n='29'/>
+      ‎‏יבא בשל[ום ינו]ח על משכבו‏‎
+‏‎      <lb n='30'/>
+      ‎‏ינוח בצל [...]שתו‏‎
+‏‎      <lb n='31'/>
+      ‎‏שם בעדן תתענג נפשו מטובו‏‎
+‏‎      <lb n='32'/>
+      ‎‏[...] ‎‏פעולתו ׃‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='33'/>
+      ‎‏[...] ‎‏כ״ה משה ראובן ב׳ מהור״ר‏‎
+‏‎      <lb n='34'/>
+      ‎‏[...]‏‎
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Und Mosche stieg hinauf zu Gott
+      <lb n='2'/>
+      Grabstätte des weitbekannten Fürsten, des Vorstehers und Leiters, des geehrten Meisters, Herrn Mosche Reuwen,
+      <lb n='3'/>
+      Sohn unseres Lehrers, des Meisters, Herrn Schlomo Awraham Fränkel, das Andenken des Gerechten zum Segen,
+      <lb n='4'/>
+      geboren am ersten (Tag) von Chanukka 526, und er verstarb am 12. Tischri 595 der kleinen Zählung.
+      <lb n='5'/>
+      Stadt Hamburg! Wie bist du verstummt,
+      <lb n='6'/>
+      gefallen, gefallen ist die Krone deiner Einflussreichen,
+      <lb n='7'/>
+      viele Söhne hast du gepflegt und gemehrt,
+      <lb n='8'/>
+      doch dieser Mann, Mosche ist die Zierde deiner Kinder,
+      <lb n='9'/>
+      Vater den Darbenden, ein verläßlicher Bruder in der Not,
+      <lb n='10'/>
+      bringt Labsal den Seelen ...
+      <lb n='11'/>
+      [...]
+      <lb n='12'/>
+      [...] der aufrechte Mann [...]
+      <lb n='13'/>
+      [...] und verlässlich lebte er,
+      <lb n='14'/>
+      all [seine?] Wege [...] und zur Zeit
+      <lb n='15'/>
+      sein Haus, sein Herz und seine Hand waren allen geöffnet,
+      <lb n='16'/>
+      Aufrichtigkeit und Demut von seinen Lippen ...
+      <lb n='17'/>
+      mit reinen Händen und lauteren Herzens errichtete er sein Haus,
+      <lb n='18'/>
+      [...]
+      <lb n='19'/>
+      [...] in? seiner Aufrichtigkeit? lebe er in seinem Glauben,
+      <lb n='20'/>
+      [...] den Ewigen, denn hatte er nicht Anteil? an [...]
+      <lb n='21'/>
+      [...]
+      <lb n='22'/>
+      [...]
+      <lb n='23'/>
+      [...]
+      <lb n='24'/>
+      [...]
+      <lb n='25'/>
+      [...] segne seine Gemeinde,
+      <lb n='26'/>
+      sein Andenken [...] bis in die letzte Generation,
+      <lb n='27'/>
+      [...] sein Lob,
+      <lb n='28'/>
+      und sie preisen seine Werke in den Toren,
+      <lb n='29'/>
+      [...] komme er in Frieden [...] auf seinem Lager
+      <lb n='30'/>
+      ruhe er [...]
+      <lb n='31'/>
+      [...] Seele? von seiner Güte,
+      <lb n='32'/>
+      [...] sein Wirken
+     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='33'/>
+      [...] der geehrte Mosche Reuwen, Sohn unseres Lehrers, des Meisters, Herrn
+      <lb n='34'/>
+      [...]
+     </ab>
+    </div>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ita in Zl(n) 5+7, auf -naich in Zl(n) 6+8, auf - aat? in Zl(n) 14+16, auf -to in Zl(n) 17+19, Reim auf -ato in Zl(n) 25+27, auf -rim in Zl(n) 26+28, auf -wo in Zl(n) 29+31 (Reimschema vermutlich: abab cdcd efef ghgh ijij klkl mnmn).
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 9b:</p>
+    <p>Zl 19: Vgl. Hab 2,4.</p>
+    <p>Zl 28: Vgl. Spr 31,31.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Wolf ben Salman Warburg (Wolff Salomon Warburg), gest. 1854-01-03, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-748</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-748</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-748</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,360 x 0,710 x 0,110 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft (VS; RS: Deutsch)</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Krone</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1854-01-03'>1854-01-03</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>DL</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1449</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-748-1" sex='1'>
+      <persName>Wolf ben Salman Warburg (Wolff Salomon Warburg)</persName>
+       <event when='1854-01-03' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='63'>Hebrew</language>
+    <language ident='de' usage='36'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0748xDL_0110120120.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-12'/>
+    schriftlos
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000254.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000255.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1271_EL_0110070317.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-07'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1271_EL_0206140122.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-06-14'/>
+    Fragment verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0754_DM_0110070334.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-07'/>
+    Fragment recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/0754_DM_0206140124.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-06-14'/>
+    Fragment verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏כתר שם טוב‏‎
+‏‎      <lb n='2'/>
+      ‎‏זקן ושב[ע ימים פרנס] ומנהיג אחד‏‎
+‏‎      <lb n='3'/>
+      ‎‏מבני [ח״ק דקברנים כהר״ר] וואלף בן‏‎
+‏‎      <lb n='4'/>
+      ‎‏הגב[אי דח״ק כהר״ר זלמן וו]ארבורג ז״ל‏‎
+‏‎      <lb n='5'/>
+      ‎‏נולד [י״ט מרחשון תקל״ט] לפ״ק‏‎
+‏‎      <lb n='6'/>
+      ‎‏נפט[ר בשם טוב ביום ג׳ ג׳] טבת‏‎
+‏‎      <lb n='7'/>
+      ‎‏ונק[בר ביום ה׳ ה׳ בו תרי]״ד לפ״ק‏‎
+‏‎      <lb n='8'/>
+      ‎‏זאת [מצבת איש רב פעלים] ויקר רוח‏‎
+‏‎      <lb n='9'/>
+      ‎‏אב [ליתומים היה, ביתו לר]וחה פתוח‏‎
+‏‎      <lb n='10'/>
+      ‎‏בתי ס[פר ותלמוד בעין שכלו השגיח]‏‎
+‏‎      <lb n='11'/>
+      ‎‏וקהל [עם עדת אל בצל כבודו] הפריח‏‎
+‏‎      <lb n='12'/>
+      ‎‏וענ[יי ארץ דכאי לב] מטוב הונו השביע‏‎
+‏‎      <lb n='13'/>
+      ‎‏אנש[י מדע שעשועיו פיהם בינתו יביע]‏‎
+‏‎      <lb n='14'/>
+      ‎‏לכ[ן אם אור פניו נעדר גויו לעפר הגיע]‏‎
+‏‎      <lb n='15'/>
+      ‎‏פר[י מעלליו לעד ינוב זכרונו לנצח יופיע]‏‎
+‏‎      <lb n='16'/>
+      ‎‏תנצב״ה ‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='17'/>
+      Wolff Salomon 
+      <lb n='18'/>
+      Warburg
+      <lb n='19'/>
+      geb. d. 19. Marcheschvan
+      <lb n='20'/>
+      5539,
+      <lb n='21'/>
+      gest. d. 3. Tebet
+      <lb n='22'/>
+      5614.
+      <lb n='23'/>
+      Vom reichen Tagwerk gingst Du nun
+      <lb n='24'/>
+      Daheim zum ewigen Frieden,
+      <lb n='25'/>
+      Vollendet ist Dein edles Thun,
+      <lb n='26'/>
+      Dein Wandel fromm hienieden.
+      <lb n='27'/>
+      Ruft nach der Seel Dein Gott doch lebt
+      <lb n='28'/>
+      In Deines Wirken ...en
+      <lb n='29'/>
+      Die hehre Seel zum Himmel strebt
+      <lb n='30'/>
+      Sie kann kein Tod ...en
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ›Krone des guten Namens‹,
+      <lb n='2'/>
+      ›betagt und satt an Tagen‹, Vorsteher und Leiter, ein
+      <lb n='3'/>
+      Mitglied der Chewra Kaddischa der Totengräber, der geehrte Meister, Herr Wolf, Sohn des
+      <lb n='4'/>
+      Vorstehers der Chewra Kaddischa, des geehrten Meisters, Herrn Salman Warburg, sein Andenken zum Segen,
+      <lb n='5'/>
+      geboren (am) 19. Marcheschvan 539 der kleinen Zählung,
+      <lb n='6'/>
+      verschieden ›mit gutem Namen‹ am Tag 3, 3. Tewet
+      <lb n='7'/>
+      und begraben am Tag 5, 5. desselben 614 der kleinen Zählung,
+      <lb n='8'/>
+      ›dies ist das Grabmal‹ eines Mannes, ›der reich an Werken‹ und edelmütig war,
+      <lb n='9'/>
+      ein Vater war er den Waisen, sein Haus war weit geöffnet,
+      <lb n='10'/>
+      auf die Frei- und Talmud-Tora-Schule gab er obacht mit Aug und Verstand,
+      <lb n='11'/>
+      und die Allgemeinheit sowie die Gemeinde Gottes ließ er unter dem Schatten seines Reichtums erblühen,
+      <lb n='12'/>
+      und die Armen des Landes, die niedergeschlagenen Herzens sind, sättigte er mit dem Besten aus seinem Vermögen,
+      <lb n='13'/>
+      Männer der Wissenschaft sind ihm Erquickung, ihr Mund kündet von seiner Einsicht,
+      <lb n='14'/>
+      auch wenn ›das Licht seines Antlitzes‹ entschwunden ist, sein Leib zum Staube gekommen,
+      <lb n='15'/>
+      die ›Frucht seiner Werke‹ möge auf ewig gedeihen, sein Andenken für immer da sein.
+      <lb n='16'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Av 4,13</p>
+    <p>Zl 2: Gen 35,29</p>
+    <p>Zl 6: bBer 17a</p>
+    <p>Zl 8: Gen 35,14 | Zl 8: 2Sam 23,20</p>
+    <p>Zl 14: nach Ps 4,7</p>
+    <p>Zl 15: Jes 3,10</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 8-15: ‎‏זאב וואלף‏‎ Seew Wolf
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

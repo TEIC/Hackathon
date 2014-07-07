@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Chajim ben Josef Hamel(n) SeGaL, gest. 1689-01-16, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3269</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3269</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3269</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,900 x 0,900 x 0,160 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, oberer liegend Beschädigung schwer
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Levitenkanne</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1689-01-16'>1689-01-16</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GN</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 870</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3269-1" sex='1'>
+      <persName>Chajim ben Josef Hamel(n) SeGaL</persName>
+       <event when='1689-01-16' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3269_GN_0204230506.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3269_GN_0205260130.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/519--22a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000312.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3234_GN_0205260120.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    Fragment recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏אבן גדולה על פי באר החיים‏‎
+‏‎     <lb n='2'/>
+     ‎‏לאיש עניו וחסיד טרח במצות‏‎
+‏‎     <lb n='3'/>
+     ‎‏דיים חכם סבלן ארך רוח וארך‏‎
+‏‎     <lb n='4'/>
+     ‎‏אפיים מילי דאבות בנפשיה ‏‎
+‏‎     <lb n='5'/>
+     ‎‏קיים שפר קדמיה לחוריי לא‏‎
+‏‎     <lb n='6'/>
+     ‎‏הניח שיריים ובשם טוב עלה‏‎
+‏‎     <lb n='7'/>
+     ‎‏לאור באור החיים אוחם לו‏‎
+‏‎     <lb n='8'/>
+     ‎‏הספידא כי נבחר מות מחיים‏‎
+‏‎     <lb n='9'/>
+     ‎‏ה״ה האלוף הקצין כהר״ר חיים‏‎
+‏‎     <lb n='10'/>
+     ‎‏ז״ל בן האלוף הקצין פ״ו מוהר״ר‏‎
+‏‎     <lb n='11'/>
+     ‎‏יוסף האמיל סג״ל זצ״ל נפטר‏‎
+‏‎     <lb n='12'/>
+     ‎‏יום א׳ ך״ד טבת ונקבר בו ביום‏‎
+‏‎     <lb n='13'/>
+     ‎‏שנת תמ״ט לפ״ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Ein großer Stein auf der Mündung des Brunnens‹ des Lebens,
+     <lb n='2'/>
+     für einen demutsvollen und frommen Manne,, in den Geboten mühte er sich
+     <lb n='3'/>
+     reichlich, ein geduldiger Weiser, ›ein Langmütiger‹ und ein ›Nach-
+     <lb n='4'/>
+     sichtiger‹, die Worte der Väter erfüllte er 
+     <lb n='5'/>
+     aus ganzer Seele, bevorzugte vorne und nicht hinten zu sein, nichts
+     <lb n='6'/>
+     hinterließ er unvollendet und mit gutem Namen stieg er hinauf
+     <lb n='7'/>
+     ›um erleuchtet zu werden im Lichte des Lebens‹, ›voll Wärme war seine
+     <lb n='8'/>
+     Trauerrede‹, ›denn erwählt ist der Tod von Chajim‹,
+     <lb n='9'/>
+     es ist der Vornehme, der Einflussreiche, der geehrte Meister, Herr Chajim,
+     <lb n='10'/>
+     sein Andenken zum Segen, Sohn des Vornehmen, des Einflussreichen, des Vorstehers und Leiters, unseres Lehrers und Meisters, Herrn
+     <lb n='11'/>
+     Josef Hamel(n) SeGaL, das Andenken des Gerechten zum Segen, verschieden
+     <lb n='12'/>
+     Tag 1, 24. Tewet und begraben an eben jenem Tag
+     <lb n='13'/>
+     des Jahres 449 der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 29,2</p>
+    <p>Zl 3: Koh 7,8</p>
+    <p>Zl 3f: Ex 34,6</p>
+    <p>Zl 7: Ijob 33,30</p>
+    <p>Zl 7f: nach bSchab 153a | Zl 8: nach Jer 8,3</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ajim bzw. -chajim in Zln 1, 3-8 (teilweise auf den Namen).
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Das Genesiszitat wird mit ‎‏חיים‏‎, Leben, fortgeführt, um auf den Namen anzuspielen bzw. auf das (beendete) Leben.</p>
+    <p>Zln 6b/7a: Im Buch Ijob ist es die Rückkehr der Seele aus der Unterwelt, Grube, die sie im Lichte des Lebens leuchten läßt; hier der entgegengesetzte Weg, das Hingehen in "seine Welt", ähnlich auch Ps 56,14 (vor Gott im Lichte des Lebens wandeln) und Koh 12,5 ("geht hin in seine Welt").</p>
+    <p>Zln 7b/8a: Talmudisch ist aus der Trauerrede zu ersehen, ob der Verstorbene zur künftigen Welt gelangt: Eine warme, warmherzige Trauerrede beeinflußt das Geschehen.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Inschrift verwendet Aramäisch, stets eine Ehrbezeugung an Gelehrsamkeit und Lebensführung. Anspielungen auf den Namen Chajim, der "Leben" bedeutet, bieten sich geradezu an und wurden auch einige Male eingefügt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mosche ben David Leudesdorf, gest. 1803-12-25, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1322</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1322</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1322</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung mittel
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1803-12-25'>1803-12-25</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>EM</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1402</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1322-1" sex='1'>
+      <persName>Mosche ben David Leudesdorf</persName>
+       <event when='1803-12-25' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1322_EM_0110120112.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-12'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/04/00000226.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏ציון קבורת‏‎
+‏‎     <lb n='2'/>
+     ‎‏משה‏‎
+‏‎     <lb n='3'/>
+     ‎‏אכה כף אל כף על מות ציר נאמן גובה קהילתינו‏‎
+‏‎     <lb n='4'/>
+     ‎‏וישכם משה בבקר שומרים לבוקר להתפלל תפלה למשה‏‎
+‏‎     <lb n='5'/>
+     ‎‏וילך משה מחיל אל חיל מבה״כ לבה״מ לשמוע תור׳ משה‏‎
+‏‎     <lb n='6'/>
+     ‎‏ומשה היה רועה את צאן ישראל כי רועה נאמן היה משה‏‎
+‏‎     <lb n='7'/>
+     ‎‏ומשה עלה אל האלהים ויספידו וכבוד עשו לו במשה‏‎
+‏‎     <lb n='8'/>
+     ‎‏ה״ה איש תמים התורני גובה הקהלה כהר״ר משה‏‎
+‏‎     <lb n='9'/>
+     ‎‏בן המנהיג [ה]קהילה כ״ה דוד ל״ד [ז]צ״ל יצאה [נ]שמת משה‏‎
+‏‎     <lb n='10'/>
+     ‎‏בעשרה [ב]טבת ונקבר למחר[ת]ו יום ב׳ [.. ט] בת‏‎
+‏‎     <lb n='11'/>
+     ‎‏שנת ת[ק]ס״ד‏‎
+‏‎     <lb n='12'/>
+     ‎‏ישמ[ח מ]שה [(ב)]מ[(תנת ח)]לקו לפ״ק‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Grabzeichen
+     <lb n='2'/>
+     des Mosche
+     <lb n='3'/>
+     ›Ich schlage Hand in Hand‹ ob des Todes ›eines treuen Boten‹, Kassenverwalters unsrer Gemeinde -
+     <lb n='4'/>
+     ›Mosche machte sich auf am Morgen‹, ›Wächter auf den Morgen‹, und betete das Gebet des Mosche,
+     <lb n='5'/>
+     Mosche ging ›von Tucht zu Tucht‹, vom Gebetshaus zum Lehrhaus um die Lehre Mosches zu hören,
+     <lb n='6'/>
+     Mosche war ein Hirte der Herde Israels, denn treuer Hirte war Mosche,
+     <lb n='7'/>
+     und ›Mosche stieg hinauf zu Gott‹, und er wurde betrauert, und ›man erwies ihm Ehre ‹, dem Mosche,
+     <lb n='8'/>
+     es ist der lautere Mann, der Toragelehrte, Kassenverwalter der Gemeinde, der geehrte Meister, Herr Mosche,
+     <lb n='9'/>
+     Sohn des Leiters der Gemeinde, des geehrten Herrn David Leudesdorf, das Andenken des Gerechten zum Segen, und es ging fort die Seele von Mosche
+     <lb n='10'/>
+     am Zehnten des Tewet, und er wurde begraben am Tag darauf, Tag 2, ... Tewet
+     <lb n='11'/>
+     des Jahres 564
+     <lb n='12'/>
+     ›Es Freue Sich Mosche Mit Dem Ihm Bescherten Anteil‹ (564) der kleinen Zählung.
+     <lb n='13'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: nach Ez 21,19 | Zl 3: Spr 25,13</p>
+    <p>Zl 4: Ex 34,4 | Zl 4: nach Ps 130,6</p>
+    <p>Zl 5: Ps 84,8</p>
+    <p>Zl 7: Ex 19,3 | Zl 7: 2Chr 32,33</p>
+    <p>Zl 12: Beginn des mittleren Segens der Amida am Schabbat</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -mosche in Zln 4-9.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      in Zl 12 mit dem Zahlenwert 564.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 4: Wächter auf den Morgen" bezeichnet diejenigen, die im letzten Drittel der Nacht aufstehen, um die Zerstörung Jerusalems zu beklagen. Hier muß es aber eine Chewra sein, aber wofür genau?</p>
+    <p>Zl 5: Gemeint ist, daß er kontinuierlich sich steigerte, "von Erfolg zu Erfolg eilte", denn in der Synagoge wird gebetet, im Lehrhaus gelernt, d.h. die Forderung ist höher.</p>
+    <p>Zl 7a: Mose steigt den Berg Sinai hinauf, um die Zehn Gebote zu empfangen. Mit diesem Vers wird auf den ersten Vornamen angespielt.</p>
+    <p>Zl 7b: Dort: "man erwies ihm Ehre bei seinem Tode" (Hiskija), hier wurde das Wort "Tod" durch den gleich anlautenden Namen Mosche ersetzt.</p>
+    <p>Zl 12: Beginn des mittleren Segens ("Heiligkeit des Tages") der Amida am des Morgengebets Schabbat; welche Buchstaben markiert waren, läßt sich wegen des schlechten Zustands des Grabmals nicht mehr rekonstruieren.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

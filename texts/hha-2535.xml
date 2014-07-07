@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schimschon ben Reuwen, gest. 1654-11-12, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2535</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2535</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2535</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>1,550 x 0,840 x 0,160 m</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1654-11-12'>1654-11-12</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FR</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1087</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2535-1" sex='1'>
+      <persName>Schimschon ben Reuwen</persName>
+       <event when='1654-11-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2535_FR_0407300122.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2004-07-30'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/fd/540--33a.jpg'>
+    <desc>
+    <ref target='#foto3'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000522.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה נטמן‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש מהימן האלוף מהר״ר‏‎
+‏‎     <lb n='3'/>
+     ‎‏שמשון בר ראובן לחיי עה״ב‏‎
+‏‎     <lb n='4'/>
+     ‎‏הוא מזומן עסק בתורה‏‎
+‏‎     <lb n='5'/>
+     ‎‏הלך לפניו אורה פרנס ומנהי׳‏‎
+‏‎     <lb n='6'/>
+     ‎‏בני דורו צדיק מעולה נתבוקש (!)‏‎
+‏‎     <lb n='7'/>
+     ‎‏למעלה לקבל שכרו לפעולה‏‎
+‏‎     <lb n='8'/>
+     ‎‏בליל ששה היתה הפרישה‏‎
+‏‎     <lb n='9'/>
+     ‎‏למקום הקדושה ונטמן ביו׳‏‎
+‏‎     <lb n='10'/>
+     ‎‏הששה ג׳ כסליו תט״ו לאלף‏‎
+‏‎     <lb n='11'/>
+     ‎‏הששה ושבק חיים לאנשי׳‏‎
+‏‎     <lb n='12'/>
+     ‎‏במהרה יקיץ ויפרח שמשן‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     ein vertrauenswürdiger Mann, der Vornehme, unser Lehrer, der Meister, Herr
+     <lb n='3'/>
+     Schimschon, Sohn des Reuwen, ›zum Leben der künftigen Welt
+     <lb n='4'/>
+     ist er gebeten‹, ›mit Tora war er beschäftigt,
+     <lb n='5'/>
+     es ging ihr Licht vor ihm einher‹, Vorsteher und Leiter
+     <lb n='6'/>
+     für sein Zeitalter, ein hervorragender Gerechter, geladen werde er
+     <lb n='7'/>
+     nach droben, um den ›Lohn für sein Werk‹ zu empfangen,
+     <lb n='8'/>
+     in der Nacht sechs ›zog er sich zurück‹
+     <lb n='9'/>
+     zum Orte der Heiligkeit, und er ward geborgen am Tag
+     <lb n='10'/>
+     sechs, 3. Kislev 415 des sechsten
+     <lb n='11'/>
+     Jahrtausends, ›und er ließ das Leben wie die Menschen‹,
+     <lb n='12'/>
+     ›möge er, Schimschon, in Bälde erwachen und aufblühen‹.
+     <lb n='13'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3f: bBer 61b</p>
+    <p>Zl 4f: nach bBer 11b</p>
+    <p>Zl 7: nach Jes 40,10</p>
+    <p>Zl 8: nach bJom 8b</p>
+    <p>Zl 11: nach bBer 61b</p>
+    <p>Zl 12: nach Ps 72,7</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -man in Zln 1,2,4, -orah in Zln 4,5, -lah in Zln 6,7 und -schah in Zln 8-11 (unter Einbeziehung des Datums).
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 4b/5a: Die Verbindung von ‎‏תורה‏‎, Tora, und ‎‏אורה‏‎, Licht, im Hebräischen sich reimend, s. Spr 6,23, zudem ein beliebtes Topos im Midrasch.</p>
+    <p>Zl 6: Das letzte Wort hat einen überzähligen Buchstaben, was dazu führt, dass die beiden letzten Buchstaben kleiner geschrieben wurden.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Laut Duckesz ist der Zuname Goldzieher.</p>
+    <p>Ein anderer Aufbau der Inschrift als gewöhnlich; der Name erscheint zu Beginn des Textes, erst danach folgt die Eulogie.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

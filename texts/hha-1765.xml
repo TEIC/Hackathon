@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sara bat Joel Schuh ∞ Süskind Stern, gest. 1773-01-20, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-1765</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1765</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-1765</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           in situ Beschädigung schwer (oberer fehlt) 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1773-01-20'>1773-01-20</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FE</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>N 3170</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-1765-1" sex='2'>
+      <persName>Sara bat Joel Schuh ∞ Süskind Stern</persName>
+       <event when='1773-01-20' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/1765_FE_0110140221.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2001-10-14'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/02/00000546.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏פה טמונה וקבורה ׃]‏‎
+‏‎     <lb n='2'/>
+     ‎‏[‎‏האשה הזקינה והישרה ׃]‏‎
+‏‎     <lb n='3'/>
+     ‎‏[‎‏במידות טובות מעוטרה׃]‏‎
+‏‎     <lb n='4'/>
+     ‎‏[‎‏אחת לא נעדרה ׃]‏‎
+‏‎     <lb n='5'/>
+     ‎‏[‎‏יראת ה׳ אוצרה ׃]‏‎
+‏‎     <lb n='6'/>
+     ‎‏[‎‏שבחה אי]ן לגומרה׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏שמה כאמנו שרה בת ה[מנוח]‏‎
+‏‎     <lb n='8'/>
+     ‎‏פ״ו כ״ה יואל שוך זצ״ל א[שת]‏‎
+‏‎     <lb n='9'/>
+     ‎‏המנוח המנהיג כ״ה זיסק[ינד]‏‎
+‏‎     <lb n='10'/>
+     ‎‏שטערין זצ״ל נשמתה‏‎
+‏‎     <lb n='11'/>
+     ‎‏לשמים מסרה ביו׳ ד׳ ך״[ה]‏‎
+‏‎     <lb n='12'/>
+     ‎‏טבת התקל״גליצרה וב[יו׳]‏‎
+‏‎     <lb n='13'/>
+     ‎‏ה׳ ך״ובו נקברה תנב״ה‏‎
+‏‎     <lb n='14'/>
+     ‎‏צרורה ע״ב משחנו ויקבץ‏‎
+‏‎     <lb n='15'/>
+     ‎‏נדחי ישראל הפזורה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen und begraben
+     <lb n='2'/>
+     die betagte, aufrechte Frau,
+     <lb n='3'/>
+     mit guten Tugenden gekrönt,
+     <lb n='4'/>
+     nicht eine fehlte ihr,
+     <lb n='5'/>
+     die Ehrfurcht des Ewigen ist ihr Schatz,
+     <lb n='6'/>
+     ihr Lob ist nicht zu vollenden,
+     <lb n='7'/>
+     ihr Name gleicht dem unserer Erzmutter Sara, Tochter des Seligen,
+     <lb n='8'/>
+     des Vorstehers und Leiters, des geehrten Herrn Joel Schuh, das Andenken des Gerechten zum Segen, Gattin
+     <lb n='9'/>
+     des Seligen, des Leiters, des geehrten Herrn Süskind
+     <lb n='10'/>
+     Stern, das Andenken des Gerechten zum Segen, ihre Seele
+     <lb n='11'/>
+     übergab sie dem Himmel am Tag 4, 25.
+     <lb n='12'/>
+     Tewet 5533 nach der Schöpfung, und am Tag
+     <lb n='13'/>
+     5, 26. desselben, wurde sie begraben. Ihre Seele sei im Bündel des Lebens
+     <lb n='14'/>
+     eingebunden, bis unser Messias komme und einsammle
+     <lb n='15'/>
+     die verstreuten Verstoßenen Israels
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ra in Zln 1-7 unter Einbeziehung des Namens Sara.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Dem Bogenverlauf folgend.</p>
+    <p>Zl 4: Jes 34,16.</p>
+    <p>Zl 5: Vgl. Jes 33,6.</p>
+    <p>Zl 8: Grabbuch und Grunwald geben den Familiennamen des Vaters mit "Schich" wieder.</p>
+    <p>Zln 14/15: Vgl. Jes 58,8.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal unbeschädigt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

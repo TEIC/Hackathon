@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Löb ben Baruch Bendit, gest. 1689-07-01, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-3232</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3232</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-3232</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           non in situ Beschädigung schwer 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>geknickte Blume</decoNote>
+       <decoNote type='ornament'>floral; gestalterisch: aufgespannter Mantel</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1689-07-01'>1689-07-01</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>GN</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-3232-1" sex='1'>
+      <persName>Löb ben Baruch Bendit</persName>
+       <event when='1689-07-01' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3232_GN_0205260117.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-05-26'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/3232xGN_0204230316.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-23'/>
+    schriftlos
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000414.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏בעת ההיא וירד יהודה מיאת אחיו לפ״ק‏‎
+‏‎     <lb n='2'/>
+     ‎‏פ״[.]‏‎
+‏‎     <lb n='3'/>
+     ‎‏א״ת מצוא זו קבורה של פ״[ו]‏‎
+‏‎     <lb n='4'/>
+     ‎‏שנהג כהוגן וכשורה ׃ ויט ש‏‎
+‏‎     <lb n='5'/>
+     ‎‏כמו לסבול עול וטרח׳ דציבור׳‏‎
+‏‎     <lb n='6'/>
+     ‎‏ירא וחרד ונזהר במצוה קלה‏‎
+‏‎     <lb n='7'/>
+     ‎‏כבחמור׳ ׃ עשה חסד לאלפים‏‎
+‏‎     <lb n='8'/>
+     ‎‏להחזיק ידי לומדי תור׳ ׃ והכל‏‎
+‏‎     <lb n='9'/>
+     ‎‏בסתר ולא לשום יהורא‏‎
+‏‎     <lb n='10'/>
+     ‎‏קבע עיתי׳ לתור׳ ומשנתו בפיו‏‎
+‏‎     <lb n='11'/>
+     ‎‏שגורה ׃ מסוף דבריו ניכר‏‎
+‏‎     <lb n='12'/>
+     ‎‏[‎‏שירא]תו יראה טהורה לא‏‎
+‏‎     <lb n='13'/>
+     ‎‏[‎‏ח...]קר ׃ ה״ה פ״ו הר״ר ליב‏‎
+‏‎     <lb n='14'/>
+     ‎‏[‎‏בן ה]מונח מוהר״ר ב[רו]ך‏‎
+‏‎     <lb n='15'/>
+     ‎‏בענדיט זצ״ל מה״ש יצאה‏‎
+‏‎     <lb n='16'/>
+     ‎‏נשמתו בטהר׳ ונקב׳ יו׳ ו׳ עש״ק‏‎
+‏‎     <lb n='17'/>
+     ‎‏י״ג תמוז ת״[מ״ט] ל׳ תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›"In jener Zeit zog Jehuda von seinen Brüdern hinab"‹ (449) der kleinen Zählung.
+     <lb n='2'/>
+     Hier ...,
+     <lb n='3'/>
+     (ein) untadeliger Mann ist gefunden: das ist die Grabstätte eines Vorstehers und Leiters,
+     <lb n='4'/>
+     ›der sich verhielt, wie es sich gehört, und nach der Ordnung tat‹, und ›er neigte
+     <lb n='5'/>
+     seine Schulter um das Joch und die Last zu tragen‹ für die Gemeinschaft,
+     <lb n='6'/>
+     ›ehrfürchtig, furchtsam‹ und ›achtsam war er beim leichten,
+     <lb n='7'/>
+     wie beim schweren Gebot‹, ›Liebeswerk erwies er tausenden‹,
+     <lb n='8'/>
+     indem er die Toralernenden unterstützte, ganz
+     <lb n='9'/>
+     unauffällig und nicht für seinen Ruhm,
+     <lb n='10'/>
+     er setzte feste Zeiten für die Tora und seine Mischna (war) in seinem Munde
+     <lb n='11'/>
+     geläufig, [...] seine Worte, erkennbar?
+     <lb n='12'/>
+     [...], ›die Ehrfurcht rein‹, nicht
+     <lb n='13'/>
+     [...], es ist der Vorsteher und Leiter, der Meister, Herr Löb
+     <lb n='14'/>
+     [...], erhaben, unser Lehrer und Meister, Herr Baruch
+     <lb n='15'/>
+     Bendit, das Andenken des Gerechten zum Segen, aus H(alber)s(tadt), ›es ging aus
+     <lb n='16'/>
+     seine Seele in Reinheit‹ und er ward begraben (am) Tag 6, am Rüsttag des heiligen Schabbat,
+     <lb n='17'/>
+     13. Tammus 449 der Zählung.? Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 38,1</p>
+    <p>Zl 4: BerR 93</p>
+    <p>Zl 4f: Gen 49,15</p>
+    <p>Zl 6: Ri 7,3</p>
+    <p>Zl 6f: nach Av 2,1 | Zl 7: Ex 20,6</p>
+    <p>Zl 12: Ps 19,10</p>
+    <p>Zl 15f: bSan 68a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Chronogramm</label>
+      in Zl 1 mit dem Zahlenwert 449.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Anspielung auf den Namen.</p>
+   </div>
+   <div type="commentary" subtype="Abkürzung">
+    <p>Zl 15: ‎‏מה״ש‏‎ Abkürzung für ‎‏מהלברשטט‏‎.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der Name fehlt im Grabbuch, die Datierung erfolgte mit Hilfe der histor. Aufnahme.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

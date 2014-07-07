@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Elijahu ben Mosche Josef, gest. 1680-03-16, Jüdischer Friedhof Hamburg-Altona, Königstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hha-2453</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2453</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hha-2453</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2006</date>
+           unterer Teil in situ, der Rest liegend Beschädigung schwer zerbrochen, Giebel fehlt 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1680-03-16'>1680-03-16</date>
+       <country type="ISO_3166" key="XA-DE-HH">
+        Germany
+        <region>Hamburg</region>
+       </country>
+       <settlement type='city' key='tgn:7012310'>
+        Hamburg-Altona, Königstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.549373 9.950545</geo>
+         <location>
+          <geo decls='Planquadrat'>FO</geo>
+         </location>
+         <location>
+          <geo decls='Feld Grabnummer'>S 1108</geo>
+         </location>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Fundstücke, Dan Bondy</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Denkmalpflegerische Massnahme</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>^# Denkmalschutzamt Hamburg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Eduard Duckesz Glasplatten ^# CAHJP Jerusalem, Glasplatten: HMB/2452, Inv 2326 · Digitalisat: CDB/5-7</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahmen [Mikrofilme] ^# Staatsarchiv Hamburg, Bestand 741-4 Fotoarchiv, Signatur P 2333</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc>Aufgenommen in der Synagoge Innsbruck</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hha-2453-1" sex='1'>
+      <persName>Elijahu ben Mosche Josef</persName>
+       <event when='1680-03-16' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2453_FO_0204240204.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-04-24'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2453_FO_0206020214.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-06-02'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/2453_FO_0206020215.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2002-06-02'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshha/xl/mf/03/00000543.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏אדם]‏‎
+‏‎     <lb n='2'/>
+     ‎‏[‎‏אשר בעפר]‏‎
+‏‎     <lb n='3'/>
+     ‎‏יסודו לא[רץ איך]‏‎
+‏‎     <lb n='4'/>
+     ‎‏נשפך כבודו דודי ירד‏‎
+‏‎     <lb n='5'/>
+     ‎‏לגנו ללקוט שושנו‏‎
+‏‎     <lb n='6'/>
+     ‎‏צדיק לבית מלונו‏‎
+‏‎     <lb n='7'/>
+     ‎‏כשמש בלא זמנו ועל‏‎
+‏‎     <lb n='8'/>
+     ‎‏זה אשא קינה ויללה‏‎
+‏‎     <lb n='9'/>
+     ‎‏על אבדת החב״ר ר׳‏‎
+‏‎     <lb n='10'/>
+     ‎‏אלי׳ בר חבר ר׳ משה‏‎
+‏‎     <lb n='11'/>
+     ‎‏יוסף פרנס הקהילה ‏‎
+‏‎     <lb n='12'/>
+     ‎‏אשר הדריכם בדרך‏‎
+‏‎     <lb n='13'/>
+     ‎‏ישר וסלולה וכל אחד‏‎
+‏‎     <lb n='14'/>
+     ‎‏היה לו כבבת עינו‏‎
+‏‎     <lb n='15'/>
+     ‎‏סגולה ואיננו כי לקח‏‎
+‏‎     <lb n='16'/>
+     ‎‏ה׳ את אלי׳ למעלה לחיי‏‎
+‏‎     <lb n='17'/>
+     ‎‏עולם הבא הוא מזומן‏‎
+‏‎     <lb n='18'/>
+     ‎‏ונשמתו בצרור החיים‏‎
+‏‎     <lb n='19'/>
+     ‎‏כלולה בשנת מת‏‎
+‏‎     <lb n='20'/>
+     ‎‏בשושן פורים‏‎
+‏‎     <lb n='21'/>
+     ‎‏לפ״ק‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Ein Mensch,
+     <lb n='2'/>
+     ›der im Staube
+     <lb n='3'/>
+     gegründet ist‹, ›wie
+     <lb n='4'/>
+     ergoß sich seine Ehre zur Erde,‹ ›mein Geliebter stieg hinab
+     <lb n='5'/>
+     in seinen Garten‹, um seine Rose zu sammeln,
+     <lb n='6'/>
+     ein Gerechter (ging) in sein Herbergshaus,
+     <lb n='7'/>
+     (ging unter) wie die Sonne, vor seiner Zeit, und darüber
+     <lb n='8'/>
+     erhebe ich eine Trauerklage und Geschrei,
+     <lb n='9'/>
+     über den Verlust des toragelehrten Meisters, Herrn
+     <lb n='10'/>
+     Elijahu, Sohn des toragelehrten Herrn Mosche
+     <lb n='11'/>
+     Josef, Vorsteher der Gemeinde,
+     <lb n='12'/>
+     welche er leitete auf geradem
+     <lb n='13'/>
+     und gebahnten Wege, und jeder einzelne
+     <lb n='14'/>
+     war ihm›wie sein Augapfel‹
+     <lb n='15'/>
+     kostbar, und er ward nicht mehr,›denn es nahm
+     <lb n='16'/>
+     der Ewige‹ den Elijahu nach droben, ›zum Leben
+     <lb n='17'/>
+     der zukünftigen Welt ist er geladen,‹Zl 16f: u. a. nach bTaan 29a
+     <lb n='18'/>
+     und seine Seele sei im Bündel des Lebens
+     <lb n='19'/>
+     inbegriffen im Jahre Gestorben (440)
+     <lb n='20'/>
+     an Schuschan Purim
+     <lb n='21'/>
+     der kleinen Zählung.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2f: Nach Ijob 4,19</p>
+    <p>Zl 3f: Nach Klgl 2,11</p>
+    <p>Zl 4f: Hld 6,2</p>
+    <p>Zl 14: Nach Sach 2,12</p>
+    <p>Zl 15f: Nach Gen 5,24</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -odo in Zln 3,4, auf -(a)no in Zln 5-7, auf -lah in Zln 8,11,13,15,16,19.
+    </p>
+    <p>
+     <label>Chronogramm</label>
+      in Zl 19: ‎‏מת‏‎ / "gestorben" mit dem Zahlenwert 440.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 3b/4a: Im Zitat aus Klgl 2,11 heißt es ' meine Leber'.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die histor. Aufnahme zeigt das Grabmal vollständig und in situ.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>
