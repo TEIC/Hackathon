@@ -10,7 +10,7 @@ $(function() {
 			attributes: "\u0040",
 			desc: "\u2026"		
 		},
-
+		
 		initialize: function() {
 
 			var w = 1280 - 80,
@@ -56,7 +56,8 @@ $(function() {
 		            "name" : m.ident,
 		            "mode" : "unknown",
 		            "changes" : {},
-		            "score" : 1
+		            "score" : 1,
+					"included": false
 		          }
 		        }
 
@@ -65,7 +66,7 @@ $(function() {
 		    });
 
 		    // Then load customization
-		    d3.json("../data/leap.json", _.bind( function(data) {
+		    d3.json("../data/james.json", _.bind( function(data) {
 		    
 		      var elements = _.filter(data.members, function(m) {
 		        return m.type == "elementSpec";
@@ -79,7 +80,8 @@ $(function() {
 		          "name" : el.ident,
 		          "mode" : "unknown",
 		          "changes" : {},
-		          "score" : 1
+		          "score" : 1,
+				  "included": true
 		        }
 
 		        // different desc
@@ -131,7 +133,7 @@ $(function() {
 			treeData.children = _.map(data.modules, function(module, key) {
 				var child = { name: key };
 				child.children = _.map( module.elements, function( element, key ) {
-					return { name: key, size: element.score, attributes: element.changes.attributes, desc: element.changes.desc };			
+					return { name: key, size: element.score, changes: element.changes, attributes: element.changes.attributes, desc: element.changes.desc };			
 				});
 				return child;
 			});
@@ -176,8 +178,9 @@ $(function() {
 			},
 			
 			selectColor: function(d) {
-				// TODO
-				return "gray";
+				if( d.attributes ) return "#FFAE19";
+				if( d.desc ) return "#2665B2"; 
+				return "white";
 			},
 			
 			selectIcon: function(d) {	
