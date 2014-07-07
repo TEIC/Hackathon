@@ -4,23 +4,35 @@
 
 <title>D3 Test</title>
 
-<link href="./main.css" media="all" rel="stylesheet" type="text/css">
+<link href="./treeview.css" media="all" rel="stylesheet" type="text/css">
 
 <!-- libs -->
 <script src="lib/jquery-1.11.1.js"></script>
 <script src="lib/underscore.js"></script>
 <script src="lib/d3.v3.min.js"></script>
 
-<script src="main.js"></script>
+<script src="oddvisualizer.js"></script>
+<script src="treeview.js"></script>
 
 </head>
 <body>
+ <div id="body">
+      <div id="footer">
+        d3.layout.treemap
+        <div class="hint">click or option-click to descend or ascend</div>
+        <div><select>
+          <option value="size">Size</option>
+          <option value="count">Count</option>
+        </select></div>
+      </div>
+    </div>
 <script>
 $(document).ready(function() {
 
-	var d3Test = new D3Test.Main(); 
+	var treeView = new ODDVisualizer.TreeView(); 
 	
 });
 
 </script>
 </body>
+
