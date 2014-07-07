@@ -127,13 +127,11 @@ $(function() {
 
 		visualizeData: function(data) {
 
-			console.log(data);
-
 			var treeData = {};
 			treeData.children = _.map(data.modules, function(module, key) {
 				var child = { name: key };
 				child.children = _.map( module.elements, function( element, key ) {
-					return { name: key, size: element.score, changes: element.changes, attributes: element.changes.attributes, desc: element.changes.desc };			
+					return { name: key, size: element.score, changes: element.changes, attributes: element.changes.attributes, desc: element.changes.desc, included: element.included };			
 				});
 				return child;
 			});
@@ -179,8 +177,9 @@ $(function() {
 			
 			selectColor: function(d) {
 				if( d.attributes ) return "#FFAE19";
-				if( d.desc ) return "#2665B2"; 
-				return "LightGray";
+				if( d.desc ) return "#2665B2";
+				if( d.included ) return "LightGray"; 
+				return "White";
 			},
 			
 			selectIcon: function(d) {	
