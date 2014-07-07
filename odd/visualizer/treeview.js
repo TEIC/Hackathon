@@ -28,11 +28,104 @@ $(function() {
 			this.w = w;
 			this.h = h;
 
-			d3.json("target.json", _.bind(this.parseData, this));
+			d3.json("../data/p5subset.json", _.bind(this.parseData, this));
 
 		},
 
-		parseData: function(data) {
+		parseData: function(p5data) {
+
+			var oddTree = {
+			    "modules" : {}
+			  };
+
+			 var p5elements = {};
+
+		    _.map(p5data.members, function(m) {
+		      if (m.type == "elementSpec"){
+		        p5elements[m.ident] = m;
+
+		        if (oddTree.modules[m.module] == undefined) {
+		          oddTree.modules[m.module] = {
+		            "name" : m.module,
+		            "included" : false,
+		            "elements" : {}
+		          }
+		        }
+		        else {
+		          oddTree.modules[m.module].elements[m.ident] = {
+		            "name" : m.ident,
+		            "mode" : "unknown",
+		            "changes" : {},
+		            "score" : 1
+		          }
+		        }
+
+		      }
+
+		    });
+
+		    // Then load customization
+		    d3.json("../data/leap.json", _.bind( function(data) {
+		    
+		      var elements = _.filter(data.members, function(m) {
+		        return m.type == "elementSpec";
+		      });
+
+		      _.each(elements, function(el){
+
+		        oddTree.modules[el.module].included = true;
+
+		        var struct = {
+		          "name" : el.ident,
+		          "mode" : "unknown",
+		          "changes" : {},
+		          "score" : 1
+		        }
+
+		        // different desc
+		        if (p5elements[el.ident].desc != el.desc){
+		          struct.score++;
+		          struct.changes["desc"] = true;
+		        }
+
+		        // attribute number
+		        var p5attlength = p5elements[el.ident].attributes.length;
+		        var attrlength = el.attributes.length;
+		        if (p5attlength != attrlength){
+		          struct.score += attrlength - p5attlength;
+		          struct.changes["attributes"] = true;
+		        }
+
+		        // new attribute values
+		        _.map(el.attributes, function(attr){
+		          var p5attr = _.filter(p5elements[el.ident].attributes, function(a){
+		            return a.ident == attr.ident
+		          });
+		          if (p5attr.values == undefined || p5attr.values == null) {
+		            p5attr.values = [];
+		          }
+		          _.map(attr.values, function(v){
+		            if (_.indexOf(p5attr.values, v) == -1){
+		              struct.score++;
+		              struct.changes["attributes"] = true;
+		            }
+		          });
+		        });
+
+
+		        oddTree.modules[el.module].elements[struct.name] = struct;
+
+		      });
+
+			  this.visualizeData(oddTree);
+
+		    }, this));
+
+		},
+
+		visualizeData: function(data) {
+
+			console.log(data);
 
 			var treeData = {};
 			treeData.children = _.map(data.modules, function(module, key) {
