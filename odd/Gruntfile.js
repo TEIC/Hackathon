@@ -4,6 +4,7 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-concat');
 
   // Project configuration.
   grunt.initConfig({
@@ -18,11 +19,24 @@ module.exports = function(grunt) {
       }
     },
 
+    concat: {
+      bower_js: {
+        options: {
+          separator: "\n",
+        },
+        src: ['bower_components/jquery/dist/jquery.min.js', 
+              'bower_components/underscore/underscore.js', 
+              'bower_components/d3/d3.min.js'],
+        dest: 'visualizer/lib/main.js'
+      }
+    },
+      
+
     bower: { install: true },
 
     watch: {
       scripts: {
-        files: ['src/*.js', 'less/*.less'],
+        files: ['src/*.js'],
         options: {
           livereload: true
         }
@@ -31,6 +45,6 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.registerTask('default', ['connect:server', "watch"]);
+  grunt.registerTask('default', ['concat', 'connect:server', "watch"]);
 
 };
