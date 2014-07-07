@@ -1,5 +1,5 @@
-teijs({"title": "","edition": "","generator": "odd2json",
-    "date":"2014-07-07T10:50:32Z","modules": [{"ident":"analysis","id":"AI","desc":""},
+{"title": "","edition": "","generator": "odd2json",
+    "date":"2014-07-07T10:54:58Z","modules": [{"ident":"analysis","id":"AI","desc":""},
 {"ident":"core","id":"CO","desc":""},
 {"ident":"figures","id":"FT","desc":""},
 {"ident":"header","id":"HD","desc":""},
@@ -289,4 +289,4 @@ teijs({"title": "","edition": "","generator": "odd2json",
 {"ident":"macro.phraseSeq","module":"tei","type":"pe","desc":"(phrase sequence) defines a sequence of character data and phrase-level elements."},
 {"ident":"macro.phraseSeq.limited","module":"tei","type":"pe","desc":"(limited phrase sequence) defines a sequence of character data and those phrase-level elements that are not typically used for transcribing extant documents."},
 {"ident":"macro.specialPara","module":"tei","type":"pe","desc":"('special' paragraph content) defines the content model of elements such as notes or list items, which either contain a series of component-level elements or else have the same structure as a paragraph, containing a series of phrase-level and inter-level elements."}
-],"macroRefs": []})
+],"macroRefs": []}
