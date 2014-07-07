@@ -90,12 +90,13 @@
     <xsl:param name="content"/>
     <xsl:param name="last"/>
     <xsl:variable name="result">
+      <xsl:text>"</xsl:text>
+      <xsl:value-of select="$label"/>
+      <xsl:text>"</xsl:text>
+      <xsl:text>: </xsl:text>
       <xsl:choose>
         <xsl:when test="count($content/object/*)>0">
-          <xsl:text>"</xsl:text>
-          <xsl:value-of select="$label"/>
-          <xsl:text>"</xsl:text>
-          <xsl:text>: { </xsl:text>
+          <xsl:text> { </xsl:text>
           <xsl:for-each select="$content/object/*">
             <xsl:text>"description":"description of the decoration",</xsl:text>
             <xsl:text>"type":"symbol",</xsl:text>
@@ -112,13 +113,16 @@
             
           </xsl:for-each>
           <xsl:text> }</xsl:text>
-          <xsl:if test="not($last)">
-            <xsl:text>,</xsl:text>
-          </xsl:if>
           
           
         </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>{"notBefore":""}</xsl:text>
+        </xsl:otherwise>
       </xsl:choose>
+      <xsl:if test="not($last)">
+        <xsl:text>,</xsl:text>
+      </xsl:if>
     </xsl:variable>
     <xsl:value-of select="$result"/>
   </xsl:function>
