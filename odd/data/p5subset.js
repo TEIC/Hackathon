@@ -1,4 +1,4 @@
-teijs({"title": "","edition": "Version 2.6.1alpha. Last updated on 3rd July 2014, revision 12935","generator": "odd2json",
+{"title": "","edition": "Version 2.6.1alpha. Last updated on 3rd July 2014, revision 12935","generator": "odd2json",
     "date":"2014-07-03T22:30:56Z","modules": [{"ident":"analysis","id":"AI","desc":"Simple analytic mechanisms"},
 {"ident":"certainty","id":"CE","desc":"Certainty and uncertainty"},
 {"ident":"core","id":"CO","desc":"Elements common to all TEI documents"},
@@ -784,4 +784,4 @@ teijs({"title": "","edition": "Version 2.6.1alpha. Last updated on 3rd July 201
 {"ident":"macro.schemaPattern","module":"tagdocs","type":"pe","desc":"provides a pattern to match elements from the chosen schema language"},
 {"ident":"macro.specialPara","module":"tei","type":"pe","desc":"('special' paragraph content) defines the content model of elements such as notes or list items, which either contain a series of component-level elements or else have the same structure as a paragraph, containing a series of phrase-level and inter-level elements."},
 {"ident":"macro.xtext","module":"tei","type":"pe","desc":"(extended text) defines a sequence of character data and gaiji elements."}
-],"macroRefs": []})
+],"macroRefs": []}
