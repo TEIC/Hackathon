@@ -180,7 +180,7 @@ $(function() {
 			selectColor: function(d) {
 				if( d.attributes ) return "#FFAE19";
 				if( d.desc ) return "#2665B2"; 
-				return "white";
+				return "LightGray";
 			},
 			
 			selectIcon: function(d) {	
