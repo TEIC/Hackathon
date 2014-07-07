@@ -27,6 +27,10 @@
 	  <xsl:text>]</xsl:text>
 	  <xsl:text>/</xsl:text>
 	</xsl:for-each>
+	<xsl:value-of select="name()"/>
+	  <xsl:text>[</xsl:text>
+	  <xsl:value-of select="position()"/>
+	  <xsl:text>]</xsl:text>
       </xsl:attribute>
       <xsl:choose>
 	<xsl:when test="@when">
