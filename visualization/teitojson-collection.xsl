@@ -12,6 +12,7 @@
   
 <xsl:variable name="inq">"</xsl:variable>
 <xsl:variable name="outq">\\"</xsl:variable>
+  
 <xsl:template match="/">
   <xsl:call-template name="extract"/>
 </xsl:template>
@@ -46,7 +47,14 @@
 	  <xsl:text>]</xsl:text>
       </xsl:attribute>
       -->
-      
+      <xsl:choose>
+        <xsl:when test="@when">
+          <xsl:value-of select="@when"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select="."/>
+        </xsl:otherwise>
+      </xsl:choose>
     </n>
   </xsl:for-each>
 </xsl:template>
