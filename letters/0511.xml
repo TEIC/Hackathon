@@ -1,11 +1,48 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">	
+<?xml version="1.0" encoding="UTF-8"?><TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ioannes Dantiscus' Texts and Correspondence: Sigismund I  Jagiellon to Ioannes DANTISCUS </title>
+                <editor>Anna Skolimowska et al.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010-2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Transcribed from manuscript, collated with primary sources; critical apparatus and commentary.</p>
+                <p>Working draft, please refer to http://dantiscus.al.uw.edu.pl for current version.</p>
+            </publicationStmt>
+            <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+     <history>
+      <origin>
+<date notBefore="1530-07-07" notAfter="1530-07-07"/>
+
+      </origin>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+<person xml:id="Pe24"><persName>Sigismund I  Jagiellon</persName></person><person xml:id="Pe1"><persName>Ioannes DANTISCUS</persName></person>
+    </listPerson>
+    <listPlace>
+<place type="from" xml:id="Pl2"><placeName>Cracow</placeName></place>
+
+    </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:id="IDL511">
 
 <front>
 
 <div type="address">
 <p>
- <pb id="18200_000_Cz_1601p.242.jpg" n="BCK, 1601, p. 242"/> 
+ <pb xml:id="F18200_000_Cz_1601p.242.jpg" n="BCK, 1601, p. 242"/> 
 </p>
 <p>
 Reverendo domino <name type="person" key="1">Ioanni Dantisco</name>, electo episcopo Culmensi et apud sacram et catholicam caesaream maiestatem oratori nostro, sincere nobis dilecto
@@ -17,7 +54,7 @@ Reverendo domino <name type="person" key="1">Ioanni Dantisco</name>, electo epis
 
 <div type="signature">
 <p>
- <pb id="18200_000_Cz_1601p.241.jpg" n="BCK, 1601, p. 241"/> 
+ <pb xml:id="F18200_000_Cz_1601p.241.jpg" n="BCK, 1601, p. 241"/> 
 </p>
 <p>
 <name type="person" key="24">Sigismundus Dei gratia rex Poloniae</name>, magnus dux Littuaniae, Russiae totiusque Prussiae ac Masoviae etc. dominus et heres
@@ -32,8 +69,8 @@ Reverende domine, sincere nobis dilecte.
 
 <div type="main_content">
 <p>
-<div type="incipit">
-Erant apud nos oratores regni Transsilvaniae proficiscunturque</div> ad sacram et catholicam caesaream maiestatem et ad serenissimum dominum Ferdinandum, Hungariae et Boemiae etc. regem, consanguineos fratres nostros carissimos. Ea vero, quae apud nos egerunt et apud illas maiestates acturi sunt, ipsimet coram praesentesque <app>
+<span type="incipit">
+Erant apud nos oratores regni Transsilvaniae proficiscunturque</span> ad sacram et catholicam caesaream maiestatem et ad serenissimum dominum Ferdinandum, Hungariae et Boemiae etc. regem, consanguineos fratres nostros carissimos. Ea vero, quae apud nos egerunt et apud illas maiestates acturi sunt, ipsimet coram praesentesque <app>
 <lem><expan>S<ex>trenuitati</ex></expan></lem>
 <rdg><expan>S<ex>inceritati</ex></expan></rdg>
 </app>

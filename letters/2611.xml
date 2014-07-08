@@ -1,10 +1,46 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+<?xml version="1.0" encoding="UTF-8"?><TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ioannes Dantiscus' Texts and Correspondence: Georg von KONOPAT (Jerzy KONOPACKI) &amp; Jan SOKOŁOWSKI to Ioannes DANTISCUS &amp; Tiedemann GIESE </title>
+                <editor>Anna Skolimowska et al.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010-2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Transcribed from manuscript, collated with primary sources; critical apparatus and commentary.</p>
+                <p>Working draft, please refer to http://dantiscus.al.uw.edu.pl for current version.</p>
+            </publicationStmt>
+            <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+     <history>
+      <origin>
+<date notBefore="1543-02-21" notAfter="1543-02-21"/>
 
+      </origin>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+<person xml:id="Pe148"><persName>Georg von KONOPAT sr.</persName></person><person xml:id="Pe225"><persName>Jan SOKOŁOWSKI</persName></person><person xml:id="Pe1"><persName>Ioannes DANTISCUS</persName></person><person xml:id="Pe275"><persName>Tiedemann GIESE</persName></person>
+    </listPerson>
+    <listPlace>
+<place type="from" xml:id="Pl248"><placeName>[Dirschau (Tczew)?]</placeName></place>
+
+    </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:id="IDL2611">
 <body>
 
 <div type="postscript">
-<p> <pb n="APG 300, 53, 268, p. 137"/> </p>
+<p> <pb xml:id="F" n="APG 300, 53, 268, p. 137"/> </p>
 <p>
 Uns fellet eins ein, / nachdem seine konigliche <expan>m<ex>aieste</ex>t</expan> also gnediglich nachgibt, / das ausbleiben in dem ersten termin / ist zuvorhoffen die gedachten hern burgermeister keine beschwerung von seiner <expan>ko<ex>nigliche</ex>n</expan> <expan>m<ex>aieste</ex>t</expan> haben wurden / und sehen vor gut an / sie sich gestelleten und comparirtten am ersten sie konnen / und ist unser bitten <expan>E<ex>wer</ex></expan> <expan>G<ex>naden</ex></expan> dis unser bedencken / den geladenen herren burgermeister zu Dantzig zuschreiben wolten / und in auch solchs rathenn. / 
 </p>

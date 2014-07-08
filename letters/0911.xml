@@ -1,11 +1,48 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">	
+<?xml version="1.0" encoding="UTF-8"?><TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ioannes Dantiscus' Texts and Correspondence: Jan CHOJEŃSKI to Ioannes DANTISCUS </title>
+                <editor>Anna Skolimowska et al.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010-2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Transcribed from manuscript, collated with primary sources; critical apparatus and commentary.</p>
+                <p>Working draft, please refer to http://dantiscus.al.uw.edu.pl for current version.</p>
+            </publicationStmt>
+            <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+     <history>
+      <origin>
+<date notBefore="1533-03-13" notAfter="1533-03-13"/>
+
+      </origin>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+<person xml:id="Pe100"><persName>Jan CHOJEŃSKI</persName></person><person xml:id="Pe1"><persName>Ioannes DANTISCUS</persName></person>
+    </listPerson>
+    <listPlace>
+<place type="from" xml:id="Pl2"><placeName>Cracow</placeName></place>
+
+    </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:id="IDL911">
 
 <front>
 
 <div type="address">
 <p>
- <pb id="19266_000_AWO_ABD67f178v.jpg" n="AAWO, AB, D. 67, f. 178v"/> 
+ <pb xml:id="F19266_000_AWO_ABD67f178v.jpg" n="AAWO, AB, D. 67, f. 178v"/> 
 </p>
 <p>
 Reverendissimo domino, domino Ioanni Dei gratia episcopo Culmensi, domino et amico carissimo et observandissimo
@@ -17,7 +54,7 @@ Reverendissimo domino, domino Ioanni Dei gratia episcopo Culmensi, domino et ami
 
 <div type="salutation">
 <p>
- <pb id="19266_000_AWO_ABD67f178r.jpg" n="AAWO, AB, D. 67, f. 178r"/> 
+ <pb xml:id="F19266_000_AWO_ABD67f178r.jpg" n="AAWO, AB, D. 67, f. 178r"/> 
 </p>
 <p>
 Reverendissime domine, domine observandissime. Post solitam commendationem.
@@ -26,8 +63,8 @@ Reverendissime domine, domine observandissime. Post solitam commendationem.
 
 <div type="main_content">
 <p>
-<div type="incipit">
-Gratulor Vestrae Reverendissimae Dominationi, quod iam hac Quadragesima iugum</div> Domini suscipere et pro se ac populo Christiano dona et sacrificia offerre Deo constituit, qua re obturabit ora latrantium, quibus licet liberum non sit, quod volunt, statuere de Vestra Reverendissima Dominatione, libera tamen lingua plerumque innocentibus nocet. Dominus Cornelius scribit ad me, rogans, ut significarem illi, vivatne Vestra Dominatio Reverendissima, cui litteras ipsius mitto et illi iam respondi ac indicavi Vestra Dominatio Reverendissima sacris initiari iam debet. Novarum rerum hic nihil habemus. Reverendissimus dominus episcopus Cracoviensis fuit hic praesens, ex cuius litteris responsum, ut puto, optatum accipiet Vestra Reverendissima Dominatio, cui precor felicitatem cum dono Spiritus Sancti.
+<span type="incipit">
+Gratulor Vestrae Reverendissimae Dominationi, quod iam hac Quadragesima iugum</span> Domini suscipere et pro se ac populo Christiano dona et sacrificia offerre Deo constituit, qua re obturabit ora latrantium, quibus licet liberum non sit, quod volunt, statuere de Vestra Reverendissima Dominatione, libera tamen lingua plerumque innocentibus nocet. Dominus Cornelius scribit ad me, rogans, ut significarem illi, vivatne Vestra Dominatio Reverendissima, cui litteras ipsius mitto et illi iam respondi ac indicavi Vestra Dominatio Reverendissima sacris initiari iam debet. Novarum rerum hic nihil habemus. Reverendissimus dominus episcopus Cracoviensis fuit hic praesens, ex cuius litteris responsum, ut puto, optatum accipiet Vestra Reverendissima Dominatio, cui precor felicitatem cum dono Spiritus Sancti.
 </p>
 </div>
 

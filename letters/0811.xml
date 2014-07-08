@@ -1,11 +1,48 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">	
+<?xml version="1.0" encoding="UTF-8"?><TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ioannes Dantiscus' Texts and Correspondence: Guido PETRI Anderlechtensis to Ioannes DANTISCUS </title>
+                <editor>Anna Skolimowska et al.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010-2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Transcribed from manuscript, collated with primary sources; critical apparatus and commentary.</p>
+                <p>Working draft, please refer to http://dantiscus.al.uw.edu.pl for current version.</p>
+            </publicationStmt>
+            <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+     <history>
+      <origin>
+<date notBefore="1532-08-01" notAfter="1532-08-01"/>
+
+      </origin>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+<person xml:id="Pe178"><persName>Guido PETRI Anderlechtensis</persName></person><person xml:id="Pe1"><persName>Ioannes DANTISCUS</persName></person>
+    </listPerson>
+    <listPlace>
+<place type="from" xml:id="Pl23"><placeName>Venice</placeName></place>
+
+    </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:id="IDL811">
 
 <front>
 
 <div type="address">
 <p>
- <pb id="19000_000_AWO_ABD3f79av.jpg" n="AAWO, AB, D. 3, f. 79av"/> 
+ <pb xml:id="F19000_000_AWO_ABD3f79av.jpg" n="AAWO, AB, D. 3, f. 79av"/> 
 </p>
 <p>
 Magnifico viro domino <name type="person" key="1">Ioanni Dantisco</name> serenissimi <rs type="person" key="24">Poloniae regis</rs> apud <rs type="person" key="30">maiestatem caesaream</rs>, <supplied reason="paper damaged">reverendissi</supplied>mo domino et benefactori meo
@@ -17,7 +54,7 @@ Magnifico viro domino <name type="person" key="1">Ioanni Dantisco</name> serenis
 
 <div type="salutation">
 <p>
- <pb id="19000_000_AWO_ABD3f79r.jpg" n="AAWO, AB, D. 3, f. 79r"/> 
+ <pb xml:id="F19000_000_AWO_ABD3f79r.jpg" n="AAWO, AB, D. 3, f. 79r"/> 
 </p>
 <p>
 Reverendissime in Christo Pater et Domine, domine mi et benefactor colendissime. Humili commendatione praemissa.
@@ -26,8 +63,8 @@ Reverendissime in Christo Pater et Domine, domine mi et benefactor colendissime.
 
 <div type="main_content">
 <p>
-<div type="incipit">
-Summa Dominationis Vestrae Reverendissimae auctoritas et erga omnes ampla illa humanitas</div> meumque perpetuum de sua singulari virtute et integritate iudicium fecit, ut magni mea interesse putarem res eas, quas gessissem, eidem Dominationi Vestrae Reverendissimae notas esse, cum omnem spem meam in te uno fixi. Peiore in loco vel statu res esse non potest, cum indies prae verecundia ac iniuria, mihi indebite (ut Deum testor) adscripta poena gravi et dolore multifariam <del>r</del> et praesertim morbo itropico, quem existendo in carceribus <name type="place" key="153">Plasentiae</name> adeptus sum, a quo tamen, spero, Deo favente, medio et industria cuiusdam excellentissimi <subst><del><gap reason="illegible"/></del><add place="overwritten">do</add></subst>ctoris cito liberari. 
+<span type="incipit">
+Summa Dominationis Vestrae Reverendissimae auctoritas et erga omnes ampla illa humanitas</span> meumque perpetuum de sua singulari virtute et integritate iudicium fecit, ut magni mea interesse putarem res eas, quas gessissem, eidem Dominationi Vestrae Reverendissimae notas esse, cum omnem spem meam in te uno fixi. Peiore in loco vel statu res esse non potest, cum indies prae verecundia ac iniuria, mihi indebite (ut Deum testor) adscripta poena gravi et dolore multifariam <del>r</del> et praesertim morbo itropico, quem existendo in carceribus <name type="place" key="153">Plasentiae</name> adeptus sum, a quo tamen, spero, Deo favente, medio et industria cuiusdam excellentissimi <subst><del><gap reason="illegible"/></del><add place="overwritten">do</add></subst>ctoris cito liberari. 
 <cit><quote>O me perditum et afflictum!</quote>
 <bibl corresp="1820"><title>14.4</title></bibl>
 </cit>
@@ -51,7 +88,7 @@ Summa Dominationis Vestrae Reverendissimae auctoritas et erga omnes ampla illa h
 <cit><quote>omnia mihi tempora sunt misera</quote>
 <bibl corresp="1820"><title>10, 4</title></bibl></cit>, cum omnis spes mei reditus et recuperandae salutis et honoris in eadem Dominatione Vestra Reverendissima fixa manet, adesto, 
 
- <pb id="19000_000_AWO_ABD3f79v.jpg" n="AAWO, AB, D. 3, f. 79v"/> 
+ <pb xml:id="F19000_000_AWO_ABD3f79v.jpg" n="AAWO, AB, D. 3, f. 79v"/> 
 
 quaeso, iam cum tot me pericula et dolores circumstant, quod non solum amicoru<supplied reason="leaf deeply bound">m</supplied>, si qui adhuc sunt, et non hi, quos exspectaram, annuo, quasi mei immem<supplied reason="leaf deeply bound">or</supplied> sum, attento, quod spes mihi salutis et recuperandae honoris pertenuis <gap reason="leaf deeply bound"/> adhuc ostenditur. Quamvis nescio, quid magni promittunt sidera exhorta<supplied reason="leaf deeply bound">
 <app>

@@ -1,11 +1,47 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+<?xml version="1.0" encoding="UTF-8"?><TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ioannes Dantiscus' Texts and Correspondence: Fabian WOJANOWSKI (DAMERAU) to Ioannes DANTISCUS </title>
+                <editor>Anna Skolimowska et al.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010-2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Transcribed from manuscript, collated with primary sources; critical apparatus and commentary.</p>
+                <p>Working draft, please refer to http://dantiscus.al.uw.edu.pl for current version.</p>
+            </publicationStmt>
+            <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+     <history>
+      <origin>
+<date notBefore="1537-09-11" notAfter="1537-09-11"/>
 
+      </origin>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+<person xml:id="Pe42"><persName>Fabian WOJANOWSKI</persName></person><person xml:id="Pe1"><persName>Ioannes DANTISCUS</persName></person>
+    </listPerson>
+    <listPlace>
+<place type="from" xml:id="Pl197"><placeName>Monzón</placeName></place>
+
+    </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:id="IDL1711">
 <front>
 
 <div type="address">
 <p>
- <pb id="20941_000_UUB_H154f154v.jpg" n="UUB, H. 154, f. 154v"/> 
+ <pb xml:id="F20941_000_UUB_H154f154v.jpg" n="UUB, H. 154, f. 154v"/> 
 </p>
 <p>
 Reverendissimo in Christo Patri et Domino, domino <rs type="person" key="1">Ioanni Dei gratia episcopo Culmensi et coadiutori Varmiensi</rs>, domino gratioso
@@ -17,7 +53,7 @@ Reverendissimo in Christo Patri et Domino, domino <rs type="person" key="1">Ioan
 
 <div type="salutation">
 <p>
- <pb id="20941_000_UUB_H154f153r.jpg" n="UUB, H. 154, f. 153r"/> 
+ <pb xml:id="F20941_000_UUB_H154f153r.jpg" n="UUB, H. 154, f. 153r"/> 
 </p>
 <p>
 Reverendissime in Christo Pater et Domine, domine mihi gratiose. Servitiorum meorum commendatione praemissa.
@@ -26,13 +62,13 @@ Reverendissime in Christo Pater et Domine, domine mihi gratiose. Servitiorum meo
 
 <div type="main_content">
 <p>
-<div type="incipit">
-24 praeteriti mensis huc perveni per multa certe pericula, ut facile quisque considerando haec tempora intelligere potest</div>. 
+<span type="incipit">
+24 praeteriti mensis huc perveni per multa certe pericula, ut facile quisque considerando haec tempora intelligere potest</span>. 
 
 Ex <name type="place" key="58">Genua</name> 28 Iulii Dominationi Vestrae Reverendissime scripsi ea, quae tunc se obtulerant, hinc autem haec scitu digna addam. <rs type="person" key="30">Maiestas caesarea</rs> hic cortis intendit, sed isti boni domini se opponunt quodammodo volentes prius quaedam aggravia exonerari, hinc omnes putant redeundum fore in <name type="place" key="40">Valledolit</name> ad parturientem imperatricem. Miror videns hanc aulam tam dissimilem illi priori, mirabiliter enim attrita est durissimo bello in <name type="place" key="564">Affrica</name> et <name type="place" key="569">Francia</name> gesto. Dominus <name type="person" key="719">Cornelius Scepperus</name> his diebus huc in equis dispositis per <rs type="place" key="657">Granciam</rs> habens salvum conductum advolavit tractans inter <rs type="person" key="30">caesarem</rs> et <rs type="person" key="1048">regem Galliae</rs>, nescio quae, fuit cum rege veniendo aliquot diebus et revertitur ad eum. Suspicamur negotium esse pacis inter fessos et forsan aere exhaustos, sed de his non omittet dominus <rs type="person" key="719">Cornelius</rs> clarius scribere, si licebit. De induciis pro aliquot mensibus inter <name type="person" key="1096">Gallos</name> et <name type="person" key="1266">Belgas</name> factis nil dubito iam pridem scire Vestram Reverendissimam Dominatio, de quibus <rs type="person" key="30">caesar</rs> non satis contentus videtur esse, cum in illis partibus felicius quam alias usque bellatum sit pro eius maiestate. Sunt qui opinantur omnino pacem brevi nos visuros, cum maximam illam pecuniam nostram et amicorum nostrorum, forsan omnium, hactenus ad fundum evertimus.
 </p>
 <p>
- <pb id="20941_000_UUB_H154f153v.jpg" n="UUB, H. 154, f. 153v"/> 
+ <pb xml:id="F20941_000_UUB_H154f153v.jpg" n="UUB, H. 154, f. 153v"/> 
 </p>
 <p>
 <name type="place" key="565">Indiae</name> ille novae non sine admiratione aliquamdiu nihil dederunt, causa nescitur publice. <name type="person" key="1177">Fucchari</name> cum <name type="person" key="239">Welseris</name> non nisi centenis millibus sua debita computando habent in his terris <foreign xml:lang="es">magistrasgos</foreign> et multos alios redditus, nec tamen de omnibus debitis contentati. <rs type="person" key="1094">Grimaldus</rs> cum aliquot aliis <name type="person" key="1632">Genuensibus</name> expectant partum istarum <foreign xml:lang="es"><name type="person" key="1545">corcium</name></foreign>, cum et ipsi non parum olei iniecerint huic igni, quod sine fructu hactenus in fumum abiisse videtur, tantae molis erat hactenus nutrire <name type="person" key="1612">Martem</name>. <rs type="person" key="208">Comitem palatinum Fredericum</rs> certo dicunt superiore anno dedisse <rs type="person" key="30">caesari</rs> proficiscenti in <name type="place" key="569">Gallias</name> omnes suos milites cum sacculo, qui ad expugnandam <name type="place" key="574">Daniam</name> sepositus erat. Quae res nostro domino duci non potest esse ingrata, similiter et negociatoribus nostratibus. Ex <name type="place" key="590">Italia</name> aliquamdiu nulla posta venit, hinc fit ut nesciatur, quid <name type="person" key="1343">Turcae</name> faciant, melius apud vos ex Venetiis sciuntur haec. Dominus <name type="person" key="968">Ulricus Ehinger</name> extremum diem vitae suae clausit mense praeterito in <name type="place" key="40">Valledolit</name> relicta <rs type="person" key="1094">coniuge</rs> in horas partum exspectante.

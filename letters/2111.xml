@@ -1,11 +1,48 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">	
+<?xml version="1.0" encoding="UTF-8"?><TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ioannes Dantiscus' Texts and Correspondence: Tiedemann GIESE to Ioannes DANTISCUS </title>
+                <editor>Anna Skolimowska et al.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010-2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Transcribed from manuscript, collated with primary sources; critical apparatus and commentary.</p>
+                <p>Working draft, please refer to http://dantiscus.al.uw.edu.pl for current version.</p>
+            </publicationStmt>
+            <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+     <history>
+      <origin>
+<date notBefore="1539-03-16" notAfter="1539-03-16"/>
+
+      </origin>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+<person xml:id="Pe275"><persName>Tiedemann GIESE</persName></person><person xml:id="Pe1"><persName>Ioannes DANTISCUS</persName></person>
+    </listPerson>
+    <listPlace>
+<place type="from" xml:id="Pl15"><placeName>Löbau (Lubawa)</placeName></place>
+
+    </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:id="IDL2111">
 
 <front>
 
 <div type="address">
 <p>
- <pb id="21486_000_BCz_1597p622.jpg" n="BCK, 1597, p. 622"/> 
+ <pb xml:id="F21486_000_BCz_1597p622.jpg" n="BCK, 1597, p. 622"/> 
 </p>
 <p>
 Reverendissimo in Christo Patri et Domino, domino <name type="person" key="1">Ioanni</name> Dei gratia episcopo Varmiensi, fratri et maiori plurimum honorando
@@ -17,7 +54,7 @@ Reverendissimo in Christo Patri et Domino, domino <name type="person" key="1">Io
 
 <div type="salutation">
 <p>
- <pb id="21486_000_BCz_1597p619.jpg" n="BCK, 1597, p. 619"/> 
+ <pb xml:id="F21486_000_BCz_1597p619.jpg" n="BCK, 1597, p. 619"/> 
 </p>
 <p>
 Reverendissime in Christo Pater et Domine, frater et maior plurimum observande. Salutem et fraternum studium.
@@ -26,10 +63,10 @@ Reverendissime in Christo Pater et Domine, frater et maior plurimum observande. 
 
 <div type="main_content">
 <p>
-<div type="incipit">
-<name type="person" key="991" cert="uncertain">Domini Gedanenses</name> iunctis sibi aliis civitatibus, certiores facti</div> de mea scriptione ad <app>
+<span type="incipit">
+<name type="person" key="991" cert="uncertain">Domini Gedanenses</name> iunctis sibi aliis civitatibus, certiores facti</span> de mea scriptione ad <app>
 <lem><expan>s<ex>acram</ex></expan></lem><rdg><expan>s<ex>erenissimam</ex></expan></rdg>
-</app> regiam maiestatem in negotio accisae, scribunt et ipsi, sed ita, ut currum videantur applicare ante boves, quod ex adiuncto exemplo Reverendissima Dominatio Vestra videbit. Et nescio, qua prudentia quasi omnium nominis hoc adhuc urgent, a quo ceteros cernunt etiam litteris datis discedere, certi quod impingent, hoc vero inde lucrifaciemus, ut cognitum fiat aulae, quantiphariam simus inter nos serti. Meae litterae nescio, quomodo accipientur illorum litteris supervenientibus, praestabat certe neutros scripsisse, offendit puto illos, quod non est obsecutum consilio ipsorum. Mitto litteras, quas huc pertulit <rs type="person" key="1094">nuntius</rs> domini <name type="person" key="9">Ioanni a Werden</name>. Fuit hic apud me venerabilis dominus <name type="person" key="279">Alexander Sculteti</name> dolorem animi sui in sinum meum effundens ac gratiam sibi Reverendissimae Dominationis Vestrae per me redintegrari petens, causam ipsam Reverendissima Dominatio Vestra potest conicere. <rs type="person" key="279">Cui</rs> tametsi non sim admodum affectus, tamen movet me ecclesiae istius adversitas, quam in hac clericorum vacillantia et paucitate per sacrum hoc tempus huiusmodi <supplied reason="stain">pertur</supplied>bationibus concuti et censurarum ecclesiasticarum acrimonia affligi certe erit indec<supplied reason="stain">ens</supplied>. Et quoniam non omnia expendunt omnes, rei turpitudo, quam Reverendissima Dominatio Vestra insectatur, a personis in ecclesiam ipsam dimanabit. Rogo igitur, Reverendissima Dominatio Vestra ecclesiae illi suae hoc praestare commodi velit, ut processum institutum post Paschale usque tempus suspendat ac excommunicatos illas, qui non facile vitari a populo possunt, absolvi mandata cum reincidentia ad beneplacitum Reverendissimae Dominationis Vestrae, si non potuerint. Non possum autem pro nostra mutua fide et secreto Reverendissimam Dominationem Vestram non monere, quod mihi mandata Reverendissimae Dominationi Vestrae legenti videbatur. <rs type="person" key="1094">Notarium</rs>, qui monitoria scripsit, improvidum fuisse omittendo sententiam vel poenam excommunicationis, quae nisi expresse fuit posita, non potuit ad illius declarationem procedi, nec sufficit, meo quidem iudicio, generalis illa comminatio censurarum. Erit igitur vel de integro instituendus processus vel alio remedio prospiciendum, ne habeant homines, quod cavillentur. Haec bona fide a me scripta Reverendissima Dominatio Vestra non aegreferet, spero. Dominus <name type="person" key="279">Alexander</name>, quo si separet a commercio cocae suae, omnino statuit optare curiam quondam domini <name type="person" key="1094">Felicis</name> et parere mandatis Reverendissimae Dominationis Vestrae. De his et aliis latius inter nos, cum dabitur convenire. <rs type="person" key="1094">Nuntius</rs> meus hinc abiit Dominica Oculi<anchor id="1"/>, quem existimo hodie venire <name type="place" key="2">Cracoviam</name>. Quem reversum mox ad Reverendissimam Dominationem Vestram mittam cum his, quae attulerit. <name type="person" key="1369">Cossorum</name> causa ut ita, quemadmodum Reverendissima Dominatio Vestra consulit, admodum placet. Cupio Reverendissimam Dominationem Vestram in bona valetudine diu esse felicem.
+</app> regiam maiestatem in negotio accisae, scribunt et ipsi, sed ita, ut currum videantur applicare ante boves, quod ex adiuncto exemplo Reverendissima Dominatio Vestra videbit. Et nescio, qua prudentia quasi omnium nominis hoc adhuc urgent, a quo ceteros cernunt etiam litteris datis discedere, certi quod impingent, hoc vero inde lucrifaciemus, ut cognitum fiat aulae, quantiphariam simus inter nos serti. Meae litterae nescio, quomodo accipientur illorum litteris supervenientibus, praestabat certe neutros scripsisse, offendit puto illos, quod non est obsecutum consilio ipsorum. Mitto litteras, quas huc pertulit <rs type="person" key="1094">nuntius</rs> domini <name type="person" key="9">Ioanni a Werden</name>. Fuit hic apud me venerabilis dominus <name type="person" key="279">Alexander Sculteti</name> dolorem animi sui in sinum meum effundens ac gratiam sibi Reverendissimae Dominationis Vestrae per me redintegrari petens, causam ipsam Reverendissima Dominatio Vestra potest conicere. <rs type="person" key="279">Cui</rs> tametsi non sim admodum affectus, tamen movet me ecclesiae istius adversitas, quam in hac clericorum vacillantia et paucitate per sacrum hoc tempus huiusmodi <supplied reason="stain">pertur</supplied>bationibus concuti et censurarum ecclesiasticarum acrimonia affligi certe erit indec<supplied reason="stain">ens</supplied>. Et quoniam non omnia expendunt omnes, rei turpitudo, quam Reverendissima Dominatio Vestra insectatur, a personis in ecclesiam ipsam dimanabit. Rogo igitur, Reverendissima Dominatio Vestra ecclesiae illi suae hoc praestare commodi velit, ut processum institutum post Paschale usque tempus suspendat ac excommunicatos illas, qui non facile vitari a populo possunt, absolvi mandata cum reincidentia ad beneplacitum Reverendissimae Dominationis Vestrae, si non potuerint. Non possum autem pro nostra mutua fide et secreto Reverendissimam Dominationem Vestram non monere, quod mihi mandata Reverendissimae Dominationi Vestrae legenti videbatur. <rs type="person" key="1094">Notarium</rs>, qui monitoria scripsit, improvidum fuisse omittendo sententiam vel poenam excommunicationis, quae nisi expresse fuit posita, non potuit ad illius declarationem procedi, nec sufficit, meo quidem iudicio, generalis illa comminatio censurarum. Erit igitur vel de integro instituendus processus vel alio remedio prospiciendum, ne habeant homines, quod cavillentur. Haec bona fide a me scripta Reverendissima Dominatio Vestra non aegreferet, spero. Dominus <name type="person" key="279">Alexander</name>, quo si separet a commercio cocae suae, omnino statuit optare curiam quondam domini <name type="person" key="1094">Felicis</name> et parere mandatis Reverendissimae Dominationis Vestrae. De his et aliis latius inter nos, cum dabitur convenire. <rs type="person" key="1094">Nuntius</rs> meus hinc abiit Dominica Oculi<anchor xml:id="A1"/>, quem existimo hodie venire <name type="place" key="2">Cracoviam</name>. Quem reversum mox ad Reverendissimam Dominationem Vestram mittam cum his, quae attulerit. <name type="person" key="1369">Cossorum</name> causa ut ita, quemadmodum Reverendissima Dominatio Vestra consulit, admodum placet. Cupio Reverendissimam Dominationem Vestram in bona valetudine diu esse felicem.
 </p>
 </div>
 

@@ -1,11 +1,47 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+<?xml version="1.0" encoding="UTF-8"?><TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ioannes Dantiscus' Texts and Correspondence: Ioannes DANTISCUS to Ermland (Warmia) Chapter </title>
+                <editor>Anna Skolimowska et al.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010-2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Transcribed from manuscript, collated with primary sources; critical apparatus and commentary.</p>
+                <p>Working draft, please refer to http://dantiscus.al.uw.edu.pl for current version.</p>
+            </publicationStmt>
+            <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+     <history>
+      <origin>
+<date notBefore="1540-07-07" notAfter="1540-07-07"/>
 
+      </origin>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+<person xml:id="Pe1"><persName>Ioannes DANTISCUS</persName></person><person xml:id="Pe985"><persName>Ermland Chapter</persName></person>
+    </listPerson>
+    <listPlace>
+<place type="from" xml:id="Pl1"><placeName>Heilsberg (Lidzbark Warmiński)</placeName></place>
+
+    </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:id="IDL4811">
 <front>
 
 <div type="address">
 <p>
- <pb id="13877_000_GStAPK_HBA_C1aK497p2unnumbered.jpg" n="GStA PK, HBA, C 1a, K. 497, p. 2unnumbered"/> 
+ <pb xml:id="F13877_000_GStAPK_HBA_C1aK497p2unnumbered.jpg" n="GStA PK, HBA, C 1a, K. 497, p. 2unnumbered"/> 
 </p>
 <p>
 <rs type="person" key="985">Venerabilibus Dominis Praelatis Canonicis et Capitulo ecclesiae nostrae Varmiensis</rs>, fratribus sincere nobis dilectis
@@ -17,7 +53,7 @@
 
 <div type="signature">
 <p>
- <pb id="13877_000_GStAPK_HBA_C1aK497p1unnumbered.jpg" n="GStA PK, HBA, C 1a, K. 497, p. 1unnumbered"/> 
+ <pb xml:id="F13877_000_GStAPK_HBA_C1aK497p1unnumbered.jpg" n="GStA PK, HBA, C 1a, K. 497, p. 1unnumbered"/> 
 </p>
 <p>
 <rs type="person" key="1">Ioannes Dei gratia episcopus Varmiensis</rs>
@@ -32,8 +68,8 @@ Venerabiles Domini, fratres sincere dilecti.
 
 <div type="main_content">
 <p>
-<div type="incipit">
-Subditi nostri de Behemshouen iterum nobis humiliter supplicarunt</div>,
+<span type="incipit">
+Subditi nostri de Behemshouen iterum nobis humiliter supplicarunt</span>,
  ut ratione bonorum illis ablatorum, quo in ea restitui possent, commendaticias nostras ad Fraternitates Vestras daremus, quod facimus non gravate, praesertim cum et in rem Fraternitatum Vestrarum esse agnoscamus. Proinde eas paterne adhortamur, ut sic hoc negotium cum illis componant, ne quid gravius, si infectum manserit, hinc suboriatur. Facturae ea in re et sibi et nobis rem non inutilem - nobis, ut deinceps eiusmodi querimoniae molestia careamus, vobis porro, ut melius audire et tranquillius agere possitis. Fraternitates Vestras feliciter valere optamus.
 </p>
 </div>

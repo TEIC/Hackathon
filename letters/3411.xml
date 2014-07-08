@@ -1,11 +1,47 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+<?xml version="1.0" encoding="UTF-8"?><TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ioannes Dantiscus' Texts and Correspondence: [Ioannes DANTISCUS] to [Sigismund II Augustus  Jagiellon] </title>
+                <editor>Anna Skolimowska et al.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010-2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Transcribed from manuscript, collated with primary sources; critical apparatus and commentary.</p>
+                <p>Working draft, please refer to http://dantiscus.al.uw.edu.pl for current version.</p>
+            </publicationStmt>
+            <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+     <history>
+      <origin>
+<date notBefore="1548-07-19" notAfter="1548-07-19"/>
 
+      </origin>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+<person xml:id="Pe1"><persName>Ioannes DANTISCUS</persName></person><person xml:id="Pe12"><persName>Sigismund II Augustus  Jagiellon</persName></person>
+    </listPerson>
+    <listPlace>
+<place type="from" xml:id="Pl1"><placeName>Heilsberg (Lidzbark Warmiński)</placeName></place>
+
+    </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:id="IDL3411">
 <front>
 
 <div type="address">
 <p>
- <pb id="11800_000_0IDL3411AAWO_ABD70f380vtp.jpg" n="AAWO, AB, D. 70, f. 380v"/> 
+ <pb xml:id="F11800_000_0IDL3411AAWO_ABD70f380vtp.jpg" n="AAWO, AB, D. 70, f. 380v"/> 
 </p>
 <p>
 <rs type="person" key="12">Serenissimae Maiestati Regiae</rs>
@@ -23,8 +59,8 @@ Serenissime etc.
 
 <div type="main_content">
 <p>
-<div type="incipit">
-Quod Serenissima Maiestas Vestra<del>s</del> Regia adeo tam <del><add place="superinscribed">adeo</add></del> clementer excusationem meam ob adversam</div> et malam valetudinem, quae me <del>quominus ut huic</del> <add place="on the margin">ne</add> <rs type="person" key="24">sancti et serenissimi regis desideratissimi parentis Serenissimae Maiestatis Vestrae</rs> et domini mei clementissimi exequiis <subst><del>adessem</del><add place="superinscribed">interessem</add></subst> impedivit,
+<span type="incipit">
+Quod Serenissima Maiestas Vestra<del>s</del> Regia adeo tam <del><add place="superinscribed">adeo</add></del> clementer excusationem meam ob adversam</span> et malam valetudinem, quae me <del>quominus ut huic</del> <add place="on the margin">ne</add> <rs type="person" key="24">sancti et serenissimi regis desideratissimi parentis Serenissimae Maiestatis Vestrae</rs> et domini mei clementissimi exequiis <subst><del>adessem</del><add place="superinscribed">interessem</add></subst> impedivit,
 
  susceperit et <add place="superinscribed">eam</add> admiserit, humillimas Serenissimae Maiestati Vestrae ago gratias. Prona quidem voluntas <add place="superinscribed">mihi</add> non defuit, <subst><del>ut</del><add place="superinscribed">quominus</add></subst> hoc <del>vltt</del> ultimum obsequium <rs type="person" key="24">domino meo</rs> praestarem, verum cum eam <del>morbus</del> voluntatem et hoc morigerendi studium, quod Serenissimae Maiestati Vestrae debeo <del>impediverit</del>, morbus, quo me Deus corripuit, impediverit, iterum suppliciter oro me ob hoc impedimentum clementer excusatum habere velit 
  
@@ -32,7 +68,7 @@ Quod Serenissima Maiestas Vestra<del>s</del> Regia adeo tam <del><add place="sup
  Nunc ita me sentio, ut minime Serenissimae Maiestati Vestrae <subst><del>in conficiendis</del><add place="superinscribed">ad</add></subst> longinqu<subst><del>is</del><add place="overwritten">a</add></subst> itiner<subst><del>ibus</del><add place="overwritten">a</add></subst> <add place="superinscribed">minime</add> utilis esse <add place="superinscribed">que</add> possi<subst><del>t</del><add place="overwritten">m</add></subst> possit
  </del>
  
-  et eum, qui iam ob concussum et conquassatum corpus ad longinqua itinera Serenissimae Maiestati Vestrae utilis esse non potest, ad alium usum destinare eiusque consilio, quod <del>etiamsi</del> parvum in me sentio, in posterum uti. Cum etiam <del>se</del> nuntii spectabilis <name type="person" key="984">magistratus Elbingensis</name> iuxta mandatum et iussionem Serenissimae Maiestatis Vestrae <del>se</del> ad iussa <rs type="person" key="24">divo parenti<del>s</del> Serenissimae Maiestatis Vestrae</rs> persolvenda <del>ad</del> se nunc ad aulam eiusdem conferant et ibidem <del>etia</del> alia quaedam negotia cum Serenissima Maiestate Vestra nomine <rs type="place" key="166">dictae civitatis</rs> tractanda <del>habeant</del> in commissis habeant, humillime oro Serenissima Maiesta<subst><del>tem</del><add place="overwritten">s</add></subst> Vestra eos clementer audire <subst><del>et</del><add place="on the margin">et illis <add place="superinscribed">se</add> benignum exhibere atque ita absolutos<anchor id="21"/></add></subst> ad suos laetos remittere velit, nec si tardius forsan advenerint, moram eam, quae non ob eorum culpam accidit, sed quod omnes hic conventum per Serenissimam Maiestatem Vestram ante comitia Regni <del>hic</del> indicendum exspectavimus, in malam partem <add place="superinscribed">illis</add> interpretari <del><unclear>non velit</unclear></del>. Me in gratiam Serenissimae Maiestatis Vestrae supplicissime commendo <del>et</del>, cui a domino Deo longaevam vitam cum omnium rerum et regiminis sui felicissimo successu precor ex animo.
+  et eum, qui iam ob concussum et conquassatum corpus ad longinqua itinera Serenissimae Maiestati Vestrae utilis esse non potest, ad alium usum destinare eiusque consilio, quod <del>etiamsi</del> parvum in me sentio, in posterum uti. Cum etiam <del>se</del> nuntii spectabilis <name type="person" key="984">magistratus Elbingensis</name> iuxta mandatum et iussionem Serenissimae Maiestatis Vestrae <del>se</del> ad iussa <rs type="person" key="24">divo parenti<del>s</del> Serenissimae Maiestatis Vestrae</rs> persolvenda <del>ad</del> se nunc ad aulam eiusdem conferant et ibidem <del>etia</del> alia quaedam negotia cum Serenissima Maiestate Vestra nomine <rs type="place" key="166">dictae civitatis</rs> tractanda <del>habeant</del> in commissis habeant, humillime oro Serenissima Maiesta<subst><del>tem</del><add place="overwritten">s</add></subst> Vestra eos clementer audire <subst><del>et</del><add place="on the margin">et illis <add place="superinscribed">se</add> benignum exhibere atque ita absolutos<anchor xml:id="A21"/></add></subst> ad suos laetos remittere velit, nec si tardius forsan advenerint, moram eam, quae non ob eorum culpam accidit, sed quod omnes hic conventum per Serenissimam Maiestatem Vestram ante comitia Regni <del>hic</del> indicendum exspectavimus, in malam partem <add place="superinscribed">illis</add> interpretari <del><unclear>non velit</unclear></del>. Me in gratiam Serenissimae Maiestatis Vestrae supplicissime commendo <del>et</del>, cui a domino Deo longaevam vitam cum omnium rerum et regiminis sui felicissimo successu precor ex animo.
 </p>
 </div> 
 

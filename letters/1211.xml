@@ -1,10 +1,46 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+<?xml version="1.0" encoding="UTF-8"?><TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ioannes Dantiscus' Texts and Correspondence: Ioannes DANTISCUS to Johann von WERDEN </title>
+                <editor>Anna Skolimowska et al.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010-2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Transcribed from manuscript, collated with primary sources; critical apparatus and commentary.</p>
+                <p>Working draft, please refer to http://dantiscus.al.uw.edu.pl for current version.</p>
+            </publicationStmt>
+            <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+     <history>
+      <origin>
+<date notBefore="1534-08-10" notAfter="1534-08-10"/>
 
+      </origin>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+<person xml:id="Pe1"><persName>Ioannes DANTISCUS</persName></person><person xml:id="Pe9"><persName>Johann von WERDEN</persName></person>
+    </listPerson>
+    <listPlace>
+<place type="from" xml:id="Pl15"><placeName>Löbau (Lubawa)</placeName></place>
+
+    </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:id="IDL1211">
 <body>
 
 <div type="salutation">
-<p> <pb id="19945_000_5IDL1211AAWO_ABD67f286r.jpg" n="AAWO, AB, D. 67, f. 286r"/> </p>
+<p> <pb xml:id="F19945_000_5IDL1211AAWO_ABD67f286r.jpg" n="AAWO, AB, D. 67, f. 286r"/> </p>
 <p>
 <expan>Unsern<ex>n</ex></expan> fruntlichn grus mit alles <expan>guttn<ex>n</ex></expan> erbittung <expan>zuvoran<ex>n</ex></expan>. Edler, echrnfester <expan>h<ex>er</ex></expan>, gunstiger freundt. /
 </p>

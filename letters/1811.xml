@@ -1,11 +1,47 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Ioannes Dantiscus' Texts and Correspondence</title><editor>Anna Skolimowska et al.</editor></titleStmt><editionStmt><edition><date>2010-2014</date></edition></editionStmt><publicationStmt><p>unknown</p></publicationStmt><sourceDesc><p>Transcribed from manuscript and edited</p></sourceDesc></fileDesc></teiHeader><text xmlns="">
+<?xml version="1.0" encoding="UTF-8"?><TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ioannes Dantiscus' Texts and Correspondence: [Ioannes DANTISCUS] to [Georg von BAYSEN (BAŻYŃSKI)] </title>
+                <editor>Anna Skolimowska et al.</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010-2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Transcribed from manuscript, collated with primary sources; critical apparatus and commentary.</p>
+                <p>Working draft, please refer to http://dantiscus.al.uw.edu.pl for current version.</p>
+            </publicationStmt>
+            <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+     <history>
+      <origin>
+<date notBefore="1537-12-01" notAfter="1537-12-01"/>
 
+      </origin>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+<person xml:id="Pe1"><persName>Ioannes DANTISCUS</persName></person><person xml:id="Pe144"><persName>Georg von BAYSEN</persName></person>
+    </listPerson>
+    <listPlace>
+<place type="from" xml:id="Pl15"><placeName>Löbau (Lubawa)</placeName></place>
+
+    </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:id="IDL1811">
 <body>
 
 <div type="salutation">
 <p>
- <pb id="21122_000_IDL1811BCz_244p318.jpg" n="BCz, 244, p. 318"/> 
+ <pb xml:id="F21122_000_IDL1811BCz_244p318.jpg" n="BCz, 244, p. 318"/> 
 </p>
 <p>
 Magnifice Domine, amice carissime et 
@@ -18,8 +54,8 @@ Magnifice Domine, amice carissime et
 
 <div type="main_content">
 <p>
-<div type="incipit">
-<ref type="letter" target="4511">Litteras</ref> Magnificentiae Vestrae heri accepi, ex quibus mihi mens et sententia</div> Magnificentiae Vestrae quantum placuit, litterae meae, quarum exemplum addidi, ad conterraneos meos declarabunt. Quae si videbuntur, ut reddantur, id ipsu<supplied reason="text damaged">m</supplied> Magnificentia Vestra curabit. Similiter faciet et cum <ref type="letter" target="1757">litteris pro nobili domino <name type="person" key="1483">Ioanne Rabe</name> ad <rs type="person" key="24">maiestatem regiam</rs></ref>, quorum etiam est copia. De rebus meis Magnificentia Vestra sic habeat: hodie praemisi <rs type="person" key="341">fratrem meum Georgium</rs> <name type="place" key="1">Heilsbergum</name>, ut videat, quo in ordine sint omnia. Cum inde redierit, eo profectionem hinc meam maturabo. <rs type="person" key="266">Alterum meum fratrem Bernardum</rs> XVI Novembris praeter<supplied reason="text damaged">i</supplied>ti misi cum mea et
+<span type="incipit">
+<ref type="letter" target="4511">Litteras</ref> Magnificentiae Vestrae heri accepi, ex quibus mihi mens et sententia</span> Magnificentiae Vestrae quantum placuit, litterae meae, quarum exemplum addidi, ad conterraneos meos declarabunt. Quae si videbuntur, ut reddantur, id ipsu<supplied reason="text damaged">m</supplied> Magnificentia Vestra curabit. Similiter faciet et cum <ref type="letter" target="1757">litteris pro nobili domino <name type="person" key="1483">Ioanne Rabe</name> ad <rs type="person" key="24">maiestatem regiam</rs></ref>, quorum etiam est copia. De rebus meis Magnificentia Vestra sic habeat: hodie praemisi <rs type="person" key="341">fratrem meum Georgium</rs> <name type="place" key="1">Heilsbergum</name>, ut videat, quo in ordine sint omnia. Cum inde redierit, eo profectionem hinc meam maturabo. <rs type="person" key="266">Alterum meum fratrem Bernardum</rs> XVI Novembris praeter<supplied reason="text damaged">i</supplied>ti misi cum mea et
 <rs type="person" key="275">reverendissimi domini electi Culmensis</rs> expeditione pecuniaria <name type="place" key="2">Cracoviam</name>, unde illa <name type="place" key="7">Romam</name> perferetur. Quod reliquum est, Magnificentiam Vestram optime valere cupio, utque nobis quam diutissime vivat, oro; curet valetudinem suam, quantum potest accuratius. 
 </p>
 </div>
