@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mosche Schimschon ben Jokew Mosche, gest. 1718-09-22, Jüdischer Friedhof Altena</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>alt-5</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=alt-5</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=alt-5</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit leicht eingezogenem Rundbogenabschluss mit einem kleinen Halbkreis auf dem Scheitel.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1718-09-22'>1718-09-22</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7006098'>
+        Altena 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.304016 7.671876</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+     <category xml:id='foto1'>
+      <catDesc>Jürgen Wagner, Altena</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="alt-5-1" sex='1'>
+      <persName>Mosche Schimschon ben Jokew Mosche</persName>
+       <event when='1718-09-22' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsalt/xl/0005_alt.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נטמן ונטמר‏‎
+‏‎     <lb n='3'/>
+     ‎‏איש צדיק וישר‏‎
+‏‎     <lb n='4'/>
+     ‎‏ה״ה האלוף בתורה‏‎
+‏‎     <lb n='5'/>
+     ‎‏כהר״ר משה שמשון בר‏‎
+‏‎     <lb n='6'/>
+     ‎‏יאקב משה זצ״ל אשר‏‎
+‏‎     <lb n='7'/>
+     ‎‏נפטר בשם הטוב ביום ג׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏ונקבר ביו׳ ד׳ ז׳ תשרי תע״ז‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה אמן‏‎
+‏‎     <lb n='10'/>
+     ‎‏5477‏‎
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     ist geborgen und verborgen
+     <lb n='3'/>
+     ein gerechter und aufrechter Mann,
+     <lb n='4'/>
+     es ist der Vornehme in der Tora,
+     <lb n='5'/>
+     der geehrte Meister, Herr Mosche Schimschon, Sohn des
+     <lb n='6'/>
+     Jokew Mosche, das Andenken des Gerechten zum Segen, welcher
+     <lb n='7'/>
+     verschied ›mit dem guten Namen‹ am Tag 3
+     <lb n='8'/>
+     und begraben wurde am Tag 4, 7. Tischri 477
+     <lb n='9'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens, Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 7: bBer 17a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ar in Zln 2-3
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Hier wurde mit ‎‏נטמר‏‎ / nitmar, "verborgen" ein seltenes, nachbiblisches Wort verwendet, um einen Reim auf ‎‏ישר‏‎ / jaschar, "aufrecht" zu bilden.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Dieses erste Grabmal auf dem Friedhof wurde seltenerweise zusätzlich zur Angabe des Sterbedatums in der hebräischen Inschrift auch mit dem Sterbejahr in arabischen Zahlen versehen - vermutlich handelt es sich um das erste Grabmal, das auf diesem Friedhof aufgestellt wurde.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

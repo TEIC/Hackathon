@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Gutrad bat Asriel ∞ Gumpel, gest. 1770-10-11, Jüdischer Friedhof Winsen an der Luhe</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>win-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=win-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=win-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1770-10-11'>1770-10-11</date>
+       <country type="ISO_3166" key="XA-DE-NI">
+        Germany
+        <region>Lower Saxony</region>
+       </country>
+       <settlement type='city' key='tgn:1041845'>
+        Winsen an der Luhe 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">53.363014 10.211712</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="win-3-1" sex='2'>
+      <persName>Gutrad bat Asriel ∞ Gumpel</persName>
+       <event when='1770-10-11' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ׳ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשה זקנה הצנועה‏‎
+‏‎     <lb n='3'/>
+     ‎‏מ׳ גוטראד בת כ׳ עזריאל‏‎
+‏‎     <lb n='4'/>
+     ‎‏אשת כ׳ גומפיל נפטר׳‏‎
+‏‎     <lb n='5'/>
+     ‎‏ונקבר׳ שמיני עצרת‏‎
+‏‎     <lb n='6'/>
+     ‎‏ת׳קל׳א לפ׳ק ת׳נצ׳ב׳ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     eine greise Frau, die züchtige
+     <lb n='3'/>
+     Frau Gutrad, Tochter des geehrten Asriel,
+     <lb n='4'/>
+     Gattin des geehrten Gumpel, verschieden
+     <lb n='5'/>
+     und begraben Schmini Azeret
+     <lb n='6'/>
+     531 der kleinen Zählung. Ihre Seele sei eingebunden in das Bündel des Lebens.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Z. 3: Der Name Gutrad(is) ist im christlichen Gebrauch schon seit dem 9. Jahrhundert belegt. Zusammengesetzte Namen, die das Adjektiv "gut" enthalten, waren bei Jüdinnen wie Christinnen weit verbreitet.</p>
+    <p>Z. 4: Gumpel ist eine Variante des seit dem Mittelalter geläufigen Namen Gumprecht.</p>
+    <p>Z. 5: Schmini Azeret, nach Num 29,35, "am Achten ist euch Festversammlung", ist der Schlusstag des Laubhüttenfests, der auf den 22. Tischri fällt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Hanna bat Elieser, gest. 1855-11-06, Jüdischer Friedhof Ahaus</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>aha-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmale, hochrechteckige Sandsteinstele mit geradem Abschluss. Das vertiefte Schriftfeld hat einen gekehlten Rahmen und schließt rundbogig, in den Zwickeln darüber je ein dreiblättriges, an ein stilisiertes Efeublatt erinnerndes Ornament. Die Inschriften sind zentriert. Der Buchstabe ‎‏ש‏‎ (schin) ist in Form einer Krone gestaltet.
+         </p>
+        </support>
+        <condition>
+         <p> Das Schriftfeld auf der Vorderseite zeigt erste Verwitterungsspuren, der obere Abschluss ist beschädigt.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1855-11-06'>1855-11-06</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7005987'>
+        Ahaus 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">52.077701 7.004256</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Heinz Duttmann</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="aha-3-1" sex='2'>
+      <persName>Hanna bat Elieser</persName>
+       <event when='1855-11-06' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='78'>Hebrew</language>
+    <language ident='de' usage='21'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsaha/xl/aha0003.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsaha/xl/aha0003R.png'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״ט‏‎
+‏‎      <lb n='2'/>
+      ‎‏הוד מעשיה הדר פעלה‏‎
+‏‎      <lb n='3'/>
+      ‎‏נתיב היראה הלכה רגלה‏‎
+‏‎      <lb n='4'/>
+      ‎‏אשת חן עטרת בעלה.‏‎
+‏‎      <lb n='5'/>
+      ‎‏ה״ה הנא בת הח״ר אליעזר‏‎
+‏‎      <lb n='6'/>
+      ‎‏ז״ל מתה כ״ה מרחשון שנת‏‎
+‏‎      <lb n='7'/>
+      ‎‏תרט״ז לפ״ק‏‎
+‏‎      <lb n='8'/>
+      ‎‏תמ״ך‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='9'/>
+      Hier ruhet
+      <lb n='10'/>
+      Hanna Gumpert
+      <lb n='11'/>
+      geb. Leser
+      <lb n='12'/>
+      1855
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist geborgen
+      <lb n='2'/>
+      Glanz sind ihre Werke, Gefunkel ihre Tat,
+      <lb n='3'/>
+      den Pfad der (Gottes-)furcht beschritt ihr Fuß,
+      <lb n='4'/>
+      holde Gattin, Krone ihres Gatten,
+      <lb n='5'/>
+      es ist Hanna, Tochter des torakundigen Herrn Elieser,
+      <lb n='6'/>
+      sein Andenken zum Segen, sie starb am 25. Marcheschvan des Jahres
+      <lb n='7'/>
+      616 der kleinen Zählung.
+      <lb n='8'/>
+      Ihre Ruhe sei Herrlichkeit
+     </ab>
+    </div>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -lah in Zln 2-4.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      HaNA in Zln 2-4.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Vgl. Psalm 111,3.</p>
+    <p>Zl 4a: Sprüche 11,16 (Klingt auch an Sprüche 12,4 an, dem Vers, mit dem die Zeile fortgesetzt wird.)</p>
+    <p>Zl 4b: Sprüche 12,4.</p>
+    <p>Zln 5-6: Laut Sterberegister (s.u.) starb Hanna Gumpert am 5.12.1855, das war der 25. Kislev 616, demnach hätte man sich bei der Abfassung der Inschrift für den Grabstein, der in der Regel ein Jahr nach Ableben aufgestellt wird, um einen Monat geirrt.</p>
+    <p>Zl 6: Wegen der Verwitterung des Steins ist nicht zu entscheiden, ob die Angabe des Monatstags ‎‏כ״ה‏‎ (25.) oder ‎‏כ״ח‏‎ (28.) lautet. Da der Wochentag nicht angegeben ist, der 28. jedoch auf einen Freitag fiel, der als Rüsttag des Schabbat in der Regel genannt ist, ist die Lesung "25. Marcheschvan" (= 6.11.1855) wahrscheinlicher (Siehe dazu auch oben).</p>
+    <p>Zl 8: Vgl. Jesaja 11,10.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Auch hier wird die dreizeilige, gereimte Eulogie (Zln 2-4) durch die Anzahl der Buchstaben des Akrostichons bestimmt. Einen ganz besonderen Rhythmus bekommt die Lobrede durch die Verbindung von jeweils zwei Wortpaaren pro Zeile. Die ersten beiden Zeilen der Eulogie sind aus Wendungen zusammengesetzt, die sich nur selten in Grabinschriften für Frauen finden, und erst in Zl 3 wird auf verbreitetere Formeln zurückgegriffen. Die Inschrift schließt mit der Formel ‎‏תהיה מנוחתה כבוד‏‎, "Ihre Ruhe sei Herrlichkeit", wobei "Herrlichkeit" hier auch für Gott steht. Dieser Jesaja 11,10 entnommene Segenswunsch findet sich schon in der Antike in jüdischen Grabinschriften und gibt dieser Inschrift eine archaische Note, die sie von den übrigen Inschriften dieses Friedhofs abhebt. (Derselbe Segenswunsch wurde später auch unter die Inschrift des Sohnes gesetzt.) Die hier Begrabene trug den biblischen Namen Channa, der jedoch nicht nur in der deutschen Inschrift, sondern auch im hebräischen Text in seiner umgangssprachlichen bzw. eingedeutschten Form "Hanna" erscheint.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>
+     Laut Angaben im Stadtarchiv Ahaus wurde Hanna, auch Anna und Lena Gumpert, als Tochter von Löser Moses am 4.5.1786 in Rheda in Westfalen geboren. Ihr Geburtsname "Leser" bzw. "Leeser"/"Löser" (so in den Archivalien) ist eine jüdisch-deutsche Form des hebräischen Vatersnamen "Elieser". Damit scheint die deutsche Inschrift entsprechend der hebräischen nicht den Geburts-, d.h. Familiennamen vor der Heirat, sondern den Vatersnamen in seiner eingedeutschten Form anzugeben (siehe dazu z.B. auch 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=aha-7-t">aha-7</ref>
+     , 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=aha-12-t">aha-12</ref>
+     , 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=aha-18-t">aha-18</ref>
+     ). Sie war nach 44-jähriger Ehe bereits verwitwet, bevor 1846 die Annahme fester Familiennamen gesetzlich verordnet wurde.
+    </p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

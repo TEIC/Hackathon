@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Hendel bat Pinchas ∞ Jaakow Löwenstein, gest. 1861-01-08, Jüdischer Friedhof Höxter-Fürstenau</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hxf-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hxf-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hxf-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit geradem Abschluß, leicht vertieftem Schriftfeld und erhabenen Buchstaben.
+         </p>
+        </support>
+        <condition>
+         <p>Gut erhalten.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1861-01-08'>1861-01-08</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1039055'>
+        Höxter-Fürstenau 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.830314 9.32838</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Nathanja Hüttenmeister, Duisburg</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Fritz Ostkämper, Höxter</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hxf-1-1" sex='2'>
+      <persName>Hendel bat Pinchas ∞ Jaakow Löwenstein</persName>
+       <event when='1861-01-08' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshxf/xl/0001_hxf_2008.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/hxf.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2014-03-19T21:35:21'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏האשה היקרה והחשובה‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשת חיל עטרת בעלה‏‎
+‏‎     <lb n='3'/>
+     ‎‏ותפארת בניה ובני בניה‏‎
+‏‎     <lb n='4'/>
+     ‎‏אשה יראת אלהים ופועלת‏‎
+‏‎     <lb n='5'/>
+     ‎‏טוב כל ימיה מרת הענדעל‏‎
+‏‎     <lb n='6'/>
+     ‎‏בת כ״ה פנחס אשת כה״ר‏‎
+‏‎     <lb n='7'/>
+     ‎‏יעקב לעווענסטיין עלתה‏‎
+‏‎     <lb n='8'/>
+     ‎‏למרום בשיבה טובה ביום‏‎
+‏‎     <lb n='9'/>
+     ‎‏ג׳ כ״ו טבת שנת תרכ״א לפ״ק‏‎
+‏‎     <lb n='10'/>
+     ‎‏ונקברת ביום כ״ח בו‏‎
+‏‎     <lb n='11'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Die teure und angesehene Frau,
+     <lb n='2'/>
+     eine ›tüchtige Gattin, Krone ihres Gatten‹ 
+     <lb n='3'/>
+     ›und Zierde ihrer Kinder‹ und Kinderskinder,
+     <lb n='4'/>
+     eine gottesfürchtige Frau und Gutes
+     <lb n='5'/>
+     wirkend all ihre Tage, Frau Hendel,
+     <lb n='6'/>
+     Tochter des geehrten Herrn Pinchas, Gattin des geehrten Meisters, Herrn
+     <lb n='7'/>
+     Jaakow Löwenstein, sie ›stieg auf
+     <lb n='8'/>
+     zur Höhe‹ ›in gutem Greisenalter‹ am Tag
+     <lb n='9'/>
+     3, 26. Tewet des Jahres 621 der kleinen Zählung,
+     <lb n='10'/>
+     und wurde begraben am 28. Tag desselben.
+     <lb n='11'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 12,4</p>
+    <p>Zl 3: Spr 17,6</p>
+    <p>Zl 7f: Ps 68,19 | Zl 8: Gen 25,8</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -a in Zln 1-5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Dies ist der einzige Grabstein auf diesem Friedhof, der die in der Ausführung deutlich aufwendigeren erhabenen Buchstaben aufweist. Außerdem ist dies der einzige der älteren Grabmale des Friedhofs, der nicht mit einem Rundbogen schließt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Hanne Hendel, eine Tochter von Pinchas Goldschmidt in Albaxen, wurde 1792 geboren und war verheiratet mit dem aus Borgholz stammenden Jacob Löwenstein, mit dem sie in Albaxen lebte. Zu den neun Kindern siehe beim Gatten.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

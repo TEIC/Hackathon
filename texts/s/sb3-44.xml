@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jaakow (?) rote(?) ... Felsen(?), gest. 1718-08-07, Jüdischer Friedhof Blieskastel</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>sb3-44</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=sb3-44</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=sb3-44</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1718-08-07'>1718-08-07</date>
+       <country type="ISO_3166" key="XA-DE-SL">
+        Germany
+        <region>Saarland</region>
+       </country>
+       <settlement type='city' key='tgn:1038561'>
+        Blieskastel 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.240733 7.254151</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Ingeborg Knigge</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="sb3-44-1" sex='1'>
+      <persName>Jaakow (?) rote(?) ... Felsen(?)</persName>
+       <event when='1718-08-07' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picssb3/xl/0044_SB3_aus.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picssb3/xl/0044dSB3_aus.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏־־־]‏‎
+‏‎     <lb n='2'/>
+     ‎‏[... ‎‏יע]קב(?) רוטי‏‎
+‏‎     <lb n='3'/>
+     ‎‏[...]‎‏כה פעלש‏‎
+‏‎     <lb n='4'/>
+     ‎‏פה ספון וטמון איש‏‎
+‏‎     <lb n='5'/>
+     ‎‏ישר ונאמן ונושא ונותן‏‎
+‏‎     <lb n='6'/>
+     ‎‏באמונה בשכר זה תהא‏‎
+‏‎     <lb n='7'/>
+     ‎‏נשמתו צרורה בצרור‏‎
+‏‎     <lb n='8'/>
+     ‎‏החיים עם שארי צדיקי׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏שבגע״א וצריך לכתוב‏‎
+‏‎     <lb n='10'/>
+     ‎‏היום למעלה או למטה‏‎
+‏‎     <lb n='11'/>
+     ‎‏על מתת הנעדר ז״ל‏‎
+‏‎     <lb n='12'/>
+     ‎‏היום יום א׳ י׳ אב‏‎
+‏‎     <lb n='13'/>
+     ‎‏תע״ח ל׳‏‎
+‏‎     <lb n='14'/>
+     ‎‏[‎‏־־־]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     [---]
+     <lb n='2'/>
+     ... Jaakow (?) rote(?)
+     <lb n='3'/>
+     ... Felsen(?)
+     <lb n='4'/>
+     Hier ist verborgen und geborgen ein aufrechter
+     <lb n='5'/>
+     und getreuer Mann, ›handelnd und wandelnd 
+     <lb n='6'/>
+     in Treue‹ , zum Lohn dessen sei
+     <lb n='7'/>
+     seine Seele eingebunden in das Bündel
+     <lb n='8'/>
+     des Lebens mit den übrigen Gerechten,
+     <lb n='9'/>
+     die im Garten Eden, Amen und es müßte geschrieben werden
+     <lb n='10'/>
+     heute, oben oder unten
+     <lb n='11'/>
+     über den Tod des Entschwundenen, sein Andenken zum Segen,
+     <lb n='12'/>
+     heute, Tag 1, 10. Aw
+     <lb n='13'/>
+     478 der Zählung.
+     <lb n='14'/>
+     [---]
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 5f: bSchab 31a</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>
+     Ein Synagogalname fehlt, der Alltagsname ist teilweise zerstört. Vermutlich ist Jaakow der Vorname. Ob der Zusatz roter Felsen stimmt, bleibt offen. Die Eulogie ist identisch mit der in Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=sb3-0047-t">sb3-0047</ref>
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

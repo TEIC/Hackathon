@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Bella bat Mosche ∞ Awraham ben Mordechai (Sibilla Marx geb. Defries), gest. 1887-12-29, Jüdischer Friedhof Korschenbroich</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e21-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e21-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e21-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit eingezogenem Flachbogenabschluß und vertieftem Schriftfeld; in gemeinsamer Grabeinfassung mit Grabsteinen Nrn. 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=e21-0001-t">e21-0001</ref>
+           und 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=e21-0002-t">e21-0002</ref>
+          .
+         </p>
+        </support>
+        <condition></condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1887-12-29'>1887-12-29</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1039924'>
+        Korschenbroich 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.154744 6.503791</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e21-3-1" sex='2'>
+      <persName>Bella bat Mosche ∞ Awraham ben Mordechai (Sibilla Marx geb. Defries)</persName>
+       <event when='1887-12-29' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='60'>Hebrew</language>
+    <language ident='de' usage='39'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse21/xl/0003_E21_1986.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse21/xl/0003dE21_1986.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏האשה היקרה והצדקת‏‎
+‏‎     <lb n='3'/>
+     ‎‏מרת בילא בת משה‏‎
+‏‎     <lb n='4'/>
+     ‎‏אשת אברהם בר מרדכי‏‎
+‏‎     <lb n='5'/>
+     ‎‏מתה ביום ה׳ י״ד טבת‏‎
+‏‎     <lb n='6'/>
+     ‎‏תרמ״ח לפ״ק‏‎
+‏‎     <lb n='7'/>
+     ‎‏תנצב״ה ‏‎
+‏‎     <lb n='8'/>
+     Sibilla Marx
+     <lb n='9'/>
+     geb. Defries
+     <lb n='10'/>
+     gest. 29. Dez. 1887,
+     <lb n='11'/>
+     im Alter von 82 Jahren.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     die teure und gerechte Frau,
+     <lb n='3'/>
+     Frau Bella, Tochter des Mosche,
+     <lb n='4'/>
+     Gattin des Awraham, Sohn des Mordechai,
+     <lb n='5'/>
+     gestorben am Tag 5, 4. Tewet
+     <lb n='6'/>
+     648 der kleinen Zählung.
+     <lb n='7'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens 
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

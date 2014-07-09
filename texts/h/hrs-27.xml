@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1856-08-09, Jüdischer Friedhof Bornheim-Hersel</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hrs-27</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hrs-27</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hrs-27</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>87 x 51 x 13 cm.</dim>
+          </dimensions>
+          Rechteckige, gesockelte, beidseitig beschriftete Stele mit geschweiftem Rundbogenabschluß. Die hebräische Inschrift auf der Vorderseite ist rechtsbündig, Einleitungs- und Schlußformel sind zentriert, ebenso die deutsche Inschrift auf der Rückseite. Im deutschen Text sind die Einleitungsformel und der Name durch größere Buchstaben hervorgehoben, die übrigen Zeilen sind in Kursive.
+         </p>
+        </support>
+        <condition>
+         <p> leicht beschädigt</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1856-08-09'>1856-08-09</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038605'>
+        Bornheim-Hersel 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.721959 6.916017</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='63'>Hebrew</language>
+    <language ident='de' usage='36'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏איש הולך תמים‏‎
+‏‎      <lb n='3'/>
+      ‎‏רך בשנים היה‏‎
+‏‎      <lb n='4'/>
+      ‎‏ובאמונתו חיה ה׳‏‎
+‏‎      <lb n='5'/>
+      ‎‏משולם בר שמואל‏‎
+‏‎      <lb n='6'/>
+      ‎‏מת בפתע פתאום‏‎
+‏‎      <lb n='7'/>
+      ‎‏ונקבר בתשעה באב‏‎
+‏‎      <lb n='8'/>
+      ‎‏שנת תרט״ז לפ״ק‏‎
+‏‎      <lb n='9'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='10'/>
+      Hier ruht 
+      <lb n='11'/>
+      Joseph 
+      <lb n='12'/>
+      Kaufmann 
+      <lb n='13'/>
+      aus Nickenich, 
+      <lb n='14'/>
+      gest. zu Hersel, 
+      <lb n='15'/>
+      am 9. August 1856. 
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      ein Mann, lauter wandelnd,
+      <lb n='3'/>
+      zart an Jahren war er
+      <lb n='4'/>
+      und in seinem Glauben lebte er, es ist
+      <lb n='5'/>
+      Meschullam, Sohn des Schmuel,
+      <lb n='6'/>
+      gestorben plötzlich, urplötzlich
+      <lb n='7'/>
+      und begraben am Neunten Aw
+      <lb n='8'/>
+      des Jahres 616 der kleinen Zählung.
+      <lb n='9'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+     <ab></ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Ps 15,2.</p>
+    <p>Zl 3: BerR 90,3; dort von Josef gesagt, als er 30jährig vor Pharao stand. Damit gäbe es eine indirekte Anspielung auf den bürgerlichen Vornamen und eine Erklärung, weshalb der immerhin 42jährige als zart an Jahren bezeichnet wurde. Inwieweit beides hier beabsichtigt war, bleibt offen.</p>
+    <p>Zl 4: vgl. Hab 2,4.</p>
+    <p>Zl 6: Num 6,9.</p>
+    <p>Zl 7: Der Neunte Aw ist ein Fasten- und Trauertag zur Erinnerung an die Zerstörung des ersten und des zweiten Tempels in Jerusalem.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der Todestag erschließt sich aus dem deutschen Text. Im hebräischen ist er nicht erwähnt, obwohl es ein Schabbat war, wohingegen dem Begräbinstag, dem Neunten Aw, die größere Bedeutung beigemessen wurde.</p>
+    <p>Ein Zusammenhang zwischen dem Synagogalnamen Meschullam und dem bürgerlichen Josef ist nicht erkennbar.</p>
+    <p>Beidseitig beschriftete Grabmale mit Deutsch auf der Rückseite kommen außer hier nur noch drei Mal vor: Nr. 12 von 1889, in Bornheim Nr. 081 von 1880 und Nr. 052 von 1892.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Joseph Kaufmann wurde ca. 1812 in Nickenich geboren. Am 13.6.1837 heiratete er in Hersel Trinette Wolf. Er starb daselbst am 9.8.1856. Seine Sterbeurkunde konnte nicht gefunden werden.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

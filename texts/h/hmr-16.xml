@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Breinle bat Elasar ∞ Lipman KaZ, gest. 1689-10-10, Jüdischer Friedhof Hammerstein</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hmr-16</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hmr-16</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hmr-16</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1689-10-10'>1689-10-10</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7005100'>
+        Hammerstein 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.459287 7.475799</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hmr-16-1" sex='2'>
+      <persName>Breinle bat Elasar ∞ Lipman KaZ</persName>
+       <event when='1689-10-10' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏על‏‎
+‏‎     <lb n='2'/>
+     ‎‏ההרים אשא‏‎
+‏‎     <lb n='3'/>
+     ‎‏בכי ונהי ומספד‏‎
+‏‎     <lb n='4'/>
+     ‎‏תמרורים על האשה‏‎
+‏‎     <lb n='5'/>
+     ‎‏היקרה המהוללה‏‎
+‏‎     <lb n='6'/>
+     ‎‏בריינלה בת אלעזר‏‎
+‏‎     <lb n='7'/>
+     ‎‏ז״ל אשת ליפמן‏‎
+‏‎     <lb n='8'/>
+     ‎‏כ״ץ ז״ל נפטרת יום ב׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏כ״ו תשרי ת״ן לפ״ק‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Über
+     <lb n='2'/>
+     die Berge erhebe ich
+     <lb n='3'/>
+     Weinen und Jammer‹ ›und eine bittere 
+     <lb n='4'/>
+     Klage‹ über die teure
+     <lb n='5'/>
+     und gepriesene Frau,
+     <lb n='6'/>
+     Breinle, Tochter des Elasar,
+     <lb n='7'/>
+     sein Andenken zum Segen, Gattin des Lipman
+     <lb n='8'/>
+     KaZ, sein Andenken zum Segen, verschieden Tag 2,
+     <lb n='9'/>
+     26. Tischri 450 der kleinen Zählung.
+     <lb n='10'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zln 1-3: Jer 9,9</p>
+    <p>Zl 3f: Jer 6,26</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

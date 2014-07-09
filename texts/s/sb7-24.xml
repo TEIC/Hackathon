@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Seew ben Aharon Hakohen (Wolfgang Kahn), gest. 1888-12-26, Jüdischer Friedhof St. Ingbert</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>sb7-24</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=sb7-24</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=sb7-24</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p> Beschädigung mittel</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Priesterhände</decoNote>
+       <decoNote type='ornament'>Eichenzweig, Lorbeerzweig</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1888-12-26'>1888-12-26</date>
+       <country type="ISO_3166" key="XA-DE-SL">
+        Germany
+        <region>Saarland</region>
+       </country>
+       <settlement type='city' key='tgn:7012691'>
+        St. Ingbert 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.285286 7.115439</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="sb7-24-1" sex='1'>
+      <persName>Seew ben Aharon Hakohen (Wolfgang Kahn)</persName>
+       <event when='1888-12-26' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='68'>Hebrew</language>
+    <language ident='de' usage='31'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picssb7/xl/0024_SIB_090729L1004245hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏זאב בר אהרן הכהן‏‎
+‏‎      <lb n='3'/>
+      ‎‏פרנס ומנהיג‏‎
+‏‎      <lb n='4'/>
+      ‎‏...‏‎
+      <lb n='5'/>
+      ‎‏איש ירא אלהים‏‎
+‏‎      <lb n='6'/>
+      ‎‏...‏‎
+      <lb n='7'/>
+      ‎‏...‏‎
+      <lb n='8'/>
+      ‎‏הלך לעולמו‏‎
+‏‎      <lb n='9'/>
+      ‎‏ביום ד׳ כ״ב טבת‏‎
+‏‎      <lb n='10'/>
+      ‎‏ונקבר בעש״ק כ״ו בו‏‎
+‏‎      <lb n='11'/>
+      ‎‏בשנת התרמ״ט‏‎
+‏‎      <lb n='12'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Sockel'>
+      <ab>
+      <lb n='13'/>
+      Hier ruht
+      <lb n='14'/>
+      Wolfgang Kahn
+      <lb n='15'/>
+      geb. 1. Febr. 1814, gest. 26. Dez. 1888
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      Seew, Sohn des Aharon Hakohen,
+      <lb n='3'/>
+      Vorsteher und Leiter
+      <lb n='4'/>
+      ...
+      <lb n='5'/>
+      ein gottesfürchtiger Mann
+      <lb n='6'/>
+      ...
+      <lb n='7'/>
+      ...
+      <lb n='8'/>
+      ›er ging hin in seine Welt‹
+      <lb n='9'/>
+      am Tag 4, 22. Tewet,
+      <lb n='10'/>
+      und wurde begraben am Rüsttag des heiligen Schabbat, 26. desselben
+      <lb n='11'/>
+      im Jahre 5649.
+      <lb n='12'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 8: Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Inschrift wurde unsachgemäß mit weißer Farbe nachgezogen, wodurch Teile der Inschrift zerstört wurden.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

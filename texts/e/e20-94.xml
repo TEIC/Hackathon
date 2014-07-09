@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jutche ∞ Natan ben Jizchak, gest. 1856-10-08, Jüdischer Friedhof Kempen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e20-94</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e20-94</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e20-94</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Gesockelte Stele.
+         </p>
+        </support>
+        <condition>
+         <p>
+          vermutlich fehlt ein Giebelaufsatz. 2007: Beschädigung leicht 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1856-10-08'>1856-10-08</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7005171'>
+        Kempen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.350149 6.410962</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e20-94-1" sex='2'>
+      <persName>Jutche ∞ Natan ben Jizchak</persName>
+       <event when='1856-10-08' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse20/xl/0094_E20_070725EPS4699hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשה ישרה ונעימה‏‎
+‏‎     <lb n='3'/>
+     ‎‏הלכה בדרך תמימה‏‎
+‏‎     <lb n='4'/>
+     ‎‏עשתה צדקה כל ימיה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ומתה במבחר שנותיה‏‎
+‏‎     <lb n='6'/>
+     ‎‏ה״ה מרת יוטכא‏‎
+‏‎     <lb n='7'/>
+     ‎‏אשת‏‎
+‏‎     <lb n='8'/>
+     ‎‏ר׳ נתן בר יצחק‏‎
+‏‎     <lb n='9'/>
+     ‎‏נפטרה ביום ט׳‏‎
+‏‎     <lb n='10'/>
+     ‎‏לחדש תשרי‏‎
+‏‎     <lb n='11'/>
+     ‎‏ונקברה ביום י״א בו‏‎
+‏‎     <lb n='12'/>
+     ‎‏שנת תרי״ז לפ״ק‏‎
+‏‎     <lb n='13'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     eine aufrechte und anmutsvolle Frau,
+     <lb n='3'/>
+     ›sie ging auf makellosem Wege‹,
+     <lb n='4'/>
+     ›Wohltat erwies sie all ihre Tage ‹,
+     <lb n='5'/>
+     und sie starb in ihren besten Jahren,
+     <lb n='6'/>
+     es ist Frau Jutche,
+     <lb n='7'/>
+     Gattin des Herrn
+     <lb n='8'/>
+     Natan, Sohn des Jizchak,
+     <lb n='9'/>
+     verschieden am 9. Tag
+     <lb n='10'/>
+     des Monats Tischri
+     <lb n='11'/>
+     und begraben am 11. Tag desselben
+     <lb n='12'/>
+     im Jahre 617 der kleinen Zählung.
+     <lb n='13'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Ps 101,6</p>
+    <p>Zl 4: Ps 106,3</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ima in Zln 2-3, auf -ejha in Zln 4-5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Jette Sender war eine Tochter von Moses Sender und Mina Marx in Lüxheim. Verheiratet war sie mit Nathan Lambertz, ihre Schwester Julie hatte Nathans Bruder Salomon geheiratet.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mosche ben Israel SeGaL (Moses Kaufmann), gest. 1860-10-01, Jüdischer Friedhof Geldern</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e05-5</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e05-5</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e05-5</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit geradem Abschluß.
+         </p>
+        </support>
+        <condition>
+         <p>
+          möglicherweise fehlt ein Aufsatz. 
+          <damage agent='Verwitterung'>Verwitterung stark</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1860-10-01'>1860-10-01</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1039217'>
+        Geldern 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.524202 6.332315</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e05-5-1" sex='1'>
+      <persName>Mosche ben Israel SeGaL (Moses Kaufmann)</persName>
+       <event when='1860-10-01' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='71'>Hebrew</language>
+    <language ident='de' usage='28'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse05/xl/0005_E05_1_1984.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse05/xl/0005_E05_4_1990.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse05/xl/0005rE05_2_1984.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse05/xl/0005rE05_3_1984.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏איש צדיק ישר בנדיבים‏‎
+‏‎      <lb n='3'/>
+      ‎‏הלך תמיד דרך טובים‏‎
+‏‎      <lb n='4'/>
+      ‎‏דבק נפשו באלהים חיים‏‎
+‏‎      <lb n='5'/>
+      ‎‏וכל מעשיו היו לשם שמים‏‎
+‏‎      <lb n='6'/>
+      ‎‏ה״ה משה בר ישראל סג״ל‏‎
+‏‎      <lb n='7'/>
+      ‎‏הוא נפטר ביום ג׳ שני דסוכת‏‎
+‏‎      <lb n='8'/>
+      ‎‏ונקבר ביום א׳ דחה״מ תרכ״א לפ״ק‏‎
+‏‎      <lb n='9'/>
+      ‎‏וימי חייו היו ששה וארבעים שנה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='10'/>
+      Hier ruht
+      <lb n='11'/>
+      unser lieber
+      <lb n='12'/>
+      Gatte u. Vater
+      <lb n='13'/>
+      Moses Kaufmann
+      <lb n='14'/>
+      geb. 15.9.1814 gest. 1.10.1860
+      <lb n='15'/>
+      Friede seiner Asche!
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      ein gerechter, aufrechter Mann inmitten der Wohltäter,
+      <lb n='3'/>
+      ›er ging stets den Weg der Guten‹,
+      <lb n='4'/>
+      seine Seele haftete am lebendigen Gott
+      <lb n='5'/>
+      ›und alle seine Taten waren um des himmlischen Namens willen‹ ,
+      <lb n='6'/>
+      es ist Mosche, Sohn des Israel SeGaL,
+      <lb n='7'/>
+      er verschied am Tag 3, zweiter Tag des Laubhüttenfestes,
+      <lb n='8'/>
+      und wurde begraben am 1. Tag der Zwischenfeiertage, 621 der kleinen Zählung,
+      <lb n='9'/>
+      und seine Lebenstage betrugen sechsundvierzig Jahre.
+     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+     <ab></ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Spr 2,20</p>
+    <p>Zl 5: Av 2,12</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -wim in Zln 2-3, auf -ajim in Zln 4-5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>1854 und 1858 gehörte der arme Handelsmann und Metzger Moses Kaufmann zu den Repräsentanten der Synagogengemeinde Geldern. Er stammte aus Hoerstgen und war verheiratet mit der aus Süchteln stammenden Magdalena Bromet, die er 1845 geehelicht hatte. Sein ältester Sohn, der 1847 geborene Kaufmann Isidor, arbeitete sich bis zu seinem Tod im Jahr 1903 zum reichsten Bürger der Stadt empor. 1849 wurde Gottfried geboren, 1851 Alex(ius) (gest. 1927 in Münster), 1853 Bertha (gest. ledig 1925), 1855 Julia (verheiratete Löwenstein), 1857 Joseph (gest. 1919 in Amsterdam) und 1859 Eva (verheiratete Spiro).</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

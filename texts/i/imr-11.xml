@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Chajim ben David (Selig David), gest. 1862-06-30, Jüdischer Friedhof Immenrode</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>imr-11</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=imr-11</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=imr-11</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Gesockelte Stele mit abgesetztem Flachbogenabschluß und aufgesetzter, hochrechteckiger Schrifttafel (aus Marmor?) auf der Vorderseite.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>2010: Das Grabmal ist in der Mitte gebrochen und liegt. Die deutsche Inschrift ist stark verwittert und nicht mehr vollständig zu entziffern. 2012: Das Grabmal wurde gereinigt, wieder zusammengefügt und aufgestellt.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1862-06-30'>1862-06-30</date>
+       <country type="ISO_3166" key="XA-DE-TH">
+        Germany
+        <region>Thuringa</region>
+       </country>
+       <settlement type='city' key='tgn:1041549'>
+        Immenrode 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.356179 10.755004</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Bettina Bärnighausen, Sondershausen</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="imr-11-1" sex='1'>
+      <persName>Chajim ben David (Selig David)</persName>
+       <event when='1862-06-30' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='72'>Hebrew</language>
+    <language ident='de' usage='27'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0009_imr_101124.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0009dimr_101124.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0009rimr_101124-2.png'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0009rimr_101124.png'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0011_imr_2011.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0011_imr_2012.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0011rimr_2011.png'>
+    <desc>
+    <ref target='#foto2'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פה טמון‏‎
+‏‎      <lb n='2'/>
+      ‎‏איש הישר בנדיבים‏‎
+‏‎      <lb n='3'/>
+      ‎‏מעשיו היו באמונה‏‎
+‏‎      <lb n='4'/>
+      ‎‏שלמים ה״ה כ׳ חיים‏‎
+‏‎      <lb n='5'/>
+      ‎‏ב״כ דוד נולד ח״י אדר‏‎
+‏‎      <lb n='6'/>
+      ‎‏תקס״ג ומת ביום ב׳ ב׳‏‎
+‏‎      <lb n='7'/>
+      ‎‏תמוז תרכ״ב לפ״ק‏‎
+‏‎      <lb n='8'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='9'/>
+      Hier ruhet
+      <lb n='10'/>
+      Selig David
+      <lb n='11'/>
+      geb. [...] März [...]
+      <lb n='12'/>
+      gest. [...]
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist geborgen
+      <lb n='2'/>
+      ein Mann, der Aufrechte inmitten der Wohltäter,
+      <lb n='3'/>
+      seine Taten waren in Treue
+      <lb n='4'/>
+      vollkommen, es ist der geehrte Chajim,
+      <lb n='5'/>
+      Sohn des geehrten David, geboren 18. Adar
+      <lb n='6'/>
+      563 und gestorben am Tag 2, 2.
+      <lb n='7'/>
+      Tammus 622 der kleinen Zählung.
+      <lb n='8'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Bogenförmig im Giebelfeld angebracht.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Selig David ist in Immenrode betreffenden Akten aus den Jahren 1836, 1837, 1838, 1841, 1846, 1847, 1848, 1861 und 1862 (nach seinem Tod?), insbesondere zu Schulangelegenheiten, nachzuweisen. 1848 wurde er in einer von der Regierung nicht anerkannten Wahl zu einem der Vorsteher der Gemeinde gewählt.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Malie bat Jaakow Halevi aus der Familie Horowitz, gest. 1920-07-05, Jüdischer Friedhof Duisburg, Sternbuschweg (Feld 37a)</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>du3-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=du3-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=du3-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>82 x 55 x 13; Inschriftenplatte: 48 x 31; Sockel: 6 x 68 x 22</dim>
+          </dimensions>
+          Kleine, gesockelte Stele mit Flachbogenabschluß und hochrechteckiger, eingesetzter Schrifttafel. Den Giebel des von einer Girlande bekränzten Grabmals ziert eine stilisierte Konche.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1920-07-05'>1920-07-05</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7004923'>
+        Duisburg, Sternbuschweg (Feld 37a) 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.415992 6.784957</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="du3-1-1" sex='2'>
+      <persName>Malie bat Jaakow Halevi aus der Familie Horowitz</persName>
+       <event when='1920-07-05' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsdu3/xl/0001_du3_1984.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏הוי ואבוי על שבר שקרה‏‎
+‏‎     <lb n='3'/>
+     ‎‏לנו עם הבתולה הצנועה‏‎
+‏‎     <lb n='4'/>
+     ‎‏שנקטפו ימי׳ עודנה באבה‏‎
+‏‎     <lb n='5'/>
+     ‎‏יראת ה׳ חרוצה ומושכלת‏‎
+‏‎     <lb n='6'/>
+     ‎‏מליא בת הר׳ יעקב הלוי‏‎
+‏‎     <lb n='7'/>
+     ‎‏ממשפחת הורוויץ‏‎
+‏‎     <lb n='8'/>
+     ‎‏נ׳ י״ט תמוז תר״פ‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben -
+     <lb n='2'/>
+     o weh über den Verlust, der uns
+     <lb n='3'/>
+     zuteil wurde mit der züchtigen Jungfrau,
+     <lb n='4'/>
+     deren Tage ›gepflückt wurden noch in ihrer Blüte‹,
+     <lb n='5'/>
+     gottesfürchtig, fleißig und verständig,
+     <lb n='6'/>
+     Malie, Tochter des Herrn Jaakow Halevi
+     <lb n='7'/>
+     aus der Familie Horowitz,
+     <lb n='8'/>
+     verschieden am 19. Tammus 680.
+     <lb n='9'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Nach Ijob 8,12</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Dies ist das erste und einzige erhaltene Grabmal nach 1830, das rein hebräisch beschriftet wurde, sicherlich veranlaßt von Amalies Vater Jakob Horowitz, der 1919 zu den Mitbegründern und Vorsitzenden der Machsike Hadass gehörte, einer Vereinigung gläubiger Ostjuden in Duisburg, deren Absicht es war, den religiösen Charakter der (ostjüdischen) Gemeinden vor den progressiven Reformtendenzen zu bewahren.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Amalie Horowitz wurde am 15.7.1904 als Tochter des Duisburger Kaufmanns Jakob Horowitz geboren und war eine Schwester von Israel Horowitz (geb. 1901) und Leo Horowitz (geb. 1902). Ihr Vater hatte am Tag nach ihrem Tod für 200 Mark die ersten beiden Erbbegräbnisstätten (Nrn. 1-2) auf dem neuen Feld 37a des Friedhofs Sternbuschweg erworben, und mit Amalies Beisetzung wurde dieses Feld eingeweiht.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

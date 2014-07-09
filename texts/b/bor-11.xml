@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1913-04-11, Jüdischer Friedhof Bornheim</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bor-11</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bor-11</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bor-11</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>81 x 51 x 16,5 cm (in der Mitte).</dim>
+          </dimensions>
+          Kleine, gesockelte Stele aus Diorit mit Flachbogenabschluß. Das Schriftfeld, von einem Rahmen umgeben, schließt mit einem geschulterten Rundbogen, darin ist ein kleiner Davidstern eingraviert. Die Inschrift ist zentriert, der Name im deutschen Text durch etwas größere Buchstaben hervorgehoben. (Vgl. Nr. 012).
+         </p>
+        </support>
+        <condition>
+         <p>weitgehend gut</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Magen David</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1913-04-11'>1913-04-11</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038605'>
+        Bornheim 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.75759 6.987414</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='36'>Hebrew</language>
+    <language ident='de' usage='64'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש תם וישר‏‎
+‏‎     <lb n='3'/>
+     ‎‏יהודה אברהם‏‎
+‏‎     <lb n='4'/>
+     ‎‏בר אשר‏‎
+‏‎     <lb n='5'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='6'/>
+     Hier ruht 
+     <lb n='7'/>
+     unser unvergessl. guter Vater 
+     <lb n='8'/>
+     Levi Nathan 
+     <lb n='9'/>
+     geb. 10. Juni 1833 
+     <lb n='10'/>
+     gest. 11. April 1913. 
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein lauterer und aufrechter Mann,
+     <lb n='3'/>
+     Jehuda Awraham,
+     <lb n='4'/>
+     Sohn des Ascher.
+     <lb n='5'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Ijob 1,1 u.ö.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Inschrift besteht aus je fünf hebräischen und deutschen Zeilen, die sich in ihren Mitteilungen ergänzen. Der hebräische Text gibt neben dem in Grabinschriften wohl beliebtesten Bibelvers auch den Synagogalnamen des Verstorbenen an. Der deutsche Text teilt neben dem bürgerlichen Namen und den Lebensdaten mit, daß die hinterbliebenen Kinder das Grabmal errichteten.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der Metzger Levi Nathan wurde am 23.6.1833 (laut Inschrift am 10.6.1833) in Bornheim geboren. Seine Mutter war bei seiner Geburt bereits 46, sein Vater 40 Jahre alt. Am 5.3.1860 heiratete er in Waldorf Sara Hoffmann. Er starb am 11.4.1913 in Bornheim.</p>
+    <p>Seine Eltern heirateten 1817. Zur Familie der Mutter, Gudula Nathan, auch Judith Moises, siehe Nr. 098.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Aharon ben Natan KaZ (Aaron Kahn), gest. 1856-01-12, Jüdischer Friedhof Ottweiler</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>sb0-79</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=sb0-79</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=sb0-79</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1856-01-12'>1856-01-12</date>
+       <country type="ISO_3166" key="XA-DE-SL">
+        Germany
+        <region>Saarland</region>
+       </country>
+       <settlement type='city' key='tgn:1040679'>
+        Ottweiler 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.405163 7.148328</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Ingeborg Knigge</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="sb0-79-1" sex='1'>
+      <persName>Aharon ben Natan KaZ (Aaron Kahn)</persName>
+       <event when='1856-01-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picssb0/xl/0079_SB0.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏כ׳ אהרן ב׳ כ׳ נתן כ״ץ‏‎
+‏‎     <lb n='3'/>
+     ‎‏ז״ל שהלך בדרך היש׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏ולילה ליום שם לפרנ׳‏‎
+‏‎     <lb n='5'/>
+     ‎‏את ב״ב ביושר ובכ...‏‎
+‏‎     <lb n='6'/>
+     ‎‏מת במבחר שנותיו‏‎
+‏‎     <lb n='7'/>
+     ‎‏ביו׳ ש״ק ה׳ שבט‏‎
+‏‎     <lb n='8'/>
+     ‎‏ונקבר ביו׳ ב׳ אחריו‏‎
+‏‎     <lb n='9'/>
+     ‎‏תרט״ז לפ״ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     der geehrte Aharon, Sohn des geeherten Natan KaZ,
+     <lb n='3'/>
+     sein Andenken zum Segen, der den rechten Weg ging
+     <lb n='4'/>
+     <supplied reason='subaudible'>Aaron Kahn</supplied>
+     und die Nacht zum Tage machte, um seine
+     <lb n='5'/>
+     Hausgenossen redlich und ... zu ernähren,
+     <lb n='6'/>
+     gestorben in seinen besten Jahren
+     <lb n='7'/>
+     am Tage des heiligen Schabbat, 5. Schwat,
+     <lb n='8'/>
+     und begraben am Tag 2 danach,
+     <lb n='9'/>
+     616 der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Aaron Kahn wurde am 13. Juni 1799 in Ottweiler geboren als Sohn von Jonathan Nathan Kahn und Katarina Feilen Fribourg. Am 21. November 1827 heiratete der Metzger Sarah, Tochter von Jakob Oppenheimer und Johanna geb. Salomon, die ihm zwölf Kinder schenkte: 1828 wurde Jakob geboren, der jedoch kurz nach der Geburt verstarb, ebenso wie sein 1830 geborener Bruder David. 1831 kam Lion David zur Welt, 1834 Johanna Johanetta, die Abraham Ermann heiratete. 1836 wurde Nathan geboren, 1837 Helene und 1840 Sophie, die Lazarus Salomon heiratete. 1842 kam Henrietta zur Welt, die im Alter von sechs Jahren starb. 1844 wurde Lazarus geboren, 1847 Abraham, der nur einen Monat alt wurde. 1848 wurde Felix geboren und 1852 Heinrich.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

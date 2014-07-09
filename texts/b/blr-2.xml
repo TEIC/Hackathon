@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Wolf Fränkel (Wolf Fränkel), gest. 1848-04-04, Jüdischer Friedhof Bleicherode</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>blr-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=blr-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=blr-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>vanitas</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1848-04-04'>1848-04-04</date>
+       <country type="ISO_3166" key="XA-DE-TH">
+        Germany
+        <region>Thuringa</region>
+       </country>
+       <settlement type='city' key='tgn:1036472'>
+        Bleicherode 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.434387 10.571183</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Julia Buchmann, Nicola Wiemann, Maike Schlotterhose; Bleicherode</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="blr-2-1" sex='1'>
+      <persName>Wolf Fränkel (Wolf Fränkel)</persName>
+       <event when='1848-04-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='55'>Hebrew</language>
+    <language ident='de' usage='44'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0002_blr_2012.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0002dblr_2012-2.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0002dblr_2012.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0002rblr_2012-2.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0002rblr_2012.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏עובר עמוד פה האנח על השוד והשבר‏‎
+‏‎      <lb n='2'/>
+      ‎‏בחיר אנשים תחת הגל הזה מצא קבר‏‎
+‏‎      <lb n='3'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='4'/>
+      ‎‏הרופא המפואר וואלף פראנקעל‏‎
+‏‎      <lb n='5'/>
+      ‎‏מילידי ברוינשווייג ארבע עשרה‏‎
+‏‎      <lb n='6'/>
+      ‎‏שנה היה בתוכינו ובדמי ימיו כן‏‎
+‏‎      <lb n='7'/>
+      ‎‏אחרי ארבעים שנה עזב את החיים‏‎
+‏‎      <lb n='8'/>
+      ‎‏נפטר בחצות בלילה אור ליום א׳‏‎
+‏‎      <lb n='9'/>
+      ‎‏ב׳ ניסן וכבוד גדול עשו לו כל‏‎
+‏‎      <lb n='10'/>
+      ‎‏יושבי עירנו בקבורתו ביום ה׳ ג׳‏‎
+‏‎      <lb n='11'/>
+      ‎‏ניסן תר״ח לפ״ק‏‎
+‏‎      <lb n='12'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='13'/>
+      [...]
+      <lb n='14'/>
+      [...]keit ge[den?]ken
+      <lb n='15'/>
+      Hier ruhet der Dr. med.
+      <lb n='16'/>
+      Wolf Fränkel
+      <lb n='17'/>
+      geb. in Braunschweig am 7. Nissan 5567
+      <lb n='18'/>
+       " " [15.] April 1807
+      <lb n='19'/>
+      gest. am 3. Nissan 5608
+      <lb n='20'/>
+       " " 4. April 1848
+      <lb n='21'/>
+      Friede war Dein Leben, Friede Dein
+      <lb n='22'/>
+      Tod, und Friede wird Dein Antheil
+      <lb n='23'/>
+      sein ewiglich
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Wanderer, hier halt inne, beklage ›das Verderben und den Untergang‹,
+      <lb n='2'/>
+      denn ›unter diesem Hügel‹ fand ein Erlesener sein Grab
+      <lb n='3'/>
+      Hier ist begraben
+      <lb n='4'/>
+      der prachtvolle Arzt Wolf Fränkel
+      <lb n='5'/>
+      von den Einwohnern Braunschweigs, vierzehn
+      <lb n='6'/>
+      Jahre lebte er in unserer Mitte, und ›in der Blüte seiner Tage‹,
+      <lb n='7'/>
+      nach vierzig Jahren, verließ er das Leben,
+      <lb n='8'/>
+      verschied mitten in der Nacht, zu Beginn des Tages 1,
+      <lb n='9'/>
+      2. Nissan, und große Ehre erwiesen ihm alle
+      <lb n='10'/>
+      Einwohner unserer Stadt bei seinem Begräbnis am Tag 5, 3.
+      <lb n='11'/>
+      Nissan 608 der kleinen Zählung.
+      <lb n='12'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Jes 51,19</p>
+    <p>Zl 2: Nach Gen 31,52</p>
+    <p>Zl 6: vgl. Jes 38,10</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ewer in Zln 1-2.
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Angabe des Sterbedatums stimmt in sich nicht. Der 2. Nissan 608 fiel auf Tag 4 (Mittwoch). Der angegebene Tag 1, Sonntag, fiel auf den 28. des zweiten Adar 608, das war der 2. April 1848. Laut Inschrift soll Wolf Fränkel jedoch "zu Beginn des Tages 1" gestorben sein, also am Vorabend, das wäre Samstag abend, und dies hätte man üblicherweise mit "Ausgang des heiligen Schabbat" angegeben. Vermutlich muss es daher hier lauten: "zu Beginn des Tages 4" statt "des Tages 1", damit wäre Wolf Fränkel am Dienstag abend, den 4. April 1848 gestorben.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Dr. med. Wolf Fränkel war ein bekannter Facharzt und erster Orthopäde in Bleicherode.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

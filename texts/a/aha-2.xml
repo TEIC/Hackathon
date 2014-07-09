@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für David ben Schlomo Halevi, gest. 1854-12-30, Jüdischer Friedhof Ahaus</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>aha-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmale, hochrechteckige Sandsteinstele mit geradem Abschluss. Das vertiefte, durch einen gekehlten Rahmen abgesetzte Schriftfeld schließt mit einem Rundbogen, darüber in den Zwickeln jeweils eine stilisierte Blüte. Die Inschrift verläuft teils rechtsbündig, teils zentriert.
+         </p>
+        </support>
+        <condition>
+         <p> Der Grabstein zeigt erste Verwitterungsspuren im unteren Teil. Das Schriftfeld weist zwei größere Beschädigungen auf (vermutlich durch Einschlag von Geschossen), was zu Textverlust am Beginn von Zeile 4 führte.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1854-12-30'>1854-12-30</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7005987'>
+        Ahaus 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">52.077701 7.004256</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Heinz Duttmann</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="aha-2-1" sex='1'>
+      <persName>David ben Schlomo Halevi</persName>
+       <event when='1854-12-30' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsaha/xl/aha0002.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsaha/xl/aha0002A.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsaha/xl/aha0002D.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsaha/xl/0002_AHs_100520L1013770hb.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏זאת מצבת איש‏‎
+‏‎     <lb n='2'/>
+     ‎‏דורש טוב והולך בתמתו,‏‎
+‏‎     <lb n='3'/>
+     ‎‏ובצדק וביושר כל מגמתו,‏‎
+‏‎     <lb n='4'/>
+     ‎‏דב[ק לב?]ו באשתו אהובתו‏‎
+‏‎     <lb n='5'/>
+     ‎‏ה״ה‏‎
+‏‎     <lb n='6'/>
+     ‎‏דוד בן ר׳ שלמה הלוי‏‎
+‏‎     <lb n='7'/>
+     ‎‏נפטר בפתע פתאום בדמי‏‎
+‏‎     <lb n='8'/>
+     ‎‏ימיו ׃ לדאבון אשתו ולאבל‏‎
+‏‎     <lb n='9'/>
+     ‎‏בניו ׃ ביום ש״ק ט׳ טבת תרט״ו‏‎
+‏‎     <lb n='10'/>
+     ‎‏ונקבר בכבוד גדול ביום‏‎
+‏‎     <lb n='11'/>
+     ‎‏ב׳ שלאחריו.‏‎
+‏‎     <lb n='12'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Dies ist die Stele eines Mannes,
+     <lb n='2'/>
+     der nach Gutem strebte und in seiner Lauterkeit wandelte,
+     <lb n='3'/>
+     auf Gerechtigkeit und Geradheit (zielte) all sein Streben,
+     <lb n='4'/>
+     sein (Herz?) haftete an seiner geliebten Gattin
+     <lb n='5'/>
+     es ist
+     <lb n='6'/>
+     David, Sohn des Herrn Schlomo Halevi,
+     <lb n='7'/>
+     verschieden ganz plötzlich in der Mitte
+     <lb n='8'/>
+     seiner Tage, zum Kummer seiner Gattin und zur Trauer
+     <lb n='9'/>
+     seiner Kinder, am Tag des heiligen Schabbat, 9. Tewet 615,
+     <lb n='10'/>
+     und begraben mit großen Ehren am
+     <lb n='11'/>
+     darauffolgenden Tag 2.
+     <lb n='12'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ato in Zln 2-4, auf -av in Zln 7-9.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      DaViD in Zln 2-4.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Die in Ahaus einmalige Einleitung der Grabinschrift lehnt sich durch die Verwendung des biblischen Wortes "Stele" an besonders im Mittelalter beliebte Einleitungsformeln jüdischer Grabinschriften an.</p>
+    <p>Zl 2a: Esther 10,3.</p>
+    <p>Zl 2b: Vgl. Ijob 2,3.</p>
+    <p>Zl 4: Durch die Beschädigung fehlen einige Buchstaben zu Anfang der Zeile. Die Ergänzung erfolgt sinngemäß und anhand der vorhandenen Buchstabenreste.</p>
+    <p>Zln 7-8: Vgl. Jesaja 38,10. David Löwenstein starb im Alter von nur 32 Jahren durch einen "Sturz vom Boden".</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Anzahl der Zeilen der gereimten Eulogie (Zln 2-4) wird durch die Buchstaben des Namens-Akrostichons vorgegeben. Die erste Zeile der Eulogie klingt an biblische Zitate an und könnte hier mit der Wendung "er strebte nach Gutem", die in der Bibel mit "für sein Volk" fortgesetzt wird, einen Hinweis auf eine Gemeindefunktion enthalten. (Erwähnungen von Gemeindeämtern und -funktionen finden sich in Ahaus selten.) Die zweite Zeile der Eulogie verwendet mit dem nur einmal in der Bibel vorkommenden Begriff ‎‏מגמה‏‎ ("Absicht") ein Wort, das erst in jüngerer Zeit größere Verbreitung fand, während die dritte durch Erwähnung der geliebten Ehefrau der Eulogie eine intime Note gibt, die in Zln 8-9 noch einmal aufgenommen und ausgeführt wird. Auch solche Formulierungen sind zwar seit dem Mittelalter in hebräischen Grabinschriften bekannt, aber eher selten geblieben, und stehen hier vielleicht unter Einfluss der in jener Zeit auf christlichen Grabmälern bereits üblichen Formulierungen wie "unser innigstgeliebter Vater" etc. Ebenfalls als Einfluss der deutschen Sprache ist die Verwendung von gliedernden Satzzeichen anzusehen: Kommata am Ende der Abschnitte der Eulogie in Zln 2 und 3 sowie ein Punkt am Ende der Inschrift, vor dem Schlusssegen (Zl 11).</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>
+     David Löwenstein wurde am 12.3.1822 geboren. Am 25.4.1851 heiratete er die am 10.3.1826 geborene Lina/Lena Davidson aus Tecklenburg, die zuvor als Magd im Hause des Benjamin Löwenstein (
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=aha-4-t">aha-4</ref>
+     ) beschäftigt gewesen war. Die Tochter Caroline, die am 31.12.1850, vier Monate vor der Hochzeit zur Welt kam, ist nur im Meldebuch bezeugt. Die am 28.8.1853 geborene zweite Tochter Sophie heiratete Lazarus Wallach, zog nach Schiefbahn im Kreis Viersen und wurde von den Nationalsozialisten 1942 zunächst nach Theresienstadt und später nach Minsk verschleppt. 1950 wurde sie für tot erklärt. In den Verzeichnissen von 1825 und 1854 wird Davids Beruf mit Krämer angegeben, im Heiratsregister 1851 mit Metzger. Nach dem frühen Tod Davids heiratete seine Witwe am 7.9.1855, neun Monate später, im Alter von 28 Jahren Jacob Alexander junior aus Werther in der Nähe von Bielefeld.
+    </p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1770-09-22, Jüdischer Friedhof Krefeld (alter Friedhof)</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>kre-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=kre-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=kre-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Ruhrsandstein</material>
+          <dimensions>
+           <dim>110 x 40 cm</dim>
+          </dimensions>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1770-09-22'>1770-09-22</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7005980'>
+        Krefeld (alter Friedhof) 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.316734 6.55169</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Andreas Hemstege</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picskre/xl/B17.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picskre/xl/4 A B 17.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש ישר ונאמן עסק במצות‏‎
+‏‎     <lb n='3'/>
+     ‎‏ה׳ כל הימים נתן מקום בביתו‏‎
+‏‎     <lb n='4'/>
+     ‎‏לתפלה אשר היא תחת עולה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ושלמים מלחמו נתן לעניים‏‎
+‏‎     <lb n='6'/>
+     ‎‏ולאביונים לבה״כ מעריב‏‎
+‏‎     <lb n='7'/>
+     ‎‏ומשכים ה״ה אברהם מנחם‏‎
+‏‎     <lb n='8'/>
+     ‎‏בר מאיר ז״ל אשר הלך בתמים‏‎
+‏‎     <lb n='9'/>
+     ‎‏כל מעשיו הי׳ נאמנים נפטר‏‎
+‏‎     <lb n='10'/>
+     ‎‏ביום ש״ק ונקבר ביום א׳ ד׳ תשרי‏‎
+‏‎     <lb n='11'/>
+     ‎‏תקל״א נתצב״ה עש״צ תנוח‏‎
+‏‎     <lb n='12'/>
+     ‎‏ותעמוד לגורלך בקץ הימין‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     ein aufrechter und verläßlicher Mann, er beschäftigte sich mit den Geboten
+     <lb n='3'/>
+     des Ewigen alle Tage, er gab Raum in seinem Haus
+     <lb n='4'/>
+     für das Gebet, welches Ganzopfer
+     <lb n='5'/>
+     und Mahlopfer ersetzt; von seinem Brot gab er den Armen
+     <lb n='6'/>
+     und den Bedürftigen; in der Synagoge abends betend
+     <lb n='7'/>
+     wie frühmorgens. Es ist Awraham Menachem,
+     <lb n='8'/>
+     Sohn des Meir, sein Andenken zum Segen, welcher wandelte in Lauterkeit,
+     <lb n='9'/>
+     alle seine Taten waren verläßlich, verschieden
+     <lb n='10'/>
+     am Tag des heiligen Schabbat und begraben am Tag 1, 4. Tischri
+     <lb n='11'/>
+     531. Seine Seele sei eingebunden in das Bündel des Lebens mit den übrigen Gerechten. Ruhe du
+     <lb n='12'/>
+     und stehe auf zu deinem Los am Ende der Tage
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Zln. 3-9: Reim auf –im, wie überhaupt der Konsonant mem alliterativ als Anspielung auf den Namen hervorgehoben wird.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln. 3/4: Im Haus von Awraham Menachem wurden die Gottesdienste bis zum Bau der ersten Krefelder Synagoge im Jahr 1764 abgehalten.</p>
+    <p>Zln. 4/5: vgl. Ri 20,26 u.ö. Gemeint sind die täglichen Opfer zur Zeit des Jerusalemer Tempels; nach dessen Zerstörung im Jahr 70 der gewöhnlichen Zeitrechnung (n.d.Z.) trat der synagogale Gebetsgottesdienst an ihre Stelle.</p>
+    <p>Zln. 5/6: vgl. Spr 22,9</p>
+    <p>Zln. 6/7: vgl. bSan 111b u. ö. sowie bBer 8a, dort: ‎‏מקדמי ומחשכי לבי כנישתא‏‎. Hier nur in den frühen Inschriften des Friedhofs zu finden.</p>
+    <p>Zl. 8b: vgl. Ps 84,12</p>
+    <p>Zl. 9: vgl. Ps 33,4</p>
+    <p>Zln. 12/13: Dan 12,13</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Auch in dem 1809 angelegten, verlorenen Memorbuch der Krefelder Gemeinde war der Eintrag für Awraham Menachem der erste überhaupt. Es bezeichnete ihn lediglich als Menachem, Sohn des Meir. Dort hieß es zudem, daß er "der Gemeinde für Geringes den Platz hergegeben hat, auf welchem die Synagoge steht". Heißt dies, daß er nicht nur die "Privatsynagoge" in seinem Haus eingerichtet, sondern es auch der Gemeinde vermacht hatte?</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Die Literatur gibt das Todesdatum von Awraham Menachem, genannt Mendel Meyer, mit 1771 an. Dies beruht wohl auf S. Levi, "Aus der Geschichte der jüdischen Gemeinde Krefelds", Die Heimat 7 (1928), S. 291-296. Dort ist der Stein Mendel Meyers, "der im Jahre 1771 starb", als ältester verzeichnet. Levis Angabe geht zurück auf die 1889 erschienene Festschrift zum 125jährigen Jubiläum der Chewra Kadischa zu Crefeld. Auch dort wird nicht der Todesmonat berücksichtigt, sondern das jüdische Jahr 5531 pauschal mit 1771 gleichgesetzt. Awraham Menachem starb aber im Monat Tischri, der, wie die beiden folgenden Monate Cheschvan und Kislev, immer in das laufende bürgerliche Jahr fällt, also hier September/Oktober 1770. Und wenn W. Stratmann in seiner "Geschichte der jüdischen Friedhöfe zu Krefeld" den ältesten Stein des Friedhofs auch richtig als den von Awraham Menachem aus dem Jahr 1770 benennt, so irrt er doch darin, daß dieser Stein älter sei als der "des 1771 verstorbenen Meyer Mendel" (Steinerne Zeugen, S. 35-36). Awraham Menachem ist ja doch kein anderer als Mendel Meyer! Der Name des Verstorbenen auf seinem Grabmal, Awraham Menachem, bildet seinen Synagogennamen, unter dem er zur Toralesung aufgerufen wurde. "Mendel" ist der häufigste, wenn nicht ausschließliche Beiname des hebräischen "Menachem" und somit der jüdisch-deutsche Alltagsname. Die Grabinschrift für seine Gattin Blümche nennt ihn nur Mendle.</p>
+    <p>
+     Awraham Menachem, Sohn Meirs, ist der Vorfahr der Krefelder Familie Blankenstein. Sein Sohn Meyer Mendel nahm 1808 den Namen Jakob Blankenstein an, übte den Beruf eines Metzgers aus und "betrieb sein bescheidenes Geschäft an der Mühlenstraße, das es ihm erst im Alter erlaubte, einen Hausstand und eine Familie zu gründen" (Schulte, Die Juden Krefelds, S. 83). Inschriften für Jakob Blankenstein (1753-1828) und seine Gattin Eva geb. Levi (geb. 1762) sind nicht vorhanden. Das Ehepaar hatte sieben Kinder; die Grabsteine von fünfen sind noch vorhanden: Michael (
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=kre-0094-t">B 94</ref>
+     ), Maximilian (
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=kre-0135-t">B 111</ref>
+     ), Nathan (
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=kre-0233-t">C 110</ref>
+     ), Moses (
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=kre-0280-t">C 33</ref>
+     ) und Sabine Leven (
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=kre-0139-t">A 21</ref>
+     ).
+    </p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

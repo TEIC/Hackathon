@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sprinz ∞ ... (Sprinz ... Königsbacher), gest. 1842-01-07, Jüdischer Friedhof Heilbronn-Sontheim</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hns-7</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hns-7</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hns-7</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1842-01-07'>1842-01-07</date>
+       <country type="ISO_3166" key="XA-DE-BW">
+        Germany
+        <region>Baden-Württemberg</region>
+       </country>
+       <settlement type='city' key='tgn:7012495'>
+        Heilbronn-Sontheim 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.111558 9.180503</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hns-7-1" sex='2'>
+      <persName>Sprinz ∞ ... (Sprinz ... Königsbacher)</persName>
+       <event when='1842-01-07' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='79'>Hebrew</language>
+    <language ident='de' usage='20'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏שוכבת פה מעשיה יעדו‏‎
+‏‎      <lb n='2'/>
+      ‎‏צדקתה‏‎
+‏‎      <lb n='3'/>
+      ‎‏פה ינוח בגוש עפר גויתה‏‎
+‏‎      <lb n='4'/>
+      ‎‏רוחה תשוב אל השמים‏‎
+‏‎      <lb n='5'/>
+      ‎‏למעלתה‏‎
+‏‎      <lb n='6'/>
+      ‎‏יראת אלהים תפארתה כל‏‎
+‏‎      <lb n='7'/>
+      ‎‏ימי חיתה‏‎
+‏‎      <lb n='8'/>
+      ‎‏נשמתה בצל שדי תהי‏‎
+‏‎      <lb n='9'/>
+      ‎‏מלונתה‏‎
+‏‎      <lb n='10'/>
+      ‎‏צדקתה ישולם לה ועדן‏‎
+‏‎      <lb n='11'/>
+      ‎‏תהי משכורתה‏‎
+‏‎      <lb n='12'/>
+      ‎‏האשה הצנועה מ׳ שפרינץ‏‎
+‏‎      <lb n='13'/>
+      ‎‏אשת כ״ה [...]‏‎
+‏‎      <lb n='14'/>
+      ‎‏מטהאלהיים‏‎
+‏‎      <lb n='15'/>
+      ‎‏נפטרת בש״ט [כ״ה] טבת [תר״ב]‏‎
+‏‎      <lb n='16'/>
+      ‎‏נתצב״ה אמן‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='17'/>
+      Dem
+      <lb n='18'/>
+      Andenken
+      <lb n='19'/>
+      unserer geliebten Mutter
+      <lb n='20'/>
+      Sprinz ...
+      <lb n='21'/>
+      [Kö]nig[s]bach[er]
+      <lb n='22'/>
+      ...
+      <lb n='23'/>
+      Thalheim
+      <lb n='24'/>
+      ...
+      <lb n='25'/>
+      ...
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ruht (die Frau), ihr Tun zeugt
+      <lb n='2'/>
+      von ihren Wohltaten,
+      <lb n='3'/>
+      hier im Staubklumpen ruhe ihr Leichnam,
+      <lb n='4'/>
+      ihr Geist kehrt zurück in den Himmel
+      <lb n='5'/>
+      zur Höhe,
+      <lb n='6'/>
+      Gottesfurcht war ihre Zierde all
+      <lb n='7'/>
+      die Tage ihres Lebens,
+      <lb n='8'/>
+      ihre Seele wird im Schatten des Allmächtigen
+      <lb n='9'/>
+      ihre Herberge haben,
+      <lb n='10'/>
+      ihre Wohltaten werden ihr gezahlt und Eden
+      <lb n='11'/>
+      wird ihr Lohn sein,
+      <lb n='12'/>
+      die züchtige Frau, Frau Sprinz
+      <lb n='13'/>
+      Gattin seiner Ehren ...
+      <lb n='14'/>
+      aus Thalheim
+      <lb n='15'/>
+      verschieden mit gutem Namen am 25. Tewet 602
+      <lb n='16'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens, Amen
+     </ab>
+    </div>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Akrostichon</label>
+      In Zeilen 1, 3, 4, 6, 8, 10 ein Akrostichon: Sprinz
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1301, Jüdischer Friedhof Bommersheim [Mittelalterliche Grabsteine]</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bom-6</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bom-6</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bom-6</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>H: 100 B: 34 T: 15</dim>
+          </dimensions>
+          Rechte Seite eines Grabsteins aus rötlichem Sandstein.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1301'>1301</date>
+       <country type="ISO_3166" key="XA-DE-HE">
+        Germany
+        <region>Hesse</region>
+       </country>
+       <settlement type='city' key='tgn:7213194'>
+        Bommersheim [Mittelalterliche Grabsteine] 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.199061 8.60225</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Prof. Dr. Andreas Lehnardt, Seminar für Judaistik an der Johannes Gutenberg-Universität Mainz</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Frank Lorscheider M.A., Hessisches Landesamt für Denkmalpflege</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsbom/xl/0006_Bom_03_neu.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏[...]‏‎
+      <lb n='2'/>
+      ‎‏ההגו[...]‏‎
+‏‎      <lb n='3'/>
+      ‎‏מרת ב[...]‏‎
+‏‎      <lb n='4'/>
+      ‎‏ר׳ משה [...]‏‎
+‏‎      <lb n='5'/>
+      ‎‏מבערק[...]‏‎
+‏‎      <lb n='6'/>
+      ‎‏נפטרה [...]‏‎
+‏‎      <lb n='7'/>
+      ‎‏יום ב׳ ס׳ ב׳ [...]‏‎
+‏‎      <lb n='8'/>
+      ‎‏אלף הש[...]‏‎
+‏‎      <lb n='9'/>
+      ‎‏נשמת[...]‏‎
+‏‎      <lb n='10'/>
+      ‎‏עדן א[...]‏‎
+‏‎      <lb n='11'/>
+      ‎‏אמן [...]‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Versuch einer Rekonstruktion'>
+      <ab>
+      <lb n='12'/>
+      ‎‏[...]‏‎
+      <lb n='13'/>
+      ‎‏ההגו[נה]‏‎
+‏‎      <lb n='14'/>
+      ‎‏מרת ב[... בת]‏‎
+‏‎      <lb n='15'/>
+      ‎‏ר׳ משה [...]‏‎
+‏‎      <lb n='16'/>
+      ‎‏מבערק[...]‏‎
+‏‎      <lb n='17'/>
+      ‎‏נפטרה [...]‏‎
+‏‎      <lb n='18'/>
+      ‎‏יום ב׳ ס״ב [לפרט]‏‎
+‏‎      <lb n='19'/>
+      ‎‏אלף הש[שי ...]‏‎
+‏‎      <lb n='20'/>
+      ‎‏נשמת[ה בגן]‏‎
+‏‎      <lb n='21'/>
+      ‎‏עדן א[מן ...]‏‎
+‏‎      <lb n='22'/>
+      ‎‏אמן [סלה]‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ...
+      <lb n='2'/>
+      ...
+      <lb n='3'/>
+      Frau ...
+      <lb n='4'/>
+      Herrn Mosche ...
+      <lb n='5'/>
+      aus Berk...
+      <lb n='6'/>
+      verschieden ...
+      <lb n='7'/>
+      Tag 2 ...
+      <lb n='8'/>
+      des ... Jahrtausends ...
+      <lb n='9'/>
+      die Seele ...
+      <lb n='10'/>
+      Eden ...
+      <lb n='11'/>
+      Amen ...
+     </ab>
+    </div>
+    <div type='textpart' subtype='Versuch einer Rekonstruktion'>
+      <ab>
+      <lb n='12'/>
+      [...]
+      <lb n='13'/>
+      [der Würdigen,]
+      <lb n='14'/>
+      Frau B[..., Tochter des]
+      <lb n='15'/>
+      Herrn Mosche [...]
+      <lb n='16'/>
+      aus Berg[heim]
+      <lb n='17'/>
+      verschieden [Monatstag]
+      <lb n='18'/>
+      Tag 2, 62 [der Zählung]
+      <lb n='19'/>
+      des sechsten Jahrtausends [...]
+      <lb n='20'/>
+      [(Es sei) ihre] Seele [im Garten]
+      <lb n='21'/>
+      Eden, A[men Amen]
+      <lb n='22'/>
+      Amen [Sela]
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Über die ursprüngliche Einleitungsformel lassen sich keine genaueren Angaben machen.</p>
+    <p>Zl 2: Das Attribut ‎‏ההגונה‏‎ / "die Würdige", mit dem die erhaltene Inschrift einsetzt, ist in Frankfurt im 14. Jahrhundert (ab 1374) viermal belegt.</p>
+    <p>Zl 3: Der Name der Frau beginnt mit dem Buchstaben ‎‏ב‏‎. Auf den Frankfurter Grabsteinen bis 1400 ist zum Beispiel der Name ‎‏בילא‏‎ / "Bella" ("die Schöne") im 13. Jahrhundert zweimal und im 14. Jahrhundert sechsmal belegt, im 14. Jahrhundert aber auch ‎‏ברונכן‏‎ / "Bräunchen" und ‎‏ברונא‏‎ / "Bruna" ("die Braunhaarige"), ‎‏בונא‏‎ / "Buna"/"Bonne" ("die Gute"), ‎‏בלומא‏‎ / "Blume" und ‎‏בעלט‏‎ / "Bellet" ("die Schöne"?).</p>
+    <p>Zln 3-4: Nach dem Namen folgte vermutlich ein ‎‏בת‏‎ / "Tochter von" (der Gattenname ist im 13. und 14. Jahrhundert noch nicht angegeben), möglicherweise noch gefolgt von einem Titel und dann dem erhaltenen Vatersnamen.</p>
+    <p>Zl 4: Nach dem Vatersnamen ist in der Zeile noch Platz, vielleicht für einen zweiten Namen (z.B. "Mosche Aharon"), dem Namen des Großvaters ("Mosche, Sohn des Aharon"), einem Abstammungsnamen ("Hakohen", "KaZ", Halevi", "Segal") und gegebenenfalls auch die Segensformel nach dem Namen Verstorbener, ‎‏ז״ל‏‎ / "sein Andenken zum Segen". Möglich wäre auch die Angabe eines Rufnamens des Vaters, wie zum Beispiel auf dem Grabstein der 1373 in Frankfurt gestorbenen Juta, Tochter von ‎‏ר׳ לוי המכונה רבי ליברמן מערפורט‏‎ / "Herrn Levi, genannt Rabbi Liberman aus Erfurt".</p>
+    <p>Zl 5: Der Vatersname wird gefolgt von einem Orts- bzw. Herkunftsnamen, der mit "Berg-" beginnt. Bei zwei der erhaltenen Frankfurter Grabsteine bis 1400 sind solche Herkunftsnamen angegeben, bei der Tochter des schon erwähnten Rabbi Libermann aus Erfurt und bei Simcha Manum (?) aus Linnich (1381). Als mögliche, schon im 13. und 14. Jahrhundert in Frankfurt belegte Herkunftsnamen verzeichnet Ettlinger Bergen, nördlich von Frankfurt, wo im 14. Jahrhundert Juden nachweisbar sind (1. Beleg in Frankfurt um 1619), und Bergheim zwischen Köln und Jülich, wo im 13. Jahrhundert schon Juden belegt sind (um 1250 im Kölner Judenschreinsbuch; in Frankfurt erst 1757 auf einem Grabstein genannt). Der Ort Bergen scheidet jedoch als Herkunftsort eher aus, da eine Schreibweise dieses Ortsnamens mit ‎‏ק‏‎ unwahrscheinlich ist. Dagegen ist neben Bergheim zwischen Köln und Jülich auch Bergheim im Oberelsass zwischen Rappoltsweiler und Schlettstadt, in dem ebenfalls vor 1349 eine jüdische Gemeinde existierte, als Herkunftsort möglich.</p>
+    <p>Zl 6: Diese Zeile ‎‏נפטרה‏‎ / "verschieden" wurde entweder fortgesetzt mit ‎‏ונקברה‏‎ / "und wurde begraben" (so neunmal in Frankfurt), möglicherweise mit Angabe des Sterbetages dazwischen (so dreimal in Frankfurt), dann würde es sich bei folgendem Datum um den Begräbnistag handeln. Möglich wäre aber nach verschieden auch die Ergänzung ‎‏בשם טוב‏‎ / "mit gutem Namen", oder die Ergänzung ‎‏בשיבה טובה‏‎ / "in gutem Greisenalter" (so jeweils dreimal in Frankfurt). An dieser Stelle könnte aber auch die Angabe des Sterbemonats gestanden haben (so zum Beispiel in Frankfurt 1339: ‎‏הנפטרה כ״ה בסיון יום ד׳ צ״ט לפרט‏‎ / "verschieden am 21. Nissan, Tag 4, 99 der Zählung").</p>
+    <p>Zl 7: Zu Beginn der Zeile ist entweder der Wochentag ("Tag 2" = Montag) angegeben, oder der Monatstag oder zweite eines Feiertags. Die folgende Abkürzung ‎‏ס׳‏‎ ist ungewöhnlich. An dieser Stelle müßte entweder ein Monatsname oder ein Festtag folgen. Von den Monaten fängt nur der ‎‏סיון‏‎ / "Sivan" mit einem ‎‏ס‏‎ an, doch werden Monatsnamen in der Regel nicht abgekürzt. Ebensowenig ist ‎‏ס׳‏‎ für ‎‏סוכות‏‎ / "Sukkot", Laubhüttenfest wahrscheinlich, dann würde die Angabe fehlen, um welchen Tag von Sukkot es sich handelt (beim 2. Tag Sukkot wäre ‎‏ב׳ דס[וכות‏‎]‏‎ zu erwarten). Am wahrscheinlichsten ist die oben angebotene Lesung mit ‎‏ס׳‏‎ und dem folgenden Buchstaben, wahrscheinlich ein ‎‏ב׳‏‎, als Jahreszahl 62, das entspricht dem Jahr 1301/02. Entsprechend sind zum Beispiel auch mehrere Frankfurter Inschriften aufgebaut (1339, 1385)</p>
+    <p>Zl 8: Am Ende der Zeile wäre vielleicht noch Platz für eine Einleitung des folgenden Schlußsegens mit ‎‏תהא נשמתה‏‎ ("Es sei ihre Seele im Garten Eden", so Frankfurt 1272) oder ‎‏הצור יפקד נשמתה‏‎ ("Der Fels bewahre ihre Seele im Garten Eden", so Frankfurt 1272) oder ‎‏תנוח נפשו בגן עדן‏‎ ("Es ruhe seine Seele im Garten Eden", so Frankfurt 1368).</p>
+    <p>Zl 9: Hier ist wahrscheinlich fortzusetzen mit ‎‏נשמתה‏‎ / "ihre Seele", so auf den drei erhaltenen Frankfurter Grabsteinen aus dem 13. Jahrhundert. Der zweite und dritte erhaltene Grabstein aus dem 14. Jahrhundert variieren in ihren Formulierungen (1367: ‎‏יהא חלקה עם שאר חסידים צדיקים וצדקניות בגן עדן‏‎ / "Möge sie Anteil haben mit den übrigen frommen gerechten Männern und Frauen im Garten Eden" und 1368: ‎‏תנוח נפשו בגן עדן‏‎ / "Es ruhe seine Seele im Garten Eden"). Auf allen anderen Grabsteinen aus dem 14. Jahrhundert wird die 13 mal belegte Fortsetzung ‎‏בגן עדן‏‎ / "im Garten Eden" immer mit ‎‏תנצב״ה‏‎ / "Seine/ihre Seele sei eingebunden in das Bündel des Lebens" eingeleitet.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

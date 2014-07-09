@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Channa bat Arje Jehuda ∞ Eliakum (Johanna Lehmann geb. Rosenthal), gest. 1873-12-29, Jüdischer Friedhof Willich-Anrath</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e08-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e08-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e08-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit stark eingezogenem Rundbogenabschluß und Eckakroterien.
+         </p>
+        </support>
+        <condition>
+         <p> Beschädigung mittel, das Grabmal war in zwei Teile zerbrochen und wurde wieder zusammengesetzt.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>Gekreuzte Palmwedel, zwei kleine Blümchen, verzierte Abkürzungszeichen.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1873-12-29'>1873-12-29</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038217'>
+        Willich-Anrath 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.263103 6.491386</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e08-4-1" sex='2'>
+      <persName>Channa bat Arje Jehuda ∞ Eliakum (Johanna Lehmann geb. Rosenthal)</persName>
+       <event when='1873-12-29' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='60'>Hebrew</language>
+    <language ident='de' usage='40'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse08/xl/0004_E08_070607EPS2104hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e08.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2013-11-26T14:24:19'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏מצבה לזכרון‏‎
+‏‎     <lb n='2'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='3'/>
+     ‎‏אשה מ׳ חנה בת ארי׳ יהוד׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏אשת כ׳ אליאקום‏‎
+‏‎     <lb n='5'/>
+     ‎‏הלכה לעולמה‏‎
+‏‎     <lb n='6'/>
+     ‎‏אור ליום ב׳ שהוא ט׳ טבת‏‎
+‏‎     <lb n='7'/>
+     ‎‏שנת תרל״ד לפ״ק‏‎
+‏‎     <lb n='8'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='9'/>
+     Hier ruht
+     <lb n='10'/>
+     Johanna Lehmann
+     <lb n='11'/>
+     geb. Rosenthal
+     <lb n='12'/>
+     gestorben 29. Dezember 1873
+     <lb n='13'/>
+     im Alter von 63 Jahren.
+     <lb n='14'/>
+     I.A.R.I.F.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Ein Grabmal zum Gedenken
+     <lb n='2'/>
+     Hier ist geborgen
+     <lb n='3'/>
+     eine Frau, Frau Channa, Tochter des Arje Jehuda,
+     <lb n='4'/>
+     Gattin des geehrten Eliakum,
+     <lb n='5'/>
+     ›sie ging hin in ihre Welt‹ 
+     <lb n='6'/>
+     zu Beginn des Tages 2, es ist der 9. Tewet 
+     <lb n='7'/>
+     des Jahres 634 der kleinen Zählung.
+     <lb n='8'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 5: Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Die Zeile folgt dem Bogenverlauf.</p>
+   </div>
+   <div type="commentary" subtype="Abkürzung">
+    <p>Zl 14: Die Abkürzung steht für: "Ihre Asche ruhe in Frieden".</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Johanna Lehmann war eine Tochter des Levy aus der in Anrath alteingesessenen Familie Rosenthal. Verheiratet war sie mit Jacob Lehmann.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

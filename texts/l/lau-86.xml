@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für "Mantel" Monika Laupheimer, gest. 1864-03-03, Jüdischer Friedhof Laupheim</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>lau-86</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=lau-86</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=lau-86</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1991</date>
+           Der Grabstein ist restauriert, die hebräische Inschrift ist völlig verloren, die deutsche nur noch teilweise erhalten.
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1864-03-03'>1864-03-03</date>
+       <country type="ISO_3166" key="XA-DE-BW">
+        Germany
+        <region>Baden-Württemberg</region>
+       </country>
+       <settlement type='city' key='tgn:1040058'>
+        Laupheim 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">48.231932 9.884036</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Hellmut Steiner, St. Gallen</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Laupheimer Fotokreis e.V.</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Michael Schick, Laupheim</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>Jüdische Gotteshäuser und Friedhöfe in Württemberg, hrsg. vom Oberrat der israelitischen Religionsgemeinschaft Württemberg, Stuttgart 1932, S. 96</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Stadtarchiv Laupheim</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="lau-86-1" sex='0'>
+      <persName>"Mantel" Monika Laupheimer</persName>
+       <event when='1864-03-03' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='de' usage='100'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picslau/xl/lau0086_S=08-08_1991.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='1'/>
+      Mantel Laupheimer
+      <lb n='2'/>
+      [...] Juni 1813
+      <lb n='3'/>
+      [...] 1864
+     </ab>
+    </div>
+    <div type='textpart' subtype='Am Sockel des Grabsteins ist ein Metalltäfelchen mit folgender Aufschrift angebracht'>
+      <ab>
+      <lb n='4'/>
+      "Mantel" Monika Laupheimer
+      <lb n='5'/>
+      8.11.1813 - 3.3.1864
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Angabe des Geburtsdatums auf der Metalltafel unterscheidet sich von der Angabe im Sterberegister um wenige Monate.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Die ledige Mantel Laupheimer, auch Mandel und Monika, wurde am 1. Juni 1813 geboren, starb am 3. März 1864 und wurde am 6. März begraben.</p>
+    <p>Über ihr Schicksal steht im Sterberegister folgendes geschrieben: "israelitisches ehelich lediges Mädchen, war von schwermüthiger Natur, lebte nach dem Tod ihres Vaters mit ihrer Schwester Sara zurückgezogen, from, gottergeben, ascetisch". Als Todesursache ist verzeichnet: "durch vieles wochenlanges Fasten und sonstiges Entbehren ganz abgehärmt. Zuletzt trat ein Brustentzündung, war wenige Tage krank".</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1854-08-15, Jüdischer Friedhof Bornheim-Hersel</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hrs-33</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hrs-33</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hrs-33</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>99 x 52 x 10 cm.</dim>
+          </dimensions>
+          Hochrechteckige Stele mit geschweiftem Flachbogenabschluß. Die Inschrift ist rechtsbündig, Einleitungs- und Schlußformel sind zentriert. Geschlängelter Pfeil als Abkürzungszeichen über der Einleitungsformel und (teilweise) dem Todesjahr. Vgl. mit Nrn. 26, 29, 30 von 1859 und Nr. 34 von 1854 und vgl. mit Bor, Nrn. 109 und 110 von 1846 und Bor, Nr. 102 von 1852.
+         </p>
+        </support>
+        <condition>
+         <p> leicht beschädigt.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1854-08-15'>1854-08-15</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038605'>
+        Bornheim-Hersel 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.721959 6.916017</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏האשה חשובה וצנועה מ׳‏‎
+‏‎     <lb n='3'/>
+     ‎‏בילא בת כ׳ מאיר אשת‏‎
+‏‎     <lb n='4'/>
+     ‎‏כ׳ יעקב בר מרדכי נפטר׳‏‎
+‏‎     <lb n='5'/>
+     ‎‏ביום ג׳ כ״א אב ונקברת‏‎
+‏‎     <lb n='6'/>
+     ‎‏ביום ד׳ כ״ב אב תרי״ד ל׳‏‎
+‏‎     <lb n='7'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     die Frau, angesehen und züchtig, Frau
+     <lb n='3'/>
+     Bella, Tochter des geehrten Meir, Gattin des
+     <lb n='4'/>
+     geehrten Jaakow, Sohn des Mordechai, verschieden
+     <lb n='5'/>
+     am Tag 3, 21. Aw, und begraben
+     <lb n='6'/>
+     am Tag 4, 22. Aw 614 der Zählung.
+     <lb n='7'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Sibilla ist ein häufiges Pendant zu Bella.</p>
+    <p>Vgl. den formalen Aufbau der Inschrift und ihre einzeilige Eulogie mit Nr. 34, ebenfalls von 1854.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Sibilla Kappel geb. Mayer wurde ca. 1815 in Saffig geboren. Am 28.7.1842 heiratete sie in Hersel Jacob Philipp Kappel. Sie starb daselbst am 15.8.1854</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

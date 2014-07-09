@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Fromet bat Baruch Prinz ∞ Lipman Etgess, gest. 1787-07-16, Jüdischer Friedhof Bayreuth</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bay-339</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bay-339</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bay-339</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+           Beschädigung mittel 
+          <damage agent='Verwitterung'>Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1787-07-16'>1787-07-16</date>
+       <country type="ISO_3166" key="XA-DE-BY">
+        Germany
+        <region>Bavaria</region>
+       </country>
+       <settlement type='city' key='tgn:7004326'>
+        Bayreuth 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.934064 11.594224</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bay-339-1" sex='2'>
+      <persName>Fromet bat Baruch Prinz ∞ Lipman Etgess</persName>
+       <event when='1787-07-16' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsbay/xl/0339_BTh_090519L1000593hb.png'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2009-05-19'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏נו״נ בשם ט׳ י[ום ב׳ ר״ח אב] תקמ״ז לפ״ק‏‎
+‏‎     <lb n='2'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='3'/>
+     ‎‏האשה מ׳ פרומט אשת פ״ו‏‎
+‏‎     <lb n='4'/>
+     ‎‏מהור״ר ליפמאן עטגעס ז״ל בת‏‎
+‏‎     <lb n='5'/>
+     ‎‏התורני כ״ה ברוך פרינץ ז״ל‏‎
+‏‎     <lb n='6'/>
+     ‎‏פיה פתחה בחכמה‏‎
+‏‎     <lb n='7'/>
+     ‎‏ראתה לשבת פנימה‏‎
+‏‎     <lb n='8'/>
+     ‎‏ויהללוה מימים ימימה‏‎
+‏‎     <lb n='9'/>
+     ‎‏מעשי׳ ישרים ונעימה‏‎
+‏‎     <lb n='10'/>
+     ‎‏טוב סחרה וטעמה‏‎
+‏‎     <lb n='11'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Verschieden und begraben ›mit gutem Namen‹ Tag 2, Neumond Aw 547 der kleinen Zählung.
+     <lb n='2'/>
+     Hier ist geborgen
+     <lb n='3'/>
+     die Frau Fromet, Gattin des Vorstehers und Leiters,
+     <lb n='4'/>
+     unseres Lehrers, des Meisters, Herrn Lipman Etgess, sein Andenken zum Segen, Tochter des
+     <lb n='5'/>
+     Toragelehrten, des geehrten Herrn Baruch Prinz, sein Andenken zum Segen.
+     <lb n='6'/>
+     ›Ihren Mund öffnete sie mit Weisheit‹,
+     <lb n='7'/>
+     be(wußt) verweilte sie im Innern (des Hauses),
+     <lb n='8'/>
+     und man rühmte sie seit Jahr und Tag,
+     <lb n='9'/>
+     ihre Taten waren aufrecht und anmutsvoll,
+     <lb n='10'/>
+     ›gut ist ihr Handelswerk und gut ihr Gespür‹.
+     <lb n='11'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: bBer 17a</p>
+    <p>Zl 6: Spr 31,26</p>
+    <p>Zl 10: nach Spr 31,18</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -mah in Zln 6-10 insbesondere auf -imah in Zln 7-9.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 6-10: ‎‏פרומט‏‎ Fromet
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Fromet wird in ihrer gereimten Eulogie, deren Zeilenanfänge ihr Namensakrostichon bilden, vor allem mit Zitaten aus dem "Lob auf die tüchtige Gattin" (Spr 31,10-31) für ihre Klugheit, ihre Züchtigkeit, ihr aufrechtes Werk und auch ihren Geschäftssinn gelobt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Laut altem hebräischen Begräbnisregister war Fromet, Tochter des Baruch Prinz und Gattin des Lipman Etgess aus Breslau, die zweite, die auf diesem Friedhof begraben wurde. Sie war die Witwe des (vor 1785 gestorbenen) Breslauer Gemeindevorstehers Liebmann Bär und vermutlich 1785 nach Bayreuth gezogen, als ihre einzige Tochter Riwka hier den Bayreuther Hoffaktoren David, Sohn von Baruch ehelichte.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

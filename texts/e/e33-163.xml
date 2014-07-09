@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sorle bat Mosche Chajim ∞ Mosche ben Jehuda Neuss (Sara Frank geb. Seligmann), gest. 1835-11-17, Jüdischer Friedhof Neuss</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e33-163</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e33-163</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e33-163</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele (?) mit geradem Abschluß (?), seitlich verziert mit einem Blattwellenfries.
+         </p>
+        </support>
+        <condition>
+         <p>
+           Beschädigung schwer, das Grabmal liegt und war fast völlig überwachsen. 
+          <damage agent='Verwitterung'>1987: Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>Blattwellenfries.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1835-11-17'>1835-11-17</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7004978'>
+        Neuss 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.194797 6.66818</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e33-163-1" sex='2'>
+      <persName>Sorle bat Mosche Chajim ∞ Mosche ben Jehuda Neuss (Sara Frank geb. Seligmann)</persName>
+       <event when='1835-11-17' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='75'>Hebrew</language>
+    <language ident='de' usage='25'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse33/xl/0163_E33_1987.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse33/xl/0163dE33_1987.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[...]‏‎
+     <lb n='2'/>
+     ‎‏אשה חשובה א״ח מ׳ שורלה בת‏‎
+‏‎     <lb n='3'/>
+     ‎‏הה״ר משה חיים היא אשת‏‎
+‏‎     <lb n='4'/>
+     ‎‏משה בן הה״ר יהודא נייס‏‎
+‏‎     <lb n='5'/>
+     ‎‏נפטר׳ ונקבר׳ על בית עלמין‏‎
+‏‎     <lb n='6'/>
+     ‎‏בק״ק הנ״ל ובזקנה מן ארבע‏‎
+‏‎     <lb n='7'/>
+     ‎‏וארבעים שנים ביום גימל‏‎
+‏‎     <lb n='8'/>
+     ‎‏כ״ה חשון שנת תקצוי״ו‏‎
+‏‎     <lb n='9'/>
+     ‎‏ונשמתה תהיה בגן עדן‏‎
+‏‎     <lb n='10'/>
+     Sara Frank
+     <lb n='11'/>
+     geb. Seligmann
+     <lb n='12'/>
+     starb am 17. Novbr. 1835
+     <lb n='13'/>
+     in ihrem 44sten Lebensjahr
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ...
+     <lb n='2'/>
+     eine angesehene Frau, ›die tüchtige Gattin‹ , Frau Sorle, Tochter des
+     <lb n='3'/>
+     geehrten Herrn Mosche Chajim, sie (war die) Gattin des
+     <lb n='4'/>
+     Mosche, Sohn des geehrten Herrn Jehuda Neuss,
+     <lb n='5'/>
+     verschieden und begraben auf dem Friedhof
+     <lb n='6'/>
+     in der hiesigen heiligen Gemeinde im Alter von vierundvierzig
+     <lb n='7'/>
+     Jahren am Tag drei,
+     <lb n='8'/>
+     25. Cheschvan des Jahres 596,
+     <lb n='9'/>
+     und ihre Seele sei im Garten Eden
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 31,10</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Das Grabmal stammt vom alten jüdischen Friedhof an der Düsseldorfer Straße, der 1890 geschlossen und 1920 aufgelöst wurde.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

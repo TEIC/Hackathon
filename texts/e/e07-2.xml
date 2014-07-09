@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jechiel ben Elieser (Michael Metzger), gest. 1892-04-11, Jüdischer Friedhof Willich</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e07-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e07-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e07-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele mit geschweiftem und eingezogenen, kleinen Rundbogenabschluß.
+         </p>
+        </support>
+        <condition></condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>gestalterisch: kleiner, sechszackiger Stern im Giebelfeld.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1892-04-11'>1892-04-11</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1041830'>
+        Willich 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.261559 6.538827</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e07-2-1" sex='1'>
+      <persName>Jechiel ben Elieser (Michael Metzger)</persName>
+       <event when='1892-04-11' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='57'>Hebrew</language>
+    <language ident='de' usage='42'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse07/xl/0002_E07_070817EPS6333hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש ישר ונאמן‏‎
+‏‎     <lb n='3'/>
+     ‎‏כ׳ יחיאל בר אליעזר‏‎
+‏‎     <lb n='4'/>
+     ‎‏מת ביום ב׳ ערב פסח‏‎
+‏‎     <lb n='5'/>
+     ‎‏תרנ״ב לפ״ק‏‎
+‏‎     <lb n='6'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='7'/>
+     Hier ruht
+     <lb n='8'/>
+     Michael Metzger
+     <lb n='9'/>
+     geb. im Juli 1815,
+     <lb n='10'/>
+     gest. 11. April 1892.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     ein aufrechter und getreuer Mann,
+     <lb n='3'/>
+     der geehrte Jechiel, Sohn des Elieser,
+     <lb n='4'/>
+     gestorben am Tag 2, am Vorabend von Pessach
+     <lb n='5'/>
+     652 der kleinen Zählung.
+     <lb n='6'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der Metzger Michael Metzger stammte aus Rheinbach und war ein Sohn des Galanteriewarenhändlers Lazarus Metzger und der Baiz Cahn. 1841 heiratete er in Willich die aus Schiefbahn stammenden Rachel Kaufmann. Das Paar hatte sieben Kinder: Juliane (1841-1858), Karoline (geb. 1846, verheiratet mit Hermann Lion in Willich, gest. 1925 in Willich), Sophie (geb. 1848, als Kind gestorben), Wilhelmina (geb. 1850, als Kind gestorben), Helena (geb. 1852, verheiratete Lehmann), Lazarus (geb. 1854, als Kind gestorben), und Rosetta (geb. 1857, verheiratet mit Abraham Lion in Willich). Rosetta Lion wurde gemeinsam mit weiteren Familienangehörigen nach Theresienstadt deportiert und ermordet.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

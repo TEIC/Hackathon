@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Elias Moses Spier, gest. 1872-03-28, , gest. --, Jüdischer Friedhof Kalkar</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>kal-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=kal-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=kal-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>Hochrechteckige Stele mit umlaufendem Rahmen. Die obere Hälfte des Steins mit den hebräischen Namen des Verstorbenen und einem Teil der Eulogie ist abgebrochen und verlorengegangen.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='--'>--</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7004986'>
+        Kalkar 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.740596 6.295791</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="kal-3-1" sex='0'>
+      <persName> Elias Moses Spier</persName>
+       <event when='1872-03-28' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="kal-3-2" sex='0'>
+      <persName></persName>
+       <event when='--' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='70'>Hebrew</language>
+    <language ident='de' usage='30'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏...‏‎
+     <lb n='2'/>
+     ‎‏הנה לוקח בשיבה טובה‏‎
+‏‎     <lb n='3'/>
+     ‎‏אל ארץ החיים‏‎
+‏‎     <lb n='4'/>
+     ‎‏נפטר ביום ה׳ ח״י אדר שני‏‎
+‏‎     <lb n='5'/>
+     ‎‏ונקבר עש״ק י״ט בו תרל״ב לפ״ק‏‎
+‏‎     <lb n='6'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='7'/>
+     Elias Moses Spier
+     <lb n='8'/>
+     geboren: September 1797
+     <lb n='9'/>
+     gestorben 28 März 1872
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='2'/>
+     Siehe, er wurde in gutem Greisenalter genommen
+     <lb n='3'/>
+     in das Land des Lebens;
+     <lb n='4'/>
+     er verschied am Tag 5, 18. des zweiten Adar,
+     <lb n='5'/>
+     und wurde begraben (am) Rüsttag des heiligen Schabbat, 19. desselben 632
+     <lb n='6'/>
+     der kleinen Zählung.
+     <lb n='7'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: "In gutem Greisenalter" ist ein biblischer Ausdruck, mit dem das hohe Alter vom Erzvater Abraham (Gen 25,8), dem Richter Gideon (Ri 8,32) und dem König David (1 Chr 29,28) beschrieben wird.</p>
+    <p>Zl 3: Vgl. Ps 116,9: "Ich werde wandeln vor dem Ewigen in den Landen des Lebens".</p>
+    <p>Zl 4: Die Buchstaben, die den Zahlenwert 18, ‎‏י״ח‏‎ergeben, sind umgestellt, um das Wort chai , ‎‏חי‏‎ , "lebendig", zu bilden.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Elias Spier wurde nicht, wie hier auf dem Grabstein angegeben, im September geboren, sondern am 15. Oktober 1797.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

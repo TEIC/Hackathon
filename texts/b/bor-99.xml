@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1771-02-14, Jüdischer Friedhof Bornheim</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bor-99</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bor-99</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bor-99</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit eingezogenem Rundbogenabschluß. Die Inschrift ist in Blocksatz, Kopf- und Schlußzeile sind zentriert. Die Kopfzeile ist in größeren Buchstaben geschrieben und von einer Linie eingerahmt, die unten wellenartig ist. Links daneben ist ein Horn (Widderhorn?) fein eingraviert, die Schlußzeile ist von zwei Haken eingerahmt. 95 x 55 x 10,5 cm.
+         </p>
+        </support>
+        <condition>
+         <p> Beschädigungen, insbesondere an den Rändern.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Schofar</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1771-02-14'>1771-02-14</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038605'>
+        Bornheim 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.75759 6.987414</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏הולך תמים ופועל‏‎
+‏‎     <lb n='3'/>
+     ‎‏צדק ה״ה ט״מ החב[ר]‏‎
+‏‎     <lb n='4'/>
+     ‎‏רבי אליעזר בר משה‏‎
+‏‎     <lb n='5'/>
+     ‎‏בורנהיים ז״ל נפטר‏‎
+‏‎     <lb n='6'/>
+     ‎‏ונקבר יום ה׳ ר״ח‏‎
+‏‎     <lb n='7'/>
+     ‎‏אדר תקל״א לפ״ק‏‎
+‏‎     <lb n='8'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     (der) lauter wandelt und Wohltat
+     <lb n='3'/>
+     wirkt, es ist der Beisitzer der Landjudenschaft, der toragelehrte
+     <lb n='4'/>
+     Herr Elieser, Sohn des Mosche
+     <lb n='5'/>
+     Bornheim, sein Andenken zum Segen, verschieden
+     <lb n='6'/>
+     und begraben Tag 5, Neumondstag
+     <lb n='7'/>
+     Adar 531 der kleinen Zählung.
+     <lb n='8'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2/3a: Ps 15,2.</p>
+    <p>Zl 3b: Beisitzer der Landjudenschaft ( tuwej medina ) war das zweitwichtigste Amt nach dem des Vorstehers der Landjudenschaft, das höchste innerjüdische Gremium, dem Zusammenschluß der Gemeinden in einem Gebiet, häufig in den Grenzen der politischen Herrschaft.</p>
+    <p>Zl 6: Für den Monat Adar gibt es einen 1. und 2. Neumondstag, hier ist der 1. Tag des Neumonds gemeint.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Das älteste noch erhaltene Grabmal ist Elieser, Sohn des Mosche Bornheim, auch Liffmann Moyses gewidmet. Er war einer der sechs Familienoberhäupter, die im Jahre 1736 in Bornheim vergleitet waren. Das verlorengegangene Bornheimer Memorbuch bezeichnet den " angesehenen, gelehrten Lipman, Sohn des Mosche Bornheim " als Vorsteher (1743), Armenverwalter, Vorbeter und Mohel. Zu dem war er auch Beisitzer der (vermutlich kurkölnischen) Landjudenschaft, wie aus der Inschrift hervorgeht.</p>
+    <p>Seine Gattin war Gudula Sara, die "Witwe Liffmann Moyses". Sie ist sicherlich identisch mit der bei Zerlett erwähnten "Witwe Liffmann Meyer", die ein Haus (Nr. 53 in der Ollisgaß) besaß, "bei dem ... die bis 1866 benutzte alte Synagoge" war, wie bereits Menk und Wolff feststellten.</p>
+    <p>Ein Sohn, der Geldverleiher (1778) und Handelsmann (um 1800) Moises Levi, auch Moyses Liffmann, wurde ca. 1740 in Bornheim geboren und wohnte um 1801 in Hordorf. Er starb am 26.2.1826 in Bornheim. Moises Levi war verheiratet mit Helene Uri, auch Helene Levi und Hillgen Voß, die ca. 1747 in Maubach (bei Herzogenrath) geboren wurde und am 9.10.1812 in Bornheim starb. Aus dieser Ehe sind drei Kinder bekannt: Rachel Levi, geboren am 11.2.1784, die unverheiratete Billgen Levi, auch Besgen Moises, Barbe Levi und Betta Moises, am 5.5.1790 in Bornheim geboren und am 4.1.1852 daselbst gestorben und der unverheiratete Servaz Levi, auch Voss Moises, Servais Abels und Servaz Moises, am 28.1.1794 in Bornehim geboren und am 8.1.1852 daselbst gestorben.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

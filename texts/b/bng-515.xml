@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+    <titleStmt>
+    <title/>
+   </titleStmt>
+   <publicationStmt>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bng-515</idno>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <p>ERROR: XML not valid</p>
+   <p>0515: -1</p>
+  </body>
+ </text>
+</TEI>

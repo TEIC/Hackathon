@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Bräunchen bat Meir, gest. 1621-10-27, Jüdischer Friedhof Rheineck-Bad Breisig, Alter Friedhof</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bbr-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bbr-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bbr-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Basaltlava</material>
+          Hochrechteckige Stele; die Oberkante ist leicht abgerundet, nach den Seiten leicht abfallend, Kanten uneben, beschädigt. Zeilen unregelmäßig.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>Möglicherweise ist unten auf dem Stein, der neuerdings höher aus dem Boden ragt als früher, noch eine Schmuckzeile (kleine Quadrate?) zu sehen.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1621-10-27'>1621-10-27</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:1038315'>
+        Rheineck-Bad Breisig, Alter Friedhof 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.497278 7.311972</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bbr-1-1" sex='2'>
+      <persName>Bräunchen bat Meir</persName>
+       <event when='1621-10-27' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+    <language ident='de' usage=''>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה טמונה אשה‏‎
+‏‎     <lb n='2'/>
+     ‎‏הגונה מר׳ ברוינכן‏‎
+‏‎     <lb n='3'/>
+     ‎‏בת מאיר ז״ל נפטר׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏ביו׳ ד׳ י״ב חשון שנ׳‏‎
+‏‎     <lb n='5'/>
+     ‎‏שפ״ב לפ״ק תנצב״ה‏‎
+‏‎     <lb n='6'/>
+     ‎‏עש״צ בג״ע א״ס‏‎ ׃‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen eine
+     <lb n='2'/>
+     würdige Frau, Frau Bräunchen,
+     <lb n='3'/>
+     Tochter des Meir, sein Andenken zum Segen, verschieden
+     <lb n='4'/>
+     am Tag 4, 12. Cheschvan des Jahres
+     <lb n='5'/>
+     382 der kleinen Zählung. Ihre Seele sei eingebunden in das Bündel des Lebens
+     <lb n='6'/>
+     mit den übrigen Gerechten im Garten Eden, Amen Sela
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Memorbucheintrag Nr. 34:</p>
+    <p>‎‏אשה ... מ׳ בריינלה בת מאיר ז״ל ... שגמלה חסד עם עניים ועשירים, גם נתנו בניה לצד׳ בעבורה. נפטרת בשם טוב שנת שפ״ב פה פרייזך‏‎.‏‎</p>
+    <p>Frau ... Frau Breinle, Tochter des Meir, sein Andenken zum Segen, ... die Liebeswerk erwies Armen und Reichen, auch gaben ihre Kinder für sie zur Wohltätigkeit. Verschieden mit gutem Namen im Jahre 382, hier Preisech [= Breisig]</p>
+    <p>
+     Die Gattennamen werden in Breisig in den hebräischen Inschriften bis 1722 nicht genannt (bis auf eine Ausnahme, Grabstein Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=bbr-0004-t">bbr-0004</ref>
+     , Doppelgrabstein für Ehegatten), erst danach wird er meist dem Vatersnamen beigefügt oder verdrängt ihn zuweilen. Doch ist dem Memorbucheintrag für Bräunchen zu entnehmen, dass sie verheiratet gewesen sein muss, denn ihre Kinder (nur Söhne oder Söhne und Töchter, das Hebräische lässt beides zu) spendeten zu ihrem Gedächtnis. Über die Identität ihres Gatten lässt sich keine Aussage machen. Man könnte versuchen, ihn in dem auf Bräunchen folgenden Eintrag zu sehen, Meir, Sohn des Jaakow, gestorben 1647 (Nr. 35, Grabstein Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=bbr-0002-t">bbr-0002</ref>
+     ), da im Breisiger Memorbuch Einträge für Ehegatten und Kinder häufig aufeinander folgen, doch schein die Mitteilung, dass die Kinder Bräunchens für sie spendeten, darauf hinzudeuten, dass ihr Gatte schon verstorben war. Das genaue Todesdatum Bräunchens wird vom Memorbuch nicht genannt. Dies könnte auf eine spätere Eintragung der Verstorbenen schließen lassen. Vielleicht erfolgte die Eintragung beider Ehegatten auch erst nach dem Tode Meirs - wenn man davon ausgeht, dass sie verheiratet waren -, ohne dass bei ihm noch einmal ausdrücklich die Spende durch die Kinder Erwähnung fand.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

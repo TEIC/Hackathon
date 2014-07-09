@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal, Jüdischer Friedhof Haigerloch-Weildorf</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hgw-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hgw-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hgw-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Steinfragment, an dem eine Gedenktafel in deutscher Sprache angebracht ist.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <country type="ISO_3166" key="XA-DE-BW">
+        Germany
+        <region>Baden-Württemberg</region>
+       </country>
+       <settlement type='city' key='tgn:1039436'>
+        Haigerloch-Weildorf 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">48.359279 8.759996</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Marek Leszczynski, Hechingen</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='4'>Hebrew</language>
+    <language ident='de' usage='95'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshgw/xl/1.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshgw/xl/1 a.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏ברוך אתה יי מחיה המתים‏‎
+‏‎      <lb n='2'/>
+      Jüdische Gemeinde Haigerloch
+      <lb n='3'/>
+      Seit 1546 bestand eine jüdische Siedlung in Haigerloch
+      <lb n='4'/>
+      Im Jahr 1780 wurde den jüdischen Bürgern, meist
+      <lb n='5'/>
+      Handwerker und Kaufleute, das Stadtviertel Haag
+      <lb n='6'/>
+      als Wohnstätte zugewiesen. Die jüdische Gemeinde
+      <lb n='7'/>
+      Haigerloch zählte im Jahr 1933 insgesamt 213 Seelen.
+      <lb n='8'/>
+      1942 wurden die letzten 192 Juden in Vernichtungslager
+      <lb n='9'/>
+      deportiert, dabei haben nur 11 Personen überlebt.
+      <lb n='10'/>
+      Zwischen 1567 und 1884 hat die jüdische Gemeinde ihre
+      <lb n='11'/>
+      Einwohner auf dem Waldfriedhof Weildorf bestattet.
+      <lb n='12'/>
+      1803 legten sie unterhalb ihres Wohnviertels Haag
+      <lb n='13'/>
+      einen neuen jüdischen Friedhof an.
+      <lb n='14'/>
+      Die Stadt Haigerloch will diese Ruhestätte ihren jüdischen
+      <lb n='15'/>
+      Mitbürgern erhalten.
+      <lb n='16'/>
+      Ehre sei ihrem Gedenken
+     </ab>
+    </div>
+    <div type='textpart' subtype='Links neben dem Text, unter dem Stadtwappen'>
+      <ab>
+      <lb n='17'/>
+      Stadt
+      <lb n='18'/>
+      Haigerloch
+      <lb n='19'/>
+      1979
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Gelobt seist du, Ewiger, der du die Toten wieder belebst.
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Diese Gedenktafel wurde 1978 nach Instandsetzung des Friedhofs durch die Stadt Haigerloch angebracht.</p>
+    <p>Wenn ein praktizierender Jude seit 30 Tagen nicht auf einem Friedhof war, soll er beim Betreten des Gottesackers ein Gebet sprechen, das mit dem nebenstehenden Satz endet. Das Gebet lautet in deutscher Übersetzung:</p>
+    <p>"Gelobt seist du, Ewiger, unser Gott, König der Welt; er hat euch in Gerechtigkeit erschaffen, euch in Gerechtigkeit ernährt und erhalten, euch in Gerechtigkeit sterben lassen, er kennt euer aller Anzahl in Gerechtigkeit und wird euch wieder zum Leben zurückrufen in Gerechtigkeit. Gelobt seist du, Ewiger, der du die Toten wieder belebst."</p>
+    <p>Daran schließt sich die zweite Bitte aus dem Achtzehnbitten-Gebet an, die auch mit nebenstehenden Satz endet, der aber hier weggelassen wird, da er schon bei dem obigen Gebet gesagt worden ist. Der Text lautet so:</p>
+    <p>"Du bist mächtig in Ewigkeit, Herr, belebst die Toten, du bist stark zum Helfen. Du ernährst die Lebenden mit Gnade, belebst die Toten in großem Erbarmen, stützest die Fallenden, heilst die Kranken, befreist die Gefesselten und hältst die Treue denen, die im Staube schlafen. Wer ist wie du, Herr der Allmacht, und wer gleichet dir, König. der du tötest und belebst und Heil aufsprießen lässt. Und treu bist du, die Toten wieder zu beleben."</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

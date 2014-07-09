@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Fromet (Fannÿ Unger geb. Salzmann), gest. 1832-02-17, Jüdischer Friedhof Erfurt, Cyriakstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>erc-38</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=erc-38</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=erc-38</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2013</date>
+           
+          <damage agent='Verwitterung'>Non in situ. Deutliche Verwitterungsspuren.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1832-02-17'>1832-02-17</date>
+       <country type="ISO_3166" key="XA-DE-TH">
+        Germany
+        <region>Thuringa</region>
+       </country>
+       <settlement type='city' key='tgn:7024031'>
+        Erfurt, Cyriakstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.970566 11.010673</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="erc-38-1" sex='0'>
+      <persName>Fromet (Fannÿ Unger geb. Salzmann)</persName>
+       <event when='1832-02-17' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='3'>Hebrew</language>
+    <language ident='de' usage='48'>German</language>
+    <language ident='de-Hebr' usage='48'>German in Hebrew letters</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ruhet in Gott
+      <lb n='2'/>
+      Fannÿ Unger
+      <lb n='3'/>
+      geb. Salzmann
+      <lb n='4'/>
+      aus Frankfurt a. O.
+      <lb n='5'/>
+      Ehefrau des Prof. Dr. E.S. Unger
+      <lb n='6'/>
+      geb. 14. November 1804,
+      <lb n='7'/>
+      gest. 17. Februar 1832.
+     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='8'/>
+      ‎‏היר רוהעת‏‎
+‏‎      <lb n='9'/>
+      ‎‏דיא עהעפרויא דעס‏‎
+‏‎      <lb n='10'/>
+      ‎‏דאקטאר אונגער‏‎
+‏‎      <lb n='11'/>
+      ‎‏וורומט גענאננט פאנני‏‎
+‏‎      <lb n='12'/>
+      ‎‏געבארנע זאלצמאן‏‎
+‏‎      <lb n='13'/>
+      ‎‏אויס פראנקפורט דאדער‏‎
+‏‎      <lb n='14'/>
+      ‎‏געבארען ר״ח חשון ס״ד‏‎
+‏‎      <lb n='15'/>
+      ‎‏געשטארבען ט״ז אדר א׳‏‎
+‏‎      <lb n='16'/>
+      ‎‏תקצ״ב לפ״ק‏‎
+‏‎      <lb n='17'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+     <ab></ab>
+    </div>
+    <lb n='8'/>
+    Hier ruhet
+    <lb n='9'/>
+    die Ehefrau des
+    <lb n='10'/>
+    Doktor Unger,
+    <lb n='11'/>
+    Fromet, genannt Fanny,
+    <lb n='12'/>
+    geborne Salzmann
+    <lb n='13'/>
+    aus Franfurt an der Oder,
+    <lb n='14'/>
+    geboren Neumond Cheschvan (5)64,
+    <lb n='15'/>
+    gestorben 16. des ersten Adar
+    <lb n='16'/>
+    592 der kleinen Zählung.
+    <lb n='17'/>
+    Ihre Seele sei eingebunden in das Bündel des Lebens
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Angaben der Geburtsdaten in den beiden Inschriften stimmen nicht überein: Der Neumond des Cheschvan im Jahr 564 fiel auf den 16. Oktober 1803, der 14. November 1804 fiel auf den 11. Kislev 565.</p>
+    <p>Vermutlich wurde das Grabmal falsch herum neu aufgestellt.</p>
+    <p>Die Inschrift auf der Rückseite ist in Deutsch in hebräischen Buchstaben verfasst.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

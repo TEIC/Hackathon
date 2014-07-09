@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jachent ∞ Jizchak ben Awraham (Henriette Schnock geb. Königswerther), gest. 1840-04-17, Jüdischer Friedhof Mönchengladbach-Rheydt</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e27-84</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e27-84</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e27-84</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Gesockelte Stele mit Hufeisenbogen, gekrönt von einer Palmette, und eingesetzter, mit zwei Rundbögen schließender Schrifttafel.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1986</date>
+           
+          <damage agent='Verwitterung'>Verwitterung leicht.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1840-04-17'>1840-04-17</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7004976'>
+        Mönchengladbach-Rheydt 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.168269 6.436269</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e27-84-1" sex='2'>
+      <persName>Jachent ∞ Jizchak ben Awraham (Henriette Schnock geb. Königswerther)</persName>
+       <event when='1840-04-17' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='50'>Hebrew</language>
+    <language ident='de' usage='50'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse27/xl/1050_E27_070806EPS5508hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse27/xl/1050rE27_070812EPS5997hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏האשה‏‎
+‏‎     <lb n='3'/>
+     ‎‏המהוללה אשת חיל‏‎
+‏‎     <lb n='4'/>
+     ‎‏מרת יכנט אשת כ״מ‏‎
+‏‎     <lb n='5'/>
+     ‎‏יצחק ב״ר אברהם מתה‏‎
+‏‎     <lb n='6'/>
+     ‎‏בת כ׳ שנה ביום ג׳ ללידתה‏‎
+‏‎     <lb n='7'/>
+     ‎‏ערב פסח שנת ת״ר‏‎
+‏‎     <lb n='8'/>
+     ‎‏לפ״ק‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='10'/>
+     Hier ruht
+     <lb n='11'/>
+     die treue Gattin und Mutter
+     <lb n='12'/>
+     Henriette Schnock
+     <lb n='13'/>
+     geb. Königswerther
+     <lb n='14'/>
+     geb. im Jahre 5580 in Rödelheim,
+     <lb n='15'/>
+     gest. 23. April 5600.
+     <lb n='16'/>
+     Selig sei ihre Seele.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     die Frau,
+     <lb n='3'/>
+     die Gepriesene, ›die tüchtige Gattin‹,
+     <lb n='4'/>
+     Frau Jachent, Gattin des geehrten Herrn
+     <lb n='5'/>
+     Jizchak, Sohn des Herrn Awraham, gestorben
+     <lb n='6'/>
+     20 Jahre alt am 3. Tag, nachdem sie gebar,
+     <lb n='7'/>
+     am Vorabend von Pessach des Jahres 600
+     <lb n='8'/>
+     der kleinen Zählung.
+     <lb n='9'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Spr 31,10</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Angabe der Daten in der deutschen Inschrift wurden kombiniert aus den jüdischen Jahren und bürgerlichen Monaten.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

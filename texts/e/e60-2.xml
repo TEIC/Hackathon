@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mordechai ben Meir Halevi, gest. 1862-03-11, Jüdischer Friedhof Venlo, (alter Friedhof) Broekhofpad</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e60-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e60-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e60-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit stark geschweiftem Rundbogenabschluß.
+         </p>
+        </support>
+        <condition>
+         <p> Beschädigung schwer: Das Grabmal ist gebrochen, die obere Hälfte liegt. Offensichtlich war das Grabmal schon zuvor in mehrere Teile zerbrochen und wurde wieder zusammengesetzt.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1862-03-11'>1862-03-11</date>
+       <country type="ISO_3166" key="XA-NL-LI">
+        Netherlands
+        <region>Limburg</region>
+       </country>
+       <settlement type='city' key='tgn:7006853'>
+        Venlo, (alter Friedhof) Broekhofpad 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.357003 6.171596</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e60-2-1" sex='1'>
+      <persName>Mordechai ben Meir Halevi</persName>
+       <event when='1862-03-11' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse60/xl/0002_E60_070912EPS8135hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e60.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2013-11-26T14:24:19'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש תם וישר‏‎
+‏‎     <lb n='3'/>
+     ‎‏ירא אלהים וסור מרע‏‎
+‏‎     <lb n='4'/>
+     ‎‏ה״ה‏‎
+‏‎     <lb n='5'/>
+     ‎‏כ׳ מרדכי בן כ׳ מאיר הלוי‏‎
+‏‎     <lb n='6'/>
+     ‎‏עת כי בא קצו‏‎
+‏‎     <lb n='7'/>
+     ‎‏שב את ארצו בשם טוב‏‎
+‏‎     <lb n='8'/>
+     ‎‏והלך לעולמו בשנת ע״ג לימי חיו‏‎
+‏‎     <lb n='9'/>
+     ‎‏ביום ג׳ ט׳ אדר ש[ני]‏‎
+‏‎     <lb n='10'/>
+     ‎‏תרכ״ב לפ״ק‏‎
+‏‎     <lb n='11'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ›ein lauterer und aufrechter Mann,
+     <lb n='3'/>
+     Gott ehrfürchtend und Böses meidend‹,
+     <lb n='4'/>
+     es ist
+     <lb n='5'/>
+     der geehrte Mordechai, Sohn des geehrten Meir Halevi,
+     <lb n='6'/>
+     ›in der Zeit, da sein Ende kam‹ 
+     <lb n='7'/>
+     kehrte er zurück in sein Land ›mit gutem Namen‹ ,
+     <lb n='8'/>
+     ›und er ging hin in seine Welt‹ in seinem 73. Lebensjahr, 
+     <lb n='9'/>
+     am Tag 3, 9. des zweiten Adar
+     <lb n='10'/>
+     622 der kleinen Zählung.
+     <lb n='11'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2f: Ijob 1,8</p>
+    <p>Zl 6: Klgl 4,18</p>
+    <p>Zl 7: bBer 17a</p>
+    <p>Zl 8: Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der Name Mordechai erscheint in den archivalischen Quellen als Marcus, auf dem Grabstein des Sohnes Alexander als Moritz, beides Namen, die parallel zum jüdischen Namen Mordechai gesehen wurden und offensichtlich austauschbar waren.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Mordechai S. Meir Halevi ist identisch mit Marcus Wiener, welcher 1817 zusammen mit seiner Frau Johanna Baruch aus Hörstgen bei Geldern nach Venlo gekommen war und hier der neu entstehenden Gemeinde vorstand. Seine Söhne Jacob (1815-1899), Leopold (1823-1891) und Karl (1832-1883) waren bekannte Kupfergraveure und Bildhauer. Sein Sohn Salomon heiratete 1862 Rosette Gosschalk aus Zwolle, seine Tochter Sophia heiratete 1864 Abraham Feist aus Linz, sein 1826 geborener Sohn Alexander folgte ihm im Amt des Gemeindevorstehers.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

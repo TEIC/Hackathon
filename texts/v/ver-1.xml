@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jechiel ben Ascher KaZ (Michael Marx), gest. 1856-02-21, Jüdischer Friedhof Weilerswist-Vernich</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>ver-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=ver-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=ver-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1856-02-21'>1856-02-21</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:4004603'>
+        Weilerswist-Vernich 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.747363 6.837164</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="ver-1-1" sex='1'>
+      <persName>Jechiel ben Ascher KaZ (Michael Marx)</persName>
+       <event when='1856-02-21' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='90'>Hebrew</language>
+    <language ident='de' usage='9'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏איש תם וישר הלך תמים‏‎
+‏‎      <lb n='3'/>
+      ‎‏ופעל צ(ד)ק ירא אליו כל‏‎
+‏‎      <lb n='4'/>
+      ‎‏ימיו צדיק באמונת׳ חיה‏‎
+‏‎      <lb n='5'/>
+      ‎‏ה״ה יחיאל בן אשר כ״ץ מכפר‏‎
+‏‎      <lb n='6'/>
+      ‎‏מעטרניך מת בזקנה ושבה‏‎
+‏‎      <lb n='7'/>
+      ‎‏טובה ביום י״ד שבט ונקבר‏‎
+‏‎      <lb n='8'/>
+      ‎‏בשם טוב בחמשה עשר שנת‏‎
+‏‎      <lb n='9'/>
+      ‎‏תרט״ז לפ״ק‏‎
+‏‎      <lb n='10'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='11'/>
+      Michael Marx
+      <lb n='12'/>
+      von
+      <lb n='13'/>
+      Metenich
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      ›ein Mann, lauter und aufrecht‹ , er wandelte in Lauterkeit 
+      <lb n='3'/>
+      und tat Gerechtigkeit, er war gottesfürchtig all 
+      <lb n='4'/>
+      seine Tage, ein Gerechter, der in seinem Glauben lebte 
+      <lb n='5'/>
+      das ist Jechiel Sohn des Ascher KaZ vom Dorf 
+      <lb n='6'/>
+      Metternich, gestorben im guten Greisenalter 
+      <lb n='7'/>
+      am 14. Schwat und begraben 
+      <lb n='8'/>
+      mit gutem Namen am Fünfzehnten des Jahres 
+      <lb n='9'/>
+      616 nach kleiner Zählung 
+      <lb n='10'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens 
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Ijob 1,1</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>In der 2. Zeile ein Zitat aus . In Zeilen 2 u. 3 ein Zitat aus Psalm 16,2.</p>
+    <p>In der 4. Zeile Zitat aus Habakuk 2,4.</p>
+    <p>In der letzten Zeile ein Zitat aus 1Sam 25,29. Dieses Zitat in abgekürzte Form, ist sehr häufig als abschließende Zeile auf den Grabinschriften zu finden.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

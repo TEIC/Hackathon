@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schmuel ben Josef SeGaL Hameln (Samuel Hameln), gest. 1687-06-17, Jüdischer Friedhof Hildesheim, Jüdischer Friedhof Teichstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hld-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hld-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hld-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele mit geradem Abschluss. Die sorgfältig gearbeiteten, jedoch etwas unregelmäßigen eingravierten Buchstaben füllen das gesamte Schriftfeld; in der letzten Zeile folgt nach dem Schlusssegen die reliefierte Levitennkanne.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Levitenkanne</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1687-06-17'>1687-06-17</date>
+       <country type="ISO_3166" key="XA-DE-NI">
+        Germany
+        <region>Lower Saxony</region>
+       </country>
+       <settlement type='city' key='tgn:7005248'>
+        Hildesheim, Jüdischer Friedhof Teichstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">52.151509 9.959132</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Regina Viereck, Hildesheim</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hld-4-1" sex='1'>
+      <persName>Schmuel ben Josef SeGaL Hameln (Samuel Hameln)</persName>
+       <event when='1687-06-17' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshld/xl/0004_hld_2013.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshld/xl/0004_hld_2013_01.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה נטמן צלוחית‏‎
+‏‎     <lb n='2'/>
+     ‎‏המן ׃ פרנס הדור ככ‏‎
+‏‎     <lb n='3'/>
+     ‎‏לכל והימן ׃ לה׳ היה‏‎
+‏‎     <lb n='4'/>
+     ‎‏שמואל נאמן ׃ יושב‏‎
+‏‎     <lb n='5'/>
+     ‎‏בישיבה והורה לעם‏‎
+‏‎     <lb n='6'/>
+     ‎‏לא אלמן ׃ הרב וא״ב‏‎
+‏‎     <lb n='7'/>
+     ‎‏ד׳ פ״ו כמוהר״ר שמו‏‎
+‏‎     <lb n='8'/>
+     ‎‏אל במוהר״ר יוסף‏‎
+‏‎     <lb n='9'/>
+     ‎‏ס״ל האמל ׃ יצא נ‏‎
+‏‎     <lb n='10'/>
+     ‎‏שמתו בתוך דבר‏‎
+‏‎     <lb n='11'/>
+     ‎‏מצוה בשמחות ׃‏‎
+‏‎     <lb n='12'/>
+     ‎‏יו׳ ג׳ ו׳ תמוז תמ״ז ל״פ‏‎
+‏‎     <lb n='13'/>
+     ‎‏ק׳ תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen eine Schale
+     <lb n='2'/>
+     voll Manna, Vorsteher der Generation, Kal-
+     <lb n='3'/>
+     kol und Heman gleich, dem Ewigen war
+     <lb n='4'/>
+     Schmuel getreu, er sitzt
+     <lb n='5'/>
+     in der Jeschiwa und lehrt ›das Volk,
+     <lb n='6'/>
+     das nicht verlassen ist‹, der Rabbiner, der Vorsitzende der
+     <lb n='7'/>
+     Gerichtsbarkeit, der Vorsteher und Leiter, der geehrte, unser Lehrer und Meister, Herr Schmu-
+     <lb n='8'/>
+     el, Sohn unseres Lehrers und Meisters, Herrn Josef
+     <lb n='9'/>
+     SeGaL Hameln, heraus ging seine
+     <lb n='10'/>
+     <supplied reason='subaudible'>Samuel Hameln</supplied>
+     Seele während der freudigen
+     <lb n='11'/>
+     Gebotserfüllung
+     <lb n='12'/>
+     (am) Tag 3, 6. Tammus 447 der kleinen
+     <lb n='13'/>
+     Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 5f: Jer 51,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Binnenreim auf -man in Zln 1-6 (durch rautenförmige Satztrenner hervorgehoben).
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 2-3: Vgl. 1Kön 5,11 und 1Chr 2,6; Heiman und Kalkol waren weise Männer zur Zeit König Salomons, die nur er an Klugheit übertraf.</p>
+    <p>Zln 3-4: Zln 3-4: Vgl. 1Samuel 3,20.</p>
+    <p>Zln 5-6: Wörtlich "nicht verwitwet", d.h. nicht verlassen (von Gott).</p>
+    <p>Zeilenübergreifende Schreibung von Wörtern in Zln 2-3, 7-8, 9-10 und von Abkürzungen in Zln 6-7 und 12-13.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Eine aufwändig gereimte Inschrift, die den Rabbiner und Gemeindevorsteher R. Samuel ob seiner Gelehrsamkeit mit einer Schale voll Manna und den biblischen Gelehrten Kalkol und Heman, Beratern des Königs Salomo, vergleicht. Die markanten, sorgfältig gearbeiteten Buchstaben füllen das gesamte Schriftfeld des Grabsteins und bilden ganz traditionell den einzigen Schmuck dieser Stele, während die reliefierte Levitenkanne, das traditionelle Symbol für die Abstammung aus dem Geschlecht der Leviten, die im Tempel für die kultische Reinheit und die Liturgie zuständig waren, durch ihre geringe Größe und die ungewöhnliche Platzierung am Ende der Inschrift erst auf den zweiten Blick ins Auge fällt. Die flächenfüllende Wiedergabe der Inschrift führte jedoch zu häufigen zeilenübergreifenden Schreibweisen, die eine Lesung erschweren.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>
+     Samuel Hameln stammte aus einer bekannten Familie. Er war Sohn von Josef Hameln (auch Josef Goldschmidt und Josef Stuttgart genannt) und damit Bruder von Chajim Hameln, dem früh verstorbenen Gatten der bekannten Hamburger Kauffrau Glückel. In ihren Memoiren wird er mehrfach erwähnt ("Was das [R. Samuel] für ein frommer und heiliger Mann gewesen ist, kann ich nicht beschreiben"). Samuels Mutter Freudchen war eine Tochter des Vorstehers der Provinz Schaumburg, Nathan Spanier, welcher das Ansiedlungsrecht für die Juden in Altona erlangt hatte und der 1646 auf dem Friedhof Königstraße in Hamburg-Altona begraben wurde (Grabstein Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hha-3350-t">hha-3350</ref>
+     ).
+    </p>
+    <p>
+     Seine Ausbildung erhielt Samuel Hameln in Polen und heiratete dort Lena, eine Tochter des Lemberger Rabbiners Meschullam, die ihm sieben Kinder schenkte: die Töchter Zippora, Edel und Malka und die Söhne Natan und Isak. Mit seiner Familie kehrte R. Samuel nach Hameln zurück und wurde kurze Zeit später (vor 1650) zum Rabbiner in Hildesheim ernannt. Unbekannt bleibt, wie lange R. Samuel dieses Amt inne hatte, 1668 scheint er bereits nicht mehr als Rabbiner amtiert zu haben, seit 1671 bekleidete R. Mordechai Cohen (Grabstein Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hld-1004-t">hld-1004</ref>
+     ) dieses Amt. R. Samuel dagegen widmete sich dem Gemeindeleben, war aktiv in der von seinem Vater mitbegründeten Chewra Kaddischa (Beerdigungsbruderschaft) und diente seit 1669 bis zu seinem Tode als Gemeindevorsteher. Seiner Grabinschrift ist zu entnehmen, dass er neben seiner Funktion als Vorsitzender der Gerichtsbarkeit, die er vermutlich während seiner Rabbinertätigkeit innehatte, eine eigene Jeschiwa, ein religiöses Lehrhaus, leitete.
+    </p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

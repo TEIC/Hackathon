@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für David ben Schlomo [Löwensberg], gest. 1889, Jüdischer Friedhof Heidesheim am Rhein</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hdh-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hdh-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hdh-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Gesockelte Stele aus grauem Sandstein mit Postament mit hebräischer Inschrift und mit einem mit Voluten verzierten Giebelaufsatz. Das Grab ist eingefasst. Vgl. das fast identisch gestaltete Grabmal der Gattin, Nr. 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=hdh-0001-t">hdh-0001</ref>
+          .
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>Das Grabmal ist stark verwittert, die hebräische Inschrift nicht mehr vollständig zu entziffern. Vermutlich fehlt eine Palmette auf dem Giebelaufsatz und möglicherweise fehlt auch ein Mittelstück mit ursprünglich deutscher Inschrift.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1889'>1889</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7165677'>
+        Heidesheim am Rhein 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.996564 8.124172</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Dieter Schaub</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hdh-4-1" sex='1'>
+      <persName>David ben Schlomo [Löwensberg]</persName>
+       <event when='1889' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshdh/xl/0004_hdh_2010.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshdh/xl/0004dhdh_2010.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshdh/xl/0004dhdh_2011.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picshdh/xl/0004shdh_2010.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Steinmetzzeichen
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏האיש היקר ר׳ דוד בר שלמה‏‎
+‏‎     <lb n='3'/>
+     ‎‏זצ״ל כל ימיו הלך בדרך הטו׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏והישר ירא אלדים מנעוריו‏‎
+‏‎     <lb n='5'/>
+     ‎‏הדריך את בני ביתו לעבודת‏‎
+‏‎     <lb n='6'/>
+     ‎‏הבורא נפטר בשם טוב ביום ...‏‎
+‏‎     <lb n='7'/>
+     ‎‏... ‎‏שנת תר״נ לפ״ק ...‏‎
+‏‎     <lb n='8'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     der teure Mann, Herr David, Sohn des Schlomo 
+     <supplied reason='subaudible'>Löwensberg</supplied>
+     ,
+     <lb n='3'/>
+     das Andenken des Gerechten zum Segen, all seine Tage ging er den guten
+     <lb n='4'/>
+     und aufrechten Weg, gottesfürchtig von Jugend auf,
+     <lb n='5'/>
+     er leitete seine Hausgenossen zum Dienst
+     <lb n='6'/>
+     am Schöpfer, verschieden ›mit gutem Namen‹ am Tag ...
+     <lb n='7'/>
+     ... des Jahres 560 der kleinen Zählung. ...
+     <lb n='8'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 6: bBer 17a</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der 1863 in Heidesheim geborene Emil Löwensberg, der im August 1942 von Stuttgart nach Theresienstadt deportiert und ermordet wurde, war vermutlich ein Sohn von David und Lea Löwensberg.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

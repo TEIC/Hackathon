@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jehuda ben Jizchak (Levi Heilbrun), gest. 1863-01-24, Jüdischer Friedhof Immenrode</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>imr-15</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=imr-15</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=imr-15</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit leicht auskragendem Giebelaufsatz mit eingezogenem Rundbogen, auf den Ecken Akroterien, im Giebelfeld vorne drei und hinten eine reliefierte Mohnkapsel als Symbol für den Todesschlaf. Das vordere Schriftfeld ist eingetieft.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>2010: Das Grabmal ist gebrochen und liegt, die Inschriften sind stark verwittert, das Ende der hebräischen Inschrift fehlt. 2012: Das Grabmal wurde gereinigt und wieder aufgestellt.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1863-01-24'>1863-01-24</date>
+       <country type="ISO_3166" key="XA-DE-TH">
+        Germany
+        <region>Thuringa</region>
+       </country>
+       <settlement type='city' key='tgn:1041549'>
+        Immenrode 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.356179 10.755004</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Bettina Bärnighausen, Sondershausen</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="imr-15-1" sex='1'>
+      <persName>Jehuda ben Jizchak (Levi Heilbrun)</persName>
+       <event when='1863-01-24' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='64'>Hebrew</language>
+    <language ident='de' usage='35'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0004_imr_101124.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0004dimr_101124.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0004oimr_101124.png'>
+    <desc>
+    <ref target='#foto1'/>
+    o
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0004rimr_101124-2.png'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0004rimr_101124.png'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0017ximr_101124-05.png'>
+    <desc>
+    <ref target='#foto1'/>
+    schriftlos
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0015_imr_2011.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0015_imr_2012.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsimr/xl/0015rimr_2011.png'>
+    <desc>
+    <ref target='#foto2'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      [Hier ruht in] Gott
+      <lb n='2'/>
+      [...] und [...]
+      <lb n='3'/>
+      Levi Heilbrun
+      <lb n='4'/>
+      gest. den 24. [Januar 186]3
+      <lb n='5'/>
+      [im] 75. Lebensjahre
+     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='6'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='7'/>
+      ‎‏איש תם וישר הלך‏‎
+‏‎      <lb n='8'/>
+      ‎‏תמים ופעל צדק ירא‏‎
+‏‎      <lb n='9'/>
+      ‎‏אלהים כל ימיו ה״ה היקר‏‎
+‏‎      <lb n='10'/>
+      ‎‏כ״ה יהודה בן כ״ה‏‎
+‏‎      <lb n='11'/>
+      ‎‏יצחק נפטר בזקנה‏‎
+‏‎      <lb n='12'/>
+      ‎‏ושיבה טובה בי׳ ד׳‏‎
+‏‎      <lb n='13'/>
+      ‎‏[‎‏ונ]קבר בי׳ ז׳ שבט‏‎
+‏‎      <lb n='14'/>
+      ‎‏[‎‏תר?]״ג‏‎
+‏‎      <lb n='15'/>
+      ‎‏...‏‎
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+     <ab></ab>
+    </div>
+    <lb n='6'/>
+    Hier ist begraben
+    <lb n='7'/>
+    ›ein lauterer und aufrechter Mann‹, ›er wandelte
+    <lb n='8'/>
+    in Lauterkeit und wirkte Wohl‹, gottes-
+    <lb n='9'/>
+    fürchtig all seine Tage, es ist der Teure,
+    <lb n='10'/>
+    der geehrte Herr Jehuda, Sohn des geehrten Herrn
+    <lb n='11'/>
+    Jizchak, verschieden ›betagt
+    <lb n='12'/>
+    und in gutem Greisenalter‹ am 4. Tag
+    <lb n='13'/>
+    und begraben am 7. Tag des Schwat
+    <lb n='14'/>
+    6x3 ...
+    <lb n='15'/>
+    ...
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 7: Ijob 1,8</p>
+    <p>Zl 7f: Ps 15,2</p>
+    <p>Zl 11f: Gen 25,8</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Daten sind nicht mehr sicher zu lesen. Levi Heilbrun starb am 4. Tag des jüdischen Monats Schwat in einem Jahr, dessen letzte Zahl 3 lautete. In der deutschen Inschrift könnte als Sterbetag der 24. eines Monats angegeben sein, damit lautet das wahrscheinlichste Sterbedatum Samstag, der 24. Januar 1863, der 4. Schwat des Jahres 623.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Levi Heilbrun (Heilbronn) gehörte 1837 zu den Unterzeichnern des Vertrages mit dem neu angestellten Lehrer Herz Stein. 1841 starb seine Tochter im Kindbett nach der Geburt eines unehelichen Kindes und wurde begraben, ohne daß zuvor der Pfarrer informiert worden wäre, wie es vorgeschrieben war.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

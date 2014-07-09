@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schimon ben Pinchas Ullmann, gest. 1805-11-06, Jüdischer Friedhof Haigerloch</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hgl-292</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hgl-292</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hgl-292</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>(H/B/T) 94/63/11</dim>
+          </dimensions>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>Blüte</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1805-11-06'>1805-11-06</date>
+       <country type="ISO_3166" key="XA-DE-BW">
+        Germany
+        <region>Baden-Württemberg</region>
+       </country>
+       <settlement type='city' key='tgn:1039436'>
+        Haigerloch 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">48.36392 8.807413</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Marek Leszczynski, Hechingen</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Zentralarchiv Heidelberg</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>R. Klotz</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hgl-292-1" sex='1'>
+      <persName>Schimon ben Pinchas Ullmann</persName>
+       <event when='1805-11-06' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshgl/xl/0292_hgl_1990.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש חשוב שמעון‏‎
+‏‎     <lb n='3'/>
+     ‎‏בר פנח{ס אול}מן‏‎
+‏‎     <lb n='4'/>
+     ‎‏נפט{ר ביום ה׳ י״ד}‏‎
+‏‎     <lb n='5'/>
+     ‎‏{[...]‎‏ס״ו}‏‎
+‏‎     <lb n='6'/>
+     ‎‏{[...]‎‏כ}‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     Ein bedeutender Mann, Schimon,
+     <lb n='3'/>
+     Sohn des Pinchas Ullmann.
+     <lb n='4'/>
+     Er verschied am Donnerstag, dem 14.
+     <lb n='5'/>
+     [...]66
+     <lb n='6'/>
+     [...]
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die "66" in der 5. Zeile dürfte zu der Jahreszahl gehören, die wegen des Aussehens des Steines kaum zu "(5)666" = 1905/06 ergänzt werden kann, sondern eher zu "(5)566" = 1805/06. Am Anfang derselben 5. Zeile sind Buchstabenreste zu erkennen, die man entweder zu "Tischri" oder "Cheschvan" vervollständigen könnte: der 14. Tischri (5)566 ist Montag, der 7. Oktober 1805, der 14. Cheschvan (5)566 ist Mittwoch, der 6. November 1805. Letzteres Datum käme noch am ehesten in Frage, da der 14. Tischri höchstwahrscheinlich als "Vorabend des Lauhüttenfestes" angegeben worden wäre. Störend ist in beiden Fällen der von der Inschrift abweichende Wochentag ("Donnerstag").</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

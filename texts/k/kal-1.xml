@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Adelgunde Spier geb. Oster, gest. 1868-06-28, , gest. --, Jüdischer Friedhof Kalkar</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>kal-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=kal-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=kal-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>Hochrechteckige Stele. Die obere Hälfte des Steins mit der Eulogie und den hebräischen Namen der Verstorbenen ist abgebrochen und verlorengegangen. Dieser sowie die folgenden drei abgebrochenen Grabsteine für Mitglieder der Familie Spier waren wahrscheinlich ähnlich gestaltet wie der im Ganzen erhaltene Stein für Wilhelmine Spier (Nr. 5). Alle weisen folgende Merkmale auf: zentrierte hebräische Inschrift mit hervorgehobener Schlußformel, deutscher Name in Fraktur gefolgt von den Geburts- und Sterbedaten, überwiegend in Kursivschrift.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='--'>--</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7004986'>
+        Kalkar 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.740596 6.295791</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="kal-1-1" sex='0'>
+      <persName> Adelgunde Spier geb. Oster</persName>
+       <event when='1868-06-28' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="kal-1-2" sex='0'>
+      <persName></persName>
+       <event when='--' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='53'>Hebrew</language>
+    <language ident='de' usage='46'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏...‏‎
+     <lb n='2'/>
+     ‎‏[... ‎‏נפטרה]‏‎
+‏‎     <lb n='3'/>
+     ‎‏ביום א׳ ח׳ [תמוז ונקברה]‏‎
+‏‎     <lb n='4'/>
+     ‎‏ביום ג׳ י׳ תמוז תרכ״ח לפ״ק‏‎
+‏‎     <lb n='5'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='6'/>
+     Adelgunde Spier
+     <lb n='7'/>
+     geborne Oster
+     <lb n='8'/>
+     gestorben 28. Juni 5628
+     <lb n='9'/>
+     im Alter von 6 Jahren.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='2'/>
+     [... verschieden]
+     <lb n='3'/>
+     am Tag 1, 8. [Tammus, und begraben]
+     <lb n='4'/>
+     am Tag 3, 10. Tammus 628 der kleinen Zählung.
+     <lb n='5'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>In der deutschen Inschrift wird das Todesjahr nur nach dem jüdischen Kalender angegeben, nicht aber der Monatstag, an dem alljährlich der Verstorbenen gedacht wird, die sog. Jahrzeit.</p>
+    <p>Gatte: Elias Moses Spier (Nr. 3); Kinder: Isac Spier (Nr. 35), Wilhelmina Spier (Nr. 5)</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

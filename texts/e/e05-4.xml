@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Menachem ben Jekutiel Hakohen (Hermann Cain), gest. 1863-01-02, Jüdischer Friedhof Geldern</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e05-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e05-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e05-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit geschweiftem Bogenabschluß.
+         </p>
+        </support>
+        <condition>
+         <p>Gut erhalten.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Priesterhände</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1863-01-02'>1863-01-02</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1039217'>
+        Geldern 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.524202 6.332315</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e05-4-1" sex='1'>
+      <persName>Menachem ben Jekutiel Hakohen (Hermann Cain)</persName>
+       <event when='1863-01-02' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='70'>Hebrew</language>
+    <language ident='de' usage='29'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse05/xl/0004_E05_1_1984.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse05/xl/0004_E05_3_1990.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse05/xl/0004dE05_2_1984.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏איש תם וישר בנדיבים הלך‏‎
+‏‎      <lb n='3'/>
+      ‎‏תמיד בדרך טובים וישרים‏‎
+‏‎      <lb n='4'/>
+      ‎‏ה״ה מנחם בן יקותיעל! הכהן‏‎
+‏‎      <lb n='5'/>
+      ‎‏הלך לעולם העליון ביום‏‎
+‏‎      <lb n='6'/>
+      ‎‏שבת קדש י״ב טבת ונקבר‏‎
+‏‎      <lb n='7'/>
+      ‎‏ביום ג׳ ט״ו לחדש תרכ״ג לפ״ק‏‎
+‏‎      <lb n='8'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='9'/>
+      Hier ruht
+      <lb n='10'/>
+      Hermann Cain
+      <lb n='11'/>
+      geboren im Jahre 1781,
+      <lb n='12'/>
+      gestorben den 2. Januar 1863.
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      ›ein lauterer und aufrechter Mann‹ inmitten der Wohltäter, er ging 
+      <lb n='3'/>
+      stets den Weg der Guten und Aufrechten,
+      <lb n='4'/>
+      es ist Menachem, Sohn des Jekutiel Hakohen,
+      <lb n='5'/>
+      er ging zur obersten Welt am Tage
+      <lb n='6'/>
+      des heiligen Schabbat, 12. Tewet, und wurde begraben
+      <lb n='7'/>
+      am Tag 3, 15. des Monats, 623 der kleinen Zählung.
+      <lb n='8'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Ijob 1,8</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -im in Zln 2-3.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der Krämer, Pferdehändler und Fleischer Hermann Cain stammte aus Kommern. Er war vermählt mit der in Goch geborenen Metzgerin Judith Sternefeld, die er 1818 in Goch geheiratet hatte. Das Ehepaar hatte sechs Kinder: Frederica (geb. 1819), Carl (1821-1883), Sara (geb. 1823), Abraham (geb. 1825, nach Luxemburg ausgewandert), Gottfried (geb. 1827) und Henriette (1829-1909). Nach dem Tod seiner ersten Gattin 1843 heiratete er Adelheid Cohn. Zwei seiner Töchter heirateten in die Gemeinde Werden ein.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

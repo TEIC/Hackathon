@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1854-11-20, Jüdischer Friedhof Tholey</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>sb4-59</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=sb4-59</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=sb4-59</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p> Beschädigung leicht</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1854-11-20'>1854-11-20</date>
+       <country type="ISO_3166" key="XA-DE-SL">
+        Germany
+        <region>Saarland</region>
+       </country>
+       <settlement type='city' key='tgn:1041416'>
+        Tholey 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.49018 7.044039</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Ingeborg Knigge</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picssb4/xl/0059_SB4.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picssb4/xl/0059dSB4_01.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏מ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏פה שוכב משה יחיאל בר יוסף‏‎
+‏‎     <lb n='3'/>
+     ‎‏מן ק״ק טהלייא נפטר ביום‏‎
+‏‎     <lb n='4'/>
+     ‎‏ב׳ כ״ט חשון ערב ראש חדש כסלו‏‎
+‏‎     <lb n='5'/>
+     ‎‏פ׳ תולדת בשנת תרט״ו לפ״ק ונשמתו‏‎
+‏‎     <lb n='6'/>
+     ‎‏תהא צרורה בצרור החיים ולהחיותו‏‎
+‏‎     <lb n='7'/>
+     ‎‏בתחית המתים עם כל מתי עמך‏‎
+‏‎     <lb n='8'/>
+     ‎‏ישראל אמן סלה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Begräbnisort
+     <lb n='2'/>
+     hier liegt Mosche Jechiel, Sohn des Josef
+     <lb n='3'/>
+     aus der heiligen Gemeinde Tholey, verschieden am Tag
+     <lb n='4'/>
+     2, 29. Cheschvan, am Vorabend des Neumond Kislev,
+     <lb n='5'/>
+     dem Wochenabschnitt ›"Nachkommen"‹, im Jahre 615 der kleinen Zählung, und seine Seele
+     <lb n='6'/>
+     sei eingebunden in das Bündel des Lebens und ihn auferstehen lassen
+     <lb n='7'/>
+     bei der Auferstehung der Toten mit allen Toten deines Volkes
+     <lb n='8'/>
+     Israel, Amen, Sela
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 5: Gen 25,19-28,9</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3: Der Ortsname ist teilweise nach deutscher Orthographie wiedergegeben und ist etwa thlei geschrieben.</p>
+    <p>Zl 5: Der Wochenabschnitt "Nachkommen" befindet sich in Genesis Kap. 23,19-26,10.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Anstelle einer Eulogie folgt hier die dreifache Angabe des Todestages: Der Monatstag, die geläufige Ankündigung des Nachfolgemonats und mittels des Wochenabschnitts. Ebenso ausgedehnt ist der Schlußsegen, der über den Standardsegen hinaus noch den Wunsch und die Zuversicht bekundet, der Verstorbene werde an der Auferstehung der Toten des Volkes Israel teil haben.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

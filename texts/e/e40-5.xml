@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Eljakum ben Josef, gest. 1845-09-18, Jüdischer Friedhof Viersen-Süchteln</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e40-5</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e40-5</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e40-5</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit Rundbogenabschluß.
+         </p>
+        </support>
+        <condition>
+         <p>
+           Beschädigung schwerdas Grabmal ist auseinandergebrochen, der obere Teil liegt vor dem noch stehenden unteren Teil. Die Ränder des Steins sind stark beschädigt. 2007: Der Stein wurde wieder aufgestellt, allerdings nicht auf dem unteren Teil. 
+          <damage agent='Verwitterung'>1986: Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft und erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1845-09-18'>1845-09-18</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1040985'>
+        Viersen-Süchteln 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.285627 6.358901</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e40-5-1" sex='1'>
+      <persName>Eljakum ben Josef</persName>
+       <event when='1845-09-18' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse40/xl/0005_E40_070801EPS5162hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse40/xl/0006_E40_070801EPS5160qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש נדיב ונכבד‏‎
+‏‎     <lb n='3'/>
+     ‎‏כ׳ אליקום בר יוסף‏‎
+‏‎     <lb n='4'/>
+     ‎‏ימי שני מגוריו‏‎
+‏‎     <lb n='5'/>
+     ‎‏היו תשע וששים שנה‏‎
+‏‎     <lb n='6'/>
+     ‎‏הלך לפניו צדקתו‏‎
+‏‎     <lb n='7'/>
+     ‎‏וכבוד ה׳ אספו‏‎
+‏‎     <lb n='8'/>
+     ‎‏ביום ט״ז אלול‏‎
+‏‎     <lb n='9'/>
+     ‎‏תר״ה לפ״ק‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein wohltätiger und geehrter Mann,
+     <lb n='3'/>
+     der geehrte Eljakum, Sohn des Josef,
+     <lb n='4'/>
+     die Tage seines Wohnens
+     <lb n='5'/>
+     betrugen neunundsechzig Jahre,
+     <lb n='6'/>
+     ›seine Gerechtigkeit ging ihm voran
+     <lb n='7'/>
+     und die Herrlichkeit des Ewigen war ihm Nachhut‹,
+     <lb n='8'/>
+     am 16. Tag des Elul
+     <lb n='9'/>
+     605 der kleinen Zählung.
+     <lb n='10'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 6f: Jes 58,8</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Eljakum, Sohn des Josef, ist vermutlich identisch mit dem in verschiedenen Verzeichnissen (Namensänderung 1808, Gewerbepatente 1812 und 1847) genannten Metzger Gottschalk Brummet (auch Broumett) In einem Verzeichnis von 1847, zwei Jahre nach seinem Tod, trägt sein Name den Zusatz "jetzt Jos."; vermutlich hat also sein nach seinem Großvater Josef benannter Sohn das Gewerbe vom verstorbenen Vater übernommen. Gottschalk Brummet war verheiratet mit Hendel Vossen aus Eschweiler.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

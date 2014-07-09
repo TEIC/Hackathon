@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1776-09-25, Jüdischer Friedhof Krefeld (alter Friedhof)</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>kre-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=kre-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=kre-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Basanit</material>
+          <dimensions>
+           <dim>100 x 60 cm</dim>
+          </dimensions>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1776-09-25'>1776-09-25</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7005980'>
+        Krefeld (alter Friedhof) 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.316734 6.55169</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Andreas Hemstege</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picskre/xl/Karteikarte B16.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏האשה היקרה מ׳ בלימכה‏‎
+‏‎     <lb n='3'/>
+     ‎‏בת ה׳ כ״ה נתן ז״ל ש׳ אשת‏‎
+‏‎     <lb n='4'/>
+     ‎‏ה׳ כ׳ מר מענדלה ז״ל כ״י‏‎
+‏‎     <lb n='5'/>
+     ‎‏הלכה בדרכי הישרה‏‎
+‏‎     <lb n='6'/>
+     ‎‏גמילת חסד ממנה לא‏‎
+‏‎     <lb n='7'/>
+     ‎‏נעדרה מיטיב עם אורחים‏‎
+‏‎     <lb n='8'/>
+     ‎‏ועניי׳ עירה ביתה הי׳ מקום‏‎
+‏‎     <lb n='9'/>
+     ‎‏הוועד לתפילה נ׳ בצרור‏‎
+‏‎     <lb n='10'/>
+     ‎‏החיים תהי׳ צרורה‏‎
+‏‎     <lb n='11'/>
+     ‎‏ע״נ צו״צ ויל״ה‏‎
+‏‎     <lb n='12'/>
+     ‎‏ונפטרת ונקברת ביום‏‎
+‏‎     <lb n='13'/>
+     ‎‏ד׳ י״ב תשרי תקל״ז לפ״ק‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     die teure Frau, Frau Blümche,
+     <lb n='3'/>
+     Tochter des geehrten Herrn Natan, sein Andenken zum Segen, welche war die Gattin
+     <lb n='4'/>
+     des geehrten Herrn Mendle, sein Andenken zum Segen; a(ll ihre) T(age)
+     <lb n='5'/>
+     ging sie auf den Wegen der Geraden,
+     <lb n='6'/>
+     an Liebeswerk mangelte es ihr
+     <lb n='7'/>
+     nicht, Gutes tuend den Gästen
+     <lb n='8'/>
+     und Armen ihrer Stadt; ihr Haus wa(r) ein Ort der
+     <lb n='9'/>
+     Versammlung zum Gebet, (ihre) S(eele) sei in das Bündel
+     <lb n='10'/>
+     des Lebens eingebunden
+     <lb n='11'/>
+     mit den Seelen der gerechten Männer und Frauen und stehe auf am Ende der Tage (?),
+     <lb n='12'/>
+     und sie verschied und wurde begraben am Tag
+     <lb n='13'/>
+     4, 12. Tischri 537 der kleinen Zählung
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Zln. 5-10: Binnenreim auf -(r)ah. Der Reimzwang bedingt eine nicht unoriginelle Inschrift, deren Hebräisch dabei allerdings in Zl. 5 inkorrekt wird: "Wege der Geraden" sucht dem Gemeinten möglichst genau zu entsprechen.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln. 8/9: Wie ihr Gatte Awraham Menachem-Mendel wird auch Frau Blümche dafür gerühmt, daß sie ihr Wohnhaus dem Gottesdienst der Gemeinde zur Verfügung stellte. Vgl. Avot 1,4: "Haus der Versammlung der Weisen".</p>
+    <p>Zl. 11: Die seltene Abkürzung ‎‏ויל״ה‏‎ mag, wie hier, mit ‎‏ויעמוד לקץ הימין‏‎ ("und wird auferstehen am Ende der Tage") aufgelöst werden, könnte aber auch für ‎‏וילך לפני ה׳‏‎ stehen ("und zu wandeln vor dem Ewigen"). Allerdings paßt das Femininum des Substantivs "Seele" ‎‏נפשה‏‎ nicht zu den in beiden Fällen maskulinen Verbformen. Im Gegensatz zur überwiegenden Mehrzahl der hiesigen Inschriften erscheint die Schlußformel nicht erst am Ende der Inschrift, sondern geht den Sterbe- und Begräbnisdaten voraus.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

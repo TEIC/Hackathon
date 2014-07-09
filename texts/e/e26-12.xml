@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Gerschon (genannt Koppel) ben Elieser (Cosmann Koppel), gest. 1887-07-17, Jüdischer Friedhof Mönchengladbach</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e26-12</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e26-12</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e26-12</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Gesockelte Stele mit Kleeblattbogenabschluß, im Giebelfeld ein reliefierter Davidstern in rundem Medaillon (vgl. auch Grabstein Nr. 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=e26-0013-t">e26-0013</ref>
+          ).
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>1987 Verwitterung leicht. 2007: Das Grabmal ist unterhalb der Inschrift gebrochen und liegt vor seinem umgestürzten Sockel.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Magen David</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1887-07-17'>1887-07-17</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7004975'>
+        Mönchengladbach 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.188645 6.428684</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e26-12-1" sex='1'>
+      <persName>Gerschon (genannt Koppel) ben Elieser (Cosmann Koppel)</persName>
+       <event when='1887-07-17' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='62'>Hebrew</language>
+    <language ident='de' usage='37'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse26/xl/0012_E26_070830EPS7281q.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏גרשון בר אליעזר‏‎
+‏‎     <lb n='3'/>
+     ‎‏המכונה קאפפעל‏‎
+‏‎     <lb n='4'/>
+     ‎‏נפטר ביום א׳ ונקבר‏‎
+‏‎     <lb n='5'/>
+     ‎‏ביום ג׳ כ״ז תמוז‏‎
+‏‎     <lb n='6'/>
+     ‎‏תרמ״ח לפ״ק‏‎
+‏‎     <lb n='7'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='8'/>
+     Cosmann Koppel
+     <lb n='9'/>
+     geb. 11. Mai 1833,
+     <lb n='10'/>
+     gest. 17. Juli 1887.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     Gerschon, Sohn des Elieser,
+     <lb n='3'/>
+     genannt Koppel,
+     <lb n='4'/>
+     verschieden am Tag 1 und begraben
+     <lb n='5'/>
+     am Tag 3, 27. Tammus
+     <lb n='6'/>
+     648 der kleinen Zählung.
+     <lb n='7'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Cosmann Koppel war ein Sohn von Lazarus Koppel und Sibilla Arensberg zu Flerzheim bei Rheinbach und kam vermutlich erst nach 1878 nach Gladbach, wo er, wie sein Bruder Salomon, eine Häutehandlung betrieb. Verheiratet war er mit Elise Kaufmann, die Ehe blieb offensichtlich kinderlos. Die Witwe führte nach Cosmanns Tod die Därmehandlung weiter.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

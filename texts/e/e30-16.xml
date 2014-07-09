@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Kele ∞ Salman, gest. 1798-09-27, Jüdischer Friedhof Mönchengladbach-Odenkirchen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e30-16</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e30-16</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e30-16</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit Flachbogenabschluß.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1986</date>
+           
+          <damage agent='Verwitterung'>Verwitterung stark.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1798-09-27'>1798-09-27</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1005256'>
+        Mönchengladbach-Odenkirchen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.134959 6.45498</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e30-16-1" sex='2'>
+      <persName>Kele ∞ Salman</persName>
+       <event when='1798-09-27' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse30/xl/0017_E30_070814EPS6216hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נטמנת אשה [...]‏‎
+‏‎     <lb n='3'/>
+     ‎‏צדקה עשתה [כאביגיל?]‏‎
+‏‎     <lb n='4'/>
+     ‎‏מעשיה היה נעימה‏‎
+‏‎     <lb n='5'/>
+     ‎‏כל כבודה בת מלך‏‎
+‏‎     <lb n='6'/>
+     ‎‏פנימה כל [ימיה]‏‎
+‏‎     <lb n='7'/>
+     ‎‏הלכה בדרך ישר׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏מצות ה׳ שמרה‏‎
+‏‎     <lb n='9'/>
+     ‎‏קילה אשת רבי‏‎
+‏‎     <lb n='10'/>
+     ‎‏זלמן מאודיכירכן‏‎
+‏‎     <lb n='11'/>
+     ‎‏ונפטרת ונקברת‏‎
+‏‎     <lb n='12'/>
+     ‎‏ביו׳ א׳ דח׳ המועד‏‎
+‏‎     <lb n='13'/>
+     ‎‏של סוכות תקנ״ט‏‎
+‏‎     <lb n='14'/>
+     ‎‏לפ״ק‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     ist geborgen eine Frau ...
+     <lb n='3'/>
+     Wohltätigkeit erwies sie [wie Awigail?],
+     <lb n='4'/>
+     ihre Taten waren wohlgetan,
+     <lb n='5'/>
+     ›alle Herrlichkeit der Königstocher
+     <lb n='6'/>
+     ist im Innern‹, all ihre [Tage]
+     <lb n='7'/>
+     ging sie den aufrechten Weg,
+     <lb n='8'/>
+     die Gebote des Ewigen wahrte sie,
+     <lb n='9'/>
+     Kele, Gattin des Herrn
+     <lb n='10'/>
+     Salman aus Odenkirchen,
+     <lb n='11'/>
+     verschieden und begraben
+     <lb n='12'/>
+     am 1. Tag der Zwischenfeiertage
+     <lb n='13'/>
+     des Laubhüttenfestes 559
+     <lb n='14'/>
+     der kleinen Zählung
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 5f: Ps 45,14</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Kele, Gattin des Salman aus Odenkirchen, ist möglicherweise identisch mit "Kaile Isaak", Gattin des aus dem bayrischen Fürth stammenden Metzgers Sal(o)mon Vohs, welcher 1820 im Alter von 99 Jahren starb. Dieser war laut einer Aufstellung der Bevölkerung Odenkirchens anläßlich einer Volkszählung nach der Neuorganisation des Kantons Odenkirchen im Jahr 1799 76 Jahre alt und seit 1756 oder 1768 in Odenkirchen ansässig. Kaile Isaak, seine Ehefrau, wird mit einem Alter von 66 Jahren aufgeführt, gefolgt von den vier Söhnen Jacob, Simon, Isaac und Joseph (siehe Grabstein Nr. 0016). Diese Bevölkerungsliste ist allerdings auf das Jahr 1799 datiert, die hier begrabene Kele war jedoch schon im Herbst 1798 gestorben.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

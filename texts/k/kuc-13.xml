@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jechiel Awraham ben Mosche (Michael Sommer), gest. 1882-03-25, Jüdischer Friedhof Euskirchen-Kuchenheim</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>kuc-13</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=kuc-13</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=kuc-13</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>H: 111 B: 50 T: 14</dim>
+          </dimensions>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1882-03-25'>1882-03-25</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1039038'>
+        Euskirchen-Kuchenheim 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.654142 6.817220</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="kuc-13-1" sex='1'>
+      <persName>Jechiel Awraham ben Mosche (Michael Sommer)</persName>
+       <event when='1882-03-25' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='66'>Hebrew</language>
+    <language ident='de' usage='33'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש אמונים הולך תמים‏‎
+‏‎     <lb n='3'/>
+     ‎‏ה״ה כמר יחיאל אברהם‏‎
+‏‎     <lb n='4'/>
+     ‎‏בר משה מכפר קוכענהיים‏‎
+‏‎     <lb n='5'/>
+     ‎‏מת לדאבון אשתו ובניו‏‎
+‏‎     <lb n='6'/>
+     ‎‏ביום ש״ק ה׳ ניסן ונקבר‏‎
+‏‎     <lb n='7'/>
+     ‎‏בכבוד ביום א׳ בו שנת‏‎
+‏‎     <lb n='8'/>
+     ‎‏תרמ״ב לפ״ק תנצב״ה‏‎
+‏‎     <lb n='9'/>
+     Michael Sommer
+     <lb n='10'/>
+     geb. zu Cuchenheim
+     <lb n='11'/>
+     17. Oktbr. 1807
+     <lb n='12'/>
+     gest. 25. März 1882
+     <lb n='13'/>
+     Beerdigung: 26. März 1882
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     ›ein Mann von Treuen‹ , ›lauter wandelnd‹ ,
+     <lb n='3'/>
+     es ist der geehrte Herr Jechiel Awraham,
+     <lb n='4'/>
+     Sohn des Mosche aus dem Dorf Kuchenheim,
+     <lb n='5'/>
+     gestorben zum Leidwesen seiner Gattin und seiner Kinder
+     <lb n='6'/>
+     am Tage des heiligen Schabbat, 5. Nissan und begraben
+     <lb n='7'/>
+     in Ehren am Tag 1 desselben des Jahres
+     <lb n='8'/>
+     642 der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 20,6 | Zl 2: Ps 15,2</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

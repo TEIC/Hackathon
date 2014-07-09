@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schönche ∞ Awraham, gest. 1854-11-07, Jüdischer Friedhof Rommerskirchen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e34-6</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e34-6</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e34-6</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit Rundbogenabschluß. Die ersten beiden Zeilen folgen dem Bogenverlauf.
+         </p>
+        </support>
+        <condition>
+         <p>
+           Beschädigung leicht, am linken Rand. 
+          <damage agent='Verwitterung'>1985: Verwitterung leicht</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1854-11-07'>1854-11-07</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1040940'>
+        Rommerskirchen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.037926 6.686254</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e34-6-1" sex='2'>
+      <persName>Schönche ∞ Awraham</persName>
+       <event when='1854-11-07' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse34/xl/0006_E34_1985.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse34/xl/0006dE34_1985-1.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse34/xl/0006dE34_1985-2.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse34/xl/0006dE34_1985-3.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏הגבירה היקרה והמהוללה אשת חיל מרת שינכה‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשת פו״מ ר׳ אברהם המכונה אברלי ז״ל‏‎
+‏‎     <lb n='3'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='4'/>
+     ‎‏שוא ושקר מנעה משפתיה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ישרים היו דרכיה וכל נתיבותיה‏‎
+‏‎     <lb n='6'/>
+     ‎‏נפשה אותה דרך אמונה‏‎
+‏‎     <lb n='7'/>
+     ‎‏כבדה את ה׳ מהונה‏‎
+‏‎     <lb n='8'/>
+     ‎‏הטתה אזניה לחכמה ולתבונה‏‎
+‏‎     <lb n='9'/>
+     ‎‏בטח לבה בשוכן מעונה‏‎
+‏‎     <lb n='10'/>
+     ‎‏תהלת ה׳ דבר פיה בנעימים‏‎
+‏‎     <lb n='11'/>
+     ‎‏מלאה רצון יראים ושלמים‏‎
+‏‎     <lb n='12'/>
+     ‎‏שמרה פקודת ישרים וחכמים‏‎
+‏‎     <lb n='13'/>
+     ‎‏הדריכה בניה בדרך תמימים‏‎
+‏‎     <lb n='14'/>
+     ‎‏בניה שמעו תמיד לקולה‏‎
+‏‎     <lb n='15'/>
+     ‎‏חשקה קברה אצל קברת בעלה‏‎
+‏‎     <lb n='16'/>
+     ‎‏ועתה מהרו למלאות רצונה‏‎
+‏‎     <lb n='17'/>
+     ‎‏ותשכון שאנן ובמנוחה נכונה‏‎
+‏‎     <lb n='18'/>
+     ‎‏ותגוע ותמת ביום ג׳ ט״ז מרחשון‏‎
+‏‎     <lb n='19'/>
+     ‎‏תרט״ו לפ״ק‏‎
+‏‎     <lb n='20'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Die Herrin, die Teure und die Gepriesene, ›die tüchtige Gattin‹, Frau Schönche,
+     <lb n='2'/>
+     Gattin des Vorstehers und Leiters, des Herrn Awraham, genannt Aberle, sein Andenken zum Segen,
+     <lb n='3'/>
+     Hier ist begraben -
+     <lb n='4'/>
+     Lug und Trug entzog sie ihren Lippen,
+     <lb n='5'/>
+     aufrecht waren ihre Wege und all ihre Pfade,
+     <lb n='6'/>
+     ihre Seele lechzte nach dem verläßlichen Weg,
+     <lb n='7'/>
+     ›den Ewigen ehrte sie mit ihrem Vermögen‹,
+     <lb n='8'/>
+     zu Weisheit und Einsicht neigte sie ihre Ohren,
+     <lb n='9'/>
+     ihr Herz vertraute dem ›in der Wohnstätte Weilenden‹,
+     <lb n='10'/>
+     des Ewigen Lobpreis sprach ihr Mund in Anmut,
+     <lb n='11'/>
+     den Willen der Ehrfürchtigen und Vollkommenen erfüllte sie,
+     <lb n='12'/>
+     die Weisung der Aufrechten und Weisen wahrte sie,
+     <lb n='13'/>
+     sie leitete ihre Kinder den Weg der Lauteren,
+     <lb n='14'/>
+     stets hörten ihre Kinder auf ihre Stimme,
+     <lb n='15'/>
+     neben dem Grab ihres Gatten begehrte sie ihr Grab,
+     <lb n='16'/>
+     nun eilet, ihr diesen Willen zu erfüllen,
+     <lb n='17'/>
+     daß sie ›unbekümmert ruhe‹ ›in dauerhafter Ruhestatt‹,
+     <lb n='18'/>
+     ›und sie schied hin und starb‹ am Tag 3, 16. Marcheschvan
+     <lb n='19'/>
+     615 der kleinen Zählung.
+     <lb n='20'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Spr 31,10</p>
+    <p>Zl 7: Spr 3,9</p>
+    <p>Zl 9: Haggada nach Dtn 33,27</p>
+    <p>Zl 17: Spr 1,33 | Zl 17: El male rachamim, dem "Totengebet", entnommen</p>
+    <p>Zl 18: vgl. Gen 25,17</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ejha in Zln 4-5, auf -u/ina in Zln 6-9, auf -mim in Zln 10-13, auf -la in Zln 14-15, auf -na in Zln 16-17.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      ‎‏שינכה בת משה‏‎ / Schönche, Tochter des Mosche in Zln 4-13.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

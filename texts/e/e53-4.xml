@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schmuel ben Jona Halevi, gest. 1848-04-13, Jüdischer Friedhof Roermond, Oude kerkhof (oude deel)</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e53-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e53-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e53-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele mit leicht eingezogenem Rundbogenabschluß und schmalem, scharrierten Rand, im Bogenfeld eine runde Vertiefung mit den erhabenen Buchstaben der abgekürzten Einleitungsformel.
+         </p>
+        </support>
+        <condition>
+         <p>non in situ.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft und erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>Eine rautenförmige Vertiefung unterhalb der Inschrift.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1848-04-13'>1848-04-13</date>
+       <country type="ISO_3166" key="XA-NL-LI">
+        Netherlands
+        <region>Limburg</region>
+       </country>
+       <settlement type='city' key='tgn:7006856'>
+        Roermond, Oude kerkhof (oude deel) 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.181102 6.00074</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e53-4-1" sex='1'>
+      <persName>Schmuel ben Jona Halevi</persName>
+       <event when='1848-04-13' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse53/xl/0004_E53_070916EPS8336hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏האיש הישר והנדיב ׃‏‎
+‏‎     <lb n='2'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='3'/>
+     ‎‏הולך תמים ופועל צדק‏‎
+‏‎     <lb n='4'/>
+     ‎‏הנקרא שמואל בן כמר״ר‏‎
+‏‎     <lb n='5'/>
+     ‎‏יונה הלוי ז״ל שהלך‏‎
+‏‎     <lb n='6'/>
+     ‎‏לעולמו ביום ה׳ יו״ד ניסן‏‎
+‏‎     <lb n='7'/>
+     ‎‏ונקבר למחרתו ביום ו׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏עש״ק י״א לחדש הנזכר‏‎
+‏‎     <lb n='9'/>
+     ‎‏שנת תר״ח לפ״ק ׃‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנצב״ה ׃‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Der aufrechte und wohltätige Mann
+     <lb n='2'/>
+     Hier ist begraben
+     <lb n='3'/>
+     - ›der lauter wandelt‹ und Wohltat wirkt,
+     <lb n='4'/>
+     genannt Schmuel, Sohn des geehrten, des Meisters, Herrn
+     <lb n='5'/>
+     Jona Halevi, sein Andenken zum Segen, ›der in seine Welt hinging‹ 
+     <lb n='6'/>
+     am Tag 5, zehnter Nissan,
+     <lb n='7'/>
+     und begraben wurde am Tag darauf, am Tag 6,
+     <lb n='8'/>
+     dem Rüsttag des heiligen Schabbat, 11. des genannten Monats
+     <lb n='9'/>
+     des Jahres 608 der kleinen Zählung.
+     <lb n='10'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Ps 15,2</p>
+    <p>Zl 5: Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Die Zeile folgt dem Bogenverlauf.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

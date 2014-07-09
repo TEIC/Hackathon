@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jaakow ben Mosche, gest. 1659-11-25, Jüdischer Friedhof Rheineck-Bad Breisig, Alter Friedhof</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bbr-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bbr-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bbr-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Basaltlava</material>
+          Hochrechteckige Stele ohne Rahmen.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift Relativ große, leicht unregelmäßige Buchstaben.</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1659-11-25'>1659-11-25</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:1038315'>
+        Rheineck-Bad Breisig, Alter Friedhof 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.497278 7.311972</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bbr-3-1" sex='1'>
+      <persName>Jaakow ben Mosche</persName>
+       <event when='1659-11-25' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏האבן הזאת‏‎
+‏‎     <lb n='2'/>
+     ‎‏מצבה לרא׳‏‎
+‏‎     <lb n='3'/>
+     ‎‏יעקב בר‏‎
+‏‎     <lb n='4'/>
+     ‎‏משה נפט׳‏‎
+‏‎     <lb n='5'/>
+     ‎‏יו׳ ד׳ י׳ כסליו‏‎
+‏‎     <lb n='6'/>
+     ‎‏ת״ך ל׳‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Dieser Stein‹ ist
+     <lb n='2'/>
+     Denkmal zu Häupten
+     <lb n='3'/>
+     des Jaakow, Sohn des
+     <lb n='4'/>
+     Mosche, verschieden
+     <lb n='5'/>
+     Tag 4, 10. Kislev
+     <lb n='6'/>
+     420 der Zählung.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 28,22</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Memorbucheintrag Nr. 33:</p>
+    <p>‎‏יעקב ב״ר משה ... בע׳ שביתו ה׳ פתוחה לרווחה לכל עוברים ושבים לעניים ולעשירים וגם בניו נתנו בעבורו לצ׳ ... נפטר ונקבר בש״ט ובשיבה טובה פה פרייזך שנת תכ״ז? ל׳‏‎</p>
+    <p>Jaakow, Sohn des Herrn Mosche ... um dessentwillen, dass sein Haus für alle, die da kommen und gehen, für die Armen und die Reichen, weit geöffnet war; auch gaben seine Kinder für ihn zur Wohltätigkeit ... Verschieden und begraben mit gutem Namen und in gutem Greisenalter hier Preisech [= Breisig] im Jahre 427? der Zählung.</p>
+    <p>
+     Die Zusammengehörigkeit von Stein und Memorbucheintrag ist zweifelhaft: Das Datum im Memorbuch (1666) ist in Brillings Abschrift als unsicher hervorgehoben. Auch hier ist die Inschrift so lapidar wie nur möglich (vgl. die in ihrem Aufbau und ihrer Kürze nahezu identische Inschrift für Meir, Sohn des Jaakow von 1647, Grabstein Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=bbr-0002-t">bbr-0002</ref>
+     ). Das Memorbuch aber geht ins Detail und hebt die Gastfreiheit hervor. Auch die Kinder zeigen sich großherzig und spenden zu Ehren ihres Vaters, um seines guten Namens und seines guten Alters willen.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

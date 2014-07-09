@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Eli Schlesinger (Elias Schlesinger), gest. 1833-11-12, Jüdischer Friedhof Bleicherode</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>blr-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=blr-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=blr-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1833-11-12'>1833-11-12</date>
+       <country type="ISO_3166" key="XA-DE-TH">
+        Germany
+        <region>Thuringa</region>
+       </country>
+       <settlement type='city' key='tgn:1036472'>
+        Bleicherode 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.434387 10.571183</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Julia Buchmann, Nicola Wiemann, Maike Schlotterhose; Bleicherode</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="blr-1-1" sex='0'>
+      <persName>Eli Schlesinger (Elias Schlesinger)</persName>
+       <event when='1833-11-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='55'>Hebrew</language>
+    <language ident='de' usage='44'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0001_blr_2012.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0001dblr_2012-2.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0001dblr_2012.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0001rblr_2012.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏עד הגל הזה ועדה‏‎
+‏‎      <lb n='2'/>
+      ‎‏המצבה על מות איש תם וישר‏‎
+‏‎      <lb n='3'/>
+      ‎‏כ׳ אלי שלעזינגער‏‎
+‏‎      <lb n='4'/>
+      ‎‏נולד י״ט תמוז תק״ז לפ״ק‏‎
+‏‎      <lb n='5'/>
+      ‎‏בזעת אפו אכל לחמו‏‎
+‏‎      <lb n='6'/>
+      ‎‏ואת דרכי ה׳ לא עזב עניים‏‎
+‏‎      <lb n='7'/>
+      ‎‏מרודים הביא בית ואסורים‏‎
+‏‎      <lb n='8'/>
+      ‎‏בזקים לחפשי הוציא‏‎
+‏‎      <lb n='9'/>
+      ‎‏ויהי בהולך בלילה‏‎
+‏‎      <lb n='10'/>
+      ‎‏אור ליום ג׳ ר״ח כסליו תקצ״ד‏‎
+‏‎      <lb n='11'/>
+      ‎‏לפ״ק מועד צאתו מנארדהויזען‏‎
+‏‎      <lb n='12'/>
+      ‎‏ויקרא ה׳ אל אליהו‏‎
+‏‎      <lb n='13'/>
+      ‎‏לעלות השמים ויגוע‏‎
+‏‎      <lb n='14'/>
+      ‎‏וימת ויאסף אל עמיו‏‎
+‏‎      <lb n='15'/>
+      ‎‏צדקתך תהלוך‏‎
+‏‎      <lb n='16'/>
+      ‎‏לפניך עד עץ החיים‏‎
+‏‎      <lb n='17'/>
+      ‎‏ונשמתך תזהיר ברקיע‏‎
+‏‎      <lb n='18'/>
+      ‎‏בין כוכבי שמים‏‎
+‏‎      <lb n='19'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='20'/>
+      Hier ruhet
+      <lb n='21'/>
+      der inmitten seiner kraftvollen,
+      <lb n='22'/>
+      rastlosen u. frommen Thätigkeit
+      <lb n='23'/>
+      hinweggeraffte
+      <lb n='24'/>
+      Elias
+      <lb n='25'/>
+      Schlesinger
+      <lb n='26'/>
+      geb. 1. Juli 1790,
+      <lb n='27'/>
+      gest. 12. Novbr. 1833.
+      <lb n='28'/>
+      Die Gerechten leben ewig,
+      <lb n='29'/>
+      ihr Lohn ist bei Gott
+      <lb n='30'/>
+      u. ihre Fürsorge bei dem Höchsten.
+      <lb n='31'/>
+      Von ihm empfangen sie
+      <lb n='32'/>
+      das Reich der Herrlichkeit,
+      <lb n='33'/>
+      u. die Krone der Schönheit
+      <lb n='34'/>
+      aus seiner Hand.
+      <lb n='35'/>
+      Weish. Sal. 5,16 u.17.
+      <lb n='36'/>
+      L[...]
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ›Zeuge dieser Hügel und Zeugin
+      <lb n='2'/>
+      diese Stele‹ für den Tod ›eines lauteren und aufrechten Mannes‹,
+      <lb n='3'/>
+      der geehrte Eli Schlesinger,
+      <lb n='4'/>
+      geboren 19. Tammus 507 der kleinen Zählung.
+      <lb n='5'/>
+      Und ›im Schweiße seines Angesichts aß er sein Brot‹
+      <lb n='6'/>
+      und die Wege des Ewigen verließ er nicht, ›umherirrende
+      <lb n='7'/>
+      Arme brachte er in das Haus‹ ›und Gefesselte
+      <lb n='8'/>
+      in Ketten‹ führte er heraus zur Freiheit.
+      <lb n='9'/>
+      Und es geschah, als er des Nachts unterwegs war:
+      <lb n='10'/>
+      Zu Beginn des Tages 3, Neumond Kislev 594
+      <lb n='11'/>
+      der kleinen Zählung, hatte er Nordhausen verlassen,
+      <lb n='12'/>
+      da ›rief der Ewige den‹ Elijahu,
+      <lb n='13'/>
+      hinaufzusteigen in den Himmel, und ›er schied hin
+      <lb n='14'/>
+      und starb und ward versammelt zu seinem Volke‹.
+      <lb n='15'/>
+      ›Deine Gerechtigkeit geht
+      <lb n='16'/>
+      vor dir einher‹ bis zum Baum des Lebens
+      <lb n='17'/>
+      und deine Seele ›glänze im Himmel‹
+      <lb n='18'/>
+      zwischen den Gestirnen des Firmaments
+      <lb n='19'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1f: Gen 31,52 | Zl 2: Ijob 1,8</p>
+    <p>Zl 5: Nach Gen 3,19</p>
+    <p>Zl 6f: Jes 58,7</p>
+    <p>Zl 7f: Ijob 36,8</p>
+    <p>Zl 12: 1Sam 3,4</p>
+    <p>Zl 13f: Gen 25,8</p>
+    <p>Zl 15f: Nach Ps 85,14</p>
+    <p>Zl 17: Nach Dan 12,3</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 36: Die letzte deutsche Zeile - vermutlich eine Segensformel - konnte nicht entziffert werden.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der hochbetagte Eli Schlesinger hatte offensichtlich am Abend des 12. November 1833 Nordhausen auf dem Weg nach Bleicherode verlassen und war unterwegs gestorben. Seine hebräische Grabinschrift, die ungewöhnlicherweise keinen Vatersnamen nennt, ist aufwändig aus vielen Schriftzitaten zusammengesetzt. Die Eulogie berichtet von seinen guten Werken: Er arbeitete nicht nur hart für seinen Lebensunterhalt und war den Armen gegenüber wohltätig, sondern setzte sich offensichtlich auch erfolgreich für Inhaftierte ein. In direkter Ansprache an den Verstorbenen schließt die Inschrift mit der Beschreibung seines Lohnes in der zukünftigen Welt.</p>
+    <p>Es ist interessant, dass hier in der deutschen Inschrift aus dem apokryphen "Buch der Weisheit" zitiert wird, das nicht zum jüdischen, wohl aber zum katholischen Kanon zählt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

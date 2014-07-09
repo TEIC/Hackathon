@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Channa bat Elieser, gest. 1283-04-12, Jüdischer Friedhof Frankfurt am Main, Battonnstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>ffb-131</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=ffb-131</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=ffb-131</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>77 x 72 x 19 cm</dim>
+          </dimensions>
+          asymetrischer rundbogiger Abschluß mit umlaufenden wulstartigen Rahmen. Der letzte Buchstabe in Zln 6-8 ist auf dem Rahmen. Die letzte Zeile ist auf dem "Sockel". Ist darunter noch eine Zeile?, etwa mit ‎‏אמן אמן אמן סלה‏‎?, ausgeschrieben oder abgekürzt?
+         </p>
+        </support>
+        <condition>
+         <p>Der Stein befindet sich an der Mauer und ist trotz seines Alters sehr gut erhalten.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1283-04-12'>1283-04-12</date>
+       <country type="ISO_3166" key="XA-DE-HE">
+        Germany
+        <region>Hesse</region>
+       </country>
+       <settlement type='city' key='tgn:7005293'>
+        Frankfurt am Main, Battonnstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.1119 8.689675</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Andreas Hemstege</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="ffb-131-1" sex='2'>
+      <persName>Channa bat Elieser</persName>
+       <event when='1283-04-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsffb/xl/ffb0131.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsffb/xl/ffb0131A.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏האבן‏‎
+‏‎     <lb n='2'/>
+     ‎‏הזאת אשר‏‎
+‏‎     <lb n='3'/>
+     ‎‏שמתי מצבה‏‎
+‏‎     <lb n='4'/>
+     ‎‏לראש חנה‏‎
+‏‎     <lb n='5'/>
+     ‎‏הבתולה בת ר׳‏‎
+‏‎     <lb n='6'/>
+     ‎‏אליעזר הנפט׳‏‎
+‏‎     <lb n='7'/>
+     ‎‏יום ב׳ י״ד בניסן‏‎
+‏‎     <lb n='8'/>
+     ‎‏מ״ג לאלף ששי‏‎
+‏‎     <lb n='9'/>
+     ‎‏ת׳ נשמ׳ בג׳ עד׳‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Diesen
+     <lb n='2'/>
+     Stein, den
+     <lb n='3'/>
+     setzte ich als Stele
+     <lb n='4'/>
+     zu Häupten Channa,
+     <lb n='5'/>
+     der Jungfrau, Tochter des Herrn
+     <lb n='6'/>
+     Elieser, die verschied
+     <lb n='7'/>
+     Tag 2, 14. des Nissan
+     <lb n='8'/>
+     43 des sechsten Jahrtausends.
+     <lb n='9'/>
+     Es sei ihre Seele im Garten Eden
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ah in Zln 3 und 5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: das ‎‏ר‏‎ bei ‎‏אשר‏‎ ist auf der linken Rahmenseite.</p>
+   </div>
+   <div type="commentary" subtype="Abkürzung">
+    <p>Apostroph und "Umlautpunkte"; Satztrenner:</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>ET weist darauf hin, daß sk den Grabstein für Channa erwähnt, ist sich dessen aber nicht sicher. Wird aber die HoSt. berücksichtigt, so läßt sich diese Annahme bekräftigen: Der Stein für Channa hat nämlich die HoSt. 4336, der von 1624 (für Man zum Riesen, Ho 516), die HoSt. 4337. Die Steine standen also nah beieinander. Die Unsicherheit von ET rührt auch von der falschen Wiedergabe von Zl 5 der Inschrift, entweder der Männer der Chewra Kaddischa im Jahre 1624, oder von Unna, der den Text abschrieb. Im sk S. 2 Nr. 10 wird der Channa ‎‏הק׳‏‎ hinzugedichtet, so daß ET annehmen mußte, es handele sich hier um eine Ermordete. Die Übersetzung von Unna zu diesem Eintrag ist nicht fehlerfrei. ‎‏הבתולה‏‎ ist für ihn die "junge fromme", daß problematische ‎‏הק׳‏‎ ignoriert er in der Übersetzung.</p>
+    <p>Die Inschrift ist bei Ho, Rabb abgedruckt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

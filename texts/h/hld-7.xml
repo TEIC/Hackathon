@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Elijahu Schlomo ben Jaakow, gest. 1620-04-01, Jüdischer Friedhof Hildesheim, Jüdischer Friedhof Teichstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hld-7</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hld-7</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hld-7</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Große, schmalhohe Stele mit geradem Abschluss. Erhabene Buchstaben in fünf einzelnen, vertieften Schriftbändern.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2014</date>
+           Der Grabstein ist deutlich verwittert, die erhabenen Buchstaben teilweise beschädigt, so dass die Inschrift nicht mehr ganz sicher gelesen werden kann.
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1620-04-01'>1620-04-01</date>
+       <country type="ISO_3166" key="XA-DE-NI">
+        Germany
+        <region>Lower Saxony</region>
+       </country>
+       <settlement type='city' key='tgn:7005248'>
+        Hildesheim, Jüdischer Friedhof Teichstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">52.151509 9.959132</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Regina Viereck, Hildesheim</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hld-7-1" sex='1'>
+      <persName>Elijahu Schlomo ben Jaakow</persName>
+       <event when='1620-04-01' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה נטמן חסיד וגאון‏‎
+‏‎     <lb n='2'/>
+     ‎‏האיש הקהילה מהר״ר‏‎
+‏‎     <lb n='3'/>
+     ‎‏אלי׳ שלמה בר יעקב ז״ל‏‎
+‏‎     <lb n='4'/>
+     ‎‏תנצב״ה הלך לעולמו‏‎
+‏‎     <lb n='5'/>
+     ‎‏יום ז״ך אדר שני ש״פ לפ״ק‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen der fromme und überragende Gelehrte,
+     <lb n='2'/>
+     der Mann der Gemeinde, unser Lehrer, der Meister, Herr
+     <lb n='3'/>
+     Elijahu Schlomo, Sohn des Jaakow, sein Andenken zum Segen.
+     <lb n='4'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens. ›Er ging hin in seine Welt‹
+     <lb n='5'/>
+     (am) 27. Tag des zweiten Adar 380 der kleinen Zählung.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 5: Die Lesung des Monatstages ist nicht ganz sicher. Wenn die wiedergegebene Lesung stimmt, wurden die Buchstaben mit dem Zahlenwert 27 vertauscht, um zusätzlich die Bedeutung "rein" zu erhalten.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

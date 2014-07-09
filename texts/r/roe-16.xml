@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Aron Ullman, gest. 1853-01-27, Jüdischer Friedhof Titz-Rödingen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>roe-16</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=roe-16</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=roe-16</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Sandsteinstele.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2010</date>
+           Starke Beschädigung, das obere Teil des Grabsteins fehlt.
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1853-01-27'>1853-01-27</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7112969'>
+        Titz-Rödingen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.961191 6.465867</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Andreas Schiblon, LVR-Zentrum für Medien und Bildung</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Vermessungs- und Katasteramt Düren, Nr. 1/09</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="roe-16-1" sex='0'>
+      <persName>Aron Ullman</persName>
+       <event when='1853-01-27' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='78'>Hebrew</language>
+    <language ident='de' usage='21'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsroe/xl/0016Rd_100922L1014819hb.png'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2010-09-22'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏־־־]‏‎
+‏‎     <lb n='2'/>
+     ‎‏הלך בדרכי ישרים ואמת‏‎
+‏‎     <lb n='3'/>
+     ‎‏נפטר בן כ״ד שנה ביום ה׳ ח״י‏‎
+‏‎     <lb n='4'/>
+     ‎‏שבט תרי״ג לפ״ק נתצב״ה‏‎
+‏‎     <lb n='5'/>
+     Grabstein von
+     <lb n='6'/>
+     Aron Ullman
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ...
+     <lb n='2'/>
+     er ging auf den Wegen der Aufrechten und der Wahrheit,
+     <lb n='3'/>
+     verschieden im Alter von 24 Jahren am Tag 5, 18.
+     <lb n='4'/>
+     Schwat 613 der kleinen Zählung. Es sei seine Seele eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Aron Ullman(n) wurde am 25. Oktober 1828 in Rödingen geboren als Sohn von Abraham Ullmann und Sybilla Arentz (auch Bella Aaron). Er starb ledig im Alter von fast 25 Jahren.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

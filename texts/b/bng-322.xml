@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Awraham Josef ben Jaakow (Awraham Rofe), gest. 1647-04-15, Jüdischer Friedhof Bingen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bng-322</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bng-322</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bng-322</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>76 x 17 cm</dim>
+          </dimensions>
+          Querrechteck mit abgerundeten Ecken. Die Kopfzeile mit dem Namen ist auf den Rahmen geschrieben.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>Zl 1 und 4-6 teilweise verwittert.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1647-04-15'>1647-04-15</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7012309'>
+        Bingen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.962935 7.89771</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Andreas Hemstege</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bng-322-1" sex='1'>
+      <persName>Awraham Josef ben Jaakow (Awraham Rofe)</persName>
+       <event when='1647-04-15' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsbng/xl/0402_bng.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏הפ[רנ]ס אברהם רופא זצ״ל‏‎
+‏‎     <lb n='2'/>
+     ‎‏פה קבורת איש צ‏‎
+‏‎     <lb n='3'/>
+     ‎‏צדיק תמים ואברהם‏‎
+‏‎     <lb n='4'/>
+     ‎‏זקן בא בימים אברהם‏‎
+‏‎     <lb n='5'/>
+     ‎‏יוסף בר יעקב נפט׳ ונקב׳‏‎
+‏‎     <lb n='6'/>
+     ‎‏ביו[ם] ב׳(?) י׳(?) [ני]סן ת״ז ל׳ תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Der Vo[rste]her Awraham Rofe, das Andenken des Gerechten sei zum Segen.
+     <lb n='2'/>
+     Hier ist das Grab eines gerechten,
+     <lb n='3'/>
+     lauteren Mannes. Und Awraham
+     <lb n='4'/>
+     war alt und hochgekommen in die Tage. Awraham
+     <lb n='5'/>
+     Josef, Sohn des Jaakow, verschieden und begraben
+     <lb n='6'/>
+     am Ta[g] 2(?), 10.(?) [Ni]ssan 407 nach kleiner Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -mim in Zln 3/4.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Buchstabe als Zeilenfüller.</p>
+    <p>Zl 2/3a: zusammengesetztes Zitat aus Gen 35,20 und Gen 6,9.</p>
+    <p>Zl 3b/4a: Gen 24,1; vom Erzvater Abraham gesagt, zugleich eine Anspielung auf den Namen des Verstorbenen.</p>
+    <p>Zl 6: Die Angabe zum Wochen- und Monatstag ist nicht sicher.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Nach der Inschrift war Awraham Vorsteher. In der Liste der Vorsteher bei Grünfeld ist er nicht erwähnt. Die beiden ersten Vorsteher in dieser Liste starben 1601 bzw. 1603, der dritte starb 1652 in Worms.</p>
+    <p>Sein Sohn war sehr wahrscheinlich der Arzt und Vorsteher Salman Rofe, der aus Bingen stammte und in Frankfurt am Msin lebte und starb. Von Salmans Vater ist bekannt, daß er Awraham hieß und in Bingen Arzt und Vorsteher war. Diese Angaben treffen auf dem hier Bestatteten zu. Da die Anzahl der jüdischen Ärzte in Bingen zu der Zeit nicht sehr groß gewesen sein kann, noch kleiner die Anzahl derer, auf denen diese Angaben zutreffen, ist unsere Annahme sehr wahrscheinlich.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

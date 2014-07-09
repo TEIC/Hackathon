@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Elieser ben Jizchak (Laz. Schnok), gest. 1844, Jüdischer Friedhof Mönchengladbach-Rheydt</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e27-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e27-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e27-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Pultstein mit eingesetzter Schrifttafel mit erhabener Schrift.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1986</date>
+           
+          <damage agent='Verwitterung'>Verwitterung mittel.</damage>
+         </p>
+         <p>
+          <date>2007</date>
+           
+          <damage agent='Verwitterung'>Verwitterung stark.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1844'>1844</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7004976'>
+        Mönchengladbach-Rheydt 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.168269 6.436269</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e27-1-1" sex='1'>
+      <persName>Elieser ben Jizchak (Laz. Schnok)</persName>
+       <event when='1844' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='40'>Hebrew</language>
+    <language ident='de' usage='60'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse27/xl/0008_E27_070807EPS5767hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏אליעזר‏‎
+‏‎     <lb n='3'/>
+     ‎‏ב׳ יצחק‏‎
+‏‎     <lb n='4'/>
+     Laz. Schnok
+     <lb n='5'/>
+     geb. 1766
+     <lb n='6'/>
+     gest. 1844
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     Elieser,
+     <lb n='3'/>
+     Sohn des Jizchak
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Gestaltung des Grabsteins und die kurze Inschrift, in der hebräische Element auf die abgekürzte Einleitungsformel reduziert ist, sind in dieser Gegend für das Jahr 1844 eher ungewöhnlich. Möglicherweise wurde das Grabmal erneuert.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der Metzger Lazarus Schnok war der zweitälteste Sohn des schon in Rheydt geborenen Seligmann Schnock und seiner Frau Sprenz Sibille. Bei der Namensfestlegung 1808 behielt er seinen Namen Lazarus Schno(c)k bei. Aus einem Verhältnis mit der reformierten Bauerstochter Catharina Bahner waren zwei uneheliche Kinder hervorgegangen, die 1798 geborene Anna Sibille und die 1802 geborene Wilhelmina. 1807, nach dem Tod seiner Eltern, heiratete Lazarus Schnock Catharina Bahner standesamtlich, und das Paar wird von dem reformierten Pastor Goebel "eingesegnet", im Beisein des Giesenkirchener Unterrabbiners Jakob Cain und Lazarus Schwager Joseph Meyer. Nach Catharinas Tod 1814 heiratete Lazarus Schnock 1824 die Jüdin Sophie B(a)eretz, Witwe des Napoleon Rieselbach, und zwei Monate später wurde ihnen eine Tochter geboren, zwei weitere Kinder folgten, darunter die 1826 geborene Johanna, verheiratete Höflich.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

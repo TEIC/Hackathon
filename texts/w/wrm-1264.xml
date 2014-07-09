@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Zeruja bat Chiskja, gest. 1050~1120, Jüdischer Friedhof Worms</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>wrm-1264</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=wrm-1264</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=wrm-1264</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>53,5 x 68 x li: 11; re: 23 cm</dim>
+          </dimensions>
+          Annähernd rechteckige Stele, leicht unregelmäßige Form. Sichtbarer Sockelbereich mit unregelmäßiger Oberfläche ohne klare Abgrenzung vom oberen Teil der Stele. Schriftbereich mit Ritzlinien gegliedert. Umlaufender schmaler Rand frei gelassen.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1050~1120'>1050~1120</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7005108'>
+        Worms 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.629442 8.356283</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>
+        Bert Sommer, 
+        <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+       </persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>S. Fuchs [IEK, Heidelberg]</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Gawlik</catDesc>
+     </category>
+     <category xml:id='foto7'>
+      <catDesc> </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>W.E. Keil [IEK, Heidelberg]</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>S. Fuchs [IEK, Heidelberg]</catDesc>
+     </category>
+     <category xml:id='foto6'>
+      <catDesc>Laura Augustin</catDesc>
+     </category>
+     <category xml:id='foto8'>
+      <catDesc>IWR, Heidelberg</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="wrm-1264-1" sex='2'>
+      <persName>Zeruja bat Chiskja</persName>
+       <event when='1050~1120' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picswrm/xl/bs/1264WA_0108290230.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picswrm/xl/bs/1264WA_0306090131.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picswrm/xl/bs/1264WA_0306090132.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picswrm/xl/lda/0034_MI09115j03b.png'>
+    <desc>
+    <ref target='#foto7'/>
+    B_3849/17
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picswrm/xl/ieg3/1264a.png'>
+    <desc>
+    <ref target='#foto4'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picswrm/xl/ieg3/1264b.png'>
+    <desc>
+    <ref target='#foto4'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picswrm/xl/ieg3/1264c.png'>
+    <desc>
+    <ref target='#foto4'/>
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picswrm/xl/ieg3/1264d.png'>
+    <desc>
+    <ref target='#foto4'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏זו מצבת קבורת‏‎
+‏‎     <lb n='2'/>
+     ‎‏מרת צרויה בחורה‏‎
+‏‎     <lb n='3'/>
+     ‎‏הגבירה בת ר׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏חזקיה תנוח נפשה‏‎
+‏‎     <lb n='5'/>
+     ‎‏בצרור החיים‏‎
+‏‎     <lb n='6'/>
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Dies ist das ›Grabmal‹
+     <supplied reason='subaudible'>ZerujaChiskja</supplied>
+     <lb n='2'/>
+     der Frau Zeruja, eine Erlesene(?),
+     <lb n='3'/>
+     die Herrin, Tochter des Herrn
+     <lb n='4'/>
+     Chiskija. Es ruhe ihre Seele
+     <lb n='5'/>
+     im Bündel des Lebens. 
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 35,20</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Sehr alter Stein mit Zeilenlinien, ohne jedes Datum. Links</p>
+    <p>häufig über den Rand hinausgeschrieben. Datierung vor 1100 bzw.</p>
+    <p>sehr frühes 12. Jahrhundert. Name des Vaters! Aber hier nicht</p>
+    <p>nur einmal vorkommend, wie auch der Frauenname Zeruja.</p>
+    <p>Bachura? bechura? Opposition von bachura und hag'wira? Muss</p>
+    <p>geklärt werden.</p>
+    <p>(R&amp;R: 238 u. 1097/L'sohn: 54)</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

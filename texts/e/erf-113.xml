@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Simcha ben Jehuda Sabor (Simon Sabor), gest. 1878-09-08, Channa bat ... Lamm (Johanna Sabor geb. Lamm), gest. 1909-03-15, Jüdischer Friedhof Erfurt, Neuer Friedhof, Werner-Seelenbinder-Straße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>erf-113</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=erf-113</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=erf-113</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1878-09-08'>1878-09-08</date>
+       <country type="ISO_3166" key="XA-DE-TH">
+        Germany
+        <region>Thuringa</region>
+       </country>
+       <settlement type='city' key='tgn:7024031'>
+        Erfurt, Neuer Friedhof, Werner-Seelenbinder-Straße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.957207 11.038496</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Annelie Hubrich</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Historische Aufnahme</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="erf-113-1" sex='1'>
+      <persName>Simcha ben Jehuda Sabor (Simon Sabor)</persName>
+       <event when='1878-09-08' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="erf-113-2" sex='2'>
+      <persName>Channa bat ... Lamm (Johanna Sabor geb. Lamm)</persName>
+       <event when='1909-03-15' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='50'>Hebrew</language>
+    <language ident='de' usage='49'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picserf/xl/0113_erf_2012.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picserf/xl/0113derf_2_2012.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picserf/xl/0113derf_2012.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picserf/xl/0113derf_historisch.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picserf/xl/0113_erf_2013_detail01.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picserf/xl/0113_erf_2013_detail02.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ruhen
+      <lb n='2'/>
+      unsere innigstgeliebten Eltern
+      <lb n='3'/>
+      Simon Sabor
+      <lb n='4'/>
+      geb. d. 28. December 1823
+      <lb n='5'/>
+      gest. d. 8. September 1878
+      <lb n='6'/>
+      Johanna Sabor
+      <lb n='7'/>
+      geb. Lamm
+      <lb n='8'/>
+      geb. d. 31. December 1828
+      <lb n='9'/>
+      gest. d. 15. März 1909
+      <lb n='10'/>
+      ‎‏פ״נ‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Rechts'>
+      <ab>
+      <lb n='11'/>
+      ‎‏כ״ה שמחה בכ״ה יהודא זאבאר‏‎
+‏‎      <lb n='12'/>
+      ‎‏נפטר י׳ אלול תרל״ח לפ״ק‏‎
+‏‎      <lb n='13'/>
+      ‎‏הלך בדרך הישר‏‎
+‏‎      <lb n='14'/>
+      ‎‏עדנו באבו נקטף‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Links'>
+      <ab>
+      <lb n='15'/>
+      ‎‏האשה מרת חנה בת ... לאמם‏‎
+‏‎      <lb n='16'/>
+      ‎‏נפטרה כ״ג אדר [תרס״ט] לפ״ק‏‎
+‏‎      <lb n='17'/>
+      ‎‏עד זקנה וש[יבה טובה‏‎?]
+‏‎      <lb n='18'/>
+      ‎‏שמרה נפשה בצדקתה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Unten'>
+      <ab>
+      <lb n='19'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Ursprüngliche Grabinschrift für Simon Sabor:'>
+      <ab>
+      <lb n='20'/>
+      ‎‏אב נאמן בביתו אהב את אשתו ובניו‏‎
+‏‎      <lb n='21'/>
+      ‎‏להדריכם בדרך ישרה, טרח ויגע בעסקיו‏‎
+‏‎      <lb n='22'/>
+      ‎‏והניח אחריו ברכה, אך לא הגיע לעת זקנה‏‎
+‏‎      <lb n='23'/>
+      ‎‏כי עודו בכחו נפל על משכבו ואיננו כי‏‎
+‏‎      <lb n='24'/>
+      ‎‏לקח אותו אלקי׳‏‎
+‏‎      <lb n='25'/>
+      ‎‏כ״ה שמחה בכ״ה יהודא זאבאר‏‎
+‏‎      <lb n='26'/>
+      ‎‏נפטר ביו׳ א׳ יו״ד אלול תרל״ח לפ״ק תנצב״ה‏‎
+‏‎      <lb n='27'/>
+      Hier ruhet der Kaufmann
+      <lb n='28'/>
+      Herr Simon Sabor
+      <lb n='29'/>
+      geb. d. 28. Decbr. 1828, gest. d. 8. Sept. 1878.
+      <lb n='30'/>
+      Dein Weib, deine Kinder umstehen weinend
+      <lb n='31'/>
+      hier dein Grab
+      <lb n='32'/>
+      Betrauern tief den liebenden Gatten, den ... Vater,
+      <lb n='33'/>
+      der zu früh ...
+      <lb n='34'/>
+      Wir ... in Liebe...
+      <lb n='35'/>
+      S... und Stab
+      <lb n='36'/>
+      ...
+      <lb n='37'/>
+      ...
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='10'/>
+      Hier sind begraben
+     </ab>
+    </div>
+    <div type='textpart' subtype='Rechts'>
+      <ab>
+      <lb n='11'/>
+      der geehrte Herr Simcha, Sohn des geehrten Herrn Jehuda Sabor,
+      <lb n='12'/>
+      verschieden 10. Elul 638 der kleinen Zählung.
+      <lb n='13'/>
+      Er ging den rechten Weg,
+      <lb n='14'/>
+      ›noch in seiner Blüte wurde er gepflückt‹
+     </ab>
+    </div>
+    <div type='textpart' subtype='Links'>
+      <ab>
+      <lb n='15'/>
+      die Frau, Frau Channa, Tochter des ... Lamm,
+      <lb n='16'/>
+      verschieden 23. Adar 669 der kleinen Zählung.
+      <lb n='17'/>
+      ›Bis ins hohe und gute Greisenalter‹?
+      <lb n='18'/>
+      ›bewahrte sie ihre Seele‹? durch ihre Wohltätigkeit
+     </ab>
+    </div>
+    <div type='textpart' subtype='Unten'>
+      <ab>
+      <lb n='19'/>
+      Ihre Seelen seien eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+    <div type='textpart' subtype='Ursprüngliche Grabinschrift für Simon Sabor:'>
+      <ab>
+      <lb n='20'/>
+      Ein getreuer Vater seinem Hause, er liebte seine Gattin und seine Kinder,
+      <lb n='21'/>
+      sie zu leiten auf den aufrechten Weg, er plagte und mühte sich in seinen Beschäftigungen
+      <lb n='22'/>
+      und hinterließ Segen, doch er erreichte nicht die Zeit des Alters,
+      <lb n='23'/>
+      denn noch während er bei Kräften war, fiel er auf sein Lager ›und er war nicht mehr da, denn
+      <lb n='24'/>
+      Gott nahm ihn hinweg‹.
+      <lb n='25'/>
+      Der geehrte Herr Simcha, Sohn des geehrten Herrn Jehuda Sabor,
+      <lb n='26'/>
+      verschieden am Tag 1, zehnter Elul 638 der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 14: Nach Ijob 8,12</p>
+    <p>Zl 17: Ps 71,18</p>
+    <p>Zl 18: Vgl. Ps 25,20</p>
+    <p>Zl 23f: Gen 5,24</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 15-18: Die Zeilen sind aufgrund der fortgeschrittenen Verwitterung nicht mehr sicher zu lesen.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Offensichtlich handelt es sich bei dem gemeinsamen Grabmal für Simon Sabor und seine Frau um einen erneuerten Grabstein oder einen Stein, der beim Tod der Frau anstelle des ursprünglichen Grabmals für Simon Sabor gesetzt wurde. Die ursprüngliche Schrifttafel für Simon Sabor war vermutlich auf der Rückseite des heutigen Grabmals angebracht, wie aus den noch vorhandenen Dübellöchern zu schließen ist. Einzelne Fragmente haben sich erhalten. Eine historische Aufnahme erlaubt die teilweise Rekonstruktion seiner ursprünglichen Grabinschrift.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

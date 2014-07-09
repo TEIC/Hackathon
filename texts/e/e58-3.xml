@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Eljakum ben Chajim (Godfried Horn), gest. 1922-03-30, Jüdischer Friedhof Sittard</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e58-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e58-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e58-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit flachem Dreiecksgiebel, im Giebelfeld ein Relief mit zwei Blumen.
+         </p>
+        </support>
+        <condition>
+         <p>Gut erhalten.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1922-03-30'>1922-03-30</date>
+       <country type="ISO_3166" key="XA-NL-LI">
+        Netherlands
+        <region>Limburg</region>
+       </country>
+       <settlement type='city' key='tgn:1048111'>
+        Sittard 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.995278 5.879167</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e58-3-1" sex='1'>
+      <persName>Eljakum ben Chajim (Godfried Horn)</persName>
+       <event when='1922-03-30' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='41'>Hebrew</language>
+    <language ident='de' usage='58'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse58/xl/0003_E58_070923EPS8820hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏אליקום בן חיים‏‎
+‏‎     <lb n='3'/>
+     ‎‏ושם אמו לאה‏‎
+‏‎     <lb n='4'/>
+     ‎‏מת א׳ ניסן תרפ״ב לפ״ק‏‎
+‏‎     <lb n='5'/>
+     ‎‏תמ״כ‏‎
+‏‎     <lb n='6'/>
+     Hier rust
+     <lb n='7'/>
+     Godfried Horn
+     <lb n='8'/>
+     overl. Sittard 1 Nisan / 30 Maart 5682
+     <lb n='9'/>
+     in den ouderdom
+     <lb n='10'/>
+     van 87 jaren
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     Eljakum, Sohn des Chajim,
+     <lb n='3'/>
+     und der Name seiner Mutter ist Lea,
+     <lb n='4'/>
+     gestorben 1. Nissan 682 der kleinen Zählung.
+     <lb n='5'/>
+     ›Seine Ruhestätte sei Herrlichkeit‹ 
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 5: Jes 11,10</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Aufgrund des Sterbedatums handelt es sich um einen Grabstein vom nach 1964 aufgelösten Friedhof beim Algemene Begraafplaats an der Carkstraat.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Godfried Horn war ein Sohn des Sittarder Gemeindevorstehers Heiman (Chajim) Horn und der Helena Cohen, die seit 1832 verheiratet waren. Allerdings fehlt dann hier in der Inschrift die Angabe der Zugehörigkeit zum Priestergeschlecht.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

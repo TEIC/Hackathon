@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Josef ben Schmuel [Friederg], gest. 1642-07-26, Jüdischer Friedhof Bingen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bng-275</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bng-275</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bng-275</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>67 x 17 cm; Unterteil: 24/43 x 67 x 17 cm</dim>
+          </dimensions>
+          (fast quadratisches) Rechteck mit Rahmen, Spuren von Eisenklammerlöchern an beiden Seiten. An der alten Bruchstelle in zwei Hälften (Ober- und Unterteil) zerbrochen, die obere Hälfte liegt vor der unterer Hälfte. Zl 1 auf den Rahmen geschrieben.
+         </p>
+        </support>
+        <condition>
+         <p>abgesehen von abgebrochenen Stücken gut</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1642-07-26'>1642-07-26</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7012309'>
+        Bingen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.962935 7.89771</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Andreas Hemstege</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bng-275-1" sex='1'>
+      <persName>Josef ben Schmuel [Friederg]</persName>
+       <event when='1642-07-26' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsbng/xl/0354_bng.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsbng/xl/0354abng.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsbng/xl/0354bbng.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏הגאון הגדול האב״ד מוהר״ר {יוסף ......}‏‎
+‏‎     <lb n='2'/>
+     ‎‏האבן שמתי מצבה וחצ‏‎
+‏‎     <lb n='3'/>
+     ‎‏בתי קבר ׃ ר׳ יוסף הוא השר‏‎
+‏‎     <lb n='4'/>
+     ‎‏והמשביר ׃ סיני ועוקר הרים‏‎
+‏‎     <lb n='5'/>
+     ‎‏וארזים ישבר ׃ העמיד תלמ‏‎
+‏‎     <lb n='6'/>
+     ‎‏ידים הרבה חובר חבר ׃ הוא‏‎
+‏‎     <lb n='7'/>
+     ‎‏האב״ד מוהר״ר יוסף א[ביר]‏‎
+‏‎     <lb n='8'/>
+     ‎‏הגביר ׃ בר שמוא│[ל]│... ז״ל‏‎
+‏‎     <lb n='9'/>
+     ‎‏נתבקש לי│[שי]│בה של מעלה‏‎
+‏‎     <lb n='10'/>
+     ‎‏חל[ף│ ו]│עבר ׃ ביום ש״ק כ״ח‏‎
+‏‎     <lb n='11'/>
+     ‎‏תמוז ת״ב ל׳ ונקבר יום א׳‏‎
+‏‎     <lb n='12'/>
+     ‎‏כ״ט תמוז ת״ב ל׳ תנצב״ה א׳ ס׳ ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Der große, überragende Gelehrte, Vorsitzender des Gerichts, unser Lehrer und Meister, Herr Josef ...
+     <lb n='2'/>
+     Diesen Stein habe ich gesetzt als Mal, und ausgehoben habe ich
+     <lb n='3'/>
+     ein Grab, Herr Josef, er, der Fürst
+     <lb n='4'/>
+     und der Versorger, Sinai und Versetzer von Bergen,
+     <lb n='5'/>
+     und Zedern zertrümmert er. Er stellte viele
+     <lb n='6'/>
+     Schüler auf, Zusammenführer von Toragelehrten. Er,
+     <lb n='7'/>
+     der Vorsitzende des Gerichts, unser Lehrer und Meister, Herr Josef, (der) Gewaltige
+     <lb n='8'/>
+     der Herr, Sohn des Schmuel 
+     <supplied reason='subaudible'>Friederg</supplied>
+      ..., sein Andenken zum Segen,
+     <lb n='9'/>
+     er wurde gebeten in das Lehrhaus des Himmels,
+     <lb n='10'/>
+     er verging und ging vorüber am Tag des heiligen Schabbat, 28.
+     <lb n='11'/>
+     Tammus 402 nach kleiner Zählung und begraben Tag 1,
+     <lb n='12'/>
+     29. Tammus 402 nach kleiner Zählung. Seine Seele sei eingebunden in das Bündel des Lebens, Amen Sela
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Reim/Gleichklang von mazzewa/kewer in Zln 2-3, auf -wer/ber in Zln 5-6
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 4: "Sinai" ist der Titel für einen Gelehrten, der in Tora und Halacha bewandert ist, "Versetzer von Bergen" (wörtlich: Ausreißender) für besonders herausragende Gelehrte. bBer 64a, bHor 14a. Als "Sinai" wird dort Raw Josef bezeichnet, dies ist wiederum eine Anspielung auf den Namen des hier Bestatteten.</p>
+    <p>Zl 5: "und Zedern zertrümmert er", vgl. Ps 29,5. Dort bezogen auf Gott, um seine Macht und Stärke auszudrücken.</p>
+    <p>Zln 5-6: "Er stellte viele Schüler auf", vgl. Awot 1,1. Das Wort "Schüler" ist getrennt.</p>
+    <p>Zl 6: "Zusammenführer von Toragelehrten", für eine negative Deutung ("Geisterbanner") vgl. Dtn 18,11.</p>
+    <p>Zl 8: Der Titel ‎‏גביר‏‎ (Herr) ist als Ehrentitel für einen bedeutenden Mann zu verstehen.</p>
+    <p>Zl 9: "er wurde gebeten in das Lehrhaus des Himmels", bBM 86a. Dieser Ausdruck wird ausschließlich für besonders herausragende Gelehrte verwendet.</p>
+    <p>Zl 10: "er verging und ging vorüber", vgl. Habak 1,11.</p>
+    <p>Zl 2: "den Stein habe ich gesetzt als Mal", vgl. Gen 35,20.</p>
+    <p>Zln 2-3: "ausgehoben habe ich ein Grab", vgl. Jes 22,16.</p>
+    <p>Zln 3-4: "Herr Josef, er, der Fürst und der Versorger", vgl. Gen 42,6. Dort bezogen auf Josef, der während der Hungersnot in Ägypten für Verteilung und Verkauf des Getreidevorrates zuständig war, kann also gleichzeitig als eine Anspielung auf die Namensgleichheit angesehen werden. Hier mag statt Getreide "geistige Nahrung" durch Josef Friedburgs religiöse Lehre gemeint sein.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Zur Inschriftenwiedergabe: Die aufgrund des zerbrochenen Grabsteines getrennten Inschriften von Ober- und Unterteil haben wir zusammengefügt. Die Bruchstelle ist in der Inschrift mit | gekennzeichnet.</p>
+    <p>Zur Datierung: Es könnte sich bei der Jahreszahl auch um "420" handeln. Durch den angegebenen Wochentag (Schabbat) kann dies jedoch ausgeschlossen werden, da der 28 Tammus 420 auf Mittwoch, den 7.7.1660 fiel.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>
+     Grünfeld erwähnt möglicherweise diesen Grabstein als Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=bng-0250-t">bng-0250</ref>
+     , verzeichnet jedoch nur den Namen und das Todesdatum mit dem Hinweis, der Rest sei nicht mehr zu entziffern. Im Memorbuch wurde dieser Rabbiner unter Eintrag Nr. 33 gedacht. Die Inschrift lautet nach Grünfeld:
+    </p>
+    <p>‎‏הגאון המופלג האב״ד מהו׳ יוסף בר שמואל מפרידבערג‏‎ ‏‎</p>
+    <p>‎‏נפטר כ״ה תמוז ת״כ לפ״ק‏‎</p>
+    <p>Vgl. aber auch Memorbuch, Eintrag Nr. 1 (Grünfeld, S. 17 u. 64): Hier findet sich ein Eintrag für den Rabbiner und Vorsitzender der Gerichtsbarkeit Binjamin Josef aus Friedberg, der an einem Schabbat, dem 21. Elul im Jahre 1642 gestorben sein soll.</p>
+    <p>Die Ähnlichkeiten sind beträchtlich, daher wird es sich wahrscheinlich um denselben Grabstein handeln. Jedoch sind Grünfeld einige Fehler unterlaufen. Schon die Kopfzeile wird nicht ganz korrekt wiedergegeben, der Name läßt sich heute wegen der Verwitterungen nicht mehr vollständig rekonstruieren. Das Datum wird ohne Wochentag genannt, so daß ein falsches Jahr gelesen wird (vgl. unten Kommentar zur Datierung).</p>
+    <p>Der Text lautet: ‎‏את נשמת החסיד מהור״ר בנימין יוספ מק״ק פרידבורג והיה שם ראש וקצין ופרנס ומנהיג הרדה הקדושה ־ ואחר כן נתמנה לאב״ד פה ק״ק בינגא וכו׳. נפ׳ ליל ש״ק ונק׳ כ״א אלול ת״ב‏‎.‏‎ Die Ähnlichkeiten sind einerseits häufig und auffällig, insbesondere die Titel und Ehrenbezeichnungen und der Name stimmen teilweise überein. Allerdings sind das Datum bis auf den Wochentag sowie das Jahr nicht identisch. Auch können der 28. Tammus und der 21. Elul im Hebräischen kaum miteinander verwechselt werden. Daher mag es sich hier um eine andere Person handeln.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

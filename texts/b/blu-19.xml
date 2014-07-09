@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jaakow ben Schlomo (Kappel Kaufmann), gest. 1890-06-18, Jüdischer Friedhof Hellenthal-Blumenthal</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>blu-19</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=blu-19</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=blu-19</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+        <condition>
+         <p>Risse wurden mit Steinkitt zugemacht, so dass einzelne Buchstaben nur noch teilweise zu erkennen sind. 2012: Das am rechten Rand stark beschädigte Grabmal ist in einen Baum eingewachsen</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1890-06-18'>1890-06-18</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7213692'>
+        Hellenthal-Blumenthal 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.489872 6.456034</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Karl Reger</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="blu-19-1" sex='1'>
+      <persName>Jaakow ben Schlomo (Kappel Kaufmann)</persName>
+       <event when='1890-06-18' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='65'>Hebrew</language>
+    <language ident='de' usage='34'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsblu/xl/0019_blu_2011.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש ישר ותמים‏‎
+‏‎     <lb n='3'/>
+     ‎‏פועל טוב כל ימיו‏‎
+‏‎     <lb n='4'/>
+     ‎‏[...] ‎‏יעקב בר שלמה‏‎
+‏‎     <lb n='5'/>
+     ‎‏[... ‎‏ב]כו אחריו אשתו‏‎
+‏‎     <lb n='6'/>
+     ‎‏[‎‏וב]ניו וכל ידעיו‏‎
+‏‎     <lb n='7'/>
+     ‎‏[‎‏מ]ותו ביום א׳ דר״ח‏‎
+‏‎     <lb n='8'/>
+     ‎‏תמוז תר״ן לפ״ק ׃‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='10'/>
+     Hier ruht in Frieden
+     <lb n='11'/>
+     Kappel Kaufmann
+     <lb n='12'/>
+     gest. am 18. Juni 1890
+     <lb n='13'/>
+     71 Jahre alt.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein aufrechter und lauterer Mann,
+     <lb n='3'/>
+     er wirkte Gutes all seine Tage,
+     <lb n='4'/>
+     ... Jaakow, Sohn des Schlomo,
+     <lb n='5'/>
+     ... es weinten ihm nach seine Gattin
+     <lb n='6'/>
+     und seine Kinder und all seine Bekannten,
+     <lb n='7'/>
+     sein Tod (war) am 1. Neumondstag
+     <lb n='8'/>
+     Tammus 650 der kleinen Zählung.
+     <lb n='9'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Im Obergeschoß des Hauses von Koppel Kaufmann in Blumenthal diente der Gemeinde ein Raum als Betsaal, bevor 1904 die Synagoge eingeweiht wurde.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

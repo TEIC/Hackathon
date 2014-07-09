@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Natan Salmstein ben Schlomo, gest. 1829-06-06, Sara ∞ Natan Salmstein (Sara Salmstein), gest. 1860-07-20, Jüdischer Friedhof Ansbach</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>ans-373</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=ans-373</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=ans-373</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Doppelstein. Zwei hohe, hochrechteckige, nebeneinanderstehende Schriftplatten, an den Seiten flankiert von (heute unterschiedlich hohen) halbrunden Säulen. Die deutschen Inschriften sind zentriert, die hebräischen Inschriften sind rechtsbündig angebracht, die Namen in den deutschen Inschriften und die hebräischen Einleitungs- und Schlußformeln wurden durch größere Buchstaben hervorgehoben. Das Grabmal trägt die historische Grabsteinnummer 373-374.
+         </p>
+        </support>
+        <condition>
+         <p> Das Grabmal ist stark beschädigt, die Inschriften stark verwittert. Es wurde neu zusammengesetzt, wobei die Reihenfolge der Schrifttafeln vertauscht wurde (hier richtig herum wiedergegeben).</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1829-06-06'>1829-06-06</date>
+       <country type="ISO_3166" key="XA-DE-BY">
+        Germany
+        <region>Bavaria</region>
+       </country>
+       <settlement type='city' key='tgn:7004459'>
+        Ansbach 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.311285 10.570473</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="ans-373-1" sex='1'>
+      <persName>Natan Salmstein ben Schlomo</persName>
+       <event when='1829-06-06' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="ans-373-2" sex='2'>
+      <persName>Sara ∞ Natan Salmstein (Sara Salmstein)</persName>
+       <event when='1860-07-20' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='75'>Hebrew</language>
+    <language ident='de' usage='24'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsans/xl/0373_061016CTX0510hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsans/xl/0373d061016CTX0511hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsans/xl/0373d061016CTX0512hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsans/xl/0373d061016CTX0513qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsans/xl/0373d061016CTX0514hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsans/xl/0373d061016CTX0515hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsans/xl/0373d061016CTX0516qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsans/xl/0373r070909EPS7862qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״ט‏‎
+‏‎      <lb n='2'/>
+      Hier ruhen
+     </ab>
+    </div>
+    <div type='textpart' subtype='Links'>
+      <ab>
+      <lb n='3'/>
+      Frau 
+      <lb n='4'/>
+      Sara Salmstein,
+      <lb n='5'/>
+      Witwe des verlebten Fabrikanten
+      <lb n='6'/>
+      [u. Gr]oßhändlers, des Vorstehers
+      <lb n='7'/>
+      Herrn
+      <lb n='8'/>
+      Nathan Sa[lmstein]
+      <lb n='9'/>
+      Gestorben am 20. Juli 1860.
+      <lb n='10'/>
+      ‎‏הגבירה המהוללה אשה יראה אלהים‏‎
+‏‎      <lb n='11'/>
+      ‎‏חוננת דלים ופועלת טוב כל ימיה מ׳ שרה‏‎
+‏‎      <lb n='12'/>
+      ‎‏אלמנת דפו״מ כ״ה נתן זאלמשטיין ז״ל‏‎
+‏‎      <lb n='13'/>
+      ‎‏מסלת צדקניות היתה מסלתה‏‎
+‏‎      <lb n='14'/>
+      ‎‏רדפה צדק סרה מעולתה‏‎
+‏‎      <lb n='15'/>
+      ‎‏תמכה באמונה בכל אמצית כחה‏‎
+‏‎      <lb n='16'/>
+      ‎‏שמה בבורא אל כל מבטחה‏‎
+‏‎      <lb n='17'/>
+      ‎‏רבתי בבית כל כבודה פנימה‏‎
+‏‎      <lb n='18'/>
+      ‎‏הטיבה לאביונים כמרים תמצא‏‎
+‏‎      <lb n='19'/>
+      ‎‏תשלומה‏‎
+‏‎      <lb n='20'/>
+      ‎‏נפטרת בשם טוב עש״ק ר״ח אב‏‎
+‏‎      <lb n='21'/>
+      ‎‏ונקברת יום א׳ ג׳ אב תר״כ לפ״ק‏‎
+‏‎      <lb n='22'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Rechts'>
+      <ab>
+      <lb n='23'/>
+      Herr
+      <lb n='24'/>
+      Nathan Sa[lmstein]
+      <lb n='25'/>
+      Fabrikant und Großhändler
+      <lb n='26'/>
+      Vorsteher der hies. [... ] Gemeinde
+      <lb n='27'/>
+      und der vormals landjudenschafft.
+      <lb n='28'/>
+      Corporation
+      <lb n='29'/>
+      Gestorben am 6. Juni 1829.
+      <lb n='30'/>
+      ‎‏איש ירא אלהים הולך תמים ופועל צדק‏‎
+‏‎      <lb n='31'/>
+      ‎‏האלוף והתורני הקצין והנדיב פו״מ כ״ה נתן‏‎
+‏‎      <lb n='32'/>
+      ‎‏זאלמשטיין בן כ״ה שלמה ז״ל מפה‏‎
+‏‎      <lb n='33'/>
+      ‎‏חבר לפעולי טוב בעליל נודעו צדקותיו‏‎
+‏‎      <lb n='34'/>
+      ‎‏רב טוב וחסד הפיץ תמיד ב[...]ותיו‏‎
+‏‎      <lb n='35'/>
+      ‎‏נ[...] וישר אל הישרים‏‎
+‏‎      <lb n='36'/>
+      ‎‏תמ[ך] אנשי תורה המליץ טוב לפני רוזנים ושרים‏‎
+‏‎      <lb n='37'/>
+      ‎‏נפשו לאל נשא לא פנה אל רהבים‏‎
+‏‎      <lb n='38'/>
+      ‎‏[‎‏ז]כרו לא ימוש מלבנו [...]‏‎
+‏‎      <lb n='39'/>
+      ‎‏[‎‏ל...]שו נאהבים‏‎
+‏‎      <lb n='40'/>
+      ‎‏נפטר [... יו]ם ש״ק ערב שבועות‏‎
+‏‎      <lb n='41'/>
+      ‎‏ונקבר [...] דשבועות תקפ״ט לפ״ק‏‎
+‏‎      <lb n='42'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier sind geborgen
+     </ab>
+    </div>
+    <div type='textpart' subtype='Links'>
+      <ab>
+      <lb n='10'/>
+      die gepriesene Gebieterin, ›eine gottesfürchtige Frau‹,
+      <lb n='11'/>
+      ›mildtätig mit den Darbenden‹ und Gutes wirkend all ihre Tage, Frau Sara,
+      <lb n='12'/>
+      Witwe des Vorstehers und Leiters, des geehrten Herrn Natan Salmstein, sein Andenken zum Segen,
+      <lb n='13'/>
+      die Bahn der gerechten Frauen war ihre Bahn,
+      <lb n='14'/>
+      ›nach Gerechtigkeit strebte sie‹, mied das Unrecht,
+      <lb n='15'/>
+      sie unterstützte den Glauben mit ihrer ganzen Kraft,
+      <lb n='16'/>
+      den Schöpfer - Gott - nahm sie ›zu ihrem ganzen Verlaß‹,
+      <lb n='17'/>
+      ›Herrin‹ im Hause, ›all ihre Ehre (war) im Innern‹,
+      <lb n='18'/>
+      Gutes erwies sie den Bedürftigen, wie Mirjam möge sie ihren
+      <lb n='19'/>
+      Lohn empfangen;
+      <lb n='20'/>
+      verschieden ›mit gutem Namen‹ Rüsttag des heiligen Schabbat, Neumond Aw,
+      <lb n='21'/>
+      und begraben Tag 1, 3. Aw 620 der kleinen Zählung.
+      <lb n='22'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+    <div type='textpart' subtype='Rechts'>
+      <ab>
+      <lb n='30'/>
+      ›ein gottesfürchtiger Mann‹, ›er wandelte lauter und tat, was recht ist‹,
+      <lb n='31'/>
+      der Vornehme und Toragelehrte, der Erhabene und Freigebige, der Vorsteher und Leiter, der geehrte Herr Natan
+      <lb n='32'/>
+      Salmstein, Sohn des geehrten Herrn Schlomo, sein Andenken zum Segen, von hier.
+      <lb n='33'/>
+      Er gesellte sich zu denen, die Gutes taten, und seine Wohltaten waren allgemein bekannt,
+      <lb n='34'/>
+      viel ›Gutes und Barmherziges‹ verbreitete er stets in seiner [...],
+      <lb n='35'/>
+      [...], und aufrecht mit den Aufrichtigen,
+      <lb n='36'/>
+      er unterstützte die Toragelehrten und (war) ein guter Fürsprecher vor Grafen und Fürsten,
+      <lb n='37'/>
+      seine Seele erhob er zu Gott, ›er wandte sich nicht den Prahlern zu‹,
+      <lb n='38'/>
+      sein Andenken wird nicht weichen aus unseren Herzen [...]
+      <lb n='39'/>
+      [...] die Geliebten;
+      <lb n='40'/>
+      verschieden [... (am)] Tag des heiligen Schabbat, Vorabend von Schawuot,
+      <lb n='41'/>
+      und begraben [...] von Schawout, 589 der kleinen Zählung.
+      <lb n='42'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 10: vgl. Spr 31,30</p>
+    <p>Zl 11: vgl. Spr 28,8</p>
+    <p>Zl 14: vgl. Spr 21,21</p>
+    <p>Zl 16: Ps 40,5</p>
+    <p>Zl 17: Klgl 1,1 | Zl 17: Ps 45,14</p>
+    <p>Zl 20: bBer 17a</p>
+    <p>Zl 30: Ijob 1,8 | Zl 30: Ps 15,2</p>
+    <p>Zl 34: Ps 23,6</p>
+    <p>Zl 37: Ps 40,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -lata in Zln 13-14, auf -cha in Zln 15-16, auf -ma in Zln 17-19. Reim auf -otav in Zln 33-34, auf -s(ch)arim in Zln 35-36, auf -hawim in Zln 37-39.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      ‎‏מרת שרה‏‎ / Frau Sara in Zln 13-18.‎‏חבר רב נתן ז״ל‏‎ / der toragelehrte Herr Natan, sein Andenken zum Segen in Zln 33-39.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 12b: Der Familienname wurde entsprechend deutscher Orthographie geschrieben.</p>
+    <p>Zl 13: "Gerecht" kann hier auch mit "wohltätig" übersetzt werden.</p>
+    <p>Zl 17a: Dort in Verbindung mit "Witwe".</p>
+    <p>Zl 32a: Der Familienname wurde entsprechend deutscher Orthographie geschrieben.</p>
+    <p>Zl 33a: Vgl. Ijob 34,8.</p>
+    <p>Zl 37a: Vgl. Gebetbuch, Erläuterungen zu den Sprüchen der Väter, 4,13.</p>
+    <p>Zl 39: Vermutlich Anspielung auf 2 Samuel 1,23: "Die Geliebten und Holden, in ihrem Leben, auch in ihrem Tode waren sie nicht getrennt"; ein Zitat, das sich oft auf gemeinsamen Grabsteinen für ein Ehepaar findet, meist jedoch dann, wenn diese innerhalb eines kurzen Zeitraums verstarben; hier lagen jedoch zwischen beider Tod über 30 Jahre.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>
+     Wie auch schon zuvor 1857 auf dem Grabmal der Enkelin Treinle (
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=ans-0401-t">ans-0401</ref>
+     ) wird hier die hebräische Inschrift durch einen deutschen Text ergänzt, der jedoch - im Gegensatz zum Stein der Enkelin - auf die Nennung der Geburtsdaten verzichtet. Dies könnte zum einen auf die Tradition zurückzuführen sein, nach der eine jüdische Grabschrift das Sterbedatum, nicht aber das Geburtsdatum angibt. Es könnte aber auch schlicht damit zusammenhängen, daß bei Personen, die vor Einführung amtlicher Register geboren wurden, was auf dieses Ehepaar ganz sicher zutrifft, bei den Nachkommen, die das Grabmal setzten, nicht immer Klarheit über das genaue Geburtsjahr bestand. Allerdings ist auch neun Jahre später auf dem Grabstein der Schwiegertochter (
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=ans-0400-t">ans-0400</ref>
+     ) kein Geburtsdatum angegeben, dagegen ist ihr Mädchenname genannt, der hier bei Sara Salmstein (sowohl in der deutschen als auch in der hebräischen Inschrift in Form des Vatersnamens) fehlt.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Die Familie Salmstein gehörte offensichtlich zu den alteingesessenen Familien Ansbachs, denn schon der Vater des 1829 (vermutlich recht jung) gestorbenen Nathan Salmstein namens Schlomo (Salomon) stammte von hier. Dieser gemeinsame Grabstein für das Ehepaar Salmstein wurde offensichtlich erst beim Tod der Witwe, über dreissig Jahre nach dem Ableben ihres Gatten, gesetzt, vermutlich anstelle eines zunächst nur ihm zugedachten Grabmals.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

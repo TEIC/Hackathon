@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Hanna bat Menachem (Johanna Wyngaard geb. Simon), gest. 1878-05-22, Jüdischer Friedhof Meerbusch-Lank-Latum</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e25-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e25-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e25-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hohe, gesockelte Stele mit aufgesetztem, zinnenbewehrten Abschluß und vertieftem Schriftfeld. Auf dem Sockel ein reliefierter, bebänderter Kranz.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>1985: Verwitterung mittel. 2008: Die Schrift wurde mit schwarzer Farbe nachgezogen.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral: bebänderter Krank.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1878-05-22'>1878-05-22</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1040041'>
+        Meerbusch-Lank-Latum 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.301998 6.66964</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e25-2-1" sex='2'>
+      <persName>Hanna bat Menachem (Johanna Wyngaard geb. Simon)</persName>
+       <event when='1878-05-22' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='74'>Hebrew</language>
+    <language ident='de' usage='26'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse25/xl/0002_E25_1985.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='1985'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse25/xl/0002dE25_1_1985.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='1985'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse25/xl/0002dE25_2_1985.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='1985'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse25/xl/0002dE25_3_1985.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='1985'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse25/xl/0002_E25_2008.png'>
+    <desc>
+    <ref target='#foto2'/>
+    <date when='2008'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse25/xl/0002dE25_2008.png'>
+    <desc>
+    <ref target='#foto2'/>
+    <date when='2008'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏אשה צנועה ישרה‏‎
+‏‎      <lb n='3'/>
+      ‎‏רצון קונה עשתה,‏‎
+‏‎      <lb n='4'/>
+      ‎‏פרשה לעני כפה,‏‎
+‏‎      <lb n='5'/>
+      ‎‏דרשה טוב ביתה.‏‎
+‏‎      <lb n='6'/>
+      ‎‏ה״ה האננא בת מנחם‏‎
+‏‎      <lb n='7'/>
+      ‎‏ע״ה נפטרה בת ס״ח שנה‏‎
+‏‎      <lb n='8'/>
+      ‎‏ליל ג׳ ליום ד׳ י״ט אייר‏‎
+‏‎      <lb n='9'/>
+      ‎‏ונקברה עש״ק פ׳ בהר‏‎
+‏‎      <lb n='10'/>
+      ‎‏כ״א אייר תרל״ח לפ״ק‏‎
+‏‎      <lb n='11'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='12'/>
+      Johanna Wyngaard
+      <lb n='13'/>
+      geb. Simon,
+      <lb n='14'/>
+      gest. im Alter v. 68 Jahr.
+      <lb n='15'/>
+      22. Mai 1878.
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      eine züchtige, aufrechte Frau,
+      <lb n='3'/>
+      ›den Willen ihres Schöpfers‹ führte sie aus,
+      <lb n='4'/>
+      ›ihre Hand reichte sie dem Armen‹,
+      <lb n='5'/>
+      ›sie erstrebte Gutes für ihr Haus‹,
+      <lb n='6'/>
+      es ist Hanna, Tochter des Menachem,
+      <lb n='7'/>
+      Friede über ihn, verschieden 68 Jahre alt
+      <lb n='8'/>
+      in der Nacht 3 zum Tag 4, 19. Ijar,
+      <lb n='9'/>
+      und begraben (am) Rüsttag des heiligen Schabbat, Wochenabschnitt "Auf dem Berge",
+      <lb n='10'/>
+      21. Ijar 638 der kleinen Zählung.
+      <lb n='11'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Av 5,20</p>
+    <p>Zl 4: Spr 31,20</p>
+    <p>Zl 5: nach Est 10,3</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -a in Zln 1-5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 6: Der Name "Hanna" wurde entsprechend deutscher Orthographie geschrieben.</p>
+    <p>Zl 9: Der Wochenabschnitt "Auf dem Berge" umfaßt Leviticus 25,1-26,2.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1714-11-25, Jüdischer Friedhof Siegburg</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>sgb-233</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=sgb-233</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=sgb-233</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1714-11-25'>1714-11-25</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7005104'>
+        Siegburg 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.801352 7.203499</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה // פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נטמן ונקבר // נטמן ונקבר!‏‎
+‏‎     <lb n='3'/>
+     ‎‏האיש הישר והנדי׳ // האשה חשובה‏‎
+‏‎     <lb n='4'/>
+     ‎‏אשר שהי׳ כל ימיו // היקרה והישרה‏‎
+‏‎     <lb n='5'/>
+     ‎‏עוסק באמונה // והחסידה מרת‏‎
+‏‎     <lb n='6'/>
+     ‎‏בנימן בן מורינו // פריידכין בת‏‎
+‏‎     <lb n='7'/>
+     ‎‏הרב רבי // דוד הכהן‏‎
+‏‎     <lb n='8'/>
+     ‎‏יצחק היום // מזיבורג היום‏‎
+‏‎     <lb n='9'/>
+     ‎‏י״א אלול // ח״י כיסליו‏‎
+‏‎     <lb n='10'/>
+     ‎‏שנת תפ״ה // שנת תע״ה לפ״ק‏‎
+‏‎     <lb n='11'/>
+     ‎‏לפ״ק // ‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier // Hier
+     <lb n='2'/>
+     wurde geborgen und begraben // wurde geborgen und begraben
+     <lb n='3'/>
+     der aufrechte und wohltätige Mann, // die angesehene Frau,
+     <lb n='4'/>
+     der all seine Tage // die Teure, die Aufrechte
+     <lb n='5'/>
+     in Treue handelte. // und die Fromme, Frau
+     <lb n='6'/>
+     Binjamin, Sohn unseres Lehrers, // Freidchen, Tochter des
+     <lb n='7'/>
+     des Meisters, Herrn // David Hakohen
+     <lb n='8'/>
+     Jizchak, heute, // aus Siegburg, heute,
+     <lb n='9'/>
+     11. Elul // 18. Kislev
+     <lb n='10'/>
+     des Jahres 485 // des Jahres 475 der kleinen Zählung
+     <lb n='11'/>
+     der kleinen Zählung // 
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Wegen der Ähnlichkeit der Buchstaben he und chet (mit den Zahlenwerten 5 und 8), ist nicht ganz auszuschließen, daß Freidchen im Jahre (5)478 und Jizchak im Jahre (5)488 starb. Entsprechend wären dann die Todestage der 22.11.1717 und der 16.8.1727.</p>
+    <p>Ein gemeinsames Grabmal für die Ehegatten, zwischen derer Tod mehrere Jahre liegen, ist ungewöhnlich, die unterschiedliche Ausführung ist augenscheinlich. Die Inschrift für Freidchen ist ansprechend gestaltet, die Buchstaben sind gleichmäßiger in ihrer Ausführung. Die Inschrift für Binjamin wirkt gedrängter, die Worte auf den einzelnen Zeilen weniger gleichmäßig verteilt, die Zeilen selbst verlaufen nicht parallel zu denen der linken Inschrift der Gattin. Deshalb spricht einiges dafür, daß das gemeinsame Grabmal bereits nach dem Tod von Freidchen errichtet wurde und zunächst nur ihre Inschrift trug. Nach dem Tod ihres Gatten kam dann seine Inschrift hinzu, wohl von einem anderen Steinmetzen ausgeführt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Wolf ist häufig der Alltagsname zum synagogalen Namen Binjamin. Vielleicht ist der hier begrabene Binjamin mit dem bei Levison 1689 und 1690 erwähnten Wolff in Siegburg identisch. Dieser ist erwähnt in Zusammenhang mit der Verpflegung und Einquartierung von französischen Truppen, und das gemeinsam mit Leff, Seligmann und David (Hakohen Bock), der wohl sein Schwiegervater gewesen ist.</p>
+    <p>
+     Die gemeinsam mit Binjamin begrabene Freidchen, Tochter des David Hakohen aus Siegburg, war sehr wahrscheinlich die Tochter des oben genannten David, der nach dem 8.4.1704 verstarb, und der Miriam (Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=sgb-0236-t">sgb-0236</ref>
+     ). Ihre Geschwister waren dann Binnes David (Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=sgb-0234-t">sgb-0234</ref>
+     ) und Löb David (Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=sgb-0241-t">sgb-0241</ref>
+     ).
+    </p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

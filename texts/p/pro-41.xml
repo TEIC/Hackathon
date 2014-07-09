@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Awraham Meir (Meyer Levi), gest. 1742-06-21, Jüdischer Friedhof Preußisch Oldendorf</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>pro-41</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=pro-41</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=pro-41</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Dieses Grabmal und das nebenstehende, Nr. 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=pro-0040-t">pro-0040</ref>
+          , stehen in einer gemeinsamen Grabeinfassung, was eine verwandtschaftliche Beziehung vermuten lässt - vorausgesetzt, es handelt sich um die originale Aufstellung der Steine.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1742-06-21'>1742-06-21</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1040775'>
+        Preußisch Oldendorf 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">52.297095 8.479326</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Dieter Besserer, Preußisch Oldendorf</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="pro-41-1" sex='1'>
+      <persName>Awraham Meir (Meyer Levi)</persName>
+       <event when='1742-06-21' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picspro/xl/0041_pro_2012.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש הישר‏‎
+‏‎     <lb n='3'/>
+     ‎‏בנדיבים אשר‏‎
+‏‎     <lb n='4'/>
+     ‎‏הלך בדרך טובים‏‎
+‏‎     <lb n='5'/>
+     ‎‏צדיק וישר מכל מצות‏‎
+‏‎     <lb n='6'/>
+     ‎‏ה׳ כל מעשיו היה לש״ש‏‎
+‏‎     <lb n='7'/>
+     ‎‏ה״ה ח״ר אברהם מאיר‏‎
+‏‎     <lb n='8'/>
+     ‎‏ז״ל מא״ד נפטר בש״ט‏‎
+‏‎     <lb n='9'/>
+     ‎‏יום ה׳ י״ט סיון תק״ב‏‎
+‏‎     <lb n='10'/>
+     ‎‏לפ״ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein Mann, der Aufrechte
+     <lb n='3'/>
+     inmitten der Wohltäter, der
+     <lb n='4'/>
+     ging ›den Weg der Guten‹,
+     <lb n='5'/>
+     ›gerecht und aufrecht‹, von allen Geboten
+     <lb n='6'/>
+     des Ewigen, all seine Werke waren um des Himmels willen,
+     <lb n='7'/>
+     <supplied reason='subaudible'>Meyer Levi</supplied>
+     es ist der toragelehrte Herr Awraham Meir,
+     <lb n='8'/>
+     sein Andenken zum Segen, aus Oldendorf, verschieden ›mit gutem Namen‹
+     <lb n='9'/>
+     Tag 5, 19. Sivan 502
+     <lb n='10'/>
+     der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Spr 2,20</p>
+    <p>Zl 5: Dtn 32,4</p>
+    <p>Zl 8: bBer 17a</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 5-6: Hier müsste entweder ‎‏בכל‏‎ / "in allen Geboten" stehen, oder der Satz fortgesetzt werden mit ‎‏לא סר‏‎ / "wich er nicht ab".</p>
+   </div>
+   <div type="commentary" subtype="Abkürzung">
+    <p>Die Abkürzung ‎‏מא״ד‏‎, etwa "aus O"D", wurde mit "aus Oldendorf" aufgelöst.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Awraham Meir ist vermutlich identisch mit Meyer Levi, einem Bruder des Oldendorfer Vorstehers Heinemann Levi, bei dem er 1706, aus seinem Geburtsort Mayen bei Koblenz kommend, als "Junge" in Holzhausen und ab 1716 in Oldendorf lebte. Eine erste Ehe schloss er 1717/18 mit Maria Gerson, einer Tochter des Gerson Joel aus der Berliner Hoffaktorenfamilie Wulff, der zwischen 1666 und 1673 einen Schutzbrief vom brandenburgischen Kurfürsten erhalten und sich in Oldendorf niedergelassen hatte. Marias Schwester Edel war ebenfalls in Oldendorf verheiratet. Nach Marias Tod ehelichte Meyer Levi Brendel Philipp. Diese ging nach seinem Tod 1743 eine zweite Ehe ein mit (Jacob) Levi Heinemann, einem Neffen ihres verstorbenen ersten Gatten und Schwestersohn des Vorstehers Heinemann Levi. Jacob Levi Heinemann hatte zuvor 17 Jahre lang in Diensten des Salomon Isaac zu Oldendorf, Vorsteher der Ravensbergischen Judenschaft, gestanden. Durch diese Heirat konnte er die Wohnstätte (Nr. 45) des Meyer Levi übernehmen, er blieb jedoch zunächst Extraordinarius und konnte nicht in das Schutzprivileg von Meyer Levi eintreten, da dieser (wohl aus seiner ersten Ehe) lebende, aber noch unmündige erbfähige Söhne hatte.</p>
+    <p>Vermutlich handelt es sich bei einem dieser Söhne um Jehoschua KaZ, das ist Josua Meyer, der 1754 in der Grafschaft Rietberg Schutz erhielt, eine Frau namens Vogel heiratete und sich in Neuenkirchen niederließ, während seine Schwester Ester in Oldendorf blieb und Philipp Hertz heiratete.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

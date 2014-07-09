@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schimschon ben Jaakow Ascher, gest. 1843-07-27, Serle bat Zwi, gest. 1855-11-24, Jüdischer Friedhof Krefeld-Linn</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e43-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e43-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e43-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele mit geschweiftem und in der Mitte eingezogenen Rundbogenabschluß.
+         </p>
+        </support>
+        <condition>
+         <p>
+          1986: Das Grabmal lehnt an einem Baum. 2007: Das Grabmal liegt in der Grabeinfassung von Grabstein Nr. 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=e43-0043-t">e43-0043</ref>
+          .
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1843-07-27'>1843-07-27</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1004984'>
+        Krefeld-Linn 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.336007 6.632584</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e43-3-1" sex='1'>
+      <persName>Schimschon ben Jaakow Ascher</persName>
+       <event when='1843-07-27' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="e43-3-2" sex='2'>
+      <persName>Serle bat Zwi</persName>
+       <event when='1855-11-24' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse43/xl/0061_E43_070803EPS5387hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏האיש שמשון בר יעקב‏‎
+‏‎     <lb n='3'/>
+     ‎‏אשר ע״ה נפטר בן פח‏‎
+‏‎     <lb n='4'/>
+     ‎‏שנה ביום ער״ח אב‏‎
+‏‎     <lb n='5'/>
+     ‎‏תר״ג לפ״ק ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏ואשתו סערלה בת צבי‏‎
+‏‎     <lb n='7'/>
+     ‎‏ע״ה נפטרה בת פח‏‎
+‏‎     <lb n='8'/>
+     ‎‏שנה י״ד כסלו תרט״ז לפ״ק‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier sind begraben
+     <lb n='2'/>
+     der Mann Schimschon, Sohn des Jaakow
+     <lb n='3'/>
+     Ascher, Friede sei mit ihm, verschieden im Alter von 88
+     <lb n='4'/>
+     Jahren am Rüsttag des Neumonds Aw
+     <lb n='5'/>
+     603 der kleinen Zählung,
+     <lb n='6'/>
+     Und seine Gattin Serle, Tochter des Zwi,
+     <lb n='7'/>
+     Friede sei mit ihm, verschieden im Alter von 88
+     <lb n='8'/>
+     Jahren (am) 14. Kislev 616 der kleinen Zählung.
+     <lb n='9'/>
+     Ihre Seelen seien eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

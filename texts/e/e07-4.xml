@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Hermann Lion, gest. 1896-02-15, Ferdinande Lion, gest. 1906-11-15, Frau Hermann Lion Karoline geb. Metzger, gest. 1923-11-26, Jüdischer Friedhof Willich</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e07-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e07-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e07-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele mit getreppten Rundbogenabschluß und erhabenen Schriftfeld, im Bogenfeld der reliefierte Davidstern. Die Stele wird flankiert von zwei niedrigen, querrechteckigen Tafeln mit jeweils einem etwas höheren Pfeiler an den Außenseiten.
+         </p>
+        </support>
+        <condition></condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Magen David</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1896-02-15'>1896-02-15</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1041830'>
+        Willich 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.261559 6.538827</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e07-4-1" sex='1'>
+      <persName>Hermann Lion</persName>
+       <event when='1896-02-15' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="e07-4-2" sex='0'>
+      <persName>Ferdinande Lion</persName>
+       <event when='1906-11-15' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="e07-4-3" sex='0'>
+      <persName>Frau Hermann Lion Karoline geb. Metzger</persName>
+       <event when='1923-11-26' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='4'>Hebrew</language>
+    <language ident='de' usage='95'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse07/xl/0004_E07_070817EPS6335qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse07/xl/0004_E07_070817EPS6337qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      Ruhestätte
+      <lb n='3'/>
+      der
+      <lb n='4'/>
+      Familie
+      <lb n='5'/>
+      Hermann Lion
+      <lb n='6'/>
+      Hermann Lion
+      <lb n='7'/>
+      geb. 10. Octo. 1843
+      <lb n='8'/>
+      gest. 15. Febr. 1896
+      <lb n='9'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Rechte Seite'>
+      <ab>
+      <lb n='10'/>
+      Ferdinande Lion
+      <lb n='11'/>
+      geb. 24. Aug. 1875
+      <lb n='12'/>
+      gest. 15. Nov. 1906
+     </ab>
+    </div>
+    <div type='textpart' subtype='Linke Seite'>
+      <ab>
+      <lb n='13'/>
+      Frau Hermann Lion
+      <lb n='14'/>
+      Karoline geb. Metzger
+      <lb n='15'/>
+      geb. 28. Febr. 1847
+      <lb n='16'/>
+      gest. 26. Nov. 1923
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier sind begraben
+      <lb n='9'/>
+      Ihre Seelen seien eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+    <div type='textpart' subtype='Rechte Seite'>
+     <ab></ab>
+    </div>
+    <div type='textpart' subtype='Linke Seite'>
+     <ab></ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der Buchstabe "N" wurde jeweils spiegelverkehrt eingraviert und durch Übermalung in schwarzer Farbe korrigiert.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der Metzger und Viehhändler Hermann Lion wurde in Neersen geboren als Sohn von Levy Lion und Wilhelmina Cramer. Am 31.3.1869 heiratete er in Willich Karolina Metzger, Tochter von Michael Metzger und Rahel geb. Kaufmann. Aus der Ehe gingen sechs Kinder hervor: Arthur (geb. 1870), Rosette (geb. 1874), Fernandine/Ferdinande (1875-1906), Henriette (geb./gest. 1878), Clementine (geb. 1879) und Johanna (geb. 1885). Der Sohn Arthur war Viehhändler und verheiratet mit Rosalia Samson aus Aurich, die 1941 in Willich starb. Die Kinder Max-Hermann (geb. 1908) und Else (geb. 1911) konnten rechtzeitig nach London emigrieren, Arthur wurde deportiert und 1943 in Theresienstadt ermordet. Rosetta heiratete Leonhard Lion und zog nach dem Tod ihres Gatten nach Krefeld. Arthurs Schwester Clementine, verheiratete Winter, wurde von Kempen bzw. Dortmund ebenfalls nach Theresienstadt deportiert und 1944 in Auschwitz ermordet. Das Schicksal von Johanna Lion ist nicht bekannt.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

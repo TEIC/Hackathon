@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schmuel ben Naftali Mosche, gest. 1792-05-20, Jüdischer Friedhof Krefeld-Linn</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e43-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e43-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e43-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele mit geschweiftem Flachbogenabschluß.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>1986: Starke Verwitterung, vor allem im oberen Teil des Schriftfelds. 2007: Die Verwitterung ist weiter fortgeschritten.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1792-05-20'>1792-05-20</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1004984'>
+        Krefeld-Linn 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.336007 6.632584</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e43-1-1" sex='1'>
+      <persName>Schmuel ben Naftali Mosche</persName>
+       <event when='1792-05-20' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse43/xl/0001_E43_070803EPS5375hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2007'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נטמן איש הישר בנדיבים‏‎
+‏‎     <lb n='3'/>
+     ‎‏אשר הלך כל ימיו בדרך‏‎
+‏‎     <lb n='4'/>
+     ‎‏טובים הוא צדיק כל מעשיו‏‎
+‏‎     <lb n='5'/>
+     ‎‏עשה בכושר בה׳ דבק נפשו‏‎
+‏‎     <lb n='6'/>
+     ‎‏ביושר גופו יישן ארצה‏‎
+‏‎     <lb n='7'/>
+     ‎‏ונשמתו לגן עדן נרצה כל‏‎
+‏‎     <lb n='8'/>
+     ‎‏מעשיו היו לשם שמים ודבק‏‎
+‏‎     <lb n='9'/>
+     ‎‏עצמו באלהים חיים ה״ה‏‎
+‏‎     <lb n='10'/>
+     ‎‏החבור שמואל בר נפתלי‏‎
+‏‎     <lb n='11'/>
+     ‎‏משה ז״ל נפטר ונקבר בשם‏‎
+‏‎     <lb n='12'/>
+     ‎‏טוב יום א׳ כ״ח אייר תקנ״ב‏‎
+‏‎     <lb n='13'/>
+     ‎‏לפ״ק ונשמתו‏‎
+‏‎     <lb n='14'/>
+     ‎‏תצב״ה עשמצ״ו‏‎
+‏‎     <lb n='15'/>
+     ‎‏תושב הי בכוילר ונפטר‏‎
+‏‎     <lb n='16'/>
+     ‎‏בבוטבערק‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     ist geborgen der aufrechte Mann unter den Wohltätern,
+     <lb n='3'/>
+     welcher wandelte all seine Tage ›auf dem Weg
+     <lb n='4'/>
+     der Guten‹ , es ist der Gerechte, all seine Taten
+     <lb n='5'/>
+     wirkte er in Tüchtigkeit, am Ewigen haftete seine Seele
+     <lb n='6'/>
+     in Aufrichtigkeit, sein Leib ruht in der Erde
+     <lb n='7'/>
+     und seine Seele ist im Garten Eden willkommen, ›all
+     <lb n='8'/>
+     seine Taten waren um den Himmels willen‹ und er haftete
+     <lb n='9'/>
+     am lebendigen Gott, es ist
+     <lb n='10'/>
+     der toragelehrte Schmuel, Sohn des Naftali
+     <lb n='11'/>
+     Mosche, sein Andenken zum Segen, verschieden und begraben ›mit gutem
+     <lb n='12'/>
+     Namen‹ , Tag 1, 28. Ijar 552
+     <lb n='13'/>
+     der kleinen Zählung. Seine Seele
+     <lb n='14'/>
+     sei eingebunden in das Bündel des Lebens mit den übrigen ... gerechten Männern und Frauen.
+     <lb n='15'/>
+     Er war ansässig in Küller (?) und verschied
+     <lb n='16'/>
+     in Budberg.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3f: Spr 2,20</p>
+    <p>Zl 7f: Av 2,12</p>
+    <p>Zl 11f: bBer 17a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -wim in Zln 2-4, auf -oscher in Zln 4-6, auf -rza in Zln 6-7, auf -ajim in Zln 7-9.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 14: Die Bedeutung des mittleren Buchstabens der zweiten Abkürzung, ‎‏מ‏‎, ist unklar.</p>
+    <p>Zl 15: Der Ortsname, etwa "Küler/Büler" oder "Keuler/Beuler", ließ sich nicht identifizieren.</p>
+    <p>Zl 16: Der Ort Budberg ist heute ein Ortsteil von Rheinberg im Kreis Wesel.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Inschrift ist zum Teil fehlerhaft: in Zl 10 steht ‎‏חבור‏‎ statt ‎‏חבר‏‎, in Zl 11 wurde der Anfang der Zeile verschrieben und korrigiert.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

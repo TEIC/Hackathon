@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Gute ∞ Mosche, gest. 1752-02-15, Mosche ben Awraham Schimon, gest. 1763-09-19, Jüdischer Friedhof Beelitz</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bee-6</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bee-6</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bee-6</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>159 x 87 x 11,5 cm</dim>
+          </dimensions>
+          Doppelstein in Form von zwei nebeneinanderstehenden, hochrechteckigen Stelen mit geschweiften Runfbögenabschlüssen.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>1990: Verwitterung mittel.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1752-02-15'>1752-02-15</date>
+       <country type="ISO_3166" key="XA-DE-BB">
+        Germany
+        <region>Brandenburg</region>
+       </country>
+       <settlement type='city' key='tgn:1036422'>
+        Beelitz 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">52.236477 12.97412</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Georg Philipp Ilg</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bee-6-1" sex='2'>
+      <persName>Gute ∞ Mosche</persName>
+       <event when='1752-02-15' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="bee-6-2" sex='1'>
+      <persName>Mosche ben Awraham Schimon</persName>
+       <event when='1763-09-19' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsbee/xl/0006_bee_1990.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsbee/xl/0006dbee_1990-1.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsbee/xl/0006dbee_1990-2.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='Rechte Seite'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏איש ישר כל מעשיו‏‎
+‏‎      <lb n='3'/>
+      ‎‏עשה בכושר קל הי׳‏‎
+‏‎      <lb n='4'/>
+      ‎‏כנשר ה״ה כ״ה משה בן‏‎
+‏‎      <lb n='5'/>
+      ‎‏כהר״ר אברהם שמעון‏‎
+‏‎      <lb n='6'/>
+      ‎‏ז״ל נפטר י״ב תשרי‏‎
+‏‎      <lb n='7'/>
+      ‎‏תקכ״ד לפ״ק‏‎
+‏‎      <lb n='8'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Linke Seite'>
+      <ab>
+      <lb n='9'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='10'/>
+      ‎‏האשה הישרה הצנועה‏‎
+‏‎      <lb n='11'/>
+      ‎‏מרת גוטה שהלכה‏‎
+‏‎      <lb n='12'/>
+      ‎‏לעלמה נפטר׳ ו‏‎
+‏‎      <lb n='13'/>
+      ‎‏נקברה יום ב׳ ער״ח‏‎
+‏‎      <lb n='14'/>
+      ‎‏אדר תקי״ב לפ״ק‏‎
+‏‎      <lb n='15'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='Rechte Seite'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      ein aufrechter Mann, all seine Taten
+      <lb n='3'/>
+      tat er mit Tüchtigkeit, ›geschwind war er
+      <lb n='4'/>
+      wie der Adler‹, es ist der geehrte Herr Mosche, Sohn des
+      <lb n='5'/>
+      geehrten Meisters, Herrn Awraham Schimon,
+      <lb n='6'/>
+      sein Andenken zum Segen, verschieden 12. Tischri
+      <lb n='7'/>
+      524 der kleinen Zählung.
+      <lb n='8'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+    <lb n='9'/>
+    Hier ist begraben
+    <lb n='10'/>
+    die aufrechte Frau, die Züchtige,
+    <lb n='11'/>
+    Frau Gute, 
+    <supplied reason='subaudible'>Mosche</supplied>
+    ›die hinging
+    <lb n='12'/>
+    in ihre Welt‹, verschied und
+    <lb n='13'/>
+    begraben wurde Tag 2, Vorabend des Neumonds
+    <lb n='14'/>
+    Adar 512 der kleinen Zählung.
+    <lb n='15'/>
+    Ihre Seele sei eingebunden in das Bündel des Lebens
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3f: Av 5,20</p>
+    <p>Zl 11f: nach Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Angabe des Sterbedatums der Frau stimmt in sich nicht, auch ist der Abstand der Sterbejahre des Ehepaares auffallend groß für einen Doppelstein.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

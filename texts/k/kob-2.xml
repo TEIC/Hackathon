@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Channa bat Efraim, Jüdischer Friedhof Koblenz [Mittelalterliche Grabsteine]</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>kob-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=kob-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=kob-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Trachyt</material>
+          <dimensions>
+           <dim>(H/B/T) Gesamtmaß: 110 x 60 x 19; Schriftfeld: 58 x 50</dim>
+          </dimensions>
+          Der Grabstein zeigt insofern architektonische Schmuckelemente, als ein gotischer Doppel-Dreipass mit grob behauenem Maßwerk den oberen Abschluss des Grabsteins bildet. Das rechteckige Inschriftenfeld ist unterhalb des dreibogigen Maßwerks vertieft. Der untere Rand des Inschriftenfeldes ist komplett erhalten. Die ursprüngliche Breite des Inschriftenfeldes ist nur auf der linken Seite des Grabsteins erkennbar, und zwar unterhalb des Maßwerks in der oberen und in der unteren Ecke, während die rechte Seite des Grabsteins stark beschädigt ist. Der abgesehen von den Fehlstellen gut erhaltene Text in hebräischer Quadratschrift setzt relativ hoch an und ist gleichmäßig über das Inschriftenfeld verteilt. Nach Vermutung von Axel von Berg (GDKE, Landesarchäologie, Außenstelle Koblenz) war der Grabstein möglicherweise selbst ein Spolium. Der Stein diente in Zweitverwendung als Grabstein, da die Inschrift ungewöhnlich hoch in Höhe des Maßwerks ansetzt und da der gotische Doppel-Dreipass von ferne an das Motiv der beiden Gesetzestafeln des Moses erinnert.
+         </p>
+        </support>
+        <condition>
+         <p>Der Grabstein, der, wie Fotos aus dem Jahr der Aufindung zeigen, als Ganzer geborgen wurde, ist heute mehrfach gebrochen seine Fragmente sind entsprechend wieder zusammengesetzt. Die rechte Seite des Grabsteins ist stark beschädigt, das Inschriftenfeld weist auf der ganzen rechten Seite und in den mittleren und unteren Zeilen der linken Seite Fehlstellen auf.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7004448'>
+        Koblenz [Mittelalterliche Grabsteine] 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.360775 7.595994</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Generaldirektion Kulturelles Erbe Rheinland-Pfalz, Direktion Landesarchäologie, Außenstelle Koblenz, Foto: Ulrich Pfeuffer</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Landeshauptarchiv Koblenz, Foto: ^# Michael Jordan</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Bildindex der Kunst und Architektur - Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="kob-2-1" sex='2'>
+      <persName>Channa bat Efraim</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picskob/xl/0002_kob_LHAKoblenzMichaelJordan.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏עד] הגל הזה ועדה‏‎
+‏‎     <lb n='2'/>
+     ‎‏[‎‏המ]צבה אשר קמה וגם‏‎
+‏‎     <lb n='3'/>
+     ‎‏[‎‏נצ]בה לראש התמ[ימ]ה‏‎
+‏‎     <lb n='4'/>
+     ‎‏[‎‏ו...]ה מרת חנה בת‏‎
+‏‎     <lb n='5'/>
+     ‎‏[‎‏ר׳ א]פרים שנפטרה‏‎
+‏‎     <lb n='6'/>
+     ‎‏[...] ‎‏בתמוז ביום [...]‏‎
+‏‎     <lb n='7'/>
+     ‎‏[...] ‎‏לפרט צ[רורה תהי]‏‎
+‏‎     <lb n='8'/>
+     ‎‏[‎‏ב]צרור החיי[ם ...]‏‎
+‏‎     <lb n='9'/>
+     ‎‏[‎‏א]מן ואמן סלה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Zeuge dieser Hügel und Zeugin
+     <lb n='2'/>
+     die Stele‹, die ›aufgestellt und auch
+     <lb n='3'/>
+     aufgerichtet‹ (steht) zu Häupten der Lauteren
+     <lb n='4'/>
+     und [...], Frau Channa, Tochter
+     <lb n='5'/>
+     des Herrn Efraim, die verschieden ist
+     <lb n='6'/>
+     [...] im Tammus, am Tag [...]
+     <lb n='7'/>
+     [...] der Zählung. Eingebunden sei sie
+     <lb n='8'/>
+     in das Bündel des Lebens,
+     <lb n='9'/>
+     Amen und Amen Sela
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1f: Gen 31,52</p>
+    <p>Zl 2f: nach Gen 37,7</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>
+     Zl 5: Ulrich Offerhaus kommentiert zur Ergänzung des Namens: "‎‏[‎‏ר׳ א]פרים‏‎ ist in Analogie zu ‎‏ר׳ אברהם‏‎ in 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=kob-0001-t">kob-0001</ref>
+     , Zeile 5 konjiziert. In der ersten Transkription und den darauf fußenden Übersetzungen wurde der Vatername als ‎‏יהודה‏‎ (Jehuda) gelesen (vgl. die unten genannten Publikationen); Günter Mayer hat die Transkription des Namens offen gelassen; wahrscheinlich ist mit Christoph Cluse ‎‏אפרים‏‎ (Efraim) zu transkribieren, da sich der zweite Buchstabe ‎‏פ‏‎ ausgeprägt bogenförmig darstellt, während ein in ‎‏יהודה‏‎ anzunehmendes ‎‏ה‏‎ immer betont eckig geschrieben wurde, und da das abschließende ‎‏־ם‏‎ eher dem gleichen Buchstaben in den Zeilen 2 und 6 als einem ‎‏־ה‏‎ ähnelt."
+    </p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Ulrich Offerhaus schreibt zur Datierung des Grabsteins: "In einer ersten Bearbeitung dieses Grabsteins wurde der Todestag in das Jahr 1149 n.Chr. datiert, weshalb in früheren Veröffentlichungen immer von der Mitte des 12. Jahrhunderts die Rede ist. Zweifel an der Richtigkeit dieser Frühdatierung, aus kunsthistorischer Sicht von Udo Liessem (Koblenz) bestärkt, haben mich veranlasst, Prof. Dr. Günter Mayer in Mainz um Beratung zu bitten. Er hat den Grabstein gut 200 Jahre später im ausgehenden 14. Jahrhundert angesetzt (Briefwechsel vom 2. September bis 9. November 1984). Damit stellt sich das Erfordernis einer Neubearbeitung der Grabinschrift."</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

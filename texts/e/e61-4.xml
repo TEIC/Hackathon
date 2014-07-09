@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Channa ∞ Mordechai Halevi (Hanna Wiener Baruch), gest. 1887-04-23, Jüdischer Friedhof Venlo, (neuer Friedhof) Ganzenstraat</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e61-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e61-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e61-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit eingezogenem Flachbogenabschluß und umlaufendem, schmalen, scharrierten Rahmen (Vgl. auch die Grabmale von Sohn und Schwiegertochter).
+         </p>
+        </support>
+        <condition>
+         <p>Gut erhalten.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1887-04-23'>1887-04-23</date>
+       <country type="ISO_3166" key="XA-NL-LI">
+        Netherlands
+        <region>Limburg</region>
+       </country>
+       <settlement type='city' key='tgn:7006853'>
+        Venlo, (neuer Friedhof) Ganzenstraat 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.355532 6.171448</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e61-4-1" sex='2'>
+      <persName>Channa ∞ Mordechai Halevi (Hanna Wiener Baruch)</persName>
+       <event when='1887-04-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='75'>Hebrew</language>
+    <language ident='de' usage='25'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse61/xl/0004_E61_070912EPS8012hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e61.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2013-11-26T14:24:19'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשת חיל תפארת בעלה ובניה‏‎
+‏‎     <lb n='3'/>
+     ‎‏תמימה וישרה ונעימה במעשיה‏‎
+‏‎     <lb n='4'/>
+     ‎‏לעני ולאביון פרשה כפיה‏‎
+‏‎     <lb n='5'/>
+     ‎‏לגמול חסד ואמת כל ימיה‏‎
+‏‎     <lb n='6'/>
+     ‎‏ה״ה מרת חנה אשת מרדכי‏‎
+‏‎     <lb n='7'/>
+     ‎‏הלוי נפטרה ביום ש״ק‏‎
+‏‎     <lb n='8'/>
+     ‎‏כ״ט ניסן תרמ״ז לפ״ק‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='10'/>
+     Hier rust
+     <lb n='11'/>
+     Hanna Wiener Baruch
+     <lb n='12'/>
+     geboren in 1790
+     <lb n='13'/>
+     overleden 23 April 1887
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ›die tüchtige Gattin‹ , Zierde ihres Gatten und ihrer Kinder,
+     <lb n='3'/>
+     lauter, aufrecht und anmutsvoll in ihren Taten,
+     <lb n='4'/>
+     ›dem Armen und dem Bedürftigen öffnete sie ihre Hände‹ ,
+     <lb n='5'/>
+     ›um wahrhaftiges Liebeswerk zu erweisen all ihre Tage‹ ,
+     <lb n='6'/>
+     es ist Frau Channa, Gattin des Mordechai
+     <lb n='7'/>
+     Halevi, verschieden am Tage des heiligen Schabbat,
+     <lb n='8'/>
+     29. Nissan 647 der kleinen Zählung.
+     <lb n='9'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 31,10</p>
+    <p>Zl 4: Spr 21,20</p>
+    <p>Zl 5: Vgl. Gen 24,49 u. ARN 4.</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ejha in Zln 2-5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>(Jo)Hanna Baruch war 1817 mit ihrem Gatten Marcus Wiener von Hörstgen bei Geldern nach Venlo gekommen, wo ihr Gatte der neugegründeten Gemeinde vorstand. Ihre Söhne Jacob (1815-1899), Leopold (1823-1891) und Karl (1832-1883) waren bekannte Kupfergraveure und Bildhauer. Ihr Sohn Salomon heiratete 1862 Rosette Gosschalk aus Zwolle, ihre Tochter Sophia heiratete 1864 Abraham Feist aus Linz, und ihr 1826 geborener Sohn Alexander folgte seinem Vater im Amt des Gemeindevorstehers.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

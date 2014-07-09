@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Chajim ben Jaakow Stern (Heinemann Stern), gest. 1867-03-11, Jüdischer Friedhof Rüthen-Oestereiden</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>oes-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=oes-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=oes-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit Rundbogenabschluß (vgl. auch das Grabmal der Gattin).
+         </p>
+        </support>
+        <condition>
+         <p>Starker Flechtenbewuchs.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1867-03-11'>1867-03-11</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7115274'>
+        Rüthen-Oestereiden 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.561531 8.422989</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Hermann J. Krämer, Rüthen</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Stadtarchiv Rüthen</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="oes-1-1" sex='1'>
+      <persName>Chajim ben Jaakow Stern (Heinemann Stern)</persName>
+       <event when='1867-03-11' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='60'>Hebrew</language>
+    <language ident='de' usage='39'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsoes/xl/0001_oes_1983.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    <date when='1983'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsoes/xl/0001roes_1983.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    <date when='1983'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsoes/xl/0001roes_2008.JPG'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2008'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏ר׳ חיים בן ר׳ יעקב‏‎
+‏‎      <lb n='3'/>
+      ‎‏סטערן הל״ה ביו׳‏‎
+‏‎      <lb n='4'/>
+      ‎‏ב׳ ד׳ אדר שני שנת‏‎
+‏‎      <lb n='5'/>
+      ‎‏תרכ״ו לפ״ק‏‎
+‏‎      <lb n='6'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='7'/>
+      Hier ruht
+      <lb n='8'/>
+      Heinemann Stern
+      <lb n='9'/>
+      geb. 1792
+      <lb n='10'/>
+      gest. am 11 März 1867
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      Herr Chajim, Sohn des Herrn Jaakow
+      <lb n='3'/>
+      Stern, er ging hin in die künftige Welt am
+      <lb n='4'/>
+      Montag, 4. des zweiten Adar des Jahres
+      <lb n='5'/>
+      626 der kleinen Zählung.
+      <lb n='6'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Abkürzung">
+    <p>Zl 3: Die Abkürzung ‎‏הל״ה‏‎ wurde aufgelöst mit ‎‏הלך לעולם הבא‏‎ / "er ging hin in die künftige Welt".</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Der deutsch-jüdische Name Heinemann entstand aus dem hebräischen Namen Chajim mit der Bedeutung "Leben".</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Laut Personenstandsregister starb der Handelsmann Heinemann Stern zu Oestereiden am 10. März 1867, nachts 12 Uhr, in einem Alter von 75 Jahren.</p>
+    <p>Bei den in Oestereiden belegten Kaufleuten Aron Stern, Jacob Stern, Moses Stern und Philipp Stern könnte es sich um seine Söhne handeln.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sprinz bat Mosche ∞ Schimon ben Jaakow (Karoline Kaufmann geb. Falkenstein), gest. 1885-12-05, Jüdischer Friedhof Schiefbahn-Knickelsdorf</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e16-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e16-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e16-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele mit geschweiftem Rundbogenabschluß. Namenszeile in hebräischer Inschrift in vertiefter Kartusche.
+         </p>
+        </support>
+        <condition></condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1885-12-05'>1885-12-05</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1041092'>
+        Schiefbahn-Knickelsdorf 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.241232 6.50647</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e16-1-1" sex='2'>
+      <persName>Sprinz bat Mosche ∞ Schimon ben Jaakow (Karoline Kaufmann geb. Falkenstein)</persName>
+       <event when='1885-12-05' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='76'>Hebrew</language>
+    <language ident='de' usage='23'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse16/xl/0001_E16_1985.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='1985'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשה יראת אלהים‏‎
+‏‎     <lb n='3'/>
+     ‎‏מ׳ שפרינץ בת משה‏‎
+‏‎     <lb n='4'/>
+     ‎‏אשת שמעון בר יעקב‏‎
+‏‎     <lb n='5'/>
+     ‎‏נפטרה בשם טוב בת מ״ט שנה‏‎
+‏‎     <lb n='6'/>
+     ‎‏ביום שבת ק׳ ג׳ חנוכה תרמ״ו לפ״ק‏‎
+‏‎     <lb n='7'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='8'/>
+     Karoline Kaufmann
+     <lb n='9'/>
+     geb. Falkenstein
+     <lb n='10'/>
+     gest. 5. Dezbr. 1885.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     eine gottesfürchtige Frau,
+     <lb n='3'/>
+     Frau Sprinz, Tochter des Mosche,
+     <lb n='4'/>
+     Gattin des Schimon, Sohn des Jaakow,
+     <lb n='5'/>
+     verschieden ›mit gutem Namen‹, 49 Jahre alt,
+     <lb n='6'/>
+     am Tage des heiligen Schabbat, 3. Channukatag 646 der kleinen Zählung.
+     <lb n='7'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 5: bBer 17a</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Karolina Falkenstein war verheiratet mit Simon Kaufmann aus der in Schiefbahn alteingesessenen Familie Kaufmann, der 1916 starb und auf dem Friedhof am Bertzweg begraben liegt. Sie hatten 13 Kinder: 1864 wurde der Handelsmann Jacob geboren, welcher Rosetta Roer aus Drove heiratete. 1865 wurde Moses geboren, welcher Juliane Wolff heiratete und nach Frankfurt zog. Sein im selben Jahr geborener Bruder Julius starb wenige Tage nach seiner Geburt. Die 1866 geborene Julie heiratete den Metzger Gustav Sander aus Kaldenkirchen, ihre Zwillingsschwester Sara heiratete den Schiefbahner Klempnermeister Simon Frankenberg aus Puderbach. Die 1868 geborene Johanna vermähle sich mit Wilhelm Camp aus Aachen. Die 1870 geborene Emilie heiratete den Metzger Samuel Wolff aus Mertloch/Polch. Die Kinder Emma (geb. 1869), Laura (geb. 1872), Valentin (geb. 1873), Louis (geb. 1873), Bertha (geb. 1874) und Max (geb. 1875) starben kurz nach ihrer Geburt.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

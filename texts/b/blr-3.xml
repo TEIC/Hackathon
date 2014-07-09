@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sussmann Frühberg (Sussmann Frühberg), gest. 1849-04-14, Jüdischer Friedhof Bleicherode</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>blr-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=blr-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=blr-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Schmetterling</decoNote>
+       <decoNote type='ornament'>floral: Palmwedel; gestalterisch: Kreis aus zehn kleinen, fünfzackigen Sternchen; Eckakroterien</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1849-04-14'>1849-04-14</date>
+       <country type="ISO_3166" key="XA-DE-TH">
+        Germany
+        <region>Thuringa</region>
+       </country>
+       <settlement type='city' key='tgn:1036472'>
+        Bleicherode 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.434387 10.571183</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Julia Buchmann, Nicola Wiemann, Maike Schlotterhose; Bleicherode</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="blr-3-1" sex='0'>
+      <persName>Sussmann Frühberg (Sussmann Frühberg)</persName>
+       <event when='1849-04-14' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='70'>Hebrew</language>
+    <language ident='de' usage='30'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0003_blr_2012.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0003dblr_2012.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsblr/xl/0003rblr_2012.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏לאבל ולמספד מר נהפך‏‎
+‏‎      <lb n='2'/>
+      ‎‏לנו יום חגנו שבתה‏‎
+‏‎      <lb n='3'/>
+      ‎‏השמחה מבעוד‏‎
+‏‎      <lb n='4'/>
+      ‎‏יומם באה שמשנו‏‎
+‏‎      <lb n='5'/>
+      ‎‏פ״ט‏‎
+‏‎      <lb n='6'/>
+      ‎‏איש טוב וישר לפני ה׳ ואנשים כ״ה‏‎
+‏‎      <lb n='7'/>
+      ‎‏זוסמן פריהבערג שלש עשרה‏‎
+‏‎      <lb n='8'/>
+      ‎‏שנה הי׳ ראש פרנס ומנהיג‏‎
+‏‎      <lb n='9'/>
+      ‎‏לעדתינו ורדף שלום בין איש‏‎
+‏‎      <lb n='10'/>
+      ‎‏לרעהו גם מלחמו נתן לדל ורש‏‎
+‏‎      <lb n='11'/>
+      ‎‏לא שמיע צעקה ואת משפט‏‎
+‏‎      <lb n='12'/>
+      ‎‏אהב ויעש צדקה אך זרקה שיבה‏‎
+‏‎      <lb n='13'/>
+      ‎‏בו טרם מלאו לו ימי חייהו נולד‏‎
+‏‎      <lb n='14'/>
+      ‎‏[‎‏ב]יום ב׳ כ״ח סיון תקמ״ב לפ״ק ונפטר‏‎
+‏‎      <lb n='15'/>
+      ‎‏ביום ש״ק אחרון של פסח וכבוד‏‎
+‏‎      <lb n='16'/>
+      ‎‏גדול נעשה לו ביום קבורתו‏‎
+‏‎      <lb n='17'/>
+      ‎‏יום ג׳ כ״ה ניסן תר״ט לפ״ק‏‎
+‏‎      <lb n='18'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='19'/>
+      Hier [...]
+      <lb n='20'/>
+      Des könig[...]
+      <lb n='21'/>
+      Einnehmer[...]
+      <lb n='22'/>
+      der hiesigen Gemeinde
+      <lb n='23'/>
+      Sussmann Frühberg
+      <lb n='24'/>
+      geb. d. 23. Mai 1785
+      <lb n='25'/>
+      gest. d. 14. [April] 1849
+      <lb n='26'/>
+      Betrauert nah und fern
+      <lb n='27'/>
+      von Leidenden beweint
+      <lb n='28'/>
+      Ruh' sanft in Deiner Gruft
+      <lb n='29'/>
+      Du edler Menschen Freund
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ›Zu Trauer und zu bitterer Klage verkehrte sich
+      <lb n='2'/>
+      uns unser Festtag‹, es endete
+      <lb n='3'/>
+      die Freude, ›noch am
+      <lb n='4'/>
+      hohen Tage ist unsere Sonne untergegangen‹
+      <lb n='5'/>
+      Hier ist geborgen
+      <lb n='6'/>
+      ein Mann, ›gut und aufrecht‹ vor dem Ewigen und den Menschen, der geehrte Herr
+      <lb n='7'/>
+      Sussmann Frühberg, dreizehn
+      <lb n='8'/>
+      Jahre war er Haupt, Vorsteher und Leiter
+      <lb n='9'/>
+      unserer Gemeinde ›und strebte nach Frieden‹ ›zwischen dem Menschen
+      <lb n='10'/>
+      und seinem Nächsten‹, auch ›gab er von seinem Brot dem Darbenden‹, ›und der Elende
+      <lb n='11'/>
+      ließ keinen Schrei hören‹, ›und das Recht
+      <lb n='12'/>
+      liebte er‹ ›und wirkte Wohltätigkeit‹, ›und es besprengte das Grau
+      <lb n='13'/>
+      ihm (sein Haupt)‹, bevor seine Lebenstage vollendet waren; geboren
+      <lb n='14'/>
+      am Tag 2, 28. Sivan 542 der kleinen Zählung, und verschieden
+      <lb n='15'/>
+      am Tage des heiligen Schabbat, letzter (Tag) von Pessach, und große
+      <lb n='16'/>
+      Ehre erwies man ihm am Tage seines Begräbnisses,
+      <lb n='17'/>
+      Tag 3, 25. Nissan 609 der kleinen Zählung.
+      <lb n='18'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1f: Komb. aus Klg 8,15, Ez 27,31 und Amos 8,10</p>
+    <p>Zl 3f: Nach Jer 15,9</p>
+    <p>Zl 6: Ps 25,8</p>
+    <p>Zl 9: Av 1,12</p>
+    <p>Zl 9f: Ex 18,16 | Zl 10: Spr 22,9</p>
+    <p>Zl 10f: Angelehnt an Spr 13,8</p>
+    <p>Zl 11f: Jes 61,8 u.ö. | Zl 12: Ez 18,27 u.ö.</p>
+    <p>Zl 12f: Hos 7,9</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1-4: Hier Anspielung auf den Todestag, der auf den letzten Tag des Pessachfestes fiel.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Eulogie auf diesen langjährigen Gemeindevorsteher ist kunstvoll kombiniert und angelehnt an viele Schriftzitate.</p>
+    <p>Die Lesung des Geburtsdatums ist aufgrund der starken Verwitterung nicht ganz sicher. Das Sterbejahr stimmt aber mit der Angabe in der Allgemeinen Zeitung des Judentums (s.u.) überein, dass Sussmann Frühberg in seinem 64. Lebensjahr verstarb.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der königliche Lotterie-Einnehmer Sussmann Frühberg diente seiner Gemeinde 40 Jahre als Schofarbläser, 25 Jahre als Mohel (Beschneider) und 15 Jahre lang als Gemeindevorsteher. Außerdem war er Mitglied in der Bleicheroder Schützenkompanie und dem Club der Bleicheroder christlichen Honoratioren. Über seine Beisetzung wird ausführlich berichtet in der Allgemeinen Zeitung des Judentums (s.u.).</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

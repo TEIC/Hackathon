@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1920-09-08, Jüdischer Friedhof Duisburg, Sternbuschweg (Feld 37a)</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>du3-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=du3-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=du3-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>140 x 146 x 24; Inschriftenplatte: 84 x 60; So: 16 x 153 x 26</dim>
+          </dimensions>
+          Gesockelte Ädikula mit aufgesetztem, leicht vorkragendem geschwungenem flachbogigen Giebel; seitliche Wangen; das Schriftfeld ist vertieft.
+         </p>
+        </support>
+        <condition>
+         <p>Die Metallbuchstaben der dreizeiligen Inschrift fehlenvorhandene Löcher wurde zugemacht und nachträglich neue Metallbuchstaben über die alten Löcher gesetzt, die auf einer Abbildung von 1984 noch nicht vorhanden sind.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Magen David</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1920-09-08'>1920-09-08</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7004923'>
+        Duisburg, Sternbuschweg (Feld 37a) 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.415992 6.784957</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='de' usage='100'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsdu3/xl/0002_du3_1984.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsdu3/xl/0002_du3_Stbw37a_2005.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     Familie
+     <lb n='2'/>
+     Lion
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Auf einer Aufnahme im Stadtarchiv, vermutlich vom Anfang der 1970er Jahre, sind die Umrisse der ursprünglichen Buchstaben noch zu erkennen:</p>
+    <p>Ludwig Lion</p>
+    <p>*[...] 1867</p>
+    <p>[.] 8.9.1920</p>
+    <p>Zwischen Ludwig Lion und Theodor Lauter wurde auf den Erbbegräbnisstellen Nrn. 5 und 6 die Urnen des Ehepaares Amberg begraben, Siegmund (02.03.1849 - 02.05.1927) und Ottilie (11.07.1851 - 20.01.1931); Grabsteine existieren nicht mehr.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Ludwig Lion (12.10.1867 - 8.9.1920), der 1898 nach Duisburg gekommen war, betrieb hier ein Seidengeschäft. Seine Beisetzung auf Erbbegräbnisstätte Nr. 3 war die zweite auf dem neuen Feld 37a, und die nebenliegende Grabstelle Nr. 4 wurde ebenfalls durch Theodor David für die Familie Lion erworben. Ludwig Lions Töchter Hella und Herta wanderten aus.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

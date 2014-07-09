@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Naftali ben Schimon Hakohen, gest. 1872-11-12, Rosel bat Elieser ∞ Naftali Hakohen, gest. 1873-05-24, Jüdischer Friedhof Weilerswist-Vernich</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>ver-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=ver-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=ver-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1872-11-12'>1872-11-12</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:4004603'>
+        Weilerswist-Vernich 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.747363 6.837164</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="ver-2-1" sex='1'>
+      <persName>Naftali ben Schimon Hakohen</persName>
+       <event when='1872-11-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="ver-2-2" sex='2'>
+      <persName>Rosel bat Elieser ∞ Naftali Hakohen</persName>
+       <event when='1873-05-24' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״ט‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='rechts'>
+      <ab>
+      <lb n='2'/>
+      ‎‏איש תם וי[שר]‏‎
+‏‎      <lb n='3'/>
+      ‎‏כמר נפתלי בר [ה״ה]‏‎
+‏‎      <lb n='4'/>
+      ‎‏שמעון הכהן [ז״ל]‏‎
+‏‎      <lb n='5'/>
+      ‎‏בכפר פערניך גדול‏‎
+‏‎      <lb n='6'/>
+      ‎‏מת במבחר שנותיו‏‎
+‏‎      <lb n='7'/>
+      ‎‏ביום ג׳ י״א מרחשון‏‎
+‏‎      <lb n='8'/>
+      ‎‏ונקבר למחרתו ביו׳‏‎
+‏‎      <lb n='9'/>
+      ‎‏ד׳ י״ב בו שנת תרל״ג‏‎
+‏‎      <lb n='10'/>
+      ‎‏לפ״ק תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='links'>
+      <ab>
+      <lb n='11'/>
+      ‎‏[‎‏אש]ה צנועה ויקרה‏‎
+‏‎      <lb n='12'/>
+      ‎‏[‎‏מוכת]רת בכל מדה‏‎
+‏‎      <lb n='13'/>
+      ‎‏[‎‏ישרה] [ה]״ה מר׳ רוסעל‏‎
+‏‎      <lb n='14'/>
+      ‎‏[‎‏בת] [ר׳] אליעזר אשת‏‎
+‏‎      <lb n='15'/>
+      ‎‏נפתלי הכהן מתה‏‎
+‏‎      <lb n='16'/>
+      ‎‏ביום ש״ק כ״ז אייר‏‎
+‏‎      <lb n='17'/>
+      ‎‏ונקברה למחרתו ביו׳‏‎
+‏‎      <lb n='18'/>
+      ‎‏א׳ כ״ח בו שנת תרל״[ג]‏‎
+‏‎      <lb n='19'/>
+      ‎‏לפ״ק תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist verborgen
+     </ab>
+    </div>
+    <lb n='2'/>
+    ein Mann,lauter und aufrecht,
+    <lb n='3'/>
+    seine Ehren Herr Naftali Sohn des geehrten Herrn 
+    <lb n='4'/>
+    Schimon Hakohen seligen Andenkens(?)
+    <lb n='5'/>
+    im Dorf Großvernich
+    <lb n='6'/>
+    er starb in seinen besten Jahren
+    <lb n='7'/>
+    am Dienstag,11. Marcheschvan
+    <lb n='8'/>
+    und begraben am folgenden Tage
+    <lb n='9'/>
+    Mittwoch,12. desselben im Jahre 633
+    <lb n='10'/>
+    nach kleiner Zählung.Seine Seele sei eingebunden in das Bündel des Lebens 
+    <div type='textpart' subtype='links'>
+      <ab>
+      <lb n='11'/>
+      eine Frau,züchtig und teuer,
+      <lb n='12'/>
+      gekrönt mit allen aufrechten
+      <lb n='13'/>
+      Eigenschaften,das ist Frau Rosel
+      <lb n='14'/>
+      Tochter des Herrn Elieser Gattin des
+      <lb n='15'/>
+      Naftali Hakohen gestorben
+      <lb n='16'/>
+      am heiligen Schabbat,27. Ijar
+      <lb n='17'/>
+      und begraben am nächsten Tag,
+      <lb n='18'/>
+      Sonntag,28. desselben im Jahre 63[3]
+      <lb n='19'/>
+      nach kleiner Zählung. Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

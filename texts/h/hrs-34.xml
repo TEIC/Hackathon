@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1854-06-26, Jüdischer Friedhof Bornheim-Hersel</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hrs-34</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hrs-34</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hrs-34</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>167 x 65 x 15 cm.</dim>
+          </dimensions>
+          Hochrechteckige, sich leicht nach oben verjüngende Stele mit geschweiftem Flachbogenabschluß; umlaufender, zweifach gefaster Rahmen, das Schriftfeld ist vertieft. Die Inschrift ist rechtsbündig, Einleitungs- und Schlußformel zentriert. Geschlängelter Pfeil als Abkürzungszeichen über der Einleitungsformel und dem Todesjahr. Vgl. mit Nrn. 26, 29, 30 von 1859 und Nr. 33 von 1854 und vgl. mit Bor, Nrn. 109 und 110 von 1846 und Bor, Nr. 102 von 1852.
+         </p>
+        </support>
+        <condition>
+         <p> leicht verwittert und beschädigt.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1854-06-26'>1854-06-26</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038605'>
+        Bornheim-Hersel 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.721959 6.916017</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏האשה חשובה וצנועה‏‎
+‏‎     <lb n='3'/>
+     ‎‏מרת מאטכה בת כ״ה יצחק‏‎
+‏‎     <lb n='4'/>
+     ‎‏אשת כ״ה מרדכי מהערשל‏‎
+‏‎     <lb n='5'/>
+     ‎‏נפטרת ביום ב׳ א׳ דר״ח תמות (!)‏‎
+‏‎     <lb n='6'/>
+     ‎‏ונקברת בש״ט ג׳ ב׳ ר״ח תמות (!)‏‎
+‏‎     <lb n='7'/>
+     ‎‏תרי״ד לפ״ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     die Frau, angesehen und züchtig,
+     <lb n='3'/>
+     Frau Matche, Tochter des geehrten Herrn Jizchak,
+     <lb n='4'/>
+     Gattin des geehrten Herrn Mordechai aus Hersel,
+     <lb n='5'/>
+     verschieden am Tag 2, 1. Neumondstag Tammus,
+     <lb n='6'/>
+     und begraben mit gutem Namen (Tag) 3, 2. Neumondstag Tammus,
+     <lb n='7'/>
+     614 der kleinen Zählung. Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 5/6: Der Monatsname Tammus wurde mit (‎‏ת‏‎) taw statt sain (‎‏ז‏‎) geschrieben. Vermutlich war ein samech (‎‏ס‏‎) beabsichtigt, das allerdings auch nicht korrekt wäre. Bekanntlich wird ein unbetontes taw (t), das meist am Wortende vorkommt, in der aschkenasische Aussprache wie ein s ausgesprochen. In der hier verwendeten Schreibweise bekommt das Wort aber zusätzlich (unbeabsichtigt?) die Bedeutung "Du wirst sterben".</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Vgl. den formalen Aufbau der Inschrift und ihre einzeilige Eulogie mit Nr. 33, ebenfalls von 1854.</p>
+    <p>Dieses Grabmal ist das älteste erhaltene auf diesem Friedhof. Er ist Martha Kappel geb. Bock gewidmet, die sehr wahrscheinlich die erste war, die hier bestattet wurde. Ihr Neffe, Simon Bock, der am 23.2.1852 in Hersel starb, wurde noch auf dem Friedhof in Bornheim (Bor 102) begraben. Aus den 28 Monaten, die zwischen beider Tod lagen, gibt es keine Sterbeurkunden Herseler Juden.</p>
+    <p>Die unterschiedlichen Angaben zum Alter des Friedhofs faßte Pracht zusammen. Zerletts nicht belegte Datierung auf 1848 trifft nicht zu, weil der vier Jahre später verstorbene Herseler Simon Bock sicherlich hier begraben worden wäre. Eickelpoth, die sich auf Schulte und Diamant bezieht, die wiederum keine Quellen nennen, verzeichnet das Jahr 1853. Wird das Alter eines Friedhofs mit der ersten Bestattung gleichgesetzt, so ist hier das Jahr 1854 zu nennen.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Martha, auch Mada Kappel geb. Bock, wurde am 20.6.1774 (laut Heiratsurkunde des Sohnes Philipp ca. 1769, nach der Angabe in der Sterbeurkunde, die ihr Sohn Jacob Philipp machte, ca. 1764) in Hersel geboren. Am 14.7.1802 heiratete sie dort Markus Kappel. Sie starb daselbst am 26.6.1854.</p>
+    <p>Ihr Gatte, der Pferdehändler Marcus Kappel, war ein Sohn von Philipp Coppel und Veronica Marcus, die vor 1802 verstarb.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

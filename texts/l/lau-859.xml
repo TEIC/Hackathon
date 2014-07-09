@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jehuda ben Jaakow Schaul, gest. 1761-10-16, , gest. --, Jüdischer Friedhof Laupheim</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>lau-859</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=lau-859</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=lau-859</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Löwe</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='--'>--</date>
+       <country type="ISO_3166" key="XA-DE-BW">
+        Germany
+        <region>Baden-Württemberg</region>
+       </country>
+       <settlement type='city' key='tgn:1040058'>
+        Laupheim 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">48.231932 9.884036</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Hellmut Steiner, St. Gallen</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Laupheimer Fotokreis e.V.</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Michael Schick, Laupheim</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>Jüdische Gotteshäuser und Friedhöfe in Württemberg, hrsg. vom Oberrat der israelitischen Religionsgemeinschaft Württemberg, Stuttgart 1932, S. 96</catDesc>
+     </category>
+     <category xml:id='foto5'>
+      <catDesc>Stadtarchiv Laupheim</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="lau-859-1" sex='1'>
+      <persName>Jehuda ben Jaakow Schaul</persName>
+       <event when='1761-10-16' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="lau-859-2" sex='0'>
+      <persName></persName>
+       <event when='--' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picslau/xl/lau0859_N-09-01_1991.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏יהודא בר יעקב שאול‏‎
+‏‎     <lb n='3'/>
+     ‎‏הלך לעולם הנצחי ויעל‏‎
+‏‎     <lb n='4'/>
+     ‎‏ו׳ ד׳ סכת חסר והלך‏‎
+‏‎     <lb n='5'/>
+     ‎‏דרשו וספרו ב׳ש׳כ׳ר׳ מלך‏‎
+‏‎     <lb n='6'/>
+     ‎‏היה והוה יהיה לו עזר‏‎
+‏‎     <lb n='7'/>
+     ‎‏אבי שלום ואבי עזר‏‎
+‏‎     <lb n='8'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     Jehuda, Sohn des Jaakow Schaul,
+     <lb n='3'/>
+     er ging hin in die ewige Welt und stieg auf
+     <lb n='4'/>
+     am (Tag) 6, 4. von Sukkot, er wich und ging.
+     <lb n='5'/>
+     Predigt und erzählt vom vollen Lohn (522),
+     <lb n='6'/>
+     er war, ist und wird ihm Helfer sein,
+     <lb n='7'/>
+     Vater des Friedens und Vater der Hilfe.
+     <lb n='8'/>
+     Sei seine Seele eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Chronogramm</label>
+      ‎‏בשכר‏‎/"vom Lohn": Sterbejahr 522 (1761).
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 2-6: ‎‏יהודה‏‎/Jehuda.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3. Vgl. Koh 12,5.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Dieser Grabstein ist der älteste erhaltene auf dem Friedhof - tief in den Boden eingesunken überdauerte er nahezu unbeschadet die Zeit. Nur der Giebel, der aus dem Erdboden ragte, ist heute stark verwittert, die Inschrift ist jedoch fast vollständig erhalten. Nach seiner Hebung wurde der Grabstein im unteren Teil restauriert und auf einen Sockel gestellt. Da nicht alle Inschriften so ausführlich kommentiert werden konnten, soll an diesem Beispiel die Komplexität und Vielschichtigkeit einer hebräischen Grabinschrift angedeutet werden.</p>
+    <p>.</p>
+    <p>Die breite Stele mit scharriertem Rahmen schließt mit einem Rundbogen. Die Inschrift ist rechtsbündig angebracht, nur Einleitungs- und Schlußzeile stehen mittig und sind durch größere Buchstaben hervorgehoben. Die in ihrer Größe dem zur Verfügung stehenden Raum angepassten, etwas unregelmässigen schlichten Buchstaben füllen die Fläche des Schriftfelds, Abstände zwischen den Worten sind kaum zu erkennen. Punkte dienen als Abkürzungszeichen, kleine stilisierte Blüten markieren ein Akrostichon.</p>
+    <p>.</p>
+    <p>Die Inschrift ist besonders kunstvoll komponiert und durch verschiedene Stilmittel ausgeschmückt, jeweils zwei aufeinanderfolgende Zeilen weisen den gleichen Endreim auf.</p>
+    <p>Sie beginnt mit der üblichen abgekürzten Einleitungsformel "Hier ist begraben", dem folgt - hier ohne jede Titulatur oder Epitheton - der Name des Verstorbenen: "Jehuda, Sohn des Jaakow Schaul". Der Vorname wird durch das Akrostichon "Jehuda" wiederholt. Dies ist auch der Name einer der zwölf Stämme Israels. Im Segen, den Jakob über seine Söhne spricht, vergleicht er Jehuda mit einem jungen Löwen: "Jungleu, Jehuda, vom Raube, mein Sohn, kommst du herauf! Er kauert und streckt sich, wie Löwe und Löwin; wer hieße ihn aufstehen?" (Gen 49,9). Darauf weist im Giebel die Darstellung eines Löwen hin, der einzige in Laupheim, der aufrecht auf seinen Hinterläufen steht und seine Tatzen erhebt.</p>
+    <p>.</p>
+    <p>Jehuda ging hin in die ewige Welt und stieg empor zum Himmel, eine Anspielung auf 2 Könige 2,11 und den Propheten Elija, der nicht starb, sondern in einem Feuerwagen im Sturm gen Himmel fuhr. Das Sterbejahr ist mit einem Chronostichon angegeben, das in Zeile 4 durch Punkte über den Buchstaben des Wortes ‎‏בשכר‏‎/"vom Lohn" gekennzeichnet ist, dem Lohn Gottes, des Königs, der dem Verstorbenen zuteil werden wird: Jehuda starb an einem Freitag an Sukkot, des Laubhüttenfestes, im Jahr 522, das war in jenem Jahr der 18. Tischri, der 16. Oktober 1761. Meist wird ein Freitag mit "Rüsttag des heiligen Schabbat" angegeben, hier jedoch wählte man die kürzere Angabe (Tag) 6 als Teil des Akrostichons.</p>
+    <p>.</p>
+    <p>Die Wendung "Er wich und ging hinweg" ist angelehnt an Genesis 8,5, der Beschreibung des Rückgangs des Wassers nach der großen Sintflut. Damit wird wiederum Bezug auf das Sterbedatum Jehudas genommen, denn "die Arche ruhete am siebenten Monate, am siebzehnten Tage des Monats auf dem Berg Ararat" (Gen 8,4). In der alten Zeitrechnung war der Monat Tischri der siebte Monat des mit dem Frühlingsmonat Nissan beginnenden Jahres. Das Sterbedatum Jehudas fiel demnach auf den Tag nach der Landung der Arche auf dem Berg Ararat.</p>
+    <p>.</p>
+    <p>Anstelle einer Eulogie auf den Verstorbenen folgt nun das Lob Gottes, aus Gottesnamen komponiert. Besonders hervorgehoben wird hier der Beistand Gottes. Dies könnte auch eine weitere Anspielung auf den Namen Jehuda sein: Im Segen Moses über die zwölf Stämme heißt es über Jehuda: "Erhöre, Ewiger, die Stimme Jehuda's, und zu seinem Volke geleite ihn; ihm zur Seite streite für ihn, und Beistand sei ihm gegen seine Dränger" (Deut 33,7).</p>
+    <p>.</p>
+    <p>Die sehr dicht geschriebene Wendung "Er war, ist und wird sein ..." in Zeile 6 ist aus den Buchstaben des Tetragramms zusammengesetzt. Wörtlich heißt es: "Er war und ist, wird sein ...". Durch die Hinzufügung von ‎‏ו‏‎/"und" liest man auch das Tetragramm selbst: ‎‏יהוה‏‎. Hier wird das Gottvertrauen ausgedrückt und die Hoffnung auf die Auferstehung.</p>
+    <p>.</p>
+    <p>Auch Zeile 7 besteht aus zwei Gottesnamen. Der zweite ist angelehnt an Exodus 18,4: "Der Gott meines Vaters ist mein Beistand gewesen und hat mich gerettet vom Schwerte Pharao's". Dieser Vers wiederum ist eine Erklärung des Namens Elieser, "Mein Gott ist (mir) Beistand", und mag ein versteckter Hinweis auf einen Sohn des Verstorbenen sein, der seinem Vater den Grabstein setzte. Ob auch der zweite Teil des Verses vom schriftkundigen Leser mitgedacht und als ein Hinweis auf konkrete Ereignisse im Leben Jehudas zu sehen sein sollte, bleibt dahingestellt. Eine Identifizierung Jehudas aus anderen Quellen, die ein genaueres Licht auf sein Leben hätten werfen können, war leider nicht möglich.</p>
+    <p>.</p>
+    <p>Die Inschrift schließt mit dem üblichen Segenswunsch nach 2 Samuel 25,29: "Sei seine Seele eingebunden in das Bündel des Lebens".</p>
+    <p>.</p>
+    <p>Zum Datum: Das Sterbejahr 522 ist mit einem Chronogramm angegeben. Die Angabe des Sterbedatums läßt sich auf verschiedene Weise lesen: Jehuda starb entweder am Freitag, den 4. Tag von Sukkot, den 18. Tischri 5522, das ist der 16. Oktober 1761, oder er starb am 6. Tag von Sukkot, den 20. Tischri 5522, am 18. Oktober 1761. Normalerweise wäre zu erwarten, daß vor allem noch in jener Zeit der Freitag nicht mit "Tag 6", sondern als "Rüsttag des heiligen Schabbat" genannt wird, so daß man den 6. Tag von Sukkot als wahrscheinlicher ansehen könnte, doch da die Angabe hier Teil des Akrostichons ist, ist hier eine entgültige Entscheidung nicht möglich.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

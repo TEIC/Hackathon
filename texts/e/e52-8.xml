@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1797-12-11, Jüdischer Friedhof Gennep</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e52-8</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e52-8</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e52-8</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit geschweiftem und leicht eingezogenen Rundbogenabschluß, schmalem, scharrierten Rand und leicht vertieftem Schriftfeld. Die Kopfzeile folgte offensichtlich dem Bogenverlauf.
+         </p>
+        </support>
+        <condition>
+         <p>
+           Beschädigung stark, der Giebel fehlt teilweise. 
+          <damage agent='Verwitterung'>Verwitterung stark, die Inschrift ist fast völlig verwittert</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1797-12-11'>1797-12-11</date>
+       <country type="ISO_3166" key="XA-NL-LI">
+        Netherlands
+        <region>Limburg</region>
+       </country>
+       <settlement type='city' key='tgn:7262133'>
+        Gennep 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.695833 5.967222</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse52/xl/0008_E52_070906EPS7704hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse52/xl/0008_E52_070906EPS7709hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse52/xl/0008dE52_070906EPS7705qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse52/xl/0008dE52_070906EPS7706qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse52/xl/0008dE52_070906EPS7707qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse52/xl/0008dE52_070906EPS7708qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e52.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2013-11-26T14:24:19'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[‎‏־־־]‏‎
+‏‎     <lb n='2'/>
+     ‎‏י[...]‏‎
+‏‎     <lb n='3'/>
+     ‎‏מ[...]ת‏‎
+‏‎     <lb n='4'/>
+     ‎‏מיגיע ...‏‎
+‏‎     <lb n='5'/>
+     ‎‏איי. ש[...]‏‎
+‏‎     <lb n='6'/>
+     ‎‏..‎‏ע צא...‏‎
+‏‎     <lb n='7'/>
+     ‎‏..‎‏ש...‏‎
+‏‎     <lb n='8'/>
+     ‎‏ביום ב׳ כ״ב כסלו תקנ״ח לפ״ק‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה בג׳ עדן אמן‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     [---]
+     <lb n='2'/>
+     ...
+     <lb n='3'/>
+     ...
+     <lb n='4'/>
+     der Mühe ...
+     <lb n='5'/>
+     ...
+     <lb n='6'/>
+     ...
+     <lb n='7'/>
+     ...
+     <lb n='8'/>
+     am Tag 2, 22. Kislev 558 der kleinen Zählung.
+     <lb n='9'/>
+     Seine/Ihre Seele sei eingebunden in das Bündel des Lebens im Garten Eden, Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Inschrift ist bis auf einige Reste völlig verwittert, nur die letzten beiden Zeilen mit der Angabe des Datums und dem Schlußsegen ließen sich rekonstruieren. Aufgrund des am Anfang von Zeile 4 noch lesbaren Wortes "Mühe" könnte es sich um den Grabstein eines Mannes handeln, der dafür gelobt wurde, daß er "von seiner Hände Mühe genoß" (Ps 128,2). Die Angabe des Wochentages läßt nur das Jahr 558 (= 1797) als Todesjahr zu, da im Jahr 555 (= 1794) der 22. Kislev auf Tag 1 (Sonntag) fiel.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Van Dinter, dessen Buch über die jüdische Gemeinde Gennep im Jahr 1990 erschien, gibt (ohne weitere Quellenangabe) als Name des hier Begrabenen "Jacob (ben) Chaim" an, möglicherweise war damals noch mehr Text zu lesen. Van Dinter kann diesen Jacob Chaim jedoch nicht näher identifizieren. Drint, dessen Übersicht über die Limburger jüdischen Friedhöfe 1996 erschien, nennt keinen Namen und gibt als Sterbejahr, wie Van Dinter, das Jahr 1794 an (siehe dazu oben).</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

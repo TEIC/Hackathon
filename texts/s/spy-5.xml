@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1145, Jüdischer Friedhof Speyer</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>spy-5</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=spy-5</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=spy-5</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>39; 29 x 41; 36 x 14,5; 13,5 cm</dim>
+          </dimensions>
+          Zwei Fragmente einer Stele rechteckiger Gesamtform mit eingetieftem Schriftfeld gleicher Form. Erhalten sind die rechte und linke Ecke. Seitlich und oben umlaufender schmaler Rand. Das rahmende Profil besteht aus einem Falz. Kein Sockel erhalten.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1145'>1145</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7012341'>
+        Speyer 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.316541 8.439354</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Historisches Museum Speyer</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Laura Augustin</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsspy/xl/spy0005.1+2aa_l.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsspy/xl/spy0005.1aa_la.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsspy/xl/spy0005.2aa_la.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏תתק״[ו ל]פרט‏‎
+‏‎     <lb n='2'/>
+     ‎‏נפטר ר׳ משה‏‎
+‏‎     <lb n='3'/>
+     ‎‏ב״ר יע[קב הלוי]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     906 der Zählung
+     <lb n='2'/>
+     verschied Herr Mosche,
+     <lb n='3'/>
+     Sohn des Herrn Jaakow Halevi
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3: Ergänzung nach Kober und Rapp.</p>
+    <p>
+     <b>Literatur</b>
+    </p>
+    <p> Kober, Adolf, Jewish monuments of the middle ages in Germany. One hundred and ten tombstone inscriptions from Speyer, Cologne, Nuremberg and Worms (1085-1428), in: Proceedings of the American Academy for Jewish Research, (New York) 14 (1944), S. 149-220, hier: S. 192f., Nr. 3</p>
+    <p>Rapp, Eugen Ludwig, mit Beiträgen von Otto Böcher. Die ältesten hebräischen Inschriften Mitteleuropas in Mainz, Worms und Speyer. Probe eines Corpus aller mittelalterlichen hebräischen Epitaphien Mitteleuropas, in: Jahrbuch der Vereinigung der "Freunde der Universität Mainz", (Mainz) 9 (1959), S.38-85, hier: S. 69f., Nr. 30 und Abb. 15</p>
+    <p>Rapp, Eugen Ludwig, Beiträge zur Geschichte der Juden Speyers im Mittelalter. I. Die hebräischen Steininschriften im Speyerer Museum von 1112-1443, in: Mitteilungen des Historischen Vereins der Pfalz, (Speyer) 58 (1960), S. 150-188, hier: S. 157 (Abb. 5), S. 162, Nr. 5</p>
+    <p>Rapp, Eugen Ludwig, und Otto Böcher, Die mittelalterlichen hebräischen Epitaphien des Rheingebiets, in: Mainzer Zeitschrift. Mittelrheinisches Jahrbuch für Archäologie, Kunst und Geschichte, (Mainz) 56/57 (1961/62), S. 155-182, hier: S. 178, Speyer 5</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Vom Grabmal blieb nur der obere Teil, der aus drei Fragmenten besteht, wie die Abbildung bei Rapp zeigt. Im November 2011 waren im Magazin des Museums in Speyer nur noch zwei Fragmente auffindbar. Hinzu kommt, dass diese weitere (mechanische) Schäden aufweisen. Zu Kobers Zeiten und auch noch für Rapp waren vom letzten Wort in Zl. 3 (‎‏הלוי‏‎) noch Reste vom oberen Teil der Buchstaben zu erkennen.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

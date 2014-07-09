@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Rechele bat Schraga (Regine Thalheimer), gest. 1889-02-25, Awraham (Abraham Thalheimer), Jüdischer Friedhof Heilbronn</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hnn-5</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hnn-5</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hnn-5</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1889-02-25'>1889-02-25</date>
+       <country type="ISO_3166" key="XA-DE-BW">
+        Germany
+        <region>Baden-Württemberg</region>
+       </country>
+       <settlement type='city' key='tgn:7012495'>
+        Heilbronn 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.151944 9.234722</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hnn-5-1" sex='2'>
+      <persName>Rechele bat Schraga (Regine Thalheimer)</persName>
+       <event when='1889-02-25' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="hnn-5-2" sex='1'>
+      <persName>Awraham (Abraham Thalheimer)</persName>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='64'>Hebrew</language>
+    <language ident='de' usage='35'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='Links'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏אברהם בר לוי‏‎
+‏‎      <lb n='3'/>
+      ‎‏הלך תמים ופעל צדק‏‎
+‏‎      <lb n='4'/>
+      ‎‏השכים והעריב לעבד‏‎
+‏‎      <lb n='5'/>
+      ‎‏את בראו ויגוע וימת‏‎
+‏‎      <lb n='6'/>
+      ‎‏זקן ושבע ימים‏‎
+‏‎      <lb n='7'/>
+      ‎‏י״ט אדר ראשון‏‎
+‏‎      <lb n='8'/>
+      ‎‏תרנ״ד לפ״ק‏‎
+‏‎      <lb n='9'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Rechts'>
+      <ab>
+      <lb n='10'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='11'/>
+      ‎‏רחלה בת שרגא‏‎
+‏‎      <lb n='12'/>
+      ‎‏אשה ישרה ונעימה‏‎
+‏‎      <lb n='13'/>
+      ‎‏הלכה בדרך תמימה‏‎
+‏‎      <lb n='14'/>
+      ‎‏דרשה טוב בעלה‏‎
+‏‎      <lb n='15'/>
+      ‎‏ותמת רחל י״ג אדר א׳‏‎
+‏‎      <lb n='16'/>
+      ‎‏תרמ״ט לפ״ק‏‎
+‏‎      <lb n='17'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype=' verso'>
+      <ab>
+      <lb n='18'/>
+      Hier ruht
+      <lb n='19'/>
+      Regine Thalheimer
+      <lb n='20'/>
+      geb. 10. Dez. 1818.
+      <lb n='21'/>
+      gest. 14. Feb. 1889.
+      <lb n='22'/>
+      und ihr Gatte
+      <lb n='23'/>
+      Abraham Thalheimer
+      <lb n='24'/>
+      geb. 30. Dez. 1813.
+      <lb n='25'/>
+      gest. 25. Feb. 1894.
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='Links'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      Awraham Sohn des Levi,
+      <lb n='3'/>
+      er wandelte lauter und wirkte Wohltat,
+      <lb n='4'/>
+      frühmorgens und abends (eilte er) seinem Schöpfe
+      <lb n='5'/>
+      zu dienen, und er schied hin und starb
+      <lb n='6'/>
+      bejahrt und satt an Tagen
+      <lb n='7'/>
+      19. des ersten Adar
+      <lb n='8'/>
+      654 nach kleiner Zählung.
+      <lb n='9'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+    <div type='textpart' subtype='Rechts'>
+      <ab>
+      <lb n='10'/>
+      Hier ist begraben
+      <lb n='11'/>
+      Rechele, Tochter des Schraga,
+      <lb n='12'/>
+      eine aufrechte und liebenswürdige Frau,
+      <lb n='13'/>
+      sie wandelte auf makellosem Weg,
+      <lb n='14'/>
+      ›suchte das Wohl ihres Gatten‹,
+      <lb n='15'/>
+      und es starb Rachel (am) 13. des ersten Adar
+      <lb n='16'/>
+      649 nach kleiner Zählung.
+      <lb n='17'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 14: Est 10,3</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

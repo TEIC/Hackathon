@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Rös'che bat Aharon ∞ Michael Weisweiler, gest. 1705-06-19, Jüdischer Friedhof Eschweiler-Weisweiler (Alter Teil)</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>wsw-8</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=wsw-8</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=wsw-8</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>H: 85 cm B: 60 cm T: 17 cm</dim>
+          </dimensions>
+          Breitrechteckige Stele mit Rundbogenabschluss, Kopf- und Schlusszeile sind zentriert, die in übergroßen Lettern ausgeführte Kopfzeile ist in eine dreifache Blüte eingeschrieben.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift Die Buchstaben der Inschrift sind nur in Umrissen eingeritzt.</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1705-06-19'>1705-06-19</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1039022'>
+        Eschweiler-Weisweiler (Alter Teil) 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.825725 6.327385</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="wsw-8-1" sex='2'>
+      <persName>Rös'che bat Aharon ∞ Michael Weisweiler</persName>
+       <event when='1705-06-19' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נטמנה ונקברה האשה חשבה מרת‏‎
+‏‎     <lb n='3'/>
+     ‎‏ריזכה בת אהרן ז״ל אשת מיכאל ווייס‏‎
+‏‎     <lb n='4'/>
+     ‎‏וויילר ונפטרה ביום ו׳ עש״ק תס״ה ל׳‏‎
+‏‎     <lb n='5'/>
+     ‎‏ונקברה ביום א׳ כ״ט סיון תהא‏‎
+‏‎     <lb n='6'/>
+     ‎‏נשמתה צרורה בצרור החיים עם‏‎
+‏‎     <lb n='7'/>
+     ‎‏שאר צדיקים וצדקניות שבגן‏‎
+‏‎     <lb n='8'/>
+     ‎‏עדן אמן‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     ist geborgen und begraben die angesehene Frau, Frau
+     <lb n='3'/>
+     Rös'che, Tochter des Aharon, sein Andenken zum Segen, Gattin des Michael Weis-
+     <lb n='4'/>
+     weiler, und sie verschied am Tag 6, dem Rüsttag des heiligen Schabbat, 465 der Zählung
+     <lb n='5'/>
+     und wurde begraben am Tag 1, 29. Sivan. Es sei
+     <lb n='6'/>
+     ihre Seele eingebunden in das Bündel des Lebens mit
+     <lb n='7'/>
+     den übrigen gerechten Männern und Frauen, die im Garten
+     <lb n='8'/>
+     Eden sind, Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

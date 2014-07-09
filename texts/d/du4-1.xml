@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Elijahu ben Aharon (Eduard Gelber), gest. 1930-06-18, Sidonie Sondermann geb. Gelber, gest. 1934-05-29, Jüdischer Friedhof Duisburg, Waldfriedhof</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>du4-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=du4-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=du4-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>83 x 166 x 23; Sockel: 15 x 35 x 35</dim>
+          </dimensions>
+          Familiengrab: Breitrechteckige Muschelkalkstele mit geradem Abschluß auf zwei quaderförmigen Sockeln. Im vertieften Schriftfeld oben link der Familienname aus aufgesetzten Metallbuchstaben, darunter ein großer reliefierter Davidstern. Rechts daran anschließend drei rundbogig schließende, leicht erhöhte Schrifttafeln, deren mittlere durch ihre Höhe hervorgehoben ist. Sie sind jeweils durch aufgesetzte Metallbuchstaben beschriftet, wobei sich die mittlere, zeitlich früheste Inschrift deutlich durch ihre gelungene optische Gestaltung abhebt. Die rechte Tafel blieb unbeschriftet.
+         </p>
+        </support>
+        <condition>
+         <p>Ein Metallbuchstabe fehlt.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift Deutsche und hebräische Aufschrift in aufgesetzten Metallbuchstaben.</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Magen David</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1930-06-18'>1930-06-18</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7004923'>
+        Duisburg, Waldfriedhof 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.397456 6.769785</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="du4-1-1" sex='1'>
+      <persName>Elijahu ben Aharon (Eduard Gelber)</persName>
+       <event when='1930-06-18' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="du4-1-2" sex='0'>
+      <persName>Sidonie Sondermann geb. Gelber</persName>
+       <event when='1934-05-29' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='44'>Hebrew</language>
+    <language ident='de' usage='55'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsdu4/xl/0001_du4_1985.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsdu4/xl/0001_du4_2009.png'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsdu4/xl/0001ddu4_2005.png'>
+    <desc>
+    <ref target='#foto2'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Gelber
+     </ab>
+    </div>
+    <div type='textpart' subtype='Links:'>
+      <ab>
+      <lb n='2'/>
+      [S]idonie
+      <lb n='3'/>
+      Sondermann
+      <lb n='4'/>
+      geb. Gelber
+      <lb n='5'/>
+      geb. 30.1.1882
+      <lb n='6'/>
+      gest. 29.5.1934
+     </ab>
+    </div>
+    <div type='textpart' subtype='Mitte:'>
+      <ab>
+      <lb n='7'/>
+      Eduard
+      <lb n='8'/>
+      Gelber
+      <lb n='9'/>
+      geb. 23.4.1853
+      <lb n='10'/>
+      gest. 18.6.1930
+      <lb n='11'/>
+      ‎‏פ״נ ר׳ אליהו‏‎
+‏‎      <lb n='12'/>
+      ‎‏בן אהרון ז״ל‏‎
+‏‎      <lb n='13'/>
+      ‎‏בא אל אבותיו‏‎
+‏‎      <lb n='14'/>
+      ‎‏כ״ג סיון תר״ץ‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+     <ab></ab>
+    </div>
+    <lb n='11'/>
+    Hier ist begraben Herr Elijahu,
+    <lb n='12'/>
+    Sohn des Aharon, sein Andenken zum Segen,
+    <lb n='13'/>
+    er kam zu seinen Vätern
+    <lb n='14'/>
+    (am) 23. Sivan 690
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Eduard Gelbers Bestattung war die erste eines Juden auf dem Waldfriedhof.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Eduard Gelber stammte aus Galizien und war um 1898 nach Duisburg gekommen. Der Buchhalter und Versicherungskaufmann war Mitbegründer der Zionistischen Ortsgruppe Duisburg und Vertreter der Zionisten in der Repräsentanz und später im Gemeindevorstand. Seine Tochter Sidonie, Gattin des Philipp Sondermann, war ebenfalls zionistisch orientiert und wirkte als ehrenamtliche Betreuerin im Kinderhort. Drei Monate nach Eduard Gelbers Tod hatte seine Witwe Erna (Ernestine) geb. Sperling seine und die nebenliegenden Grabstelle (Nrn. 1-2) für je 150 Mark käuflich erworben, kurz darauf auch noch eine dritte (Nr. 3). Die vermutlich frei gebliebene Grabstelle war wohl für sie selbst bestimmt. Sie flüchtete jedoch 1938 zu ihrem Sohn Erich nach Holland und starb 1941 in Arnheim.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

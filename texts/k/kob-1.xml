@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sara bat Awraham, gest. 1330-10-31, Jüdischer Friedhof Koblenz [Mittelalterliche Grabsteine]</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>kob-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=kob-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=kob-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Trachyt</material>
+          <dimensions>
+           <dim>(H/B/T) Gesamtmaß: 68 x 61 x 13; Schriftfeld: 52 x 50</dim>
+          </dimensions>
+          Die Grabstele weist am oberen Rand eine dezente architektonische Gliederung auf; das eingetiefte Inschriftenfeld wird durch einen Fries von stark bestoßenen gotischen Spitzbögen begrenzt. Neben den drei erkennbaren ist ein vierter gotischer Spitzbogen in der linken oberen Ecke anzunehmen. Die ursprüngliche Breite des Grabsteins ist in Höhe der beiden unteren Zeilen des Inschriftenfeldes zu erkennen. Die Grabinschrift in Form von tief eingemeißelten Buchstaben in hebräischer Quadratschrift befindet sich in einem einfachen rechteckigen Feld, das von einem geraden und an der rechten und linken Seite vorspringenden Rand von ca. 5 cm Breite begrenzt wird.
+         </p>
+        </support>
+        <condition>
+         <p>Während die rechte Seite des Grabsteins vollständig erhaltene Zeilenanfänge bietet, ist der linke Rand unter Verlust einiger Buchstaben am Zeilenende abgebrochen. Weitere kleine Fehlstellen sind am unteren Rand des Grabsteins festzustellen.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1330-10-31'>1330-10-31</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7004448'>
+        Koblenz [Mittelalterliche Grabsteine] 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.360775 7.595994</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Generaldirektion Kulturelles Erbe Rheinland-Pfalz, Direktion Landesarchäologie, Außenstelle Koblenz, Foto: Ulrich Pfeuffer</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Landeshauptarchiv Koblenz, Foto: ^# Michael Jordan</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Bildindex der Kunst und Architektur - Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="kob-1-1" sex='2'>
+      <persName>Sara bat Awraham</persName>
+       <event when='1330-10-31' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='97'>Hebrew</language>
+    <language ident='de' usage='2'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picskob/xl/0001_GDKE Foto Ulrich Pfeuffer.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏עד הגל הזה ועדה‏‎
+‏‎     <lb n='2'/>
+     ‎‏המצבה אשר קמה ו[גם]‏‎
+‏‎     <lb n='3'/>
+     ‎‏נצבה לראש תמימ[ה]‏‎
+‏‎     <lb n='4'/>
+     ‎‏והנעימה מרת שרה‏‎
+‏‎     <lb n='5'/>
+     ‎‏בת ר׳ אברהם שנפט[רה]‏‎
+‏‎     <lb n='6'/>
+     ‎‏י״ז במרחשון צ״א ל[פרט]‏‎
+‏‎     <lb n='7'/>
+     ‎‏ליום ד׳ ת[צ]רור בצר[ור]‏‎
+‏‎     <lb n='8'/>
+     ‎‏החיים עם שאר צדיק[י]‏‎
+‏‎     <lb n='9'/>
+     ‎‏עולם אמן‏‎
+‏‎     <lb n='10'/>
+     ‎‏ואמן ס[לה‏‎]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Zeuge dieser Hügel, und Zeugin
+     <lb n='2'/>
+     die Stele‹, die ›aufgestellt und auch
+     <lb n='3'/>
+     aufgerichtet‹ (steht) zu Häupten einer Lauteren
+     <lb n='4'/>
+     und der Angenehmen, Frau Sara,
+     <lb n='5'/>
+     Tochter des Herrn Awraham, die verschieden ist
+     <lb n='6'/>
+     17. Marcheschvan 91 der Zählung,
+     <lb n='7'/>
+     am vierten Tag. Eingebunden sei sie in das Bündel
+     <lb n='8'/>
+     des Lebens mit den übrigen Gerechten
+     <lb n='9'/>
+     der Welt. Amen
+     <lb n='10'/>
+     und Amen Sela
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1f: Gen 31,52</p>
+    <p>Zl 2f: nach Gen 37,7</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3: Am Ende der Zeile liest Offerhaus ‎‏הבסימ[ה‏‎]‏‎ statt ‎‏תמימה‏‎ nach unserer Lesung und übersetzt mit "liebenswürdig".</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

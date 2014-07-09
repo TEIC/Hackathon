@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Rechle bat Schlomo Rheinbach ∞ Schimon ben Israel Jizchak, gest. 1730-10-04, Jüdischer Friedhof Altena</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>alt-6</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=alt-6</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=alt-6</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hohe Stele mit zweifach eingezogenem, mit Linien verziertem Rundbogenabschluss.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2012</date>
+           Beschädigung am Giebel.
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>gestalterisch</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1730-10-04'>1730-10-04</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7006098'>
+        Altena 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.304016 7.671876</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+     <category xml:id='foto1'>
+      <catDesc>Jürgen Wagner, Altena</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="alt-6-1" sex='2'>
+      <persName>Rechle bat Schlomo Rheinbach ∞ Schimon ben Israel Jizchak</persName>
+       <event when='1730-10-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsalt/xl/0006_alt.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נקבר הצדקת‏‎
+‏‎     <lb n='3'/>
+     ‎‏רעכלה בת שלמה‏‎
+‏‎     <lb n='4'/>
+     ‎‏ריינבך אשת כמ״ר‏‎
+‏‎     <lb n='5'/>
+     ‎‏שמעון בר ישראל‏‎
+‏‎     <lb n='6'/>
+     ‎‏יצחק שנפטר׳ ביום ד׳‏‎
+‏‎     <lb n='7'/>
+     ‎‏כ״ג תשרי תצ״א ונקבר׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏בא״ח ושבק׳ חיים לכל‏‎
+‏‎     <lb n='9'/>
+     ‎‏חי שהכניס׳ אור חיים‏‎
+‏‎     <lb n='10'/>
+     ‎‏וגמלת חסד עם‏‎
+‏‎     <lb n='11'/>
+     ‎‏ישראל ימיה‏‎
+‏‎     <lb n='12'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     ist begraben die Gerechte,
+     <lb n='3'/>
+     Rechle, Tochter des Schlomo
+     <lb n='4'/>
+     Rheinbach, Gattin des geehrten Herrn
+     <lb n='5'/>
+     Schimon, Sohn des Israel
+     <lb n='6'/>
+     Jizchak, welche verschied am Tag 4,
+     <lb n='7'/>
+     23. Tischri 491, und begraben wurde
+     <lb n='8'/>
+     am Nachfeiertag ›und das Leben ließ wie alles
+     <lb n='9'/>
+     Lebende‹, welche gastfreundlich war
+     <lb n='10'/>
+     und Liebeswerk erwies mit
+     <lb n='11'/>
+     Israel (all) ihre Tage
+     <lb n='12'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 8f: nach bBer 61b</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 8: Das Wort "Gäste", ‎‏אורחים‏‎, wurde hier falsch geschrieben, so dass irrtümlich die Worte ‎‏אור חיים‏‎, "Licht des Lebens" zu lesen sind.</p>
+    <p>Zl 10: Hier fehlt offensichtlich das Wort ‎‏כל‏‎, "all".</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Rechle starb am hier nicht eigens erwähnten Tag der Torafreude, dem feierlichen Abschluss und Neubeginn des jährlichen Lesezyklusses der Tora in der Synagoge, und wurde am Tag darauf, dem Nachfeiertag des Laubhüttenfestes, begraben.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Rechle, Tochter des Salomon Rheinbach, war vermutlich die (erste?) Gattin des Krämers Simon Israel, der im Einwohnerbuch von 1738 aufgeführt ist mit einer Frau, einer bzw. einem Verwandten, einem Sohn und drei Töchtern, und der zwischen 1757 und 1760 starb.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

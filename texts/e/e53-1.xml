@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jehuda ben Josef Mosche, gest. 1851-11-17, Jüdischer Friedhof Roermond, Oude kerkhof (oude deel)</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e53-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e53-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e53-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit leicht eingezogenem Rundbogenabschluß und schmalem, scharrierten Rand; im Bogenfeld eine runde Vertiefung mit den erhabenen Buchstaben der abgekürzten Einleitungsformel.
+         </p>
+        </support>
+        <condition>
+         <p> Beschädigung leicht am äußeren Rand, ein langer Riss läuft quer durch den Stein.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft und erhaben</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1851-11-17'>1851-11-17</date>
+       <country type="ISO_3166" key="XA-NL-LI">
+        Netherlands
+        <region>Limburg</region>
+       </country>
+       <settlement type='city' key='tgn:7006856'>
+        Roermond, Oude kerkhof (oude deel) 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.181102 6.00074</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e53-1-1" sex='1'>
+      <persName>Jehuda ben Josef Mosche</persName>
+       <event when='1851-11-17' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse53/xl/0001_E53_070916EPS8338hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏עדה המצבה ועד הגל הזה ׃‏‎
+‏‎     <lb n='2'/>
+     ‎‏על ישרת לב ׃‏‎
+‏‎     <lb n='3'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='4'/>
+     ‎‏האיש הישר והנדיב ׃ הולך‏‎
+‏‎     <lb n='5'/>
+     ‎‏תמים ופועל צדק ׃ הנקרא‏‎
+‏‎     <lb n='6'/>
+     ‎‏כ״מ יהודה ב״ר יוסף משה ז״ל‏‎
+‏‎     <lb n='7'/>
+     ‎‏שהלך לעולמו ביום ב׳ כ״ב חשון‏‎
+‏‎     <lb n='8'/>
+     ‎‏ונקבר ביום ד׳ לחדש הנזכר‏‎
+‏‎     <lb n='9'/>
+     ‎‏שנת תרי״ב לפ״ק‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='11'/>
+     ‎‏עכמעי״א‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Zeugin sei diese Stele und Zeuge sei dieser Hügel‹ 
+     <lb n='2'/>
+     von der Aufrichtigkeit des Herzens
+     <lb n='3'/>
+     Hier ist begraben
+     <lb n='4'/>
+     der aufrechte und wohltätige Mann, der ›lauter 
+     <lb n='5'/>
+     wandelt und Wohltat wirkt‹ , genannt
+     <lb n='6'/>
+     der geehrte Herr Jehuda, Sohn des Herrn Josef Mosche, sein Andenken zum Segen,
+     <lb n='7'/>
+     ›der in seine Welt hinging‹ am Tag 2, 22. Cheschvan,
+     <lb n='8'/>
+     und begraben wurde am Tag 4 des genannten Monats
+     <lb n='9'/>
+     des Jahres 612 der kleinen Zählung.
+     <lb n='10'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+     <lb n='11'/>
+     mit allen Toten des Volkes Israels, Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 31,52</p>
+    <p>Zl 4f: Ps 15,2</p>
+    <p>Zl 7: Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1-2: Die Zeilen folgen dem Bogenverlauf.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

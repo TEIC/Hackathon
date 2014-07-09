@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1856-03-11, Jüdischer Friedhof Bornheim-Walberberg</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>wal-7</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=wal-7</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=wal-7</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>90 x 33,5 x 14 cm.</dim>
+          </dimensions>
+          Hochrechteckige Stele mit geschweiftem Flachbogenabschluß, darin (Reste von) segnenden Priesterhänden.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>sehr stark verwittert.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Priesterhände</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1856-03-11'>1856-03-11</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:4011994'>
+        Bornheim-Walberberg 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.792193 6.90509</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש צד[י]ק [...]‏‎
+‏‎     <lb n='3'/>
+     ‎‏[...]‏‎
+     <lb n='4'/>
+     ‎‏[...]‏‎
+     <lb n='5'/>
+     ‎‏[...]‏‎
+     <lb n='6'/>
+     ‎‏[...]‏‎
+     <lb n='7'/>
+     ‎‏[...] ‎‏כ״ץ הלך ל[עולמו]‏‎
+‏‎     <lb n='8'/>
+     ‎‏ביו׳ ג׳ [... אד]ר שני ונקבר [...]‏‎
+‏‎     <lb n='9'/>
+     ‎‏בשם טו[ב ...] שנת [...]‏‎
+‏‎     <lb n='10'/>
+     ‎‏[‎‏תנצ]ב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein Mann, ger[e]cht [...]
+     <lb n='3'/>
+     [...]
+     <lb n='4'/>
+     [...]
+     <lb n='5'/>
+     [...]
+     <lb n='6'/>
+     [...]
+     <lb n='7'/>
+     [...] KaZ, er ging hin in [seine Welt]
+     <lb n='8'/>
+     am Tag 3, [...] des zweiter [Ada]r und wurde begraben [...] 
+     <lb n='9'/>
+     mit gut[em] Namen[...] des Jahres [...]. 
+     <lb n='10'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 7: Koh 12,5.</p>
+    <p>Zl 9a: bBer 17a.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die noch lesbaren Teile des Namens und des Datums stimmen mit den Angaben bei Schulte sowie mit der entsprechenden Sterburkunde überein, sodaß die Identifizierung und Zuordnung eindeutig ist.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Michael, auch Michel Katz, wurde ca. 1774 in Weilerswist geboren. Ort und Jahr seiner Eheschließung konnten nicht ermittelt werden. Er starb am 11.3.1856 in Walberberg.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

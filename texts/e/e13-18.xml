@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mosche ben Israel (Moses Wihl), gest. 1842-10-04, Jüdischer Friedhof Grevenbroich-Wevelinghoven</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e13-18</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e13-18</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e13-18</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit leicht eingezogenem Rundbogenabschluß und vertieftem Schriftfeld.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>1986: Verwitterung stark. 2007: Die Verwitterung hat weiter zugenommen.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1842-10-04'>1842-10-04</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1041796'>
+        Grevenbroich-Wevelinghoven 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.102276 6.626595</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e13-18-1" sex='1'>
+      <persName>Mosche ben Israel (Moses Wihl)</persName>
+       <event when='1842-10-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='60'>Hebrew</language>
+    <language ident='de' usage='39'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse13/xl/0018_E13_070616EPS0280hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse13/xl/0018dE13_070616EPS0276hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏ציון הלז‏‎
+‏‎     <lb n='2'/>
+     ‎‏הוקם על ראש איש זקן תם‏‎
+‏‎     <lb n='3'/>
+     ‎‏וישר הולך ש[...] כ״ה משה‏‎
+‏‎     <lb n='4'/>
+     ‎‏ויהל בן ישראל [פרנס ו]מנהיג‏‎
+‏‎     <lb n='5'/>
+     ‎‏דק״ק וועפעלינגהא[פ]ען הו׳‏‎
+‏‎     <lb n='6'/>
+     ‎‏נולד בוויי[...]האפען‏‎
+‏‎     <lb n='7'/>
+     ‎‏ארץ [...] הלך לעולמ׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏[...] ‎‏תר״ג‏‎
+‏‎     <lb n='9'/>
+     ‎‏לפרט קטן תנצב״ה‏‎
+‏‎     <lb n='10'/>
+     Dem Andenken
+     <lb n='11'/>
+     unseres geliebten Vaters
+     <lb n='12'/>
+     Moses Wihl
+     <lb n='13'/>
+     von
+     <lb n='14'/>
+     seiner Gattin u. seinen Kindern
+     <lb n='15'/>
+     geb. 28. Octob. 1772
+     <lb n='16'/>
+     gest. 4. Octob. 1842.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Dieses Zeichen
+     <lb n='2'/>
+     wurde errichtet zu Häupten eines Mannes, betagt, ›lauter
+     <lb n='3'/>
+     und aufrecht‹ , er wandelt ..., der geehrte Herr Mosche
+     <lb n='4'/>
+     Wihl, Sohn des Israel, Vorsteher und Leiter
+     <lb n='5'/>
+     der heiligen Gemeinde Wevelinghoven, er?
+     <lb n='6'/>
+     wurde geboren in Wei...hoven
+     <lb n='7'/>
+     (im?) Land ... ›er ging hin in (seine) Welt‹ 
+     <lb n='8'/>
+     ... 603
+     <lb n='9'/>
+     der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2f: Ijob 1,8</p>
+    <p>Zl 7: Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der Metzger und Ellenwarenhändler Moses Israel kam von Widdeshoven nach Wevelinghoven und nahm 1808 den Namen Moses Wihl an. Er war Vorsteher seiner Gemeinde, 1807 auch in Wickrath, und erteilte auch Religionsunterricht in Wevelinghoven und Jüchen. Verheiratet war er mit Tiltz Salomon / Walburga Levenstein aus Wevelinghoven. Sein Sohn David wurde im Jahr 1800 geboren, 1825 bestand er die Prüfung als "Lehrer an einer mosaischen Elementarschule". Davids Bruder Ludwig Wihl wurde 1806 geboren, besuchte das Gymnasium in Köln, studierte in Köln und Bonn und promovierte 1838 zum Dr. phil. Da ihm aufgrund seiner Weigerung, sich taufen zu lassen, eine Philosphie-Professur verwehrt blieb, wurde er Journalist, Schriftsteller und Lyriker, stand mit Heinrich Heine im Briefwechsel und gründete in Frankfurt eine jüdische Schule. 1888 starb er in Brüssel. Sein Bruder Israel wurde Geschäftsmann in Wevelinghoven, er war mit Adelheid Meyer aus Jüchen verheiratet. Weitere Geschwister waren vermutlich der 1808 geborene Salomon, der 1810 geborene Bernard und die 1812 geborene Giulianette sowie Johanna und Veilchen Wihl.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

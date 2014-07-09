@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Serche bat Ascher, gest. 1852-11-25, Schmuel ben Ascher, gest. 1853-05-07, Jüdischer Friedhof Schiefbahn, Bertzweg</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e09-22</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e09-22</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e09-22</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hohes und dickes Doppelmal mit flachem, pyramidalem Abschluß.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1985</date>
+           Gut erhalten.
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1852-11-25'>1852-11-25</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1041092'>
+        Schiefbahn, Bertzweg 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.245282 6.55033</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e09-22-1" sex='2'>
+      <persName>Serche bat Ascher</persName>
+       <event when='1852-11-25' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="e09-22-2" sex='1'>
+      <persName>Schmuel ben Ascher</persName>
+       <event when='1853-05-07' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse09/xl/0068_E09_070610EPS1973hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ // פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏סרכא בת // שמואל בר‏‎
+‏‎     <lb n='3'/>
+     ‎‏אשר נפטר // אשר נפטר‏‎
+‏‎     <lb n='4'/>
+     ‎‏י״ד כסלו // כ״ט ניסן‏‎
+‏‎     <lb n='5'/>
+     ‎‏תרי״ג לפ״ק // תרי״ג לפ״ק‏‎
+‏‎     <lb n='6'/>
+     ‎‏תנצב״ה // תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben // Hier ist begraben
+     <lb n='2'/>
+     Serche, Tochter des // Schmuel, Sohn des
+     <lb n='3'/>
+     Ascher, verschieden // Ascher, verschieden
+     <lb n='4'/>
+     14. Kislev // 29. Nissan
+     <lb n='5'/>
+     613 der kleinen Zählung. // 613 der kleinen Zählung.
+     <lb n='6'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens // Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Dieses Grabmal stammt vom jüdischen Friedhof Gustorf-Gindorf, der dem Braunkohletagebau weichen mußte und 1957 auf den Friedhof in Schiefbahn am Bertzweg umgebettet wurde.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Laut Schulte ist Schmuel, Sohn des Ascher, identisch mit Joseph Behr, Sohn des Andreas Behr und der Mechtild Levano, der 1799/1800 in Gustorf geboren worden war. Laut Schulte liegt neben ihm seine Gattin Josepha Behr begraben, die jedoch nach Cames/Herlitz eine Tochter von Aron (nicht Ascher) Behr gewesen war. Möglicherweise handelt es sich jedoch um seine Schwester Josepha, die 1797 geboren wurde. Joseph Behr gehörte 1851 zu den acht Repräsentanten der Synagogengemeinde Grevenbroich.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Israel Josef ben Aharon, gest. 1654, Jüdischer Friedhof Rüthen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>rth-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=rth-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=rth-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit Rundbogenabschluß.
+         </p>
+        </support>
+        <condition>
+         <p> Beschädigungen, vor allem am rechten Rand, mittlere Verwitterung.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1654'>1654</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7100771'>
+        Rüthen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.493816 8.431921</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Hermann J. Krämer, Rüthen</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="rth-2-1" sex='1'>
+      <persName>Israel Josef ben Aharon</persName>
+       <event when='1654' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsrth/xl/0002_rth_2008.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏שנת‏‎
+‏‎     <lb n='2'/>
+     ‎‏[..]‎‏ט״ו לפ״ק‏‎
+‏‎     <lb n='3'/>
+     ‎‏[‎‏פ]ה טמון היקר והנ‏‎
+‏‎     <lb n='4'/>
+     ‎‏[‎‏ע]ים כמ״ר ישראל‏‎
+‏‎     <lb n='5'/>
+     ‎‏[‎‏י]וסף בן מהור״ר אהרן‏‎
+‏‎     <lb n='6'/>
+     ‎‏[‎‏ז״]ל נפטר בשבת קד׳‏‎
+‏‎     <lb n='7'/>
+     ‎‏[..] ‎‏תשרי תנצב״ה‏‎
+‏‎     <lb n='8'/>
+     ‎‏עם שאר צדיקים‏‎
+‏‎     <lb n='9'/>
+     ‎‏שבג״ע אמן‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Jahr
+     <lb n='2'/>
+     (4?)15 der kleinen Zählung
+     <lb n='3'/>
+     Hier ist geborgen der Teure und
+     <lb n='4'/>
+     Liebenswürdige, der geehrte Herr Israel
+     <lb n='5'/>
+     Josef, Sohn unseres Lehrers, des Meisters, Herrn Aharon,
+     <lb n='6'/>
+     sein Andenken zum Segen, verschieden am heiligen Schabbat,
+     <lb n='7'/>
+     ... Tischri. Seine Seele sei eingebunden in das Bündel des Lebens
+     <lb n='8'/>
+     mit den übrigen Gerechten,
+     <lb n='9'/>
+     die im Garten Eden, Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Aufgrund der erhaltenen Reste der Jahresangabe, der Gestaltung des Steines und der Buchstaben, und vor allem angesichts der Lage des Steines nahe beim Hachtor handelt es sich vermutlich um einen Grabstein aus dem Jahr ‎‏תט״ו‏‎ / 1654, dann würde es sich um den ältesten erhaltenen Grabstein des Friedhofs handeln. Mögliche Sterbetage sind der 1. Tischri (Neujahrstag) (12.09.1654), der 8. Tischri (19.09.1654), der 15. Tischri (1. Tag von Sukkot) (26.09.1654), der 22. Tischri (Schemini Azeret) (03.10.1654) und der 29. Tischri (10.10.1654). Nicht ausgeschlossen ist jedoch, daß es sich um einen Grabstein aus dem Jahr ‎‏תקט״ו‏‎ / 1754 handelt, dann fiel der Sterbetag auf einen Schabbat, den 5. Tischri (21.09.1754), den 12. Tischri (28.09.1754), den 19. Tischri (05.10.1754) oder den 26. Tischri (12.10.1754).</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>In den im Stadtarchiv erhaltenen Quellen aus dem 17. und 18. Jahrhundert ließ sich kein Jude nachweisen, der sich mit dem hier Begrabenen in Verbindung bringen ließe. Vermutlich handelte es sich um einen Auswärtigen.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

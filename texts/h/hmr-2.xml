@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Uri Aharon Jehonatan ben Mosche Halevi, gest. 1713-06-26, Jüdischer Friedhof Hammerstein</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hmr-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hmr-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hmr-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1713-06-26'>1713-06-26</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7005100'>
+        Hammerstein 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.459287 7.475799</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hmr-2-1" sex='1'>
+      <persName>Uri Aharon Jehonatan ben Mosche Halevi</persName>
+       <event when='1713-06-26' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏האבן‏‎
+‏‎     <lb n='2'/>
+     ‎‏הזאת שמתי‏‎
+‏‎     <lb n='3'/>
+     ‎‏מצבה לראש‏‎
+‏‎     <lb n='4'/>
+     ‎‏האלוף והתורנ‏‎
+‏‎     <lb n='5'/>
+     ‎‏י החבר רבי אורי‏‎
+‏‎     <lb n='6'/>
+     ‎‏אהרן יהונתן בן הח‏‎
+‏‎     <lb n='7'/>
+     ‎‏בר רבי משה הלוי‏‎
+‏‎     <lb n='8'/>
+     ‎‏ז״ל הלך לעולמו‏‎
+‏‎     <lb n='9'/>
+     ‎‏ביום ב׳ ב׳ תמוז תע״ג‏‎
+‏‎     <lb n='10'/>
+     ‎‏ל׳ תנצב״ה‏‎
+‏‎     <lb n='11'/>
+     ‎‏האמרשטיין‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Diesen Stein
+     <lb n='2'/>
+     setzte ich
+     <lb n='3'/>
+     als Stele‹ zu Häupten
+     <lb n='4'/>
+     des Vornehmen und Torakundigen,
+     <lb n='5'/>
+     des toragelehrten Herrn Uri
+     <lb n='6'/>
+     Aharon Jehonatan, Sohn des
+     <lb n='7'/>
+     toragelehrten Herrn Mosche Halevi,
+     <lb n='8'/>
+     sein Andenken zum Segen, ›er ging hin in seine Welt‹ 
+     <lb n='9'/>
+     am Tag 2, 2. Tammus 473
+     <lb n='10'/>
+     der Zählung. Seine Seele sei eingebunden in das Bündel des Lebens.
+     <lb n='11'/>
+     Hammerstein
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zln 1-3: Gen 28,22</p>
+    <p>Zl 8: Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

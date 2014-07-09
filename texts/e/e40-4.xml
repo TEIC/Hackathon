@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sara bat Jehuda (Sara Baum geb. Marx), gest. 1896-12-31, Jizchak ben Schlomo (Isaak Baum), gest. 1913-02-11, Jüdischer Friedhof Viersen-Süchteln</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e40-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e40-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e40-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hohe, sich nach oben verjüngende Stele aus Scheinmauerwerk mit Flachbogenabschluß und eingesetzter Schrifttafel mit erhabener Schrift in einzelnen Schriftfeldern (hebräische Inschriften) bzw. -bändern (deutsche Inschriften).
+         </p>
+        </support>
+        <condition></condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='ornament'>Stern mit Strahlen.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1896-12-31'>1896-12-31</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1040985'>
+        Viersen-Süchteln 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.285627 6.358901</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e40-4-1" sex='2'>
+      <persName>Sara bat Jehuda (Sara Baum geb. Marx)</persName>
+       <event when='1896-12-31' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="e40-4-2" sex='1'>
+      <persName>Jizchak ben Schlomo (Isaak Baum)</persName>
+       <event when='1913-02-11' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='68'>Hebrew</language>
+    <language ident='de' usage='31'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse40/xl/0004_E40_070801EPS5156hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse40/xl/0004dE40_070801EPS5157hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ // פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשת חיל תפארת // איש חכם ויקר מהולל‏‎
+‏‎     <lb n='3'/>
+     ‎‏בעלה ובניה, תמימה // בשערים, רועה עדתו בצדק‏‎
+‏‎     <lb n='4'/>
+     ‎‏וישרה ונעימה במעשיה, // ובמישרים, פארוהו בני עמו‏‎
+‏‎     <lb n='5'/>
+     ‎‏לעני ולאביון פרשה כפיה // וכבדוהו שרים, זכרו‏‎
+‏‎     <lb n='6'/>
+     ‎‏לגמול חסד ואמת כל ימיה, // לא יסוף לדור דורים‏‎
+‏‎     <lb n='7'/>
+     ‎‏ה״ה מרת שרה בת יהודה // רבי יצחק בר ר׳ שלמה‏‎
+‏‎     <lb n='8'/>
+     ‎‏מתה ביום כ״ו טבת תקנ״ז לפ״ק // מת ביום ד׳ אדר ראשון תרע״ג לפ״ק‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה ׃‏‎
+‏‎     <lb n='10'/>
+     Hier ruhen
+     <lb n='11'/>
+     meine innigstgeliebten Eltern
+     <lb n='12'/>
+     Herr // Frau
+     <lb n='13'/>
+     Isaak Baum // Sara Baum
+     <lb n='14'/>
+     geb. 18. März // geb. Marx
+     <lb n='15'/>
+     1824, // geb. 28. Mai 1831,
+     <lb n='16'/>
+     gest. 11. Februar 1913. // gest. 31. Dezember 1896.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben // Hier ist begraben
+     <lb n='2'/>
+     ›die tüchtige Gattin‹, Zierde // ein Mann, weise und teuer, gepriesen
+     <lb n='3'/>
+     ihres Gatten und ihre Kinder, lauter, // in den Toren, Hirte seiner Gemeinde in Gerechtigkeit
+     <lb n='4'/>
+     aufrecht und anmutsvoll in ihren Taten, // und Geradheit, es rühmten ihn seine Volksgenossen
+     <lb n='5'/>
+     ›dem Armen und dem Bedürftigen öffnete sie ihre Hände‹, // und es ehrten ihn Fürsten, sein Andenken
+     <lb n='6'/>
+     ›um wahrhaftiges Liebeswerk zu erweisen all ihre Tage‹, // wird nicht enden, Generation um Generation,
+     <lb n='7'/>
+     es ist Frau Sara, Tochter des Jehuda, // Herr Jizchak, Sohn des Herrn Schlomo,
+     <lb n='8'/>
+     gestorben am 26. Tag des Tewet 557 der kleinen Zählung. // gestorben am 4. Tag des ersten Adar 673 der kleinen Zählung.
+     <lb n='9'/>
+     Ihre Seelen seien eingebunden in das Bündel des Lebens :
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 31,10</p>
+    <p>Zl 5: Spr 21,20</p>
+    <p>Zl 6: Vgl. Gen 24,49 u. ARN 4</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Isaak Baum: Reim auf -im in Zln 2-6.
+    </p>
+    <p>
+     <label>Reim</label>
+      Sara Baum: Reim auf -ejha in Zln 2-6.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Isaak Baum ist in einer Übersicht über die Einkommenssteuerleistung Süchtelner Juden 1889-1907 als Metzger in den Jahren 1889/90 bis 1899 genannt. Sein Vater Salomon, Sohn von Gertrud Wolf, der Witwe von Moses Isaac, hatte 1808 den Familiennamen Baum angenommen.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

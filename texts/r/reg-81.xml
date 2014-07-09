@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für David ben Feibelmann Wertheim (David Philippsohn Wertheimber), gest. 1837-05-02, Jüdischer Friedhof Regensburg, Neuer Friedhof</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>reg-81</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=reg-81</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=reg-81</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1837-05-02'>1837-05-02</date>
+       <country type="ISO_3166" key="XA-DE-BY">
+        Germany
+        <region>Bavaria</region>
+       </country>
+       <settlement type='city' key='tgn:7013496'>
+        Regensburg, Neuer Friedhof 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.019411 12.07766</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Michael Brocke</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="reg-81-1" sex='1'>
+      <persName>David ben Feibelmann Wertheim (David Philippsohn Wertheimber)</persName>
+       <event when='1837-05-02' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='68'>Hebrew</language>
+    <language ident='de' usage='31'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsreg/xl/0081_reg_130823_081-02.png'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2013-08-23'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsreg/xl/0081_reg_130823_081-03.png'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2013-08-23'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏ציון לנפש‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש יקר רוח נכבד ומהולל נדיב לב‏‎
+‏‎     <lb n='3'/>
+     ‎‏פזר נתן לאביונים כ״ה דוד בן מהור״ר‏‎
+‏‎     <lb n='4'/>
+     ‎‏פייבלמאן ווערטהיים‏‎
+‏‎     <lb n='5'/>
+     ‎‏אשר רוב ימיו היו מכאובים נפטר‏‎
+‏‎     <lb n='6'/>
+     ‎‏ביום ג׳ כ״ז ניסן ונקבר ביום ה׳ כ״ט‏‎
+‏‎     <lb n='7'/>
+     ‎‏ניסן תקצ״ז לפ״ק‏‎
+‏‎     <lb n='8'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='9'/>
+     ‎‏עם שארי שוכני ארץ בג״ע אמן‏‎
+‏‎     <lb n='10'/>
+     Ruhestätte
+     <lb n='11'/>
+     des
+     <lb n='12'/>
+     Herrn David Philippsohn
+     <lb n='13'/>
+     Wertheimber
+     <lb n='14'/>
+     Bürger u. Großhändler v. Regensburg
+     <lb n='15'/>
+     gestorben am 2. Mai 1837 im 31. Lebensjahre
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Grabzeichen
+     <lb n='2'/>
+     eines Mannes von Edelmut, geehrt und gepriesen, ›von Herzen freigebig‹,
+     <lb n='3'/>
+     ›er war freigebig den Bedürftigen‹, der geehrte Herr David, Sohn unseres Lehrers, des Meisters, Herrn
+     <lb n='4'/>
+     Feibelmann Wertheim,
+     <lb n='5'/>
+     dessen Tage größtenteils schmerzvoll waren, verschieden
+     <lb n='6'/>
+     am Tag 3, 27. Nissan, und begraben am Tag 5, 29.
+     <lb n='7'/>
+     Nissan 597 der kleinen Zählung.
+     <lb n='8'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+     <lb n='9'/>
+     mit den übrigen, die in der Erde ruhen, im Garten Eden, Amen
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr Ex 35,22</p>
+    <p>Zl 3: Ps 112,9</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Mit der Einleitung und dem ausführlichen Schlusssegen knüpft diese Grabinschrift, vermutlich für einen Nachkommen der bekannten Wiener Hofjudenfamilie Wertheimer, an mittelalterliche Formulierungen an. David Wertheimber, dessen hebräische Eulogie besonders seine Freigebigkeit hervorhebt, starb - laut hebräischer Inschrift offensichtlich infolge einer längeren Krankheit oder Behinderung - im jungen Alter von nicht einmal 31 Jahren: Auf diesem Friedhof blieb es lange üblich, in den deutschen Inschriften anstelle eines Geburtsdatums das erreichte Lebensalter anzugeben.</p>
+    <p>Die deutsche Inschrift wendet sich auch an den nichtjüdischen Besucher des Friedhofs und kündet stolz von der Stellung, die Wertheimber erlangt hatte: Er war nicht nur "Großhändler", sondern zuallererst ein "Bürger" der Stadt - die Familie Wertheim(b)er gehörte zu den ersten jüdischen Familien, die nach dem bayrischen Judenedikt von 1813 in Regensburg die Bürgerrechte verliehen bekamen.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

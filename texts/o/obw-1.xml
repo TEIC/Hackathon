@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Riwka bat Aharon ∞ Jaakow ben Schalom Halevi (Rebecca Levy geb. Kaufmann), gest. 1883-05-08, Jüdischer Friedhof Oberwinter</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>obw-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=obw-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=obw-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1883-05-08'>1883-05-08</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7012669'>
+        Oberwinter 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.630262 7.207103</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="obw-1-1" sex='2'>
+      <persName>Riwka bat Aharon ∞ Jaakow ben Schalom Halevi (Rebecca Levy geb. Kaufmann)</persName>
+       <event when='1883-05-08' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='61'>Hebrew</language>
+    <language ident='de' usage='38'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשה מהוללה ויקרה‏‎
+‏‎     <lb n='3'/>
+     ‎‏מוכתרת בכל מדה ישרה‏‎
+‏‎     <lb n='4'/>
+     ‎‏מרת רבקה בת אהרן‏‎
+‏‎     <lb n='5'/>
+     ‎‏אשת‏‎
+‏‎     <lb n='6'/>
+     ‎‏יעקב בר שלום הלוי‏‎
+‏‎     <lb n='7'/>
+     ‎‏נפטרת ביום ג׳ ב׳ דר״ח‏‎
+‏‎     <lb n='8'/>
+     ‎‏אייר תרמ״ג לפ״ק‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='10'/>
+     Hier ruht
+     <lb n='11'/>
+     Rebecca Levy
+     <lb n='12'/>
+     geb. Kaufmann
+     <lb n='13'/>
+     geb. d. 1. Jan. 1811
+     <lb n='14'/>
+     gest. d. 8. Mai 1883
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     eine gepriesene und teure Frau,
+     <lb n='3'/>
+     bekrönt mit jeder rechten Eigenschaft,
+     <lb n='4'/>
+     Frau Riwka, Tochter des Aharon,
+     <lb n='5'/>
+     Gattin des
+     <lb n='6'/>
+     Jaakow, Sohn des Schalom Halevi,
+     <lb n='7'/>
+     verschieden am Tag 3, 2. Neumondstag
+     <lb n='8'/>
+     Ijar 643 der kleinen Zählung.
+     <lb n='9'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

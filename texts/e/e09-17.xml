@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Ascher ben Mosche Dow, gest. 1847-06-29, Schönche bat Jizchak Halevi, gest. 1843--, Jüdischer Friedhof Schiefbahn, Bertzweg</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e09-17</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e09-17</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e09-17</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hoher und dicker Doppelstein mit flachem, pyramidalem Abschluß.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1985</date>
+           Vorne unten rechts fehlt ein Stück des Steinsansonsten gut erhalten.
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1843--'>1843--</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1041092'>
+        Schiefbahn, Bertzweg 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.245282 6.55033</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e09-17-1" sex='1'>
+      <persName>Ascher ben Mosche Dow</persName>
+       <event when='1847-06-29' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="e09-17-2" sex='2'>
+      <persName>Schönche bat Jizchak Halevi</persName>
+       <event when='1843--' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse09/xl/0073_E09_070610EPS1996hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse09/xl/0073dE09_070610EPS2000hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש // ואשתו‏‎
+‏‎     <lb n='3'/>
+     ‎‏אשר ב׳ משה // שינכא ב׳ יצחק‏‎
+‏‎     <lb n='4'/>
+     ‎‏דוב ויהיו ימי // הלוי ויהיו ימי‏‎
+‏‎     <lb n='5'/>
+     ‎‏חייו ארבעה // חייה [...]‏‎
+‏‎     <lb n='6'/>
+     ‎‏ושמונים שנים // [...]‏‎
+‏‎     <lb n='7'/>
+     ‎‏והלך לעולמו // [...]‏‎
+‏‎     <lb n='8'/>
+     ‎‏ט״ו תמוז תר״ז // ג׳ חשון תר[...]‏‎
+‏‎     <lb n='9'/>
+     ‎‏לפ״ק // לפ״ק‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנצב״ה // תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier sind begraben
+     <lb n='2'/>
+     ein Mann // und seine Gattin
+     <lb n='3'/>
+     Ascher, Sohn des Mosche // Schönche Tochter des Jizchak
+     <lb n='4'/>
+     Dow, seine Lebenstage // Halevi, und ihre Lebenstage 
+     <lb n='5'/>
+     währten vier- // währten ...
+     <lb n='6'/>
+     undachtzig Jahre // ...
+     <lb n='7'/>
+     ›und er ging hin in seine Welt‹ // ...
+     <lb n='8'/>
+     15. Tammus 607 // 3. Cheschvan 6..
+     <lb n='9'/>
+     der kleinen Zählung. // der kleinen Zählung.
+     <lb n='10'/>
+     Seine Seelen seien eingebunden in das Bündel des Lebens // Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 7: Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Dieses Grabmal stammt vom jüdischen Friedhof Gustorf-Gindorf, der dem Braunkohletagebau weichen mußte und 1957 auf den Friedhof in Schiefbahn am Bertzweg umgebettet wurde.</p>
+    <p>
+     Der völlig verwitterte Doppelstein Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=e09-0016-t">e09-0016</ref>
+      lehnt (1985 und 2007) so an diesem Grabmal, daß die linke Schriftseite nicht vollständig zu lesen ist.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Ascher, Sohn des Mosche Dow, auch Anselm Moyses, wurde 1762 geboren als Sohn des 1764 nach Gustorf gezogenen Moyses Samuel S. Nathan aus Gymnich. 1808 nahm er den Namen André (Andreas) Behr an. Verheiratet war er mit der 1763 geborenen Schönges Levy, die sich seit 1808 Mechtilde Levy nannte.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

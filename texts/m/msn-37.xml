@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Aharon ben Schmuel Hakohen (Aron Burggraf von Miesenheim), gest. 1854-08-12, Jüdischer Friedhof Miesenheim</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>msn-37</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=msn-37</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=msn-37</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1854-08-12'>1854-08-12</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7005959'>
+        Miesenheim 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.392672 7.415385</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="msn-37-1" sex='1'>
+      <persName>Aharon ben Schmuel Hakohen (Aron Burggraf von Miesenheim)</persName>
+       <event when='1854-08-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='83'>Hebrew</language>
+    <language ident='de' usage='16'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏זאת‏‎
+‏‎      <lb n='2'/>
+      ‎‏המצבה תהיה לעדה‏‎
+‏‎      <lb n='3'/>
+      ‎‏כי פ״ט‏‎
+‏‎      <lb n='4'/>
+      ‎‏האיש ישר וכשר כ״ה‏‎
+‏‎      <lb n='5'/>
+      ‎‏אהרן בר שמואל הכהן‏‎
+‏‎      <lb n='6'/>
+      ‎‏נפטר ביום ש״ק ח״י אב‏‎
+‏‎      <lb n='7'/>
+      ‎‏ונקבר בש״ט יום א׳ י״ט‏‎
+‏‎      <lb n='8'/>
+      ‎‏בו בשנת תרי״ד לפ״ק‏‎
+‏‎      <lb n='9'/>
+      ‎‏תנצב״ה א׳‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='10'/>
+      Hier ruhet Aron Burggraf
+      <lb n='11'/>
+      von
+      <lb n='12'/>
+      Miesenheim
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ›Diese
+      <lb n='2'/>
+      Stele sei Zeugin‹,
+      <lb n='3'/>
+      daß hier geborgen ist
+      <lb n='4'/>
+      der aufrechte und tugendhafte Mann ,der geehrte Herr
+      <lb n='5'/>
+      Aharon, Sohn des Schmuel Hakohen,
+      <lb n='6'/>
+      verschieden am Tage des heiligen Schabbat, 18. Aw
+      <lb n='7'/>
+      und begraben ›mit gutem Namen‹ Tag 1, 19.
+      <lb n='8'/>
+      desselben im Jahre 614 der kleinen Zählung.
+      <lb n='9'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens, Amen
+     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+     <ab></ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1f: Nach Gen 31,52</p>
+    <p>Zl 7: bBer 17a</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 2/3: Nach Genesis 31,52; diese Einleitungsformel findet sich häufig in Grabinschriften des Mittelalters und wurde im 19. Jahrhundert gelegentlich wieder aufgenommen.</p>
+    <p>Zl 6: Die Buchstaben des Monatstages sind umgestellt und bilden so das Wort chai, lebendig.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mosche Issachar Berman ben Naftali Hirz Kohen Zedek, gest. 1772-01-24, Jüdischer Friedhof Sittard</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e58-26</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e58-26</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e58-26</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit Rundbogenabschluß.
+         </p>
+        </support>
+        <condition>
+         <p>
+          non in situ Beschädigung mittel 
+          <damage agent='Verwitterung'>Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Priesterhände</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1772-01-24'>1772-01-24</date>
+       <country type="ISO_3166" key="XA-NL-LI">
+        Netherlands
+        <region>Limburg</region>
+       </country>
+       <settlement type='city' key='tgn:1048111'>
+        Sittard 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.995278 5.879167</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e58-26-1" sex='1'>
+      <persName> Mosche Issachar Berman ben Naftali Hirz Kohen Zedek</persName>
+       <event when='1772-01-24' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse58/xl/0026_E58_070923EPS8846hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה נטמן‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש צדיק יש שכר לפעלתו‏‎
+‏‎     <lb n='3'/>
+     ‎‏בה׳ שם מבטחתו החבר משה‏‎
+‏‎     <lb n='4'/>
+     ‎‏יששכר בערמן ב׳ החבר נפתלי‏‎
+‏‎     <lb n='5'/>
+     ‎‏הירץ כהן צד[ק מג]זע קדושים‏‎
+‏‎     <lb n='6'/>
+     ‎‏אשר הכניס בבריתו ומל‏‎
+‏‎     <lb n='7'/>
+     ‎‏את ידידים נפטר ונקבר‏‎
+‏‎     <lb n='8'/>
+     ‎‏יום עש״ק י״ט שבט‏‎
+‏‎     <lb n='9'/>
+     ‎‏תקל״ב לפ״ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     ein gerechter Mann, ›es gibt Lohn für sein Tun‹ ,
+     <lb n='3'/>
+     ›auf den Ewigen setzte er sein Vertrauen ‹ , der toragelehrte Mosche
+     <lb n='4'/>
+     Issachar Berman, Sohn des toragelehrten Naftali
+     <lb n='5'/>
+     Hirz Kohen Zedek vom Stamme Heiliger,
+     <lb n='6'/>
+     der in den Bund brachte und beschnitt
+     <lb n='7'/>
+     die Geliebten, verschieden und begraben
+     <lb n='8'/>
+     am Rüsttag des heiligen Schabbat, 19. Schwat
+     <lb n='9'/>
+     532 der kleinen Zählung. Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Jer 31,15</p>
+    <p>Zl 3: Ps 40,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -to in Zln 2,3.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 6: Mosche Issachar Berman war als Beschneider tätig.</p>
+    <p>Zl 7: Mit "Geliebten" ist das Volk Israel gemeint, wie z.B. in bMen 53b erläutert wird.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>
+     Aufgrund des Sterbedatums handelt es sich um einen der ursprünglich 65 Grabsteine (bzw. Gräber), die nach Auflösung des bis 1869 belegten Friedhofs in Fort Sanderbout 1956 zunächst auf den Algemene Begraafplaats an der Carkstraat und nach 1964 auf den Algemene Begraafplaats Vrangendael überführt wurden (siehe den 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=e58-0051-t">Gedenkstein</ref>
+     ).
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der Vater, der 1772 gestorbene Naftali Herz, war einer der bedeutensten Mitglieder der Sittarder Gemeinde und Stammvater der Familie Hertzdahl.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

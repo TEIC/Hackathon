@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sprinz bat Jaakow Löwental ∞ Jehuda Löb Kaufman, gest. 1821-05-09, Jüdischer Friedhof Jüchen-Garzweiler</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e18-28</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e18-28</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e18-28</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele mit Flachbogenabschluß.
+         </p>
+        </support>
+        <condition></condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1821-05-09'>1821-05-09</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:4004248'>
+        Jüchen-Garzweiler 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.107495 6.506789</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e18-28-1" sex='2'>
+      <persName>Sprinz bat Jaakow Löwental ∞ Jehuda Löb Kaufman</persName>
+       <event when='1821-05-09' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse18/xl/0032_E18_070723EPS4585hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשת חיל ׃ צדקה עשתה‏‎
+‏‎     <lb n='3'/>
+     ‎‏כאביגיל ׃ טעמה כי טוב‏‎
+‏‎     <lb n='4'/>
+     ‎‏סחרה ׃ [...] ביראה‏‎
+‏‎     <lb n='5'/>
+     ‎‏[...] ‎‏׃ מעשיה היה‏‎
+‏‎     <lb n='6'/>
+     ‎‏נעימה ׃ כל כבוד היתה‏‎
+‏‎     <lb n='7'/>
+     ‎‏בת מלך פנימה ׃ היא האשה‏‎
+‏‎     <lb n='8'/>
+     ‎‏החכמה ׃ עלתה נשמתה‏‎
+‏‎     <lb n='9'/>
+     ‎‏למרומה ׃ כל ימיה [...]‏‎
+‏‎     <lb n='10'/>
+     ‎‏בדרך ישרה ׃ שפרינץ‏‎
+‏‎     <lb n='11'/>
+     ‎‏בת כ׳ יעקב לעווען טאל‏‎
+‏‎     <lb n='12'/>
+     ‎‏אשת כ׳ יהודא ליב קויפמן‏‎
+‏‎     <lb n='13'/>
+     ‎‏הלכה לעולמה ונפטרת‏‎
+‏‎     <lb n='14'/>
+     ‎‏ונקברת ביו׳ ד׳ זי״ן אייר‏‎
+‏‎     <lb n='15'/>
+     ‎‏תקפ״א לפ״ק תנוח ותעמוד‏‎
+‏‎     <lb n='16'/>
+     ‎‏לגורלך לקץ הימין ונשמת׳‏‎
+‏‎     <lb n='17'/>
+     ‎‏תהא צרור׳ בצרור החיים‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ›die tüchtige Gattin‹, Wohltat erwies sie
+     <lb n='3'/>
+     wie Awigail, ›sie spürt, dass gut ist
+     <lb n='4'/>
+     ihr Handelswerk‹, ... mit Gottesfurcht
+     <lb n='5'/>
+     ... : ihre Taten waren
+     <lb n='6'/>
+     wohlgetan, ›alle Ehre war
+     <lb n='7'/>
+     der Königstochter im Innern‹ : ›es ist die weise
+     <lb n='8'/>
+     Frau‹ , ihre Seele stieg empor
+     <lb n='9'/>
+     zu ihrer Höhe, all ihre Tage ...
+     <lb n='10'/>
+     den rechten Weg, Sprinz,
+     <lb n='11'/>
+     Tochter des geehrten Jaakow Löwental,
+     <lb n='12'/>
+     Gattin des geehrten Jehuda Löb Kaufman,
+     <lb n='13'/>
+     ›sie ging hin in ihre Welt‹ und verschied
+     <lb n='14'/>
+     und wurde begraben am Tag 4, siebter Ijar
+     <lb n='15'/>
+     581 der kleinen Zählung, ›du wirst ruhen und erstehen
+     <lb n='16'/>
+     zu deinem Lose am Ende der Tage‹, und ihre Seele
+     <lb n='17'/>
+     sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 31,10</p>
+    <p>Zl 3f: Spr 31,18</p>
+    <p>Zl 6f: Ps 45,14</p>
+    <p>Zl 7f: 2Sam 14,2</p>
+    <p>Zl 13: Koh 12,5</p>
+    <p>Zl 15f: Dan 12,13</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ail in Zln 2-3, auf -ma in Zl 7-9. Die Eulogie war vermutlich durchgehend gereimt.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

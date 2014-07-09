@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Fromet bat Awraham Hakohen (Fanny Cahn), gest. 1890-10-25, Jüdischer Friedhof Hennef</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hen-5</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hen-5</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hen-5</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>H: 99 B: 58 T: 15 cm; Sockel: H: 32 B: 61 T: 19 cm</dim>
+          </dimensions>
+          Gesockelte Stele mit eingezogenem Rundbogenabschluß. Das vertiefte Schriftfeld ist von einem schmalem, zweifach abgestuften Rahmen umgeben.
+         </p>
+        </support>
+        <condition>
+         <p>Das Grabmal weist eine mechanisch verursachte Einkerbung etwa in der Mitte des Schriftfeldes, nahe am rechten Rand auf.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1890-10-25'>1890-10-25</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1039545'>
+        Hennef 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.768785 7.267189</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hen-5-1" sex='2'>
+      <persName>Fromet bat Awraham Hakohen (Fanny Cahn)</persName>
+       <event when='1890-10-25' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='70'>Hebrew</language>
+    <language ident='de' usage='29'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏ורומט בת אברהם הכהן‏‎
+‏‎     <lb n='3'/>
+     ‎‏מתה ביום שבת קדש‏‎
+‏‎     <lb n='4'/>
+     ‎‏י״א חשון ונקברה ביום‏‎
+‏‎     <lb n='5'/>
+     ‎‏ב׳ י״ג בו תרנ״א לפ״ק בת‏‎
+‏‎     <lb n='6'/>
+     ‎‏ס״ד שנה צדקה עשתה כל‏‎
+‏‎     <lb n='7'/>
+     ‎‏ימי חייה דרכי נעם היו‏‎
+‏‎     <lb n='8'/>
+     ‎‏[‎‏ד]רכיה ושלום כל‏‎
+‏‎     <lb n='9'/>
+     ‎‏[‎‏נ]תיבותיה‏‎
+‏‎     <lb n='10'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='11'/>
+     Hier ruht
+     <lb n='12'/>
+     Fanny Cahn aus Uckerath
+     <lb n='13'/>
+     gest. den 25. October 5651
+     <lb n='14'/>
+     64 Jahre alt
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     Fromet, Tochter des Awraham Hakohen,
+     <lb n='3'/>
+     gestorben am Tage des heiligen Schabbat,
+     <lb n='4'/>
+     11. Cheschvan und begraben am Tag
+     <lb n='5'/>
+     2, 13. desselben 651 der kleinen Zählung, im Alter von
+     <lb n='6'/>
+     64 Jahren. ›Wohltat erwies sie alle
+     <lb n='7'/>
+     Tage ihres Lebens‹, ›Wege der Lieblichkeit waren
+     <lb n='8'/>
+     ihre Wege und Friede all
+     <lb n='9'/>
+     ihre Pfade‹.
+     <lb n='10'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 6f: Ps 106,3</p>
+    <p>Zln 7-9: Spr 3,17</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -eha in Zln 7-9.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 13: Todesdatum ist in einer Mischform angegeben. Monat und Monatstag sind nach dem bürgerlichen, das Jahr nach dem jüdischen Kalender angegeben. Diese Form kommt häufiger auch in den Inschriften auf dem jüdischen Friedhof in Siegburg vor.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Fanny Hirsch wurde um 1826 in Sinzig geboren und starb unverheiratet 1890 in Uckerath. Dort hatte sie 1846 den von ihrem Vater angenommenen festen Familiennamen Cahn erhalten. Ihr Vater, der Metzger (so in seiner Sterbeurkunde) bzw. Handelsmann (so in ihrer Sterbeurkunde) Abraham Cahn, wurde um 1799 als Sohn von Hirsch Cahn und Jent Marx in Kurscheid geboren. Er starb am 29.4.1859 in Uckerath. Ihre Mutter Eva Moses wurde um 1802 als Tochter von Moses Levi und Schängen Simon in Sinzig geboren. Sie starb am 16.10.1870 in Uckerath.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

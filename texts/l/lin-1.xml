@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Chava bat Jizchak ∞ Jeschajahu Halevi, gest. 1821-10-01, Jeschajahu ben Mordechai Halevi, gest. 1821-12-23, Jüdischer Friedhof Linnich</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>lin-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=lin-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=lin-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Doppelgrabmal aus zwei nebeneinander stehenden Stelen mit Flachbogenabschluß, verbunden durch ein mit Zickzacklinie verziertes Band zwischen den Stelen, das in einem heute zerstörten Medaillon endet, welches ursprünglich vielleicht eine Rosette oder das Abstammungssymbol der Levitenkanne trug.
+         </p>
+        </support>
+        <condition>
+         <p> Das Grabmal ist stark verwittert und weist starke Beschädigungen an den Rändern und oberen Abschlüssen auf.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>gestalterisch: Zickzacklinie</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1821-10-01'>1821-10-01</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7012579'>
+        Linnich 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.976984 6.264305</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="lin-1-1" sex='2'>
+      <persName>Chava bat Jizchak ∞ Jeschajahu Halevi</persName>
+       <event when='1821-10-01' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="lin-1-2" sex='1'>
+      <persName>Jeschajahu ben Mordechai Halevi</persName>
+       <event when='1821-12-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picslin/xl/0001_lin_2008-2.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picslin/xl/0001_lin_2008.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='Rechte Seite'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏[‎‏ה]איש הישר בנדיבים‏‎
+‏‎      <lb n='3'/>
+      ‎‏[‎‏ה]לך בדרך טובים צדיק וישר‏‎
+‏‎      <lb n='4'/>
+      ‎‏[‎‏ב]ה׳ דבק נפשו גופו יישן ארצה‏‎
+‏‎      <lb n='5'/>
+      ‎‏ונשמתו לגן עדן נרצה ה״ה הר״ר‏‎
+‏‎      <lb n='6'/>
+      ‎‏ישיעי׳ בן ה׳ מרדכי הלוי מקערנ׳‏‎
+‏‎      <lb n='7'/>
+      ‎‏ציך נפטר ונקבר ביום א׳ כ״ט כסל׳‏‎
+‏‎      <lb n='8'/>
+      ‎‏תקפ״ב לפ׳ ותעמוד לקץ הימין‏‎
+‏‎      <lb n='9'/>
+      ‎‏[‎‏ונשמתו] תהא צרורה בצ׳ הח׳‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='Linke Seite'>
+      <ab>
+      <lb n='10'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='11'/>
+      ‎‏אשת חיל צדקה עשתה‏‎
+‏‎      <lb n='12'/>
+      ‎‏כאביגיל צנועה היתה בדבור׳‏‎
+‏‎      <lb n='13'/>
+      ‎‏מעשיה היו נעימה עלתה‏‎
+‏‎      <lb n='14'/>
+      ‎‏נשמתה למרומה חוה בת כ״ה‏‎
+‏‎      <lb n='15'/>
+      ‎‏יצחק אשת הר״ר ישיעי׳ הלוי‏‎
+‏‎      <lb n='16'/>
+      ‎‏הולכת לעולמה ונפטרת ונקב׳‏‎
+‏‎      <lb n='17'/>
+      ‎‏ביום ב׳ ה׳ תשרי תקפ״ב לפ״ק‏‎
+‏‎      <lb n='18'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='Rechte Seite'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      der aufrechte Mann inmitten der Wohltäter,
+      <lb n='3'/>
+      ›er ging den Weg der Guten‹ , ›gerecht und aufrecht‹ ,
+      <lb n='4'/>
+      am Ewigen haftete seine Seele, sein Leib ruhe in der Erde
+      <lb n='5'/>
+      und seine Seele sei im Garten Eden willkommen, es ist der Meister, Herr
+      <lb n='6'/>
+      Jeschajahu, Sohn des Herrn Mordechai Halevi aus Körren-
+      <lb n='7'/>
+      zig, verschieden und begraben am Tag 1, 29. Kislev
+      <lb n='8'/>
+      582 der Zählung. ›Und er wird auferstehen zum Ende der Tage‹ 
+      <lb n='9'/>
+      und seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+    <div type='textpart' subtype='Linke Seite'>
+      <ab>
+      <lb n='10'/>
+      Hier ist begraben
+      <lb n='11'/>
+      ›eine tüchtige Gattin‹ , Wohltätigkeit erwies sie
+      <lb n='12'/>
+      wie Awigail, züchtig war sie in ihrem Reden,
+      <lb n='13'/>
+      ihre Taten waren anmutsvoll, es stieg empor
+      <lb n='14'/>
+      ihre Seele zu ihrer Höhe, Chava, Tochter des geehrten Herrn
+      <lb n='15'/>
+      Jizchak, Gattin des Meisters, Herrn Jeschajahu Halevi,
+      <lb n='16'/>
+      ›sie ging hin in ihre Welt‹ und verschied und wurde begraben
+      <lb n='17'/>
+      am Tag 2, 5. Tischri 582 der kleinen Zählung.
+      <lb n='18'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Spr 2,20 | Zl 3: Dtn 34,4</p>
+    <p>Zl 8: nach Daniel 12,13</p>
+    <p>Zl 11: Spr 31,10</p>
+    <p>Zl 16: Koh 12,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Rechts: Reim auf -wim in Zln 2-3 und auf -rza in Zln 4-5 (aabbcc); links: Reim auf -ail in Zln 2-3, auf -a in Zln 3-5 (auf -ma in Zln 4-5).
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schlim[e? ben Schimscho[n, gest. 1289, Jüdischer Friedhof Bommersheim [Mittelalterliche Grabsteine]</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bom-14</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bom-14</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bom-14</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>H: 77 B: 27 T: 21,5</dim>
+          </dimensions>
+          Oberes rechtes Teil eines Grabsteins aus rötlichem Sandstein mit Rundbogenabschluß und stark vertieftem Schriftfeld.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1289'>1289</date>
+       <country type="ISO_3166" key="XA-DE-HE">
+        Germany
+        <region>Hesse</region>
+       </country>
+       <settlement type='city' key='tgn:7213194'>
+        Bommersheim [Mittelalterliche Grabsteine] 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.199061 8.60225</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Prof. Dr. Andreas Lehnardt, Seminar für Judaistik an der Johannes Gutenberg-Universität Mainz</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Frank Lorscheider M.A., Hessisches Landesamt für Denkmalpflege</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bom-14-1" sex='1'>
+      <persName>Schlim[e? ben Schimscho[n</persName>
+       <event when='1289' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsbom/xl/0014_Bom_01_neu.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ[...]‏‎
+‏‎      <lb n='2'/>
+      ‎‏נקבר[...]‏‎
+‏‎      <lb n='3'/>
+      ‎‏שלימ[...]‏‎
+‏‎      <lb n='4'/>
+      ‎‏שמשו[...]‏‎
+‏‎      <lb n='5'/>
+      ‎‏ביום ד׳ [...]‏‎
+‏‎      <lb n='6'/>
+      ‎‏שנת נ׳ [...]‏‎
+‏‎      <lb n='7'/>
+      ‎‏ונשמ[...]‏‎
+‏‎      <lb n='8'/>
+      ‎‏...‏‎
+     </ab>
+    </div>
+    <div type='textpart' subtype='Versuch einer Rekonstruktion'>
+      <ab>
+      <lb n='9'/>
+      ‎‏פ[ה]‏‎
+‏‎      <lb n='10'/>
+      ‎‏נקבר [...]‏‎
+‏‎      <lb n='11'/>
+      ‎‏שלימ[. בן]‏‎
+‏‎      <lb n='12'/>
+      ‎‏שמשו[ן ...]‏‎
+‏‎      <lb n='13'/>
+      ‎‏ביום ד׳ [...]‏‎
+‏‎      <lb n='14'/>
+      ‎‏שנת נ׳ [ט׳ ...]‏‎
+‏‎      <lb n='15'/>
+      ‎‏ונשמ[תו ...]‏‎
+‏‎      <lb n='16'/>
+      ‎‏...‏‎
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+     <ab></ab>
+    </div>
+    <lb n='9'/>
+    Hier
+    <lb n='10'/>
+    ist begraben [...]
+    <lb n='11'/>
+    Schlim[e?, Sohn des?]
+    <lb n='12'/>
+    Schimscho[n, welcher verschied]
+    <lb n='13'/>
+    am Tag von [Neu]mond [...]
+    <lb n='14'/>
+    des Jahres 5[9 ...]
+    <lb n='15'/>
+    und [seine] Seele [sei im Garten Eden]
+    <lb n='16'/>
+    ...
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1-2: Die Inschrift setzt ein mit einer Einleitungsformel, die bei den erhaltenen Frankfurter Grabsteinen erstmals 1339 belegt ist.</p>
+    <p>Zl 3: In dieser Zeile ist der Name des oder der Verstorbenen zu vermuten. Möglich wäre hier der Männername ‎‏שלמלה‏‎ / "Schlomo" in einer Koseform, wie z.B. ‎‏שלימל‏‎ / "Schlemel". In der deutschen Form "Schlemel" ist der Name z.B. 1394 in Wien belegt, in der hebräischen Form ‎‏שלימל‏‎ z.B. 1614 in Prag.</p>
+    <p>Zl 4: Nach dem zu ‎‏שמשון‏‎ / "Schimschon" zu ergänzenden Vatersnamen müßte eine der üblichen Formeln für Sterben folgen, in Frankfurt im 13. Jahrhundert immer ‎‏נפטר‏‎ / "verschied", meist mit vorgesetztem ‎‏הנפטר‏‎ / "der verschied" oder ‎‏שנפטר‏‎ / "welcher verschied".</p>
+    <p>Zl 5: Zu Beginn der Zeile steht die Angabe des Sterbetages. Der Buchstabe sieht aus wie ein ‎‏ר‏‎, das kann an dieser Stelle eigentlich nur als Abkürzung für ‎‏ר״ח‏‎ / ‎‏ראש חודש‏‎ / "Neumond" stehen, das heißt einen Monatsanfang. Wenn man jedoch berücksichtigt, dass einzelne Buchstaben hier kaum von einander unterschieden wurden (vgl. die Buchstaben ‎‏ב‏‎ und ‎‏כ‏‎ in Zln 2 u. 4), handelt es sich aufgrund des Zeilenanfangs wahrscheinlicher um ein ‎‏ד׳‏‎, also entweder "Tag 4", Mittwoch, oder den 4. eines Monats (Der Wochentag ist in Frankfurt erstmals 1283 angegeben).</p>
+    <p>Zl 6: Hier folgt das Sterbejahr, eingeleitet von ‎‏שנת‏‎ / "des Jahres". Der erste Buchstabe ist eindeutig ein ‎‏נ׳‏‎ für 50. Der zweite Buchstabe ist nur noch teilweise erhalten. Aufgrund der noch zu erkennenden Rundung gibt es jedoch wohl nur zwei mögliche Lesungen: Entweder es folgte ‎‏לפרט‏‎ / "der Zählung" oder (aufgrund der Rundung wahrscheinlicher, vgl. das ‎‏ל‏‎ in Zl 3) die Jahreszahl bestand aus zwei Buchstaben, dann kommt von den möglichen Buchstaben nur der Buchstabe ‎‏ט‏‎ / 9 in Frage. Damit stammt dieser Grabstein entweder aus dem Jahr ‎‏נ׳‏‎ / 50 oder dem Jahr ‎‏נ״ט‏‎ / 59, 1289/90 oder 1298/99.</p>
+    <p>Zl 7: Die Inschrift schloß offensichtlich mit dem in Frankfurt üblichen Schlußsegen ‎‏נשמתו בגן עדן‏‎ / "Seine Seele sei im Garten Eden".</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

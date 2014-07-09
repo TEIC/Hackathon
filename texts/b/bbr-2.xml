@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Meir ben Jaakow, gest. 1647-05-10, Jüdischer Friedhof Rheineck-Bad Breisig, Alter Friedhof</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bbr-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bbr-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bbr-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Basaltlava</material>
+          Schmal hochrechteckige Stele ohne Rahmen.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift Relativ große, leicht unregelmäßige Buchstaben.</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1647-05-10'>1647-05-10</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:1038315'>
+        Rheineck-Bad Breisig, Alter Friedhof 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.497278 7.311972</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bbr-2-1" sex='1'>
+      <persName>Meir ben Jaakow</persName>
+       <event when='1647-05-10' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏האבן הזאת‏‎
+‏‎     <lb n='2'/>
+     ‎‏מצבה לרא׳‏‎
+‏‎     <lb n='3'/>
+     ‎‏מאיר בר‏‎
+‏‎     <lb n='4'/>
+     ‎‏יעקב נפט׳‏‎
+‏‎     <lb n='5'/>
+     ‎‏יו׳ ו׳ ה׳ אייר‏‎
+‏‎     <lb n='6'/>
+     ‎‏שנת ת״ז‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Dieser Stein‹ ist
+     <lb n='2'/>
+     Denkmal zu Häupten
+     <lb n='3'/>
+     des Meir, Sohn
+     <lb n='4'/>
+     des Jaakow, verschieden
+     <lb n='5'/>
+     Tag 6, 5. Ijar
+     <lb n='6'/>
+     des Jahres 407
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 28,22</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Memorbucheintrag Nr. 35:</p>
+    <p>‎‏מאיר ב״ר יעקב ז״ל נפטר בש״ט פה עיר לינץ ונקבר אצל ריינעג ה׳ אייר שנת ת״ז ל׳ פה פרייזך‏‎</p>
+    <p>Meir, Sohn des Herrn Jaakow, sein Andenken zum Segen, verschieden mit gutem Namen hier, Stadt Linz, und begraben bei Reineg [=Rheineck], 5. Ijar des Jahres 407 der Zählung, hier Preisech [= Breisig]</p>
+    <p>"Meier Jakob", so ließe sich der Name auch fassen, ist in das Memorbuch aufgenommen worden, ohne dass Gattin oder Kinder dafür gespendet hätten. Es vermerkt den Umstand, dass Meir nicht in Rheineck oder Breisig, sondern im rechtsrheinischen Linz gestorben ist, wo er geschäftlich zu tun gehabt haben mag. Knapper kann die Inschrift, kann der Memorbucheintrag kaum ausfallen; der sechste Wochentag hätte als "Rüsttag" des Schabbats einen Namen, und auch fehlt hier der meist abschließende Segenswunsch. Indizien für einen Tod ohne Hinterbliebene und Verwandte, eine Bestattung und Ehrung allein durch die kleine Gemeinschaft im Kollektiv?</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

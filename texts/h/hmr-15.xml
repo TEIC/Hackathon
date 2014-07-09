@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Refael ben Menachem Jecheskel, gest. 1710-10-06, Jüdischer Friedhof Hammerstein</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hmr-15</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hmr-15</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hmr-15</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1710-10-06'>1710-10-06</date>
+       <country type="ISO_3166" key="XA-DE-RP">
+        Germany
+        <region>Rhineland-Palatinate</region>
+       </country>
+       <settlement type='city' key='tgn:7005100'>
+        Hammerstein 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.459287 7.475799</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hmr-15-1" sex='1'>
+      <persName>Refael ben Menachem Jecheskel</persName>
+       <event when='1710-10-06' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏נקבר ונטמ‏‎
+‏‎     <lb n='3'/>
+     ‎‏ן איש ישר ו‏‎
+‏‎     <lb n='4'/>
+     ‎‏נאמן ...‏‎
+‏‎     <lb n='5'/>
+     ‎‏ה״ה כמר רפאל בן ה‏‎
+‏‎     <lb n='6'/>
+     ‎‏חבר רבי מנחם יחז‏‎
+‏‎     <lb n='7'/>
+     ‎‏קאל ז״ל נפטר והל‏‎
+‏‎     <lb n='8'/>
+     ‎‏ך לעולמו ביום ב׳‏‎
+‏‎     <lb n='9'/>
+     ‎‏י״ב תשרי שנת תע״א‏‎
+‏‎     <lb n='10'/>
+     ‎‏לפ״ק ונקבר בבית ה‏‎
+‏‎     <lb n='11'/>
+     ‎‏קברות בהאמרשט‏‎
+‏‎     <lb n='12'/>
+     ‎‏יין תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+      ist begraben und geborgen
+     <lb n='3'/>
+     ein aufrechter und
+     <lb n='4'/>
+     getreuer Mann ...
+     <lb n='5'/>
+     es ist des geehrte Herrn Refael, Sohn des
+     <lb n='6'/>
+     toragelehrten Herrn Menachem Jecheskel,
+     <lb n='7'/>
+     sein Andenken zum Segen, er verschied und
+     <lb n='8'/>
+     ›ging hin in seine Welt‹ am Tag 2,
+     <lb n='9'/>
+     12. Tischri des Jahres 471
+     <lb n='10'/>
+     der kleinen Zählung und wurde begraben auf dem 
+     <lb n='11'/>
+     Friedhof in Hammerstein.
+     <lb n='12'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 8: Koh 12,5</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

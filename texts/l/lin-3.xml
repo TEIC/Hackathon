@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Gidle ∞ Schlomo Hakohen (Gertraud Isack Ehegattin von Salomon Benedict), gest. 1824-04-17, Jüdischer Friedhof Linnich</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>lin-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=lin-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=lin-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Stele mit Flachbogenabschluß, unter der Inschrift ein plastischer Kranz aus Rosenblüten.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>Deutliche Verwitterungsspuren. Ein Aufsatz auf dem Stein fehlt heute.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>floral: Kranz aus Rosenblüten.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1824-04-17'>1824-04-17</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7012579'>
+        Linnich 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.976984 6.264305</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="lin-3-1" sex='2'>
+      <persName>Gidle ∞ Schlomo Hakohen (Gertraud Isack Ehegattin von Salomon Benedict)</persName>
+       <event when='1824-04-17' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='85'>Hebrew</language>
+    <language ident='de' usage='14'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picslin/xl/0003_lin_2008.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picslin/xl/0003dlin_2008.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picslin/xl/0003rlin_2008.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏עד הגל הזה ועדה המצבה הזאת‏‎
+‏‎      <lb n='2'/>
+      ‎‏שפ״נ‏‎
+‏‎      <lb n='3'/>
+      ‎‏האשה הצנועה אשת חיל‏‎
+‏‎      <lb n='4'/>
+      ‎‏מרת גידלא אשת שלמה‏‎
+‏‎      <lb n='5'/>
+      ‎‏הכהן ז״ל ... אשה‏‎
+‏‎      <lb n='6'/>
+      ‎‏אשר הלכה כל ימיה בדרך הישר‏‎
+‏‎      <lb n='7'/>
+      ‎‏ולא נמצא עולה בשפתיה בתם‏‎
+‏‎      <lb n='8'/>
+      ‎‏לבה ובשלום היתה עם בעלה‏‎
+‏‎      <lb n='9'/>
+      ‎‏ועם כל בני ביתה ועם כל אדם‏‎
+‏‎      <lb n='10'/>
+      ‎‏כפה פרשה לעני וידיה שלחה‏‎
+‏‎      <lb n='11'/>
+      ‎‏לאביון ׃ ונפטרה בשם טוב‏‎
+‏‎      <lb n='12'/>
+      ‎‏ביום ש״ק י״ט ניסן ונקברה‏‎
+‏‎      <lb n='13'/>
+      ‎‏ביום א׳ תקפ״ד לפ״ק‏‎
+‏‎      <lb n='14'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='15'/>
+      Hier ruht
+      <lb n='16'/>
+      Gertraud Isack
+      <lb n='17'/>
+      Ehegattin von
+      <lb n='18'/>
+      Salomon Benedict
+      <lb n='19'/>
+      aus Randerath
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ›Zeuge dieser Hügel und Zeugin diese Stele‹ ,
+      <lb n='2'/>
+      daß hier begraben ist
+      <lb n='3'/>
+      die züchtige Frau, ›die tüchtige Gattin‹ ,
+      <lb n='4'/>
+      Frau Gidle, Gattin des Schlomo
+      <lb n='5'/>
+      Hakohen, sein Andenken zum Segen, ... eine Frau,
+      <lb n='6'/>
+      welche all ihre Tage den rechten Weg ging,
+      <lb n='7'/>
+      ›und Falsch ward nicht gefunden auf ihren Lippen‹ , mit der Lauterkeit
+      <lb n='8'/>
+      ihres Herzens, in Frieden war sie mit ihrem Gatten
+      <lb n='9'/>
+      und all ihren Angehörigen und jederman,
+      <lb n='10'/>
+      ›ihre Hand öffnete sie den Armen und ihre Hände streckte sie aus dem Bedürftigen‹ .
+      <lb n='11'/>
+      Und sie verschied ›mit gutem Namen‹ 
+      <lb n='12'/>
+      am Tage des heiligen Schabbat, 19. Nissan, und wurde begraben
+      <lb n='13'/>
+      am Tag 1, 584 der kleinen Zählung.
+      <lb n='14'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 1: Gen 31,52</p>
+    <p>Zl 3: Spr 31,10</p>
+    <p>Zl 7: Mal 2,6</p>
+    <p>Zl 10: Spr 31,20</p>
+    <p>Zl 11: bBer 17a</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 5: Ein Wort in der Mitte der Zeile konnte nicht entziffert werden.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

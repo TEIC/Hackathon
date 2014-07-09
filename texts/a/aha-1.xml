@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Ascher ben Binjamin Efraim, gest. 1844-04-28, Jüdischer Friedhof Ahaus</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>aha-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=aha-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Hochrechteckige Sandsteinstele mit geradem Abschluss. Das vertiefte, durch einen gekehlten Rahmen abgesetzte, nur mit sechs Zeilen gefüllte Schriftfeld schließt mit einem Rundbogen, darüber in den Ecken jeweils ein vegetabiles Ornament (stilisiertes Eichenblatt mit zwei Eicheln?). Die Inschriften auf Vorder- und Rückseite sind zentriert.
+         </p>
+        </support>
+        <condition>
+         <p>Der Grabstein ist gut erhalten.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1844-04-28'>1844-04-28</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7005987'>
+        Ahaus 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">52.077701 7.004256</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Heinz Duttmann</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="aha-1-1" sex='1'>
+      <persName>Ascher ben Binjamin Efraim</persName>
+       <event when='1844-04-28' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='80'>Hebrew</language>
+    <language ident='de' usage='20'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsaha/xl/aha0001.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsaha/xl/aha0001R.png'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏איש הולך תמים בכל‏‎
+‏‎      <lb n='3'/>
+      ‎‏דרכיו ה״ה אשר בן כ״ה‏‎
+‏‎      <lb n='4'/>
+      ‎‏בנימין אפרים ז״ל נפטר‏‎
+‏‎      <lb n='5'/>
+      ‎‏ט׳ אייר שנת תר״ד לפ״ק‏‎
+‏‎      <lb n='6'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='7'/>
+      Hier ruhet
+      <lb n='8'/>
+      Aser Gumpert
+      <lb n='9'/>
+      1844
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      ein Mann, der lauter wandelte auf all
+      <lb n='3'/>
+      seinen Wegen, es ist Ascher, Sohn des geehrten Herrn
+      <lb n='4'/>
+      Binjamin Efraim, sein Andenken zum Segen, verschieden
+      <lb n='5'/>
+      am 9. Ijar des Jahres 604 der kleinen Zählung.
+      <lb n='6'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Psalm 15,2.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Aser Gumpert wurde eine sehr schlichte Inschrift gewidmet, die kaum über die nötigsten Angaben hinausgeht: Namen und Sterbedaten, gerahmt von der wie üblich abgekürzten Einleitungsformel und dem Schlusssegen, wie er sich seit dem Mittelalter unter so gut wie jeder (nicht nur hebräischen) Grabinschrift findet. Die Eulogie beschränkt sich auf ein kurzes Psalmzitat, auf die Angabe des Wochentages im Sterbedatum wurde verzichtet. Die deutsche Inschrift auf der Rückseite nennt anstelle des vollen Sterbedatums nur das bürgerliche Sterbejahr, doch wird die Inschrift immerhin von einer kurzen Einleitungsformel überschrieben. Der hier Begrabene trug den biblischen Vornamen Ascher, nach einem der Söhne Jakobs. Dieser Name, der sich vom hebräischen Wort für "Glück" ableitet, wurde auf Deutsch verkürzt zu "Aser". Der Vater trug einen Doppelnamen, zusammengesetzt aus den biblischen Namen Binjamin und Efraim. Der Name Efraim wurde im Mittelalter im deutschen Sprachraum oft mit dem alten deutschen Namen Gumprecht oder Gumpert verbunden, der hier wiederum, abgeleitet vom Vatersnamen, zum bürgerlichen Familiennamen wurde.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>
+     Aser Gumpert wurde am 16.3.1777 geboren. Im Jahr 1806 beantragte er Geleitserteilung für Ahaus, 1809 zahlte er zwei Reichstaler Geleitgeld. Sein Beruf wird mit Krämer und Metzger angegeben. Im Alter von 66 Jahren starb er in Ahaus an Lungenentzündung. Bei der Annahme fester Familiennamen im Jahr 1846 gab seine Witwe an, sie stamme aus Rheda, habe vor 44 Jahren nach Ahaus geheiratet und sei Mutter von drei volljährigen Söhnen. Der damals 33 Jahre alte Sohn Leiser (siehe 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=aha-15-t">aha-15</ref>
+     ) war bereits verheiratet, hatte aber noch keine Kinder. Die Söhne David und Moses waren noch ledig. Eine Tochter Billa war 1824 geboren worden und bereits 1828 gestorben. Sie wurde in Ahaus beerdigt, ein Grabstein ist jedoch nicht gesetzt worden oder nicht erhalten.
+    </p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

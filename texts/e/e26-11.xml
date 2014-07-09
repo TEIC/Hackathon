@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Gittel bat ... (Frau Salomon Cleffmann geb. Rosenberg), gest. 1887-03-31, Jüdischer Friedhof Mönchengladbach</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e26-11</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e26-11</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e26-11</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Gesockelte, sich leicht nach oben verjüngende Stele mit aufgesetzter, oben gerade schließender Schrifttafel.
+         </p>
+        </support>
+        <condition>
+         <p> 1987: Beschädigung schwer: Der Giebel fehlt und die rechte obere Ecke der Schrifttafel fehlen, der Rand ist beschädigt. 2007: Verwitterung leicht.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1887-03-31'>1887-03-31</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7004975'>
+        Mönchengladbach 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.188645 6.428684</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e26-11-1" sex='2'>
+      <persName>Gittel bat ... (Frau Salomon Cleffmann geb. Rosenberg)</persName>
+       <event when='1887-03-31' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='50'>Hebrew</language>
+    <language ident='de' usage='50'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse26/xl/0011_E26_070830EPS7338h.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse26/xl/0011dE26_070830EPS7341h.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse26/xl/0011sE26_070830EPS7339h.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Steinmetzzeichen
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[...]‏‎
+     <lb n='2'/>
+     ‎‏[... ‎‏גי]טל בת‏‎
+‏‎     <lb n='3'/>
+     ‎‏[... ‎‏מ]תה במבחר‏‎
+‏‎     <lb n='4'/>
+     ‎‏[‎‏ש]נותיה ביום ו׳ ונקברה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ביום ט׳ ניסן תרמ״ז לפ״ק‏‎
+‏‎     <lb n='6'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='7'/>
+     Hier ruht Frau
+     <lb n='8'/>
+     Salomon Cleffmann
+     <lb n='9'/>
+     geb. Rosenberg
+     <lb n='10'/>
+     geb. den 19. Januar 1851,
+     <lb n='11'/>
+     gest. den 31. März 1887.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ...
+     <lb n='2'/>
+     ... Gittel, Tochter des
+     <lb n='3'/>
+     ... gestorben in ihren besten Jahren
+     <lb n='4'/>
+     am 6. Tag und begraben
+     <lb n='5'/>
+     am 9. Tag Nissan 647 der kleinen Zählung.
+     <lb n='6'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Dina Rosenberg stammte aus Oertinghausen bei Dortmund und war verheiratet mit Salomon Cleffmann aus Rheda. 1885 zog das Paar von Köln nach Gladbach, wo Salomon Cleffmann Teilhaber der neu gegründeten mechanischen Weberei "Bloem ^& Remy" wurde. Nach dem Tod seiner ersten Frau heiratete Salomon Cleffmann Johanna Meyer, mit der und den beiden jüngsten Töchtern er 1905 nach Hannover zog. Die 1880 geborene Tochter Carolina Anna heiratete den Krefelder Kaufmann Carl Falk, ihre Brüder Paul (geb. 1881) und Ernst (geb. 1885) verließen Gladbach ebenfalls, ebenso wie Otto Cleffmann (geb. 1889) aus der zweiten Ehe von Salomon Cleffmann.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

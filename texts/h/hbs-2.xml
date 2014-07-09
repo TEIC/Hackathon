@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1747-09-08, Jüdischer Friedhof Halberstadt: Im Roten Strumpf</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hbs-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hbs-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hbs-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1747-09-08'>1747-09-08</date>
+       <country type="ISO_3166" key="XA-DE-ST">
+        Germany
+        <region>Saxony-Anhalt</region>
+       </country>
+       <settlement type='city' key='tgn:7012317'>
+        Halberstadt: Im Roten Strumpf 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.905083 11.047165</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏[...]‏‎
+     <lb n='2'/>
+     ‎‏מ[ו]רנו ורב[נו] הגאון‏‎
+‏‎     <lb n='3'/>
+     ‎‏הגדול חסיד [ו]עני[ו]‏‎
+‏‎     <lb n='4'/>
+     ‎‏[...] ‎‏צבי הירש‏‎
+‏‎     <lb n='5'/>
+     ‎‏[...]‏‎
+     <lb n='6'/>
+     ‎‏הגאון המפורסם מה״ר הירץ אב״ד דק״ק לבוב (?)‏‎
+‏‎     <lb n='7'/>
+     ‎‏נפטר אור ליו׳ (?) [ו׳] ע[ש״ק ד׳] תשרי [תק]״ח‏‎
+‏‎     <lb n='8'/>
+     ‎‏[...]‏‎
+     <lb n='9'/>
+     ‎‏וי חסרא בישראל גברא רבה ויקירא‏‎
+‏‎     <lb n='10'/>
+     ‎‏נשיא אלהים אב״ד ור״מ מרא דאתרא‏‎
+‏‎     <lb n='11'/>
+     ‎‏שלשלת יוחסין אוצר בלום בוצינא [דנהורא]‏‎
+‏‎     <lb n='12'/>
+     ‎‏[‎‏תורה וגדולה] על אכסניא שלה מח[זר]א‏‎
+‏‎     <lb n='13'/>
+     ‎‏[‎‏כ״ע] מ[ריצי]ן לי אגרותיהן בשו״ת קולא וחו[מר]רא‏‎
+‏‎     <lb n='14'/>
+     ‎‏ובא[תר ל]ית דיפרקינא [נ]גרא ובר נג[ר]א‏‎
+‏‎     <lb n='15'/>
+     ‎‏הוא מפ[רק] לי[׳ ועדיף לכחו בהית]רא‏‎
+‏‎     <lb n='16'/>
+     ‎‏[‎‏מעולם לא פ][סיק מפומא ...]‏‎
+‏‎     <lb n='17'/>
+     ‎‏[‎‏תהא נשמת][ו צרורה בצרור החיים]‏‎
+‏‎     <lb n='18'/>
+     ‎‏[‎‏עם נשמות] [ארץ הנפשות באה״ח!]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ...
+     <lb n='2'/>
+     unser Lehrer und unser Meister der überragend große
+     <lb n='3'/>
+     Gelehrte ›einem Manne, fromm und demütig‹
+     <lb n='4'/>
+     ... Zwi Hirsch
+     <lb n='5'/>
+     ... (Sohn)
+     <lb n='6'/>
+     des weitbekannten, überragenden Gelehrten, unseres Lehrers, des Meisters, Herrn Hirz, Vorsitzenden der Gerichtsbarkeit der heiligen Gemeinde Lwow (?)
+     <lb n='7'/>
+     verschieden zu Beginn des Tages (?) 6. dem Rüsttag des heiligen Schabbat, 4. Tischri 508.
+     <lb n='8'/>
+     ...
+     <lb n='9'/>
+     Wehe, es fehlt in Israel ›der große und teure Mann‹,
+     <lb n='10'/>
+     Fürst Gottes, Vorsitzender der Gerichtsbarkeit und Lehrhausleiter, der Rabbiner am Ort,
+     <lb n='11'/>
+     von edler Ahnenkette, ›ein verborgener Schatz‹, glanzvolle Leuchte,
+     <lb n='12'/>
+     ›Tora und weltliche Größe kehren wieder in ihrer Herberge ein‹,
+     <lb n='13'/>
+     die ganze Welt sandte ihm Eilschreiben, einfache, wie auch schwierige Fragen (Responsen),
+     <lb n='14'/>
+     die am (jeweiligen) Ort keiner zu beantworten wußte, doch er, ›ein Meister und Sohn eines Meisters‹,
+     <lb n='15'/>
+     (nur) er allein konnte dies beantworten, ....
+     <lb n='16'/>
+     nie ließ sein Mund ab vom Lernen ...
+     <lb n='17'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+     <lb n='18'/>
+     mit den Seelen ...
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: bBer 6b</p>
+    <p>Zl 9: bBM 68b</p>
+    <p>Zl 11: bGit 67a; von Rabbi Akiwa gesagt</p>
+    <p>Zl 12: zusammengesetzt aus bBM 85a und bGit 59a</p>
+    <p>Zl 14: nach bAZ 50b</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

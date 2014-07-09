@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Jehuda ben Schmuel KaZ (Samuel Jacoby), gest. 1843-10-20, Jüdischer Friedhof Beelitz</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bee-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bee-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bee-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>127 x 61,5 x 9 cm</dim>
+          </dimensions>
+          Schmalhohe Stele mit flachem Dreiecksgiebel.
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>1990: Verwitterung mitteldie Vorderseite ist besonders am Rand verwittert, der Text ist teilweise verloren.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Priesterhände</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1843-10-20'>1843-10-20</date>
+       <country type="ISO_3166" key="XA-DE-BB">
+        Germany
+        <region>Brandenburg</region>
+       </country>
+       <settlement type='city' key='tgn:1036422'>
+        Beelitz 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">52.236477 12.97412</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Georg Philipp Ilg</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bee-1-1" sex='1'>
+      <persName>Jehuda ben Schmuel KaZ (Samuel Jacoby)</persName>
+       <event when='1843-10-20' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='81'>Hebrew</language>
+    <language ident='de' usage='18'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsbee/xl/0001_bee_1990.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsbee/xl/0001dbee_1990.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsbee/xl/0001rbee_1990.png'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״ט‏‎
+‏‎      <lb n='2'/>
+      ‎‏גוית איש ישר וזקן‏‎
+‏‎      <lb n='3'/>
+      ‎‏כ״ה יהודה בר שמואל כ״ץ‏‎
+‏‎      <lb n='4'/>
+      ‎‏נפטר עש״ק כ״ו תשרי ונק׳ יום א׳ כ״ח בו [תר״ד] לפ״ק‏‎
+‏‎      <lb n='5'/>
+      ‎‏י[מי]ם וזמנים עוברים ושבים‏‎
+‏‎      <lb n='6'/>
+      ‎‏ה[...]לק אלהי לא שבה מן השמים‏‎
+‏‎      <lb n='7'/>
+      ‎‏ו[...] אלינו הלכת דרך כל החיים‏‎
+‏‎      <lb n='8'/>
+      ‎‏ד[...] מותך לסבול עלי האדמה‏‎
+‏‎      <lb n='9'/>
+      ‎‏ה[...] לאסוף שכר פעולתך שמ[...]‏‎
+‏‎      <lb n='10'/>
+      ‎‏בתוך אם אדמה מצה גויתך מנוח מכל עמלך‏‎
+‏‎      <lb n='11'/>
+      ‎‏ש[...] עלה רוחך לחסות תחת כנפי אלהיך‏‎
+‏‎      <lb n='12'/>
+      ‎‏כ[... ר]אית מנוחה כי טוב נטית שכמך למנוחתך‏‎
+‏‎      <lb n='13'/>
+      ‎‏צל שדי יהי עד קץ ימים מעונך ומלונך‏‎
+‏‎      <lb n='14'/>
+      ‎‏בניך הקימו המצבה הזאת‏‎
+‏‎      <lb n='15'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='16'/>
+      Hier ruht
+      <lb n='17'/>
+      der Kaufmann
+      <lb n='18'/>
+      Samuel Jacoby
+      <lb n='19'/>
+      geb. am 19. Februar 5529
+      <lb n='20'/>
+      gest. am 20. October 5604
+      <lb n='21'/>
+      Friede seiner Asche
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist geborgen
+      <lb n='2'/>
+      der Leib eines aufrechten und betagten Mannes,
+      <lb n='3'/>
+      des geehrten Herrn Jehuda, Sohn des Schmuel KaZ,
+      <lb n='4'/>
+      verschieden am Rüsttag des heiligen Schabbat, 26. Tischri, und begraben Tag 1, 28. desselben, 604 der kleinen Zählung.
+      <lb n='5'/>
+      Tage und Zeiten gehen und kommen,
+      <lb n='6'/>
+      ... Gottes kehrt nicht zurück vom Himmel,
+      <lb n='7'/>
+      ... gingst Du den Weg alles Lebenden,
+      <lb n='8'/>
+      ... Dein Tod?, zu leiden auf Erden,
+      <lb n='9'/>
+      ... ›zu sammeln den Lohn für Dein Wirken‹ dort?,
+      <lb n='10'/>
+      in Mutter Erde fand Dein Leib Ruhe von all Deinen Mühen,
+      <lb n='11'/>
+      (zum Himmel? stieg auf Dein Geist, ›sich zu bergen unter den Schwingen deines Gottes‹,
+      <lb n='12'/>
+      ... ‹sahst Du, dass die Ruhestatt gut ist‹, Du beugtest Deinen Rücken zu Deiner Ruhe,
+      <lb n='13'/>
+      ›der Schatten des Allmächtigen‹ sei bis ans Ende der Tage Deine Wohnung und Deine Herberge,
+      <lb n='14'/>
+      Deine Kinder errichteten diese Stele.
+      <lb n='15'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 9: Jer 31,16</p>
+    <p>Zl 11: Rut 2,12</p>
+    <p>Zl 11f: Gen 49,15</p>
+    <p>Zl 13: Ps 91,1</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -im in Zln 5-7, auf -ma? in Zln 8-9, auf -echa in Zln 10-13.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 5-13: ‎‏יהודה ב ש כץ‏‎ Jehuda Sohn w KaZ
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

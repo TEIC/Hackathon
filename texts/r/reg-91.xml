@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Awraham Jeschajahu ben Oser Zwi Feldmann, gest. 1839-11-10, Jüdischer Friedhof Regensburg, Neuer Friedhof</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>reg-91</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=reg-91</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=reg-91</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Kalkstein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1839-11-10'>1839-11-10</date>
+       <country type="ISO_3166" key="XA-DE-BY">
+        Germany
+        <region>Bavaria</region>
+       </country>
+       <settlement type='city' key='tgn:7013496'>
+        Regensburg, Neuer Friedhof 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.019411 12.07766</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Michael Brocke</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="reg-91-1" sex='1'>
+      <persName>Awraham Jeschajahu ben Oser Zwi Feldmann</persName>
+       <event when='1839-11-10' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsreg/xl/0091_reg_130823_091-02.png'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2013-08-23'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏הישר כ׳ אברהם ישעי׳ בר עוזר צבי פעלדמאן‏‎
+‏‎     <lb n='3'/>
+     ‎‏מק״ק טרייכטלינגען נפטר יו׳ א׳ ונקבר יו׳ ב׳ ד׳ כסלו ת״ר ל׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏אברהם הלך ממקומו לעסוק באמונה‏‎
+‏‎     <lb n='5'/>
+     ‎‏ישעי׳ אמץ במעשי׳ טובים כקטורת ולבונה‏‎
+‏‎     <lb n='6'/>
+     ‎‏בן ישר רוח הבריות נוחה הימנו‏‎
+‏‎     <lb n='7'/>
+     ‎‏עוזר לדלים ורודף שלום כל עונה‏‎
+‏‎     <lb n='8'/>
+     ‎‏כצבי רץ לדבר מצוה ולהתפלל בכוונה‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     der Aufrechte, der geehrte Awraham Jeschajahu, Sohn des Oser Zwi Feldmann
+     <lb n='3'/>
+     aus der heiligen Gemeinde Treuchtlingen, verschieden am Tag 1 und begraben am Tag 2, 4. Kislev 600 der Zählung.
+     <lb n='4'/>
+     ›Awraham verließ seine Heimat‹, um sich dem Glauben zu widmen,
+     <lb n='5'/>
+     Jeschajahu war stark in guten Taten ›wie Räucherwerk und Weihrauch‹,
+     <lb n='6'/>
+     Sohn eines Aufrechten, ›den Menschen angenehm‹,
+     <lb n='7'/>
+     er stand den Darbenden bei und ›jagte dem Frieden nach‹ zu jeder Zeit,
+     <lb n='8'/>
+     ›flink wie ein Hirsch‹ (eilte er) zum Gebotstun und um ›mit Andacht zu beten‹.
+     <lb n='9'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Angelehnt an Gen 18,33</p>
+    <p>Zl 5: Nach Hld. 3,6</p>
+    <p>Zl 6: Av 3,10</p>
+    <p>Zl 7: Av 1,12</p>
+    <p>Zl 8: bBer 31a</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -una in Zln 4-5 und 7-8.
+    </p>
+    <p>
+     <label>Akrostichon</label>
+      in Zeilen 4-8: ‎‏אברהם ישעי בן עוזר צבי‏‎ ‏‎ Awraham Jeschajahu  Sohn des Oser Zwi 
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 2-3: Bogenförmig angebracht</p>
+    <p>Zl 4: Ein Hinweis darauf, dass Awraham Jeschajahu Feldmann seine Heimat, wörtl. "seinen Ort", also Treuchtlingen verließ, um sich auswärts, das heißt wohl in Regensburg, dem religiösen Studium zu widmen.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>In die Zeilenanfänge der fünfzeiligen, gereimten und aus vielen Zitaten zusammengesetzten Eulogie ist die Angabe des hebräischen Namens eingeflochten.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

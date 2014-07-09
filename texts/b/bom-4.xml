@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Gutlin bat Mosche, gest. 1292-10, Jüdischer Friedhof Bommersheim [Mittelalterliche Grabsteine]</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bom-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bom-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bom-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>H: 44 B: 34 T: 14 und H: 46 B: 34 T: 15</dim>
+          </dimensions>
+          Zwei Fragmente vom rechten Rand eines Grabsteins aus rötlichem Sandstein mit stark vertieftem Schriftfeld.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1292-10'>1292-10</date>
+       <country type="ISO_3166" key="XA-DE-HE">
+        Germany
+        <region>Hesse</region>
+       </country>
+       <settlement type='city' key='tgn:7213194'>
+        Bommersheim [Mittelalterliche Grabsteine] 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.199061 8.60225</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Prof. Dr. Andreas Lehnardt, Seminar für Judaistik an der Johannes Gutenberg-Universität Mainz</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Frank Lorscheider M.A., Hessisches Landesamt für Denkmalpflege</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bom-4-1" sex='2'>
+      <persName>Gutlin bat Mosche</persName>
+       <event when='1292-10' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsbom/xl/0004_Bom_02_neu.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏...‏‎
+      <lb n='2'/>
+      ‎‏לראש [...]‏‎
+‏‎      <lb n='3'/>
+      ‎‏גיטלין ב[...]‏‎
+‏‎      <lb n='4'/>
+      ‎‏משה ה[...]‏‎
+‏‎      <lb n='5'/>
+      ‎‏ביום ב׳ [...]‏‎
+‏‎      <lb n='6'/>
+      ‎‏במ[.]חש[...]‏‎
+‏‎      <lb n='7'/>
+      ‎‏נ״ג לפרט [...]‏‎
+‏‎      <lb n='8'/>
+      ‎‏ונשמת[...]‏‎
+‏‎      <lb n='9'/>
+      ‎‏...‏‎
+     </ab>
+    </div>
+    <div type='textpart' subtype='Versuch einer Rekonstruktion'>
+      <ab>
+      <lb n='10'/>
+      ‎‏[‎‏האבן הזאת שמתי]‏‎
+‏‎      <lb n='11'/>
+      ‎‏לראש [... מרת]‏‎
+‏‎      <lb n='12'/>
+      ‎‏גוטלין ב[ת ר׳]‏‎
+‏‎      <lb n='13'/>
+      ‎‏משה ה[נפטרה]‏‎
+‏‎      <lb n='14'/>
+      ‎‏ביום ב׳ [...]‏‎
+‏‎      <lb n='15'/>
+      ‎‏במ[ר]חש[ון]‏‎
+‏‎      <lb n='16'/>
+      ‎‏נ״ג לפרט [...]‏‎
+‏‎      <lb n='17'/>
+      ‎‏ונשמת[ה בגן]‏‎
+‏‎      <lb n='18'/>
+      ‎‏[‎‏עדן אמן סלה]‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ...
+      <lb n='2'/>
+      zu Häupten ...
+      <lb n='3'/>
+      Gutlin ...
+      <lb n='4'/>
+      Mosche ...
+      <lb n='5'/>
+      am Tag 2 ...
+      <lb n='6'/>
+      ...
+      <lb n='7'/>
+      53 der Zählung ...
+      <lb n='8'/>
+      Und die Seele ...
+      <lb n='9'/>
+      ...
+     </ab>
+    </div>
+    <div type='textpart' subtype='Versuch einer Rekonstruktion'>
+      <ab>
+      <lb n='10'/>
+      [Diesen Stein setzte ich]
+      <lb n='11'/>
+      zu Häupten ... [der Frau]
+      <lb n='12'/>
+      Gutlin, Tochter [des Herrn]
+      <lb n='13'/>
+      Mosche, welche [verschied]
+      <lb n='14'/>
+      am Tag 2, [xy]
+      <lb n='15'/>
+      im Ma[r]chesch[van],
+      <lb n='16'/>
+      53 der Zählung.
+      <lb n='17'/>
+      Und [ihre] Seele sei [im Garten]
+      <lb n='18'/>
+      [Eden, Amen Sela]
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 1: Es ist unsicher, wieviele Zeilen zu Beginn der Inschrift fehlen. Statt der vorgeschlagenen Einleitungsformel sind auch andere ähnliche gut möglich. Die Variationen in Frankfurt, die auf ‎‏לראש‏‎ / "zu Häupten" enden, sind vielfältig.</p>
+    <p>Zl 3: Statt des angegebenen Namens ‎‏גוטלין‏‎ / "Gutlin" ist auch ‎‏גיטלין‏‎ / "Gitlin" möglich, aufgrund der Form des Buchstaben ‎‏י‏‎ ist aber ‎‏גוטלין‏‎ / "Gutlin" (mit etwas kurz geratenem ‎‏ו‏‎) wahrscheinlicher. Nach Ettlinger ist der Name Gut(a) in Frankfurt seit dem 13. Jahrhundert belegt, der Name Gutlin seit Anfang des 15. Jahrhunderts und der Name Gitlin seit Anfang des 16. Jahrhunderts. In den Frankfurter Grabinschriften ist er in der Form ‎‏גודא‏‎ / "Guda" oder "Gude" erstmals 1380 und in der Form ‎‏גוטא‏‎ / "Guta", "Gute" 1384 belegt. Die Endung eines Namens auf -len/-lin findet sich in den Frankfurter Grabinschriften erstmals 1377 (Zurlen) und 1378 (Edlin).</p>
+    <p>Zl 7: Zu Beginn der Zeile steht das Sterbejahr. Leider verläuft an dieser Stelle die Bruchkante der beiden Fragmente, und die Stelle ist stark verwittert. Allerdings ist die Anzahl der möglichen Lesungen stark eingeschränkt. Aufgrund der vorhandenen Buchstabenreste und im Vergleich mit den erhaltenen Buchstaben erscheint die Lesung ‎‏נ״ג‏‎ (53) am wahrscheinlichsten (vergleiche mit dem ‎‏נ‏‎ von ‎‏נשמתה‏‎ in der Zeile darunter und mit dem ‎‏ג‏‎ von ‎‏גוטלין‏‎ in Zeile 2). Damit wäre Gutlin im Marcheschvan 53, d.h. Oktober/November 1292 gestorben. Fünfmal fiel in diesem Monat ein Tag auf einen Montag: am 1. Cheschvan (13.10.1292), am 8. Cheschvan (20.10.1292), am 15. Cheschvan (27.10.1292), am 22. Cheschvan (3.11.1292) und am 29. Cheschvan (10.11.1292).</p>
+    <p>Zln 8-9: Die Inschrift schloß mit dem in Frankfurt im 13. Jahrhundert üblichen Segenswunsch ‎‏נשמתה בגן עדן‏‎ / "Ihre Seele sei im Garten Eden", möglicherweise gefolgt von einem (oder mehreren) ‎‏אמן‏‎ / "Amen" und ‎‏סלה‏‎ / "Sela".</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

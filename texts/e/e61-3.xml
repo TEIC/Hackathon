@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mosche ben Mordechai Halevi (Alexander Moritz Wiener), gest. 1888-05-25, Jüdischer Friedhof Venlo, (neuer Friedhof) Ganzenstraat</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e61-3</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e61-3</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e61-3</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit eingezogenem Flachbogenabschluß und umlaufendem, schmalen, scharrierten Rahmen (Vgl. auch die Grabmale von Mutter und Gattin).
+         </p>
+        </support>
+        <condition>
+         <p>non in situ, das Grabmal liegt, ansonsten gut erhalten.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1888-05-25'>1888-05-25</date>
+       <country type="ISO_3166" key="XA-NL-LI">
+        Netherlands
+        <region>Limburg</region>
+       </country>
+       <settlement type='city' key='tgn:7006853'>
+        Venlo, (neuer Friedhof) Ganzenstraat 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.355532 6.171448</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e61-3-1" sex='1'>
+      <persName>Mosche ben Mordechai Halevi (Alexander Moritz Wiener)</persName>
+       <event when='1888-05-25' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='61'>Hebrew</language>
+    <language ident='de' usage='38'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse61/xl/0003_E61_070912EPS8109hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/maps/svg/e61.svg' xml:id="map">
+    <desc type='map'>
+    <date when='2013-11-26T14:24:19'/>
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש ישר וכשר בכל מדותיו‏‎
+‏‎     <lb n='3'/>
+     ‎‏ירא ה׳ וחפץ מאוד במצותיו‏‎
+‏‎     <lb n='4'/>
+     ‎‏הדריך בצדק בני ביתו‏‎
+‏‎     <lb n='5'/>
+     ‎‏והנהיג במישרים בני עדתו‏‎
+‏‎     <lb n='6'/>
+     ‎‏ה״ה ר׳ משה בר מרדכי הלוי‏‎
+‏‎     <lb n='7'/>
+     ‎‏שהלך לעולמו בערב ש״ק‏‎
+‏‎     <lb n='8'/>
+     ‎‏ט״ו סיון תרמ״ח לפ״ק‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='10'/>
+     Hier rust
+     <lb n='11'/>
+     Alexander Moritz Wiener
+     <lb n='12'/>
+     geb. te Venloo d' adr tqp"u lp"q / 15 Februari 1826
+     <lb n='13'/>
+     en overl. 25 Mei 1888
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein aufrechter und tugendhafter Mann in all seinen Eigenschaften,
+     <lb n='3'/>
+     ›den Ewigen ehrfürchtend und seine Gebote sehr begehrend‹ ,
+     <lb n='4'/>
+     in Gerechtigkeit leitete er seine Hausgenossen
+     <lb n='5'/>
+     und führte in Geradheit seine Gemeinschaft,
+     <lb n='6'/>
+     es ist Herr Mosche, Sohn des Mordechai Halevi,
+     <lb n='7'/>
+     ›der in seine Welt hinging‹ am Rüsttag des heiligen Schabbat,
+     <lb n='8'/>
+     15. Sivan 648 der kleinen Zählung.
+     <lb n='9'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+     <lb n='12'/>
+     4. Adar 5586 nach kleiner Zählung
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Ps 112,1</p>
+    <p>Zl 7: Koh 12,5</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -otav in Zln 2-3, auf -to in Zln 4-5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 5: Alexander Wiener diente seiner Gemeinde als Gemeindevorsteher, ein Amt, das er von seinem Vater übernommen hatte.</p>
+    <p>Zl 12: Der 15. Februar 1826 fiel auf den 8. Adar I 5586, nicht auf den 4. Adar. Zudem war das Jahr ein Schaltjahr, der Geburtstag fiel in den ersten Adar.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der in Venlo geborene Alexander Moritz Wiener war ein Sohn von Marcus Wiener und Johanna Baruch, welche 1817 aus Hörstgen bei Geldern nach Venlo gekommen waren, wo Marcus der neu gegründeten Gemeinde vorstand, ein Amt, in das ihm Alexander später folgte. Alexander Wiener war verheiratet mit der aus Neuss stammenden Albertine Winter. 1889 heiratete seine in Venlo geborene Tochter Eleonore den aus Tilburg stammenden Leon Frenkel. Zwei Jahre später vermählte sich seine Tochter Johanna Uda mit dem aus Leer stammenden Lipmann Pels, und 1895 ehelichte sein Sohn Martin Mareas die in Düren geborene Josephine Hirsch. Der 1870 in Venlo geborene Jacques Wiener war möglicherweise ein weiterer Sohn.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

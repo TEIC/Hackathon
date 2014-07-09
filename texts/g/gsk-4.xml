@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Manes ben Awraham KaZ (Emanuel Katz), gest. 1770-09-01, Jüdischer Friedhof Geseke</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>gsk-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=gsk-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=gsk-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Aufwendig gestalteter Barockstein.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift erhaben</handNote>
+      </handDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Priesterhände</decoNote>
+       <decoNote type='symbol'>Krone</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1770-09-01'>1770-09-01</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7012478'>
+        Geseke 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.645134 8.505151</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Arbeitskreis "Jüdische Familien in Geseke"</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="gsk-4-1" sex='1'>
+      <persName>Manes ben Awraham KaZ (Emanuel Katz)</persName>
+       <event when='1770-09-01' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsgsk/xl/0004_gsk_1997.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש הישר שוכן ומתענג ׃‏‎
+‏‎     <lb n='3'/>
+     ‎‏ונאמן פרנס ומנהיג ׃ נ‏‎
+‏‎     <lb n='4'/>
+     ‎‏נפשו שם בכפו ׃ גזירת‏‎
+‏‎     <lb n='5'/>
+     ‎‏ביטל ודחפו ׃ מגין היה‏‎
+‏‎     <lb n='6'/>
+     ‎‏בדורו ׃ בדמו ובבשרו ׃‏‎
+‏‎     <lb n='7'/>
+     ‎‏שינת ערבה יישן גופך ׃‏‎
+‏‎     <lb n='8'/>
+     ‎‏בג״ע תשמח נשמתך‏‎
+‏‎     <lb n='9'/>
+     ‎‏תחת עשית משפט צ‏‎
+‏‎     <lb n='10'/>
+     ‎‏צדק בעולמך ׃ ה״ה פ״ו‏‎
+‏‎     <lb n='11'/>
+     ‎‏כ״ה מניס כ״ץ נפטר בש״ק‏‎
+‏‎     <lb n='12'/>
+     ‎‏י״א אלול שנת תק״ל לפ״ק‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein aufrechter Mann, er ruht und vergnügt sich,
+     <lb n='3'/>
+     ein Beglaubigter, Vorsteher und Leiter,
+     <lb n='4'/>
+     ›sein Leben setzte er ein‹, ›(um) Verordnungen
+     <lb n='5'/>
+     aufzuheben und zurückzuweisen, ein Beschützer war er
+     <lb n='6'/>
+     in seinem Zeitalter‹, mit seinem Blut und seinem Fleisch,
+     <lb n='7'/>
+     ›süßen Schlaf‹ schlafe dein Leib,
+     <lb n='8'/>
+     im Garten Eden erfreue sich deine Seele,
+     <lb n='9'/>
+     dafür, daß du gerecht gerichtet
+     <lb n='10'/>
+     <supplied reason='subaudible'>Emanuel Katz</supplied>
+     hast in deiner Welt, es ist der Vorsteher und Leiter,
+     <lb n='11'/>
+     der geehrte Herr Manes, verschieden am heiligen Schabbat,
+     <lb n='12'/>
+     <supplied reason='subaudible'>Awraham KaZ</supplied>
+     11. Elul des Jahres 530 der kleinen Zählung.
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 4: Vgl. 1 Sam 19,5 u.a.</p>
+    <p>Zln 4-6: bSot 10a</p>
+    <p>Zl 7: vgl. Jer 31,25</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      nach dem Schema aabb auf -neg in Zln 2-3, auf -po in Zln 4-5, auf -ro in Zln 5-6, auf -echa in Zln 7-8 und 10.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3: Der letzte Buchstabe ist ein Zeilenfüller.</p>
+    <p>Zl 4b: Das Wort ‎‏גזירה‏‎ wird vor allem für judenfeindliche Verordnungen verwendet.</p>
+    <p>Zl 9: Der letzte Buchstabe ist ein Zeilenfüller.</p>
+   </div>
+   <div type="commentary" subtype="Abkürzung">
+    <p>Zl 11: KaZ ist die Abkürzung für Kohen Zedek, ein "gerechter Priester", d.h. Angehöriger des Geschlechts der Kohanim, denen im Tempel besondere Aufgaben zukamen, und die noch heute mit der charakteristischen Fingerhaltung den Segen über die Gemeinde sprechen.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Dieses Grabmal stammt vom 1880 geschlossenen Vorgängerfriedhof am Steintor ("Judenhagen").</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Manes KaZ, auch Emanuel Katz, war ein Sohn des erstmals im Jahr 1700 und bis 1722 in den Geleitlisten genannten Störmeder Juden Abraham Katz. Er war verheiratet, Vater von mindestens drei Söhnen und zwei Töchtern, und lebte mit seiner Familie ebenfalls in Störmede. 1748 wird er als Vorsteher der westfälischen Judenschaft tätig, als er gemeinsam mit seinem Mitvorsteher Feidel Hertzig zu Stattberg (Marsberg) bei der Arnsberger Regierung erfolglos den Antrag stellte, den Zinssatz auf acht Prozent zu erhöhen [zu ihm und seinen Nachkommen siehe ausführlich bei Rade, s.u.].</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Frimm bat Juspa Goch, gest. 1812-11-03, Jüdischer Friedhof Schermbeck</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>srm-19</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=srm-19</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=srm-19</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>92 x 52 x 10 cm</dim>
+          </dimensions>
+         </p>
+        </support>
+        <condition>
+         <p>weitgehend gut</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1812-11-03'>1812-11-03</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1041089'>
+        Schermbeck 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.695296 6.868367</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Dan Bondy</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="srm-19-1" sex='2'>
+      <persName>Frimm bat Juspa Goch</persName>
+       <event when='1812-11-03' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picssrm/xl/srm0019.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picssrm/xl/srm0019a.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״ט‏‎
+‏‎     <lb n='2'/>
+     ‎‏נפש יקרה ׃ אשה ישרה ׃‏‎
+‏‎     <lb n='3'/>
+     ‎‏לבעלה היתה עטרה ׃ וזר‏‎
+‏‎     <lb n='4'/>
+     ‎‏תפארה ׃ ה״ה הצנועה מרת‏‎
+‏‎     <lb n='5'/>
+     ‎‏פרים בת כ״ה יוזפא גאך ׃‏‎
+‏‎     <lb n='6'/>
+     ‎‏הלכה בדרך תמים כל הימים‏‎
+‏‎     <lb n='7'/>
+     ‎‏ואחר מלאת לה שבעים שנה‏‎
+‏‎     <lb n='8'/>
+     ‎‏השלימה נפשה לקונה ׃‏‎
+‏‎     <lb n='9'/>
+     ‎‏ביום ג׳ כ״ח מרחשון תקע״ג‏‎
+‏‎     <lb n='10'/>
+     ‎‏[‎‏־־־]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist geborgen
+     <lb n='2'/>
+     eine teure Seele, eine aufrechte Frau,
+     <lb n='3'/>
+     ihrem Gatten war sie Krone und zierender
+     <lb n='4'/>
+     Kranz, es ist die Züchtige, Frau
+     <lb n='5'/>
+     Frimm, Tochter des geehrten Herrn Juspa Goch,
+     <lb n='6'/>
+     alle Tage ging sie den makellosen Weg
+     <lb n='7'/>
+     und als sie das siebzigste Lebensjahr erreichte
+     <lb n='8'/>
+     übergab sie ihre Seele ihrem Schöpfer
+     <lb n='9'/>
+     am Tag 3, 28. Marcheschvan 573
+     <lb n='10'/>
+     [---]
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -rah in Zln 2-4, auf -mim in Zl 6 und auf -nah in Zln 7/8
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 3: Spr 12,4.</p>
+    <p>Zl 5: Frimm ist eine Form von Fromet, das aus dem altdeutschen Frohmut entstand.</p>
+    <p>Zl 6: Ps 25,4.</p>
+    <p>Zl 7: Ps 90,10 und Av 5,21: "Unsere Lebensjahre das sind siebzig Jahre".</p>
+    <p>Zl 8: Vgl. Jes 60,20, MTeh 116 und PesR 25; wörtlich: "sie vollendete ihre Seele", gemeint ist, daß sie die Zeit, die ihr auf Erden beschieden war, erreicht, erfüllt hatte, s.o.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

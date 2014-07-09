@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Voss Horn, gest. 1870-10-09, Jüdischer Friedhof Titz-Rödingen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>roe-14</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=roe-14</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=roe-14</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele mit mehrfach geschweiftem und eingezogenen Rundbogenabschluß (vgl. auch das Grabmal der 2. Gattin). Die vertiefte und mit einem gekehlten Rahmen umgebene Vorderseite trug vermutlich eine eingesetzte Schrifttafel.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>2010</date>
+           leichte Beschädigung. 
+          <damage agent='Verwitterung'>Die eingesetzte Schrifttafel fehlt. Leichte Verwitterung</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1870-10-09'>1870-10-09</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7112969'>
+        Titz-Rödingen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.961191 6.465867</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Andreas Schiblon, LVR-Zentrum für Medien und Bildung</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Vermessungs- und Katasteramt Düren, Nr. 1/09</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="roe-14-1" sex='0'>
+      <persName>Voss Horn</persName>
+       <event when='1870-10-09' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='de' usage='100'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsroe/xl/0014Rd_100922L1014900hb.png'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2010-09-22'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsroe/xl/0014rTRd_100922L1014801hb.png'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2010-09-22'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='1'/>
+      Hier ruht
+      <lb n='2'/>
+      Voss Horn Er starb zu Rödingen
+      <lb n='3'/>
+      d. 9. October 1870, im Alter von 90 Jahren
+      <lb n='4'/>
+      Ruhe und Friede seiner Asche
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Voss, auch Vohs Samuel und Jacob Horn, wurde 1780 in Kirchtroisdorf geboren als Sohn von Philipp Horn und Sibilla Jonas. 1814 nahm er am Befreiungskrieg gegen Napoleon teil. In erster Ehe war er verheiratet mit der 1799 in Kempen geborenen Johanna, auch Jeanette, einer geborenen Franck(en) aus Kempen. 1819 wurde die Tochter Rosa geboren, die zunächst als Dienstmagd in Frechen tätig war und dann 1861 Jacob Pollack aus Bergheim heiratete. 1821 wurde der Sohn Philipp geboren, der ledig blieb und als Handelsmann in Rödingen lebte. 1923 kam der Sohn Benjamin zur Welt und 1825 der Sohn Jonas, der jedoch kaum vier Jahre alt wurde. Kurz nach dem Tod seiner ersten Gattin heiratete Voss Horn die 1795 in Bettendorf/Setterich geborenen Johanna Weyl, auch Anna Samuel, Tochter von Samuel Samson aus dem Elsass und der Jenna Joseph aus Bettendorf, die ihm weitere vier Kinder gebar: 1826 wurde Samuel geboren, der ledig blieb und als Kaufmann in Rödingen lebte. 1829 kam Sibilla zur Welt, die ebenfalls ledig 1901 in Rödingen starb. 1831 wurde Joseph geboren, der als Kaufmann in Odenkirchen lebte und 1860 Amalia Schmitt aus Frankenstein heiratete. 1834 schließlich kam Jenne Henriette zur Welt, die als Dienstmagd in Rödingen lebte, 1855 eine uneheliche Tochter namens Sophia zur Welt brachte und 1931 in Rödingen starb. Die bei ihrem Tod älteste Einwohnerin des Kreises Jülich wurde als letzte auf diesem Friedhof beigesetzt.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

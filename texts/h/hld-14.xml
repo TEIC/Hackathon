@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Menachem Mendel ben Mosche, gest. 1722-02-20, Jüdischer Friedhof Hildesheim, Jüdischer Friedhof Teichstraße</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>hld-14</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=hld-14</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=hld-14</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele mit geradem Abschluss. Die sorgfältig gearbeiteten Buchstaben der Inschrift mit mittig gesetzter Kopfzeile füllen das gesamte Schriftfeld.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1722-02-20'>1722-02-20</date>
+       <country type="ISO_3166" key="XA-DE-NI">
+        Germany
+        <region>Lower Saxony</region>
+       </country>
+       <settlement type='city' key='tgn:7005248'>
+        Hildesheim, Jüdischer Friedhof Teichstraße 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">52.151509 9.959132</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Regina Viereck, Hildesheim</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="hld-14-1" sex='1'>
+      <persName>Menachem Mendel ben Mosche</persName>
+       <event when='1722-02-20' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picshld/xl/0014_hdl_130721.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פה‏‎
+‏‎     <lb n='2'/>
+     ‎‏טמן איש צדיק תם‏‎
+‏‎     <lb n='3'/>
+     ‎‏וישר ה״ה היקר כמ״ר‏‎
+‏‎     <lb n='4'/>
+     ‎‏מנחם מענדל ׃ בן‏‎
+‏‎     <lb n='5'/>
+     ‎‏היקר כמ״ר משה ז״ל‏‎
+‏‎     <lb n='6'/>
+     ‎‏שהי׳ עוסק באמונה‏‎
+‏‎     <lb n='7'/>
+     ‎‏בג״צ ובג״ח נפטר ונקבר‏‎
+‏‎     <lb n='8'/>
+     ‎‏יום ו׳ ג׳ אדר תפ״ב לפ״ק‏‎
+‏‎     <lb n='9'/>
+     ‎‏תנצב״ה ע״נ אי״ו שרר״ו‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier
+     <lb n='2'/>
+     ist geborgen ›ein gerechter, lauterer,
+     <lb n='3'/>
+     aufrechter Mann‹, es ist der Teure, der geehrte Herr
+     <lb n='4'/>
+     Menachem Mendel, Sohn des
+     <lb n='5'/>
+     Teuren, des geehrten Herrn Mosche, sein Andenken zum Segen,
+     <lb n='6'/>
+     welcher beschäftigt war in Treue
+     <lb n='7'/>
+     als Wohlfahrtsverwalter und mit Liebeswerken, verschieden und begraben
+     <lb n='8'/>
+     Tag 6, 3. Adar 482 der kleinen Zählung.
+     <lb n='9'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens mit den Seelen von Awraham, Jizchak und Jaakow, Sara, Riwka, Rachel und Lea
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2f: Zusammengesetzt aus Gen 6,9 und Ijob 1,1</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Inschrift für Menachem Mendel hebt sein Engagement für die Gemeinde hervor: Er verwaltete die Almosenkasse und war Mitglied in der Bruderschaft für Liebesdienste, war also in besonderem Maße mit dem Erweis von Wohltätigkeit befasst, wofür er mit den Erzvätern und -müttern eingehen möge in das ewige Leben.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

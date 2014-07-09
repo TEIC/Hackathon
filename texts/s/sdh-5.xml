@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Schmuel Zwi ben Awraham Hakohen (Abraham [alt?] Adelberg), gest. 1848-07-23, Jüdischer Friedhof Sondershausen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>sdh-5</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=sdh-5</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=sdh-5</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe, gesockelte Stele aus gelblich-beigefarbenem Sondershäuser Muschelkalk mit orangenen Einschlüssen. Die Inschriften auf den etwas hervorstehenden, hochrechteckigen Schriftfeldern sind zentriert. Der Stein schloss vermutlich mit einem Dreiecksgiebel (Vgl. mit Grabsteinen Nr. 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=sdh-0020-t">sdh-0020</ref>
+           von 1836 [Gattin] und Nr. 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=sdh-0007-t">sdh-0007</ref>
+           von 1848. Der Grabstein der Gattin trägt allerdings die hebräische Inschrift vorne und die deutsche hinten, Nr. 
+          <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=sdh-0007-t">sdh-0007</ref>
+           [wahrscheinlich] nur eine hebräische Inschrift vorne).
+         </p>
+        </support>
+        <condition>
+         <p>
+           
+          <damage agent='Verwitterung'>Der obere Abschluss fehlt, die Vorderseite mit dem deutschen Text, der vermutlich fünf, in großem Abstand angebrachte Zeilen mit feiner Kursive umfasste, ist stark verwittert, der Text heute größtenteils verloren.</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1848-07-23'>1848-07-23</date>
+       <country type="ISO_3166" key="XA-DE-TH">
+        Germany
+        <region>Thuringa</region>
+       </country>
+       <settlement type='city' key='tgn:1037748'>
+        Sondershausen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.360182 10.869193</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Henryk Bies, Sondershausen</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Schlossmuseum Sondershausen</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="sdh-5-1" sex='1'>
+      <persName>Schmuel Zwi ben Awraham Hakohen (Abraham [alt?] Adelberg)</persName>
+       <event when='1848-07-23' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='68'>Hebrew</language>
+    <language ident='de' usage='31'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picssdh/xl/15707-Dok_005H.png'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ruht
+      <lb n='2'/>
+      Herr Abraham [alt?]
+      <lb n='3'/>
+      Adelberg
+      <lb n='4'/>
+      geb. im Jahre 1771
+      <lb n='5'/>
+      gest. den [23.] Juli 1848
+     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='6'/>
+      [---]
+      <lb n='7'/>
+      ‎‏איש תם וישר הלך תמים‏‎
+‏‎      <lb n='8'/>
+      ‎‏ופעל צדק ירא אלהיו כל‏‎
+‏‎      <lb n='9'/>
+      ‎‏ימיו צדיק באמונתו חיה‏‎
+‏‎      <lb n='10'/>
+      ‎‏ה״ה ר׳ שמואל צבי בן כה״ר‏‎
+‏‎      <lb n='11'/>
+      ‎‏אברהם הכהן נפטר ונקבר‏‎
+‏‎      <lb n='12'/>
+      ‎‏יום א׳ כ״ב תמוז תר״ם (!) לפ״ק‏‎
+‏‎      <lb n='13'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+     <ab></ab>
+    </div>
+    <lb n='6'/>
+    [Hier ist begraben/geborgen]
+    <lb n='7'/>
+    ›ein lauterer und aufrechter Mann‹ ›er wandelte in Lauterkeit
+    <lb n='8'/>
+    und wirkte Wohl‹, seinen Gott ehrfürchtend all
+    <lb n='9'/>
+    seine Tage, ›ein Gerechter, der in seinem Glauben lebte,‹,
+    <lb n='10'/>
+    es ist Herr Schmuel Zwi, Sohn des geehrten Meisters, Herrn
+    <lb n='11'/>
+    Awraham Hakohen, verschieden und begraben
+    <lb n='12'/>
+    Tag 1, 22. Tammus 640 (!) der kleinen Zählung.
+    <lb n='13'/>
+    Seine Seele sei eingebunden in das Bündel des Lebens
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 7: Ijob 1,8</p>
+    <p>Zl 7f: Ps 15,2</p>
+    <p>Zl 9: Hab 2,4</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Die Lesung des in eckige Klammern gesetzten Wortes ist nicht sicher.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Die Jahreszahl in der hebräischen inschrift ist falsch angegeben: statt ‎‏תרם‏‎/640 (= 1879-80) muss sie entsprechend der Angabe in der deutschen Inschrift ‎‏תר״ח‏‎/608 (= 1847-48) lauten, dann stimmt auch das Datum in sich; vermutlich ein Fehler des Steinmetzen.</p>
+    <p>
+     Dieses Grabmal ist das erste, das einen deutschen Text auf der Vorderseite trägt, während die hebräische Inschrift auf die Rückseite verdrängt wurde, vorausgesetzt, das Grabmal steht heute noch so, wie es aufgestellt wurde. Auch der folgende Grabstein Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=sdh-0006-t">sdh-0006</ref>
+      aus dem selben Jahr, der sicher richtig herum steht, trägt eine deutsche Inschrift vorne und eine hebräische hinten. Die hebräische Inschrift wurde vermutlich einem Musterbuch entnommen, sie findet sich in identischer Form in Schalom Hakohens 1820 in Wien erschienenen Briefsteller "Ketav Joscher" (Nr. 
+     <ref target="http://steinheim-institut.de/cgi-bin/epidat?id=mu1-0001-t">mu1-0001</ref>
+     ).
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Laut Personenstandsregister wurde Abraham Adelberg 1768 oder 1771 als Sohn von Abraham aus Halberstadt und dessen Gattin Schlotz in Sondershausen geboren. Er hatte eine Schwester namens Beile Adelberg, die 1767 in Sondershausen geboren wurde und am 14. September 1839 starb. Das Kind Josef Jehuda Sohn des Awraham Hakohen, das 1754 starb, könnte ein älterer Bruder gewesen sein. 1799 wurde sein Sohn Abraham geboren. Den archivalischen Quellen nach trugen hier also drei Generationen, Vater, Sohn und Enkel, jeweils den Vornamen Abraham. Den Grabinschriften ist jedoch zu entnehmen, dass der hier Bestattete den synagogalen Doppelnamen Schmuel Zwi trug, während sein Vater und sein Sohn mit Synagogalnamen Awraham hießen. Da der jüdischen Tradition nach ein Kind nicht nach einem noch lebenden Verwandten benannt wird, ist davon auszugehen, dass Abraham aus Halberstadt bei der Geburt seines Enkels bereits verstorben war.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

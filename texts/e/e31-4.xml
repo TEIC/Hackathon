@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Dwora ∞ Ascher ben Mattitjahu (Deborah Seligmann geb. Heidenheimer), gest. 1883-02-12, Jüdischer Friedhof Mönchengladbach-Giesenkirchen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e31-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e31-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e31-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Stele auf Fundament mit pyramidalem Abschluß mit heute fehlendem Aufsatz.
+         </p>
+        </support>
+        <condition>
+         <p>
+           Beschädigung mittel. 2008: Die hintere Inschrift ist stärker verwittert. 
+          <damage agent='Verwitterung'>1986: Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1883-02-12'>1883-02-12</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1004537'>
+        Mönchengladbach-Giesenkirchen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.155023 6.504722</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e31-4-1" sex='2'>
+      <persName>Dwora ∞ Ascher ben Mattitjahu (Deborah Seligmann geb. Heidenheimer)</persName>
+       <event when='1883-02-12' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='65'>Hebrew</language>
+    <language ident='de' usage='34'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse31/xl/0004_E31_1986.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='1986'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse31/xl/0004dE31_1986-1.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='1986'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse31/xl/0004dE31_1986-2.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='1986'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse31/xl/0004dE31_1986-3.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='1986'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      ‎‏אשה ישרה ונעימה‏‎
+‏‎      <lb n='3'/>
+      ‎‏הלכה בדרך תמימה‏‎
+‏‎      <lb n='4'/>
+      ‎‏גמלה טוב כל ימי חייה‏‎
+‏‎      <lb n='5'/>
+      ‎‏לעני ולאביון פרשה‏‎
+‏‎      <lb n='6'/>
+      ‎‏כפיה ה״ה מרת דבורה‏‎
+‏‎      <lb n='7'/>
+      ‎‏אשת כ׳ אשר בר מתתיה׳‏‎
+‏‎      <lb n='8'/>
+      ‎‏ותמת בת פ״א שנים ביום‏‎
+‏‎      <lb n='9'/>
+      ‎‏ב׳ ה׳ אדר ראשון‏‎
+‏‎      <lb n='10'/>
+      ‎‏תרמ״ג לפ״ק‏‎
+‏‎      <lb n='11'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='12'/>
+      Hier ruht
+      <lb n='13'/>
+      Frau Deborah Seligmann
+      <lb n='14'/>
+      geb. Heidenheimer
+      <lb n='15'/>
+      gest. im 82. Jahre
+      <lb n='16'/>
+      am 12. Febr. 5643.
+      <lb n='17'/>
+      Selig sei ihre Seele.
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='2'/>
+      eine aufrechte und anmutsvolle Frau,
+      <lb n='3'/>
+      ›sie ging auf makellosem Wege‹,
+      <lb n='4'/>
+      ›Gutes erwies sie alle Tage ihres Lebens‹,
+      <lb n='5'/>
+      ›dem Armen und dem Bedürftigen öffnete sie ihre Hände‹,
+      <lb n='6'/>
+      es ist Frau Dwora,
+      <lb n='7'/>
+      Gattin des geehrten Ascher, Sohn des Mattitjahu,
+      <lb n='8'/>
+      und sie starb 81-jährig am Tag
+      <lb n='9'/>
+      2, 5. des ersten Adar
+      <lb n='10'/>
+      643 der kleinen Zählung.
+      <lb n='11'/>
+      Ihre Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 3: Ps 101,6</p>
+    <p>Zl 4: Spr 31,12</p>
+    <p>Zl 5: Spr 21,20</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -a in Zln 1-6 (unter Einbeziehung des Namens Dwora)
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Deborah Heidenheimer stammte aus Straelen bei Aachen und heiratete 1818 in Giesenkirchen den Viehhändler und Handelsmann Mathias Seligmann jun. in Schelsen. 1834 wurde ihr Sohn Leopold geboren, 1839 der Sohn Jakob und 1842 die Tochter Sofie. Ihre Kinder zogen alle nach Neuss.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

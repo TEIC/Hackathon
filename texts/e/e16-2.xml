@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Sara bat Jischmael (Sara Wallach geb. Benjamin), gest. 1887-11-06, Jüdischer Friedhof Schiefbahn-Knickelsdorf</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e16-2</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e16-2</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e16-2</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele mit eingezogenem Rundbogenabschluß und vertieftem Schriftfeld.
+         </p>
+        </support>
+        <condition></condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1887-11-06'>1887-11-06</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1041092'>
+        Schiefbahn-Knickelsdorf 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.241232 6.50647</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e16-2-1" sex='2'>
+      <persName>Sara bat Jischmael (Sara Wallach geb. Benjamin)</persName>
+       <event when='1887-11-06' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='75'>Hebrew</language>
+    <language ident='de' usage='25'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse16/xl/0002_E16_1985.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='1985'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏אשת חיל תפארת בעלה ובניה‏‎
+‏‎     <lb n='3'/>
+     ‎‏תמימה וישרה ונעימה במעשיה‏‎
+‏‎     <lb n='4'/>
+     ‎‏לעני ולאביון פרשה כפיה‏‎
+‏‎     <lb n='5'/>
+     ‎‏לגמול חסד ואמת כל ימיה‏‎
+‏‎     <lb n='6'/>
+     ‎‏מ׳ שרה בת ישמעאל‏‎
+‏‎     <lb n='7'/>
+     ‎‏מתה ביום כ׳ חשון תרמ״ח לפ״ק‏‎
+‏‎     <lb n='8'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='9'/>
+     Sara Wallach
+     <lb n='10'/>
+     geb. Benjamin
+     <lb n='11'/>
+     geb. 1817, gest. 6. Nov. 1887.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ›die tüchtige Gattin‹, Zierde ihres Gatten und ihrer Kinder,
+     <lb n='3'/>
+     lauter, aufrecht und anmutsvoll in ihren Taten,
+     <lb n='4'/>
+     ›dem Armen und dem Bedürftigen öffnete sie ihre Hände‹,
+     <lb n='5'/>
+     ›um wahrhaftiges Liebeswerk zu erweisen all ihre Tage‹,
+     <lb n='6'/>
+     Frau Sara, Tochter des Jischmael,
+     <lb n='7'/>
+     gestorben am 20. Tag des Cheschvan 648 der kleinen Zählung.
+     <lb n='8'/>
+     Ihre Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 31,10</p>
+    <p>Zl 4: Spr 21,20</p>
+    <p>Zl 5: Vgl. Gen 24,49 u. ARN 4</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -ejha in Zln 2-5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Sara Benjamin stammte aus Werne und heiratete Benjamin Wallach in dessen zweiter Ehe. Aus dieser Ehe gingen drei Kinder hervor: 1854 wurde Jakob geboren, 1857 die Zwillinge Hermann und Isaak. Jakob heiratete Margarete Goldschmied und hatte fünf Kinder. Hermann starb 1927 in Düsseldorf. Isaak war verheiratet mit Adelheid Herz.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

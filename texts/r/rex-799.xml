@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Josef Zürndorfer, gest. 1915-09-19, Jüdischer Friedhof Rexingen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>rex-799</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=rex-799</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=rex-799</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1915-09-19'>1915-09-19</date>
+       <country type="ISO_3166" key="XA-DE-BW">
+        Germany
+        <region>Baden-Württemberg</region>
+       </country>
+       <settlement type='city' key='tgn:7012512'>
+        Rexingen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">48.436252 8.650375</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Herbert Kläger, Rexingen</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="rex-799-1" sex='1'>
+      <persName>Josef Zürndorfer</persName>
+       <event when='1915-09-19' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='11'>Hebrew</language>
+    <language ident='de' usage='88'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsrex/xl/0799rex_Herbert_Klaeger.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='Rechts'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פ״נ‏‎
+‏‎      <lb n='2'/>
+      Josef
+      <lb n='3'/>
+      Zürndorfer
+      <lb n='4'/>
+      Flieger-
+      <lb n='5'/>
+      Leutnant
+      <lb n='6'/>
+      R.D. Eis. K.
+     </ab>
+    </div>
+    <div type='textpart' subtype='Links'>
+      <ab>
+      <lb n='7'/>
+      ‎‏תנצב״ה‏‎
+‏‎      <lb n='8'/>
+      geb. 29.5.1888
+      <lb n='9'/>
+      Starb als
+      <lb n='10'/>
+      Held fürs
+      <lb n='11'/>
+      Vaterland
+      <lb n='12'/>
+      gest. 19.9.1915
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='Rechts'>
+      <ab>
+      <lb n='1'/>
+      Hier ist begraben
+      <lb n='6'/>
+      Reservedienst Eisernes Kreuz
+     </ab>
+    </div>
+    <div type='textpart' subtype='Links'>
+      <ab>
+      <lb n='7'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 6: Josef Zürndorfer hatte im September 1914 "wegen besonderer Tapferkeit vor dem Feind" das Eiserne Kreuz II Klasse verliehen bekommen. Nur zehn Tage vor seinem Tod war er zum Leutnant der Reserve im Infanterie-Regiment Nr. 154 befördert worden.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der ledige Kaufmann Josef Zürndorfer, achtes und jüngstes Kind des Textilhändlers Max W. Zürndorfer aus Rexingen und der Ida geb. Hilb aus Haigerloch, starb während seiner Kriegsfliegerausbildung bei einem Flugzeugabsturz auf dem Flugplatz Johannisthal bei Berlin. Er wurde in Rexingen in der ersten Reihe des 1914 erweiterten Friedhofs beigesetzt, später ließ ihm seine Familie neben dem Kriegerdenkmal ein von dem bekannten Düsseldorfer Bildhauer Leopold Fleischhacker entworfenes Ehrengrab mit einem vom Künstler signierten Reliefportrait Zürndorfers errichten, in das der Zinksarg umgebettet wurde.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

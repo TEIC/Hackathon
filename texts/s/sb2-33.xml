@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Isidor Kaufmann, gest. 1920-11-02, Pauline Kaufmann geb. Beer, gest. 1921-05-05, Jakob Kaufmann, gest. 1937-06-29, Paul Weinberg, gest. 1938-01-10, Margarete geb. Leiffmann, gest. 1962-03-28, Jüdischer Friedhof Saarbrücken, neu</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>sb2-33</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=sb2-33</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=sb2-33</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='symbol'>Magen David</decoNote>
+       <decoNote type='ornament'>floral</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1920-11-02'>1920-11-02</date>
+       <country type="ISO_3166" key="XA-DE-SL">
+        Germany
+        <region>Saarland</region>
+       </country>
+       <settlement type='city' key='tgn:7004454'>
+        Saarbrücken, neu 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">49.204385 6.960955</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="sb2-33-1" sex='1'>
+      <persName>Isidor Kaufmann</persName>
+       <event when='1920-11-02' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="sb2-33-2" sex='0'>
+      <persName>Pauline Kaufmann geb. Beer</persName>
+       <event when='1921-05-05' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="sb2-33-3" sex='1'>
+      <persName>Jakob Kaufmann</persName>
+       <event when='1937-06-29' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="sb2-33-4" sex='0'>
+      <persName>Paul Weinberg</persName>
+       <event when='1938-01-10' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="sb2-33-5" sex='2'>
+      <persName>Margarete geb. Leiffmann</persName>
+       <event when='1962-03-28' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='de' usage='100'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picssb2/xl/0033_SBK_090812L1005794qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='Mitte'>
+      <ab>
+      <lb n='1'/>
+      Hier ruhen
+      <lb n='2'/>
+      in Frieden
+      <lb n='3'/>
+      Isidor
+      <lb n='4'/>
+      Kaufmann
+      <lb n='5'/>
+      g[e]b. 6. Feb. 1863
+      <lb n='6'/>
+      gest. 2. Nov. 1920
+      <lb n='7'/>
+      Pauline
+      <lb n='8'/>
+      Kaufmann
+      <lb n='9'/>
+      geb. Beer
+      <lb n='10'/>
+      geb. 18. Sept. 1864
+      <lb n='11'/>
+      gest. 5. Mai 1921
+     </ab>
+    </div>
+    <div type='textpart' subtype='Rechts'>
+      <ab>
+      <lb n='12'/>
+      Jakob
+      <lb n='13'/>
+      Kaufmann
+      <lb n='14'/>
+      geb. 28.8.1873
+      <lb n='15'/>
+      gest. 29.6.1937
+     </ab>
+    </div>
+    <div type='textpart' subtype='Links'>
+      <ab>
+      <lb n='16'/>
+      Paul
+      <lb n='17'/>
+      Weinberg
+      <lb n='18'/>
+      geb. 20.6.1873
+      <lb n='19'/>
+      gest. 10.1.1938
+      <lb n='20'/>
+      Margarete
+      <lb n='21'/>
+      geb. Leiffmann
+      <lb n='22'/>
+      geb. 23.11.1878
+      <lb n='23'/>
+      gest. 28.3.1962
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

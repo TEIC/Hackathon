@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Ella bat Josef (Emilie Rosendahl), gest. 1891-12-04, Miriam bat Aharon (Mina Rosendahl geb. Schreiber), gest. 1909-02-05, Jüdischer Friedhof Duisburg-Beeck</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>du1-18</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=du1-18</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=du1-18</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>113/101 x 89 x 19; Sockel: 59 x 105 x 35/28</dim>
+          </dimensions>
+          Breite, gesockelte Stele mit geschweiftem Flachbogenabschluß.
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1891-12-04'>1891-12-04</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1004071'>
+        Duisburg-Beeck 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.47468 6.7424</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       Epigraphisches Bildarchiv, 
+       <orgName ref="http://d-nb.info/gnd/212562-6">Steinheim-Institut</orgName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="du1-18-1" sex='2'>
+      <persName>Ella bat Josef (Emilie Rosendahl)</persName>
+       <event when='1891-12-04' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+     <person xml:id="du1-18-2" sex='2'>
+      <persName>Miriam bat Aharon (Mina Rosendahl geb. Schreiber)</persName>
+       <event when='1909-02-05' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='16'>Hebrew</language>
+    <language ident='de' usage='83'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsdu1/xl/0018_du1_1984.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsdu1/xl/0018ddu1_1984.png'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     Hier ruht in Gott
+     <lb n='2'/>
+     unsere innigstgeliebte unvergessliche
+     <lb n='3'/>
+     Mutter // Schwester
+     <lb n='4'/>
+     Mina Rosendahl// Emilie
+     <lb n='5'/>
+     geb. Schreiber// Rosendahl
+     <lb n='6'/>
+     ‎‏מיריאם בת אהרן // עללה בת יוסף‏‎
+‏‎     <lb n='7'/>
+     geb. 30. April 1839, // geb. 4. Juni 1873,
+     <lb n='8'/>
+     gest. 5. Febr. 1909. // gest. 4. Dez. 1891.
+     <lb n='9'/>
+     ‎‏תנצב״ה‏‎
+‏‎     <lb n='10'/>
+     Dem Auge fern, dem Herzen ewig nahe!
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='6'/>
+     Miriam, Tochter des Aharon // Ella, Tochter des Josef
+     <lb n='9'/>
+     Ihre Seelen seien eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Das gemeinsame Grabmal wurde erst nach dem Tode Minnas gesetzt.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Emilie Rosendahl, in Aplerbeck geborene Tochter von Josef Rosendahl und Minna geb. Schreiber, starb ledig und wurde zunächst auf dem alten Ruhrorter Friedhof beigesetzt. Im April 1907 war ihres eines von sechs Gräbern, die vom alten zum neuen Ruhrorter Friedhof nach Beeck überführt wurden, nachdem die Ruhrorter Gemeinde einen Teil des alten Friedhofs zum Bau der Rheinbrückenstraße (damals Marktstraße) abtreten mußte. Die nebenliegende Grabstelle hatte bereits im Monat zuvor ihr Bruder Adolf Rosendahl aus Meiderich erworben. Auf ihr wurde 1909 Emilies Mutter, die Witwe Minna/Wilhelmine Rosendahl geb. Schreiber beigesetzt. Adolf Rosendahl stammte aus Aplerbeck/Dortmund und lebte als Metzgermeister seit spätestens 1892 in Meiderich. 1942 wurden er und seine Frau Selma geb. Pins nach Theresienstadt verschleppt und blieben verschollen. Dem Sohn Josef gelang die Emigration nach England.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

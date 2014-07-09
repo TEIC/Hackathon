@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Alexande(r) ben Je]huda Schlomo, gest. 1726-09-27, Jüdischer Friedhof Sondershausen</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>sdh-73</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=sdh-73</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=sdh-73</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Schmalhohe Stele aus Sondershäuser Muschelkalk mit Rundbogenabschluss und breitem, scharriertem Rand. Die zehn Zeilen umfassende hebräische Inschrift ist zentriert.
+         </p>
+        </support>
+        <condition>
+         <p> Die untere rechte Ecke des Grabsteins ist beschädigt, ein Teil des (inzwischen nicht mehr) stark mit Moos bewachsenen Schriftfelds fehlt.</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1726-09-27'>1726-09-27</date>
+       <country type="ISO_3166" key="XA-DE-TH">
+        Germany
+        <region>Thuringa</region>
+       </country>
+       <settlement type='city' key='tgn:1037748'>
+        Sondershausen 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.360182 10.869193</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Henryk Bies, Sondershausen</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Schlossmuseum Sondershausen</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="sdh-73-1" sex='1'>
+      <persName>Alexande(r) ben Je]huda Schlomo</persName>
+       <event when='1726-09-27' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picssdh/xl/15707-Dok_073V.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏עד‏‎
+‏‎     <lb n='2'/>
+     ‎‏הגל הזה ועדה‏‎
+‏‎     <lb n='3'/>
+     ‎‏המצבה שפה‏‎
+‏‎     <lb n='4'/>
+     ‎‏טמון איש ישר‏‎
+‏‎     <lb n='5'/>
+     ‎‏ונאמן הולך תמי׳‏‎
+‏‎     <lb n='6'/>
+     ‎‏ופועל צדק ה״ה‏‎
+‏‎     <lb n='7'/>
+     ‎‏[‎‏הנ]עדר כ׳ אלכסנד׳‏‎
+‏‎     <lb n='8'/>
+     ‎‏בן [י]הודא שלמה‏‎
+‏‎     <lb n='9'/>
+     ‎‏ז״ל נ[פטר] ביו׳ ב׳ דר״ה‏‎
+‏‎     <lb n='10'/>
+     ‎‏תפ״ז [לפ״]ק תנצב״ה‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     ›Zeuge
+     <lb n='2'/>
+     ist dieser Hügel und Zeugin
+     <lb n='3'/>
+     diese Stele‹, daß hier
+     <lb n='4'/>
+     geborgen ist ›ein aufrechter und getreuer
+     <lb n='5'/>
+     Mann‹, ›lauter wandelnd
+     <lb n='6'/>
+     und Wohltat wirkend ‹, es ist
+     <lb n='7'/>
+     [der Ver]blichene, der geehrte Alexande(r),
+     <lb n='8'/>
+     Soh[n des Je]huda Schlomo,
+     <lb n='9'/>
+     sein Andenken zum Segen, ver[schieden] am 2. Tag von Neujahr
+     <lb n='10'/>
+     487 [nach der] kleinen [Zählung.] Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zln 1-3: Gen 31,52</p>
+    <p>Zl 4f: Av 6,1</p>
+    <p>Zl 5f: Ps 15,2</p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zln 1-3: Diese Einleitungsformel, die insbesondere im Mittelalter beliebt war, wird hier im Folgenden kombiniert mit der später allgemein üblichen Wendung Hier ist geborgen.</p>
+    <p>Zl 10: Die Lesung des Sterbejahres ist nicht ganz sicher. Möglich ist auch ‎‏תק״ז‏‎ (5507), dann fiele das Sterbedatum auf den 16. September 1746. Allerdings stimmt dies nicht mit den Angaben in den Kammerrechnungen (siehe unten) überein.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Dieser Stein ist aufgrund der Lage und Gestaltung sicher einer der ältesten Grabsteine des Friedhofs.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>In den Sondershäuser Kammerrechnungen 1724/25 - 1726/27 ist zwischen Ostern 1725 und Ostern 1727 verzeichnet "Alexander Salomon Joseph" bzw. nur "Alexander Salomon", welcher vermutlich um 1727 starb und das Schutzgeld für drei Jahre schuldig blieb. Dieser ist höchstwahrscheinlich mit dem hier beerdigten Alexander identisch. Seine Witwe ist noch bis Michaelis 1732 genannt und heiratete dann Liebman Wetzlar. Alexanders Vater trug den Doppelnamen "Jehuda Schlomo", wobei "Schlomo" dem Namen Salomon entspricht. Den Einträgen im Kammerregister nach ist zu vermuten, dass dieser Salomon wiederum der Sohn eines Joseph war (siehe hier zu Namen und Verwandtschaftsbeziehungen in der Einleitung).</p>
+    <p>Vielleicht ist dieser Alexander identisch mit dem Alexander, in dessen Hause 1698 die Gottesdienste der Gemeinde abgehalten wurden, und jenem "Alexander Cantor", der im Jahr darauf das erste Gelände für die Anlage des Friedhofs erwarb.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

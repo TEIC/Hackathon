@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Channa Hinlin bat Man Nervim?? [Bacharach], gest. 1600~1650, Jüdischer Friedhof Schmalkalden</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>smk-22</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=smk-22</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=smk-22</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Sandstein</material>
+          <dimensions>
+           <dim>H: 90 cm B: 58 cm T: 15 cm</dim>
+          </dimensions>
+          Kleine Stele mit Rundbogenabschluss.
+         </p>
+        </support>
+        <condition>
+         <p>
+          <date>1996</date>
+           Oberflächenparallele Abschalungen, vor allem auf der Rückseite, kleinere Ausbrüche.
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <handDesc>
+       <handNote>Schrift vertieft</handNote>
+      </handDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1600~1650'>1600~1650</date>
+       <country type="ISO_3166" key="XA-DE-TH">
+        Germany
+        <region>Thuringa</region>
+       </country>
+       <settlement type='city' key='tgn:7012867'>
+        Schmalkalden 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.724221 10.439409</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Angela Onasch</catDesc>
+     </category>
+     <category xml:id='foto3'>
+      <catDesc>Nathanja Hüttenmeister</catDesc>
+     </category>
+     <category xml:id='foto4'>
+      <catDesc>Andrea Neid</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="smk-22-1" sex='2'>
+      <persName>Channa Hinlin bat Man Nervim?? [Bacharach]</persName>
+       <event when='1600~1650' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='100'>Hebrew</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picssmk/xl/0022_SMk_100907L1014148hb.png'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏חנה הינלין‏‎
+‏‎     <lb n='2'/>
+     ‎‏בת מן נערוים‏‎
+‏‎     <lb n='3'/>
+     ‎‏ז״ל בכרך נפטר׳‏‎
+‏‎     <lb n='4'/>
+     ‎‏בליל של מחר׳‏‎
+‏‎     <lb n='5'/>
+     ‎‏יום ה׳ כ״ד סיון‏‎
+‏‎     <lb n='6'/>
+     ‎‏ונקבר׳ ביום ע‏‎
+‏‎     <lb n='7'/>
+     ‎‏[‎‏־־־]‏‎
+‏‎    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Channa Hinlin,
+     <lb n='2'/>
+     Tochter des Man Nervim?? 
+     <supplied reason='subaudible'>Bacharach</supplied>
+     ,
+     <lb n='3'/>
+     sein Andenken zum Segen, Bacharach, verschieden
+     <lb n='4'/>
+     in der Nacht auf?,
+     <lb n='5'/>
+     Tag 5, 24. Sivan,
+     <lb n='6'/>
+     und begraben am Tag ...
+     <lb n='7'/>
+     [---]
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2: Der erste Beiname des Vaters, etwa "Nervim" geschrieben, führt sich vermutlich auf einen Ortsnamen zurück, wobei die Endung des Wortes für "-heim" stehen könnte.</p>
+   </div>
+   <div type="commentary" subtype="Endkommentar">
+    <head>Endkommentar</head>
+    <p>Aufgrund der Gestaltung des Grabmals handelt es sich sicherlich um eines der ältesten erhaltenen Grabsteine des Friedhofs aus dem 17. Jahrhundert.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

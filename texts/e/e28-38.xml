@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Channa ∞ Hirz Quack (Frau Jacob Quack geb. Hanna Simon), gest. 1850-03-21, Jüdischer Friedhof Mönchengladbach-Wickrath</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>e28-38</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=e28-38</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=e28-38</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Gesockelte, sich nach oben verjüngende Stele mit abgesetztem, geraden Abschluß.
+         </p>
+        </support>
+        <condition>
+         <p>
+           Beschädigung mittel, das Grabmal lehnt am Sockel, der obere Abschluß daneben. 2007: Das Grabmal wurde wieder zusammengesetzt. 
+          <damage agent='Verwitterung'>1986: Verwitterung mittel</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1850-03-21'>1850-03-21</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1041803'>
+        Mönchengladbach-Wickrath 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.133434 6.419183</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>
+       <persName ref='http://d-nb.info/gnd/128472499' role='photographer'>Bert Sommer</persName>
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="e28-38-1" sex='2'>
+      <persName>Channa ∞ Hirz Quack (Frau Jacob Quack geb. Hanna Simon)</persName>
+       <event when='1850-03-21' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='44'>Hebrew</language>
+    <language ident='de' usage='55'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picse28/xl/1002_E28_070813EPS6039hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse28/xl/1002dE28_070813EPS6020qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse28/xl/1002dE28_070813EPS6038hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse28/xl/1002dE28_070813EPS6052qb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picse28/xl/1002rE28_070813EPS6002hb.jpg'>
+    <desc>
+    <ref target='#foto1'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏הגבירה המהוללה‏‎
+‏‎      <lb n='2'/>
+      ‎‏אשת חיל תפארת בעלה‏‎
+‏‎      <lb n='3'/>
+      ‎‏ותפארת בניה‏‎
+‏‎      <lb n='4'/>
+      ‎‏ופועלת טוב כל ימיה‏‎
+‏‎      <lb n='5'/>
+      ‎‏ה״ה אשה יראת אלהים‏‎
+‏‎      <lb n='6'/>
+      ‎‏היקרה מ׳ חנה‏‎
+‏‎      <lb n='7'/>
+      ‎‏אשת פו״מ כ״ה הירץ קוואַק ז״ל‏‎
+‏‎      <lb n='8'/>
+      ‎‏מתה ביו׳ ה׳ חי״ת ניסן‏‎
+‏‎      <lb n='9'/>
+      ‎‏ותקבר ביו׳ א׳ י״א שנת תר״י לפ״ק‏‎
+‏‎      <lb n='10'/>
+      ‎‏נתצב״ה‏‎
+‏‎      <lb n='11'/>
+      Ruhestaette
+      <lb n='12'/>
+      der Frau
+      <lb n='13'/>
+      Jacob Quack geb. Hanna Simon aus
+      <lb n='14'/>
+      Wickrathberg geb. im 7[.] Jahre ihres Alters 21. März 1850.
+     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='15'/>
+      Und wall ich auch
+      <lb n='16'/>
+      im Todesschattenthale,
+      <lb n='17'/>
+      so wall ich ohne Furcht!
+      <lb n='18'/>
+      denn Du begleitest mich
+      <lb n='19'/>
+      Dein Stab und Deine Stütze
+      <lb n='20'/>
+      sind ... mein Trost!
+      <lb n='21'/>
+      Psalm C. [23] V. 4.
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Die gepriesene Herrin,
+      <lb n='2'/>
+      ›die tüchtige Gattin‹, Zierde ihres Gatten
+      <lb n='3'/>
+      ›und Zierde ihrer Kinder‹,
+      <lb n='4'/>
+      Gutes wirkend all ihre Tage,
+      <lb n='5'/>
+      es ist eine gottesfürchtige Frau,
+      <lb n='6'/>
+      die Teure, Frau Channa,
+      <lb n='7'/>
+      Gattin des Vorstehers und Leiters, des geehrten Herrn Hirz Quack, sein Andenken zum Segen,
+      <lb n='8'/>
+      gestorben am Tag 5, achter Nissan,
+      <lb n='9'/>
+      und sie ward begraben am Tag 1, 11. (Nissan) des Jahres 610 der kleinen Zählung.
+      <lb n='10'/>
+      Es sei ihre Seele eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Zitate">
+    <head>Zitate</head>
+    <p>Zl 2: Spr 31,10</p>
+    <p>Zl 3: Spr 17,6</p>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      auf -la in Zln 2-3, auf -ejha in Zln 4-5.
+    </p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

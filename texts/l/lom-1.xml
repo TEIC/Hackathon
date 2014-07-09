@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal, Jüdischer Friedhof Weilerswist-Lommersum</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>lom-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=lom-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=lom-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+         </p>
+        </support>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1041711'>
+        Weilerswist-Lommersum 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.702917 6.787306</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='39'>Hebrew</language>
+    <language ident='de' usage='60'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ׳נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏עטרת בעלה‏‎
+‏‎     <lb n='3'/>
+     ‎‏ותפארת בניה‏‎
+‏‎     <lb n='4'/>
+     ‎‏שרה פריסכה‏‎
+‏‎     <lb n='5'/>
+     ‎‏בת מאיר הכהן‏‎
+‏‎     <lb n='6'/>
+     ‎‏מתה כ׳ט תשרי תרע׳א‏‎
+‏‎     <lb n='7'/>
+     ‎‏ת׳נ׳צ׳ב׳ה׳‏‎
+‏‎     <lb n='8'/>
+     Hier ruht
+     <lb n='9'/>
+     meine innigstgeliebte Gattin
+     <lb n='10'/>
+     unsere gute u. treue Mutter
+     <lb n='11'/>
+     Frau Bertha Stock
+     <lb n='12'/>
+     geb. Kahn
+     <lb n='13'/>
+     geb. 5.4.1873, gest. 1.11.1910
+     <lb n='14'/>
+     Sie ruhe in Frieden.
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben,
+     <lb n='2'/>
+     die Krone ihres Gatten
+     <lb n='3'/>
+     und Zierde ihrer Kinder,
+     <lb n='4'/>
+     Sara Preis-che
+     <lb n='5'/>
+     Tochter des Me-ir Hakohen
+     <lb n='6'/>
+     gestorben am 29. Tischrei 671
+     <lb n='7'/>
+     Ihre Seele sei eingebunden in das Buendel des Lebens
+    </ab>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>In Zeile 3 ein Zitat aus Sprueche 12,4.</p>
+    <p>In Zeile 4 ein abgewandeltes Zitat aus Sprueche 17,6.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

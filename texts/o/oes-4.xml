@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für Mosche ben Jekutiel Freund, gest. 1901-08-22, Jüdischer Friedhof Rüthen-Oestereiden</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>oes-4</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=oes-4</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=oes-4</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          Kleine Stele mit Rundbogenabschluß mit leicht auskragendem Rand, auf dem Scheitel ein kleiner Aufsatz aus zwei Voluten, die eine angedeutete Palmette tragen. Das vordere Schriftfeld ist vertieft und wird von einem breiten, profilierten Rahmen umgeben (vgl. auch das Grabmal der Gattin).
+         </p>
+        </support>
+        <condition>
+         <p>
+           leichte Beschädigung an den Rändern. 
+          <damage agent='Verwitterung'>Starke Verwitterung, vor allem die deutsche Inschrift ist größtenteils verloren</damage>
+         </p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+      <decoDesc>
+       <decoNote type='ornament'>gestalterisch: zwei kleine Voluten, die eine angedeutete Palmette tragen.</decoNote>
+      </decoDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1901-08-22'>1901-08-22</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:7115274'>
+        Rüthen-Oestereiden 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">51.561531 8.422989</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <classDecl>
+    <taxonomy>
+     <category xml:id='foto1'>
+      <catDesc>Hermann J. Krämer, Rüthen</catDesc>
+     </category>
+     <category xml:id='foto2'>
+      <catDesc>Stadtarchiv Rüthen</catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="oes-4-1" sex='1'>
+      <persName>Mosche ben Jekutiel Freund</persName>
+       <event when='1901-08-22' type="dateofdeath">
+       <desc/>
+      </event>
+     </person>
+    </listPerson>
+   </particDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='55'>Hebrew</language>
+    <language ident='de' usage='44'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile>
+  <graphic url='http://steinheim-institut.de/daten/picsoes/xl/0004_oes_1983.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    <date when='1983'/>
+    recto
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsoes/xl/0004does_2008.JPG'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2008'/>
+    Detail
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsoes/xl/0004roes_1983.jpg'>
+    <desc>
+    <ref target='#foto2'/>
+    <date when='1983'/>
+    verso
+   </desc>
+  </graphic>
+  <graphic url='http://steinheim-institut.de/daten/picsoes/xl/0004roes_2008.JPG'>
+    <desc>
+    <ref target='#foto1'/>
+    <date when='2008'/>
+    verso
+   </desc>
+  </graphic>
+ </facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      ‎‏פה נטמן‏‎
+‏‎      <lb n='2'/>
+      ‎‏החבר ר׳ משה בן רבינו‏‎
+‏‎      <lb n='3'/>
+      ‎‏הר״ר יקותיאל‏‎
+‏‎      <lb n='4'/>
+      ‎‏פריינד נפטר ז׳ אלול‏‎
+‏‎      <lb n='5'/>
+      ‎‏ונקבר בי׳‏‎
+‏‎      <lb n='6'/>
+      ‎‏אלול שנת תרס״א‏‎
+‏‎      <lb n='7'/>
+      ‎‏לפ״ק‏‎
+‏‎      <lb n='8'/>
+      ‎‏תנצב״ה‏‎
+‏‎     </ab>
+    </div>
+    <div type='textpart' subtype='verso'>
+      <ab>
+      <lb n='9'/>
+      Hier ruht in Gott
+      <lb n='10'/>
+      mein lieber Mann,
+      <lb n='11'/>
+      unser [...] Vater
+      <lb n='12'/>
+      [...]
+      <lb n='13'/>
+      M[oses Fr]eund
+      <lb n='14'/>
+      [...]
+      <lb n='15'/>
+      [...]
+      <lb n='16'/>
+      [...]
+     </ab>
+    </div>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+    <div type='textpart' subtype='recto'>
+      <ab>
+      <lb n='1'/>
+      Hier ist geborgen
+      <lb n='2'/>
+      der toragelehrte Herr Mosche, Sohn unseres Meisters,
+      <lb n='3'/>
+      des Meisters, Herrn Jekutiel
+      <lb n='4'/>
+      Freund, verschieden 7. Elul
+      <lb n='5'/>
+      und begraben am 10.
+      <lb n='6'/>
+      Elul des Jahres 661
+      <lb n='7'/>
+      der kleinen Zählung.
+      <lb n='8'/>
+      Seine Seele sei eingebunden in das Bündel des Lebens
+     </ab>
+    </div>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Der Handelsmann Moses Freund stammte aus Rohden im Fürstentum Waldeck. Er starb im Alter von 72 Jahren in Oestereiden. Sein Sohn Louis Freund zeigte am 23. August 1901 seinen Tod beim Standesbeamten in Hoinkhausen an: "Vor dem unterzeichneten Standesbeamten erschien heute, der Persönlichkeit nach bekannt, der Geschäftsführer Louis Freund, wohnhaft in Berlin, und zeigte an, dass der Handelsmann Moses Freund, sein Vater, 72 Jahre, 7 Monate, 4 Tage alt, jüdischer Religion, wohnhaft in Oestereiden, geboren zu Rohden, Fürstentum Waldeck, verheiratet gewesen in erster Ehe mit der verstorbenen Anna geborene Löwenstein, in zweiter Ehe mit Emilie geborene Loeb, Sohn der verstorbenen Eheleute Oberlehrer Kaufmann Freund und Johanna geborene Kaufmann zu Rohden, Fürstentum Waldeck, zu Oestereiden in seiner Wohnung am 22. August des Jahres 1901 vormittags um elfdreiviertel Uhr verstorben sei, was aus eigener Wissenschaft bekundet werde."</p>
+    <p>Die erste Ehe mit Hanna Löwenstein hatte Moses Freund im August 1856 geschlossen, schon drei Monate später kam sein ältester Sohn Kaufmann, genannt Carl, zur Welt, welcher 1885 in Kommern die dort 1860 geborene Carola Wolff heiratete. 1860 folgte die Tochter Pauline. Hanna Freund starb am 24. November 1870 im Alter von 52 Jahren an Lungenentzündung (ihr Grabstein ist nicht erhalten), im folgenden Jahr, am 26. April 1871, ehelichte Moses Freund Emilie geb. Löb aus Wrexen. Anfang 1872 wird ihre Tochter Johanna geboren, die 1938 als Johanna Mannheimer in Bad Pyrmont lebte. Ihr Bruder Louis kam im Jahr 1874 zur Welt. Er lebte in Berlin, wo er sich kurz nach der Reichspogromnacht am 11. November das Leben nahm.</p>
+    <p>Weitere, in Oestereiden geborene Mitglieder der Familie Freund, die wahrscheinlich mit den genannten eng verwandt waren, waren die am 17.06.1876 geborene Jette/Jenny, verheiratete Metzger, die in Ahlen, in Wanne-Eickel und schließlich in Berlin lebte, von wo sie 1942 ins Warschauer Ghetto deportiert wurde, die am 06.03.1879 geborene Caroline, verheiratete Goldschmidt, die in Berlin lebte und 1942 nach Auschwitz deportiert und ermordet wurde, sowie der am 22.01.1882 geborene Abraham Freund, der in Ahlen lebte und am 12. Oktober 1942 in Berlin in den Freitod ging.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>

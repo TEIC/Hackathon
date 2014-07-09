@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.18/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang='de'>Grabmal für , gest. 1918-10-21, Jüdischer Friedhof Bornheim</title>
+    <respStmt xml:lang="de">
+     <resp>herausgegeben vom</resp>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </respStmt>
+   </titleStmt>
+    <editionStmt>
+    <edition/>
+   </editionStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>
+     <orgName ref="http://d-nb.info/gnd/212562-6">
+      Salomon Ludwig Steinheim-Institut 
+      <address>
+       <addrLine>Edmund-Körner-Platz 2</addrLine>
+       <addrLine>D-45127 Essen</addrLine>
+      </address>
+     </orgName>
+    </publisher>
+    <idno>bor-1</idno>
+    <idno type="url">http://www.steinheim-institut.de/cgi-bin/epidat?id=bor-1</idno>
+    <availability xml:lang="en" status="free">
+     <licence>
+      <ref target="http://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+      <p>
+       All reuse or distribution of this work must contain somewhere a link back to the URL 
+       <ref>http://www.steinheim-institut.de/cgi-bin/epidat?id=bor-1</ref>
+      </p>
+     </licence>
+    </availability>
+   </publicationStmt>
+    <notesStmt>
+    <note/>
+   </notesStmt>
+   <sourceDesc>
+    <bibl>born digital</bibl>
+     <msDesc>
+     <msIdentifier/>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <p>
+          <material>Stein</material>
+          <dimensions>
+           <dim>152,5 x 52 x 16 cm. Sockel: 36 x 58 x 29 cm.</dim>
+          </dimensions>
+          Hohe, sich leicht nach oben verjüngende Stele aus poliertem Hartstein mit hohem, eingezogenen Dreiecksgiebel auf mehrfach getrepptem Sockel. Die Inschrift ist zentriert, der Name im deutschen Text durch größere Buchstaben hervorgehoben.
+         </p>
+        </support>
+        <condition>
+         <p>weitgehend gut</p>
+        </condition>
+       </supportDesc>
+        <layoutDesc>
+        <layout/>
+       </layoutDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <date notBefore='1918-10-21'>1918-10-21</date>
+       <country type="ISO_3166" key="XA-DE-NW">
+        Germany
+        <region>North Rhine-Westphalia</region>
+       </country>
+       <settlement type='city' key='tgn:1038605'>
+        Bornheim 
+        <geogName>
+         Jüdischer Friedhof
+         <geo decls="#WGS">50.75759 6.987414</geo>
+        </geogName>
+       </settlement>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Encoded according to the EpiDoc Guidelines, Schema Version 8.18</p>
+   <geoDecl xml:id="WGS" datum="WGS84">World Geodetic System</geoDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+    <!-- According to bcp47 http://tools.ietf.org/html/bcp47 (Language) and ISO15924 (writing System)-->
+    <language ident='he' usage='40'>Hebrew</language>
+    <language ident='de' usage='60'>German</language>
+   </langUsage>
+  </profileDesc>
+   <revisionDesc>
+   <change/>
+  </revisionDesc>
+ </teiHeader>
+ <facsimile></facsimile>
+ <text>
+  <body>
+   <div type='edition'>
+    <head>Edition</head>
+     <ab>
+     <lb n='1'/>
+     ‎‏פ״נ‏‎
+‏‎     <lb n='2'/>
+     ‎‏איש אמונים הלך תמים‏‎
+‏‎     <lb n='3'/>
+     ‎‏מאשיו (!) היו טובים ושלמים‏‎
+‏‎     <lb n='4'/>
+     ‎‏הוא שלמה בר מרדכי‏‎
+‏‎     <lb n='5'/>
+     ‎‏נפטר ביום ט״ו חשון תרע״ט‏‎
+‏‎     <lb n='6'/>
+     ‎‏תנצב״ה ׃‏‎
+‏‎     <lb n='7'/>
+     Hier ruht 
+     <lb n='8'/>
+     mein lieber 
+     <lb n='9'/>
+     unvergesslicher Gatte 
+     <lb n='10'/>
+     Salomon Hartog 
+     <lb n='11'/>
+     geb. 17.11.1878 zu Tillburg 
+     <lb n='12'/>
+     gest. 21.10.1918 zu Waldorf.
+     <lb n='13'/>
+     Er ruhe in Frieden.
+     <lb n='14'/>
+     Im Leben geliebt und geehrt 
+     <lb n='15'/>
+     Im Tode beweint und entbehrt. 
+    </ab>
+   </div>
+   <div type='translation'>
+    <head>Übersetzung</head>
+     <ab>
+     <lb n='1'/>
+     Hier ist begraben
+     <lb n='2'/>
+     ein Mann von Treuen, er wandelte lauter,
+     <lb n='3'/>
+     seine Taten waren gut und vollkommen,
+     <lb n='4'/>
+     es ist Schlomo, Sohn des Mordechai,
+     <lb n='5'/>
+     verschieden am 15. Tag des Cheschvan 679.
+     <lb n='6'/>
+     Seine Seele sei eingebunden in das Bündel des Lebens
+    </ab>
+   </div>
+   <div type='commentary' subtype='Stilmittel'>
+    <head>Stilmittel</head>
+    <p>
+     <label>Reim</label>
+      Endreim auf - mim in Zln 2/3.
+    </p>
+   </div>
+   <div type="commentary" subtype="Zeilenkommentar">
+    <head>Zeilenkommentar</head>
+    <p>Zl 2a: Spr 20,6. Der letzte Buchstabe des zweiten Wortes wurde vom Steinmetzen irrtümlich zum nächsten Wort gezogen.</p>
+    <p>Zl 2b: Ps 15,2.</p>
+    <p>Zl 3a: Das erste Wort ist verschrieben (alef statt ajin). Dieser Fehler wurde sicherlich aus der Vorlage übertragen.</p>
+   </div>
+   <div type="commentary" subtype="Prosopographie">
+    <head>Prosopographie</head>
+    <p>Salomon Hartog wurde am 17.11.1878 in Tillburg/Holland geboren und wohnte später in Nümbrecht, Kreis Gummersbach. Am 15.8.1904 heiratete er in Bornheim Helena Levy. Er starb am 21.10.1918 in Waldorf.</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliographie</head>
+    <p>to be done ...</p>
+   </div>
+  </body>
+ </text>
+</TEI>
