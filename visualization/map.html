@@ -10,17 +10,17 @@
        var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
 
 // Default style for markers
-        var bcstyle = { color: 'black', fillColor: '#1bcc3f', radius: 4, opacity: 1, fillOpacity: 1 };
-        var adstyle = { color: 'black', fillColor: 'red', radius: 4, opacity: 1, fillOpacity: 1 };
+        var style = { color: 'black', fillColor: 'red', radius: 6, opacity: 1, fillOpacity: 1 };
         
         // Marker overlays
         var objectLayer = L.layerGroup();
 
         $.get("http://tei.it.ox.ac.uk/Hackathon/visualization/places.json", function(data) {
         $.each(data.TEI, function(idx, object) {
-          var marker = L.circleMarker([object.lat, object.long], adstyle);
+          mystyle=style;
+          var marker = L.circleMarker([object.lat, object.long], mystyle);
           marker.on('click', function(e) {
-            marker.bindPopup('<strong>' + object.id + '</strong>' + '<img style="width:100%" src="' + object.image + '">').openPopup();
+            marker.bindPopup('<strong>' + object.id + '</strong>' + '<img style="width:150px" src="' + object.image + '">').openPopup();
           });
             objectLayer.addLayer(marker);
             });
@@ -28,8 +28,8 @@
  
         // Create map
         var map = new L.Map('map', {
-          center: new L.LatLng(41.893588, 12.488022),
-          zoom: 5,
+          center: new L.LatLng(50.154075,8.637539),
+          zoom: 7,
           layers: [baseLayer, objectLayer],
           minZoom: 3,
           maxZoom: 11

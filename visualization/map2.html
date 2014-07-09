@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Map test</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+   <script type="text/javascript" charset="utf-8">
+      $(function() {
+       var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
+
+       // Default style for marker
+        var markerstyle = { color: 'black', fillColor: '#1bcc3f', opacity: 0.2, fillOpacity: 0.4 };
+        
+        // Marker overlays
+        var objectLayer = L.layerGroup();
+        var summary={};
+        var tot = 0;
+        $.get("http://tei.it.ox.ac.uk/data/pc/person.json", function(data) {
+        $.each(data.data, function(idx, object) {
+             if(! summary[object.nationality] )
+          {
+             summary[object.nationality]={};
+             summary[object.nationality].count=0;
+             summary[object.nationality].stones =  object.nationality + ": ";
+             summary[object.nationality].lat = object.lat;
+             summary[object.nationality].long = object.long;
+          } 
+          summary[object.nationality].count += 1;
+          tot+= 1;
+          summary[object.nationality].stones +=
+             " <a target='_blank' href='http://tei.it.ox.ac.uk/pc/" + object.stone + ".html'>"+ object.surname + "</a>";
+          });
+        $.each(summary, function(idx, object) {
+          var thisstyle = markerstyle;
+          thisstyle.radius=((object.count * 100 ) /  tot) + 4;
+          var marker = L.circleMarker([object.lat, object.long],  thisstyle );
+          marker.on('click', function(e) {
+            marker.bindPopup('<strong>' + object.stones + '</strong>').openPopup();
+          });
+            objectLayer.addLayer(marker);
+            });
+        });
+ 
+        // Create map
+        var map = new L.Map('map', {
+          center: new L.LatLng(41.893588, 12.488022),
+          zoom: 3,
+          layers: [baseLayer, objectLayer],
+          minZoom: 3,
+          maxZoom: 11
+        });
+        
+        var overlayMaps = {
+          "Places": objectLayer
+        };
+        
+        var baseMaps = {
+          "OSM": baseLayer
+        };
+        L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="map" style="height:800px"></div>
+  </body>
+</html>
