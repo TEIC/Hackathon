@@ -17,10 +17,30 @@
      color = d3.scale.category20c();     //builtin range of colors
 
      $(document).ready(function(){
-      $.get("http://tei.oucs.ox.ac.uk/Hackathon/visualization/test.json",function(data) {
+        var summary={};
+        var tot = 0;
+        $.get("http://tei.it.ox.ac.uk/data/pc/person.json", function(data) {
+        $.each(data.data, function(idx, object) {
+             if(! summary[object.nationality] )
+          {
+             summary[object.nationality]={};
+             summary[object.nationality].count=0;
+             summary[object.nationality].name=object.nationality;
+          } 
+          summary[object.nationality].count += 1;
+        });
+        var natpie = [];
+
+        $.each(summary, function(idx, object) {
+              var current = {};
+              current.name=object.name;
+              current.count=object.count;
+              natpie.push(current);
+          });
+
          var vis = d3.select("#stuff")
         .append("svg:svg")              
-        .data([data.TEI])                   
+        .data([natpie])                   
             .attr("width", w)           
             .attr("height", h)
         .append("svg:g")                
@@ -48,7 +68,7 @@
                 return "translate(" + arc.centroid(d) + ")";        
             })
             .attr("text-anchor", "middle")                          
-            .text(function(d, i) { return data.TEI[i].name + " (" + data.TEI[i].count + ")"; });        
+            .text(function(d, i) { return natpie[i].name + " (" + natpie[i].count + ")";});        
      });
      });
 </script>
