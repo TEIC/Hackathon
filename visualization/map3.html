@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Leaflet Countries demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+		<link rel="stylesheet" href="http://tei.it.ox.ac.uk/data/map/leaflet.label.css" />
+		<style type="text/css" media="screen">
+			body{
+				margin: 0;
+				padding: 0;
+			}
+
+			#map {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+		<script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet-src.js"></script>
+		<script src="http://tei.it.ox.ac.uk/data/map/leaflet.label.js"></script>
+
+
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+         var baseLayer = L.tileLayer('http://services.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}.png', {attribution: "Map: <a href='http://www.arcgis.com/home/item.html?id=c4ec722a1cd34cf0a23904aadf8923a0'>ArcGIS - World Physical Map</a>" });
+
+                     var map = new L.Map('map', {
+					center: new L.LatLng(51.505, -0.09),
+					zoom: 3,
+					layers: [baseLayer]
+				});
+                      var shapestyle = {"color": "#ff7800", "weight": 2,  "opacity": 0.65 };
+                    $.getJSON("http://tei.it.ox.ac.uk/data/pc/person.json",function(data)
+			{
+                          var seen={};
+                          $.each(data.data, function(idx, object) {
+                           if(! seen[object.nationality] ) {
+					seen[object.nationality]={};
+                                        seen[object.nationality].people=""; }
+    			   seen[object.nationality].people+=" <a target='_blank' href='http://tei.it.ox.ac.uk/pc/" + object.stone + ".html'>"+ object.surname + "</a>";
+                           });
+                     $.getJSON("http://tei.it.ox.ac.uk/data/map/countries.json",
+			function(data) {
+                          $.each(data.features, function(idx, feature) {
+                            if (feature.properties.iso2 in seen) {
+                               feature.properties.people=seen[feature.properties.iso2].people;
+                                  L.geoJson(feature,
+                                {onEachFeature: onEachFeature,style: shapestyle}).addTo(map); }
+                           });
+                       });
+                    })
+});
+
+
+function onEachFeature(feature, layer) {
+    if (feature.properties && feature.properties.people) {
+        layer.bindPopup(feature.properties.name + ": " + feature.properties.people);
+    }
+}
+		</script>
+	</head>
+
+  <body>
+    <div id="map" style="height:800px"></div>
+  </body>
+</html>
+/*
+     pointToLayer: function (feature,latlng) {
+                                 console.log (feature);
+                                 return L.circleMarker(latlng).bindLabel(feature.properties.name, { 
+                                    noHide: true   }).addTo(map); 
