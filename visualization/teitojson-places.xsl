@@ -25,6 +25,7 @@
       <xsl:value-of select="tei:jsonObject((
 			    tei:json('id',ancestor-or-self::TEI/teiHeader//idno[1], true()),
 			    tei:json('year',(ancestor-or-self::TEI/teiHeader//profileDesc/particDesc/listPerson//event[@type='dateofdeath'])[1]/@when/substring(.,1,4),false()),
+			    tei:json('lat',substring-before($geo,' '),false()),
 			    tei:json('long',substring-after($geo,' '),false()),
 			    tei:json('image',ancestor-or-self::TEI/facsimile/graphic[1]/@url,true())
 			    ))"/>
