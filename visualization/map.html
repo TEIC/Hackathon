@@ -10,15 +10,24 @@
        var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
 
 // Default style for markers
-        var style = { color: 'black', fillColor: 'red', radius: 6, opacity: 1, fillOpacity: 1 };
+        var style = { color: 'black', fillColor: 'red', radius: 8, opacity: 0.2, fillOpacity: 0.7 };
         
         // Marker overlays
         var objectLayer = L.layerGroup();
 
-        $.get("http://tei.it.ox.ac.uk/Hackathon/visualization/places.json", function(data) {
+        $.get("http://tei.it.ox.ac.uk/Hackathon/visualization/places.json",function(data) {
+           var minyear=2000;
+           var maxyear=0;
         $.each(data.TEI, function(idx, object) {
+              if (object.year > maxyear) { maxyear=object.year; }
+              if (object.year < minyear) { minyear=object.year; }
+           });
+
+        $.each(data.TEI, function(idx, object) {
+          var yearcolour = Math.round  ( ((object.year - minyear) *254)/ (maxyear- minyear) );
           mystyle=style;
-          alert(object.year);
+          mystyle.fillColor = "rgb(" + yearcolour + ",0,0)";
+console.log(mystyle);
           var marker = L.circleMarker([object.lat, object.long], mystyle);
           marker.on('click', function(e) {
             marker.bindPopup('<strong>' + object.id + '</strong>' + '<img style="width:150px" src="' + object.image + '">').openPopup();
