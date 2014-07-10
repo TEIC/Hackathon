@@ -18,7 +18,7 @@
         $.get("http://tei.it.ox.ac.uk/Hackathon/visualization/places.json", function(data) {
         $.each(data.TEI, function(idx, object) {
           mystyle=style;
-          mystyle
+          alert(object.year);
           var marker = L.circleMarker([object.lat, object.long], mystyle);
           marker.on('click', function(e) {
             marker.bindPopup('<strong>' + object.id + '</strong>' + '<img style="width:150px" src="' + object.image + '">').openPopup();
