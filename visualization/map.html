@@ -27,7 +27,6 @@
           var yearcolour = Math.round  ( ((object.year - minyear) *254)/ (maxyear- minyear) );
           mystyle=style;
           mystyle.fillColor = "rgb(" + yearcolour + ",0,0)";
-console.log(mystyle);
           var marker = L.circleMarker([object.lat, object.long], mystyle);
           marker.on('click', function(e) {
             marker.bindPopup('<strong>' + object.id + '</strong>' + '<img style="width:150px" src="' + object.image + '">').openPopup();
