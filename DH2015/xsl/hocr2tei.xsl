@@ -50,7 +50,7 @@
                 <xsl:for-each select="$hocrFiles//div[starts-with(@title, 'image ')]">
                     <xsl:variable name="bbox" select="local:getBbox(@title)"/>
                     <xsl:variable name="imgName" select="local:getImgName(@title)"/>
-                    <surface ulx="{$bbox[1]}" uly="{$bbox[2]}"  lrx="{$bbox[3]}" lry="{$bbox[4]}">
+                    <surface ulx="{$bbox[1]}" uly="{$bbox[2]}"  lrx="{$bbox[3]}" lry="{$bbox[4]}" xml:id="{$imgName}_surface">
                         <graphic url="{$imgName}"/>
                         <xsl:for-each select="descendant::*[matches(@title, 'bbox')]">
                             <xsl:variable name="bbox" select="local:getBbox(@title)"/>
@@ -69,34 +69,10 @@
         </TEI>
     </xsl:template>
     
-    <!--<xsl:template match="html" mode="#all">
-        <TEI version="5.0">
-            <teiHeader>
-                <fileDesc>
-                    <titleStmt>
-                        <title><xsl:value-of select="concat($docTitle, ' p.', $pageNum)"/></title>
-                    </titleStmt>
-                </fileDesc>
-            </teiHeader>
-            <facsimile>
-             
-                <xsl:for-each select="//div[starts-with(@title, 'image ')]">
-                    <xsl:variable name="bbox" select="local:getBbox(@title)"/>
-                    <xsl:variable name="imgName" select="local:getImgName(@title)"/>
-                    <surface ulx="{$bbox[1]}" uly="{$bbox[2]}"  lrx="{$bbox[3]}" lry="{$bbox[4]}">
-                        <graphic url="{$imgName}"/>
-                        <xsl:for-each select="descendant::*[matches(@title, 'bbox')]">
-               <xsl:variable name="bbox" select="local:getBbox(@title)"/>
-                            <zone xml:id="{$imgName}_{@id}" ulx="{$bbox[1]}" uly="{$bbox[2]}"  lrx="{$bbox[3]}" lry="{$bbox[4]}"/> 
-                        </xsl:for-each>
-                    </surface>
-                </xsl:for-each>
-            </facsimile>
-            <text>
-                <xsl:apply-templates select="body" mode="#current"/>
-            </text>
-        </TEI>
-    </xsl:template>-->
+    <xsl:template match="div[matches(@class, 'ocr_page')]">
+        <pb facs="#{local:getImgName(@title)}_surface"/>
+        <xsl:apply-templates mode="#current"/>
+    </xsl:template>
     
     <xsl:template match="div" mode="#all">
         <div>
