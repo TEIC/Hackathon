@@ -7,32 +7,23 @@
     <property name="tei.file.name" value="cinders.xml"/>
     <property name="docTitle" value="Cinderella"/>
     
-    <property name="poetry" value="false"/>
+    <property name="poetry" value="no"/>
     
     <target name="clean">
         <echo message="${echo.separator}"/>
         <echo message="Cleanup: deleting any files from a previous run."/>
-        <delete dir="${path.to.images}" include="*.hocr"/>
-        <delete dir="${path.to.images}" include="*.xml"/>
+        <delete>
+            <fileset dir="${path.to.images}" includes="*.hocr, *.xml"/>
+        </delete>
     </target>
     
     <target name="ocr">
         <echo message="${echo.separator}"/>
         <echo message="Trying to run Tesseract to generate HOCR files."/>
         <!--for file in *.png; do tesseract $file `basename $file.png` hocr; done-->
-        <foreach target="tesseract" param="theFile">
-            <fileset dir="${path.to.images}" casesensitive="yes">
-                <include name="*.png"/>
-                <include name="*.jpg"/>
-            </fileset>
-        </foreach>
-        
-    </target>
-    
-    <target name="tesseract">
-        <exec executable="/bin/bash">
+        <exec executable="/bin/bash" dir="${path.to.images}">
             <arg value="-c"/>
-            <arg value="tesseract '${path.to.images}/${theFile}' hocr"/>
+            <arg value="for file in *.png; do tesseract $file `basename $file` hocr; done"/>
         </exec>
     </target>
     
@@ -46,6 +37,6 @@
         </java>
     </target>
     
-    <target name="all" depends="ocr, xslt"/>
+    <target name="all" depends="clean, ocr, xslt"/>
 
 </project>
