@@ -13,6 +13,9 @@
             <xd:p>This stylesheet is designed to take input in the form of HOCR (XHTML documents) 
                 produced by Tesseract and produce 
                 basic TEI output.</xd:p>
+            <xd:p>
+                Initially created at the TEI Hackathon at DH 2015.
+            </xd:p>
         </xd:desc>
     </xd:doc>
     
