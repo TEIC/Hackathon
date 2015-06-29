@@ -12,7 +12,7 @@
                 
             </head>
             <body>
-                <div class="right">
+                <div class="left">
                     <xsl:apply-templates/>
                 </div>
             </body>
@@ -21,7 +21,8 @@
 
     </xsl:template>
     <xsl:template match="tei:pb">
-        <div class="left">
+        <hr/>
+        <div class="right">
             <hr/>
             <img src="{substring-after(substring-before(@facs, '_'), '#')}" />
         </div>
