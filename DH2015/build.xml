@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="all" name="hocr_all">
+    
+    <property name="echo.separator" value="************************************************"/>
+    <dirname property="antfile.dir" file="${ant.file}"/>
+    <property name="path.to.images" value="cinders"/>
+    
+    <property name="docTitle" value="Cinderella"/>
+    
+    <property name="poetry" value="false"/>
+    
+    <target name="clean">
+        <echo message="${echo.separator}"/>
+        <echo message="Cleanup: deleting any files from a previous run."/>
+        <delete dir="${path.to.images}" include="*.hocr"/>
+        <delete dir="${path.to.images}" include="*.xml"/>
+    </target>
+    
+    <target name="ocr">
+        <echo message="${echo.separator}"/>
+        <echo message="Trying to run Tesseract to generate HOCR files."/>
+        <!--for file in *.png; do tesseract $file `basename $file.png` hocr; done-->
+    </target>
+    
+    <target name="xslt">
+        <echo message="${echo.separator}"/>
+        <echo message="Running XSLT on HOCR files to create TEI output."/>
+        <xslt basedir="${path.to.images}" destdir="${path.to.images}"
+            style="xsl/hocr2tei.xsl">
+            <classpath location="xsl/saxon9he.jar"/>
+            <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        </xslt>
+    </target>
+    
+    <target name="all" depends="ocr, xslt"/>
+
+</project>
