@@ -16,11 +16,39 @@
         </xd:desc>
     </xd:doc>
     
+    <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
+    
     <xsl:param name="docTitle" select="'OCRed document'"/>
     <xsl:param name="pageNum" select="'1'"/>
     <xsl:param name="poetry" select="'no'"/>
     
+    <xsl:param name="collectionPath" as="xs:string" select="'../cinders'"/>
+    
+    <xsl:variable name="hocrFiles" select="collection(concat($collectionPath, '/?select=*.hocr;recurse=yes'))"/>
+    
     <xsl:template match="/">
+        <TEI version="5.0">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title><xsl:value-of select="$docTitle"/></title>
+                    </titleStmt>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                
+                <xsl:for-each select="$hocrFiles//div[starts-with(@title, 'image ')]">
+                    <xsl:variable name="bbox" select="local:getBbox(@title)"/>
+                    <xsl:variable name="imgName" select="local:getImgName(@title)"/>
+                    <surface ulx="{$bbox[1]}" uly="{$bbox[2]}"  lrx="{$bbox[3]}" lry="{$bbox[4]}">
+                        <graphic url="{$imgName}"/>
+                        <xsl:for-each select="descendant::*[matches(@title, 'bbox')]">
+                            <xsl:variable name="bbox" select="local:getBbox(@title)"/>
+                            <zone xml:id="{$imgName}_{@id}" ulx="{$bbox[1]}" uly="{$bbox[2]}"  lrx="{$bbox[3]}" lry="{$bbox[4]}"/> 
+                        </xsl:for-each>
+                    </surface>
+                </xsl:for-each>
+            </facsimile>
         <xsl:choose>
             <xsl:when test="$poetry='yes'">
                 <xsl:apply-templates mode="poetry"/>
@@ -29,9 +57,14 @@
                 <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
+                
+                <text>
+                    <xsl:apply-templates select="$hocrFiles//body" mode="#current"/>
+                </text>
+        </TEI>
     </xsl:template>
     
-    <xsl:template match="html" mode="#all">
+    <!--<xsl:template match="html" mode="#all">
         <TEI version="5.0">
             <teiHeader>
                 <fileDesc>
@@ -58,7 +91,7 @@
                 <xsl:apply-templates select="body" mode="#current"/>
             </text>
         </TEI>
-    </xsl:template>
+    </xsl:template>-->
     
     <xsl:template match="div" mode="#all">
         <div>
