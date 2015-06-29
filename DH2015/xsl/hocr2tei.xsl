@@ -53,17 +53,12 @@
                     </surface>
                 </xsl:for-each>
             </facsimile>
-            <xsl:choose>
-                <xsl:when test="$poetry='yes'">
-                    <xsl:apply-templates mode="poetry"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:apply-templates/>
-                </xsl:otherwise>
-            </xsl:choose>
+           
             
             <text>
-                <xsl:apply-templates select="$hocrFiles//body" mode="#current"/>
+                <body>
+                    <xsl:apply-templates select="$hocrFiles//body" mode="#current"/>
+                </body>
             </text>
         </TEI>
     </xsl:template>
@@ -161,5 +156,5 @@
         <xsl:param name="titleAtt" as="xs:string"/>
         <xsl:value-of select="translate(tokenize($titleAtt, '\s+')[2], '&quot;;', '')"/>
     </xsl:function>
-    
+        
 </xsl:stylesheet>

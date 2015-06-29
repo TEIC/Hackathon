@@ -8210,2258 +8210,2134 @@
                lry="787"/>
       </surface>
    </facsimile>
-    
-        
-            Created on: Jun 29, 2015
-            Author: mholmes
-            This stylesheet is designed to take input in the form of HOCR (XHTML documents) 
-                produced by Tesseract and produce 
-                basic TEI output.
-            
-                Initially created at the TEI Hackathon at DH 2015.
-            
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
-            
-                
-                    
-                        
-                    
-                
-            
-            
-                
-                
-                    
-                    
-                    
-                        
-                        
-                            
-                             
-                        
-                    
-                
-            
-            
-                
-                    
-                
-                
-                    
-                
-            
-            
-            
-                
-            
-        
-    
-    
-    
-    
-    
-        
-            
-                
-            
-            
-        
-    
-    
-    
-        
-            
-                
-            
-            
-        
-    
-    
-    
-        
-            
-                
-            
-            
-        
-    
-    
-    
-        
-            
-                
-            
-            
-        
-    
-    
-    
-        
-        
-        
-    
-    
-    
-        
-            
-                
-            
-            
-        
-    
-    
-    
-        
-        
-        
-        
-    
-    
-    
-        
-        
-    
-    
-<text>
-      <div>
-         <div facs="#cinders-11.png_block_1_1">
-            <p facs="#cinders-11.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_1"> </w> 
-               <w facs="#cinders-11.png_word_1_2"> </w> 
+   <text>
+      <body>
+         <div>
+            <div facs="#cinders-11.png_block_1_1">
+               <p facs="#cinders-11.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_1"> </w> 
+                  <w facs="#cinders-11.png_word_1_2"> </w> 
      
-            </p>
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_2">
+               <p facs="#cinders-11.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_3">mmm</w> 
+                  <w facs="#cinders-11.png_word_1_4">I</w> 
+                  <w facs="#cinders-11.png_word_1_5">Eoox</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_3">
+               <p facs="#cinders-11.png_par_1_3">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_6">mmmmwunwmm</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_4">
+               <p facs="#cinders-11.png_par_1_4">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_7"> </w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_5">
+               <p facs="#cinders-11.png_par_1_5">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_8">Louzrnrw</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_9">y</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_6">
+               <p facs="#cinders-11.png_par_1_6">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_10">  </w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_11">  </w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_7">
+               <p facs="#cinders-11.png_par_1_7">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_12">¥</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_13">¥</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_14">:1</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_15">s</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_16">%</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_17">a</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_18">1}</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_19">A</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_20">a</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_21">a</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_22">t</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_23">x</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_8">
+               <p facs="#cinders-11.png_par_1_8">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_24">'</w> 
+                  <w facs="#cinders-11.png_word_1_25">I.</w> 
+                  <w facs="#cinders-11.png_word_1_26">IIIILIII</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_9">
+               <p facs="#cinders-11.png_par_1_9">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_27">UTEEEEES</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_28">PENNY</w> 
+                  <w facs="#cinders-11.png_word_1_29">TOY-BOOKS.</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_10">
+               <p facs="#cinders-11.png_par_1_10">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_30"> </w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_31"> </w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_11">
+               <p facs="#cinders-11.png_par_1_11">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_32">WITH</w> 
+                  <w facs="#cinders-11.png_word_1_33">SIX</w> 
+                  <w facs="#cinders-11.png_word_1_34">COLUURED</w> 
+                  <w facs="#cinders-11.png_word_1_35">ILLUSTRATIONS.</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_36">PRINTEII</w> 
+                  <w facs="#cinders-11.png_word_1_37">BV</w> 
+                  <w facs="#cinders-11.png_word_1_38">KRDNHEIM</w> 
+                  <w facs="#cinders-11.png_word_1_39">&amp;</w> 
+                  <w facs="#cinders-11.png_word_1_40">50.</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_12">
+               <p facs="#cinders-11.png_par_1_12">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_41">L):%</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_13">
+               <p facs="#cinders-11.png_par_1_13">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_42">5.</w> 
+                  <w facs="#cinders-11.png_word_1_43">MY</w> 
+                  <w facs="#cinders-11.png_word_1_44">FIRST</w> 
+                  <w facs="#cinders-11.png_word_1_45">ALPHABET</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_14">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_46">a.</w> 
+                  <w facs="#cinders-11.png_word_1_47">MOTHER</w> 
+                  <w facs="#cinders-11.png_word_1_48">GOOSE</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_15">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_49">7.</w> 
+                  <w facs="#cinders-11.png_word_1_50">THE</w> 
+                  <w facs="#cinders-11.png_word_1_51">TIMES</w> 
+                  <w facs="#cinders-11.png_word_1_52">IN</w> 
+                  <w facs="#cinders-11.png_word_1_53">THE</w> 
+                  <w facs="#cinders-11.png_word_1_54">wow;</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_16">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_55">3.</w> 
+                  <w facs="#cinders-11.png_word_1_56">THIS</w> 
+                  <w facs="#cinders-11.png_word_1_57">LIrrLE</w> 
+                  <w facs="#cinders-11.png_word_1_58">FIG</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_17">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_59">9.</w> 
+                  <w facs="#cinders-11.png_word_1_60">TIIE</w> 
+                  <w facs="#cinders-11.png_word_1_61">oLn</w> 
+                  <w facs="#cinders-11.png_word_1_62">WOMAN</w> 
+                  <w facs="#cinders-11.png_word_1_63">wuo</w> 
+                  <w facs="#cinders-11.png_word_1_64">LIVED</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_65">Ix</w> 
+                  <w facs="#cinders-11.png_word_1_66">A</w> 
+                  <w facs="#cinders-11.png_word_1_67">SHOE</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_18">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_68">m.</w> 
+                  <w facs="#cinders-11.png_word_1_69">LITTLE</w> 
+                  <w facs="#cinders-11.png_word_1_70">BOVPEEI’</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_19">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_71">"I</w> 
+                  <w facs="#cinders-11.png_word_1_72">NURSERY</w> 
+                  <w facs="#cinders-11.png_word_1_73">RHYMES</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_20">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_74">I».</w> 
+                  <w facs="#cinders-11.png_word_1_75">FARIHARD</w> 
+                  <w facs="#cinders-11.png_word_1_76">ALPHABET</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_21">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_77">.3.</w> 
+                  <w facs="#cinders-11.png_word_1_78">JACK</w> 
+                  <w facs="#cinders-11.png_word_1_79">AND</w> 
+                  <w facs="#cinders-11.png_word_1_80">THE</w> 
+                  <w facs="#cinders-11.png_word_1_81">HEANSTALK</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_22">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_82">x4.</w> 
+                  <w facs="#cinders-11.png_word_1_83">JOHN</w> 
+                  <w facs="#cinders-11.png_word_1_84">GILPIN</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_23">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_85">st</w> 
+                  <w facs="#cinders-11.png_word_1_86">OLD</w> 
+                  <w facs="#cinders-11.png_word_1_87">MOTHER</w> 
+                  <w facs="#cinders-11.png_word_1_88">HUBBARD</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_24">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_89">16.</w> 
+                  <w facs="#cinders-11.png_word_1_90">THE</w> 
+                  <w facs="#cinders-11.png_word_1_91">THREE</w> 
+                  <w facs="#cinders-11.png_word_1_92">BEARS</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_25">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_93">x7.</w> 
+                  <w facs="#cinders-11.png_word_1_94">THE</w> 
+                  <w facs="#cinders-11.png_word_1_95">HOUSETHATJACK</w> 
+                  <w facs="#cinders-11.png_word_1_96">BUILT</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_26">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_97">IS.</w> 
+                  <w facs="#cinders-11.png_word_1_98">THE</w> 
+                  <w facs="#cinders-11.png_word_1_99">uocy</w> 
+                  <w facs="#cinders-11.png_word_1_100">DINNER</w> 
+                  <w facs="#cinders-11.png_word_1_101">PARTY</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_27">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_102">I9.</w> 
+                  <w facs="#cinders-11.png_word_1_103">VW</w> 
+                  <w facs="#cinders-11.png_word_1_104">MOTHER</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_28">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_105">m</w> 
+                  <w facs="#cinders-11.png_word_1_106">THE</w> 
+                  <w facs="#cinders-11.png_word_1_107">CATS’</w> 
+                  <w facs="#cinders-11.png_word_1_108">TEA</w> 
+                  <w facs="#cinders-11.png_word_1_109">PARTY</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_29">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_110">A],</w> 
+                  <w facs="#cinders-11.png_word_1_111">MORE</w> 
+                  <w facs="#cinders-11.png_word_1_112">NURSERY</w> 
+                  <w facs="#cinders-11.png_word_1_113">RHYMES</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_30">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_114">:11.</w> 
+                  <w facs="#cinders-11.png_word_1_115">mm</w> 
+                  <w facs="#cinders-11.png_word_1_116">REDISREAsT</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_14">
+               <p facs="#cinders-11.png_par_1_31">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_117">I</w> 
+                  <w facs="#cinders-11.png_word_1_118">23.</w> 
+                  <w facs="#cinders-11.png_word_1_119">A,</w> 
+                  <w facs="#cinders-11.png_word_1_120">APPLE</w> 
+                  <w facs="#cinders-11.png_word_1_121">PIE</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_15">
+               <p facs="#cinders-11.png_par_1_32">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_122">N.</w> 
+                  <w facs="#cinders-11.png_word_1_123">THE</w> 
+                  <w facs="#cinders-11.png_word_1_124">RAILWAY</w> 
+                  <w facs="#cinders-11.png_word_1_125">ALPHABEI‘</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_33">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_126">25.</w> 
+                  <w facs="#cinders-11.png_word_1_127">NURSERY</w> 
+                  <w facs="#cinders-11.png_word_1_128">SONGS</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_34">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_129">26.</w> 
+                  <w facs="#cinders-11.png_word_1_130">VURSERY</w> 
+                  <w facs="#cinders-11.png_word_1_131">mTTIEs</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_35">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_132">27.</w> 
+                  <w facs="#cinders-11.png_word_1_133">PUNCH</w> 
+                  <w facs="#cinders-11.png_word_1_134">AND</w> 
+                  <w facs="#cinders-11.png_word_1_135">JUDY</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_36">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_136">zx.</w> 
+                  <w facs="#cinders-11.png_word_1_137">OUR</w> 
+                  <w facs="#cinders-11.png_word_1_138">NETS</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_37">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_139">:9.</w> 
+                  <w facs="#cinders-11.png_word_1_140">CINDER</w> 
+                  <w facs="#cinders-11.png_word_1_141">ILA</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_38">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_142">3a,</w> 
+                  <w facs="#cinders-11.png_word_1_143">PU‘55-INBOOTS</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_39">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_144">3h</w> 
+                  <w facs="#cinders-11.png_word_1_145">11‘</w> 
+                  <w facs="#cinders-11.png_word_1_146">‘LE</w> 
+                  <w facs="#cinders-11.png_word_1_147">RED</w> 
+                  <w facs="#cinders-11.png_word_1_148">RIDING»HO0D</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_40">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_149">32.</w> 
+                  <w facs="#cinders-11.png_word_1_150">WILD</w> 
+                  <w facs="#cinders-11.png_word_1_151">ANIMALS</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_41">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_152">33.</w> 
+                  <w facs="#cinders-11.png_word_1_153">TAME</w> 
+                  <w facs="#cinders-11.png_word_1_154">AxInALs</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_42">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_155">34,</w> 
+                  <w facs="#cinders-11.png_word_1_156">BIRDS</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_43">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_157">35.1mm</w> 
+                  <w facs="#cinders-11.png_word_1_158">THE</w> 
+                  <w facs="#cinders-11.png_word_1_159">GIANT</w> 
+                  <w facs="#cinders-11.png_word_1_160">KILLER</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_44">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_161">35.</w> 
+                  <w facs="#cinders-11.png_word_1_162">BLUE</w> 
+                  <w facs="#cinders-11.png_word_1_163">HEARD</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_45">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_164">37.</w> 
+                  <w facs="#cinders-11.png_word_1_165">ALADDIN</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_46">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_166">33.</w> 
+                  <w facs="#cinders-11.png_word_1_167">Tu</w> 
+                  <w facs="#cinders-11.png_word_1_168">FORTY</w> 
+                  <w facs="#cinders-11.png_word_1_169">TIIIEVES</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_47">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_170">39.</w> 
+                  <w facs="#cinders-11.png_word_1_171">TOM</w> 
+                  <w facs="#cinders-11.png_word_1_172">THUMB</w> 
+     
+               </p>
+
+               <p facs="#cinders-11.png_par_1_48">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_173">4Q</w> 
+                  <w facs="#cinders-11.png_word_1_174">SLEEPING</w> 
+                  <w facs="#cinders-11.png_word_1_175">BEAUTY</w> 
+                  <w facs="#cinders-11.png_word_1_176">IN</w> 
+                  <w facs="#cinders-11.png_word_1_177">THE</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_178">woon</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_16">
+               <p facs="#cinders-11.png_par_1_49">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_179"> </w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_17">
+               <p facs="#cinders-11.png_par_1_50">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_180"> </w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_18">
+               <p facs="#cinders-11.png_par_1_51">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_181"> </w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_19">
+               <p facs="#cinders-11.png_par_1_52">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_182">"IE</w> 
+                  <w facs="#cinders-11.png_word_1_183">AND</w> 
+                  <w facs="#cinders-11.png_word_1_184">SONS,</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_20">
+               <p facs="#cinders-11.png_par_1_53">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_185">v011K.</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_21">
+               <p facs="#cinders-11.png_par_1_54">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_186">  </w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-11.png_block_1_22">
+               <p facs="#cinders-11.png_par_1_55">
+                  <lb/>
+                  <w facs="#cinders-11.png_word_1_187"> </w> 
+     
+               </p>
+            </div>
          </div>
-         <div facs="#cinders-11.png_block_1_2">
-            <p facs="#cinders-11.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_3">mmm</w> 
-               <w facs="#cinders-11.png_word_1_4">I</w> 
-               <w facs="#cinders-11.png_word_1_5">Eoox</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_3">
-            <p facs="#cinders-11.png_par_1_3">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_6">mmmmwunwmm</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_4">
-            <p facs="#cinders-11.png_par_1_4">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_7"> </w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_5">
-            <p facs="#cinders-11.png_par_1_5">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_8">Louzrnrw</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_9">y</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_6">
-            <p facs="#cinders-11.png_par_1_6">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_10">  </w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_11">  </w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_7">
-            <p facs="#cinders-11.png_par_1_7">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_12">¥</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_13">¥</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_14">:1</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_15">s</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_16">%</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_17">a</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_18">1}</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_19">A</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_20">a</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_21">a</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_22">t</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_23">x</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_8">
-            <p facs="#cinders-11.png_par_1_8">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_24">'</w> 
-               <w facs="#cinders-11.png_word_1_25">I.</w> 
-               <w facs="#cinders-11.png_word_1_26">IIIILIII</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_9">
-            <p facs="#cinders-11.png_par_1_9">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_27">UTEEEEES</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_28">PENNY</w> 
-               <w facs="#cinders-11.png_word_1_29">TOY-BOOKS.</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_10">
-            <p facs="#cinders-11.png_par_1_10">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_30"> </w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_31"> </w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_11">
-            <p facs="#cinders-11.png_par_1_11">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_32">WITH</w> 
-               <w facs="#cinders-11.png_word_1_33">SIX</w> 
-               <w facs="#cinders-11.png_word_1_34">COLUURED</w> 
-               <w facs="#cinders-11.png_word_1_35">ILLUSTRATIONS.</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_36">PRINTEII</w> 
-               <w facs="#cinders-11.png_word_1_37">BV</w> 
-               <w facs="#cinders-11.png_word_1_38">KRDNHEIM</w> 
-               <w facs="#cinders-11.png_word_1_39">&amp;</w> 
-               <w facs="#cinders-11.png_word_1_40">50.</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_12">
-            <p facs="#cinders-11.png_par_1_12">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_41">L):%</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_13">
-            <p facs="#cinders-11.png_par_1_13">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_42">5.</w> 
-               <w facs="#cinders-11.png_word_1_43">MY</w> 
-               <w facs="#cinders-11.png_word_1_44">FIRST</w> 
-               <w facs="#cinders-11.png_word_1_45">ALPHABET</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_14">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_46">a.</w> 
-               <w facs="#cinders-11.png_word_1_47">MOTHER</w> 
-               <w facs="#cinders-11.png_word_1_48">GOOSE</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_15">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_49">7.</w> 
-               <w facs="#cinders-11.png_word_1_50">THE</w> 
-               <w facs="#cinders-11.png_word_1_51">TIMES</w> 
-               <w facs="#cinders-11.png_word_1_52">IN</w> 
-               <w facs="#cinders-11.png_word_1_53">THE</w> 
-               <w facs="#cinders-11.png_word_1_54">wow;</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_16">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_55">3.</w> 
-               <w facs="#cinders-11.png_word_1_56">THIS</w> 
-               <w facs="#cinders-11.png_word_1_57">LIrrLE</w> 
-               <w facs="#cinders-11.png_word_1_58">FIG</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_17">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_59">9.</w> 
-               <w facs="#cinders-11.png_word_1_60">TIIE</w> 
-               <w facs="#cinders-11.png_word_1_61">oLn</w> 
-               <w facs="#cinders-11.png_word_1_62">WOMAN</w> 
-               <w facs="#cinders-11.png_word_1_63">wuo</w> 
-               <w facs="#cinders-11.png_word_1_64">LIVED</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_65">Ix</w> 
-               <w facs="#cinders-11.png_word_1_66">A</w> 
-               <w facs="#cinders-11.png_word_1_67">SHOE</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_18">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_68">m.</w> 
-               <w facs="#cinders-11.png_word_1_69">LITTLE</w> 
-               <w facs="#cinders-11.png_word_1_70">BOVPEEI’</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_19">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_71">"I</w> 
-               <w facs="#cinders-11.png_word_1_72">NURSERY</w> 
-               <w facs="#cinders-11.png_word_1_73">RHYMES</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_20">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_74">I».</w> 
-               <w facs="#cinders-11.png_word_1_75">FARIHARD</w> 
-               <w facs="#cinders-11.png_word_1_76">ALPHABET</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_21">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_77">.3.</w> 
-               <w facs="#cinders-11.png_word_1_78">JACK</w> 
-               <w facs="#cinders-11.png_word_1_79">AND</w> 
-               <w facs="#cinders-11.png_word_1_80">THE</w> 
-               <w facs="#cinders-11.png_word_1_81">HEANSTALK</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_22">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_82">x4.</w> 
-               <w facs="#cinders-11.png_word_1_83">JOHN</w> 
-               <w facs="#cinders-11.png_word_1_84">GILPIN</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_23">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_85">st</w> 
-               <w facs="#cinders-11.png_word_1_86">OLD</w> 
-               <w facs="#cinders-11.png_word_1_87">MOTHER</w> 
-               <w facs="#cinders-11.png_word_1_88">HUBBARD</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_24">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_89">16.</w> 
-               <w facs="#cinders-11.png_word_1_90">THE</w> 
-               <w facs="#cinders-11.png_word_1_91">THREE</w> 
-               <w facs="#cinders-11.png_word_1_92">BEARS</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_25">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_93">x7.</w> 
-               <w facs="#cinders-11.png_word_1_94">THE</w> 
-               <w facs="#cinders-11.png_word_1_95">HOUSETHATJACK</w> 
-               <w facs="#cinders-11.png_word_1_96">BUILT</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_26">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_97">IS.</w> 
-               <w facs="#cinders-11.png_word_1_98">THE</w> 
-               <w facs="#cinders-11.png_word_1_99">uocy</w> 
-               <w facs="#cinders-11.png_word_1_100">DINNER</w> 
-               <w facs="#cinders-11.png_word_1_101">PARTY</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_27">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_102">I9.</w> 
-               <w facs="#cinders-11.png_word_1_103">VW</w> 
-               <w facs="#cinders-11.png_word_1_104">MOTHER</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_28">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_105">m</w> 
-               <w facs="#cinders-11.png_word_1_106">THE</w> 
-               <w facs="#cinders-11.png_word_1_107">CATS’</w> 
-               <w facs="#cinders-11.png_word_1_108">TEA</w> 
-               <w facs="#cinders-11.png_word_1_109">PARTY</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_29">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_110">A],</w> 
-               <w facs="#cinders-11.png_word_1_111">MORE</w> 
-               <w facs="#cinders-11.png_word_1_112">NURSERY</w> 
-               <w facs="#cinders-11.png_word_1_113">RHYMES</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_30">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_114">:11.</w> 
-               <w facs="#cinders-11.png_word_1_115">mm</w> 
-               <w facs="#cinders-11.png_word_1_116">REDISREAsT</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_14">
-            <p facs="#cinders-11.png_par_1_31">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_117">I</w> 
-               <w facs="#cinders-11.png_word_1_118">23.</w> 
-               <w facs="#cinders-11.png_word_1_119">A,</w> 
-               <w facs="#cinders-11.png_word_1_120">APPLE</w> 
-               <w facs="#cinders-11.png_word_1_121">PIE</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_15">
-            <p facs="#cinders-11.png_par_1_32">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_122">N.</w> 
-               <w facs="#cinders-11.png_word_1_123">THE</w> 
-               <w facs="#cinders-11.png_word_1_124">RAILWAY</w> 
-               <w facs="#cinders-11.png_word_1_125">ALPHABEI‘</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_33">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_126">25.</w> 
-               <w facs="#cinders-11.png_word_1_127">NURSERY</w> 
-               <w facs="#cinders-11.png_word_1_128">SONGS</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_34">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_129">26.</w> 
-               <w facs="#cinders-11.png_word_1_130">VURSERY</w> 
-               <w facs="#cinders-11.png_word_1_131">mTTIEs</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_35">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_132">27.</w> 
-               <w facs="#cinders-11.png_word_1_133">PUNCH</w> 
-               <w facs="#cinders-11.png_word_1_134">AND</w> 
-               <w facs="#cinders-11.png_word_1_135">JUDY</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_36">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_136">zx.</w> 
-               <w facs="#cinders-11.png_word_1_137">OUR</w> 
-               <w facs="#cinders-11.png_word_1_138">NETS</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_37">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_139">:9.</w> 
-               <w facs="#cinders-11.png_word_1_140">CINDER</w> 
-               <w facs="#cinders-11.png_word_1_141">ILA</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_38">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_142">3a,</w> 
-               <w facs="#cinders-11.png_word_1_143">PU‘55-INBOOTS</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_39">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_144">3h</w> 
-               <w facs="#cinders-11.png_word_1_145">11‘</w> 
-               <w facs="#cinders-11.png_word_1_146">‘LE</w> 
-               <w facs="#cinders-11.png_word_1_147">RED</w> 
-               <w facs="#cinders-11.png_word_1_148">RIDING»HO0D</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_40">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_149">32.</w> 
-               <w facs="#cinders-11.png_word_1_150">WILD</w> 
-               <w facs="#cinders-11.png_word_1_151">ANIMALS</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_41">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_152">33.</w> 
-               <w facs="#cinders-11.png_word_1_153">TAME</w> 
-               <w facs="#cinders-11.png_word_1_154">AxInALs</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_42">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_155">34,</w> 
-               <w facs="#cinders-11.png_word_1_156">BIRDS</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_43">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_157">35.1mm</w> 
-               <w facs="#cinders-11.png_word_1_158">THE</w> 
-               <w facs="#cinders-11.png_word_1_159">GIANT</w> 
-               <w facs="#cinders-11.png_word_1_160">KILLER</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_44">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_161">35.</w> 
-               <w facs="#cinders-11.png_word_1_162">BLUE</w> 
-               <w facs="#cinders-11.png_word_1_163">HEARD</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_45">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_164">37.</w> 
-               <w facs="#cinders-11.png_word_1_165">ALADDIN</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_46">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_166">33.</w> 
-               <w facs="#cinders-11.png_word_1_167">Tu</w> 
-               <w facs="#cinders-11.png_word_1_168">FORTY</w> 
-               <w facs="#cinders-11.png_word_1_169">TIIIEVES</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_47">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_170">39.</w> 
-               <w facs="#cinders-11.png_word_1_171">TOM</w> 
-               <w facs="#cinders-11.png_word_1_172">THUMB</w> 
-     
-            </p>
-
-            <p facs="#cinders-11.png_par_1_48">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_173">4Q</w> 
-               <w facs="#cinders-11.png_word_1_174">SLEEPING</w> 
-               <w facs="#cinders-11.png_word_1_175">BEAUTY</w> 
-               <w facs="#cinders-11.png_word_1_176">IN</w> 
-               <w facs="#cinders-11.png_word_1_177">THE</w> 
-     
-               <lb/>
-               <w facs="#cinders-11.png_word_1_178">woon</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_16">
-            <p facs="#cinders-11.png_par_1_49">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_179"> </w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_17">
-            <p facs="#cinders-11.png_par_1_50">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_180"> </w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_18">
-            <p facs="#cinders-11.png_par_1_51">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_181"> </w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_19">
-            <p facs="#cinders-11.png_par_1_52">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_182">"IE</w> 
-               <w facs="#cinders-11.png_word_1_183">AND</w> 
-               <w facs="#cinders-11.png_word_1_184">SONS,</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_20">
-            <p facs="#cinders-11.png_par_1_53">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_185">v011K.</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_21">
-            <p facs="#cinders-11.png_par_1_54">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_186">  </w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-11.png_block_1_22">
-            <p facs="#cinders-11.png_par_1_55">
-               <lb/>
-               <w facs="#cinders-11.png_word_1_187"> </w> 
-     
-            </p>
-         </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-4.png_block_1_1">
-            <p facs="#cinders-4.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-4.png_word_1_1">ClXDEKmA.</w> 
+         <div>
+            <div facs="#cinders-4.png_block_1_1">
+               <p facs="#cinders-4.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_1">ClXDEKmA.</w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-4.png_block_1_2">
-            <p facs="#cinders-4.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-4.png_word_1_2">"Cinderella,"</w> 
-               <w facs="#cinders-4.png_word_1_3">said</w> 
-               <w facs="#cinders-4.png_word_1_4">the</w> 
-               <w facs="#cinders-4.png_word_1_5">Fairy,</w> 
-               <w facs="#cinders-4.png_word_1_6">"1</w> 
-               <w facs="#cinders-4.png_word_1_7">am</w> 
-               <w facs="#cinders-4.png_word_1_8">your</w> 
-               <w facs="#cinders-4.png_word_1_9">godmother,</w> 
+               </p>
+            </div>
+            <div facs="#cinders-4.png_block_1_2">
+               <p facs="#cinders-4.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_2">"Cinderella,"</w> 
+                  <w facs="#cinders-4.png_word_1_3">said</w> 
+                  <w facs="#cinders-4.png_word_1_4">the</w> 
+                  <w facs="#cinders-4.png_word_1_5">Fairy,</w> 
+                  <w facs="#cinders-4.png_word_1_6">"1</w> 
+                  <w facs="#cinders-4.png_word_1_7">am</w> 
+                  <w facs="#cinders-4.png_word_1_8">your</w> 
+                  <w facs="#cinders-4.png_word_1_9">godmother,</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_10">and</w> 
-               <w facs="#cinders-4.png_word_1_11">for</w> 
-               <w facs="#cinders-4.png_word_1_12">the</w> 
-               <w facs="#cinders-4.png_word_1_13">sake</w> 
-               <w facs="#cinders-4.png_word_1_14">of</w> 
-               <w facs="#cinders-4.png_word_1_15">your</w> 
-               <w facs="#cinders-4.png_word_1_16">dear</w> 
-               <w facs="#cinders-4.png_word_1_17">nmmma</w> 
-               <w facs="#cinders-4.png_word_1_18">[</w> 
-               <w facs="#cinders-4.png_word_1_19">am_come</w> 
-               <w facs="#cinders-4.png_word_1_20">to</w> 
-               <w facs="#cinders-4.png_word_1_21">cheer</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_10">and</w> 
+                  <w facs="#cinders-4.png_word_1_11">for</w> 
+                  <w facs="#cinders-4.png_word_1_12">the</w> 
+                  <w facs="#cinders-4.png_word_1_13">sake</w> 
+                  <w facs="#cinders-4.png_word_1_14">of</w> 
+                  <w facs="#cinders-4.png_word_1_15">your</w> 
+                  <w facs="#cinders-4.png_word_1_16">dear</w> 
+                  <w facs="#cinders-4.png_word_1_17">nmmma</w> 
+                  <w facs="#cinders-4.png_word_1_18">[</w> 
+                  <w facs="#cinders-4.png_word_1_19">am_come</w> 
+                  <w facs="#cinders-4.png_word_1_20">to</w> 
+                  <w facs="#cinders-4.png_word_1_21">cheer</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_22">you</w> 
-               <w facs="#cinders-4.png_word_1_23">up,</w> 
-               <w facs="#cinders-4.png_word_1_24">so</w> 
-               <w facs="#cinders-4.png_word_1_25">dry</w> 
-               <w facs="#cinders-4.png_word_1_26">your</w> 
-               <w facs="#cinders-4.png_word_1_27">tears;</w> 
-               <w facs="#cinders-4.png_word_1_28">you</w> 
-               <w facs="#cinders-4.png_word_1_29">shall</w> 
-               <w facs="#cinders-4.png_word_1_30">go</w> 
-               <w facs="#cinders-4.png_word_1_31">to</w> 
-               <w facs="#cinders-4.png_word_1_32">the</w> 
-               <w facs="#cinders-4.png_word_1_33">grand</w> 
-               <w facs="#cinders-4.png_word_1_34">ball</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_22">you</w> 
+                  <w facs="#cinders-4.png_word_1_23">up,</w> 
+                  <w facs="#cinders-4.png_word_1_24">so</w> 
+                  <w facs="#cinders-4.png_word_1_25">dry</w> 
+                  <w facs="#cinders-4.png_word_1_26">your</w> 
+                  <w facs="#cinders-4.png_word_1_27">tears;</w> 
+                  <w facs="#cinders-4.png_word_1_28">you</w> 
+                  <w facs="#cinders-4.png_word_1_29">shall</w> 
+                  <w facs="#cinders-4.png_word_1_30">go</w> 
+                  <w facs="#cinders-4.png_word_1_31">to</w> 
+                  <w facs="#cinders-4.png_word_1_32">the</w> 
+                  <w facs="#cinders-4.png_word_1_33">grand</w> 
+                  <w facs="#cinders-4.png_word_1_34">ball</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_35">to-night,</w> 
-               <w facs="#cinders-4.png_word_1_36">but</w> 
-               <w facs="#cinders-4.png_word_1_37">you</w> 
-               <w facs="#cinders-4.png_word_1_38">must</w> 
-               <w facs="#cinders-4.png_word_1_39">do</w> 
-               <w facs="#cinders-4.png_word_1_40">just</w> 
-               <w facs="#cinders-4.png_word_1_41">as</w> 
-               <w facs="#cinders-4.png_word_1_42">1</w> 
-               <w facs="#cinders-4.png_word_1_43">bid</w> 
-               <w facs="#cinders-4.png_word_1_44">you.</w> 
-               <w facs="#cinders-4.png_word_1_45">Go</w> 
-               <w facs="#cinders-4.png_word_1_46">into</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_35">to-night,</w> 
+                  <w facs="#cinders-4.png_word_1_36">but</w> 
+                  <w facs="#cinders-4.png_word_1_37">you</w> 
+                  <w facs="#cinders-4.png_word_1_38">must</w> 
+                  <w facs="#cinders-4.png_word_1_39">do</w> 
+                  <w facs="#cinders-4.png_word_1_40">just</w> 
+                  <w facs="#cinders-4.png_word_1_41">as</w> 
+                  <w facs="#cinders-4.png_word_1_42">1</w> 
+                  <w facs="#cinders-4.png_word_1_43">bid</w> 
+                  <w facs="#cinders-4.png_word_1_44">you.</w> 
+                  <w facs="#cinders-4.png_word_1_45">Go</w> 
+                  <w facs="#cinders-4.png_word_1_46">into</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_47">the</w> 
-               <w facs="#cinders-4.png_word_1_48">garden</w> 
-               <w facs="#cinders-4.png_word_1_49">and</w> 
-               <w facs="#cinders-4.png_word_1_50">bring</w> 
-               <w facs="#cinders-4.png_word_1_51">me</w> 
-               <w facs="#cinders-4.png_word_1_52">a</w> 
-               <w facs="#cinders-4.png_word_1_53">pumpkin.”</w> 
-               <w facs="#cinders-4.png_word_1_54">Cinderella</w> 
-               <w facs="#cinders-4.png_word_1_55">brought</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_47">the</w> 
+                  <w facs="#cinders-4.png_word_1_48">garden</w> 
+                  <w facs="#cinders-4.png_word_1_49">and</w> 
+                  <w facs="#cinders-4.png_word_1_50">bring</w> 
+                  <w facs="#cinders-4.png_word_1_51">me</w> 
+                  <w facs="#cinders-4.png_word_1_52">a</w> 
+                  <w facs="#cinders-4.png_word_1_53">pumpkin.”</w> 
+                  <w facs="#cinders-4.png_word_1_54">Cinderella</w> 
+                  <w facs="#cinders-4.png_word_1_55">brought</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_56">the</w> 
-               <w facs="#cinders-4.png_word_1_57">ﬁnest</w> 
-               <w facs="#cinders-4.png_word_1_58">that</w> 
-               <w facs="#cinders-4.png_word_1_59">was</w> 
-               <w facs="#cinders-4.png_word_1_60">there.</w> 
-               <w facs="#cinders-4.png_word_1_61">Her</w> 
-               <w facs="#cinders-4.png_word_1_62">godmother</w> 
-               <w facs="#cinders-4.png_word_1_63">scooped</w> 
-               <w facs="#cinders-4.png_word_1_64">it</w> 
-               <w facs="#cinders-4.png_word_1_65">out</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_56">the</w> 
+                  <w facs="#cinders-4.png_word_1_57">ﬁnest</w> 
+                  <w facs="#cinders-4.png_word_1_58">that</w> 
+                  <w facs="#cinders-4.png_word_1_59">was</w> 
+                  <w facs="#cinders-4.png_word_1_60">there.</w> 
+                  <w facs="#cinders-4.png_word_1_61">Her</w> 
+                  <w facs="#cinders-4.png_word_1_62">godmother</w> 
+                  <w facs="#cinders-4.png_word_1_63">scooped</w> 
+                  <w facs="#cinders-4.png_word_1_64">it</w> 
+                  <w facs="#cinders-4.png_word_1_65">out</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_66">very</w> 
-               <w facs="#cinders-4.png_word_1_67">quickly,</w> 
-               <w facs="#cinders-4.png_word_1_68">and</w> 
-               <w facs="#cinders-4.png_word_1_69">then</w> 
-               <w facs="#cinders-4.png_word_1_70">struck</w> 
-               <w facs="#cinders-4.png_word_1_71">it</w> 
-               <w facs="#cinders-4.png_word_1_72">with</w> 
-               <w facs="#cinders-4.png_word_1_73">her</w> 
-               <w facs="#cinders-4.png_word_1_74">wand,</w> 
-               <w facs="#cinders-4.png_word_1_75">upon</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_66">very</w> 
+                  <w facs="#cinders-4.png_word_1_67">quickly,</w> 
+                  <w facs="#cinders-4.png_word_1_68">and</w> 
+                  <w facs="#cinders-4.png_word_1_69">then</w> 
+                  <w facs="#cinders-4.png_word_1_70">struck</w> 
+                  <w facs="#cinders-4.png_word_1_71">it</w> 
+                  <w facs="#cinders-4.png_word_1_72">with</w> 
+                  <w facs="#cinders-4.png_word_1_73">her</w> 
+                  <w facs="#cinders-4.png_word_1_74">wand,</w> 
+                  <w facs="#cinders-4.png_word_1_75">upon</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_76">which</w> 
-               <w facs="#cinders-4.png_word_1_77">it</w> 
-               <w facs="#cinders-4.png_word_1_78">was</w> 
-               <w facs="#cinders-4.png_word_1_79">changed</w> 
-               <w facs="#cinders-4.png_word_1_80">into</w> 
-               <w facs="#cinders-4.png_word_1_81">a</w> 
-               <w facs="#cinders-4.png_word_1_82">beautiful</w> 
-               <w facs="#cinders-4.png_word_1_83">coach.</w> 
-               <w facs="#cinders-4.png_word_1_84">Afterwards,</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_76">which</w> 
+                  <w facs="#cinders-4.png_word_1_77">it</w> 
+                  <w facs="#cinders-4.png_word_1_78">was</w> 
+                  <w facs="#cinders-4.png_word_1_79">changed</w> 
+                  <w facs="#cinders-4.png_word_1_80">into</w> 
+                  <w facs="#cinders-4.png_word_1_81">a</w> 
+                  <w facs="#cinders-4.png_word_1_82">beautiful</w> 
+                  <w facs="#cinders-4.png_word_1_83">coach.</w> 
+                  <w facs="#cinders-4.png_word_1_84">Afterwards,</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_85">the</w> 
-               <w facs="#cinders-4.png_word_1_86">old</w> 
-               <w facs="#cinders-4.png_word_1_87">lady</w> 
-               <w facs="#cinders-4.png_word_1_88">peeped</w> 
-               <w facs="#cinders-4.png_word_1_89">into</w> 
-               <w facs="#cinders-4.png_word_1_90">the</w> 
-               <w facs="#cinders-4.png_word_1_91">mouse-trap,</w> 
-               <w facs="#cinders-4.png_word_1_92">Where</w> 
-               <w facs="#cinders-4.png_word_1_93">she</w> 
-               <w facs="#cinders-4.png_word_1_94">found</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_85">the</w> 
+                  <w facs="#cinders-4.png_word_1_86">old</w> 
+                  <w facs="#cinders-4.png_word_1_87">lady</w> 
+                  <w facs="#cinders-4.png_word_1_88">peeped</w> 
+                  <w facs="#cinders-4.png_word_1_89">into</w> 
+                  <w facs="#cinders-4.png_word_1_90">the</w> 
+                  <w facs="#cinders-4.png_word_1_91">mouse-trap,</w> 
+                  <w facs="#cinders-4.png_word_1_92">Where</w> 
+                  <w facs="#cinders-4.png_word_1_93">she</w> 
+                  <w facs="#cinders-4.png_word_1_94">found</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_95">six</w> 
-               <w facs="#cinders-4.png_word_1_96">mice.</w> 
-               <w facs="#cinders-4.png_word_1_97">She</w> 
-               <w facs="#cinders-4.png_word_1_98">tapped</w> 
-               <w facs="#cinders-4.png_word_1_99">them</w> 
-               <w facs="#cinders-4.png_word_1_100">lightly</w> 
-               <w facs="#cinders-4.png_word_1_101">with</w> 
-               <w facs="#cinders-4.png_word_1_102">her</w> 
-               <w facs="#cinders-4.png_word_1_103">wand,</w> 
-               <w facs="#cinders-4.png_word_1_104">and</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_95">six</w> 
+                  <w facs="#cinders-4.png_word_1_96">mice.</w> 
+                  <w facs="#cinders-4.png_word_1_97">She</w> 
+                  <w facs="#cinders-4.png_word_1_98">tapped</w> 
+                  <w facs="#cinders-4.png_word_1_99">them</w> 
+                  <w facs="#cinders-4.png_word_1_100">lightly</w> 
+                  <w facs="#cinders-4.png_word_1_101">with</w> 
+                  <w facs="#cinders-4.png_word_1_102">her</w> 
+                  <w facs="#cinders-4.png_word_1_103">wand,</w> 
+                  <w facs="#cinders-4.png_word_1_104">and</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_105">each</w> 
-               <w facs="#cinders-4.png_word_1_106">mouse</w> 
-               <w facs="#cinders-4.png_word_1_107">became</w> 
-               <w facs="#cinders-4.png_word_1_108">a</w> 
-               <w facs="#cinders-4.png_word_1_109">ﬁne</w> 
-               <w facs="#cinders-4.png_word_1_110">horse.</w> 
-               <w facs="#cinders-4.png_word_1_111">The</w> 
-               <w facs="#cinders-4.png_word_1_112">ratrtrap</w> 
-               <w facs="#cinders-4.png_word_1_113">contained</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_105">each</w> 
+                  <w facs="#cinders-4.png_word_1_106">mouse</w> 
+                  <w facs="#cinders-4.png_word_1_107">became</w> 
+                  <w facs="#cinders-4.png_word_1_108">a</w> 
+                  <w facs="#cinders-4.png_word_1_109">ﬁne</w> 
+                  <w facs="#cinders-4.png_word_1_110">horse.</w> 
+                  <w facs="#cinders-4.png_word_1_111">The</w> 
+                  <w facs="#cinders-4.png_word_1_112">ratrtrap</w> 
+                  <w facs="#cinders-4.png_word_1_113">contained</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_114">two</w> 
-               <w facs="#cinders-4.png_word_1_115">large</w> 
-               <w facs="#cinders-4.png_word_1_116">rats;</w> 
-               <w facs="#cinders-4.png_word_1_117">one</w> 
-               <w facs="#cinders-4.png_word_1_118">of</w> 
-               <w facs="#cinders-4.png_word_1_119">these</w> 
-               <w facs="#cinders-4.png_word_1_120">she</w> 
-               <w facs="#cinders-4.png_word_1_121">turned</w> 
-               <w facs="#cinders-4.png_word_1_122">into</w> 
-               <w facs="#cinders-4.png_word_1_123">a</w> 
-               <w facs="#cinders-4.png_word_1_124">Coachman,</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_114">two</w> 
+                  <w facs="#cinders-4.png_word_1_115">large</w> 
+                  <w facs="#cinders-4.png_word_1_116">rats;</w> 
+                  <w facs="#cinders-4.png_word_1_117">one</w> 
+                  <w facs="#cinders-4.png_word_1_118">of</w> 
+                  <w facs="#cinders-4.png_word_1_119">these</w> 
+                  <w facs="#cinders-4.png_word_1_120">she</w> 
+                  <w facs="#cinders-4.png_word_1_121">turned</w> 
+                  <w facs="#cinders-4.png_word_1_122">into</w> 
+                  <w facs="#cinders-4.png_word_1_123">a</w> 
+                  <w facs="#cinders-4.png_word_1_124">Coachman,</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_125">and</w> 
-               <w facs="#cinders-4.png_word_1_126">the</w> 
-               <w facs="#cinders-4.png_word_1_127">other</w> 
-               <w facs="#cinders-4.png_word_1_128">into</w> 
-               <w facs="#cinders-4.png_word_1_129">a</w> 
-               <w facs="#cinders-4.png_word_1_130">postilion.</w> 
-               <w facs="#cinders-4.png_word_1_131">The_</w> 
-               <w facs="#cinders-4.png_word_1_132">old</w> 
-               <w facs="#cinders-4.png_word_1_133">lady</w> 
-               <w facs="#cinders-4.png_word_1_134">then</w> 
-               <w facs="#cinders-4.png_word_1_135">told</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_125">and</w> 
+                  <w facs="#cinders-4.png_word_1_126">the</w> 
+                  <w facs="#cinders-4.png_word_1_127">other</w> 
+                  <w facs="#cinders-4.png_word_1_128">into</w> 
+                  <w facs="#cinders-4.png_word_1_129">a</w> 
+                  <w facs="#cinders-4.png_word_1_130">postilion.</w> 
+                  <w facs="#cinders-4.png_word_1_131">The_</w> 
+                  <w facs="#cinders-4.png_word_1_132">old</w> 
+                  <w facs="#cinders-4.png_word_1_133">lady</w> 
+                  <w facs="#cinders-4.png_word_1_134">then</w> 
+                  <w facs="#cinders-4.png_word_1_135">told</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_136">Cinderella</w> 
-               <w facs="#cinders-4.png_word_1_137">to</w> 
-               <w facs="#cinders-4.png_word_1_138">go</w> 
-               <w facs="#cinders-4.png_word_1_139">into</w> 
-               <w facs="#cinders-4.png_word_1_140">the</w> 
-               <w facs="#cinders-4.png_word_1_141">garden</w> 
-               <w facs="#cinders-4.png_word_1_142">and</w> 
-               <w facs="#cinders-4.png_word_1_143">seek</w> 
-               <w facs="#cinders-4.png_word_1_144">for</w> 
-               <w facs="#cinders-4.png_word_1_145">halt-a-dozen</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_136">Cinderella</w> 
+                  <w facs="#cinders-4.png_word_1_137">to</w> 
+                  <w facs="#cinders-4.png_word_1_138">go</w> 
+                  <w facs="#cinders-4.png_word_1_139">into</w> 
+                  <w facs="#cinders-4.png_word_1_140">the</w> 
+                  <w facs="#cinders-4.png_word_1_141">garden</w> 
+                  <w facs="#cinders-4.png_word_1_142">and</w> 
+                  <w facs="#cinders-4.png_word_1_143">seek</w> 
+                  <w facs="#cinders-4.png_word_1_144">for</w> 
+                  <w facs="#cinders-4.png_word_1_145">halt-a-dozen</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_146">lizards.</w> 
-               <w facs="#cinders-4.png_word_1_147">These</w> 
-               <w facs="#cinders-4.png_word_1_148">she</w> 
-               <w facs="#cinders-4.png_word_1_149">changed</w> 
-               <w facs="#cinders-4.png_word_1_150">into</w> 
-               <w facs="#cinders-4.png_word_1_151">six</w> 
-               <w facs="#cinders-4.png_word_1_152">footmen,</w> 
-               <w facs="#cinders-4.png_word_1_153">dressed</w> 
-               <w facs="#cinders-4.png_word_1_154">in</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_146">lizards.</w> 
+                  <w facs="#cinders-4.png_word_1_147">These</w> 
+                  <w facs="#cinders-4.png_word_1_148">she</w> 
+                  <w facs="#cinders-4.png_word_1_149">changed</w> 
+                  <w facs="#cinders-4.png_word_1_150">into</w> 
+                  <w facs="#cinders-4.png_word_1_151">six</w> 
+                  <w facs="#cinders-4.png_word_1_152">footmen,</w> 
+                  <w facs="#cinders-4.png_word_1_153">dressed</w> 
+                  <w facs="#cinders-4.png_word_1_154">in</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_155">the</w> 
-               <w facs="#cinders-4.png_word_1_156">gayest</w> 
-               <w facs="#cinders-4.png_word_1_157">livery.</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_155">the</w> 
+                  <w facs="#cinders-4.png_word_1_156">gayest</w> 
+                  <w facs="#cinders-4.png_word_1_157">livery.</w> 
      
-            </p>
+               </p>
 
-            <p facs="#cinders-4.png_par_1_3">
-               <lb/>
-               <w facs="#cinders-4.png_word_1_158">When</w> 
-               <w facs="#cinders-4.png_word_1_159">all</w> 
-               <w facs="#cinders-4.png_word_1_160">these</w> 
-               <w facs="#cinders-4.png_word_1_161">things</w> 
-               <w facs="#cinders-4.png_word_1_162">had</w> 
-               <w facs="#cinders-4.png_word_1_163">been</w> 
-               <w facs="#cinders-4.png_word_1_164">done,</w> 
-               <w facs="#cinders-4.png_word_1_165">the</w> 
-               <w facs="#cinders-4.png_word_1_166">kind</w> 
-               <w facs="#cinders-4.png_word_1_167">god-</w> 
+               <p facs="#cinders-4.png_par_1_3">
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_158">When</w> 
+                  <w facs="#cinders-4.png_word_1_159">all</w> 
+                  <w facs="#cinders-4.png_word_1_160">these</w> 
+                  <w facs="#cinders-4.png_word_1_161">things</w> 
+                  <w facs="#cinders-4.png_word_1_162">had</w> 
+                  <w facs="#cinders-4.png_word_1_163">been</w> 
+                  <w facs="#cinders-4.png_word_1_164">done,</w> 
+                  <w facs="#cinders-4.png_word_1_165">the</w> 
+                  <w facs="#cinders-4.png_word_1_166">kind</w> 
+                  <w facs="#cinders-4.png_word_1_167">god-</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_168">mother</w> 
-               <w facs="#cinders-4.png_word_1_169">touching</w> 
-               <w facs="#cinders-4.png_word_1_170">her</w> 
-               <w facs="#cinders-4.png_word_1_171">with</w> 
-               <w facs="#cinders-4.png_word_1_172">her</w> 
-               <w facs="#cinders-4.png_word_1_173">wand,</w> 
-               <w facs="#cinders-4.png_word_1_174">changed</w> 
-               <w facs="#cinders-4.png_word_1_175">her</w> 
-               <w facs="#cinders-4.png_word_1_176">worn-out</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_168">mother</w> 
+                  <w facs="#cinders-4.png_word_1_169">touching</w> 
+                  <w facs="#cinders-4.png_word_1_170">her</w> 
+                  <w facs="#cinders-4.png_word_1_171">with</w> 
+                  <w facs="#cinders-4.png_word_1_172">her</w> 
+                  <w facs="#cinders-4.png_word_1_173">wand,</w> 
+                  <w facs="#cinders-4.png_word_1_174">changed</w> 
+                  <w facs="#cinders-4.png_word_1_175">her</w> 
+                  <w facs="#cinders-4.png_word_1_176">worn-out</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_177">clothes</w> 
-               <w facs="#cinders-4.png_word_1_178">into</w> 
-               <w facs="#cinders-4.png_word_1_179">a</w> 
-               <w facs="#cinders-4.png_word_1_180">beautiful</w> 
-               <w facs="#cinders-4.png_word_1_181">ball-dress</w> 
-               <w facs="#cinders-4.png_word_1_182">embroidered</w> 
-               <w facs="#cinders-4.png_word_1_183">with</w> 
-               <w facs="#cinders-4.png_word_1_184">pearls</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_177">clothes</w> 
+                  <w facs="#cinders-4.png_word_1_178">into</w> 
+                  <w facs="#cinders-4.png_word_1_179">a</w> 
+                  <w facs="#cinders-4.png_word_1_180">beautiful</w> 
+                  <w facs="#cinders-4.png_word_1_181">ball-dress</w> 
+                  <w facs="#cinders-4.png_word_1_182">embroidered</w> 
+                  <w facs="#cinders-4.png_word_1_183">with</w> 
+                  <w facs="#cinders-4.png_word_1_184">pearls</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_185">and</w> 
-               <w facs="#cinders-4.png_word_1_186">silver.</w> 
-               <w facs="#cinders-4.png_word_1_187">She</w> 
-               <w facs="#cinders-4.png_word_1_188">then</w> 
-               <w facs="#cinders-4.png_word_1_189">gave</w> 
-               <w facs="#cinders-4.png_word_1_190">her</w> 
-               <w facs="#cinders-4.png_word_1_191">a</w> 
-               <w facs="#cinders-4.png_word_1_192">pair</w> 
-               <w facs="#cinders-4.png_word_1_193">of</w> 
-               <w facs="#cinders-4.png_word_1_194">glass</w> 
-               <w facs="#cinders-4.png_word_1_195">slippers,</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_185">and</w> 
+                  <w facs="#cinders-4.png_word_1_186">silver.</w> 
+                  <w facs="#cinders-4.png_word_1_187">She</w> 
+                  <w facs="#cinders-4.png_word_1_188">then</w> 
+                  <w facs="#cinders-4.png_word_1_189">gave</w> 
+                  <w facs="#cinders-4.png_word_1_190">her</w> 
+                  <w facs="#cinders-4.png_word_1_191">a</w> 
+                  <w facs="#cinders-4.png_word_1_192">pair</w> 
+                  <w facs="#cinders-4.png_word_1_193">of</w> 
+                  <w facs="#cinders-4.png_word_1_194">glass</w> 
+                  <w facs="#cinders-4.png_word_1_195">slippers,</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_196">that</w> 
-               <w facs="#cinders-4.png_word_1_197">is,</w> 
-               <w facs="#cinders-4.png_word_1_198">they</w> 
-               <w facs="#cinders-4.png_word_1_199">were</w> 
-               <w facs="#cinders-4.png_word_1_200">woven</w> 
-               <w facs="#cinders-4.png_word_1_201">of</w> 
-               <w facs="#cinders-4.png_word_1_202">the</w> 
-               <w facs="#cinders-4.png_word_1_203">most</w> 
-               <w facs="#cinders-4.png_word_1_204">delicate</w> 
-               <w facs="#cinders-4.png_word_1_205">spunvgluss,</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_196">that</w> 
+                  <w facs="#cinders-4.png_word_1_197">is,</w> 
+                  <w facs="#cinders-4.png_word_1_198">they</w> 
+                  <w facs="#cinders-4.png_word_1_199">were</w> 
+                  <w facs="#cinders-4.png_word_1_200">woven</w> 
+                  <w facs="#cinders-4.png_word_1_201">of</w> 
+                  <w facs="#cinders-4.png_word_1_202">the</w> 
+                  <w facs="#cinders-4.png_word_1_203">most</w> 
+                  <w facs="#cinders-4.png_word_1_204">delicate</w> 
+                  <w facs="#cinders-4.png_word_1_205">spunvgluss,</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_206">ﬁne</w> 
-               <w facs="#cinders-4.png_word_1_207">as</w> 
-               <w facs="#cinders-4.png_word_1_208">the</w> 
-               <w facs="#cinders-4.png_word_1_209">web</w> 
-               <w facs="#cinders-4.png_word_1_210">of</w> 
-               <w facs="#cinders-4.png_word_1_211">a</w> 
-               <w facs="#cinders-4.png_word_1_212">spider.</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_206">ﬁne</w> 
+                  <w facs="#cinders-4.png_word_1_207">as</w> 
+                  <w facs="#cinders-4.png_word_1_208">the</w> 
+                  <w facs="#cinders-4.png_word_1_209">web</w> 
+                  <w facs="#cinders-4.png_word_1_210">of</w> 
+                  <w facs="#cinders-4.png_word_1_211">a</w> 
+                  <w facs="#cinders-4.png_word_1_212">spider.</w> 
      
-            </p>
+               </p>
 
-            <p facs="#cinders-4.png_par_1_4">
-               <lb/>
-               <w facs="#cinders-4.png_word_1_213">When</w> 
-               <w facs="#cinders-4.png_word_1_214">Cinderella</w> 
-               <w facs="#cinders-4.png_word_1_215">was</w> 
-               <w facs="#cinders-4.png_word_1_216">thus</w> 
-               <w facs="#cinders-4.png_word_1_217">attired,</w> 
-               <w facs="#cinders-4.png_word_1_218">her</w> 
-               <w facs="#cinders-4.png_word_1_219">godmother</w> 
-               <w facs="#cinders-4.png_word_1_220">made</w> 
+               <p facs="#cinders-4.png_par_1_4">
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_213">When</w> 
+                  <w facs="#cinders-4.png_word_1_214">Cinderella</w> 
+                  <w facs="#cinders-4.png_word_1_215">was</w> 
+                  <w facs="#cinders-4.png_word_1_216">thus</w> 
+                  <w facs="#cinders-4.png_word_1_217">attired,</w> 
+                  <w facs="#cinders-4.png_word_1_218">her</w> 
+                  <w facs="#cinders-4.png_word_1_219">godmother</w> 
+                  <w facs="#cinders-4.png_word_1_220">made</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_221">her</w> 
-               <w facs="#cinders-4.png_word_1_222">get</w> 
-               <w facs="#cinders-4.png_word_1_223">into</w> 
-               <w facs="#cinders-4.png_word_1_224">her</w> 
-               <w facs="#cinders-4.png_word_1_225">splendid</w> 
-               <w facs="#cinders-4.png_word_1_226">coach,</w> 
-               <w facs="#cinders-4.png_word_1_227">giving</w> 
-               <w facs="#cinders-4.png_word_1_228">her</w> 
-               <w facs="#cinders-4.png_word_1_229">a</w> 
-               <w facs="#cinders-4.png_word_1_230">caution</w> 
-               <w facs="#cinders-4.png_word_1_231">to</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_221">her</w> 
+                  <w facs="#cinders-4.png_word_1_222">get</w> 
+                  <w facs="#cinders-4.png_word_1_223">into</w> 
+                  <w facs="#cinders-4.png_word_1_224">her</w> 
+                  <w facs="#cinders-4.png_word_1_225">splendid</w> 
+                  <w facs="#cinders-4.png_word_1_226">coach,</w> 
+                  <w facs="#cinders-4.png_word_1_227">giving</w> 
+                  <w facs="#cinders-4.png_word_1_228">her</w> 
+                  <w facs="#cinders-4.png_word_1_229">a</w> 
+                  <w facs="#cinders-4.png_word_1_230">caution</w> 
+                  <w facs="#cinders-4.png_word_1_231">to</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_232">leave</w> 
-               <w facs="#cinders-4.png_word_1_233">the</w> 
-               <w facs="#cinders-4.png_word_1_234">ball</w> 
-               <w facs="#cinders-4.png_word_1_235">before</w> 
-               <w facs="#cinders-4.png_word_1_236">the</w> 
-               <w facs="#cinders-4.png_word_1_237">clock</w> 
-               <w facs="#cinders-4.png_word_1_238">struck</w> 
-               <w facs="#cinders-4.png_word_1_239">twelve.</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_232">leave</w> 
+                  <w facs="#cinders-4.png_word_1_233">the</w> 
+                  <w facs="#cinders-4.png_word_1_234">ball</w> 
+                  <w facs="#cinders-4.png_word_1_235">before</w> 
+                  <w facs="#cinders-4.png_word_1_236">the</w> 
+                  <w facs="#cinders-4.png_word_1_237">clock</w> 
+                  <w facs="#cinders-4.png_word_1_238">struck</w> 
+                  <w facs="#cinders-4.png_word_1_239">twelve.</w> 
      
-            </p>
+               </p>
 
-            <p facs="#cinders-4.png_par_1_5">
-               <lb/>
-               <w facs="#cinders-4.png_word_1_240">On</w> 
-               <w facs="#cinders-4.png_word_1_241">her</w> 
-               <w facs="#cinders-4.png_word_1_242">arrival,</w> 
-               <w facs="#cinders-4.png_word_1_243">her</w> 
-               <w facs="#cinders-4.png_word_1_244">beauty</w> 
-               <w facs="#cinders-4.png_word_1_245">struck</w> 
-               <w facs="#cinders-4.png_word_1_246">everybody</w> 
-               <w facs="#cinders-4.png_word_1_247">with</w> 
-               <w facs="#cinders-4.png_word_1_248">wunv</w> 
+               <p facs="#cinders-4.png_par_1_5">
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_240">On</w> 
+                  <w facs="#cinders-4.png_word_1_241">her</w> 
+                  <w facs="#cinders-4.png_word_1_242">arrival,</w> 
+                  <w facs="#cinders-4.png_word_1_243">her</w> 
+                  <w facs="#cinders-4.png_word_1_244">beauty</w> 
+                  <w facs="#cinders-4.png_word_1_245">struck</w> 
+                  <w facs="#cinders-4.png_word_1_246">everybody</w> 
+                  <w facs="#cinders-4.png_word_1_247">with</w> 
+                  <w facs="#cinders-4.png_word_1_248">wunv</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_249">der.</w> 
-               <w facs="#cinders-4.png_word_1_250">The</w> 
-               <w facs="#cinders-4.png_word_1_251">gallant</w> 
-               <w facs="#cinders-4.png_word_1_252">Prince</w> 
-               <w facs="#cinders-4.png_word_1_253">gave</w> 
-               <w facs="#cinders-4.png_word_1_254">her</w> 
-               <w facs="#cinders-4.png_word_1_255">a</w> 
-               <w facs="#cinders-4.png_word_1_256">courteous</w> 
-               <w facs="#cinders-4.png_word_1_257">welcome,</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_249">der.</w> 
+                  <w facs="#cinders-4.png_word_1_250">The</w> 
+                  <w facs="#cinders-4.png_word_1_251">gallant</w> 
+                  <w facs="#cinders-4.png_word_1_252">Prince</w> 
+                  <w facs="#cinders-4.png_word_1_253">gave</w> 
+                  <w facs="#cinders-4.png_word_1_254">her</w> 
+                  <w facs="#cinders-4.png_word_1_255">a</w> 
+                  <w facs="#cinders-4.png_word_1_256">courteous</w> 
+                  <w facs="#cinders-4.png_word_1_257">welcome,</w> 
      
-               <lb/>
-               <w facs="#cinders-4.png_word_1_258">and</w> 
-               <w facs="#cinders-4.png_word_1_259">led</w> 
-               <w facs="#cinders-4.png_word_1_260">her</w> 
-               <w facs="#cinders-4.png_word_1_261">into</w> 
-               <w facs="#cinders-4.png_word_1_262">the</w> 
-               <w facs="#cinders-4.png_word_1_263">ball-room;</w> 
-               <w facs="#cinders-4.png_word_1_264">and</w> 
-               <w facs="#cinders-4.png_word_1_265">the</w> 
-               <w facs="#cinders-4.png_word_1_266">King</w> 
-               <w facs="#cinders-4.png_word_1_267">and</w> 
-               <w facs="#cinders-4.png_word_1_268">Queen</w> 
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_258">and</w> 
+                  <w facs="#cinders-4.png_word_1_259">led</w> 
+                  <w facs="#cinders-4.png_word_1_260">her</w> 
+                  <w facs="#cinders-4.png_word_1_261">into</w> 
+                  <w facs="#cinders-4.png_word_1_262">the</w> 
+                  <w facs="#cinders-4.png_word_1_263">ball-room;</w> 
+                  <w facs="#cinders-4.png_word_1_264">and</w> 
+                  <w facs="#cinders-4.png_word_1_265">the</w> 
+                  <w facs="#cinders-4.png_word_1_266">King</w> 
+                  <w facs="#cinders-4.png_word_1_267">and</w> 
+                  <w facs="#cinders-4.png_word_1_268">Queen</w> 
      
-            </p>
+               </p>
+            </div>
+            <div facs="#cinders-4.png_block_1_3">
+               <p facs="#cinders-4.png_par_1_6">
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_269">were</w> 
+                  <w facs="#cinders-4.png_word_1_270">as</w> 
+                  <w facs="#cinders-4.png_word_1_271">much</w> 
+                  <w facs="#cinders-4.png_word_1_272">enchanted</w> 
+                  <w facs="#cinders-4.png_word_1_273">with</w> 
+                  <w facs="#cinders-4.png_word_1_274">her,</w> 
+                  <w facs="#cinders-4.png_word_1_275">as</w> 
+                  <w facs="#cinders-4.png_word_1_276">the</w> 
+                  <w facs="#cinders-4.png_word_1_277">Prince</w> 
+                  <w facs="#cinders-4.png_word_1_278">conducted</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-4.png_word_1_279">5</w> 
+     
+               </p>
+            </div>
          </div>
-         <div facs="#cinders-4.png_block_1_3">
-            <p facs="#cinders-4.png_par_1_6">
-               <lb/>
-               <w facs="#cinders-4.png_word_1_269">were</w> 
-               <w facs="#cinders-4.png_word_1_270">as</w> 
-               <w facs="#cinders-4.png_word_1_271">much</w> 
-               <w facs="#cinders-4.png_word_1_272">enchanted</w> 
-               <w facs="#cinders-4.png_word_1_273">with</w> 
-               <w facs="#cinders-4.png_word_1_274">her,</w> 
-               <w facs="#cinders-4.png_word_1_275">as</w> 
-               <w facs="#cinders-4.png_word_1_276">the</w> 
-               <w facs="#cinders-4.png_word_1_277">Prince</w> 
-               <w facs="#cinders-4.png_word_1_278">conducted</w> 
-     
-               <lb/>
-               <w facs="#cinders-4.png_word_1_279">5</w> 
-     
-            </p>
-         </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-0.png_block_1_1">
-            <p facs="#cinders-0.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-0.png_word_1_1"> </w> 
+         <div>
+            <div facs="#cinders-0.png_block_1_1">
+               <p facs="#cinders-0.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-0.png_word_1_1"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-0.png_block_1_2">
-            <p facs="#cinders-0.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-0.png_word_1_2"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-0.png_block_1_2">
+               <p facs="#cinders-0.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-0.png_word_1_2"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-0.png_block_1_3">
-            <p facs="#cinders-0.png_par_1_3">
-               <lb/>
-               <w facs="#cinders-0.png_word_1_3">GEORGE</w> 
-               <w facs="#cinders-0.png_word_1_4">HOUTLEDGE</w> 
-               <w facs="#cinders-0.png_word_1_5">AND</w> 
-               <w facs="#cinders-0.png_word_1_6">SONS</w> 
+               </p>
+            </div>
+            <div facs="#cinders-0.png_block_1_3">
+               <p facs="#cinders-0.png_par_1_3">
+                  <lb/>
+                  <w facs="#cinders-0.png_word_1_3">GEORGE</w> 
+                  <w facs="#cinders-0.png_word_1_4">HOUTLEDGE</w> 
+                  <w facs="#cinders-0.png_word_1_5">AND</w> 
+                  <w facs="#cinders-0.png_word_1_6">SONS</w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-0.png_block_1_4">
-            <p facs="#cinders-0.png_par_1_4">
-               <lb/>
-               <w facs="#cinders-0.png_word_1_7"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-0.png_block_1_4">
+               <p facs="#cinders-0.png_par_1_4">
+                  <lb/>
+                  <w facs="#cinders-0.png_word_1_7"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-0.png_block_1_5">
-            <p facs="#cinders-0.png_par_1_5">
-               <lb/>
-               <w facs="#cinders-0.png_word_1_8"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-0.png_block_1_5">
+               <p facs="#cinders-0.png_par_1_5">
+                  <lb/>
+                  <w facs="#cinders-0.png_word_1_8"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-0.png_block_1_6">
-            <p facs="#cinders-0.png_par_1_6">
-               <lb/>
-               <w facs="#cinders-0.png_word_1_9"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-0.png_block_1_6">
+               <p facs="#cinders-0.png_par_1_6">
+                  <lb/>
+                  <w facs="#cinders-0.png_word_1_9"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-0.png_block_1_7">
-            <p facs="#cinders-0.png_par_1_7">
-               <lb/>
-               <w facs="#cinders-0.png_word_1_10"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-0.png_block_1_7">
+               <p facs="#cinders-0.png_par_1_7">
+                  <lb/>
+                  <w facs="#cinders-0.png_word_1_10"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-0.png_block_1_8">
-            <p facs="#cinders-0.png_par_1_8">
-               <lb/>
-               <w facs="#cinders-0.png_word_1_11"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-0.png_block_1_8">
+               <p facs="#cinders-0.png_par_1_8">
+                  <lb/>
+                  <w facs="#cinders-0.png_word_1_11"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-0.png_block_1_9">
-            <p facs="#cinders-0.png_par_1_9">
-               <lb/>
-               <w facs="#cinders-0.png_word_1_12"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-0.png_block_1_9">
+               <p facs="#cinders-0.png_par_1_9">
+                  <lb/>
+                  <w facs="#cinders-0.png_word_1_12"> </w> 
      
-            </p>
+               </p>
+            </div>
          </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-7.png_block_1_1">
-            <p facs="#cinders-7.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-7.png_word_1_1"> </w> 
+         <div>
+            <div facs="#cinders-7.png_block_1_1">
+               <p facs="#cinders-7.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_1"> </w> 
      
-               <lb/>
-               <w facs="#cinders-7.png_word_1_2"> </w> 
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_2"> </w> 
      
-            </p>
+               </p>
+            </div>
+            <div facs="#cinders-7.png_block_1_2">
+               <p facs="#cinders-7.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_3">cmDEImLLA.</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-7.png_block_1_3">
+               <p facs="#cinders-7.png_par_1_3">
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_4">'</w> 
+                  <w facs="#cinders-7.png_word_1_5">to</w> 
+                  <w facs="#cinders-7.png_word_1_6">the</w> 
+                  <w facs="#cinders-7.png_word_1_7">supper-table,</w> 
+                  <w facs="#cinders-7.png_word_1_8">and</w> 
+                  <w facs="#cinders-7.png_word_1_9">was</w> 
+                  <w facs="#cinders-7.png_word_1_10">too</w> 
+                  <w facs="#cinders-7.png_word_1_11">much</w> 
+                  <w facs="#cinders-7.png_word_1_12">occupied</w> 
+                  <w facs="#cinders-7.png_word_1_13">in</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_14">waiting</w> 
+                  <w facs="#cinders-7.png_word_1_15">upon</w> 
+                  <w facs="#cinders-7.png_word_1_16">her</w> 
+                  <w facs="#cinders-7.png_word_1_17">to</w> 
+                  <w facs="#cinders-7.png_word_1_18">purtake</w> 
+                  <w facs="#cinders-7.png_word_1_19">of</w> 
+                  <w facs="#cinders-7.png_word_1_20">anythng</w> 
+                  <w facs="#cinders-7.png_word_1_21">himself.</w> 
+                  <w facs="#cinders-7.png_word_1_22">While</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_23">seated,</w> 
+                  <w facs="#cinders-7.png_word_1_24">Cinderella</w> 
+                  <w facs="#cinders-7.png_word_1_25">heard</w> 
+                  <w facs="#cinders-7.png_word_1_26">the</w> 
+                  <w facs="#cinders-7.png_word_1_27">Clock</w> 
+                  <w facs="#cinders-7.png_word_1_28">strike</w> 
+                  <w facs="#cinders-7.png_word_1_29">three-quarters</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_30">past</w> 
+                  <w facs="#cinders-7.png_word_1_31">eleven.</w> 
+                  <w facs="#cinders-7.png_word_1_32">She</w> 
+                  <w facs="#cinders-7.png_word_1_33">rose</w> 
+                  <w facs="#cinders-7.png_word_1_34">to</w> 
+                  <w facs="#cinders-7.png_word_1_35">leave,</w> 
+                  <w facs="#cinders-7.png_word_1_36">the</w> 
+                  <w facs="#cinders-7.png_word_1_37">Prince</w> 
+                  <w facs="#cinders-7.png_word_1_38">pressing</w> 
+                  <w facs="#cinders-7.png_word_1_39">her</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_40">to</w> 
+                  <w facs="#cinders-7.png_word_1_41">accept</w> 
+                  <w facs="#cinders-7.png_word_1_42">an</w> 
+                  <w facs="#cinders-7.png_word_1_43">invitation</w> 
+                  <w facs="#cinders-7.png_word_1_44">for</w> 
+                  <w facs="#cinders-7.png_word_1_45">the</w> 
+                  <w facs="#cinders-7.png_word_1_46">hall</w> 
+                  <w facs="#cinders-7.png_word_1_47">on</w> 
+                  <w facs="#cinders-7.png_word_1_48">the</w> 
+                  <w facs="#cinders-7.png_word_1_49">following</w> 
+                  <w facs="#cinders-7.png_word_1_50">evening.</w> 
+     
+               </p>
+
+               <p facs="#cinders-7.png_par_1_4">
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_51">0n</w> 
+                  <w facs="#cinders-7.png_word_1_52">reaching</w> 
+                  <w facs="#cinders-7.png_word_1_53">home,</w> 
+                  <w facs="#cinders-7.png_word_1_54">her</w> 
+                  <w facs="#cinders-7.png_word_1_55">godmother</w> 
+                  <w facs="#cinders-7.png_word_1_56">praised</w> 
+                  <w facs="#cinders-7.png_word_1_57">her</w> 
+                  <w facs="#cinders-7.png_word_1_58">for</w> 
+                  <w facs="#cinders-7.png_word_1_59">being</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_60">so</w> 
+                  <w facs="#cinders-7.png_word_1_61">punctual,</w> 
+                  <w facs="#cinders-7.png_word_1_62">and</w> 
+                  <w facs="#cinders-7.png_word_1_63">agreed</w> 
+                  <w facs="#cinders-7.png_word_1_64">to</w> 
+                  <w facs="#cinders-7.png_word_1_65">let</w> 
+                  <w facs="#cinders-7.png_word_1_66">her</w> 
+                  <w facs="#cinders-7.png_word_1_67">go</w> 
+                  <w facs="#cinders-7.png_word_1_68">to</w> 
+                  <w facs="#cinders-7.png_word_1_69">the</w> 
+                  <w facs="#cinders-7.png_word_1_70">next</w> 
+                  <w facs="#cinders-7.png_word_1_71">night's</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_72">hall,</w> 
+     
+               </p>
+
+               <p facs="#cinders-7.png_par_1_5">
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_73">Although</w> 
+                  <w facs="#cinders-7.png_word_1_74">she</w> 
+                  <w facs="#cinders-7.png_word_1_75">seemed</w> 
+                  <w facs="#cinders-7.png_word_1_76">to</w> 
+                  <w facs="#cinders-7.png_word_1_77">he</w> 
+                  <w facs="#cinders-7.png_word_1_78">tired,</w> 
+                  <w facs="#cinders-7.png_word_1_79">her</w> 
+                  <w facs="#cinders-7.png_word_1_80">sisters,</w> 
+                  <w facs="#cinders-7.png_word_1_81">instead</w> 
+                  <w facs="#cinders-7.png_word_1_82">of</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_83">showing</w> 
+                  <w facs="#cinders-7.png_word_1_84">pity,</w> 
+                  <w facs="#cinders-7.png_word_1_85">teased</w> 
+                  <w facs="#cinders-7.png_word_1_86">her</w> 
+                  <w facs="#cinders-7.png_word_1_87">with</w> 
+                  <w facs="#cinders-7.png_word_1_88">glowing</w> 
+                  <w facs="#cinders-7.png_word_1_89">accounts</w> 
+                  <w facs="#cinders-7.png_word_1_90">of</w> 
+                  <w facs="#cinders-7.png_word_1_91">the</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_92">splendid</w> 
+                  <w facs="#cinders-7.png_word_1_93">scene</w> 
+                  <w facs="#cinders-7.png_word_1_94">they</w> 
+                  <w facs="#cinders-7.png_word_1_95">had</w> 
+                  <w facs="#cinders-7.png_word_1_96">just</w> 
+                  <w facs="#cinders-7.png_word_1_97">left,</w> 
+                  <w facs="#cinders-7.png_word_1_98">and</w> 
+                  <w facs="#cinders-7.png_word_1_99">spoke</w> 
+                  <w facs="#cinders-7.png_word_1_100">particularly</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_101">of</w> 
+                  <w facs="#cinders-7.png_word_1_102">the</w> 
+                  <w facs="#cinders-7.png_word_1_103">beautiful</w> 
+                  <w facs="#cinders-7.png_word_1_104">Princess.</w> 
+                  <w facs="#cinders-7.png_word_1_105">Cinderella</w> 
+                  <w facs="#cinders-7.png_word_1_106">was</w> 
+                  <w facs="#cinders-7.png_word_1_107">delighted</w> 
+                  <w facs="#cinders-7.png_word_1_108">to</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_109">hem-</w> 
+                  <w facs="#cinders-7.png_word_1_110">all</w> 
+                  <w facs="#cinders-7.png_word_1_111">this,</w> 
+                  <w facs="#cinders-7.png_word_1_112">and</w> 
+                  <w facs="#cinders-7.png_word_1_113">asked</w> 
+                  <w facs="#cinders-7.png_word_1_114">them</w> 
+                  <w facs="#cinders-7.png_word_1_115">the</w> 
+                  <w facs="#cinders-7.png_word_1_116">name</w> 
+                  <w facs="#cinders-7.png_word_1_117">of</w> 
+                  <w facs="#cinders-7.png_word_1_118">the</w> 
+                  <w facs="#cinders-7.png_word_1_119">Princess,</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_120">but</w> 
+                  <w facs="#cinders-7.png_word_1_121">they</w> 
+                  <w facs="#cinders-7.png_word_1_122">replied,</w> 
+                  <w facs="#cinders-7.png_word_1_123">nobody</w> 
+                  <w facs="#cinders-7.png_word_1_124">knew</w> 
+                  <w facs="#cinders-7.png_word_1_125">her.</w> 
+                  <w facs="#cinders-7.png_word_1_126">So</w> 
+                  <w facs="#cinders-7.png_word_1_127">much</w> 
+                  <w facs="#cinders-7.png_word_1_128">did</w> 
+                  <w facs="#cinders-7.png_word_1_129">they</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_130">say</w> 
+                  <w facs="#cinders-7.png_word_1_131">in</w> 
+                  <w facs="#cinders-7.png_word_1_132">praise</w> 
+                  <w facs="#cinders-7.png_word_1_133">of</w> 
+                  <w facs="#cinders-7.png_word_1_134">the</w> 
+                  <w facs="#cinders-7.png_word_1_135">lady,</w> 
+                  <w facs="#cinders-7.png_word_1_136">that</w> 
+                  <w facs="#cinders-7.png_word_1_137">Cinderella</w> 
+                  <w facs="#cinders-7.png_word_1_138">expressed</w> 
+                  <w facs="#cinders-7.png_word_1_139">a</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_140">desire</w> 
+                  <w facs="#cinders-7.png_word_1_141">to</w> 
+                  <w facs="#cinders-7.png_word_1_142">go</w> 
+                  <w facs="#cinders-7.png_word_1_143">to</w> 
+                  <w facs="#cinders-7.png_word_1_144">the</w> 
+                  <w facs="#cinders-7.png_word_1_145">next</w> 
+                  <w facs="#cinders-7.png_word_1_146">hall</w> 
+                  <w facs="#cinders-7.png_word_1_147">to</w> 
+                  <w facs="#cinders-7.png_word_1_148">see</w> 
+                  <w facs="#cinders-7.png_word_1_149">the</w> 
+                  <w facs="#cinders-7.png_word_1_150">Princess;</w> 
+                  <w facs="#cinders-7.png_word_1_151">but</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_152">this</w> 
+                  <w facs="#cinders-7.png_word_1_153">only</w> 
+                  <w facs="#cinders-7.png_word_1_154">served</w> 
+                  <w facs="#cinders-7.png_word_1_155">to</w> 
+                  <w facs="#cinders-7.png_word_1_156">bring</w> 
+                  <w facs="#cinders-7.png_word_1_157">out</w> 
+                  <w facs="#cinders-7.png_word_1_158">their</w> 
+                  <w facs="#cinders-7.png_word_1_159">dislike</w> 
+                  <w facs="#cinders-7.png_word_1_160">of</w> 
+                  <w facs="#cinders-7.png_word_1_161">poor</w> 
+                  <w facs="#cinders-7.png_word_1_162">Cinderella</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_163">still</w> 
+                  <w facs="#cinders-7.png_word_1_164">more,</w> 
+                  <w facs="#cinders-7.png_word_1_165">and</w> 
+                  <w facs="#cinders-7.png_word_1_166">they</w> 
+                  <w facs="#cinders-7.png_word_1_167">would</w> 
+                  <w facs="#cinders-7.png_word_1_168">not</w> 
+                  <w facs="#cinders-7.png_word_1_169">lend</w> 
+                  <w facs="#cinders-7.png_word_1_170">her</w> 
+                  <w facs="#cinders-7.png_word_1_171">the</w> 
+                  <w facs="#cinders-7.png_word_1_172">meanest</w> 
+                  <w facs="#cinders-7.png_word_1_173">of</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_174">their</w> 
+                  <w facs="#cinders-7.png_word_1_175">dresses.</w> 
+     
+               </p>
+
+               <p facs="#cinders-7.png_par_1_6">
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_176">The</w> 
+                  <w facs="#cinders-7.png_word_1_177">next</w> 
+                  <w facs="#cinders-7.png_word_1_178">evening</w> 
+                  <w facs="#cinders-7.png_word_1_179">the</w> 
+                  <w facs="#cinders-7.png_word_1_180">two</w> 
+                  <w facs="#cinders-7.png_word_1_181">sisters</w> 
+                  <w facs="#cinders-7.png_word_1_182">went‘to</w> 
+                  <w facs="#cinders-7.png_word_1_183">the</w> 
+                  <w facs="#cinders-7.png_word_1_184">hall,</w> 
+                  <w facs="#cinders-7.png_word_1_185">and</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_186">Cinderella</w> 
+                  <w facs="#cinders-7.png_word_1_187">also,</w> 
+                  <w facs="#cinders-7.png_word_1_188">who</w> 
+                  <w facs="#cinders-7.png_word_1_189">was</w> 
+                  <w facs="#cinders-7.png_word_1_190">still</w> 
+                  <w facs="#cinders-7.png_word_1_191">more</w> 
+                  <w facs="#cinders-7.png_word_1_192">splendidly</w> 
+                  <w facs="#cinders-7.png_word_1_193">dressed</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_194">than</w> 
+                  <w facs="#cinders-7.png_word_1_195">before.</w> 
+                  <w facs="#cinders-7.png_word_1_196">lier</w> 
+                  <w facs="#cinders-7.png_word_1_197">enjoyment</w> 
+                  <w facs="#cinders-7.png_word_1_198">was</w> 
+                  <w facs="#cinders-7.png_word_1_199">even</w> 
+                  <w facs="#cinders-7.png_word_1_200">great/er</w> 
+                  <w facs="#cinders-7.png_word_1_201">than</w> 
+                  <w facs="#cinders-7.png_word_1_202">at</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_203">the</w> 
+                  <w facs="#cinders-7.png_word_1_204">ﬁrst</w> 
+                  <w facs="#cinders-7.png_word_1_205">hall,</w> 
+                  <w facs="#cinders-7.png_word_1_206">and</w> 
+                  <w facs="#cinders-7.png_word_1_207">she</w> 
+                  <w facs="#cinders-7.png_word_1_208">was</w> 
+                  <w facs="#cinders-7.png_word_1_209">so</w> 
+                  <w facs="#cinders-7.png_word_1_210">occupied</w> 
+                  <w facs="#cinders-7.png_word_1_211">with</w> 
+                  <w facs="#cinders-7.png_word_1_212">the</w> 
+                  <w facs="#cinders-7.png_word_1_213">Prince’s</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_214">tender</w> 
+                  <w facs="#cinders-7.png_word_1_215">sayings</w> 
+                  <w facs="#cinders-7.png_word_1_216">that</w> 
+                  <w facs="#cinders-7.png_word_1_217">she</w> 
+                  <w facs="#cinders-7.png_word_1_218">was</w> 
+                  <w facs="#cinders-7.png_word_1_219">not</w> 
+                  <w facs="#cinders-7.png_word_1_220">so</w> 
+                  <w facs="#cinders-7.png_word_1_221">quick</w> 
+                  <w facs="#cinders-7.png_word_1_222">in</w> 
+                  <w facs="#cinders-7.png_word_1_223">marking</w> 
+                  <w facs="#cinders-7.png_word_1_224">the</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_225">progress</w> 
+                  <w facs="#cinders-7.png_word_1_226">of</w> 
+                  <w facs="#cinders-7.png_word_1_227">time</w> 
+     
+               </p>
+
+               <p facs="#cinders-7.png_par_1_7">
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_228">To</w> 
+                  <w facs="#cinders-7.png_word_1_229">her</w> 
+                  <w facs="#cinders-7.png_word_1_230">alarm</w> 
+                  <w facs="#cinders-7.png_word_1_231">she</w> 
+                  <w facs="#cinders-7.png_word_1_232">heard</w> 
+                  <w facs="#cinders-7.png_word_1_233">the</w> 
+                  <w facs="#cinders-7.png_word_1_234">clock</w> 
+                  <w facs="#cinders-7.png_word_1_235">strike</w> 
+                  <w facs="#cinders-7.png_word_1_236">twelve</w> 
+                  <w facs="#cinders-7.png_word_1_237">She</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_238">ﬂed</w> 
+                  <w facs="#cinders-7.png_word_1_239">from</w> 
+                  <w facs="#cinders-7.png_word_1_240">the</w> 
+                  <w facs="#cinders-7.png_word_1_241">ballrl'oom;</w> 
+                  <w facs="#cinders-7.png_word_1_242">hut</w> 
+                  <w facs="#cinders-7.png_word_1_243">in</w> 
+                  <w facs="#cinders-7.png_word_1_244">a</w> 
+                  <w facs="#cinders-7.png_word_1_245">moment</w> 
+                  <w facs="#cinders-7.png_word_1_246">the</w> 
+                  <w facs="#cinders-7.png_word_1_247">coach</w> 
+                  <w facs="#cinders-7.png_word_1_248">changed</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_249">again</w> 
+                  <w facs="#cinders-7.png_word_1_250">to</w> 
+                  <w facs="#cinders-7.png_word_1_251">a</w> 
+                  <w facs="#cinders-7.png_word_1_252">pumpkin.</w> 
+                  <w facs="#cinders-7.png_word_1_253">the</w> 
+                  <w facs="#cinders-7.png_word_1_254">horses</w> 
+                  <w facs="#cinders-7.png_word_1_255">to</w> 
+                  <w facs="#cinders-7.png_word_1_256">mice,</w> 
+                  <w facs="#cinders-7.png_word_1_257">the</w> 
+                  <w facs="#cinders-7.png_word_1_258">eoaehman</w> 
+                  <w facs="#cinders-7.png_word_1_259">and</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_260">postilion</w> 
+                  <w facs="#cinders-7.png_word_1_261">to</w> 
+                  <w facs="#cinders-7.png_word_1_262">rats,</w> 
+                  <w facs="#cinders-7.png_word_1_263">the</w> 
+                  <w facs="#cinders-7.png_word_1_264">feetnuen</w> 
+                  <w facs="#cinders-7.png_word_1_265">to</w> 
+                  <w facs="#cinders-7.png_word_1_266">lizards,</w> 
+                  <w facs="#cinders-7.png_word_1_267">and</w> 
+                  <w facs="#cinders-7.png_word_1_268">Cinderella’s</w> 
+     
+               </p>
+
+               <p facs="#cinders-7.png_par_1_8">
+                  <lb/>
+                  <w facs="#cinders-7.png_word_1_269">3</w> 
+                  <w facs="#cinders-7.png_word_1_270">!</w> 
+     
+               </p>
+            </div>
          </div>
-         <div facs="#cinders-7.png_block_1_2">
-            <p facs="#cinders-7.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-7.png_word_1_3">cmDEImLLA.</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-7.png_block_1_3">
-            <p facs="#cinders-7.png_par_1_3">
-               <lb/>
-               <w facs="#cinders-7.png_word_1_4">'</w> 
-               <w facs="#cinders-7.png_word_1_5">to</w> 
-               <w facs="#cinders-7.png_word_1_6">the</w> 
-               <w facs="#cinders-7.png_word_1_7">supper-table,</w> 
-               <w facs="#cinders-7.png_word_1_8">and</w> 
-               <w facs="#cinders-7.png_word_1_9">was</w> 
-               <w facs="#cinders-7.png_word_1_10">too</w> 
-               <w facs="#cinders-7.png_word_1_11">much</w> 
-               <w facs="#cinders-7.png_word_1_12">occupied</w> 
-               <w facs="#cinders-7.png_word_1_13">in</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_14">waiting</w> 
-               <w facs="#cinders-7.png_word_1_15">upon</w> 
-               <w facs="#cinders-7.png_word_1_16">her</w> 
-               <w facs="#cinders-7.png_word_1_17">to</w> 
-               <w facs="#cinders-7.png_word_1_18">purtake</w> 
-               <w facs="#cinders-7.png_word_1_19">of</w> 
-               <w facs="#cinders-7.png_word_1_20">anythng</w> 
-               <w facs="#cinders-7.png_word_1_21">himself.</w> 
-               <w facs="#cinders-7.png_word_1_22">While</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_23">seated,</w> 
-               <w facs="#cinders-7.png_word_1_24">Cinderella</w> 
-               <w facs="#cinders-7.png_word_1_25">heard</w> 
-               <w facs="#cinders-7.png_word_1_26">the</w> 
-               <w facs="#cinders-7.png_word_1_27">Clock</w> 
-               <w facs="#cinders-7.png_word_1_28">strike</w> 
-               <w facs="#cinders-7.png_word_1_29">three-quarters</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_30">past</w> 
-               <w facs="#cinders-7.png_word_1_31">eleven.</w> 
-               <w facs="#cinders-7.png_word_1_32">She</w> 
-               <w facs="#cinders-7.png_word_1_33">rose</w> 
-               <w facs="#cinders-7.png_word_1_34">to</w> 
-               <w facs="#cinders-7.png_word_1_35">leave,</w> 
-               <w facs="#cinders-7.png_word_1_36">the</w> 
-               <w facs="#cinders-7.png_word_1_37">Prince</w> 
-               <w facs="#cinders-7.png_word_1_38">pressing</w> 
-               <w facs="#cinders-7.png_word_1_39">her</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_40">to</w> 
-               <w facs="#cinders-7.png_word_1_41">accept</w> 
-               <w facs="#cinders-7.png_word_1_42">an</w> 
-               <w facs="#cinders-7.png_word_1_43">invitation</w> 
-               <w facs="#cinders-7.png_word_1_44">for</w> 
-               <w facs="#cinders-7.png_word_1_45">the</w> 
-               <w facs="#cinders-7.png_word_1_46">hall</w> 
-               <w facs="#cinders-7.png_word_1_47">on</w> 
-               <w facs="#cinders-7.png_word_1_48">the</w> 
-               <w facs="#cinders-7.png_word_1_49">following</w> 
-               <w facs="#cinders-7.png_word_1_50">evening.</w> 
-     
-            </p>
-
-            <p facs="#cinders-7.png_par_1_4">
-               <lb/>
-               <w facs="#cinders-7.png_word_1_51">0n</w> 
-               <w facs="#cinders-7.png_word_1_52">reaching</w> 
-               <w facs="#cinders-7.png_word_1_53">home,</w> 
-               <w facs="#cinders-7.png_word_1_54">her</w> 
-               <w facs="#cinders-7.png_word_1_55">godmother</w> 
-               <w facs="#cinders-7.png_word_1_56">praised</w> 
-               <w facs="#cinders-7.png_word_1_57">her</w> 
-               <w facs="#cinders-7.png_word_1_58">for</w> 
-               <w facs="#cinders-7.png_word_1_59">being</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_60">so</w> 
-               <w facs="#cinders-7.png_word_1_61">punctual,</w> 
-               <w facs="#cinders-7.png_word_1_62">and</w> 
-               <w facs="#cinders-7.png_word_1_63">agreed</w> 
-               <w facs="#cinders-7.png_word_1_64">to</w> 
-               <w facs="#cinders-7.png_word_1_65">let</w> 
-               <w facs="#cinders-7.png_word_1_66">her</w> 
-               <w facs="#cinders-7.png_word_1_67">go</w> 
-               <w facs="#cinders-7.png_word_1_68">to</w> 
-               <w facs="#cinders-7.png_word_1_69">the</w> 
-               <w facs="#cinders-7.png_word_1_70">next</w> 
-               <w facs="#cinders-7.png_word_1_71">night's</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_72">hall,</w> 
-     
-            </p>
-
-            <p facs="#cinders-7.png_par_1_5">
-               <lb/>
-               <w facs="#cinders-7.png_word_1_73">Although</w> 
-               <w facs="#cinders-7.png_word_1_74">she</w> 
-               <w facs="#cinders-7.png_word_1_75">seemed</w> 
-               <w facs="#cinders-7.png_word_1_76">to</w> 
-               <w facs="#cinders-7.png_word_1_77">he</w> 
-               <w facs="#cinders-7.png_word_1_78">tired,</w> 
-               <w facs="#cinders-7.png_word_1_79">her</w> 
-               <w facs="#cinders-7.png_word_1_80">sisters,</w> 
-               <w facs="#cinders-7.png_word_1_81">instead</w> 
-               <w facs="#cinders-7.png_word_1_82">of</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_83">showing</w> 
-               <w facs="#cinders-7.png_word_1_84">pity,</w> 
-               <w facs="#cinders-7.png_word_1_85">teased</w> 
-               <w facs="#cinders-7.png_word_1_86">her</w> 
-               <w facs="#cinders-7.png_word_1_87">with</w> 
-               <w facs="#cinders-7.png_word_1_88">glowing</w> 
-               <w facs="#cinders-7.png_word_1_89">accounts</w> 
-               <w facs="#cinders-7.png_word_1_90">of</w> 
-               <w facs="#cinders-7.png_word_1_91">the</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_92">splendid</w> 
-               <w facs="#cinders-7.png_word_1_93">scene</w> 
-               <w facs="#cinders-7.png_word_1_94">they</w> 
-               <w facs="#cinders-7.png_word_1_95">had</w> 
-               <w facs="#cinders-7.png_word_1_96">just</w> 
-               <w facs="#cinders-7.png_word_1_97">left,</w> 
-               <w facs="#cinders-7.png_word_1_98">and</w> 
-               <w facs="#cinders-7.png_word_1_99">spoke</w> 
-               <w facs="#cinders-7.png_word_1_100">particularly</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_101">of</w> 
-               <w facs="#cinders-7.png_word_1_102">the</w> 
-               <w facs="#cinders-7.png_word_1_103">beautiful</w> 
-               <w facs="#cinders-7.png_word_1_104">Princess.</w> 
-               <w facs="#cinders-7.png_word_1_105">Cinderella</w> 
-               <w facs="#cinders-7.png_word_1_106">was</w> 
-               <w facs="#cinders-7.png_word_1_107">delighted</w> 
-               <w facs="#cinders-7.png_word_1_108">to</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_109">hem-</w> 
-               <w facs="#cinders-7.png_word_1_110">all</w> 
-               <w facs="#cinders-7.png_word_1_111">this,</w> 
-               <w facs="#cinders-7.png_word_1_112">and</w> 
-               <w facs="#cinders-7.png_word_1_113">asked</w> 
-               <w facs="#cinders-7.png_word_1_114">them</w> 
-               <w facs="#cinders-7.png_word_1_115">the</w> 
-               <w facs="#cinders-7.png_word_1_116">name</w> 
-               <w facs="#cinders-7.png_word_1_117">of</w> 
-               <w facs="#cinders-7.png_word_1_118">the</w> 
-               <w facs="#cinders-7.png_word_1_119">Princess,</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_120">but</w> 
-               <w facs="#cinders-7.png_word_1_121">they</w> 
-               <w facs="#cinders-7.png_word_1_122">replied,</w> 
-               <w facs="#cinders-7.png_word_1_123">nobody</w> 
-               <w facs="#cinders-7.png_word_1_124">knew</w> 
-               <w facs="#cinders-7.png_word_1_125">her.</w> 
-               <w facs="#cinders-7.png_word_1_126">So</w> 
-               <w facs="#cinders-7.png_word_1_127">much</w> 
-               <w facs="#cinders-7.png_word_1_128">did</w> 
-               <w facs="#cinders-7.png_word_1_129">they</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_130">say</w> 
-               <w facs="#cinders-7.png_word_1_131">in</w> 
-               <w facs="#cinders-7.png_word_1_132">praise</w> 
-               <w facs="#cinders-7.png_word_1_133">of</w> 
-               <w facs="#cinders-7.png_word_1_134">the</w> 
-               <w facs="#cinders-7.png_word_1_135">lady,</w> 
-               <w facs="#cinders-7.png_word_1_136">that</w> 
-               <w facs="#cinders-7.png_word_1_137">Cinderella</w> 
-               <w facs="#cinders-7.png_word_1_138">expressed</w> 
-               <w facs="#cinders-7.png_word_1_139">a</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_140">desire</w> 
-               <w facs="#cinders-7.png_word_1_141">to</w> 
-               <w facs="#cinders-7.png_word_1_142">go</w> 
-               <w facs="#cinders-7.png_word_1_143">to</w> 
-               <w facs="#cinders-7.png_word_1_144">the</w> 
-               <w facs="#cinders-7.png_word_1_145">next</w> 
-               <w facs="#cinders-7.png_word_1_146">hall</w> 
-               <w facs="#cinders-7.png_word_1_147">to</w> 
-               <w facs="#cinders-7.png_word_1_148">see</w> 
-               <w facs="#cinders-7.png_word_1_149">the</w> 
-               <w facs="#cinders-7.png_word_1_150">Princess;</w> 
-               <w facs="#cinders-7.png_word_1_151">but</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_152">this</w> 
-               <w facs="#cinders-7.png_word_1_153">only</w> 
-               <w facs="#cinders-7.png_word_1_154">served</w> 
-               <w facs="#cinders-7.png_word_1_155">to</w> 
-               <w facs="#cinders-7.png_word_1_156">bring</w> 
-               <w facs="#cinders-7.png_word_1_157">out</w> 
-               <w facs="#cinders-7.png_word_1_158">their</w> 
-               <w facs="#cinders-7.png_word_1_159">dislike</w> 
-               <w facs="#cinders-7.png_word_1_160">of</w> 
-               <w facs="#cinders-7.png_word_1_161">poor</w> 
-               <w facs="#cinders-7.png_word_1_162">Cinderella</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_163">still</w> 
-               <w facs="#cinders-7.png_word_1_164">more,</w> 
-               <w facs="#cinders-7.png_word_1_165">and</w> 
-               <w facs="#cinders-7.png_word_1_166">they</w> 
-               <w facs="#cinders-7.png_word_1_167">would</w> 
-               <w facs="#cinders-7.png_word_1_168">not</w> 
-               <w facs="#cinders-7.png_word_1_169">lend</w> 
-               <w facs="#cinders-7.png_word_1_170">her</w> 
-               <w facs="#cinders-7.png_word_1_171">the</w> 
-               <w facs="#cinders-7.png_word_1_172">meanest</w> 
-               <w facs="#cinders-7.png_word_1_173">of</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_174">their</w> 
-               <w facs="#cinders-7.png_word_1_175">dresses.</w> 
-     
-            </p>
-
-            <p facs="#cinders-7.png_par_1_6">
-               <lb/>
-               <w facs="#cinders-7.png_word_1_176">The</w> 
-               <w facs="#cinders-7.png_word_1_177">next</w> 
-               <w facs="#cinders-7.png_word_1_178">evening</w> 
-               <w facs="#cinders-7.png_word_1_179">the</w> 
-               <w facs="#cinders-7.png_word_1_180">two</w> 
-               <w facs="#cinders-7.png_word_1_181">sisters</w> 
-               <w facs="#cinders-7.png_word_1_182">went‘to</w> 
-               <w facs="#cinders-7.png_word_1_183">the</w> 
-               <w facs="#cinders-7.png_word_1_184">hall,</w> 
-               <w facs="#cinders-7.png_word_1_185">and</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_186">Cinderella</w> 
-               <w facs="#cinders-7.png_word_1_187">also,</w> 
-               <w facs="#cinders-7.png_word_1_188">who</w> 
-               <w facs="#cinders-7.png_word_1_189">was</w> 
-               <w facs="#cinders-7.png_word_1_190">still</w> 
-               <w facs="#cinders-7.png_word_1_191">more</w> 
-               <w facs="#cinders-7.png_word_1_192">splendidly</w> 
-               <w facs="#cinders-7.png_word_1_193">dressed</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_194">than</w> 
-               <w facs="#cinders-7.png_word_1_195">before.</w> 
-               <w facs="#cinders-7.png_word_1_196">lier</w> 
-               <w facs="#cinders-7.png_word_1_197">enjoyment</w> 
-               <w facs="#cinders-7.png_word_1_198">was</w> 
-               <w facs="#cinders-7.png_word_1_199">even</w> 
-               <w facs="#cinders-7.png_word_1_200">great/er</w> 
-               <w facs="#cinders-7.png_word_1_201">than</w> 
-               <w facs="#cinders-7.png_word_1_202">at</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_203">the</w> 
-               <w facs="#cinders-7.png_word_1_204">ﬁrst</w> 
-               <w facs="#cinders-7.png_word_1_205">hall,</w> 
-               <w facs="#cinders-7.png_word_1_206">and</w> 
-               <w facs="#cinders-7.png_word_1_207">she</w> 
-               <w facs="#cinders-7.png_word_1_208">was</w> 
-               <w facs="#cinders-7.png_word_1_209">so</w> 
-               <w facs="#cinders-7.png_word_1_210">occupied</w> 
-               <w facs="#cinders-7.png_word_1_211">with</w> 
-               <w facs="#cinders-7.png_word_1_212">the</w> 
-               <w facs="#cinders-7.png_word_1_213">Prince’s</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_214">tender</w> 
-               <w facs="#cinders-7.png_word_1_215">sayings</w> 
-               <w facs="#cinders-7.png_word_1_216">that</w> 
-               <w facs="#cinders-7.png_word_1_217">she</w> 
-               <w facs="#cinders-7.png_word_1_218">was</w> 
-               <w facs="#cinders-7.png_word_1_219">not</w> 
-               <w facs="#cinders-7.png_word_1_220">so</w> 
-               <w facs="#cinders-7.png_word_1_221">quick</w> 
-               <w facs="#cinders-7.png_word_1_222">in</w> 
-               <w facs="#cinders-7.png_word_1_223">marking</w> 
-               <w facs="#cinders-7.png_word_1_224">the</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_225">progress</w> 
-               <w facs="#cinders-7.png_word_1_226">of</w> 
-               <w facs="#cinders-7.png_word_1_227">time</w> 
-     
-            </p>
-
-            <p facs="#cinders-7.png_par_1_7">
-               <lb/>
-               <w facs="#cinders-7.png_word_1_228">To</w> 
-               <w facs="#cinders-7.png_word_1_229">her</w> 
-               <w facs="#cinders-7.png_word_1_230">alarm</w> 
-               <w facs="#cinders-7.png_word_1_231">she</w> 
-               <w facs="#cinders-7.png_word_1_232">heard</w> 
-               <w facs="#cinders-7.png_word_1_233">the</w> 
-               <w facs="#cinders-7.png_word_1_234">clock</w> 
-               <w facs="#cinders-7.png_word_1_235">strike</w> 
-               <w facs="#cinders-7.png_word_1_236">twelve</w> 
-               <w facs="#cinders-7.png_word_1_237">She</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_238">ﬂed</w> 
-               <w facs="#cinders-7.png_word_1_239">from</w> 
-               <w facs="#cinders-7.png_word_1_240">the</w> 
-               <w facs="#cinders-7.png_word_1_241">ballrl'oom;</w> 
-               <w facs="#cinders-7.png_word_1_242">hut</w> 
-               <w facs="#cinders-7.png_word_1_243">in</w> 
-               <w facs="#cinders-7.png_word_1_244">a</w> 
-               <w facs="#cinders-7.png_word_1_245">moment</w> 
-               <w facs="#cinders-7.png_word_1_246">the</w> 
-               <w facs="#cinders-7.png_word_1_247">coach</w> 
-               <w facs="#cinders-7.png_word_1_248">changed</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_249">again</w> 
-               <w facs="#cinders-7.png_word_1_250">to</w> 
-               <w facs="#cinders-7.png_word_1_251">a</w> 
-               <w facs="#cinders-7.png_word_1_252">pumpkin.</w> 
-               <w facs="#cinders-7.png_word_1_253">the</w> 
-               <w facs="#cinders-7.png_word_1_254">horses</w> 
-               <w facs="#cinders-7.png_word_1_255">to</w> 
-               <w facs="#cinders-7.png_word_1_256">mice,</w> 
-               <w facs="#cinders-7.png_word_1_257">the</w> 
-               <w facs="#cinders-7.png_word_1_258">eoaehman</w> 
-               <w facs="#cinders-7.png_word_1_259">and</w> 
-     
-               <lb/>
-               <w facs="#cinders-7.png_word_1_260">postilion</w> 
-               <w facs="#cinders-7.png_word_1_261">to</w> 
-               <w facs="#cinders-7.png_word_1_262">rats,</w> 
-               <w facs="#cinders-7.png_word_1_263">the</w> 
-               <w facs="#cinders-7.png_word_1_264">feetnuen</w> 
-               <w facs="#cinders-7.png_word_1_265">to</w> 
-               <w facs="#cinders-7.png_word_1_266">lizards,</w> 
-               <w facs="#cinders-7.png_word_1_267">and</w> 
-               <w facs="#cinders-7.png_word_1_268">Cinderella’s</w> 
-     
-            </p>
-
-            <p facs="#cinders-7.png_par_1_8">
-               <lb/>
-               <w facs="#cinders-7.png_word_1_269">3</w> 
-               <w facs="#cinders-7.png_word_1_270">!</w> 
-     
-            </p>
-         </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-6.png_block_1_1">
-            <p facs="#cinders-6.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-6.png_word_1_1"> </w> 
+         <div>
+            <div facs="#cinders-6.png_block_1_1">
+               <p facs="#cinders-6.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-6.png_word_1_1"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-6.png_block_1_2">
-            <p facs="#cinders-6.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-6.png_word_1_2"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-6.png_block_1_2">
+               <p facs="#cinders-6.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-6.png_word_1_2"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-6.png_block_1_3">
-            <p facs="#cinders-6.png_par_1_3">
-               <lb/>
-               <w facs="#cinders-6.png_word_1_3"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-6.png_block_1_3">
+               <p facs="#cinders-6.png_par_1_3">
+                  <lb/>
+                  <w facs="#cinders-6.png_word_1_3"> </w> 
      
-            </p>
+               </p>
+            </div>
          </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-2.png_block_1_1">
-            <p facs="#cinders-2.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-2.png_word_1_1">GINDERELLA:</w> 
+         <div>
+            <div facs="#cinders-2.png_block_1_1">
+               <p facs="#cinders-2.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_1">GINDERELLA:</w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-2.png_block_1_2">
-            <p facs="#cinders-2.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-2.png_word_1_2">on,</w> 
+               </p>
+            </div>
+            <div facs="#cinders-2.png_block_1_2">
+               <p facs="#cinders-2.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_2">on,</w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-2.png_block_1_3">
-            <p facs="#cinders-2.png_par_1_3">
-               <lb/>
-               <w facs="#cinders-2.png_word_1_3">THE</w> 
-               <w facs="#cinders-2.png_word_1_4">LITTLE</w> 
-               <w facs="#cinders-2.png_word_1_5">GLASS</w> 
-               <w facs="#cinders-2.png_word_1_6">SUPPER.</w> 
+               </p>
+            </div>
+            <div facs="#cinders-2.png_block_1_3">
+               <p facs="#cinders-2.png_par_1_3">
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_3">THE</w> 
+                  <w facs="#cinders-2.png_word_1_4">LITTLE</w> 
+                  <w facs="#cinders-2.png_word_1_5">GLASS</w> 
+                  <w facs="#cinders-2.png_word_1_6">SUPPER.</w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-2.png_block_1_4">
-            <p facs="#cinders-2.png_par_1_4">
-               <lb/>
-               <w facs="#cinders-2.png_word_1_7">Tum:</w> 
-               <w facs="#cinders-2.png_word_1_8">was,</w> 
-               <w facs="#cinders-2.png_word_1_9">many</w> 
-               <w facs="#cinders-2.png_word_1_10">years</w> 
-               <w facs="#cinders-2.png_word_1_11">ago,</w> 
-               <w facs="#cinders-2.png_word_1_12">‘A,</w> 
-               <w facs="#cinders-2.png_word_1_13">gentleman</w> 
-               <w facs="#cinders-2.png_word_1_14">who</w> 
-               <w facs="#cinders-2.png_word_1_15">had</w> 
-               <w facs="#cinders-2.png_word_1_16">a</w> 
+               </p>
+            </div>
+            <div facs="#cinders-2.png_block_1_4">
+               <p facs="#cinders-2.png_par_1_4">
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_7">Tum:</w> 
+                  <w facs="#cinders-2.png_word_1_8">was,</w> 
+                  <w facs="#cinders-2.png_word_1_9">many</w> 
+                  <w facs="#cinders-2.png_word_1_10">years</w> 
+                  <w facs="#cinders-2.png_word_1_11">ago,</w> 
+                  <w facs="#cinders-2.png_word_1_12">‘A,</w> 
+                  <w facs="#cinders-2.png_word_1_13">gentleman</w> 
+                  <w facs="#cinders-2.png_word_1_14">who</w> 
+                  <w facs="#cinders-2.png_word_1_15">had</w> 
+                  <w facs="#cinders-2.png_word_1_16">a</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_17">charming</w> 
-               <w facs="#cinders-2.png_word_1_18">lady</w> 
-               <w facs="#cinders-2.png_word_1_19">for</w> 
-               <w facs="#cinders-2.png_word_1_20">his</w> 
-               <w facs="#cinders-2.png_word_1_21">wife.</w> 
-               <w facs="#cinders-2.png_word_1_22">They</w> 
-               <w facs="#cinders-2.png_word_1_23">had</w> 
-               <w facs="#cinders-2.png_word_1_24">one</w> 
-               <w facs="#cinders-2.png_word_1_25">daughter</w> 
-               <w facs="#cinders-2.png_word_1_26">only,</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_17">charming</w> 
+                  <w facs="#cinders-2.png_word_1_18">lady</w> 
+                  <w facs="#cinders-2.png_word_1_19">for</w> 
+                  <w facs="#cinders-2.png_word_1_20">his</w> 
+                  <w facs="#cinders-2.png_word_1_21">wife.</w> 
+                  <w facs="#cinders-2.png_word_1_22">They</w> 
+                  <w facs="#cinders-2.png_word_1_23">had</w> 
+                  <w facs="#cinders-2.png_word_1_24">one</w> 
+                  <w facs="#cinders-2.png_word_1_25">daughter</w> 
+                  <w facs="#cinders-2.png_word_1_26">only,</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_27">who</w> 
-               <w facs="#cinders-2.png_word_1_28">was</w> 
-               <w facs="#cinders-2.png_word_1_29">very</w> 
-               <w facs="#cinders-2.png_word_1_30">dutiful</w> 
-               <w facs="#cinders-2.png_word_1_31">to</w> 
-               <w facs="#cinders-2.png_word_1_32">her</w> 
-               <w facs="#cinders-2.png_word_1_33">parents.</w> 
-               <w facs="#cinders-2.png_word_1_34">But</w> 
-               <w facs="#cinders-2.png_word_1_35">while</w> 
-               <w facs="#cinders-2.png_word_1_36">she</w> 
-               <w facs="#cinders-2.png_word_1_37">vns</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_27">who</w> 
+                  <w facs="#cinders-2.png_word_1_28">was</w> 
+                  <w facs="#cinders-2.png_word_1_29">very</w> 
+                  <w facs="#cinders-2.png_word_1_30">dutiful</w> 
+                  <w facs="#cinders-2.png_word_1_31">to</w> 
+                  <w facs="#cinders-2.png_word_1_32">her</w> 
+                  <w facs="#cinders-2.png_word_1_33">parents.</w> 
+                  <w facs="#cinders-2.png_word_1_34">But</w> 
+                  <w facs="#cinders-2.png_word_1_35">while</w> 
+                  <w facs="#cinders-2.png_word_1_36">she</w> 
+                  <w facs="#cinders-2.png_word_1_37">vns</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_38">still</w> 
-               <w facs="#cinders-2.png_word_1_39">very</w> 
-               <w facs="#cinders-2.png_word_1_40">young,</w> 
-               <w facs="#cinders-2.png_word_1_41">her</w> 
-               <w facs="#cinders-2.png_word_1_42">mauuna,</w> 
-               <w facs="#cinders-2.png_word_1_43">died,</w> 
-               <w facs="#cinders-2.png_word_1_44">to</w> 
-               <w facs="#cinders-2.png_word_1_45">the</w> 
-               <w facs="#cinders-2.png_word_1_46">grief</w> 
-               <w facs="#cinders-2.png_word_1_47">of</w> 
-               <w facs="#cinders-2.png_word_1_48">her</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_38">still</w> 
+                  <w facs="#cinders-2.png_word_1_39">very</w> 
+                  <w facs="#cinders-2.png_word_1_40">young,</w> 
+                  <w facs="#cinders-2.png_word_1_41">her</w> 
+                  <w facs="#cinders-2.png_word_1_42">mauuna,</w> 
+                  <w facs="#cinders-2.png_word_1_43">died,</w> 
+                  <w facs="#cinders-2.png_word_1_44">to</w> 
+                  <w facs="#cinders-2.png_word_1_45">the</w> 
+                  <w facs="#cinders-2.png_word_1_46">grief</w> 
+                  <w facs="#cinders-2.png_word_1_47">of</w> 
+                  <w facs="#cinders-2.png_word_1_48">her</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_49">husband</w> 
-               <w facs="#cinders-2.png_word_1_50">and</w> 
-               <w facs="#cinders-2.png_word_1_51">daughter.</w> 
-               <w facs="#cinders-2.png_word_1_52">After</w> 
-               <w facs="#cinders-2.png_word_1_53">a.</w> 
-               <w facs="#cinders-2.png_word_1_54">time,</w> 
-               <w facs="#cinders-2.png_word_1_55">the</w> 
-               <w facs="#cinders-2.png_word_1_56">little</w> 
-               <w facs="#cinders-2.png_word_1_57">girl’s</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_49">husband</w> 
+                  <w facs="#cinders-2.png_word_1_50">and</w> 
+                  <w facs="#cinders-2.png_word_1_51">daughter.</w> 
+                  <w facs="#cinders-2.png_word_1_52">After</w> 
+                  <w facs="#cinders-2.png_word_1_53">a.</w> 
+                  <w facs="#cinders-2.png_word_1_54">time,</w> 
+                  <w facs="#cinders-2.png_word_1_55">the</w> 
+                  <w facs="#cinders-2.png_word_1_56">little</w> 
+                  <w facs="#cinders-2.png_word_1_57">girl’s</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_58">papa</w> 
-               <w facs="#cinders-2.png_word_1_59">married</w> 
-               <w facs="#cinders-2.png_word_1_60">another</w> 
-               <w facs="#cinders-2.png_word_1_61">lady.</w> 
-               <w facs="#cinders-2.png_word_1_62">New</w> 
-               <w facs="#cinders-2.png_word_1_63">this</w> 
-               <w facs="#cinders-2.png_word_1_64">lady</w> 
-               <w facs="#cinders-2.png_word_1_65">Was</w> 
-               <w facs="#cinders-2.png_word_1_66">proud</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_58">papa</w> 
+                  <w facs="#cinders-2.png_word_1_59">married</w> 
+                  <w facs="#cinders-2.png_word_1_60">another</w> 
+                  <w facs="#cinders-2.png_word_1_61">lady.</w> 
+                  <w facs="#cinders-2.png_word_1_62">New</w> 
+                  <w facs="#cinders-2.png_word_1_63">this</w> 
+                  <w facs="#cinders-2.png_word_1_64">lady</w> 
+                  <w facs="#cinders-2.png_word_1_65">Was</w> 
+                  <w facs="#cinders-2.png_word_1_66">proud</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_67">and</w> 
-               <w facs="#cinders-2.png_word_1_68">haughty,</w> 
-               <w facs="#cinders-2.png_word_1_69">and</w> 
-               <w facs="#cinders-2.png_word_1_70">had</w> 
-               <w facs="#cinders-2.png_word_1_71">two</w> 
-               <w facs="#cinders-2.png_word_1_72">grown-up</w> 
-               <w facs="#cinders-2.png_word_1_73">daughters</w> 
-               <w facs="#cinders-2.png_word_1_74">as</w> 
-               <w facs="#cinders-2.png_word_1_75">dise-</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_67">and</w> 
+                  <w facs="#cinders-2.png_word_1_68">haughty,</w> 
+                  <w facs="#cinders-2.png_word_1_69">and</w> 
+                  <w facs="#cinders-2.png_word_1_70">had</w> 
+                  <w facs="#cinders-2.png_word_1_71">two</w> 
+                  <w facs="#cinders-2.png_word_1_72">grown-up</w> 
+                  <w facs="#cinders-2.png_word_1_73">daughters</w> 
+                  <w facs="#cinders-2.png_word_1_74">as</w> 
+                  <w facs="#cinders-2.png_word_1_75">dise-</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_76">gTeeable</w> 
-               <w facs="#cinders-2.png_word_1_77">as</w> 
-               <w facs="#cinders-2.png_word_1_78">herself;</w> 
-               <w facs="#cinders-2.png_word_1_79">so</w> 
-               <w facs="#cinders-2.png_word_1_80">the</w> 
-               <w facs="#cinders-2.png_word_1_81">poor</w> 
-               <w facs="#cinders-2.png_word_1_82">girl</w> 
-               <w facs="#cinders-2.png_word_1_83">found</w> 
-               <w facs="#cinders-2.png_word_1_84">everything</w> 
-               <w facs="#cinders-2.png_word_1_85">at</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_76">gTeeable</w> 
+                  <w facs="#cinders-2.png_word_1_77">as</w> 
+                  <w facs="#cinders-2.png_word_1_78">herself;</w> 
+                  <w facs="#cinders-2.png_word_1_79">so</w> 
+                  <w facs="#cinders-2.png_word_1_80">the</w> 
+                  <w facs="#cinders-2.png_word_1_81">poor</w> 
+                  <w facs="#cinders-2.png_word_1_82">girl</w> 
+                  <w facs="#cinders-2.png_word_1_83">found</w> 
+                  <w facs="#cinders-2.png_word_1_84">everything</w> 
+                  <w facs="#cinders-2.png_word_1_85">at</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_86">home</w> 
-               <w facs="#cinders-2.png_word_1_87">changed</w> 
-               <w facs="#cinders-2.png_word_1_88">for</w> 
-               <w facs="#cinders-2.png_word_1_89">the</w> 
-               <w facs="#cinders-2.png_word_1_90">worse.</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_86">home</w> 
+                  <w facs="#cinders-2.png_word_1_87">changed</w> 
+                  <w facs="#cinders-2.png_word_1_88">for</w> 
+                  <w facs="#cinders-2.png_word_1_89">the</w> 
+                  <w facs="#cinders-2.png_word_1_90">worse.</w> 
      
-            </p>
+               </p>
 
-            <p facs="#cinders-2.png_par_1_5">
-               <lb/>
-               <w facs="#cinders-2.png_word_1_91">But</w> 
-               <w facs="#cinders-2.png_word_1_92">she</w> 
-               <w facs="#cinders-2.png_word_1_93">here</w> 
-               <w facs="#cinders-2.png_word_1_94">all</w> 
-               <w facs="#cinders-2.png_word_1_95">her</w> 
-               <w facs="#cinders-2.png_word_1_96">troubles</w> 
-               <w facs="#cinders-2.png_word_1_97">with</w> 
-               <w facs="#cinders-2.png_word_1_98">patience,</w> 
-               <w facs="#cinders-2.png_word_1_99">not</w> 
-               <w facs="#cinders-2.png_word_1_100">even</w> 
+               <p facs="#cinders-2.png_par_1_5">
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_91">But</w> 
+                  <w facs="#cinders-2.png_word_1_92">she</w> 
+                  <w facs="#cinders-2.png_word_1_93">here</w> 
+                  <w facs="#cinders-2.png_word_1_94">all</w> 
+                  <w facs="#cinders-2.png_word_1_95">her</w> 
+                  <w facs="#cinders-2.png_word_1_96">troubles</w> 
+                  <w facs="#cinders-2.png_word_1_97">with</w> 
+                  <w facs="#cinders-2.png_word_1_98">patience,</w> 
+                  <w facs="#cinders-2.png_word_1_99">not</w> 
+                  <w facs="#cinders-2.png_word_1_100">even</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_101">Complaining</w> 
-               <w facs="#cinders-2.png_word_1_102">to</w> 
-               <w facs="#cinders-2.png_word_1_103">her</w> 
-               <w facs="#cinders-2.png_word_1_104">father,</w> 
-               <w facs="#cinders-2.png_word_1_105">and,</w> 
-               <w facs="#cinders-2.png_word_1_106">in</w> 
-               <w facs="#cinders-2.png_word_1_107">spite</w> 
-               <w facs="#cinders-2.png_word_1_108">of</w> 
-               <w facs="#cinders-2.png_word_1_109">her</w> 
-               <w facs="#cinders-2.png_word_1_110">hard</w> 
-               <w facs="#cinders-2.png_word_1_111">toil,</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_101">Complaining</w> 
+                  <w facs="#cinders-2.png_word_1_102">to</w> 
+                  <w facs="#cinders-2.png_word_1_103">her</w> 
+                  <w facs="#cinders-2.png_word_1_104">father,</w> 
+                  <w facs="#cinders-2.png_word_1_105">and,</w> 
+                  <w facs="#cinders-2.png_word_1_106">in</w> 
+                  <w facs="#cinders-2.png_word_1_107">spite</w> 
+                  <w facs="#cinders-2.png_word_1_108">of</w> 
+                  <w facs="#cinders-2.png_word_1_109">her</w> 
+                  <w facs="#cinders-2.png_word_1_110">hard</w> 
+                  <w facs="#cinders-2.png_word_1_111">toil,</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_112">she</w> 
-               <w facs="#cinders-2.png_word_1_113">grew</w> 
-               <w facs="#cinders-2.png_word_1_114">more</w> 
-               <w facs="#cinders-2.png_word_1_115">lovely</w> 
-               <w facs="#cinders-2.png_word_1_116">in</w> 
-               <w facs="#cinders-2.png_word_1_117">face</w> 
-               <w facs="#cinders-2.png_word_1_118">and</w> 
-               <w facs="#cinders-2.png_word_1_119">ﬁgure</w> 
-               <w facs="#cinders-2.png_word_1_120">every</w> 
-               <w facs="#cinders-2.png_word_1_121">year,</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_112">she</w> 
+                  <w facs="#cinders-2.png_word_1_113">grew</w> 
+                  <w facs="#cinders-2.png_word_1_114">more</w> 
+                  <w facs="#cinders-2.png_word_1_115">lovely</w> 
+                  <w facs="#cinders-2.png_word_1_116">in</w> 
+                  <w facs="#cinders-2.png_word_1_117">face</w> 
+                  <w facs="#cinders-2.png_word_1_118">and</w> 
+                  <w facs="#cinders-2.png_word_1_119">ﬁgure</w> 
+                  <w facs="#cinders-2.png_word_1_120">every</w> 
+                  <w facs="#cinders-2.png_word_1_121">year,</w> 
      
-            </p>
+               </p>
 
-            <p facs="#cinders-2.png_par_1_6">
-               <lb/>
-               <w facs="#cinders-2.png_word_1_122">Now</w> 
-               <w facs="#cinders-2.png_word_1_123">the</w> 
-               <w facs="#cinders-2.png_word_1_124">King’s</w> 
-               <w facs="#cinders-2.png_word_1_125">son</w> 
-               <w facs="#cinders-2.png_word_1_126">gave</w> 
-               <w facs="#cinders-2.png_word_1_127">a</w> 
-               <w facs="#cinders-2.png_word_1_128">grand</w> 
-               <w facs="#cinders-2.png_word_1_129">ban,</w> 
-               <w facs="#cinders-2.png_word_1_130">and</w> 
-               <w facs="#cinders-2.png_word_1_131">all</w> 
-               <w facs="#cinders-2.png_word_1_132">persons</w> 
+               <p facs="#cinders-2.png_par_1_6">
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_122">Now</w> 
+                  <w facs="#cinders-2.png_word_1_123">the</w> 
+                  <w facs="#cinders-2.png_word_1_124">King’s</w> 
+                  <w facs="#cinders-2.png_word_1_125">son</w> 
+                  <w facs="#cinders-2.png_word_1_126">gave</w> 
+                  <w facs="#cinders-2.png_word_1_127">a</w> 
+                  <w facs="#cinders-2.png_word_1_128">grand</w> 
+                  <w facs="#cinders-2.png_word_1_129">ban,</w> 
+                  <w facs="#cinders-2.png_word_1_130">and</w> 
+                  <w facs="#cinders-2.png_word_1_131">all</w> 
+                  <w facs="#cinders-2.png_word_1_132">persons</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_133">of</w> 
-               <w facs="#cinders-2.png_word_1_134">quality</w> 
-               <w facs="#cinders-2.png_word_1_135">were</w> 
-               <w facs="#cinders-2.png_word_1_136">invited</w> 
-               <w facs="#cinders-2.png_word_1_137">to</w> 
-               <w facs="#cinders-2.png_word_1_138">it.</w> 
-               <w facs="#cinders-2.png_word_1_139">Our</w> 
-               <w facs="#cinders-2.png_word_1_140">two</w> 
-               <w facs="#cinders-2.png_word_1_141">young</w> 
-               <w facs="#cinders-2.png_word_1_142">ladies</w> 
-               <w facs="#cinders-2.png_word_1_143">were</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_133">of</w> 
+                  <w facs="#cinders-2.png_word_1_134">quality</w> 
+                  <w facs="#cinders-2.png_word_1_135">were</w> 
+                  <w facs="#cinders-2.png_word_1_136">invited</w> 
+                  <w facs="#cinders-2.png_word_1_137">to</w> 
+                  <w facs="#cinders-2.png_word_1_138">it.</w> 
+                  <w facs="#cinders-2.png_word_1_139">Our</w> 
+                  <w facs="#cinders-2.png_word_1_140">two</w> 
+                  <w facs="#cinders-2.png_word_1_141">young</w> 
+                  <w facs="#cinders-2.png_word_1_142">ladies</w> 
+                  <w facs="#cinders-2.png_word_1_143">were</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_144">not</w> 
-               <w facs="#cinders-2.png_word_1_145">overlooked.</w> 
-               <w facs="#cinders-2.png_word_1_146">Nothiler</w> 
-               <w facs="#cinders-2.png_word_1_147">was</w> 
-               <w facs="#cinders-2.png_word_1_148">now</w> 
-               <w facs="#cinders-2.png_word_1_149">talked</w> 
-               <w facs="#cinders-2.png_word_1_150">of</w> 
-               <w facs="#cinders-2.png_word_1_151">but</w> 
-               <w facs="#cinders-2.png_word_1_152">the</w> 
-               <w facs="#cinders-2.png_word_1_153">rich</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_144">not</w> 
+                  <w facs="#cinders-2.png_word_1_145">overlooked.</w> 
+                  <w facs="#cinders-2.png_word_1_146">Nothiler</w> 
+                  <w facs="#cinders-2.png_word_1_147">was</w> 
+                  <w facs="#cinders-2.png_word_1_148">now</w> 
+                  <w facs="#cinders-2.png_word_1_149">talked</w> 
+                  <w facs="#cinders-2.png_word_1_150">of</w> 
+                  <w facs="#cinders-2.png_word_1_151">but</w> 
+                  <w facs="#cinders-2.png_word_1_152">the</w> 
+                  <w facs="#cinders-2.png_word_1_153">rich</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_154">dresses</w> 
-               <w facs="#cinders-2.png_word_1_155">’lhey</w> 
-               <w facs="#cinders-2.png_word_1_156">were</w> 
-               <w facs="#cinders-2.png_word_1_157">to</w> 
-               <w facs="#cinders-2.png_word_1_158">wear.</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_154">dresses</w> 
+                  <w facs="#cinders-2.png_word_1_155">’lhey</w> 
+                  <w facs="#cinders-2.png_word_1_156">were</w> 
+                  <w facs="#cinders-2.png_word_1_157">to</w> 
+                  <w facs="#cinders-2.png_word_1_158">wear.</w> 
      
-            </p>
+               </p>
 
-            <p facs="#cinders-2.png_par_1_7">
-               <lb/>
-               <w facs="#cinders-2.png_word_1_159">At</w> 
-               <w facs="#cinders-2.png_word_1_160">last</w> 
-               <w facs="#cinders-2.png_word_1_161">the</w> 
-               <w facs="#cinders-2.png_word_1_162">happy</w> 
-               <w facs="#cinders-2.png_word_1_163">day</w> 
-               <w facs="#cinders-2.png_word_1_164">arrived.</w> 
-               <w facs="#cinders-2.png_word_1_165">The</w> 
-               <w facs="#cinders-2.png_word_1_166">two</w> 
-               <w facs="#cinders-2.png_word_1_167">proud</w> 
-               <w facs="#cinders-2.png_word_1_168">slstm‘s</w> 
+               <p facs="#cinders-2.png_par_1_7">
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_159">At</w> 
+                  <w facs="#cinders-2.png_word_1_160">last</w> 
+                  <w facs="#cinders-2.png_word_1_161">the</w> 
+                  <w facs="#cinders-2.png_word_1_162">happy</w> 
+                  <w facs="#cinders-2.png_word_1_163">day</w> 
+                  <w facs="#cinders-2.png_word_1_164">arrived.</w> 
+                  <w facs="#cinders-2.png_word_1_165">The</w> 
+                  <w facs="#cinders-2.png_word_1_166">two</w> 
+                  <w facs="#cinders-2.png_word_1_167">proud</w> 
+                  <w facs="#cinders-2.png_word_1_168">slstm‘s</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_169">set</w> 
-               <w facs="#cinders-2.png_word_1_170">off</w> 
-               <w facs="#cinders-2.png_word_1_171">in</w> 
-               <w facs="#cinders-2.png_word_1_172">high</w> 
-               <w facs="#cinders-2.png_word_1_173">spirits.</w> 
-               <w facs="#cinders-2.png_word_1_174">Cinderella</w> 
-               <w facs="#cinders-2.png_word_1_175">followed</w> 
-               <w facs="#cinders-2.png_word_1_176">them</w> 
-               <w facs="#cinders-2.png_word_1_177">with</w> 
-               <w facs="#cinders-2.png_word_1_178">her</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_169">set</w> 
+                  <w facs="#cinders-2.png_word_1_170">off</w> 
+                  <w facs="#cinders-2.png_word_1_171">in</w> 
+                  <w facs="#cinders-2.png_word_1_172">high</w> 
+                  <w facs="#cinders-2.png_word_1_173">spirits.</w> 
+                  <w facs="#cinders-2.png_word_1_174">Cinderella</w> 
+                  <w facs="#cinders-2.png_word_1_175">followed</w> 
+                  <w facs="#cinders-2.png_word_1_176">them</w> 
+                  <w facs="#cinders-2.png_word_1_177">with</w> 
+                  <w facs="#cinders-2.png_word_1_178">her</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_179">eyes</w> 
-               <w facs="#cinders-2.png_word_1_180">until</w> 
-               <w facs="#cinders-2.png_word_1_181">the</w> 
-               <w facs="#cinders-2.png_word_1_182">coach</w> 
-               <w facs="#cinders-2.png_word_1_183">was</w> 
-               <w facs="#cinders-2.png_word_1_184">out</w> 
-               <w facs="#cinders-2.png_word_1_185">of</w> 
-               <w facs="#cinders-2.png_word_1_186">sight.</w> 
-               <w facs="#cinders-2.png_word_1_187">She</w> 
-               <w facs="#cinders-2.png_word_1_188">theu'heguu</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_179">eyes</w> 
+                  <w facs="#cinders-2.png_word_1_180">until</w> 
+                  <w facs="#cinders-2.png_word_1_181">the</w> 
+                  <w facs="#cinders-2.png_word_1_182">coach</w> 
+                  <w facs="#cinders-2.png_word_1_183">was</w> 
+                  <w facs="#cinders-2.png_word_1_184">out</w> 
+                  <w facs="#cinders-2.png_word_1_185">of</w> 
+                  <w facs="#cinders-2.png_word_1_186">sight.</w> 
+                  <w facs="#cinders-2.png_word_1_187">She</w> 
+                  <w facs="#cinders-2.png_word_1_188">theu'heguu</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_189">to</w> 
-               <w facs="#cinders-2.png_word_1_190">cry</w> 
-               <w facs="#cinders-2.png_word_1_191">bitterly</w> 
-               <w facs="#cinders-2.png_word_1_192">w</w> 
-               <w facs="#cinders-2.png_word_1_193">sobbing,</w> 
-               <w facs="#cinders-2.png_word_1_194">her</w> 
-               <w facs="#cinders-2.png_word_1_195">godmother,</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_189">to</w> 
+                  <w facs="#cinders-2.png_word_1_190">cry</w> 
+                  <w facs="#cinders-2.png_word_1_191">bitterly</w> 
+                  <w facs="#cinders-2.png_word_1_192">w</w> 
+                  <w facs="#cinders-2.png_word_1_193">sobbing,</w> 
+                  <w facs="#cinders-2.png_word_1_194">her</w> 
+                  <w facs="#cinders-2.png_word_1_195">godmother,</w> 
      
-               <lb/>
-               <w facs="#cinders-2.png_word_1_196">who</w> 
-               <w facs="#cinders-2.png_word_1_197">was</w> 
-               <w facs="#cinders-2.png_word_1_198">a</w> 
-               <w facs="#cinders-2.png_word_1_199">Fairy,</w> 
-               <w facs="#cinders-2.png_word_1_200">appeared</w> 
-               <w facs="#cinders-2.png_word_1_201">before</w> 
-               <w facs="#cinders-2.png_word_1_202">her.</w> 
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_196">who</w> 
+                  <w facs="#cinders-2.png_word_1_197">was</w> 
+                  <w facs="#cinders-2.png_word_1_198">a</w> 
+                  <w facs="#cinders-2.png_word_1_199">Fairy,</w> 
+                  <w facs="#cinders-2.png_word_1_200">appeared</w> 
+                  <w facs="#cinders-2.png_word_1_201">before</w> 
+                  <w facs="#cinders-2.png_word_1_202">her.</w> 
      
-            </p>
+               </p>
+            </div>
+            <div facs="#cinders-2.png_block_1_5">
+               <p facs="#cinders-2.png_par_1_8">
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_203"> </w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-2.png_block_1_6">
+               <p facs="#cinders-2.png_par_1_9">
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_204">F</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_205">o"</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_206">F."</w> 
+     
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_207">E</w> 
+     
+               </p>
+            </div>
+            <div facs="#cinders-2.png_block_1_7">
+               <p facs="#cinders-2.png_par_1_10">
+                  <lb/>
+                  <w facs="#cinders-2.png_word_1_208"> </w> 
+     
+               </p>
+            </div>
          </div>
-         <div facs="#cinders-2.png_block_1_5">
-            <p facs="#cinders-2.png_par_1_8">
-               <lb/>
-               <w facs="#cinders-2.png_word_1_203"> </w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-2.png_block_1_6">
-            <p facs="#cinders-2.png_par_1_9">
-               <lb/>
-               <w facs="#cinders-2.png_word_1_204">F</w> 
-     
-               <lb/>
-               <w facs="#cinders-2.png_word_1_205">o"</w> 
-     
-               <lb/>
-               <w facs="#cinders-2.png_word_1_206">F."</w> 
-     
-               <lb/>
-               <w facs="#cinders-2.png_word_1_207">E</w> 
-     
-            </p>
-         </div>
-         <div facs="#cinders-2.png_block_1_7">
-            <p facs="#cinders-2.png_par_1_10">
-               <lb/>
-               <w facs="#cinders-2.png_word_1_208"> </w> 
-     
-            </p>
-         </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-5.png_block_1_1">
-            <p facs="#cinders-5.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-5.png_word_1_1"> </w> 
+         <div>
+            <div facs="#cinders-5.png_block_1_1">
+               <p facs="#cinders-5.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-5.png_word_1_1"> </w> 
      
-            </p>
+               </p>
+            </div>
          </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-8.png_block_1_1">
-            <p facs="#cinders-8.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-8.png_word_1_1"> </w> 
+         <div>
+            <div facs="#cinders-8.png_block_1_1">
+               <p facs="#cinders-8.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-8.png_word_1_1"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-8.png_block_1_2">
-            <p facs="#cinders-8.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-8.png_word_1_2"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-8.png_block_1_2">
+               <p facs="#cinders-8.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-8.png_word_1_2"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-8.png_block_1_3">
-            <p facs="#cinders-8.png_par_1_3">
-               <lb/>
-               <w facs="#cinders-8.png_word_1_3"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-8.png_block_1_3">
+               <p facs="#cinders-8.png_par_1_3">
+                  <lb/>
+                  <w facs="#cinders-8.png_word_1_3"> </w> 
      
-            </p>
+               </p>
+            </div>
          </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-10.png_block_1_1">
-            <p facs="#cinders-10.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-10.png_word_1_1"> </w> 
+         <div>
+            <div facs="#cinders-10.png_block_1_1">
+               <p facs="#cinders-10.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-10.png_word_1_1"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-10.png_block_1_2">
-            <p facs="#cinders-10.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-10.png_word_1_2"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-10.png_block_1_2">
+               <p facs="#cinders-10.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-10.png_word_1_2"> </w> 
      
-            </p>
+               </p>
+            </div>
          </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-3.png_block_1_1">
-            <p facs="#cinders-3.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-3.png_word_1_1"> </w> 
+         <div>
+            <div facs="#cinders-3.png_block_1_1">
+               <p facs="#cinders-3.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-3.png_word_1_1"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-3.png_block_1_2">
-            <p facs="#cinders-3.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-3.png_word_1_2"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-3.png_block_1_2">
+               <p facs="#cinders-3.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-3.png_word_1_2"> </w> 
      
-            </p>
+               </p>
+            </div>
          </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-1.png_block_1_1">
-            <p facs="#cinders-1.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-1.png_word_1_1"> </w> 
+         <div>
+            <div facs="#cinders-1.png_block_1_1">
+               <p facs="#cinders-1.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-1.png_word_1_1"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-1.png_block_1_2">
-            <p facs="#cinders-1.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-1.png_word_1_2"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-1.png_block_1_2">
+               <p facs="#cinders-1.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-1.png_word_1_2"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-1.png_block_1_3">
-            <p facs="#cinders-1.png_par_1_3">
-               <lb/>
-               <w facs="#cinders-1.png_word_1_3"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-1.png_block_1_3">
+               <p facs="#cinders-1.png_par_1_3">
+                  <lb/>
+                  <w facs="#cinders-1.png_word_1_3"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-1.png_block_1_4">
-            <p facs="#cinders-1.png_par_1_4">
-               <lb/>
-               <w facs="#cinders-1.png_word_1_4"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-1.png_block_1_4">
+               <p facs="#cinders-1.png_par_1_4">
+                  <lb/>
+                  <w facs="#cinders-1.png_word_1_4"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-1.png_block_1_5">
-            <p facs="#cinders-1.png_par_1_5">
-               <lb/>
-               <w facs="#cinders-1.png_word_1_5"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-1.png_block_1_5">
+               <p facs="#cinders-1.png_par_1_5">
+                  <lb/>
+                  <w facs="#cinders-1.png_word_1_5"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-1.png_block_1_6">
-            <p facs="#cinders-1.png_par_1_6">
-               <lb/>
-               <w facs="#cinders-1.png_word_1_6"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-1.png_block_1_6">
+               <p facs="#cinders-1.png_par_1_6">
+                  <lb/>
+                  <w facs="#cinders-1.png_word_1_6"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-1.png_block_1_7">
-            <p facs="#cinders-1.png_par_1_7">
-               <lb/>
-               <w facs="#cinders-1.png_word_1_7"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-1.png_block_1_7">
+               <p facs="#cinders-1.png_par_1_7">
+                  <lb/>
+                  <w facs="#cinders-1.png_word_1_7"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-1.png_block_1_8">
-            <p facs="#cinders-1.png_par_1_8">
-               <lb/>
-               <w facs="#cinders-1.png_word_1_8"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-1.png_block_1_8">
+               <p facs="#cinders-1.png_par_1_8">
+                  <lb/>
+                  <w facs="#cinders-1.png_word_1_8"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-1.png_block_1_9">
-            <p facs="#cinders-1.png_par_1_9">
-               <lb/>
-               <w facs="#cinders-1.png_word_1_9"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-1.png_block_1_9">
+               <p facs="#cinders-1.png_par_1_9">
+                  <lb/>
+                  <w facs="#cinders-1.png_word_1_9"> </w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-1.png_block_1_10">
-            <p facs="#cinders-1.png_par_1_10">
-               <lb/>
-               <w facs="#cinders-1.png_word_1_10"> </w> 
+               </p>
+            </div>
+            <div facs="#cinders-1.png_block_1_10">
+               <p facs="#cinders-1.png_par_1_10">
+                  <lb/>
+                  <w facs="#cinders-1.png_word_1_10"> </w> 
      
-            </p>
+               </p>
+            </div>
          </div>
-      </div>
  
-      <div>
-         <div facs="#cinders-9.png_block_1_1">
-            <p facs="#cinders-9.png_par_1_1">
-               <lb/>
-               <w facs="#cinders-9.png_word_1_1">CINDERFLLA.</w> 
+         <div>
+            <div facs="#cinders-9.png_block_1_1">
+               <p facs="#cinders-9.png_par_1_1">
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_1">CINDERFLLA.</w> 
      
-            </p>
-         </div>
-         <div facs="#cinders-9.png_block_1_2">
-            <p facs="#cinders-9.png_par_1_2">
-               <lb/>
-               <w facs="#cinders-9.png_word_1_2">beautiful</w> 
-               <w facs="#cinders-9.png_word_1_3">dress</w> 
-               <w facs="#cinders-9.png_word_1_4">to</w> 
-               <w facs="#cinders-9.png_word_1_5">her</w> 
-               <w facs="#cinders-9.png_word_1_6">old</w> 
-               <w facs="#cinders-9.png_word_1_7">shabby</w> 
-               <w facs="#cinders-9.png_word_1_8">clothes.</w> 
-               <w facs="#cinders-9.png_word_1_9">In</w> 
-               <w facs="#cinders-9.png_word_1_10">her</w> 
-               <w facs="#cinders-9.png_word_1_11">haste</w> 
-               <w facs="#cinders-9.png_word_1_12">she</w> 
+               </p>
+            </div>
+            <div facs="#cinders-9.png_block_1_2">
+               <p facs="#cinders-9.png_par_1_2">
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_2">beautiful</w> 
+                  <w facs="#cinders-9.png_word_1_3">dress</w> 
+                  <w facs="#cinders-9.png_word_1_4">to</w> 
+                  <w facs="#cinders-9.png_word_1_5">her</w> 
+                  <w facs="#cinders-9.png_word_1_6">old</w> 
+                  <w facs="#cinders-9.png_word_1_7">shabby</w> 
+                  <w facs="#cinders-9.png_word_1_8">clothes.</w> 
+                  <w facs="#cinders-9.png_word_1_9">In</w> 
+                  <w facs="#cinders-9.png_word_1_10">her</w> 
+                  <w facs="#cinders-9.png_word_1_11">haste</w> 
+                  <w facs="#cinders-9.png_word_1_12">she</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_13">dropped</w> 
-               <w facs="#cinders-9.png_word_1_14">one</w> 
-               <w facs="#cinders-9.png_word_1_15">of</w> 
-               <w facs="#cinders-9.png_word_1_16">her</w> 
-               <w facs="#cinders-9.png_word_1_17">glus</w> 
-               <w facs="#cinders-9.png_word_1_18">slippers,</w> 
-               <w facs="#cinders-9.png_word_1_19">and</w> 
-               <w facs="#cinders-9.png_word_1_20">reached</w> 
-               <w facs="#cinders-9.png_word_1_21">home,</w> 
-               <w facs="#cinders-9.png_word_1_22">out</w> 
-               <w facs="#cinders-9.png_word_1_23">of</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_13">dropped</w> 
+                  <w facs="#cinders-9.png_word_1_14">one</w> 
+                  <w facs="#cinders-9.png_word_1_15">of</w> 
+                  <w facs="#cinders-9.png_word_1_16">her</w> 
+                  <w facs="#cinders-9.png_word_1_17">glus</w> 
+                  <w facs="#cinders-9.png_word_1_18">slippers,</w> 
+                  <w facs="#cinders-9.png_word_1_19">and</w> 
+                  <w facs="#cinders-9.png_word_1_20">reached</w> 
+                  <w facs="#cinders-9.png_word_1_21">home,</w> 
+                  <w facs="#cinders-9.png_word_1_22">out</w> 
+                  <w facs="#cinders-9.png_word_1_23">of</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_24">breath,</w> 
-               <w facs="#cinders-9.png_word_1_25">with</w> 
-               <w facs="#cinders-9.png_word_1_26">none</w> 
-               <w facs="#cinders-9.png_word_1_27">of</w> 
-               <w facs="#cinders-9.png_word_1_28">her</w> 
-               <w facs="#cinders-9.png_word_1_29">godmothcr‘s</w> 
-               <w facs="#cinders-9.png_word_1_30">fairy</w> 
-               <w facs="#cinders-9.png_word_1_31">gifts</w> 
-               <w facs="#cinders-9.png_word_1_32">but</w> 
-               <w facs="#cinders-9.png_word_1_33">one</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_24">breath,</w> 
+                  <w facs="#cinders-9.png_word_1_25">with</w> 
+                  <w facs="#cinders-9.png_word_1_26">none</w> 
+                  <w facs="#cinders-9.png_word_1_27">of</w> 
+                  <w facs="#cinders-9.png_word_1_28">her</w> 
+                  <w facs="#cinders-9.png_word_1_29">godmothcr‘s</w> 
+                  <w facs="#cinders-9.png_word_1_30">fairy</w> 
+                  <w facs="#cinders-9.png_word_1_31">gifts</w> 
+                  <w facs="#cinders-9.png_word_1_32">but</w> 
+                  <w facs="#cinders-9.png_word_1_33">one</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_34">glass</w> 
-               <w facs="#cinders-9.png_word_1_35">supper.</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_34">glass</w> 
+                  <w facs="#cinders-9.png_word_1_35">supper.</w> 
      
-            </p>
+               </p>
 
-            <p facs="#cinders-9.png_par_1_3">
-               <lb/>
-               <w facs="#cinders-9.png_word_1_36">'</w> 
-               <w facs="#cinders-9.png_word_1_37">When</w> 
-               <w facs="#cinders-9.png_word_1_38">her</w> 
-               <w facs="#cinders-9.png_word_1_39">sisters</w> 
-               <w facs="#cinders-9.png_word_1_40">arrived</w> 
-               <w facs="#cinders-9.png_word_1_41">after</w> 
-               <w facs="#cinders-9.png_word_1_42">the</w> 
-               <w facs="#cinders-9.png_word_1_43">hall,</w> 
-               <w facs="#cinders-9.png_word_1_44">they</w> 
-               <w facs="#cinders-9.png_word_1_45">spoke</w> 
-               <w facs="#cinders-9.png_word_1_46">in</w> 
+               <p facs="#cinders-9.png_par_1_3">
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_36">'</w> 
+                  <w facs="#cinders-9.png_word_1_37">When</w> 
+                  <w facs="#cinders-9.png_word_1_38">her</w> 
+                  <w facs="#cinders-9.png_word_1_39">sisters</w> 
+                  <w facs="#cinders-9.png_word_1_40">arrived</w> 
+                  <w facs="#cinders-9.png_word_1_41">after</w> 
+                  <w facs="#cinders-9.png_word_1_42">the</w> 
+                  <w facs="#cinders-9.png_word_1_43">hall,</w> 
+                  <w facs="#cinders-9.png_word_1_44">they</w> 
+                  <w facs="#cinders-9.png_word_1_45">spoke</w> 
+                  <w facs="#cinders-9.png_word_1_46">in</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_47">terms</w> 
-               <w facs="#cinders-9.png_word_1_48">of</w> 
-               <w facs="#cinders-9.png_word_1_49">rapture</w> 
-               <w facs="#cinders-9.png_word_1_50">of</w> 
-               <w facs="#cinders-9.png_word_1_51">the</w> 
-               <w facs="#cinders-9.png_word_1_52">unknown</w> 
-               <w facs="#cinders-9.png_word_1_53">Princess,</w> 
-               <w facs="#cinders-9.png_word_1_54">and</w> 
-               <w facs="#cinders-9.png_word_1_55">told</w> 
-               <w facs="#cinders-9.png_word_1_56">Cin-</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_47">terms</w> 
+                  <w facs="#cinders-9.png_word_1_48">of</w> 
+                  <w facs="#cinders-9.png_word_1_49">rapture</w> 
+                  <w facs="#cinders-9.png_word_1_50">of</w> 
+                  <w facs="#cinders-9.png_word_1_51">the</w> 
+                  <w facs="#cinders-9.png_word_1_52">unknown</w> 
+                  <w facs="#cinders-9.png_word_1_53">Princess,</w> 
+                  <w facs="#cinders-9.png_word_1_54">and</w> 
+                  <w facs="#cinders-9.png_word_1_55">told</w> 
+                  <w facs="#cinders-9.png_word_1_56">Cin-</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_57">derella</w> 
-               <w facs="#cinders-9.png_word_1_58">about</w> 
-               <w facs="#cinders-9.png_word_1_59">the</w> 
-               <w facs="#cinders-9.png_word_1_60">little</w> 
-               <w facs="#cinders-9.png_word_1_61">glass</w> 
-               <w facs="#cinders-9.png_word_1_62">slipper</w> 
-               <w facs="#cinders-9.png_word_1_63">she</w> 
-               <w facs="#cinders-9.png_word_1_64">had</w> 
-               <w facs="#cinders-9.png_word_1_65">dropped,</w> 
-               <w facs="#cinders-9.png_word_1_66">and</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_57">derella</w> 
+                  <w facs="#cinders-9.png_word_1_58">about</w> 
+                  <w facs="#cinders-9.png_word_1_59">the</w> 
+                  <w facs="#cinders-9.png_word_1_60">little</w> 
+                  <w facs="#cinders-9.png_word_1_61">glass</w> 
+                  <w facs="#cinders-9.png_word_1_62">slipper</w> 
+                  <w facs="#cinders-9.png_word_1_63">she</w> 
+                  <w facs="#cinders-9.png_word_1_64">had</w> 
+                  <w facs="#cinders-9.png_word_1_65">dropped,</w> 
+                  <w facs="#cinders-9.png_word_1_66">and</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_67">how</w> 
-               <w facs="#cinders-9.png_word_1_68">the</w> 
-               <w facs="#cinders-9.png_word_1_69">Prince</w> 
-               <w facs="#cinders-9.png_word_1_70">picked</w> 
-               <w facs="#cinders-9.png_word_1_71">it</w> 
-               <w facs="#cinders-9.png_word_1_72">up.</w> 
-               <w facs="#cinders-9.png_word_1_73">It</w> 
-               <w facs="#cinders-9.png_word_1_74">was</w> 
-               <w facs="#cinders-9.png_word_1_75">evident</w> 
-               <w facs="#cinders-9.png_word_1_76">to</w> 
-               <w facs="#cinders-9.png_word_1_77">all</w> 
-               <w facs="#cinders-9.png_word_1_78">the</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_67">how</w> 
+                  <w facs="#cinders-9.png_word_1_68">the</w> 
+                  <w facs="#cinders-9.png_word_1_69">Prince</w> 
+                  <w facs="#cinders-9.png_word_1_70">picked</w> 
+                  <w facs="#cinders-9.png_word_1_71">it</w> 
+                  <w facs="#cinders-9.png_word_1_72">up.</w> 
+                  <w facs="#cinders-9.png_word_1_73">It</w> 
+                  <w facs="#cinders-9.png_word_1_74">was</w> 
+                  <w facs="#cinders-9.png_word_1_75">evident</w> 
+                  <w facs="#cinders-9.png_word_1_76">to</w> 
+                  <w facs="#cinders-9.png_word_1_77">all</w> 
+                  <w facs="#cinders-9.png_word_1_78">the</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_79">Court</w> 
-               <w facs="#cinders-9.png_word_1_80">that</w> 
-               <w facs="#cinders-9.png_word_1_81">the</w> 
-               <w facs="#cinders-9.png_word_1_82">Prince</w> 
-               <w facs="#cinders-9.png_word_1_83">was</w> 
-               <w facs="#cinders-9.png_word_1_84">determined</w> 
-               <w facs="#cinders-9.png_word_1_85">if</w> 
-               <w facs="#cinders-9.png_word_1_86">possible,</w> 
-               <w facs="#cinders-9.png_word_1_87">to</w> 
-               <w facs="#cinders-9.png_word_1_88">ﬁnd</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_79">Court</w> 
+                  <w facs="#cinders-9.png_word_1_80">that</w> 
+                  <w facs="#cinders-9.png_word_1_81">the</w> 
+                  <w facs="#cinders-9.png_word_1_82">Prince</w> 
+                  <w facs="#cinders-9.png_word_1_83">was</w> 
+                  <w facs="#cinders-9.png_word_1_84">determined</w> 
+                  <w facs="#cinders-9.png_word_1_85">if</w> 
+                  <w facs="#cinders-9.png_word_1_86">possible,</w> 
+                  <w facs="#cinders-9.png_word_1_87">to</w> 
+                  <w facs="#cinders-9.png_word_1_88">ﬁnd</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_89">out</w> 
-               <w facs="#cinders-9.png_word_1_90">the</w> 
-               <w facs="#cinders-9.png_word_1_91">owner</w> 
-               <w facs="#cinders-9.png_word_1_92">of</w> 
-               <w facs="#cinders-9.png_word_1_93">the</w> 
-               <w facs="#cinders-9.png_word_1_94">slipper;</w> 
-               <w facs="#cinders-9.png_word_1_95">and</w> 
-               <w facs="#cinders-9.png_word_1_96">a</w> 
-               <w facs="#cinders-9.png_word_1_97">few</w> 
-               <w facs="#cinders-9.png_word_1_98">days</w> 
-               <w facs="#cinders-9.png_word_1_99">afterwards</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_89">out</w> 
+                  <w facs="#cinders-9.png_word_1_90">the</w> 
+                  <w facs="#cinders-9.png_word_1_91">owner</w> 
+                  <w facs="#cinders-9.png_word_1_92">of</w> 
+                  <w facs="#cinders-9.png_word_1_93">the</w> 
+                  <w facs="#cinders-9.png_word_1_94">slipper;</w> 
+                  <w facs="#cinders-9.png_word_1_95">and</w> 
+                  <w facs="#cinders-9.png_word_1_96">a</w> 
+                  <w facs="#cinders-9.png_word_1_97">few</w> 
+                  <w facs="#cinders-9.png_word_1_98">days</w> 
+                  <w facs="#cinders-9.png_word_1_99">afterwards</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_100">a</w> 
-               <w facs="#cinders-9.png_word_1_101">royal</w> 
-               <w facs="#cinders-9.png_word_1_102">herahl</w> 
-               <w facs="#cinders-9.png_word_1_103">proclaimed</w> 
-               <w facs="#cinders-9.png_word_1_104">that</w> 
-               <w facs="#cinders-9.png_word_1_105">the</w> 
-               <w facs="#cinders-9.png_word_1_106">King's</w> 
-               <w facs="#cinders-9.png_word_1_107">son</w> 
-               <w facs="#cinders-9.png_word_1_108">would</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_100">a</w> 
+                  <w facs="#cinders-9.png_word_1_101">royal</w> 
+                  <w facs="#cinders-9.png_word_1_102">herahl</w> 
+                  <w facs="#cinders-9.png_word_1_103">proclaimed</w> 
+                  <w facs="#cinders-9.png_word_1_104">that</w> 
+                  <w facs="#cinders-9.png_word_1_105">the</w> 
+                  <w facs="#cinders-9.png_word_1_106">King's</w> 
+                  <w facs="#cinders-9.png_word_1_107">son</w> 
+                  <w facs="#cinders-9.png_word_1_108">would</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_109">marry</w> 
-               <w facs="#cinders-9.png_word_1_110">her</w> 
-               <w facs="#cinders-9.png_word_1_111">whose</w> 
-               <w facs="#cinders-9.png_word_1_112">foot</w> 
-               <w facs="#cinders-9.png_word_1_113">the</w> 
-               <w facs="#cinders-9.png_word_1_114">glass</w> 
-               <w facs="#cinders-9.png_word_1_115">slipper</w> 
-               <w facs="#cinders-9.png_word_1_116">should</w> 
-               <w facs="#cinders-9.png_word_1_117">he</w> 
-               <w facs="#cinders-9.png_word_1_118">found</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_109">marry</w> 
+                  <w facs="#cinders-9.png_word_1_110">her</w> 
+                  <w facs="#cinders-9.png_word_1_111">whose</w> 
+                  <w facs="#cinders-9.png_word_1_112">foot</w> 
+                  <w facs="#cinders-9.png_word_1_113">the</w> 
+                  <w facs="#cinders-9.png_word_1_114">glass</w> 
+                  <w facs="#cinders-9.png_word_1_115">slipper</w> 
+                  <w facs="#cinders-9.png_word_1_116">should</w> 
+                  <w facs="#cinders-9.png_word_1_117">he</w> 
+                  <w facs="#cinders-9.png_word_1_118">found</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_119">exactly</w> 
-               <w facs="#cinders-9.png_word_1_120">to</w> 
-               <w facs="#cinders-9.png_word_1_121">ﬁle</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_119">exactly</w> 
+                  <w facs="#cinders-9.png_word_1_120">to</w> 
+                  <w facs="#cinders-9.png_word_1_121">ﬁle</w> 
      
-            </p>
+               </p>
 
-            <p facs="#cinders-9.png_par_1_4">
-               <lb/>
-               <w facs="#cinders-9.png_word_1_122">This</w> 
-               <w facs="#cinders-9.png_word_1_123">proclamation</w> 
-               <w facs="#cinders-9.png_word_1_124">caused</w> 
-               <w facs="#cinders-9.png_word_1_125">a</w> 
-               <w facs="#cinders-9.png_word_1_126">great</w> 
-               <w facs="#cinders-9.png_word_1_127">sensation.</w> 
-               <w facs="#cinders-9.png_word_1_128">Ladies</w> 
-               <w facs="#cinders-9.png_word_1_129">of</w> 
+               <p facs="#cinders-9.png_par_1_4">
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_122">This</w> 
+                  <w facs="#cinders-9.png_word_1_123">proclamation</w> 
+                  <w facs="#cinders-9.png_word_1_124">caused</w> 
+                  <w facs="#cinders-9.png_word_1_125">a</w> 
+                  <w facs="#cinders-9.png_word_1_126">great</w> 
+                  <w facs="#cinders-9.png_word_1_127">sensation.</w> 
+                  <w facs="#cinders-9.png_word_1_128">Ladies</w> 
+                  <w facs="#cinders-9.png_word_1_129">of</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_130">all</w> 
-               <w facs="#cinders-9.png_word_1_131">ranks</w> 
-               <w facs="#cinders-9.png_word_1_132">were</w> 
-               <w facs="#cinders-9.png_word_1_133">permitted</w> 
-               <w facs="#cinders-9.png_word_1_134">to</w> 
-               <w facs="#cinders-9.png_word_1_135">make</w> 
-               <w facs="#cinders-9.png_word_1_136">a</w> 
-               <w facs="#cinders-9.png_word_1_137">trial</w> 
-               <w facs="#cinders-9.png_word_1_138">of</w> 
-               <w facs="#cinders-9.png_word_1_139">the</w> 
-               <w facs="#cinders-9.png_word_1_140">slipper;</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_130">all</w> 
+                  <w facs="#cinders-9.png_word_1_131">ranks</w> 
+                  <w facs="#cinders-9.png_word_1_132">were</w> 
+                  <w facs="#cinders-9.png_word_1_133">permitted</w> 
+                  <w facs="#cinders-9.png_word_1_134">to</w> 
+                  <w facs="#cinders-9.png_word_1_135">make</w> 
+                  <w facs="#cinders-9.png_word_1_136">a</w> 
+                  <w facs="#cinders-9.png_word_1_137">trial</w> 
+                  <w facs="#cinders-9.png_word_1_138">of</w> 
+                  <w facs="#cinders-9.png_word_1_139">the</w> 
+                  <w facs="#cinders-9.png_word_1_140">slipper;</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_141">lmt</w> 
-               <w facs="#cinders-9.png_word_1_142">it</w> 
-               <w facs="#cinders-9.png_word_1_143">was</w> 
-               <w facs="#cinders-9.png_word_1_144">of</w> 
-               <w facs="#cinders-9.png_word_1_145">no</w> 
-               <w facs="#cinders-9.png_word_1_146">use.</w> 
-               <w facs="#cinders-9.png_word_1_147">Cinderella</w> 
-               <w facs="#cinders-9.png_word_1_148">now</w> 
-               <w facs="#cinders-9.png_word_1_149">said,</w> 
-               <w facs="#cinders-9.png_word_1_150">“Let</w> 
-               <w facs="#cinders-9.png_word_1_151">me</w> 
-               <w facs="#cinders-9.png_word_1_152">try</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_141">lmt</w> 
+                  <w facs="#cinders-9.png_word_1_142">it</w> 
+                  <w facs="#cinders-9.png_word_1_143">was</w> 
+                  <w facs="#cinders-9.png_word_1_144">of</w> 
+                  <w facs="#cinders-9.png_word_1_145">no</w> 
+                  <w facs="#cinders-9.png_word_1_146">use.</w> 
+                  <w facs="#cinders-9.png_word_1_147">Cinderella</w> 
+                  <w facs="#cinders-9.png_word_1_148">now</w> 
+                  <w facs="#cinders-9.png_word_1_149">said,</w> 
+                  <w facs="#cinders-9.png_word_1_150">“Let</w> 
+                  <w facs="#cinders-9.png_word_1_151">me</w> 
+                  <w facs="#cinders-9.png_word_1_152">try</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_153">——perliaps</w> 
-               <w facs="#cinders-9.png_word_1_154">it</w> 
-               <w facs="#cinders-9.png_word_1_155">may</w> 
-               <w facs="#cinders-9.png_word_1_156">ﬁt</w> 
-               <w facs="#cinders-9.png_word_1_157">me.”</w> 
-               <w facs="#cinders-9.png_word_1_158">It</w> 
-               <w facs="#cinders-9.png_word_1_159">slipped</w> 
-               <w facs="#cinders-9.png_word_1_160">on</w> 
-               <w facs="#cinders-9.png_word_1_161">in</w> 
-               <w facs="#cinders-9.png_word_1_162">a</w> 
-               <w facs="#cinders-9.png_word_1_163">moment.</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_153">——perliaps</w> 
+                  <w facs="#cinders-9.png_word_1_154">it</w> 
+                  <w facs="#cinders-9.png_word_1_155">may</w> 
+                  <w facs="#cinders-9.png_word_1_156">ﬁt</w> 
+                  <w facs="#cinders-9.png_word_1_157">me.”</w> 
+                  <w facs="#cinders-9.png_word_1_158">It</w> 
+                  <w facs="#cinders-9.png_word_1_159">slipped</w> 
+                  <w facs="#cinders-9.png_word_1_160">on</w> 
+                  <w facs="#cinders-9.png_word_1_161">in</w> 
+                  <w facs="#cinders-9.png_word_1_162">a</w> 
+                  <w facs="#cinders-9.png_word_1_163">moment.</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_164">Great</w> 
-               <w facs="#cinders-9.png_word_1_165">was</w> 
-               <w facs="#cinders-9.png_word_1_166">the</w> 
-               <w facs="#cinders-9.png_word_1_167">vexation</w> 
-               <w facs="#cinders-9.png_word_1_168">or”</w> 
-               <w facs="#cinders-9.png_word_1_169">the</w> 
-               <w facs="#cinders-9.png_word_1_170">two</w> 
-               <w facs="#cinders-9.png_word_1_171">sisters</w> 
-               <w facs="#cinders-9.png_word_1_172">at</w> 
-               <w facs="#cinders-9.png_word_1_173">this;</w> 
-               <w facs="#cinders-9.png_word_1_174">but</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_164">Great</w> 
+                  <w facs="#cinders-9.png_word_1_165">was</w> 
+                  <w facs="#cinders-9.png_word_1_166">the</w> 
+                  <w facs="#cinders-9.png_word_1_167">vexation</w> 
+                  <w facs="#cinders-9.png_word_1_168">or”</w> 
+                  <w facs="#cinders-9.png_word_1_169">the</w> 
+                  <w facs="#cinders-9.png_word_1_170">two</w> 
+                  <w facs="#cinders-9.png_word_1_171">sisters</w> 
+                  <w facs="#cinders-9.png_word_1_172">at</w> 
+                  <w facs="#cinders-9.png_word_1_173">this;</w> 
+                  <w facs="#cinders-9.png_word_1_174">but</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_175">what</w> 
-               <w facs="#cinders-9.png_word_1_176">was</w> 
-               <w facs="#cinders-9.png_word_1_177">their</w> 
-               <w facs="#cinders-9.png_word_1_178">astonishment</w> 
-               <w facs="#cinders-9.png_word_1_179">when</w> 
-               <w facs="#cinders-9.png_word_1_180">Cinderella</w> 
-               <w facs="#cinders-9.png_word_1_181">took</w> 
-               <w facs="#cinders-9.png_word_1_182">the</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_175">what</w> 
+                  <w facs="#cinders-9.png_word_1_176">was</w> 
+                  <w facs="#cinders-9.png_word_1_177">their</w> 
+                  <w facs="#cinders-9.png_word_1_178">astonishment</w> 
+                  <w facs="#cinders-9.png_word_1_179">when</w> 
+                  <w facs="#cinders-9.png_word_1_180">Cinderella</w> 
+                  <w facs="#cinders-9.png_word_1_181">took</w> 
+                  <w facs="#cinders-9.png_word_1_182">the</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_183">fellow</w> 
-               <w facs="#cinders-9.png_word_1_184">slipper</w> 
-               <w facs="#cinders-9.png_word_1_185">out</w> 
-               <w facs="#cinders-9.png_word_1_186">of</w> 
-               <w facs="#cinders-9.png_word_1_187">her</w> 
-               <w facs="#cinders-9.png_word_1_188">pocket!</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_183">fellow</w> 
+                  <w facs="#cinders-9.png_word_1_184">slipper</w> 
+                  <w facs="#cinders-9.png_word_1_185">out</w> 
+                  <w facs="#cinders-9.png_word_1_186">of</w> 
+                  <w facs="#cinders-9.png_word_1_187">her</w> 
+                  <w facs="#cinders-9.png_word_1_188">pocket!</w> 
      
-            </p>
+               </p>
 
-            <p facs="#cinders-9.png_par_1_5">
-               <lb/>
-               <w facs="#cinders-9.png_word_1_189">At</w> 
-               <w facs="#cinders-9.png_word_1_190">that</w> 
-               <w facs="#cinders-9.png_word_1_191">moment</w> 
-               <w facs="#cinders-9.png_word_1_192">the</w> 
-               <w facs="#cinders-9.png_word_1_193">godmother</w> 
-               <w facs="#cinders-9.png_word_1_194">appeared.</w> 
-               <w facs="#cinders-9.png_word_1_195">and</w> 
-               <w facs="#cinders-9.png_word_1_196">touched</w> 
+               <p facs="#cinders-9.png_par_1_5">
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_189">At</w> 
+                  <w facs="#cinders-9.png_word_1_190">that</w> 
+                  <w facs="#cinders-9.png_word_1_191">moment</w> 
+                  <w facs="#cinders-9.png_word_1_192">the</w> 
+                  <w facs="#cinders-9.png_word_1_193">godmother</w> 
+                  <w facs="#cinders-9.png_word_1_194">appeared.</w> 
+                  <w facs="#cinders-9.png_word_1_195">and</w> 
+                  <w facs="#cinders-9.png_word_1_196">touched</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_197">Cinderella’s</w> 
-               <w facs="#cinders-9.png_word_1_198">clothes</w> 
-               <w facs="#cinders-9.png_word_1_199">with</w> 
-               <w facs="#cinders-9.png_word_1_200">her</w> 
-               <w facs="#cinders-9.png_word_1_201">wand.</w> 
-               <w facs="#cinders-9.png_word_1_202">Her</w> 
-               <w facs="#cinders-9.png_word_1_203">sisters</w> 
-               <w facs="#cinders-9.png_word_1_204">then</w> 
-               <w facs="#cinders-9.png_word_1_205">saw</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_197">Cinderella’s</w> 
+                  <w facs="#cinders-9.png_word_1_198">clothes</w> 
+                  <w facs="#cinders-9.png_word_1_199">with</w> 
+                  <w facs="#cinders-9.png_word_1_200">her</w> 
+                  <w facs="#cinders-9.png_word_1_201">wand.</w> 
+                  <w facs="#cinders-9.png_word_1_202">Her</w> 
+                  <w facs="#cinders-9.png_word_1_203">sisters</w> 
+                  <w facs="#cinders-9.png_word_1_204">then</w> 
+                  <w facs="#cinders-9.png_word_1_205">saw</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_206">that</w> 
-               <w facs="#cinders-9.png_word_1_207">she</w> 
-               <w facs="#cinders-9.png_word_1_208">was</w> 
-               <w facs="#cinders-9.png_word_1_209">the</w> 
-               <w facs="#cinders-9.png_word_1_210">beautiful</w> 
-               <w facs="#cinders-9.png_word_1_211">lady</w> 
-               <w facs="#cinders-9.png_word_1_212">they</w> 
-               <w facs="#cinders-9.png_word_1_213">had</w> 
-               <w facs="#cinders-9.png_word_1_214">met</w> 
-               <w facs="#cinders-9.png_word_1_215">at</w> 
-               <w facs="#cinders-9.png_word_1_216">the</w> 
-               <w facs="#cinders-9.png_word_1_217">ball.</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_206">that</w> 
+                  <w facs="#cinders-9.png_word_1_207">she</w> 
+                  <w facs="#cinders-9.png_word_1_208">was</w> 
+                  <w facs="#cinders-9.png_word_1_209">the</w> 
+                  <w facs="#cinders-9.png_word_1_210">beautiful</w> 
+                  <w facs="#cinders-9.png_word_1_211">lady</w> 
+                  <w facs="#cinders-9.png_word_1_212">they</w> 
+                  <w facs="#cinders-9.png_word_1_213">had</w> 
+                  <w facs="#cinders-9.png_word_1_214">met</w> 
+                  <w facs="#cinders-9.png_word_1_215">at</w> 
+                  <w facs="#cinders-9.png_word_1_216">the</w> 
+                  <w facs="#cinders-9.png_word_1_217">ball.</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_218">and.</w> 
-               <w facs="#cinders-9.png_word_1_219">throwing</w> 
-               <w facs="#cinders-9.png_word_1_220">themselves</w> 
-               <w facs="#cinders-9.png_word_1_221">at</w> 
-               <w facs="#cinders-9.png_word_1_222">her</w> 
-               <w facs="#cinders-9.png_word_1_223">feet,</w> 
-               <w facs="#cinders-9.png_word_1_224">craved</w> 
-               <w facs="#cinders-9.png_word_1_225">her</w> 
-               <w facs="#cinders-9.png_word_1_226">forgive-</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_218">and.</w> 
+                  <w facs="#cinders-9.png_word_1_219">throwing</w> 
+                  <w facs="#cinders-9.png_word_1_220">themselves</w> 
+                  <w facs="#cinders-9.png_word_1_221">at</w> 
+                  <w facs="#cinders-9.png_word_1_222">her</w> 
+                  <w facs="#cinders-9.png_word_1_223">feet,</w> 
+                  <w facs="#cinders-9.png_word_1_224">craved</w> 
+                  <w facs="#cinders-9.png_word_1_225">her</w> 
+                  <w facs="#cinders-9.png_word_1_226">forgive-</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_227">ness.</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_227">ness.</w> 
      
-            </p>
+               </p>
 
-            <p facs="#cinders-9.png_par_1_6">
-               <lb/>
-               <w facs="#cinders-9.png_word_1_228">A</w> 
-               <w facs="#cinders-9.png_word_1_229">short</w> 
-               <w facs="#cinders-9.png_word_1_230">time</w> 
-               <w facs="#cinders-9.png_word_1_231">after,</w> 
-               <w facs="#cinders-9.png_word_1_232">she</w> 
-               <w facs="#cinders-9.png_word_1_233">was</w> 
-               <w facs="#cinders-9.png_word_1_234">married</w> 
-               <w facs="#cinders-9.png_word_1_235">to</w> 
-               <w facs="#cinders-9.png_word_1_236">the</w> 
-               <w facs="#cinders-9.png_word_1_237">Prince,</w> 
-               <w facs="#cinders-9.png_word_1_238">‘20</w> 
+               <p facs="#cinders-9.png_par_1_6">
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_228">A</w> 
+                  <w facs="#cinders-9.png_word_1_229">short</w> 
+                  <w facs="#cinders-9.png_word_1_230">time</w> 
+                  <w facs="#cinders-9.png_word_1_231">after,</w> 
+                  <w facs="#cinders-9.png_word_1_232">she</w> 
+                  <w facs="#cinders-9.png_word_1_233">was</w> 
+                  <w facs="#cinders-9.png_word_1_234">married</w> 
+                  <w facs="#cinders-9.png_word_1_235">to</w> 
+                  <w facs="#cinders-9.png_word_1_236">the</w> 
+                  <w facs="#cinders-9.png_word_1_237">Prince,</w> 
+                  <w facs="#cinders-9.png_word_1_238">‘20</w> 
      
-               <lb/>
-               <w facs="#cinders-9.png_word_1_239">the</w> 
-               <w facs="#cinders-9.png_word_1_240">intense</w> 
-               <w facs="#cinders-9.png_word_1_241">gnttiﬁcetion</w> 
-               <w facs="#cinders-9.png_word_1_242">of</w> 
-               <w facs="#cinders-9.png_word_1_243">the</w> 
-               <w facs="#cinders-9.png_word_1_244">whole</w> 
-               <w facs="#cinders-9.png_word_1_245">Court.</w> 
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_239">the</w> 
+                  <w facs="#cinders-9.png_word_1_240">intense</w> 
+                  <w facs="#cinders-9.png_word_1_241">gnttiﬁcetion</w> 
+                  <w facs="#cinders-9.png_word_1_242">of</w> 
+                  <w facs="#cinders-9.png_word_1_243">the</w> 
+                  <w facs="#cinders-9.png_word_1_244">whole</w> 
+                  <w facs="#cinders-9.png_word_1_245">Court.</w> 
      
-            </p>
+               </p>
+            </div>
+            <div facs="#cinders-9.png_block_1_3">
+               <p facs="#cinders-9.png_par_1_7">
+                  <lb/>
+                  <w facs="#cinders-9.png_word_1_246">10</w> 
+     
+               </p>
+            </div>
          </div>
-         <div facs="#cinders-9.png_block_1_3">
-            <p facs="#cinders-9.png_par_1_7">
-               <lb/>
-               <w facs="#cinders-9.png_word_1_246">10</w> 
-     
-            </p>
-         </div>
-      </div>
+      </body>
    </text>
 </TEI>
