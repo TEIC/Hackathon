@@ -1,0 +1,14 @@
+.left {
+   margin-left : 2em;
+    position: absolute;
+    right: 5%;
+    width: 40%;
+    clear: both;
+}
+
+.right {
+   margin-left : 2em;
+    width: 40%;
+    clear: both;
+
+}
