@@ -31,6 +31,7 @@
     <xsl:variable name="hocrFiles" select="collection(concat($collectionPath, '/?select=*.hocr;recurse=yes'))"/>
     
     <xsl:template match="/">
+        <xsl:processing-instruction name="xml-stylesheet">type="text/xsl" href="../xsl/render.xsl"</xsl:processing-instruction>
         <TEI version="5.0">
             <teiHeader>
                 <fileDesc>
