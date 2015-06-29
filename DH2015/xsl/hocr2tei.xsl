@@ -37,6 +37,12 @@
                     <titleStmt>
                         <title><xsl:value-of select="$docTitle"/></title>
                     </titleStmt>
+                    <publicationStmt>
+                        <p></p>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <p>[Please supply information about the source document.]</p>
+                    </sourceDesc>
                 </fileDesc>
             </teiHeader>
             <facsimile>

@@ -5,6 +5,12 @@
          <titleStmt>
             <title>OCRed document</title>
          </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p>[Please supply information about the source document.]</p>
+         </sourceDesc>
       </fileDesc>
    </teiHeader>
    <facsimile>
