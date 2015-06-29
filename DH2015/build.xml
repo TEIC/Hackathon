@@ -4,7 +4,7 @@
     <property name="echo.separator" value="************************************************"/>
     <dirname property="antfile.dir" file="${ant.file}"/>
     <property name="path.to.images" value="cinders"/>
-    <property name="tei.file.name" value="tei.xml"/>
+    <property name="tei.file.name" value="cinders.xml"/>
     <property name="docTitle" value="Cinderella"/>
     
     <property name="poetry" value="false"/>
@@ -20,6 +20,20 @@
         <echo message="${echo.separator}"/>
         <echo message="Trying to run Tesseract to generate HOCR files."/>
         <!--for file in *.png; do tesseract $file `basename $file.png` hocr; done-->
+        <foreach target="tesseract" param="theFile">
+            <fileset dir="${path.to.images}" casesensitive="yes">
+                <include name="*.png"/>
+                <include name="*.jpg"/>
+            </fileset>
+        </foreach>
+        
+    </target>
+    
+    <target name="tesseract">
+        <exec executable="/bin/bash">
+            <arg value="-c"/>
+            <arg value="tesseract '${path.to.images}/${theFile}' hocr"/>
+        </exec>
     </target>
     
     <target name="xslt">
