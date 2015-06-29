@@ -5,7 +5,8 @@
     xmlns:local="http://www.tei-c.org/ns/local"
     exclude-result-prefixes="#all"
     version="2.0"
-    xpath-default-namespace="http://www.w3.org/1999/xhtml">
+    xpath-default-namespace="http://www.w3.org/1999/xhtml"
+    xmlns="http://www.tei-c.org/ns/1.0">
     <xd:doc scope="stylesheet">
         <xd:desc>
             <xd:p><xd:b>Created on:</xd:b> Jun 29, 2015</xd:p>
