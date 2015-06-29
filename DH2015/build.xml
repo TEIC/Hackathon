@@ -4,7 +4,7 @@
     <property name="echo.separator" value="************************************************"/>
     <dirname property="antfile.dir" file="${ant.file}"/>
     <property name="path.to.images" value="cinders"/>
-    
+    <property name="tei.file.name" value="tei.xml"/>
     <property name="docTitle" value="Cinderella"/>
     
     <property name="poetry" value="false"/>
@@ -25,11 +25,11 @@
     <target name="xslt">
         <echo message="${echo.separator}"/>
         <echo message="Running XSLT on HOCR files to create TEI output."/>
-        <xslt basedir="${path.to.images}" destdir="${path.to.images}"
-            style="xsl/hocr2tei.xsl">
-            <classpath location="xsl/saxon9he.jar"/>
-            <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        </xslt>
+        <java classname="net.sf.saxon.Transform" classpath="xsl/saxon9he.jar">
+            <arg value="-s:xsl/hocr2tei.xsl"/>
+            <arg value="-xsl:xsl/hocr2tei.xsl"/> 
+            <arg value="-o:${path.to.images}/${tei.file.name}"/>
+        </java>
     </target>
     
     <target name="all" depends="ocr, xslt"/>

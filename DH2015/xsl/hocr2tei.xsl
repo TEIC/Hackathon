@@ -48,7 +48,9 @@
             </teiHeader>
             <facsimile>
                 
-                <xsl:for-each select="$hocrFiles//div[starts-with(@title, 'image ')]">
+                <xsl:for-each select="$hocrFiles">
+                    <xsl:sort select="document-uri(.)"/>
+                    <xsl:for-each select="/div[starts-with(@title, 'image ')]">
                     <xsl:variable name="bbox" select="local:getBbox(@title)"/>
                     <xsl:variable name="imgName" select="local:getImgName(@title)"/>
                     <surface ulx="{$bbox[1]}" uly="{$bbox[2]}"  lrx="{$bbox[3]}" lry="{$bbox[4]}" xml:id="{$imgName}_surface">
@@ -58,13 +60,18 @@
                             <zone xml:id="{$imgName}_{@id}" ulx="{$bbox[1]}" uly="{$bbox[2]}"  lrx="{$bbox[3]}" lry="{$bbox[4]}"/> 
                         </xsl:for-each>
                     </surface>
+                    </xsl:for-each>
                 </xsl:for-each>
             </facsimile>
            
             
             <text>
                 <body>
-                    <xsl:apply-templates select="$hocrFiles//body" mode="#current"/>
+                    <xsl:for-each select="$hocrFiles">
+                        <xsl:sort select="document-uri(.)"/>
+                        <xsl:apply-templates select="descendant::body" mode="#current"/>
+                    </xsl:for-each>
+                    
                 </body>
             </text>
         </TEI>
