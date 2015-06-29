@@ -1,14 +1,19 @@
-.left {
+.right {
    margin-left : 2em;
     position: absolute;
     right: 5%;
     width: 40%;
-    clear: both;
+/*    clear: both; */
 }
 
-.right {
+.left{
    margin-left : 2em;
     width: 40%;
-    clear: both;
+    text-indent : 50%;
+/*    clear: both;*/
+}
 
+
+.minheight {
+    min-height: 700px;
 }
