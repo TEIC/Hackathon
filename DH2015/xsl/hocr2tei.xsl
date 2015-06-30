@@ -127,12 +127,18 @@
     </xsl:template>
     
     <xsl:template match="span[matches(@class, 'word')]" mode="#all">
-        <w>
-            <xsl:if test="starts-with(@title, 'bbox ')">
-                <xsl:attribute name="facs" select="concat('#', local:getImgName(ancestor::*[starts-with(@title, 'image')][1]/@title), '_', @id)"/>
-            </xsl:if>
+        <w><xsl:if test="starts-with(@title, 'bbox ')">
+                <xsl:attribute name="facs" select="concat('#', local:getImgName(ancestor::*[starts-with(@title, 'image')][1]/@title), '_', @id)"/></xsl:if>
+            <xsl:apply-templates select="@title" mode="#current"/>
             <xsl:apply-templates mode="#current"/>
         </w>
+    </xsl:template>
+    
+    <xsl:template match="span[matches(@class, 'word')]/@title[matches(., 'x_wconf \d+')]">
+        <xsl:variable name="confVal" select="xs:integer(replace(., '^.*x_wconf\s+', ''))"/>
+        <xsl:if test="$confVal gt 0 and $confVal lt 100">
+            <xsl:attribute name="cert" select="concat('0.', $confVal)"/>
+        </xsl:if>
     </xsl:template>
     
     <xsl:function name="local:getBbox" as="xs:integer*">
