@@ -9,12 +9,9 @@
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <link rel="stylesheet" href="../xsl/render.css"/>
-                
             </head>
             <body>
-                <div class="left">
-                    <xsl:apply-templates/>
-                </div>
+                <xsl:apply-templates/>
             </body>
         </html>
         

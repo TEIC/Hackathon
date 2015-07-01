@@ -50,7 +50,7 @@
                 
                 <xsl:for-each select="$hocrFiles">
                     <xsl:sort select="document-uri(.)"/>
-                    <xsl:for-each select="/div[starts-with(@title, 'image ')]">
+                    <xsl:for-each select="descendant::div[starts-with(@title, 'image ')]">
                     <xsl:variable name="bbox" select="local:getBbox(@title)"/>
                     <xsl:variable name="imgName" select="local:getImgName(@title)"/>
                     <surface ulx="{$bbox[1]}" uly="{$bbox[2]}"  lrx="{$bbox[3]}" lry="{$bbox[4]}" xml:id="{$imgName}_surface">

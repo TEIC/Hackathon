@@ -1,19 +1,21 @@
-.right {
-   margin-left : 2em;
-    position: absolute;
-    right: 5%;
+
+
+div{
+   margin-left : 5%;
     width: 40%;
-/*    clear: both; */
+    float: left;
+    clear: left;
 }
 
-.left{
-   margin-left : 2em;
+div.right {
+    margin-right : 5%;
+    float: right;
     width: 40%;
-    text-indent : 50%;
-/*    clear: both;*/
+    /*margin-left: 55%;*/
+    clear: right; 
 }
 
 
-.minheight {
+/*.minheight {
     min-height: 700px;
-}
+}*/
