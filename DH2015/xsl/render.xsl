@@ -14,13 +14,13 @@
                 <xsl:apply-templates/>
             </body>
         </html>
-        
-
     </xsl:template>
+    
+    <xsl:template match="tei:teiHeader"/>
+    
     <xsl:template match="tei:pb">
-        <hr/>
+        <hr style="clear: both;"/>
         <div class="right">
-            <hr/>
             <img src="{substring-after(substring-before(@facs, '_'), '#')}" />
         </div>
     </xsl:template>
